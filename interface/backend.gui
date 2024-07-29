@@ -1,0 +1,217 @@
+guiTypes = {
+
+
+
+	windowType = {
+		name ="back_end"
+		backGround=""
+		position = { x=0 y =0}	
+		size = { x=1229 y = 921}
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=yes
+
+
+
+
+		iconType =
+			{
+				name ="Background"
+				spriteType = "BG_latingfx"
+				position = { x= -615 y = -461 }
+				Orientation = "CENTER"
+			}
+
+		iconType =
+			{
+				name ="player_shield"
+				spriteType = "GFX_shield_thin"
+				position = { x= -300 y = -402 }
+				Orientation = "CENTER"
+			}
+
+			
+		iconType =
+			{
+				name ="player_shield_right"
+				spriteType = "GFX_shield_thin"
+				position = { x= 240 y = -402 }
+				Orientation = "CENTER"
+			}
+
+
+		guiButtonType = {
+			name = "Exit"
+			position = { x = -120 y = 360 }
+			Orientation = "CENTER"
+			quadTextureSprite ="button_type_7"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "EXIT"
+			buttonFont = "Main_14_black"
+		}
+
+
+		instantTextBoxType={
+			position = { x = -192 y = -354 }
+			name = "prestige_value"
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0 }	
+			maxWidth = 480
+			maxHeight = 24
+			text = "prestige:"	
+			orientation = "CENTER"
+			#format = centre
+		}
+
+
+		instantTextBoxType={
+			position = { x = -192 y = -372 }
+			name = "reputation_value"
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0 }	
+			maxWidth = 480
+			maxHeight = 24
+			text = "REPUTATION:"	
+			orientation = "CENTER"
+			#format = centre
+		}
+
+
+		instantTextBoxType={
+			position = { x = -192 y = -390 }
+			name = "country_value"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0 }	
+			maxWidth = 480
+			maxHeight = 24
+			text = "country:"	
+			orientation = "CENTER"
+			#format = centre
+		}
+		
+
+		listboxType = 
+			{
+			name ="kings"
+			position = { x = -300 y = -240 }
+			backGround=""
+			size = { x= 582 y = 552 }
+			Orientation = "CENTER"
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+
+		
+	}
+
+
+
+	windowType = {
+		name = "king_entry"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=552 y = 24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+
+
+
+		instantTextBoxType={
+			position = { x= 24 y =27}
+			name = "name"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 192
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x=234 y =27}
+			name = "Date"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 144
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		instantTextBoxType={
+			position = { x=399 y =27}
+			name = "EndDate"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 144
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+	}
+
+
+	windowType = {
+		name = "king_entry2"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=552 y = 24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		instantTextBoxType={
+			position = { x= 24 y =3}
+			name = "underline"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 540
+			maxHeight = 24
+			text = "______________________________________________________"
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+	}
+	windowType = {
+		name = "king_entry_text"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=552 y= 24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+
+		instantTextBoxType={
+			position = { x= 24 y = 17 }
+			name = "text"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 528
+			maxHeight = 24
+			text = "0"	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+	}
+}

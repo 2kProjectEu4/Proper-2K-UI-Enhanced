@@ -1,0 +1,87 @@
+guiTypes = {
+	windowType = 
+	{
+		name = "LanguageSelection"
+		position = { x=-315 y=-240 }	
+		size = { x=600 y=480 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		click_to_front = yes
+		
+		iconType = {
+			name = "Background"	
+			spriteType = "GFX_choose_language_bg"
+		}
+		
+			
+		instantTextBoxType = 
+		{
+			name = "description"
+			position = { x = 300 y = 48 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = -240 y = 0}
+			text = "Choose language:"	
+			maxWidth = 480
+			maxHeight = 240	
+			format = centre
+			#Orientation = "CENTER"
+		}
+	
+		listboxType = {
+			name = "language_list"
+			position = { x = 123 y = 120 }
+			backGround=""
+			size = { x=497 y = 510}
+			horizontal = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			#Orientation = "CENTER"
+		}
+	}
+	
+	windowType = 
+	{
+		name = "LanguageEntry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=240 y=78 }
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+	
+		guiButtonType = {
+			name = "select"
+			position = { x = 90 y = 0 }
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"			
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 180 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 156
+			maxHeight = 39
+			alwaystransparent = yes
+		}
+		iconType = 
+		{
+			name ="flag"
+			spriteType = "l_english_FLAG"
+			position = { x=0 y = 0 }
+		}
+	}
+}
+

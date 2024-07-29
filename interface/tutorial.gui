@@ -1,0 +1,118 @@
+guiTypes = {
+		
+	iconType =
+	{
+		name = "TutorialPagePictureItem"
+		position { x = 0 y = 0 }
+		spriteType = "GFX_tutorial_exclamation"
+	}	
+	
+	#iconType =
+	#{
+	#	name = "tutorial_exclamation"
+	#	position { x = 24 y = 285 }
+	#	spriteType = "GFX_tutorial_exclamation"
+	#}
+	
+	instantTextBoxType =
+	{
+		name = "tutorial_objectives_title"
+		position = { x = 60 y = 275}
+		textureFile = ""
+		font = "vic_18"
+		borderSize = {x = 5 y = 5}	
+		text = "TUT_OBJECTIVES"
+		maxWidth = 216
+		maxHeight = 39	
+	}
+	
+	instantTextBoxType =
+	{
+		name = "tutorial_objectives_text"
+		position = { x = 12 y = 318}
+		textureFile = ""
+		font = "vic_18"
+		borderSize = {x = 12 y = 12}	
+		text = "§Yobjective text here objective text here one objective text here objective text here objective text here objective text here objective text here§!"
+		maxWidth = 324
+		maxHeight = 36	
+	}
+	
+	
+	#NEW, the buttons should probably be placed here
+	#guiButtonType =
+	#{
+	#	name = "exit_tutorial"
+	#	#quadTextureSprite ="largefloaterbutton"
+	#	quadTextureSprite= "GFX_button_straight_96_32"
+	#	buttonFont = "vic_18"
+	#	buttonText = "Exit"
+	#	position = { x= -240 y = -240 }
+	#	orientation = "BOTTOM_RIGHT"
+	#}
+	#	
+	#guiButtonType =
+	#{
+	#	name = "next_tutorial"
+	#	#quadTextureSprite ="largefloaterbutton"
+	#	quadTextureSprite= "GFX_button_straight_96_32"
+	#	buttonFont = "vic_18"
+	#	buttonText = "Next"
+	#	position = { x= -120 y = -240 }
+	#	orientation = "BOTTOM_RIGHT"
+	#}
+	
+	guiButtonType =
+	{ #needed. breaks otherwise
+		name = "TutorialPageButtonOption"
+		#quadTextureSprite ="largefloaterbutton"
+		quadTextureSprite= "GFX_button_straight_96_32"
+		buttonFont = "vic_18"
+		position = { x= 612 y = 120 }
+		orientation = "UPPER_LEFT"
+	}
+	
+	guiButtonType =
+	{ #needed. breaks otherwise
+		name = "TutorialMinimizedButton"
+		quadTextureSprite ="GFX_taskicon"
+		buttonFont = "vic_18"
+		orientation = "LOWER_RIGHT"
+		position = {
+			x = -80
+			y = -400
+			}
+		#scope = "tutorial"
+	}
+	
+
+	
+	windowType =
+	{
+		name = "dummy-ul"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "UPPER_LEFT"
+	}
+	windowType =
+	{
+		name = "dummy-ur"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "UPPER_RIGHT"
+	}
+	windowType =
+	{
+		name = "dummy-br"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "LOWER_RIGHT"
+	}
+	windowType =
+	{
+		name = "dummy-bl"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "LOWER_LEFT"
+	}	
+}

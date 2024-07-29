@@ -1,0 +1,105 @@
+guiTypes = {
+	windowType = {
+		name = "PowerActionsView"
+		backGround="Background"
+		position = { x=-300 y=-300 }	
+		size = { x=600 y=600 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "header"
+			position = { x = 29 y = 29 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 576
+			maxHeight = 39
+			format = left
+		}		
+		
+		listboxType = {
+			name = "actions_listbox"
+			backGround = ""
+			position = { x=108 y =77}
+			size = { x=384 y=480 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 1.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}		
+		
+		guiButtonType = {
+			name = "closebutton"
+			position = { x = 549 y = 19 }
+			quadTextureSprite ="GFX_closebutton2"
+
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+			clicksound = close_window
+		}
+	}
+	
+	################################################################################################
+	### --- Power action item
+	
+	windowType = {
+		name = "poweractionsview_actionitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=77 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "action"
+			position = { x=0 y = 12}
+			quadTextureSprite ="GFX_remove2"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14"
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 24 y = 17 }
+			textureFile = ""
+			font = "Main_14"
+			borderSize = {x = 5 y = 5}	
+			text = "Make Provence a Core"	
+			maxWidth = 273
+			maxHeight = 39
+			format = left
+			alwaystransparent = yes
+		}		
+		
+		instantTextBoxType = {
+			name = "cost"
+			position = { x = 72 y = 17 }
+			textureFile = ""
+			font = "Main_14_bold"
+			borderSize = {x = 5 y = 5}	
+			text = "54"	
+			maxWidth = 273
+			maxHeight = 39
+			format = right
+			alwaystransparent = yes			
+		}	
+	}		
+}

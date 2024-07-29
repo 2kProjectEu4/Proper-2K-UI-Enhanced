@@ -1,0 +1,289 @@
+guiTypes = {
+
+	windowType = {
+		name = "default_faction_view"
+		backGround=""
+		position = { x=-351 y=-372 }	
+		size = { x=701 y=744 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		Orientation = "CENTER"
+		fullscreen = no
+
+		iconType =
+		{
+			name ="faction_window_bg"
+			spriteType = "GFX_faction_window_bg"
+			position = { x= 0 y = 0 }
+		}
+
+
+		instantTextBoxType = {
+			name = "faction_label"
+			position = { x = 0 y =24 }
+			format = centre
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 5 y = 5}
+			text = "FACTIONS_TITLE"	
+			maxWidth = 701
+			maxHeight = 39			
+		}
+	
+		listboxType = 
+		{
+			name ="factions_listbox"
+			backGround = ""
+			position = { x=18 y=36 }	
+			size = { x=648 y=624 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 2.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
+		}
+	
+		########
+		
+		guiButtonType = {
+				name = "close_button"
+				position = { x=-75 y =312}
+				quadTextureSprite ="button_type_1"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "HRE_CLOSE"
+				buttonFont = "vic_18"
+
+				Orientation = "CENTER"
+				clicksound = close_window
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}	
+	}
+
+	windowType = {
+		name = "merchant_republic_faction_view"
+		backGround=""
+		position = { x=-351 y=-372 }	
+		size = { x=701 y=744 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		Orientation = "CENTER"
+		fullscreen = no
+
+		upsound = merchant_republic
+		downsound = ""
+
+		iconType =
+		{
+			name ="faction_window_bg"
+			spriteType = "GFX_faction_window_bg"
+			position = { x= 0 y = 0 }
+		}
+
+
+		instantTextBoxType = {
+			name = "faction_label"
+			position = { x = 0 y =24 }
+			format = centre
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 5 y = 5}
+			text = "FACTIONS_TITLE"	
+			maxWidth = 701
+			maxHeight = 39			
+		}
+	
+		listboxType = 
+		{
+			name ="factions_listbox"
+			backGround = ""
+			position = { x=18 y=36 }	
+			size = { x=648 y=624 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 2.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
+		}
+	
+		########
+		
+		guiButtonType = {
+				name = "close_button"
+				position = { x=-75 y =312}
+				quadTextureSprite ="button_type_1"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "HRE_CLOSE"
+				buttonFont = "vic_18"
+
+				Orientation = "CENTER"
+				clicksound = close_window
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}	
+	}
+	
+	windowType = {
+		name = "revolutionary_republic_faction_view"
+		backGround=""
+		position = { x=-351 y=-372 }	
+		size = { x=701 y=744 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		Orientation = "CENTER"
+		fullscreen = no
+
+		upsound = revolutionary_republic
+		downsound = ""
+
+		iconType =
+		{
+			name ="faction_window_bg"
+			spriteType = "GFX_faction_window_bg"
+			position = { x= 0 y = 0 }
+		}
+
+
+		instantTextBoxType = {
+			name = "faction_label"
+			position = { x = 0 y =24 }
+			format = centre
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 5 y = 5}
+			text = "FACTIONS_TITLE"	
+			maxWidth = 701
+			maxHeight = 39			
+		}
+	
+		listboxType = 
+		{
+			name ="factions_listbox"
+			backGround = ""
+			position = { x=18 y=36 }	
+			size = { x=648 y=624 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 2.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
+		}
+	
+		########
+		
+		guiButtonType = {
+				name = "close_button"
+				position = { x=-75 y =312}
+				quadTextureSprite ="button_type_1"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "HRE_CLOSE"
+				buttonFont = "vic_18"
+
+				Orientation = "CENTER"
+				clicksound = close_window
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}	
+	}
+	
+	windowType = {
+		name = "faction_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=240 y=201 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+	
+		iconType = 
+			{
+				name ="faction_icon"
+				spriteType = "GFX_faction_enuchs"
+				position = { x= -108 y = -24 }
+				Orientation = "CENTER"
+			}
+			
+			iconType = 
+			{
+				name ="faction_bg"
+				spriteType = "GFX_faction_bg_temples"
+				position = { x= 48 y = -63 }
+				Orientation = "CENTER"
+			}		
+			
+			iconType = 
+			{
+				name ="faction_circle"
+				spriteType = "GFX_faction_circle_bg"
+				position = { x= 423 y = -12 }
+				Orientation = "CENTER"
+			}
+			
+		instantTextBoxType = {
+			name = "faction_value"
+			position = { x= 552 y = 114 }
+			font = "vic_22"
+			borderSize = {x = 1 y = 1}
+			text = "11"	
+			maxWidth = 60
+			maxHeight = 36
+			format = centre
+		}
+		iconType = 
+			{
+				name ="faction_arrow"
+				spriteType = "GFX_faction_arrow"
+				position = { x= 504 y = 24 }
+				Orientation = "CENTER"
+			}
+		instantTextBoxType = {
+			name = "faction_label"
+			position = { x= 204 y = 39 }
+			font = "vic_22"
+			borderSize = {x = 1 y = 1}
+			text = "The Test Faction"	
+			maxWidth = 270
+			maxHeight = 36
+			format = centre
+		}
+		instantTextBoxType = {
+			name = "faction_info"
+			position = { x= 180 y = 79 }
+			font = "vic_18"
+			borderSize = {x = 1 y = 1}
+			text = "The Test Faction likes testing and also testing, this is a sentence that is going to go on for a while in order to test The Test Faction."	
+			maxWidth = 330
+			maxHeight = 150
+			scrollbartype = "standardlistbox_slider"
+			format = left
+		}
+		
+		guiButtonType =
+		{
+			name ="faction_boost"
+			quadTextureSprite= "GFX_standard_button_105"
+			position = { x= 402 y = 72 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "BOOST"
+			buttonFont = "vic_18"
+			Orientation = "CENTER"	
+		}	
+	}
+}

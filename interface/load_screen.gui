@@ -1,0 +1,100 @@
+guiTypes = {
+	
+
+	windowType = {
+		name = "load_screen"
+		backGround =""
+		position = { x = 0 y = 0 }
+		size = { x = 1229 y = 921 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = yes
+		Orientation = "UPPER_LEFT"
+		
+				
+		windowType = {
+			name = "status"
+			backGround =""
+			position = { x = 0 y = 0 }
+			size = { x = 1229 y = 921 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_UP"
+			
+			iconType = {
+				name ="bg_load_screen2"
+				spriteType = "GFX_loadingstatus_bg"
+				position = { x= -840 y = 0 }
+			}
+			
+			instantTextBoxType = {
+				name = "text"
+				position = { x = -480 y = 15 }
+				textureFile = ""
+				font = "vic_36"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 960
+				maxHeight =48
+				fixedsize = yes
+				format = centre
+
+			}	
+		
+		}
+		
+		windowType = {
+			name = "tip"
+			backGround =""
+			position = { x = 0 y = 0 }
+			size = { x = 1229 y = 240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_DOWN"
+			
+				
+			iconType = {
+				name ="bg_load_screen"
+				spriteType = "GFX_loadingtip_bg"
+				position = { x= -618 y = -179 }
+			}		
+
+			instantTextBoxType = {
+				name = "text"
+				position = { x = -480 y = -124 }
+				textureFile = ""
+				font = "vic_36"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 960
+				maxHeight =240
+				fixedsize = yes
+				format = centre
+			}
+		}	
+
+		iconType = {
+			name ="bg_clausewitz_logo"
+			spriteType = "GFX_clausewitz_logo"
+			position = { x= 27 y = 12 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		iconType = {
+			name ="bg_pdx_int_logo"
+			spriteType = "GFX_frontend_tinto_logo_small"
+			position = { x= -228 y = 12 }
+			Orientation = "UPPER_RIGHT"
+		}			
+	}
+	
+
+}

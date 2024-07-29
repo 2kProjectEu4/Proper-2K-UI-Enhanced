@@ -1,0 +1,1297 @@
+guiTypes = {
+	
+	windowType = {
+		name = "trade_mapicon"
+		position = { x=0 y=0 }
+		size = { x=153 y=153 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"	
+			
+		#### TRADE NODE ON MAP (WHERE YOU DONT HAVE POWER)
+		
+		windowType = {
+			name = "trade_small_mapicon"
+			position = { x=-77 y=-77 }
+			size = { x=153 y=153 }
+			moveable = 0
+			horizontalBorder = "0"
+			fullScreen = no
+			Orientation = "CENTER"	
+
+			guiButtonType = {
+				name ="expand_interface"
+				quadTextureSprite = "GFX_tradenode_bg2"
+				position = { x = 24 y = -6 }
+			}		
+			
+			iconType = {
+				name ="money"
+				spriteType = "GFX_icon_font_gold"
+				position = { x= 118 y = 32 }
+			}
+			
+			iconType = {
+				name ="inland_icon"
+				spriteType = "GFX_inland_icon"
+				position = { x= 139 y = 13 }
+			}
+			
+			iconType = {
+				name ="trade_port_icon"
+				spriteType = "GFX_port_icon"
+				position = { x= 69 y = -15 }
+			}
+			
+			instantTextBoxType={
+				position = {x = 12 y  = 30 }
+				name = "total_value"
+				font = "standard_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 100
+				maxHeight = 21
+				text = "16"	
+				format = right
+			}
+			
+			listboxType = 
+				{
+					name ="flag_list"
+					position = { x = 51 y = 81 }
+					size = { x=751 y =336}
+					horizontal = 0
+					spacing = 0
+					scrollbartype = "standardlistbox_slider"
+					borderSize = {x = 0 y = 0}
+					alwaystransparent = yes
+				}
+		}
+		
+		#### TRADE NODE ON MAP (WHERE YOU HAVE POWER)
+		
+		windowType = {
+			name = "trade_big_mapicon"
+			position = { x=-77 y=-77 }
+			size = { x=153 y=153 }
+			moveable = 0
+			horizontalBorder = "0"
+			fullScreen = no
+			Orientation = "CENTER"	
+
+			guiButtonType = {
+				name ="expand_interface"
+				quadTextureSprite = "GFX_tradenode_bg"
+				position = { x = 24 y = -6 }
+			}		
+			
+			#iconType = {
+			#	name ="money"
+			#	spriteType = "GFX_icon_font_gold"
+			#	position = { x= 117 y = 39 }
+			#}
+			
+			iconType = {
+				name ="inland_icon"
+				spriteType = "GFX_inland_icon"
+				position = { x= 184 y = 5 }
+			}
+			
+			iconType = {
+				name ="trade_port_icon"
+				spriteType = "GFX_port_icon"
+				position = { x= 95 y = -15 }
+			}
+			
+			instantTextBoxType={
+				position = {x = 60 y  = 17 }
+				name = "influence"
+				font = "standard_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 120
+				maxHeight = 21
+				text = "16/35"	
+				format = centre
+				fixedsize = yes
+			}
+			
+			instantTextBoxType={
+				position = {x = 45 y  = 43 }
+				name = "total_value"
+				font = "standard_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 140
+				maxHeight = 21
+				text = "16"	
+				format = center
+			}
+			
+			iconType = {
+				name ="trade_panel_potential_bar"
+				spriteType = "GFX_trade_panel_potential_bar"
+				position = { x= 185 y = 92 }
+				rotation = 1.57
+			}
+			
+			iconType = {
+				name ="merchant"
+				spriteType = "GFX_icon_merchant"
+				position = { x= 140 y = 68 }
+				scale = 0.8
+			}
+
+			iconType = {
+				name = "trade_ship"
+				spriteType = "GFX_icon_trade_ship"
+				position = { x = 53 y = 68 }
+			}			
+			
+			instantTextBoxType = {
+				position = { x = 84 y = 70 }
+				name = "trade_ship_count"
+				font = "standard_18"
+				borderSize = { x = 0 y = 0 }
+				maxWidth = 39
+				maxHeight = 21
+				text = 0
+				format = right
+			}
+			
+			listboxType = 
+				{
+					name ="flag_list"
+					position = { x = 51 y = 105 }
+					size = { x=751 y =336}
+					horizontal = 0
+					spacing = 0
+					scrollbartype = "standardlistbox_slider"
+					borderSize = {x = 0 y = 0}
+					alwaystransparent = yes
+				}					
+		}
+	}
+	
+	### FLAGS ENTRY
+	windowType = {
+		name = "trade_onmap_flags_box"
+		position = { x=0 y=0 }
+		size = { x=96 y=18 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"	
+		
+		OverlappingElementsBoxType = {
+				name = "director_flags"
+				position = { x = 0 y = 0 }
+				size = { x = 120 y = 39 }
+				format = left
+				spacing = 2.0
+			}
+		}
+	
+	### TRADE ROUTE BRANCH
+	windowType = {
+		name = "trade_route_branch"
+		position = { x=0 y=0 }
+		size = { x=96 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"	
+		
+		iconType = {
+			name ="trade_branch_panel_bg"
+			spriteType = "GFX_trade_branch_panel_bg"
+			position = { x= 0 y = -54 }
+		}	
+			
+		instantTextBoxType={
+			position = {x = 12 y  = -35 }
+			name = "branch_income"
+			font = "standard_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "135"	
+			format = centre
+		}
+		
+		iconType = {
+			name ="branch_money"
+			spriteType = "GFX_icon_font_gold"
+			position = { x= 73 y = -33 }
+		}
+
+		guiButtonType = {
+			name ="steer_button"
+			quadTextureSprite = "GFX_trade_steer_button"
+			position = { x = 38 y = -7 }
+		}	
+
+		#listboxType = 
+		#	{
+		#		name ="flag_list"
+		#		position = { x = -48 y = 12 }
+		#		backGround=""
+		#		size = { x=751 y =336}
+		#		horizontal = 0
+		#		spacing = 0
+		#		scrollbartype = "standardlistbox_slider"
+		#		borderSize = {x = 0 y = 0}
+		#	}
+		
+		OverlappingElementsBoxType = {
+				name = "director_flags"
+				position = { x = -21 y = 15 }
+				size = { x = 120 y = 39 }
+				format = centre
+				spacing = 1.0
+			}
+	}		
+	
+	windowType = {
+		name = "trade_wind_window"
+		position = { x=-19 y=-19 }
+		size = { x=39 y=39 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="trade_wind_icon"
+			spriteType = "GFX_trade_wind"
+			position = { x= 0 y = 0 }
+		}	
+	}
+	
+	windowType = {
+		name = "loot_mapicon"
+		position = { x=0 y= 29 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="loot_mapicon_bg"
+			spriteType = "GFX_loot_mapicon_bg"
+			position = { x= 0 y = 0 }
+		}	
+			
+		instantTextBoxType={
+			position = {x = 5 y  = 19 }
+			name = "current_loot"
+			font = "standard_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 72
+			maxHeight = 21
+			text = "135"	
+			format = centre
+		}
+	}
+
+	windowType = {
+		name = "tradegoods_mapicon"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="trade_goods_icon"
+			spriteType = "GFX_resource_icon_transparent"
+			position = { x= 0 y = 0 }
+		}
+	}
+	
+	windowType = {
+		name = "fort_mapicon"
+		position = { x=-19 y=-19 }
+		size = { x=39 y=39 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="fort_icon"
+			spriteType = "GFX_fort_mapicon"
+			position = { x= 0 y = 0 }
+			scale = 0.6
+		}
+		
+		iconType = {
+			name ="prev_no_zoc_icon"
+			spriteType = "GFX_prev_no_zoc_mapicon"
+			position = { x= 24 y = 0 }
+		}
+	}
+
+	windowType = {
+		name = "objective_mapicon"
+		position = { x=0 y=0 }
+		size = { x=39 y=39 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="country_flag"
+			spriteType = "GFX_flag_small"
+			position = { x= 0 y = 29 }
+		}
+
+		iconType = {
+			name ="objective_icon"
+			spriteType = "GFX_objective_mapicon"
+			position = { x = 27 y = 27 }
+		}
+		
+	}
+	
+	windowType = {
+		name = "supply_depot_mapicon"
+		position = { x=0 y=0 }
+		size = { x=39 y=39 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_supply_depot_mapicon"
+			position = { x = 0 y = 0 }
+		}
+		
+	}
+	
+	windowType = {
+		name = "battle_mapicon"
+		position = { x=-19 y=-19 }
+		size = { x=39 y=39 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_battle_mapicon"
+			position = { x= 0 y = 0 }
+		}
+
+		iconType = {
+			name ="attacker_combat_mod"
+			spriteType = "GFX_combat_modifier_small_strip"
+			position = { x = -19 y = 5 }
+		}				
+			
+	}
+	
+	windowType = {
+		name = "reformation_conversion_mapicon"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		
+		iconType =
+		{
+			name ="reformation_conversion_progress"
+			spriteType = "GFX_unit_relocation_progressbar"
+			position = { x= 12 y = 50 }
+		}
+		iconType =
+		{
+			name ="reformation_conversion_progressframe"
+			spriteType = "GFX_diplomacy_morale_frame"
+			position = { x= 19 y = 27 }
+			rotation = -1.5708
+			scale = 1.5
+		}
+		iconType = {
+			name ="religious_conversion_center_frames"
+			spriteType = "GFX_religious_conversion_center_protestant" # changes based on "map_icon" in religious_conversions
+			position = { x= 30 y = 0 }
+		}
+		iconType = {
+			name ="reformation_conversion_icon"
+			spriteType = "GFX_province_view_religion"
+			position = { x= 0 y = 0 }
+		}
+	}
+	
+	windowType = {
+		name = "institution_origin_mapicon"
+		position = { x=0 y=0 }
+		size = { x=57 y=57 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name = "institution_icon"
+			spriteType = "GFX_icon_institution_feudalism"
+			position = { x= 0 y = 0 }
+		}		
+	}
+
+	windowType = {
+		name = "minority_expulsion_mapicon"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no	
+		
+		iconType = {
+			name ="minority_expulsion_progress"
+			spriteType = "GFX_construction_progress_bar"
+			position = { x= 6 y = 18 }
+		}
+
+		iconType = {
+			name ="minority_expulsion_progress_bar_frame"
+			spriteType = "GFX_provinceView_morale_frame"
+			position = { x= -3 y = 15 }
+		}
+	}
+	
+	windowType = {
+		name = "trade_modifier_item"
+		position = { x=0 y=0 }	
+		size = { x=30 y= 30 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType =
+		{
+			name ="prov_modifier_bg"
+			spriteType = "GFX_prov_modifier_bg"
+			position = { x = 18 y = 24 }
+			scale = 0.75
+		}
+		
+		iconType =
+		{
+			name ="icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 15 y = 24}
+			scale = 0.42
+		}
+	}
+	
+	windowType = {
+		name = "trade_modifier"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		OverlappingElementsBoxType = {
+			name = "modifiers"
+			position = { x = 0 y = 0 }
+			size = { x = 120 y = 39 }
+			format = left
+			spacing = 0.0
+		}
+	}
+	
+	#### UNIT MAP ICON
+	windowType = {
+		name = "unit_mapicon"
+		position = { x=0 y=0 }
+		size = { x=96 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+
+		
+		##### SEIGE PART #####
+		# Needs to be under unit panel when it appears ###
+		
+		iconType = {
+			name ="seige_panel_extension"
+			spriteType = "GFX_seige_panel_extension"
+			position = { x= 91 y = 24 }
+		}	
+		
+		iconType = {
+			name ="seige_icon"
+			spriteType = "GFX_combat_siege_end_garrison"
+			position = { x= 90 y = 29  }
+		}	
+		
+		iconType = {
+			name ="breach_icon"
+			spriteType = "GFX_icon_breach_small"
+			position = { x= 90 y = 29  }
+		}	
+		
+		iconType = {
+			name ="siege_progress_bar"
+			spriteType = "GFX_unitpanel_siege_moralebar_on_map"
+			position = { x= 127 y = 41 }
+			rotation = 1.5708
+		}	
+
+
+		
+		instantTextBoxType={
+			position = {x = 129 y = 35 }
+			name = "siege_progress"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 39
+			maxHeight = 21
+			text = "-100%"	
+			format = centre
+		}		
+		
+		##### Unit Part #####
+		
+		guiButtonType = {
+			name ="condottieri_shield"
+			quadTextureSprite = "GFX_Navy_shield_small"
+			position = { x = 84 y = 21 }
+		}
+
+		iconType = {
+			name ="too_few_men"
+			spriteType = "GFX_icon_siege_tofewmen"
+			position = { x= 101 y = 42 }
+		}		
+		
+		guiButtonType = {
+			name ="unit_panel_bg"
+			spriteType = "GFX_unit_panel_bg"
+			position = { x= 27 y = 25 }
+		}		
+		
+		guiButtonType = {
+			name ="unit_panel_relation"
+			spriteType = "GFX_unit_panel_relation"
+			position = { x= 23 y = 33 }
+		}	
+		
+		instantTextBoxType={
+			position = {x = 29 y  = 33 }
+			name = "unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+			alwaystransparent = yes
+		}
+		
+		iconType =
+		{
+			name ="connected_to_ship"
+			spriteType= "GFX_icon_naval"
+			position = { x= 90 y = 12 }
+			scale = 0.75
+		}
+		
+		iconType = {
+			name ="unit_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map"
+			position = { x= 90 y = 39 }
+			rotation = 1.5708
+		}	
+		iconType = {
+			name ="unit_panel_moral_bar_yellow"
+			spriteType = "GFX_unitpanel_moralebar_on_map_yellow"
+			position = { x= 90 y = 39 }
+			rotation = 1.5708
+		}	
+		iconType =
+		{
+			name ="unit_low_morale_icon"
+			spriteType = "GFX_unit_low_morale"
+			position = { x= 87 y = 51 }
+		}
+		
+		guiButtonType = {
+			name ="holder_shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x = 0 y = 23 }
+		}
+
+		iconType = {
+			name ="attrition_indicator"
+			spriteType = "GFX_unitpanel_attrition"
+			position = { x= 83 y = 45 }
+		}
+
+		iconType = {
+			name ="retreat"
+			spriteType = "GFX_unitpanel_retreat"
+			position = { x= 91 y = 30 }
+		}
+
+		iconType = {
+			name ="shattered_retreat"
+			spriteType = "GFX_unit_shattered_retreat"
+			position = { x= 91 y = 30 }
+		}		
+		
+		iconType = {
+			name ="exile"
+			spriteType = "GFX_unitpanel_exile"
+			position = { x= 91 y = 30 }
+		}		
+		
+		iconType = {
+			name ="leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x= 33 y = 21 }
+		}
+		
+		iconType = {
+			name ="forced_march"
+			spriteType = "GFX_unitpanel_forced_march"
+			position = { x= 91 y = 41 }
+		}			
+		
+		iconType = {
+			name ="unitgroup_icon_1"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 31 y = 51  }
+		}	
+		
+		iconType = {
+			name ="unitgroup_icon_2"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 41 y = 51  }
+		}			
+		iconType = {
+			name ="unitgroup_icon_3"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 51 y = 51  }
+		}	
+		
+		iconType = {
+			name ="unitgroup_icon_4"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 60 y = 51  }
+		}			
+		iconType = {
+			name ="unitgroup_icon_5"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 69 y = 51  }
+		}	
+		
+		iconType = {
+			name ="unitgroup_icon_6"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 78 y = 51  }
+		}
+		
+		iconType =
+		{
+			name ="relocation_icon"
+			spriteType = "GFX_unit_relocation"
+			position = { x= 39 y = 61 }
+		}	
+		
+		iconType =
+		{
+			name ="unit_progress"
+			spriteType = "GFX_unit_relocation_progressbar"
+			position = { x= 36 y = 54 }
+		}	
+
+		iconType =
+		{
+			name ="unit_progressframe"
+			spriteType = "GFX_diplomacy_morale_frame"
+			position = { x= 41 y = 30 }
+			rotation = -1.5708
+			scale = 1.5
+		}	
+
+
+
+	}
+	
+	#### NAVY MAP ICON
+	windowType = {
+		name = "navy_mapicon"
+		position = { x=0 y=0 }
+		size = { x=96 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+
+		
+		##### SEIGE PART #####
+		# Needs to be under unit panel when it appears ###
+
+
+		iconType = {
+			name ="siege_progress_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map"
+			position = { x= 123 y = 41 }
+			rotation = 1.5708
+		}
+
+		
+		iconType = {
+			name ="seige_panel_extension"
+			spriteType = "GFX_blockade_panel_extension"
+			position = { x= 91 y = 23 }
+		}	
+		
+		iconType = {
+			name ="seige_icon"
+			spriteType = "GFX_onmap_blockade_icon"
+			position = { x= 96 y = 29  }
+			scale = 0.95
+		}	
+		
+		iconType = {
+			name ="breach_icon"
+			spriteType = "GFX_icon_breach_small"
+			position = { x= 90 y = 29  }
+		}		
+
+		iconType = {
+			name ="too_few_men"
+			spriteType = "GFX_icon_siege_tofewmen"
+			position = { x= 101 y = 37 }
+		}
+		
+		instantTextBoxType={
+			position = {x = 129 y = 33 }
+			name = "siege_progress"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 39
+			maxHeight = 21
+			text = "-100%"	
+			format = centre
+		}		
+		
+		##### Unit Part #####
+		
+		
+		guiButtonType = {
+			name ="unit_panel_bg"
+			spriteType = "GFX_Navy_panel_bg"
+			position = { x= 1 y = 25 }
+		}		
+		
+		guiButtonType = {
+			name ="unit_panel_relation"
+			spriteType = "GFX_unit_panel_relation"
+			position = { x= 7 y = 33 }
+		}	
+		
+		instantTextBoxType={
+			position = {x = 9 y  = 35 }
+			name = "unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+			alwaystransparent = yes
+		}
+		
+		iconType =
+		{
+			name ="connected_to_ship"
+			spriteType= "GFX_icon_naval"
+			position = { x= 90 y = 12 }
+			scale = 0.75
+		}
+		
+		iconType = {
+			name ="leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x = 15 y = 21 }
+		}
+		
+		iconType = {
+			name ="unit_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map"
+			position = { x= 15 y = 39 }
+			rotation = 1.5708
+		}
+		iconType = {
+			name ="unit_panel_moral_bar_yellow"
+			spriteType = "GFX_unitpanel_moralebar_on_map_yellow"
+			position = { x= 15 y = 39 }
+			rotation = 1.5708
+		}
+		iconType =
+		{
+			name ="unit_low_morale_icon"
+			spriteType = "GFX_unit_low_morale"
+			position = { x= 87 y = 45 }
+		}
+		
+		guiButtonType = {
+			name ="holder_shield"
+			quadTextureSprite = "GFX_Navy_shield_small"
+			position = { x = 57 y = 21 }
+		}
+
+		iconType = {
+			name ="attrition_indicator"
+			spriteType = "GFX_unitpanel_attrition"
+			position = { x= 89 y = 41 }
+		}
+
+		iconType = {
+			name ="fleet_hiding_icon"
+			spriteType = "GFX_unitpanel_hidden"
+			position = { x= 0 y = 48 }
+		}	
+		
+		iconType = {
+			name ="retreat"
+			spriteType = "GFX_unitpanel_retreat"
+			position = { x= 95 y = 30 }
+		}		
+		
+		iconType = {
+			name ="exile"
+			spriteType = "GFX_unitpanel_exile"
+			position = { x= 91 y = 30 }
+		}
+		
+		iconType = {
+			name ="shattered_retreat"
+			spriteType = "GFX_unit_shattered_retreat"
+			position = { x= 91 y = 30 }
+		}		
+
+		iconType = {
+			name ="repair"
+			spriteType = "GFX_unitpanel_repair"
+			position = { x= 91 y = 42 }
+		}
+		
+		iconType = {
+			name ="mothball"
+			spriteType = "GFX_unitpanel_mothball_map"
+			position = { x= 91 y = 42 }
+		}
+		
+		iconType = {
+			name ="unitgroup_icon_1"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 15 y = 51  }
+		}	
+		
+		iconType = {
+			name ="unitgroup_icon_2"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 25 y = 51  }
+		}			
+		iconType = {
+			name ="unitgroup_icon_3"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 35 y = 51  }
+		}	
+		
+		iconType = {
+			name ="unitgroup_icon_4"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 45 y = 51  }
+		}			
+
+		iconType = {
+			name ="unitgroup_icon_6"
+			spriteType = "GFX_unit_panel_shields"
+			position = { x= 54 y = 51  }
+		}	
+
+
+
+	}	
+	
+	
+	#### COMBAT PANEL ####
+	
+	windowType = {
+		name = "combat_mapicon"
+		position = { x=0 y=0 }
+		size = { x=168 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+
+
+		iconType = {
+			name ="unit_attacker_panel_relation"
+			spriteType = "GFX_unit_battle_relation"
+			position = { x= 19 y = 9 }
+		}	
+	
+		iconType = {
+			name ="unit_defender_panel_relation"
+			spriteType = "GFX_unit_battle_relation"
+			position = { x= 84 y = 9 }
+		}
+
+		iconType = {
+			name ="attackar_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
+			position = { x= 35 y = 35 }
+		}	
+		
+		iconType = {
+			name ="defender_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
+			position = { x= 99 y = 35 }
+		}	
+		
+		guiButtonType = {
+			name ="unit_panel_bg"
+			quadTextureSprite = "GFX_unit_panel_combat_bg_2"
+			position = { x= 0 y = 0 }
+		}
+		
+		iconType = {
+			name ="swords"
+			spriteType = "GFX_battle_mapicon"
+			position = { x= 69 y = 7 }
+			frame = 1
+		}		
+		
+		instantTextBoxType={
+			position = {x = 21  y  = 19 }
+			name = "attacker_unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+		}
+		
+		instantTextBoxType={
+			position = {x = 89 y  = 19 }
+			name = "defender_unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+		}
+		
+
+		guiButtonType = {
+			name ="attacker_condottieri_shield"
+			quadTextureSprite = "GFX_Navy_shield_small_flip"
+			position = { x = -31 y = 7 }
+		}
+		
+		guiButtonType = {
+			name ="defender_condottieri_shield"
+			quadTextureSprite = "GFX_Navy_shield_small"
+			position = { x = 159  y = 7 }
+		}
+
+		guiButtonType = {
+			name ="attackar_shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x = -3 y = 11 }
+		}
+		
+		guiButtonType = {
+			name ="defender_shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x = 135  y = 11 }
+		}
+
+		iconType = {
+			name ="attacker_combat_modifier_strip"
+			spriteType = "GFX_combat_modifier_small_strip"
+			position = { x = 15 y = 39 }
+		}
+
+		iconType = {
+			name ="defender_combat_modifier_strip"
+			spriteType = "GFX_combat_modifier_small_strip"
+			position = { x = 131  y = 39 }
+		}
+		
+		iconType = {
+			name ="attacker_leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x= 31 y = 6 }
+		}
+		
+		iconType = {
+			name ="defender_leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x= 93 y = 6 }
+		}
+	}
+	
+	#### NAVY COMBAT PANEL ####
+	
+	windowType = {
+		name = "navy_combat_mapicon"
+		position = { x=0 y=0 }
+		size = { x=168 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+
+
+		iconType = {
+			name ="unit_attacker_panel_relation"
+			spriteType = "GFX_unit_battle_relation"
+			position = { x= 19 y = 9 }
+		}	
+	
+		iconType = {
+			name ="unit_defender_panel_relation"
+			spriteType = "GFX_unit_battle_relation"
+			position = { x= 84 y = 9 }
+		}
+
+		iconType = {
+			name ="attackar_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
+			position = { x= 35 y = 35 }
+		}	
+		
+		iconType = {
+			name ="defender_panel_moral_bar"
+			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
+			position = { x= 99 y = 35 }
+		}	
+		
+		guiButtonType = {
+			name ="unit_panel_bg"
+			quadTextureSprite = "GFX_unit_panel_combat_bg_2"
+			position = { x= 0 y = 0 }
+		}			
+
+		iconType = {
+			name ="swords"
+			spriteType = "GFX_battle_mapicon"
+			position = { x= 69 y = 7 }
+			frame = 2
+		}
+		
+		instantTextBoxType={
+			position = {x = 21  y  = 19 }
+			name = "attacker_unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+		}
+		
+		instantTextBoxType={
+			position = {x = 89 y  = 19 }
+			name = "defender_unit_strength"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 60
+			maxHeight = 21
+			text = "16"	
+			format = centre
+		}
+		
+
+		
+		guiButtonType = {
+			name ="attackar_shield"
+			quadTextureSprite = "GFX_Navy_shield_small_flip"
+			position = { x = -6 y = 5 }
+		}
+		
+		guiButtonType = {
+			name ="defender_shield"
+			quadTextureSprite = "GFX_Navy_shield_small"
+			position = { x = 135  y = 5 }
+		}
+
+		iconType = {
+			name ="attacker_combat_modifier_strip"
+			spriteType = "GFX_combat_modifier_small_strip"
+			position = { x = 15 y = 39 }
+		}
+
+		iconType = {
+			name ="defender_combat_modifier_strip"
+			spriteType = "GFX_combat_modifier_small_strip"
+			position = { x = 131  y = 39 }
+		}
+		
+		iconType = {
+			name ="attacker_leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x= 31 y = 6 }
+		}
+		
+		iconType = {
+			name ="defender_leader_stars"
+			spriteType = "GFX_stars_small_3"
+			position = { x= 93 y = 6 }
+		}
+	}	
+	
+	windowType = {
+		name = "construction_progress_mapicon"
+		position = { x=0 y=0 }
+		size = { x=60 y=7 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType = {
+			name ="construction_progress_bar"
+			spriteType = "GFX_construction_progress_bar"
+			position = { x= 9 y = 17 }
+		}
+		
+		iconType = {
+			name ="army_progress_bar"
+			spriteType = "GFX_army_progress_bar"
+			position = { x= 9 y = 14 }
+		}
+		iconType = {
+			name ="naval_progress_bar"
+			spriteType = "GFX_naval_progress_bar"
+			position = { x= 9 y = 14 }
+		}
+		
+		iconType = {
+			name ="construction_progress_bar_frame"
+			spriteType = "GFX_provinceView_morale_frame"
+			position = { x= 0 y = 12 }
+		}
+		
+	}
+	
+	windowType = {
+		name = "flip_progress_mapicon"
+		position = { x=0 y=0 }
+		size = { x=60 y=7 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		Orientation = "CENTER"
+				
+		iconType = {
+			name ="fort_flip_progress_bar"
+			spriteType = "GFX_army_progress_bar"
+			position = { x= 9 y = 14 }
+		}
+		
+		iconType = {
+			name ="flip_progress_bar_frame"
+			spriteType = "GFX_provinceView_morale_frame"
+			position = { x= 0 y = 12 }
+		}
+		
+	}
+	
+	windowType = {
+		name = "religious_school_mapicon"
+		position = { x=0 y= 29 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_icon_religion_small"
+			position = { x= 0 y = 0 }
+			scale = 0.75
+		}	
+	}
+
+	windowType = {
+		name = "cardinal_mapicon"
+		position = { x=0 y= 29 }
+		size = { x=57 y=57 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_cardinal_icon"
+			position = { x= 0 y = 0 }
+		}
+	}
+
+	windowType = {
+		name = "revolution_mapicon"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		
+		iconType =
+		{
+			name ="revolution_spread_progress"
+			spriteType = "GFX_unit_relocation_progressbar"
+			position = { x= 15 y = 54 }
+		}
+		iconType =
+		{
+			name ="revolution_spread_progressframe"
+			spriteType = "GFX_diplomacy_morale_frame"
+			position = { x= 21 y = 30 }
+			rotation = -1.5708
+			scale = 1.5
+
+		}
+		iconType = {
+			name ="revolution_spread_icon"
+			spriteType = "GFX_revolution_spread"
+			position = { x= 15 y = 15 }
+	
+		}
+		iconType = {
+			name ="revolution_center_icon"
+			spriteType = "GFX_center_of_revolution"
+			position = { x= 15 y = 0 }
+			scale = 0.75
+		}
+	}
+
+	windowType = {
+		name = "imperial_modifier_mapicon"
+		position = { x=0 y=0 }
+		size = { x=77 y=77 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_hre_member"
+			position = { x= 39 y = 0 }
+			scale = 1.5
+		}
+	}
+
+}

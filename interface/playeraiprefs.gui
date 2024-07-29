@@ -1,0 +1,184 @@
+guiTypes = {
+
+	windowType = {
+		name = "playeraiprefs"
+		backGround=""
+		position = { x=-125 y=-204 }	
+		size = { x=307 y=307 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+
+		# Window Background
+
+		
+
+		# Header Title
+		instantTextBoxType={
+			position = { x = -12 y = 36 }
+			name = "header"
+			font = "standard_font"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 267
+			maxHeight = 31
+			fixedsize = yes
+			format = center
+			text = "PLAYER_AI_PREFS_HEADER"
+		}
+
+		# Question mark used for tooltip
+		guiButtonType =
+		{
+			name = "question"
+			quadTextureSprite = "GFX_playeraiprefs_question_mark"
+			position = { x = 169 y = 31 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "standard_font"
+			scale = 0.7
+		}
+		
+		listboxType = 
+		{
+			name ="aipref_listbox"
+			position = { x = 12 y = 69 }
+			backGround=""
+			size = { x=198 y =240}
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		# Apply button
+		guiButtonType =
+		{
+			name = "apply"
+			position = { x = 6 y = 331 }
+			quadTextureSprite = "button_type_6"
+			buttonText = "SM_APPLY"
+			buttonFont = "vic_18"
+		}
+
+		# Cancel button
+		guiButtonType =
+		{
+			name = "cancel"
+			position = { x = 75 y = 391 }
+			quadTextureSprite = "button_type_6"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+		}
+
+		# Default button
+		guiButtonType =
+		{
+			name = "default"
+			position = { x = 144 y = 331 }
+			quadTextureSprite = "button_type_6"
+			buttonText = "DEFAULT"
+			buttonFont = "vic_18"
+		}
+	}
+	
+	windowType = {	
+		name ="aipref_bool"
+		backGround=""
+		position = { x=0 y =0}	
+		size = { x=240 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullscreen = no
+			
+		instantTextBoxType={
+			position = { x = 51 y = 9 }
+			name = "title"
+			font = "standard_font"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 237
+			maxHeight = 43
+			fixedsize = yes
+			format = left
+			text = "PLAYER_AI_PREFS_OPTION5_TITLE"
+		}
+		checkboxType = {
+			name = "checkbox"
+			position = { x = 3 y = 0 }
+			quadTextureSprite ="GFX_checkbox_gold_32"
+		}
+	}
+		
+	windowType = {	
+		name ="aipref_int"
+		backGround=""
+		position = { x=0 y =0}	
+		size = { x=240 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullscreen = no
+			
+		instantTextBoxType = {
+			position = { x = 12 y = 0 }
+			name = "title"
+			font = "standard_font"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 237
+			maxHeight = 43
+			fixedsize = yes
+			format = left
+			text = "PLAYER_AI_PREFS_TIMEOUT_TITLE"
+		}
+		scrollbarType = {
+			name = "slider"	
+			slider = "landslider_SliderButton"
+			track= "listboxTrackButton"
+			leftbutton = "landslider_upButton"
+			rightbutton = "landslider_downButton"
+			size = {x = 180 y = 19 }
+			position = {x= 12 y = 21}
+			priority = 100			
+			borderSize = {x =19 y = 19}	
+			maxValue = 2
+			minValue = 0
+			stepSize = 1
+			startValue = 2
+			horizontal = 1
+
+			guiButtonType = {
+				name = "landslider_SliderButton"	
+				quadTextureSprite = "GFX_scroll_drager_blue"
+				position = { x=0 y =0}
+			}
+			guiButtonType = {
+				name = "landslider_TrackButton"
+				quadTextureSprite = "yearslider_background"
+				position = { x=0 y =24}	
+			}
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "GFX_scroll_track"
+				position = { x=15 y =15}		
+
+			}
+			guiButtonType = {
+				parent = "landslider_SliderButton"
+				name = "landslider_upButton"
+				quadTextureSprite = "GFX_scroll_left_gold"
+				position = { x=0 y =0}	
+			}
+			guiButtonType = {
+				parent = "landslider_SliderButton"
+				name = "landslider_downButton"
+				quadTextureSprite = "GFX_scroll_right_gold"
+				position = { x=0 y =144}	
+			}
+		}
+	}
+}

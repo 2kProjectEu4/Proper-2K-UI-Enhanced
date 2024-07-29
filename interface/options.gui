@@ -1,0 +1,226 @@
+guiTypes = {
+
+	windowType = {
+		name = "option_list_item"
+		position = { x=0 y =0 }
+		size = { x=579 y=43 }
+		
+		instantTextBoxType = {
+			name = "option_name"
+			position = { x = 12 y = 6 }
+			font = "vic_22"
+			text = "<Setting Name>"	
+			maxWidth = 300
+			maxHeight = 24
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "option_value"
+			position = { x = 327 y = 6 }
+			font = "vic_22"
+			text = "<Setting Value>"	
+			borderSize = {x = 1 y = 1}
+			maxWidth = 156
+			maxHeight = 24
+			format = centre
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name = "option_prev_button"
+			position = { x = 306 y = 3 }
+			quadTextureSprite ="option_prev"
+		}
+
+		guiButtonType = {
+			name = "option_next_button"
+			position = { x = 483 y = 3 }
+			quadTextureSprite ="option_next"
+		}
+	}
+	
+	windowType = {
+		name = "option_window"
+		backGround=""
+		position = { x= -291 y = -396 }
+		size = { x=579 y=570 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = CENTER
+		
+		iconType = {
+			name = "Background"	
+			spriteType = "GFX_option_panel_bg"
+			position = { x= 0 y = 0 }
+		}			
+
+		### tabs
+		guiButtonType = {
+			name = "sp_options_tab"
+			position = { x = 51 y = 91 }
+			quadTextureSprite ="GFX_tab_small_133"
+		}
+
+		instantTextBoxType = {
+			name = "sp_options_label"
+			position = { x = 45 y = 103 }
+			textureFile = ""
+			font = "vic_22"
+			text = "FE_GENERAL"	
+			maxWidth = 168
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"	
+			format = centre
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name = "mp_options_tab"
+			position = { x = 211 y = 91 }
+			quadTextureSprite ="GFX_tab_small_133"
+		}
+
+		instantTextBoxType = {
+			name = "mp_options_label"
+			position = { x = 205 y = 103 }
+			textureFile = ""
+			font = "vic_22"
+			text = "FE_MULTI_PLAYER"	
+			maxWidth = 168
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"	
+			format = centre
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name = "custom_options_tab"
+			position = { x = 371 y = 91 }
+			quadTextureSprite ="GFX_tab_small_133"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_22"
+		}
+
+		instantTextBoxType = {
+			name = "custom_options_label"
+			position = { x = 365 y = 103 }
+			textureFile = ""
+			font = "vic_22"
+			text = "custom_setup"	
+			maxWidth = 168
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"	
+			format = centre
+			fixedsize = yes
+			alwaysTransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "optiontext"
+			position = { x = 165 y = 24 }
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 1 y = 1}
+			text = "Options"	
+			maxWidth = 240
+			maxHeight = 24
+
+			Orientation = "UPPER_LEFT"	
+			format = centre
+
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x = 315 y = 732 }
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "FE_OK"
+			buttonFont = "vic_18"
+			clicksound = ok_click
+		}
+			
+		guiButtonType = {
+			name = "cancel_button"
+			position = { x = 85 y = 732 }
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "FE_CANCEL"
+			buttonFont = "vic_18"
+		}
+
+		#### SINGLE PLAYER ####
+		windowType = {
+			name = "singleplayer_tab"
+			backGround=""
+			position = { x= 0 y = 0 }
+			size = { x=579 y=570 }
+			moveable = 0
+		
+			smoothListboxType = 
+			{
+				name ="option_listbox"
+				position = { x = 29 y = 147 }
+				backGround=""
+				size = { x= 510 y = 570 }
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+			
+
+		#### MULTIPLAYER ####
+
+		windowType = {
+			name = "multiplayer_tab"
+			backGround=""
+			position = { x= 0 y = 0 }
+			size = { x=579 y=570 }
+			moveable = 0
+				
+			smoothListboxType = 
+			{
+				name ="option_listbox"
+				position = { x = 29 y = 147 }
+				backGround=""
+				size = { x= 510 y = 570 }
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+		
+		windowType = {
+			name = "custom_setup_tab"
+			backGround=""
+			position = { x= 0 y = 0 }
+			size = { x=579 y=570 }
+			moveable = 0
+
+			smoothListboxType = 
+			{
+				name ="option_listbox"
+				position = { x = 29 y = 147 }
+				backGround=""
+				size = { x= 510 y = 570 }
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+	}	
+}

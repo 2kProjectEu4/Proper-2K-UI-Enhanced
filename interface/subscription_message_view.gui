@@ -1,0 +1,106 @@
+guiTypes = {
+	windowType = {
+		name = "sub_message_window"
+		fullscreen=yes
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "click_blocker"
+			spriteType = "GFX_sub_black_bg_tile"
+			position = { x=-6000 y=-6000 }
+			scale = 1000
+		}
+
+		guiButtonType = {
+			name = "message_bg"
+			spriteType = "GFX_sub_message_bg"
+			Orientation = "CENTER"
+			position = { x = -2304 y = -309 }
+			size = { x = 4608 y = 665 }
+			alwaystransparent = yes
+		}
+
+		windowType = {
+			name = scrolling_content
+			orientation = "CENTER"
+			position = { x = -828 y = -307 }
+			size = { x = 1020 y = 653 }
+
+			# Reverse order to have left most picture on top
+			iconType = {
+				name = "message_content_image_1"
+				spriteType = "GFX_sub_message_content_2"
+				position = { x = 804 y = 0 }
+			}
+
+			iconType = {
+				name = "message_content_image_0"
+				position = { x = 150 y = 0 }
+				spriteType = "GFX_sub_message_content_1"
+			}
+
+			iconType = {
+				name = "message_content_image_2"
+				spriteType = "GFX_sub_message_content_3"
+				position = { x = -504 y = 0 }
+			}
+
+			iconType = {
+				name = "message_content_overlay"
+				spriteType = "GFX_sub_message_bg_overlay"
+				position = { x = 0 y = 0 }
+			}
+		}
+
+		instantTextBoxType = {
+			name = "message_title"
+			Orientation = "CENTER"
+			position = { x = 213 y = -240 }
+			font = "vic_36"
+			text = "" # Set by game
+			maxWidth = 408
+			maxHeight = 96
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "message_desc"
+			Orientation = "CENTER"
+			position = { x = 126 y = -96 }
+			font = "vic_29"
+			text = "" # Set by game
+			maxWidth = 504
+			maxHeight = 96
+			format = right
+		}
+
+		guiButtonType = {
+			name = "goto_steam_button"
+			quadTextureSprite = "GFX_button_type_287"
+			buttonFont = "vic_22"
+			buttonText = "GOTO_STEAM"
+			Orientation = "CENTER"
+			position = { x = 281 y = 252 }
+			clicksound = "click"
+		}
+
+		guiButtonType = {
+			name = "no_action_button"
+			quadTextureSprite = "GFX_button_type_287"
+			buttonFont = "vic_22"
+			buttonText = "SUB_MESSAGE_NO_ACTION"
+			Orientation = "CENTER"
+			position = { x = 281 y = 252 }
+			clicksound = "click"
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			quadTextureSprite = "GFX_button_close_big"
+			shortcut = "ESCAPE"
+			Orientation = "CENTER"
+			position = { x = 564 y = -343 }
+			clicksound = "close_window"
+		}
+	}
+}

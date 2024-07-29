@@ -1,0 +1,994 @@
+guiTypes = {
+	windowType = {
+		name = "papacy_window"
+		backGround="papacy_bg"
+		position = { x=-329 y= -415 }
+		size = { x=657 y=829 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+
+		upsound = papacy
+		downsound = ""
+
+
+
+		guiButtonType =
+		{
+			name ="papacy_bg"
+			spriteType = "GFX_papacy_bg"
+			position = { x= 0 y = 0 }
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "papacy_top_bg"
+			spriteType = "GFX_papacy_top_bg"
+			position = { x = 0 y = 81 }
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "papacy_top_emperor_bg"
+			spriteType = "GFX_papacy_top_emperor_bg"
+			position = { x = 0 y = 81 }
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "papacy_bottom_bg"
+			spriteType = "GFX_papacy_bottom_bg"
+			position = { x = 0 y = -561 }
+			orientation = "LOWER_LEFT"
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "papacy_bottom_emperor_bg"
+			spriteType = "GFX_papacy_bottom_emperor_bg"
+			position = { x = 0 y = -561 }
+			orientation = "LOWER_LEFT"
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "papacy_bottom_emperor_finished_bg"
+			spriteType = "GFX_papacy_bottom_emperor_finished_bg"
+			position = { x = 0 y = -561 }
+			orientation = "LOWER_LEFT"
+			alwaystransparent = no
+		}
+
+		instantTextBoxType = {
+			name = "papacy_label"
+			position = { x = 78 y =51 }
+			format = centre
+			textureFile = ""
+			font = "vic_29"
+			borderSize = {x = 5 y = 5}
+			text = "PAPACY_THE_HOLY_SEE"
+			maxWidth = 480
+			maxHeight = 39
+
+
+
+		}
+
+		##################################
+		# Top left: Curia Tithe actions
+		##################################
+        iconType = {
+            name = "cross_papal"
+            spriteType = "GFX_cross_papal"
+            position = { x=49 y=162 }
+            Orientation = "UPPER_LEFT"
+        }
+
+        iconType = {
+            name = "tithe_state"
+            spriteType = "GFX_tithe_state"
+            position = { x=47 y=216 }
+            Orientation = "UPPER_LEFT"
+            scale = 0.8
+        }
+
+		iconType = {
+			name = "reform_desire_icon"
+			spriteType = "GFX_icon_catholic_reform_desire"
+			position = { x=47 y=105 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_reformdesire"
+		}
+
+		instantTextBoxType = {
+			name = "reform_desire_value"
+			position = { x=81 y=114 }
+			font = "vic_18"
+			borderSize = { x=0 y=0}
+			text = "0.0%"
+			maxWidth = 51
+			maxHeight = 30
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		guiButtonType = {
+			name = "buy_indulgence_button"
+			position = { x=185 y=210}
+			quadTextureSprite ="GFX_buy_indulgence_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+		}
+
+		guiButtonType = {
+			name = "appoint_cardinal_button"
+			position = { x=123 y=153}
+			quadTextureSprite ="GFX_appoint_cardinal_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+		}
+		instantTextBoxType = {
+			name = "curia_treasury_value"
+			position = { x=95 y=225 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = { x=0 y=0 }
+			text = "1234.5"
+			maxWidth = 90
+			maxHeight = 30
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "influence_value"
+			position = { x=78 y=168 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = { x=0 y=0 }
+			text = "24.18"
+			maxWidth = 51
+			maxHeight = 30
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		guiButtonType = {
+			name = "invest_button"
+			position = { x=127 y=153 }
+			quadTextureSprite ="GFX_invest_papacy_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		guiButtonType = {
+			name = "ecumenical_council_button"
+			position = { x=183 y=209 }
+			quadTextureSprite ="GFX_ecumenical_council_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "chance_value"
+			position = { x=171 y=165 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "25%"
+			maxWidth = 51
+			maxHeight = 39
+			format = center
+		}
+		##################################
+
+		guiButtonType = {
+				name = "sort_loyalty"
+				position = { x = 51 y = 309 }
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_LOYALTY"
+				buttonFont = "vic_18"
+				quadTextureSprite ="GFX_sort_100"
+		}
+		guiButtonType = {
+				name = "sort_amount"
+				position = { x = 168 y =312 }
+				quadTextureSprite ="GFX_sort_64"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "#"
+				buttonFont = "vic_18"
+		}
+		guiButtonType = {
+				name = "sort_influence"
+				position = { x = 243 y =309 }
+				quadTextureSprite ="GFX_sort_100"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_INFLUENCE"
+				buttonFont = "vic_18"
+		}
+		guiButtonType = {
+				name = "sort_invested"
+				position = { x = 361 y =309 }
+				quadTextureSprite ="GFX_sort_100"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_LABEL_INVESTED"
+				buttonFont = "vic_18"
+		}
+		guiButtonType = {
+				name = "sort_chance"
+				position = { x = 480 y =312 }
+				quadTextureSprite ="GFX_sort_88"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_LABEL_CHANCE"
+				buttonFont = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "TableHeaderText"
+			position = { x = 723 y = 789 }
+			textureFile = ""
+			font = "ledger_headline"
+			borderSize = {x = 1 y = 1}
+			text = ""
+			maxWidth = 180
+			maxHeight = 36
+
+			format = left
+		}
+
+
+		instantTextBoxType = {
+			name = "active_label"
+			position = { x = 207 y = 273 }
+
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 2}#was 0 0
+			text = "PAPACY_ACTIVE_CARDINALS"
+			maxWidth = 240
+			maxHeight = 39
+			format = centre
+		}
+
+		listboxType = {
+			name = "active_cardinal_list"
+			position = { x = 48 y = 345 }
+			backGround=""
+			size = { x=570  y = 432}
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		listboxType = {
+			name = "active_cardinal_list_with_council"
+			position = { x = 48 y = 340 }
+			backGround=""
+			size = { x=541  y = 210}
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		listboxType = {
+			name = "active_cardinal_list_with_finished_council"
+			position = { x = 48 y = 345 }
+			backGround=""
+			size = { x=541  y = 294}
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		gridBoxType = {
+			name = "action_gridbox"
+			position = { x = 420 y = 90 }
+			size = { width = 198 height = 96 }
+			slotsize = { width = 48 height = 48 }
+			max_slots_horizontal = 4
+			format = "UPPER_LEFT"
+		}	
+
+		instantTextBoxType = {
+			name = "golden_bulls_label"
+			position = { x = 432 y = 204 }
+
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "PAPACY_GOLDEN_BULLS"
+			maxWidth = 180
+			maxHeight = 39
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "picked_bull_label"
+			position = { x = 435 y = 231 }
+
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			fixedsize = yes
+			truncate = yes
+			maxWidth = 156
+			maxHeight = 24
+			format = left
+		}
+
+		guiButtonType = {
+			name = "pick_golden_bull_button"
+			position = { x=582 y=216 }
+			quadTextureSprite ="GFX_golden_bull_empty"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+		}
+
+		iconType = {
+			name ="picked_golden_bull_icon"
+			spriteType = "GFX_appoint_cardinal_button" # Set by code
+			position = { x= 582 y = 216 }
+		}
+
+		guiButtonType =
+		{
+			name ="controller_shield"
+			quadTextureSprite = "GFX_shield_thin"
+			position = { x= 271 y = 127 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			hint_tag = "hint_papalcontroller"
+		}
+
+		iconType =
+		{
+			name ="diplomatic_actions_icon"
+			spriteType = "GFX_more_dip_actions_icon_papacy"
+			position = { x= 303 y = 216 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_papalactions"
+			scale = 0.8
+		}
+
+		guiButtonType =
+		{
+			name ="crusade_target_shield"
+			quadTextureSprite = "GFX_crusade_target_shield"
+			position = { x= 324 y = 163 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+		}
+
+
+		guiButtonType = {
+				name = "close_button"
+				position = { x=240 y =775}
+				quadTextureSprite ="button_type_1"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_CLOSE"
+				buttonFont = "vic_18"
+
+				clicksound = close_window
+				shortcut = "ESCAPE"
+			}
+
+		########################################		
+		# Golden Bulls Subwindow
+		########################################
+
+		windowType = {
+			name = "golden_bulls_window"
+			backGround=""
+			position = { x=639 y=55 }
+			size = { x= 648 y=240 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+			iconType =
+			{
+				name ="background"
+				spriteType = "GFX_golden_bull_bg"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = 
+			{
+				name = "pcikbull_label"
+				position = { x = 45 y = 33 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "PAPACY_PICK_GOLDEN_BULL"
+				maxWidth = 264
+				maxHeight = 12
+				format = centre
+			}
+
+			instantTextBoxType = 
+			{
+				name = "bullcost_label"
+				position = { x = 42 y = 91 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "PAPACY_COST"
+				maxWidth = 264
+				maxHeight = 12
+				format = left
+			}
+
+        	iconType = {
+            	name = "tithe_state"
+            	spriteType = "GFX_tithe_state"
+            	position = { x=81 y=83 }
+            	Orientation = "UPPER_LEFT"
+            	scale = 0.75
+        	}
+
+			instantTextBoxType = {
+				name = "bull_cost"
+				position = { x = 123 y =91 }
+				font = "vic_18"
+				maxWidth = 156
+				maxHeight = 19
+			}
+
+			listboxType = {
+				name = "bull_list"
+				position = { x = 36 y = 127 }
+				backGround=""
+				size = { x=273  y = 324}
+				}
+		}
+		
+		########################################		
+		# Council of Trent Subwindow
+		########################################
+
+		windowType = {
+			name = "council_of_trent_window"
+			backGround=""
+			position = { x=0 y=480 }
+			size = { x= 648 y=240 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			
+			instantTextBoxType = {
+				name = "council_title"
+				position = { x = 240 y =63 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "COUNCIL_OF_TRENT"
+				maxWidth =180
+				maxHeight = 39
+				format = center
+				fixedsize = yes
+			}
+
+			iconType = {
+				name = "harsh_cardinal_icon"
+				position = { x=105 y =114 }
+				quadTextureSprite ="GFX_cardinal_icon"
+			}
+
+			instantTextBoxType = {
+				name = "harsh_cardinals"
+				position = { x = 140 y =123 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = ""
+				maxWidth =84
+				maxHeight = 39
+				format = left
+				fixedsize = yes
+			}
+
+			instantTextBoxType = {
+				name = "harsh_title"
+				position = { x = 128 y =96 }
+				textureFile = ""
+				font = "coyote_12b"
+				borderSize = {x = 5 y = 3}
+				text = "PAPACY_HARSH"
+				maxWidth =108
+				maxHeight = 39
+				format = left
+				fixedsize = yes
+			}
+
+			guiButtonType = {
+				name ="harsh_button"
+				quadTextureSprite = "GFX_council_harsh_icon"
+				position = { x= 48 y = 96 }
+				tooltip = ""
+				tooltipText =""
+				scale = 1.0
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+
+			iconType = {
+				name = "concilatory_cardinal_icon"
+				position = { x=516 y =114 }
+				quadTextureSprite ="GFX_cardinal_icon"
+			}
+
+			instantTextBoxType = {
+				name = "concilatory_cardinals"
+				position = { x = 430 y =123 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =84
+				maxHeight = 39
+				format = right
+				fixedsize = yes
+			}
+
+			instantTextBoxType = {
+				name = "concilatory_title"
+				position = { x = 438 y =96 }
+				textureFile = ""
+				font = "coyote_12b"
+				borderSize = {x = 5 y = 3}
+				text = "PAPACY_CONCILATORY"
+				maxWidth =108
+				maxHeight = 39
+				format = right
+				fixedsize = yes
+			}
+
+
+			guiButtonType = {
+				name ="concilatory_button"
+				quadTextureSprite = "GFX_council_conciliatory_icon"
+				position = { x= 563 y = 96 }
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				scale = 1.0
+				buttonFont = "Main_14_black"
+			}
+
+			
+			smoothListboxType = {
+				name = "harsh_list"
+				position = { x = 48 y = 163 }
+				size = { x=159 y = 123 }
+				scrollbartype = "standardlistbox_slider"
+			}
+			
+			smoothListboxType = {
+				name = "concilatory_list"
+				position = { x = 437 y = 163 }
+				size = { x=159  y = 123 }
+				scrollbartype = "standardlistbox_slider"
+			}
+			
+			
+			listboxType = {
+				name = "harsh_concessions"
+				position = { x = 225 y = 93 }
+				backGround=""
+				size = { x=120  y = 198 }
+				spacing = 3
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+
+			iconType = {
+				name = "concessions_ornament"
+				position = { x=313 y =119 }
+				quadTextureSprite ="GFX_concession_middle_ornament"
+			}
+			
+			listboxType = {
+				name = "concilatory_concessions"
+				position = { x = 324 y = 93 }
+				backGround=""
+				size = { x=120  y = 198}
+				spacing = 3
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+
+		########################################		
+		# Council of Trent Subwindow
+		########################################
+
+		windowType = {
+			name = "council_of_trent_finished_window"
+			backGround=""
+			position = { x=0 y=678 }
+			size = { x= 648 y=240 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			
+			instantTextBoxType = {
+				name = "council_title"
+				position = { x = 240 y =0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "COUNCIL_OF_TRENT"
+				maxWidth =180
+				maxHeight = 39
+				format = center
+				fixedsize = yes
+			}
+
+			listboxType = {
+				name = "picked_concessions"
+				position = { x = 120 y = 36 }
+				backGround=""
+				size = { x=600  y = 198}
+				spacing = 3
+				borderSize = {x = 0 y = 0}
+				horizontal = 1
+			}
+		}	
+	}
+	positionType = {
+		name = "cardinal_shield_position"
+		position = { x = -276 y = -84 }
+	}
+
+	positionType = {
+		name = "cardinal_shield_offset"
+		position = { x = 0 y = 39 }
+	}
+	
+	
+	windowType = {
+		name = "council_support_window"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=39 y=41 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 0 y = 0 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			hint_tag = "hint_cardinal"
+		}
+	}
+
+
+	windowType = {
+		name = "cardinal_window"
+		backGround=""
+		position = { x=-240 y=0 }
+		size = { x=480 y=42 } #was y34
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name ="cardinal_vote_shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 42 y = 0 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			hint_tag = "hint_cardinal"
+		}
+
+		instantTextBoxType = {
+				name = "number_of_cardinals"
+				position = { x = 125 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "PAPACY_MEMBER_STATES"
+				maxWidth =60
+				maxHeight = 39
+				format = center
+				fixedsize = yes
+			}
+
+		instantTextBoxType = {
+			name = "influence"
+			position = { x = 203 y = 5 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 3}
+			text = "0"
+			maxWidth = 96
+			maxHeight = 120
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "invested"
+			position = { x = 321 y = 5 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 3}
+			text = "0"
+			maxWidth = 96
+			maxHeight = 120
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "chance_of_pope"
+			position = { x = 438 y = 5 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 3}
+			text = "PAPACY_MEMBER_STATES"
+			maxWidth = 96
+			maxHeight = 120
+			format = center
+		}
+
+	}
+
+	windowType = {
+		name = "candidate_type"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 43 y = 39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "shield_button"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_shield_small"
+		}
+		textBoxType = {
+			name = "chance_value"
+			position = { x = 0 y = 18 }
+			textureFile = ""
+			font = "Main_14"
+			borderSize = {x = 0 y = 0}
+			text = "100%"
+			maxWidth = 43
+			maxHeight = 39
+			format = centre
+		}
+	}
+
+	guiButtonType = {
+		name = "cardinal_checkbox"
+		position = { x = 156 y = 42 }
+		quadTextureSprite ="GFX_checkbox_small"
+		tooltip = ""
+		tooltipText =""
+		delayedTooltipText = ""
+		buttonFont = ""
+	}
+	windowType = {
+		name = "papacy_action"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 48 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "action_button"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_papacy_action_strip"
+			font = "vic_18"
+		}
+	}
+	
+	
+	
+	windowType = {
+		name = "council_concession_left"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 108 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "action_button"
+			position = { x=12 y =6 }
+			quadTextureSprite ="GFX_idea_empty"
+			font = "vic_18"
+		}
+				
+		iconType = {
+			name = "selected_icon"
+			quadTextureSprite ="GFX_papacy_council_strip"
+				position = { x=12 y =6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "selected"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_concession_picked_glow"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "frame"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_concession_frame_left"
+			alwaystransparent = yes
+		}
+
+	}
+
+	windowType = {
+		name = "council_concession_right"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 108 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "action_button"
+			position = { x=9 y =6 }
+			quadTextureSprite ="GFX_idea_empty"
+			font = "vic_18"
+		}
+		
+		iconType = {
+			name = "selected_icon"
+			quadTextureSprite ="GFX_papacy_council_strip"
+			position = { x=9 y =6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "selected"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_concession_picked_glow"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "frame"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_concession_frame_right"
+			alwaystransparent = yes
+		}
+
+	}
+
+	windowType = {
+		name = "council_concession_picked"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 108 y = 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "action_button"
+			position = { x=9 y =6 }
+			quadTextureSprite ="GFX_idea_empty"
+			font = "vic_18"
+		}
+
+		iconType = {
+			name = "selected_indicator"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_concession_frame_right"
+				alwaystransparent = yes
+		}
+		
+		
+		iconType = {
+			name = "selected_icon"
+			quadTextureSprite ="GFX_papacy_council_strip"
+			position = { x=9 y =6 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+
+	}
+
+	windowType = {
+		name = "golden_bull_entry"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x = 324 y = 53 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "bull_button"
+			position = { x=6 y =0 }
+			quadTextureSprite ="GFX_idea_empty" # Set by code
+			font = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "bull_name"
+			position = { x = 69 y =12 }
+			font = "vic_18"
+			maxWidth = 192
+			maxHeight = 19
+		}
+	}
+
+	windowType = {
+		name = "council_of_trent_side_list"
+		position = { x=0 y=0 }
+		size = { x=168 y=144 }
+		moveable = 0
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullscreen = no
+
+		gridBoxType = {
+			name = "gridbox"
+			position = { x = 0 y = 0 }
+			size = { width = 168 height = 240 }
+			slotsize = { width = 41 height = 41 }
+			max_slots_horizontal = 4
+			format = "UPPER_LEFT"
+		}
+	}
+}

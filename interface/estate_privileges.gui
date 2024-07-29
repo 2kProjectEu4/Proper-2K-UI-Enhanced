@@ -1,0 +1,266 @@
+guiTypes = {
+
+	windowType = {
+		name = "estate_privileges_window"
+		position = { x= 576 y= 33}
+		size = { x=900 y=1020 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+		Orientation = "UPPER_LEFT"
+
+		iconType = {
+			name ="copts_bg"
+			spriteType = "GFX_estate_privileges_bg"
+			position = { x= -11959 y = -11901 }
+		}
+
+		instantTextBoxType = {
+			name = "header_label"
+			position = { x = -11971 y = -11949 }
+			format = centre
+			textureFile = ""
+			font = "vic_29"
+			borderSize = {x = 5 y = 5}
+			text = "SEVEN BLESSINGS TO YOU"
+			maxWidth = 701
+			maxHeight = 39
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="copts_list_bg"
+			spriteType = "GFX_estate_privileges_bg"
+			position = { x= 79 y = 21 }
+		}
+
+		instantTextBoxType = {
+			name = "label"
+			position = { x = 300 y = 111 }
+			format = centre
+			textureFile = ""
+			font = "vic_22s"
+			borderSize = {x = 5 y = 48}
+			text = ""
+			maxWidth = 701
+			maxHeight = 39
+		}
+
+		listboxType =  {
+			name ="privileges_listbox"
+			position = { x = 138 y = 193 }
+			backGround=""
+			size = { x = 1021 y = 967 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 12 y = 12}
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x= 564 y = 1176}
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "HRE_CLOSE"
+			buttonFont = "vic_18"
+			clicksound = close_window
+			shortcut = "ESCAPE"
+		}
+	}
+
+	windowType = {
+		name = "estate_privilege_entry"
+		backGround =""
+		position = { x=0 y=-18 }
+		size = { x=588 y=138 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		iconType = {
+			name = "title_banner"
+			spriteType ="GFX_estate_privilege_entry"
+			position = { x = -18 y = -18 }
+		}
+
+		instantTextBoxType = {
+			position = { x = 66 y = -7}
+			name = "title"
+			font = "vic_22s"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 276
+			maxHeight = 12
+			text = ""
+			format = left
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "modifiers"
+			position = { x = 348 y = -7 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			text = ""
+			maxWidth = 312
+			maxHeight = 129
+			#scrollbarType = "standardlistbox_invisible"
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "effects"
+			position = { x = 690 y = -7 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			text = ""
+			maxWidth = 330
+			maxHeight = 132
+			#scrollbarType = "standardlistbox_invisible"
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "cooldown"
+			position = { x = 25 y = 70 }
+			format = right
+			textureFile = ""
+			font = "Main_14"
+			text = ""
+			maxWidth = 264
+			maxHeight = 144
+		}
+
+		WindowType = {
+			name = "loyalty_entry"
+			position = { x = 60 y = 12 }
+			size = { x = 65 y = 26 }
+
+			iconType = {
+				name = "loyalty_entry_background"
+				spriteType = "GFX_ledger_invisible_button65x26"
+			}
+
+			iconType = {
+				name = "loyalty_icon"
+				spriteType = "GFX_idea_unknown"
+				scale = 0.5
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "loyalty"
+				position = { x = 35 y = 8 }
+				format = left
+				font = "vic_18"
+				maxWidth = 30
+				maxHeight = 16
+				alwaystransparent = yes
+			}
+		}
+
+		WindowType = {
+			name = "influence_entry"
+			position = { x = 130 y = 12 }
+			size = { x = 65 y = 26 }
+		
+			iconType = {
+				name = "influence_entry_background"
+				spriteType = "GFX_ledger_invisible_button65x26"
+			}
+
+			iconType = {
+				name = "influence_icon"
+				spriteType = "GFX_idea_unknown"	
+				scale = 0.5
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "influence"
+				position = { x = 35 y = 8 }
+				format = left
+				font = "vic_18"
+				maxWidth = 30
+				maxHeight = 16
+				alwaystransparent = yes
+			}
+		}
+
+		WindowType = {
+			name = "landshare_entry"
+			position = { x = 210 y = 13 }
+			size = { x = 65 y = 26 }
+
+			iconType = {
+				name = "landshare_entry_background"
+				spriteType = "GFX_ledger_invisible_button65x26"
+			}
+
+			iconType = {
+				name = "landshare_icon"
+				spriteType ="GFX_crownland"	
+				scale = 0.7
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "landshare"
+				position = { x = 30 y = 7 }
+				format = left
+				font = "vic_18"
+				maxWidth = 30
+				maxHeight = 16
+				alwaystransparent = yes
+			}
+		}
+
+		windowType = {
+			name = "max_absolutism_entry"
+			position = { x = 283 y = 19 }
+			size = { x = 65 y = 26 }
+
+			iconType = {
+				name = "max_absolutism_entry_background"
+				spriteType = "GFX_ledger_invisible_button65x26"
+			}
+
+			iconType = {
+				name = "max_absolutism_icon"
+				spriteType = "GFX_icon_max_absolutism"	
+				scale = 0.8
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "max_absolutism"
+				position = { x = 23 y = 1 }
+				format = left
+				font = "vic_18"
+				maxWidth = 30
+				maxHeight = 16
+				alwaystransparent = yes
+			}
+		}
+
+		guiButtonType = {
+			name = "privilege_frame_button"
+			position = { x = -1 y = -18 }
+			quadTextureSprite ="GFX_privilege_blank"
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "privilege_button"
+			position = { x=-3 y = -18 }
+			quadTextureSprite ="GFX_idea_unknown"
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

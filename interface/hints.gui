@@ -1,0 +1,355 @@
+guiTypes = 
+{
+	windowType = 
+	{
+		name = "hints_test"
+		backGround=""
+		position = { x=-343 y=-702 }
+		size = { x=720 y=600 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation="LOWER_RIGHT"
+		click_to_front = yes
+		
+		iconType =
+		{
+			name ="hint_open_bg"
+			spriteType = "GFX_hint_open"
+			position = { x= -3 y = -3}
+		}
+
+		instantTextBoxType = 
+		{
+			name = "hint_banner_text"
+			position = { x = 48 y = 279 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "HINT_BANNER_TEXT"
+			maxWidth = 240
+			maxHeight = 29
+			fixedsize = yes
+			format = centre
+		}
+		
+		guiButtonType =
+		{
+			name = "hint_minimise"
+			quadTextureSprite = "GFX_hint_minimise"
+			position = { x = 18 y = 6 }
+			clicksound = click
+			#pdxtoolti = "TUT_MINIMISE_TOOLTIP"
+		}
+		
+		guiButtonType =
+		{ #hint click when hints are maximized
+			name ="hint_questionmark"
+			quadTextureSprite = "GFX_hint_click"
+			position = { x= 270 y = 6}
+			shortcut = "h"
+		}
+			
+		guiButtonType =	
+		{
+			name = "disable_this"
+			position = { x=9 y=408 }
+			quadTextureSprite ="GFX_button_straight_87_32"
+			buttonFont = "vic_18"
+			buttonText = "HINTS_DISABLE_HINT"
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		guiButtonType =	
+		{
+			name = "disable_hints"
+			position = { x=229 y=408 }
+			quadTextureSprite ="GFX_button_straight_87_32"
+			buttonFont = "vic_18"
+			buttonText = "HINTS_DISABLE_ALL_HINTS"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = 
+		{
+			name = "Title"
+			position = { x = 48 y = 13 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 240
+			maxHeight = 29
+			fixedsize = yes
+			format = centre
+		}
+			
+		instantTextBoxType = 
+		{
+			name = "Text_0"
+			position = { x = 18 y = 54 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "hint text"	
+			maxWidth = 288
+			maxHeight = 198
+			scrollbartype = "standardtext_slider"
+		}
+		
+		#instantTextBoxType = 
+		#{
+		#	name = "Text_1"
+		#	position = { x = 18 y = 102 }
+		#	textureFile = ""
+		#	font = "vic_18_black"
+		#	borderSize = {x = 0 y = 0}
+		#	text = ""	
+		#	maxWidth = 309
+		#	maxHeight = 240	
+		#	format = left
+		#}
+		#	
+		#instantTextBoxType = 
+		#{
+		#	name = "Text_2"
+		#	position = { x = 18 y = 150 }
+		#	textureFile = ""
+		#	font = "vic_18_black"
+		#	borderSize = {x = 0 y = 0}
+		#	text = ""	
+		#	maxWidth = 309
+		#	maxHeight = 240	
+		#	format = left
+		#}
+		#
+		#instantTextBoxType = 
+		#{
+		#	name = "Text_3"
+		#	position = { x = 18 y = 198 }
+		#	textureFile = ""
+		#	font = "vic_18_black"
+		#	borderSize = {x = 0 y = 0}
+		#	text = ""	
+		#	maxWidth = 309
+		#	maxHeight = 240	
+		#	format = left
+		#}
+		#
+		#instantTextBoxType = 
+		#{
+		#	name = "Text_4"
+		#	position = { x = 18 y = 246 }
+		#	textureFile = ""
+		#	font = "vic_18_black"
+		#	borderSize = {x = 0 y = 0}
+		#	text = ""	
+		#	maxWidth = 309
+		#	maxHeight = 240	
+		#	format = left
+		#}
+		
+		guiButtonType = {
+			name = "button_0"
+			position = { x=48 y =300 }
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = hint
+		}
+		
+		guiButtonType = {
+			name = "button_1"
+			position = { x=48 y = 336 }
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = hint
+		}
+		
+		guiButtonType = {
+			name = "button_2"
+			position = { x=48 y = 372 }
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = hint
+		}
+	}
+
+	windowType = 
+	{
+		name = "hints_minimized"
+		backGround=""
+		position = { x=-343 y=-291 }		
+		size = { x=720 y=600 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation="LOWER_RIGHT"
+		click_to_front = yes
+		
+		iconType =
+		{
+			name ="hint_open_bg"
+			spriteType = "GFX_hint_closed"
+			position = { x= -3 y = -9}
+		}
+		
+		instantTextBoxType = 
+		{
+			name = "Title_minimised"
+			position = { x = 45 y = 6 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "HINTBAR_HINTS"
+			maxWidth = 240
+			maxHeight = 29
+			fixedsize = yes
+			format = centre
+		}		
+		
+		guiButtonType =
+		{
+			name = "hint_maximize"
+			quadTextureSprite = "GFX_hint_maximise"
+			position = { x = 18 y = 0 }
+			clicksound = click
+		}
+		
+		guiButtonType =
+		{ #hint click when hints are minimized
+			name ="hint_questionmark"
+			quadTextureSprite = "GFX_hint_click"
+			position = { x= 269 y = 0}
+			shortcut = "h"
+		}		
+	}
+	
+	windowType = 
+	{ #containes all the tutorial text
+		name = "hints_window"
+		backGround=""
+		position = { x=-342 y=-705 }		
+		size = { x=341 y=420 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation="LOWER_RIGHT"
+		#click_to_front = yes
+				
+		iconType =
+		{
+			name ="hint_open_bg"
+			spriteType = "GFX_hint_open"
+			position = { x= -5 y = -1}
+		}
+		
+		iconType =
+		{
+			name ="hint_questionmark"
+			spriteType = "GFX_hint_questionmark"
+			position = { x= 291 y = 3}
+		}			
+		
+		guiButtonType =
+		{
+			name = "hint_minimise"
+			quadTextureSprite = "GFX_hint_minimise"
+			position = { x = 17 y = 9 }
+			
+			clicksound = click
+			
+		}
+	}
+
+	windowType = 
+	{
+		name = "tutorial_minimized"
+		backGround=""
+		position = { x=-343 y=-291 }		
+		size = { x=720 y=600 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation="LOWER_RIGHT"
+		click_to_front = yes
+		
+		iconType =
+		{
+			name ="hint_open_bg"
+			spriteType = "GFX_hint_closed"
+			position = { x= -3 y = -9}
+		}
+		
+		guiButtonType =
+		{
+			name = "hint_maximize"
+			quadTextureSprite = "GFX_hint_maximise"
+			position = { x = 18 y = 0 }
+			clicksound = click
+		}
+		
+		instantTextBoxType = {
+			name = "tutorial_page_title"
+			position = { x = 72 y = 6 }
+			font = "vic_18"
+			borderSize = { x = 0 y = 0 }
+			text = "page title"	
+			maxWidth = 240
+			maxHeight = 24	
+			format = left
+		}
+	}
+	
+	instantTextBoxType = 
+	{ #needed, else everything explodes. has to have specific name as well
+		#tutorial.gui title
+		name = "tutorial_page_title"
+		position = { x = 72 y = 15 }
+		#position = { x = 120 y = 15 }
+		font = "vic_18"
+		borderSize = { x = 0 y = 0 }
+		text = "page title"	
+		maxWidth = 240
+		maxHeight = 24	
+		format = left
+	}
+	
+	instantTextBoxType = 
+	{ #needed. breaks otherwise
+		name = "tutorial_page_text"
+		position = { x = 18 y = 54 }
+		textureFile = ""
+		font = "vic_18"
+		borderSize = {x = 0 y = 0}
+		text = "page text"	
+		maxWidth = 288
+		maxHeight = 198
+		format = left
+		scrollbartype = "standardtext_slider"
+	}
+	
+	iconType =
+	{ #needed. breaks otherwise
+		name ="tutorial_objectives_textbox"
+		spriteType = "GFX_tutorial_objectives_textbox"
+		position = { x=9 y =318 }
+	}
+}

@@ -1,0 +1,168 @@
+guiTypes = {
+		windowType = {
+			name ="menu_save"
+			backGround=""
+			position = { x= -269 y = -540 }
+			size = { x=567 y = 629 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+			Orientation = "CENTER"
+
+
+		iconType =
+		{
+			name ="save_load_game_bg"
+			spriteType = "GFX_save_load_game_bg"
+			position = { x= -29 y = -7 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+			#guiButtonType =
+			#{
+			#	name = "back"
+			#	position = { x = 396 y = 126 }
+			#	quadTextureSprite ="button_type_7"
+			#	buttonText = "MENU_BAR_BACK"
+			#	buttonFont = "vic_18"
+			#}
+
+			guiButtonType = {
+				name = "localgames_tab"
+				position = { x = 131  y = 123 }
+				quadTextureSprite ="GFX_tab_small_116"
+				Orientation = "UPPER_LEFT"
+			}
+
+			guiButtonType = {
+				name = "cloudgames_tab"
+				position = { x = 276 y = 123 }
+				quadTextureSprite ="GFX_tab_small_116"
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "localgames_label"
+				position = { x = 138 y = 135 }
+
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "MENU_BAR_LOCALGAMES"
+				maxWidth = 120
+				maxHeight = 24
+				fixedsize = yes
+
+				Orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			instantTextBoxType = {
+				name = "cloudgames_label"
+				position = { x = 283 y = 135}
+
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "MENU_BAR_CLOUDGAMES"
+				maxWidth = 120
+				maxHeight = 24
+				fixedsize = yes
+
+				Orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			listboxType =
+			{
+				name ="games"
+				position = { x=73 y =169}
+				backGround=""
+				size = { x=359 y = 689}
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+				Orientation = "UPPER_LEFT"
+			}
+
+
+
+			instantTextBoxType={
+				position = {x = 150 y = 870 }
+				name = "filename_label"
+				font = "vic_18"
+				borderSize = {x = 9 y = 0}
+				maxWidth = 225
+				maxHeight = 21
+				text = "MENU_BAR_SAVE_GAME_FILENAME"
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			editBoxType = {
+				position = { x = 96 y = 894 }
+				name = "game_name"
+				font = "vic_18"
+				borderSize = { x = 9 y = 9  }
+				size = { x=330 y=51 }
+				text = ""
+				orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType={
+				position = {x = 411 y = 870 }
+				name = "compressed_label"
+				font = "vic_18"
+				borderSize = {x = 9 y = 0}
+				maxWidth = 120
+				maxHeight = 21
+				text = "MENU_BAR_SAVE_GAME_COMPRESSED"
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			checkboxType = {
+				name = "checkbox_compressed"
+				position = { x = 461 y = 891 }
+				quadTextureSprite = "GFX_checkbox_gold_32"
+				buttonFont = "vic_18"
+				pdx_tooltip = "CHECKBOX_COMPRESSED_SAVEGAMES"
+				orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType={
+				position = {x = 186 y = 942 }
+				name = "disk_quota"
+				font = "vic_18"
+				borderSize = {x = 9 y = 0}
+				maxWidth = 156
+				maxHeight = 21
+				text = "MENU_BAR_DISK_QUOTA"
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			guiButtonType = {
+				name = "cancel"
+				position = { x = 13 y = 930 }
+				quadTextureSprite ="button_type_7"
+				buttonText = "SM_BACK"
+				buttonFont = "Main_16"
+				clicksound = back_click
+				shortcut = "ESCAPE"
+			}
+			guiButtonType = {
+				name = "save"
+				position = { x = 349 y = 930 }
+				quadTextureSprite ="button_type_7"
+				buttonText = "MENU_BAR_SAVE"
+				buttonFont = "Main_16"
+			}
+		}
+
+}

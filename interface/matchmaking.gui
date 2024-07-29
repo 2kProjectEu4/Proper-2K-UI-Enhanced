@@ -1,0 +1,377 @@
+guiTypes = {
+	windowType = {
+		name = "matchmaking_window"
+		backGround=""
+		position = { x=-613 y=-336 }	
+		size = { x=1227 y=672 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"	
+
+		windowType = {
+			name = "matchmaking_servers_window"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=1227 y=672 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			iconType =
+			{
+				name ="background"
+				spriteType = "GFX_matchmaking_browser_bg"
+				position = { x= 0 y = 0 }
+			}
+			
+			instantTextBoxType={
+				name = "filter_no_password_title"
+				position = { x= 67 y = 153 }
+				borderSize = {x = 0 y = 0}				
+				maxWidth = 307
+				maxHeight = 29			
+				font = "vic_18"
+				text = "MATCHMAKING_FILTER_NOPASSWORD"	
+			}		
+			
+			checkboxType = {
+				name = "filter_no_password"
+				position = { x= 30 y = 143 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}		
+			
+			instantTextBoxType={
+				name = "filter_not_full_title"
+				position = { x= 223 y = 153 }
+				borderSize = {x = 0 y = 0}				
+				maxWidth = 153
+				maxHeight = 29			
+				font = "vic_18"
+				text = "MATCHMAKING_FILTER_NOTFULL"	
+			}		
+			
+			checkboxType = {
+				name = "filter_not_full"
+				position = { x= 186 y = 143 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}
+			
+			instantTextBoxType={
+				name = "filter_has_players_title"
+				position = { x= 349 y = 153 }
+				borderSize = {x = 0 y = 0}				
+				maxWidth = 153
+				maxHeight = 29			
+				font = "vic_18"
+				text = "MATCHMAKING_FILTER_HASPLAYERS"	
+			}		
+			
+			checkboxType = {
+				name = "filter_has_players"
+				position = { x= 312 y = 143 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}						
+			
+			checkboxType = {
+				name = "filter_mod"
+				position = { x= 450 y = 143 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}		
+			
+			instantTextBoxType={
+				name = "filter_mod_title"
+				position = { x= 487 y = 153 }
+				borderSize = {x = 0 y = 0}				
+				maxWidth = 307
+				maxHeight = 29			
+				font = "vic_18"
+				text = "MATCHMAKING_FILTER_MOD"	
+			}			
+			
+			editBoxType = {
+				position = { x = 774 y = 135  }
+				name = "filter_tags"
+				font = "Main_16"
+				borderSize = {x = 17 y = 9}	
+				size = { x=307 y=39 }
+				text = "MATCHMAKING_SERVER_FILTER_SEARCH"	
+				orientation = "UPPER_LEFT"
+			}
+			
+			editBoxType = {
+				position = { x = 774 y = 93  }
+				name = "filter_name"
+				font = "Main_16"
+				borderSize = {x = 17 y = 9}	
+				size = { x=307 y=39 }
+				text = "MATCHMAKING_SERVER_FILTER_SEARCH_NAMES"	
+				orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType =
+			{
+				name = "filter_tags_search"
+				quadTextureSprite = "button_type_9"
+				position = { x = 1077 y = 137  }
+				buttonText = "MESSAGE_BUTTON_SEARCH"
+				buttonFont = "vic_18"
+			}			
+			
+			instantTextBoxType={
+				name = "no_servers"
+				position = {x = 30 y = 225 }
+				borderSize = {x = 0 y = 0}				
+				maxWidth = 615
+				maxHeight = 39			
+				font = "vic_18"
+				text = "MATCHMAKING_SERVERS_DOSEARCH"	
+			}
+			
+			listboxType = 
+			{
+				name ="servers"
+				position = { x = 24 y = 223 }
+				backGround=""
+				size = { x = 1164 y = 345 }
+				Orientation = "UPPER_LEFT"
+				spacing = 1
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+			
+			#guiButtonType =
+			#{
+			#	name = "quick_refresh"
+			#	quadTextureSprite = "button_type_1"
+			#	position = { x = 300 y = 607  }
+			#	buttonText = "MATCHMAKING_QUICK_REFRESH"
+			#	buttonFont = "vic_18"
+			#}			
+
+			guiButtonType =
+			{
+				name = "refresh_internet"
+				quadTextureSprite = "button_type_1"
+				position = { x = 660 y = 607  }
+				buttonText = "MATCHMAKING_REFRESH_INTERNET"
+				buttonFont = "vic_18"
+			}
+			
+			guiButtonType =
+			{
+				name = "join"
+				quadTextureSprite = "button_type_1"
+				position = { x = 840 y = 607  }
+				buttonText = "MATCHMAKING_JOIN_SERVER"
+				buttonFont = "vic_18"
+			}		
+			
+			guiButtonType =
+			{
+				name = "host"
+				quadTextureSprite = "button_type_1"
+				position = { x = 1020 y = 607  }
+				buttonText = "MATCHMAKING_HOST_SERVER"
+				buttonFont = "vic_18"
+			}		
+			
+			guiButtonType =
+			{
+				name = "sort_by_password"
+				quadTextureSprite = "GFX_sort_81"
+				position = { x= 30  y = 185 }
+				buttonText = "MATCHMAKING_SERVER_PASSWORD"
+				buttonFont = "vic_18"
+			}		
+
+			guiButtonType =
+			{
+				name = "sort_by_name"
+				quadTextureSprite = "GFX_sort_247"
+				position = { x= 127 y = 185  }
+				buttonText = "MATCHMAKING_SERVER_NAME"
+				buttonFont = "vic_18"
+			}
+
+			guiButtonType =
+			{
+				name = "sort_by_slots"
+				quadTextureSprite = "GFX_sort_81"
+				position = { x= 423 y = 185  }
+				buttonText = "MATCHMAKING_SERVER_SLOTS"
+				buttonFont = "vic_18"
+			}		
+			
+			guiButtonType =
+			{
+				name = "sort_by_version"
+				quadTextureSprite = "GFX_sort_81"
+				position = { x= 521 y = 185  }
+				buttonText = "MATCHMAKING_SERVER_VERSION"
+				buttonFont = "vic_18"
+			}	
+			
+			guiButtonType =
+			{
+				name = "sort_by_tags"
+				quadTextureSprite = "GFX_sort_242"
+				position = { x= 618 y = 185  }
+				buttonText = "MATCHMAKING_SERVER_TAGS"
+				buttonFont = "vic_18"
+			}		
+			
+			guiButtonType =
+			{
+				name = "sort_by_mod"
+				quadTextureSprite = "GFX_sort_160"
+				position = { x= 894 y = 183  }
+				buttonText = "MATCHMAKING_SERVER_MOD"
+				buttonFont = "vic_18"
+			}		
+			
+			guiButtonType =
+			{
+				name = "sort_by_status"
+				quadTextureSprite = "GFX_sort_81"
+				position = { x= 1085 y = 185  }
+				buttonText = "MATCHMAKING_SERVER_STATUS"
+				buttonFont = "vic_18"
+			}			
+		}		
+		
+		instantTextBoxType = {
+			name = "matchmaking_title"
+			position = { x = 307 y = 5 }
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 5 y = 5}	
+			text = "MATCHMAKING_TITLE"
+			maxWidth = 615
+			maxHeight = 39
+			format = centre			
+		}
+
+		guiButtonType =
+		{
+			name = "back"
+			quadTextureSprite = "button_type_6"
+			position = { x = 24 y = 607  }
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType =
+		{
+			name = "close"
+			quadTextureSprite = "GFX_button_close"
+			position = { x= 1171 y = 13 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "standard_font"
+		}		
+	}
+	
+	windowType = {
+		name = "matchmaking_server_item"
+		backGround=""
+		position = { x = 0 y = 0 }	
+		size = { x = 960 y = 43 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType =
+		{
+			name = "select"
+			quadTextureSprite = "GFX_matchmaking_browser_list_item_bg"
+			position = { x = -1 y = -5  }
+		}	
+		
+		iconType =
+		{
+			name ="password"
+			spriteType = "GFX_matchmaking_password_icon"
+			position = { x= 27 y = -7 }
+		}
+		
+		instantTextBoxType={
+			name = "name"
+			position = {x = 105 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 289
+			maxHeight = 21			
+			font = "vic_18"
+			text = ""
+			fixedsize = yes
+			truncate = yes
+			format = center
+		}
+
+		instantTextBoxType={
+			name = "slots"
+			position = {x = 399 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 93
+			maxHeight = 21			
+			font = "vic_18"
+			text = ""
+			fixedsize = yes
+			format = center
+		}		
+		
+		instantTextBoxType={
+			name = "version"
+			position = {x = 495 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 102
+			maxHeight = 21			
+			font = "vic_18"
+			text = "1.0.2"
+			fixedsize = yes
+			format = center
+		}		
+		
+		instantTextBoxType={
+			name = "tags"
+			position = {x = 591 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 277
+			maxHeight = 21			
+			font = "vic_18"
+			text = ""
+			fixedsize = yes
+			format = center
+		}		
+
+		instantTextBoxType={
+			name = "mod"
+			position = {x = 870 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 189
+			maxHeight = 21			
+			font = "vic_18"
+			text = "Sengoku"
+			fixedsize = yes
+			format = center
+		}		
+		
+		instantTextBoxType={
+			name = "status"
+			position = {x = 1062 y = 7 }
+			borderSize = {x = 0 y = 0}				
+			maxWidth = 113
+			maxHeight = 21			
+			font = "vic_18"
+			text = ""
+			fixedsize = yes
+			format = center
+		}		
+	}	
+}

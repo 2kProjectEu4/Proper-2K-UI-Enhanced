@@ -1,0 +1,291 @@
+guiTypes = {
+	windowType = {
+		# For recommended_dlc_icons_list in the dlc browser
+		name = "recommended_dlc_entry"
+		backGround=""
+		position = { x=0 y=120 }
+		size = { x = 47 y = 51 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "dlc_button"
+			quadTextureSprite = "GFX_dlc_default_icon"
+			position = { x = 0 y = 0 }
+		}
+
+		iconType ={
+			name = "dlc_icon"
+			spriteType = "GFX_dlc_default_icon"
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	windowType = {
+		name = "dlc_browser"
+	}
+
+	windowType = {
+		name = "interesting_country"
+		background = ""
+		position = { x=0 y=0 }
+		size = { x=240 y=51 }
+		moveable = 0
+		Orientation = "UPPER_LEFT"
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x=36 y=5 }
+			borderSize = { x=5 y=5 }
+			maxWidth = 189
+			maxHeight = 51
+			format = left
+		}
+
+		guiButtonType = {
+			name = "country_shield"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_shield_small"
+		}
+	}
+
+	windowType = {
+		name = "expansion_landing_page"
+		backGround = ""
+		position = { x=-557	y=-468 }
+		size = { x=1115 y=774 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen = no
+		Orientation = "CENTER"
+
+
+
+		iconType ={
+			name = "dlc_browser_bg"
+			spriteType = "GFX_dlc_browser_expansion_bg"
+			position = { x=-67 y=0 }
+		}
+
+		iconType ={
+			name = "dlc_header_image"
+			spriteType = "LANDING_GENERIC_HEADER_PICTURE"
+			position = { x=180 y=147 }
+		}
+
+        instantTextBoxType = {
+            name = "dlc_title"
+            position = { x=108 y=396 }
+            font = "vic_22"
+            borderSize = { x=5 y=5 }
+            text = "STATISTICS"
+            maxWidth = 883
+            maxHeight = 30
+            format = center
+        }
+        instantTextBoxType = {
+            name = "dlc_desc_title"
+            position = { x=240 y=456 }
+            font = "standard_font"
+			text = "DLC_FEATURES"
+            maxWidth = 480
+            maxHeight = 396
+        }
+
+        instantTextBoxType = {
+            name = "dlc_desc"
+            position = { x=36 y=492 }
+            font = "standard_font"
+            maxWidth = 480
+            maxHeight = 396
+        }
+		instantTextBoxType = {
+            name = "dlc_flavor_title"
+            position = { x=780 y=456 }
+            font = "standard_font"
+			text = "DLC_DESCRIPTION"
+            maxWidth = 480
+            maxHeight = 396
+        }
+
+		instantTextBoxType = {
+            name = "dlc_flavor"
+            position = { x=588 y=492 }
+            font = "standard_font"
+            maxWidth = 480
+            maxHeight = 396
+        }
+		instantTextBoxType = {
+            name = "recommended_dlcs"
+            position = { x=27 y=189 }
+            font = "standard_font"
+			format = center
+			text = "RECOMMENDED_DLCS"
+            maxWidth = 120
+            maxHeight = 396
+        }
+
+		listboxType =  {
+			# List of recommended_dlc_entry
+			name = "recommended_dlc_icons_list"
+			position = { x=66 y=231 }
+			backGround = ""
+			size = { x=1200 y=1200 } # These get inverted by horizontal = yes
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = -3
+			borderSize = { x=0 y=0 }
+		}
+
+		guiButtonType = {
+			name = "back_button"
+			quadTextureSprite = "button_type_1"
+			position = { x=240 y=804 }
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "view_in_store_button"
+			quadTextureSprite = "button_type_1"
+			position = { x=684 y=804 }
+			buttonText = "VIEW_ON_STORE"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="close_button"
+			quadTextureSprite = "button_type_4"
+			position = { x= -141 y = 432 }
+			buttonText = "CLOSE"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+			Orientation = "CENTER"
+		}
+		instantTextBoxType = {
+            name = "recommended_countries"
+            position = { x=951 y=189 }
+            font = "standard_font"
+			format = center
+			text = "RECOMMENDED_COUNTRIES"
+            maxWidth = 120
+            maxHeight = 396
+        }
+
+		listboxType =  {
+			# List of interesting countries
+			name = "interesting_countries"
+			position = { x=936 y=234 }
+			backGround = ""
+			size = { x=1200 y=1200 }
+			Orientation = "UPPER_LEFT"
+			spacing = -6
+			borderSize = { x=0 y=0 }
+		}
+	}
+
+	windowType = {
+		name = "minor_landing_page"
+		backGround= ""
+		position = { x=-557	y=-372 }
+		size = { x=1115 y=774 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen = no
+		Orientation = "CENTER"
+
+		iconType ={
+			name = "dlc_browser_bg"
+			spriteType = "GFX_dlc_browser_other_bg"
+			position = { x=223 y=-114 }
+		}
+
+		iconType ={
+			name = "dlc_header_image"
+			spriteType = "LANDING_GENERIC_HEADER_PICTURE"
+			position = { x=223 y=21 }
+		}
+
+        instantTextBoxType = {
+            name = "dlc_title"
+            position = { x=126 y=309 }
+            font = "vic_22"
+            borderSize = { x=5 y=5 }
+            text = "STATISTICS"
+            maxWidth = 883
+            maxHeight = 30
+            format = center
+        }
+
+        instantTextBoxType = {
+            name = "dlc_desc_and_flavor"
+            position = { x=300 y=360 }
+			borderSize = {x = 0 y = 0}
+            font = "standard_font"
+            maxWidth = 516
+			maxHeight = 220
+			scrollbartype = "standardlistbox_slider"
+			format = left
+        }
+
+		instantTextBoxType = {
+            name = "dlc_recommended"
+            position = { x=369 y=636 }
+            font = "standard_font"
+            borderSize = { x=5 y=5 }
+            text = "RECOMMENDED_DLCS"
+            maxWidth = 360
+            maxHeight = 30
+            format = center
+        }
+
+		listboxType =  {
+			# List of recommended_dlc_entry
+			name = "recommended_dlc_icons_list"
+			position = { x=396 y=669 }
+			backGround= ""
+			size = { x=1200 y=1200 } # These get inverted by horizontal = yes
+			Orientation = "UPPER_LEFT"
+			horizontal = 1
+			spacing = -6
+			borderSize = { x=0 y=0 }
+		}
+
+		guiButtonType = {
+			name = "back_button"
+			quadTextureSprite = "button_type_7"
+			position = { x=288 y=744 }
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "view_in_store_button"
+			quadTextureSprite = "button_type_7"
+			position = { x=648 y=744 }
+			buttonText = "VIEW_ON_STORE"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			quadTextureSprite = "button_type_1"
+			position = { x=-90 y=348 }
+			buttonText = "CLOSE"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+			Orientation = "CENTER"
+		}
+	}
+}

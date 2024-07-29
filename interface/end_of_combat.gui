@@ -1,0 +1,1873 @@
+guiTypes = {
+	
+	#/////////////////////////////// LAND COMAT//////////////////////////////////////
+	
+	positionType = {
+		name = "3d_view_size"
+		position = { x=240 y=426 }
+	}
+	
+	eu3dialogtype = {
+		name = "EndOfLandCombatPopup"
+		backGround="Background"
+		position = { x=-270 y=-216 }	
+		size = { x=540 y=336 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_combat_result_bg_area"
+		}
+		
+		windowType = {
+			name = "left_3d_view"
+			backGround=""
+			position = { x= -235 y=6 }	
+			size = { x = 204 y = 21 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+			iconType = {		
+				name ="3d_view_left_bg"
+				spriteType = "GFX_3d_unit_bg"
+				position = { x= 0 y = 0 }
+				scale = 1.0
+			} 	
+			
+			iconType =
+			{
+				name ="left_mega_flag"
+				spriteType = "GFX_mega_flag"
+				position = { x= 71 y = 6 }
+			}
+			
+			iconType = {
+				name ="3d_view_left_frame"
+				spriteType = "GFX_3d_unit_frame"
+				position = { x= -3 y = -3 }
+			}
+			
+			iconType = {
+				name ="3d_view_left_shadow_infantry"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= 21 y = 327 }
+			}
+			
+			iconType = {
+				name ="3d_view_left_shadow_cavalry"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= -9 y = 318 }
+				scale = 1.25
+			}
+			
+			iconType = {
+				name ="3d_view_left_shadow_artillery"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= -23 y = 306 }
+				scale = 1.45
+			}
+			
+			guiButtonType = {
+				name ="3d_view_left"
+				quadTextureSprite = "GFX_dummy_3d_combat_result_view"
+				position = { x= 13 y = 3 }
+				scale = 1.0
+			}
+		}
+		
+
+		windowType = {
+			name = "right_3d_view"
+			backGround=""
+			position = { x= 573 y = 6 }			
+			size = { x = 204 y = 21 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			
+			iconType = {
+				name ="3d_view_right_bg"
+				spriteType = "GFX_3d_unit_bg"
+				position = { x= 0 y = 0 }
+				scale = 1.0
+			}		
+
+			iconType =
+				{
+					name ="right_mega_flag"
+					spriteType = "GFX_mega_flag"
+					position = { x= 71 y = 6 }
+				}		
+			
+			iconType = {
+				name ="3d_view_right_frame"
+				spriteType = "GFX_3d_unit_frame"
+				position = { x= -3 y = -3 }
+			}
+			
+			
+			iconType = {
+				name ="3d_view_right_shadow_infantry"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= 9 y = 327 }
+			}	
+			
+			iconType = {
+				name ="3d_view_right_shadow_cavalry"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= -33 y = 318 }
+				scale = 1.25
+			}
+			
+			iconType = {
+				name ="3d_view_right_shadow_artillery"
+				spriteType = "GFX_3d_unit_shadow"
+				position = { x= -33 y = 306 }
+				scale = 1.45
+			}
+
+			guiButtonType = {
+				name ="3d_view_right"
+				quadTextureSprite = "GFX_dummy_3d_combat_result_view02"
+				position = { x= 3 y = 3 }
+				orientation = "UPPER_LEFT"
+				scale = 1.0
+			}
+		}		
+		
+		
+		iconType = {
+			name ="combat_result_bg"
+			spriteType = "GFX_combat_result_bg"
+			position = { x= 0 y = 0 }
+		}
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=527 y=391 }
+		}
+		
+		### battle name
+		instantTextBoxType = {
+				name = "Line1"
+				position = { x = 85 y = 25 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Battle of Skåne"	
+				maxWidth = 420
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+				
+			
+			}
+
+		### Our side shields.
+		OverlappingElementsBoxType = {
+			name = "our_side_shield_list"
+			position = { x= 77 y = 60 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}		
+		
+		OverlappingElementsBoxType = {
+			name = "enemy_side_shield_list"
+			position = { x= 305 y = 60 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}		
+		
+		### our prestige etc.
+		iconType = {
+			name ="icon_our_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 39 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 123 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 207 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "our_prestige"
+				position = { x = 65 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_tradition"
+				position = { x = 151 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_exhaustion"
+				position = { x = 237 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+					
+		
+		### enemy prestige etc.
+		iconType = {
+			name ="icon_enemy_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 305 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition2"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 389 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion2"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 473 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "enemy_prestige"
+				position = { x = 331 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_tradition"
+				position = { x = 417 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_exhaustion"
+				position = { x = 504 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		
+		### our leader		
+		instantTextBoxType = {
+				name = "OurLeader"
+				position = { x = 57 y = 143 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "KARL XII"	
+				maxWidth = 223
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+			}
+			
+		iconType = {
+				name ="our_leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 39 y = 159 }
+			}
+		
+		iconType = {
+			name ="fire_icon1"
+			spriteType = "GFX_military_view_icon_fire"
+			position = { x= 168 y = 165 }
+		}
+		iconType = {
+			name ="shock_icon1"
+			spriteType = "GFX_military_view_icon_shock"
+			position = { x= 198 y = 165 }
+		}
+		iconType = {
+			name ="maneuver_icon1"
+			spriteType = "GFX_military_view_icon_maneuver"
+			position = { x= 228 y = 165 }
+		}
+		iconType = {
+			name ="siege_icon1"
+			spriteType = "GFX_military_view_icon_siege"
+			position = { x= 258 y = 165 }
+		}
+		
+		iconType = {
+				name ="our_fire_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 159 y = 183 }
+			}
+		iconType = {
+				name ="our_shock_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 189 y = 183 }
+			}
+		iconType = {
+				name ="our_maneuver_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 219 y = 183 }
+			}
+		iconType = {
+				name ="our_siege_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 249 y = 183 }
+			}
+
+		### enemy leader	
+		instantTextBoxType = {
+				name = "EnemyLeader"
+				position = { x = 309 y = 143 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "KARL XII"	
+				maxWidth = 223
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+			}
+			
+		iconType = {
+				name ="enemy_leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 309 y = 159 }
+			}
+		
+		iconType = {
+			name ="fire_icon2"
+			spriteType = "GFX_military_view_icon_fire"
+			position = { x= 439 y = 165 }
+		}
+		iconType = {
+			name ="shock_icon2"
+			spriteType = "GFX_military_view_icon_shock"
+			position = { x= 469 y = 165 }
+		}
+		iconType = {
+			name ="maneuver_icon2"
+			spriteType = "GFX_military_view_icon_maneuver"
+			position = { x= 499 y = 165 }
+		}
+		iconType = {
+			name ="siege_icon2"
+			spriteType = "GFX_military_view_icon_siege"
+			position = { x= 529 y = 165 }
+		}
+		
+		iconType = {
+				name ="enemy_fire_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 431 y = 183 }
+			}
+		iconType = {
+				name ="enemy_shock_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 461 y = 183 }
+			}
+		iconType = {
+				name ="enemy_maneuver_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 491 y = 183 }
+			}
+		iconType = {
+				name ="enemy_siege_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 521 y = 183 }
+			}
+			
+			#### UNITS
+			iconType =
+			{
+				name ="Our_unit_type_1"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 133 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_1_1_text"
+				position = { x = 115 y = 265 }				
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "Our_unit_type_1_2_text"
+				position = { x = 115 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_1_3_text"
+				position = { x = 115 y = 321  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =
+			{
+				name ="Our_unit_type_2"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 48 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_2_1_text"
+				position = { x = 30 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_2_2_text"
+				position = { x = 30 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_2_3_text"
+				position = { x = 30 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Our_unit_type_3"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 219 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 3
+		
+		
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_3_1_text"
+				position = { x = 201 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_3_2_text"
+				position = { x = 201 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_3_3_text"
+				position = { x = 201 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_1"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 405 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_1_text"
+				position = { x = 387 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_2_text"
+				position = { x = 387 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_3_text"
+				position = { x = 387 y = 321  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_2"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 319 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+			
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_1_text"
+				position = { x = 301 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_2_text"
+				position = { x = 301 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_3_text"
+				position = { x = 301 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_3"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 489 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 3
+		
+		
+			}
+		
+		instantTextBoxType = {
+				name = "Enemy_unit_type_3_1_text"
+				position = { x = 471 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_3_2_text"
+				position = { x = 471 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_3_3_text"
+				position = { x = 471 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+	
+		### BUTTONS
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=71 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=233 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x = 342 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+
+		instantTextBoxType = {
+				name = "winORLose"
+				position = { x = 159 y = 355 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 5}
+				text = "You Won"	
+				maxWidth = 264
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+			}
+		
+	}
+	
+	
+	eu3dialogtype = {
+		name = "EndOfLandCombatCompactPopup"
+		backGround="Background"
+		position = { x=-270 y=-108 }	
+		size = { x=540 y=231 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_combat_result_compact_bg_area"
+		}
+		
+		iconType = {
+			name ="combat_result_compact_bg"
+			spriteType = "GFX_combat_result_bg_compact"
+			position = { x= 0 y = 0 }
+		}
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=527 y=175 }
+		}
+		
+		### battle name
+		instantTextBoxType = {
+				name = "Line1"
+				position = { x = 85 y = 25 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Battle of Skåne"	
+				maxWidth = 420
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+				
+			
+			}
+
+		### Our side shields.
+		OverlappingElementsBoxType = {
+			name = "our_side_shield_list"
+			position = { x= 77 y = 60 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}		
+		
+		OverlappingElementsBoxType = {
+			name = "enemy_side_shield_list"
+			position = { x= 305 y = 60 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}
+
+		
+		### our prestige etc.
+		iconType = {
+			name ="icon_our_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 39 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 123 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 207 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "our_prestige"
+				position = { x = 65 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_tradition"
+				position = { x = 151 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_exhaustion"
+				position = { x = 237 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+					
+		
+		### enemy prestige etc.
+		iconType = {
+			name ="icon_enemy_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 305 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition2"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 389 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion2"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 473 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "enemy_prestige"
+				position = { x = 331 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_tradition"
+				position = { x = 417 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_exhaustion"
+				position = { x = 504 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		
+
+		### BUTTONS
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=71 y =173}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=233 y =173}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x = 342 y =173}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+
+		instantTextBoxType = {
+				name = "winORLose"
+				position = { x = 159 y = 144 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 5}
+				text = "You Won"	
+				maxWidth = 264
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "OurLost"
+				position = { x = 31 y = 147 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""	
+				maxWidth = 144
+				maxHeight = 29	
+				fixedsize = yes
+				format = left
+			}
+		
+		instantTextBoxType = {
+				name = "EnemyLost"
+				position = { x = 411 y = 147 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""	
+				maxWidth = 144
+				maxHeight = 29	
+				fixedsize = yes
+				format = right
+			}
+	}
+	
+#///////////////////////////////////////////////////////////////////////////////
+#/////////////////////////////// Naval COMAT//////////////////////////////////////
+
+	eu3dialogtype = {
+		name = "EndOfNavalCombatPopup"
+		backGround="Background"
+		position = { x=-270 y=-216 }	
+		size = { x=540 y=336 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_combat_result_bg_area"
+		}
+		iconType = {
+			name ="combat_result_bg"
+			spriteType = "GFX_combat_result_bg"
+			position = { x= 0 y = 0 }
+		}
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=527 y=391 }
+		}
+
+		### battle name
+		instantTextBoxType = {
+				name = "Line1"
+				position = { x = 85 y = 25 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Battle of Skåne"	
+				maxWidth = 420
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+				
+			
+			}
+		
+		### Our side shields.
+		OverlappingElementsBoxType = {
+			name = "our_side_shield_list"
+			position = { x= 77 y = 66 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}		
+		
+		OverlappingElementsBoxType = {
+			name = "enemy_side_shield_list"
+			position = { x= 305 y = 66 }
+			size = { x = 336 y = 77 }
+			format = left
+			spacing = 0
+		}		
+	
+		### our prestige etc.
+		iconType = {
+			name ="icon_our_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 39 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition"
+			spriteType = "GFX_icon_navy_tradition"
+			position = { x= 123 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 207 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "our_prestige"
+				position = { x = 65 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_tradition"
+				position = { x = 151 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_exhaustion"
+				position = { x = 237 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+					
+		
+		### enemy prestige etc.
+		iconType = {
+			name ="icon_enemy_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 305 y = 107 }
+		}
+		iconType = {
+			name ="icon_army_tradition2"
+			spriteType = "GFX_icon_navy_tradition"
+			position = { x= 389 y = 108 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion2"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 473 y = 105 }
+		}
+		
+		instantTextBoxType = {
+				name = "enemy_prestige"
+				position = { x = 331 y =115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_tradition"
+				position = { x = 417 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_exhaustion"
+				position = { x = 504 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 57
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		
+		### our leader		
+		instantTextBoxType = {
+				name = "OurLeader"
+				position = { x = 57 y = 143 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "KARL XII"	
+				maxWidth = 223
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+			}
+			
+		iconType = {
+				name ="our_leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 39 y = 159 }
+			}
+		
+		iconType = {
+			name ="fire_icon1"
+			spriteType = "GFX_military_view_icon_fire"
+			position = { x= 168 y = 165 }
+		}
+		iconType = {
+			name ="shock_icon1"
+			spriteType = "GFX_military_view_icon_shock"
+			position = { x= 198 y = 165 }
+		}
+		iconType = {
+			name ="maneuver_icon1"
+			spriteType = "GFX_military_view_icon_maneuver"
+			position = { x= 228 y = 165 }
+		}
+		
+		iconType = {
+				name ="our_fire_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 159 y = 183 }
+			}
+		iconType = {
+				name ="our_shock_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 189 y = 183 }
+			}
+		iconType = {
+				name ="our_maneuver_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 219 y = 183 }
+			}
+
+		### enemy leader	
+		instantTextBoxType = {
+				name = "EnemyLeader"
+				position = { x = 309 y = 143 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "KARL XII"	
+				maxWidth = 223
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+			}
+			
+		iconType = {
+				name ="enemy_leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 309 y = 159 }
+			}
+		
+		iconType = {
+			name ="fire_icon2"
+			spriteType = "GFX_military_view_icon_fire"
+			position = { x= 439 y = 165 }
+		}
+		iconType = {
+			name ="shock_icon2"
+			spriteType = "GFX_military_view_icon_shock"
+			position = { x= 469 y = 165 }
+		}
+		iconType = {
+			name ="maneuver_icon2"
+			spriteType = "GFX_military_view_icon_maneuver"
+			position = { x= 499 y = 165 }
+		}
+		
+		iconType = {
+				name ="enemy_fire_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 431 y = 183 }
+			}
+		iconType = {
+				name ="enemy_shock_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 461 y = 183 }
+			}
+		iconType = {
+				name ="enemy_maneuver_value"
+				spriteType = "GFX_stars_small"
+				position = { x= 491 y = 183 }
+			}
+			
+		### UNITS
+			
+			iconType =
+			{
+				name ="Our_unit_type_1"
+				spriteType = "GFX_unit_types_strip"
+				position = { x = 37 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 4
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_1_1_text"
+				position = { x = 19 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "Our_unit_type_1_2_text"
+				position = { x = 19 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_1_3_text"
+				position = { x = 19 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+		
+			iconType =
+			{
+				name ="Our_unit_type_2"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 99 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 5
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_2_1_text"
+				position = { x = 84 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_2_2_text"
+				position = { x = 84 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_2_3_text"
+				position = { x = 84 y = 321  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Our_unit_type_3"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 163 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 6
+		
+		
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_3_1_text"
+				position = { x = 149 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_3_2_text"
+				position = { x = 149 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_3_3_text"
+				position = { x = 149 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType =
+			{
+				name ="Our_unit_type_4"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 231 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 7
+		
+		
+			}
+
+			instantTextBoxType = {
+				name = "Our_unit_type_1_4_text"
+				position = { x = 213 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_2_4_text"
+				position = { x = 213 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Our_unit_type_3_4_text"
+				position = { x = 213 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_1"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 309 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 4
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_1_text"
+				position = { x = 291 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_2_text"
+				position = { x = 291 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_1_3_text"
+				position = { x = 291 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "1000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_2"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 371 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 5
+			}
+			
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_1_text"
+				position = { x = 355 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_2_text"
+				position = { x = 355 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_2_3_text"
+				position = { x = 355 y = 321  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "2000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="Enemy_unit_type_3"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 435 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 6
+		
+		
+			}
+		
+		instantTextBoxType = {
+				name = "Enemy_unit_type_3_1_text"
+				position = { x = 420 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_3_2_text"
+				position = { x = 420 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_3_3_text"
+				position = { x = 420 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+
+	iconType =
+			{
+				name ="Enemy_unit_type_4"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= 501 y = 207 }
+				Orientation = "UPPER_LEFT"
+				frame = 7
+		
+		
+			}
+		
+		instantTextBoxType = {
+				name = "Enemy_unit_type_4_1_text"
+				position = { x = 485 y = 265 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_4_2_text"
+				position = { x = 485 y = 291 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "Enemy_unit_type_4_3_text"
+				position = { x = 485 y = 321 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "3000"	
+				maxWidth = 77
+				maxHeight = 24
+				fixedsize = yes
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}			
+		
+		### BUTTONS
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=71 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=233 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x = 342 y =389}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+
+		instantTextBoxType = {
+				name = "winORLose"
+				position = { x = 159 y = 355 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 5}
+				text = "You Won"	
+				maxWidth = 264
+				maxHeight = 29	
+				fixedsize = yes
+				format = centre
+			}
+			
+		instantTextBoxType = {
+				name = "captured_ships_label"
+				position = { x = 397 y = 363 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 0 y = 0}
+				text = "THE_FOLLOWING_SHIPS_WHERE_CAPTURED"
+				maxWidth = 132
+				maxHeight = 24
+				fixedsize = yes
+				format = right
+			}
+		instantTextBoxType = {
+				name = "captured_ships_amount"
+				position = { x = 537 y = 363 }
+				textureFile = ""
+				font = "vic_18_grey"
+				borderSize = {x = 0 y = 0}
+				text = "99"	
+				maxWidth = 36
+				maxHeight = 24
+				fixedsize = yes
+				format = left
+			}
+		
+		### REMOVE
+		#listboxType = 
+		#	{
+		#	name ="captured_ships"
+		#	position = { x = 119057 y = 333 }
+		#	backGround=""
+		#	size = { x= 192 y = 66 }
+		#	Orientation = "UPPER_LEFT"
+		#	horizontal = 0
+		#	spacing = 3
+		#	scrollbartype = "standardlistbox_slider"
+		#	borderSize = {x = 5 y = 5 }
+		#	offset = { x=0 y = 0 }
+		#}
+		###
+		
+		
+	}
+	
+	windowType = {
+		name = "diplo_shield_item"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x = 204 y = 21 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name ="shield"
+			spriteType = "GFX_shield_small"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

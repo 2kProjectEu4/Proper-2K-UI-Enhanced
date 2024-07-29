@@ -1,0 +1,44 @@
+guiTypes = {
+
+	windowType = {
+		name = "alerticon_window"
+		backGround=""
+		position = { x=9 y=0 }	
+		size = { x=77 y=77 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType =
+		{
+			name ="alerticon_banner"
+			spriteType = "GFX_alerticon_banner"
+			position = { x= 12 y = 1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="alerticon"
+			spriteType = "GFX_alerticons"
+			position = { x= 23 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}	
+	}
+	
+
+	positionType = {
+		name = "alerticon_startposition"
+		position = { x = 168 y = 93 }
+	}
+
+	positionType = {
+		name = "alerticon_offset"
+		position = { x = 50 y = 0 }
+	}
+	
+
+
+}

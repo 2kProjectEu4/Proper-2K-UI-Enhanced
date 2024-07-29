@@ -1,0 +1,1706 @@
+guiTypes = {
+
+	#x is minimum resolution height for this country view to increase to large size
+	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
+	positionType =
+	{
+		name ="countrystabilityview_scaling_large_min_inc"
+		position = { x= 1080 y = 173 }
+	}
+
+	#x is minimum resolution height for this country view to increase to huge size
+	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
+	positionType = {
+		name ="countrystabilityview_scaling_huge_min_inc"
+		position = { x= 1296 y = 323 }
+	}
+
+
+	windowType = {
+		name = "disaster_item"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=53 y= 53 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+
+		iconType =
+		{
+			name ="icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 0 y = 0}
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="progress"
+			spriteType = "GFX_disaster_progress_bar"
+			position = { x= 5 y = 43 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="progress_frame"
+			spriteType = "GFX_disaster_progress_frame"
+			position = { x= 1 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}
+
+	}
+
+	windowType = {
+		name = "countrystabilityview"
+		position = { x=0 y=168 }
+		#position = { x=-720 y=168 }
+		show_position = { x=0 y =168 }
+		hide_position = { x=-720 y =168 }
+		animation_type = "decelerated"
+		animation_time = 10
+		size = { x=1229 y=120 }
+		moveable = 0
+		Orientation = "UPPER_LEFT"
+
+		upsound = "tab_stability"
+
+		iconType =
+		{
+			name ="countryview_bg"
+			spriteType = "GFX_country_government_view_bg"
+			position = { x= -9 y = -12 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x = 617 y = -1 }
+			quadTextureSprite ="GFX_closebutton2"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "window_title"
+			position = { x = 18 y =93 }
+			textureFile = ""
+			font = "vic_36"
+			borderSize = {x = 5 y = 5}
+			text = "HEADER_STABILITY_EXPANSION"
+			maxWidth = 615
+			maxHeight = 39
+			format = centre
+		}
+
+		### ------- Stability -------
+
+		instantTextBoxType = {
+			name = "stability"
+			position = { x = 71 y = 243 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "stability"
+			maxWidth = 156
+			maxHeight = 39
+			format = left
+		}
+
+		iconType =
+		{
+			name ="stability_icon"
+			spriteType = "GFX_icon_stability"
+			position = { x= 37 y = 240 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_stability"
+		}
+
+		iconType =
+		{
+			name ="stability_negative_progress"
+			spriteType = "GFX_stability_negative_progressbar"
+			position = { x= 49 y = 282 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="stability_positive_progress"
+			spriteType = "GFX_stability_positive_progressbar"
+			position = { x= 123 y = 282 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="stability_progress_frame"
+			spriteType = "GFX_stability_bar_frame"
+			position = { x= 35 y = 276 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="stability_progress_threshold"
+			spriteType = "GFX_stability_boost_indicator"
+			position = { x = 101 y = 275 }
+		}
+
+		instantTextBoxType = {
+			name = "stability_value"
+			position = { x = 107 y = 276 }
+			textureFile = ""
+			font = "vic_18_vanilla"
+			borderSize = {x = 5 y = 5}
+			text = "+3"
+			maxWidth = 27
+			maxHeight = 21
+			format = centre
+		}
+
+		guiButtonType =
+		{
+			name ="stability_boost"
+			quadTextureSprite= "GFX_standard_button_105"
+			position = { x= 61 y = 306 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "BOOST"
+			buttonFont = "vic_18"
+		}
+
+
+
+		### ------- Overextension -------
+
+		iconType =
+		{
+			name ="overex_icon"
+			spriteType = "GFX_icon_overextension"
+			position = { x= 264 y = 240 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_overextension"
+		}
+
+		instantTextBoxType = {
+			name = "overex"
+			position = { x = 297 y = 243 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "GOVSC_OVEREXTENSION"
+			maxWidth = 153
+			maxHeight = 39
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "overex_progress_value"
+			position = { x = 339 y = 271 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 102
+			maxHeight = 27
+			format = centre
+			fixedsize = yes
+
+		}
+
+		guiButtonType =
+		{
+			name ="overex_manage"
+			quadTextureSprite= "GFX_standard_button_105"
+			position = { x= 333 y = 303 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "STABEX_MANAGEOVEX"
+			buttonFont = "vic_18"
+			shortcut = "c"
+		}
+
+		### ------- native policy -------
+
+		iconType = {
+			name ="native_policy_bg"
+			spriteType = "GFX_native_policy_bg"
+			position = { x= 483 y = 336 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType =
+		{
+			name = "native_policy_coexist"
+			quadTextureSprite= "GFX_native_policy_coexist"
+			position = { x= 499 y = 341 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType =
+		{
+			name = "native_policy_trade"
+			quadTextureSprite= "GFX_native_policy_trade"
+			position = { x= 543 y = 341 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType =
+		{
+			name = "native_policy_hostile"
+			quadTextureSprite= "GFX_native_policy_hostile"
+			position = { x= 588 y = 341 }
+			buttonFont = "vic_18"
+		}
+
+		### ------- disasters -------
+
+		OverlappingElementsBoxType = {
+				name = "disasters_box"
+				position = { x = 271 y = 175 }
+				size = { x = 399 y = 39 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 1
+		}
+
+		instantTextBoxType = {
+			name = "disasters"
+			position = { x = 297 y = 138 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "DISASTERS"
+			maxWidth = 174
+			maxHeight = 21
+			format = left
+		}
+
+
+		iconType =
+		{
+			name ="disaster_icon"
+			spriteType = "GFX_disaster_icon"
+			position = { x= 267 y = 139 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		### ------- War Exhaustion -------
+
+		instantTextBoxType = {
+			name = "warex"
+			position = { x = 66 y = 137 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "WEXTITLE"
+			maxWidth = 174
+			maxHeight = 21
+			format = left
+		}
+
+
+		iconType =
+		{
+			name ="warex_icon"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 33 y = 132 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_warexhaustion"
+		}
+
+		iconType =
+		{
+			name ="warex_progress"
+			spriteType = "GFX_warex_progressbar"
+			position = { x= 45 y = 174 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="warex_progress_frame"
+			spriteType = "GFX_progress_bar_frame"
+			position = { x= 31 y = 168 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "warex_progress_value"
+			position = { x = 43 y = 169}
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "5 of 10"
+			maxWidth = 144
+			maxHeight = 39
+			format = centre
+		}
+
+
+		guiButtonType =
+		{
+			name ="reduce_warex"
+			quadTextureSprite= "GFX_standard_button_105"
+			position = { x=35  y = 199 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "REDUCE"
+			buttonFont = "vic_18"
+		}
+
+		iconType =
+		{
+			name ="warex_development_icon"
+			spriteType = "GFX_inflation_arrows_strip"
+			position = { x= 162 y = 198 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "warex_development_value"
+			position = { x =  1199070 y = 177 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = "-0.32"
+			maxWidth = 60
+			maxHeight = 39
+			format = centre
+		}
+
+		### ------- Colonial Expansion -------
+
+
+		iconType =
+		{
+			name ="colonial_exp_icon"
+			spriteType = "GFX_icon_unjustified_demands"
+			position = { x= 480 y = 235 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_colonist"
+			scale = 0.65
+		}
+
+		instantTextBoxType = {
+			name = "colonial_exp"
+			position = { x = 521 y = 243 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "expansion_tab"
+			maxWidth = 168
+			maxHeight = 21
+			format = left
+		}
+
+		iconType =
+		{
+			name ="colonial_range_icon"
+			spriteType = "GFX_colonial_range"
+			position = { x= 501 y = 261 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.82
+			hint_tag = "hint_colonialrange"
+		}
+
+		instantTextBoxType = {
+			name = "colonial_range_value"
+			position = { x = 487 y = 309 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "5000"
+			maxWidth = 77
+			maxHeight = 29
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="colonial_growth_icon"
+			spriteType = "GFX_colonial_growth"
+			position = { x= 569 y = 261 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.82
+			hint_tag = "hint_settlergrowth"
+		}
+
+		instantTextBoxType = {
+			name = "colonial_growth_value"
+			position = { x = 563 y = 309 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "5000"
+			maxWidth = 65
+			maxHeight = 29
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="administrative_efficiency_icon"
+			spriteType = "GFX_icon_administrative_efficiency"
+			position = { x= 267 y = 261 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.82
+			hint_tag = "hint_administrative_efficiency"
+		}
+
+		instantTextBoxType = {
+			name = "administrative_efficiency_value"
+			position = { x = 255 y = 309 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "100%"
+			maxWidth = 77
+			maxHeight = 29
+			format = centre
+		}
+
+
+		iconType =
+		{
+			name ="governing_capacity_icon"
+			spriteType = "GFX_governing_capacity"
+			position = { x= 24 y = 342 }
+			Orientation = "UPPER_LEFT"
+			#scale = 0.75
+		}
+
+		instantTextBoxType = {
+			name = "Governing Capacity_label"
+			position = { x = 54 y = 345 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "GOVERNING_CAPACITY"
+			maxWidth = 180
+			maxHeight = 39
+			format = left
+		}
+
+		iconType =
+		{
+			name ="govcap_progress"
+			spriteType = "GFX_default_progressbar"
+			position = { x= 57 y = 383 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="govcap_progress_frame"
+			spriteType = "GFX_progress_bar_frame"
+			position = { x= 39 y = 381 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "govcap_progress_value"
+			position = { x = 55 y = 381 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "5 of 10"
+			maxWidth = 144
+			maxHeight = 39
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "States & Territories"
+			position = { x = 297 y = 345 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "STATES_AND_TERRITORIES"
+			maxWidth = 180
+			maxHeight = 39
+			format = left
+		}
+
+		iconType =
+		{
+			name ="states_icon"
+			spriteType = "GFX_icon_states"
+			position = { x= 264 y = 345 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.82
+		}
+
+
+		instantTextBoxType = {
+			name = "states_text"
+			position = { x =276 y = 373 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "States"
+			maxWidth = 115
+			maxHeight = 29
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "territories_text"
+			position = { x =276 y = 395 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "Territories"
+			maxWidth = 115
+			maxHeight = 29
+			format = left
+		}
+
+
+
+		### -----------------------
+
+		instantTextBoxType = {
+			name = "sub_title"
+			position = { x = 57 y = 423 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 3}
+			text = "REBELS_AND_POSSIBLE_REBELS"
+			maxWidth = 267
+			maxHeight = 39
+			format = centre
+		}
+
+
+		### ------- REBELS -------
+
+		instantTextBoxType = {
+			name = "show_subject_revolts_label"
+			if_resolution = {
+				max_height = 899
+				position = {x = 60 y = 639 }
+			}
+			if_resolution = {
+				max_height = 1079
+				min_height = 900
+				position = {x = 60 y = 813 }
+			}
+			if_resolution = {
+				min_height = 1080
+				position = {x = 60 y = 991 }
+			}
+			textureFile = ""
+			font = "vic_18"
+			borderSize = { x = 3 y = 3 }
+			text = "SHOW_SUBJECT_REVOLTS"
+			maxWidth = 168
+			maxHeight = 72
+			format = left
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name ="show_subject_revolts"
+			if_resolution = {
+				max_height = 899
+				position = {x = 27 y = 639 }
+			}
+			if_resolution = {
+				max_height = 1079
+				min_height = 900
+				position = {x = 27 y = 813 }
+			}
+			if_resolution = {
+				min_height = 1080
+				position = {x = 27 y = 991 }
+			}
+			quadTextureSprite ="GFX_checkbox_gold_24"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			frame = 2
+		}
+
+		iconType =
+		{
+			name ="national_unrest_icon"
+			spriteType = "GFX_icon_national_unrest"
+			position = { x= 501 y = 379 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.6
+    	}
+
+		instantTextBoxType = {
+			name = "base_unrest_value"
+			position = { x = 564 y = 387 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "0"
+			maxWidth = 72
+			maxHeight = 39
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "break_country"
+			position = { x = 349 y = 423 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "CV_BREAK_COUNTRY"
+			maxWidth = 168
+			maxHeight = 39
+			format = left
+			fixedsize = yes
+		}
+
+		iconType =
+		{
+			name ="break_country_progress"
+			spriteType = "GFX_rebelsView_progressbar"
+			position = { x= 516 y = 432 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="break_country_progress_frame"
+			spriteType = "GFX_provinceView_morale_frame_long"
+			position = { x= 504 y = 429 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		listboxType = {
+			name = "revolters_listbox"
+			backGround = ""
+			position = { x=25 y=459 }
+			size = { x=590 y= 200 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 1.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		### MANAGE OVEREXTENSION WINDOW
+		windowType = {
+			name = "manage_overext_window"
+			position = { x=39 y=375 }
+			size = { x=360 y=480 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+
+			iconType =
+			{
+				name ="bg"
+				spriteType = "GFX_govReb_overext_bg"
+				position = { x= -33 y = 47 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			guiButtonType = {
+				name ="sort_overext_province"
+				quadTextureSprite = "GFX_sort_107"
+				position = { x = 9 y = 55 }
+				buttonFont = "vic_18"
+				buttonText = "LEDGER_PROVINCE"
+				pdx_tooltip = "SORT_BY_NAME"
+				pdx_tooltip_delayed = ""
+			}
+
+			guiButtonType = {
+				name ="sort_overext_tax"
+				quadTextureSprite = "GFX_sort_62_dev"
+				position = { x = 137 y = 55 }
+				#				buttonFont = "vic_18"
+				#				buttonText = "LEDGER_DEVELOPMENT"
+				pdx_tooltip = "SORT_BY_DEVELOPMENT"
+				pdx_tooltip_delayed = ""
+			}
+
+			guiButtonType = {
+				name ="sort_overext_culture"
+				quadTextureSprite = "GFX_sort_88"
+				position = { x = 213 y = 55 }
+				buttonFont = "vic_18"
+				buttonText = "LEDGER_CULTURE"
+				pdx_tooltip = "SORT_BY_CULTURE"
+				pdx_tooltip_delayed = ""
+			}
+
+			guiButtonType = {
+				name ="sort_overext_overext"
+				quadTextureSprite = "GFX_sort_88"
+				position = { x = 321 y = 55 }
+				buttonFont = "vic_18"
+				buttonText = "over_extension"
+				pdx_tooltip = "SORT_OVEREXT"
+				pdx_tooltip_delayed = ""
+			}
+
+			guiButtonType = {
+				name ="sort_overext_cost"
+				quadTextureSprite = "GFX_sort_46"
+				position = { x = 429 y = 55 }
+				buttonFont = "vic_18"
+				buttonText = "PEACE_COST"
+				pdx_tooltip = "SORT_BY_COST"
+				pdx_tooltip_delayed = ""
+			}
+
+			guiButtonType = {
+				name ="sort_cores"
+				quadTextureSprite = "GFX_sort_79_core"
+				position = { x = 485 y = 55 }
+				#				buttonFont = "vic_18"
+				#				buttonText = "GIVE_UP_CORES"
+				pdx_tooltip = "GIVE_UP_CORES"
+				pdx_tooltip_delayed = ""
+			}
+
+			listboxType =
+			{
+				name ="list"
+				position = { x = 7 y = 89 }
+				backGround=""
+				size = { x=576 y = 207}
+				Orientation = "UPPER_LEFT"
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+
+			guiButtonType = {
+				name = "back"
+				position = { x= 5 y = 295 }
+				quadTextureSprite ="GFX_button_straight_87_32"
+				buttonText = "BACK"
+				buttonFont = "vic_18"
+				shortcut = "z"
+				extra_shortcut = "ESCAPE"
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "core_all"
+				position = { x= 480 y = 295 }
+				quadTextureSprite ="GFX_button_straight_87_32"
+				buttonText = "CORE_ALL"
+				buttonFont = "vic_18"
+				shortcut = "c"
+			}
+		}
+
+		################################################################################################
+		### --- Handle rebels interface ---
+
+		windowType = {
+			name = "cv_governmentrebels_handlerebels"
+			backGround=""
+			position = { x= 0 y= 0 }
+			size = { x=1229 y=120 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+			iconType =
+			{
+				name ="domesticpanel_overlay"
+				spriteType = "GFX_rebels_handle_them_bg"
+				position = { x= -9 y = -13 }
+				Orientation = "UPPER_LEFT"
+			}
+
+#			iconType =
+#			{
+#				name ="rebel_banner"
+#				spriteType = "GFX_rebels_banner"
+#				position = { x= 12 y = 395 }
+#				Orientation = "UPPER_LEFT"
+#			}
+
+			guiButtonType =
+			{
+				name ="revolter_shield"
+				spriteType = "GFX_shield_small"
+				position = { x=29 y = 423 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "rebels_header"
+				position = { x = 69 y = 426}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = "Fraticelli Heretics"
+				maxWidth = 279
+				maxHeight = 39
+				format = left
+				fixedsize = yes
+			}
+
+
+
+
+
+			instantTextBoxType = {
+				name = "rebels_info"
+				position = { x = 365 y = 427}
+				textureFile = ""
+				font = "coyote_12b"
+				borderSize = {x = 5 y = 5}
+				text = "..."
+				maxWidth = 180
+				maxHeight = 39
+				format = left
+				fixedsize = yes
+			}
+
+
+
+			iconType =
+			{
+				name ="uprising_progress_icon"
+				spriteType = "GFX_icon_unrest"
+				position = { x= 552 y = 425 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "uprising_progress"
+				position = { x = 591 y = 427 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""
+				maxWidth = 45
+				maxHeight = 29
+				format = left
+			}
+
+			instantTextBoxType = {
+				name = "rebels_progress"
+				position = { x = -2436 y = 505}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = "..."
+				maxWidth = 307
+				maxHeight = 77
+				format = left
+				fixedsize = yes
+			}
+
+			iconType =
+			{
+				name ="rebelsize"
+				spriteType = "GFX_unit_types_strip_mil_view"
+				position = { x= 36 y = 493 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.6
+			}
+
+			instantTextBoxType = {
+				name = "rebelsize_desc"
+				position = { x = 65 y = 493}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""
+				maxWidth = 297
+				maxHeight = 57
+				format = left
+				fixedsize = yes
+			}
+
+			iconType =
+			{
+				name ="onsiegewon_icon"
+				spriteType = "GFX_icon_rebel_taken_provinces"
+				position = { x= 36 y = 545 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "onsiegewon_desc"
+				position = { x = 65 y = 545}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""
+				maxWidth = 297
+				maxHeight = 57
+				format = left
+				fixedsize = yes
+			}
+
+			iconType =
+			{
+				name ="enforcedemands_icon"
+				spriteType = "GFX_icon_rebel_enforced_demands"
+				position = { x= 36 y = 593 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			listboxType = {
+				name = "demands_listbox"
+				backGround = ""
+				position = { x=72 y=599 }
+				size = { x=273 y= 45 }
+				horizontal = 0
+				spacing = 1
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+
+			listboxType = {
+				name = "handle_listbox"
+				backGround = ""
+				position = { x=373 y=491 }
+				size = { x=240 y=153 }
+				horizontal = 0
+				spacing = 1
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+
+			guiButtonType = {
+				name = "back_button"
+				position = { x=234 y =645}
+				quadTextureSprite ="button_type_1"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "BACK"
+				buttonFont = "vic_18"
+				shortcut = "z"
+				extra_shortcut = "ESCAPE"
+				clicksound = back_click
+			}
+
+		}
+	}
+
+	################################################################################################
+	### --- Revolt list item
+	windowType = {
+		name = "countrystabilityview_revolterlistitem"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=84 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		iconType =
+		{
+			name ="revoltlistitem_background"
+			spriteType = "GFX_rebels_entry_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		guiButtonType =
+		{
+			name ="revolter_shield"
+			spriteType = "GFX_shield_small"
+			position = { x=13 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="army_leader"
+			spriteType = "GFX_icon_leader"
+			position = { x= 18 y = 47}
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 51 y = 17 }
+			textureFile = ""
+			font = "vic_18"
+			#borderSize = {x = 5 y = 5}
+			text = "Gotlandish Nationalists"
+			maxWidth = 300
+			maxHeight = 24
+			format = left
+		}
+
+		iconType =
+		{
+			name ="army_type"
+			spriteType = "GFX_unit_types_strip_mil_view"
+			position = { x= 459 y = 15}
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+		}
+
+		instantTextBoxType = {
+			name = "army_num"
+			position = { x = 493 y = 15 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "1"
+			maxWidth = 59
+			maxHeight = 39
+			format = right
+		}
+
+
+
+		iconType =
+		{
+			name ="icon_provs"
+			spriteType = "GFX_icon_overextension"	#TODO replace
+			position = { x= 357 y = 13}
+			Orientation = "UPPER_LEFT"
+			scale = 0.85
+		}
+
+		instantTextBoxType = {
+			name = "controlled_provs"
+			position = { x = 369 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "xx"
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "progress_target_name"
+			position = { x = 66 y = 45 }
+			font = "coyote_12b"
+			#borderSize = {x = 5 y = 5}
+			text = "Independance for Gotland"
+			maxWidth = 280
+			maxHeight = 19
+			format = left
+			fixedsize = yes
+		}
+
+		iconType =
+		{
+			name ="progress_target"
+			spriteType = "GFX_rebelsView_progressbar_long"
+			position = { x= 71 y = 66 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="progress_target_frame"
+			spriteType = "GFX_ideaView_progress_frame_long"
+			position = { x= 60 y = 61 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="uprising_progress_icon"
+			spriteType = "GFX_icon_unrest"
+			position = { x= 357 y = 45}
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_revoltrisk"
+		}
+
+		instantTextBoxType = {
+			name = "uprising_progress"
+			position = { x = 369 y = 48 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 77
+			maxHeight = 29
+			format = right
+		}
+
+
+
+
+
+		guiButtonType =
+		{
+			name ="handlethem"
+			quadTextureSprite= "GFX_button_straight_96_32"
+			position = { x= 453 y = 42 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "coyote_12b"
+			buttonText = "HANDLE_THEM"
+
+			hint_tag = "hint_rebeltypes"
+		}
+
+		iconType = {
+			name = "subject_revolter_icon"
+			spriteType = "GFX_tab_subjects"
+			position = { x = 441 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType =
+		{
+			name ="subject_revolter_shield"
+			spriteType = "GFX_shield_small"
+			position = { x= 489 y = 42 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#iconType =
+		#{
+		#	name ="handle_rebels_glow"
+		#	spriteType = "GFX_handle_rebels_glow"
+		#	position = { x= 429 y = 43}
+		#	Orientation = "UPPER_LEFT"
+		#}
+	}
+
+################################################################################################
+	### --- Non Active Revolt list item
+	windowType = {
+		name = "countrystabilityview_nonactiverevolterlistitem"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=87 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		iconType =
+		{
+			name ="revoltlistitem_background"
+			spriteType = "GFX_possible_rebels_entry_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		guiButtonType =
+		{
+			name ="revolter_shield"
+			spriteType = "GFX_shield_small"
+			position = { x= 13 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 48 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "Gotlandish Nationalists"
+			maxWidth = 300
+			maxHeight = 27
+			format = left
+		}
+
+
+
+		instantTextBoxType = {
+			name = "progress_target_name"
+			position = { x = 51 y = 45 }
+			font = "coyote_12b"
+			#borderSize = {x = 5 y = 5}
+			text = "Independance for Gotland"
+			maxWidth = 280
+			maxHeight = 38
+			format = left
+		}
+
+		iconType =
+		{
+			name ="uprising_progress_icon"
+			spriteType = "GFX_icon_unrest"
+			position = { x= 355 y = 45}
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_revoltrisk"
+		}
+
+		instantTextBoxType = {
+			name = "uprising_progress"
+			position = { x = 369 y = 51 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 77
+			maxHeight = 29
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="army_type"
+			spriteType = "GFX_unit_types_strip_mil_view"
+			position = { x= 459 y = 15}
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+		}
+
+		instantTextBoxType = {
+			name = "army_num"
+			position = { x = 493 y = 15 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "1"
+			maxWidth = 59
+			maxHeight = 39
+			format = right
+		}
+
+
+
+		iconType =
+		{
+			name ="icon_provs"
+			spriteType = "GFX_icon_overextension"	#TODO replace
+			position = { x= 357 y = 13}
+			Orientation = "UPPER_LEFT"
+			scale = 0.85
+		}
+
+		instantTextBoxType = {
+			name = "provinces"
+			position = { x = 369 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "xx"
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}
+
+
+
+		guiButtonType =
+		{
+			name ="handlethem"
+			quadTextureSprite= "GFX_button_straight_96_32"
+			position = { x= 453 y = 47 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "HANDLE_THEM"
+			buttonFont = "coyote_12b"
+		}
+
+		iconType = {
+			name = "subject_revolter_icon"
+			spriteType = "GFX_tab_subjects"
+			position = { x = 441 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType =
+		{
+			name ="subject_revolter_shield"
+			spriteType = "GFX_shield_small"
+			position = { x= 489 y = 42 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#iconType =
+		#{
+		#	name ="handle_rebels_glow"
+		#	spriteType = "GFX_handle_rebels_glow"
+		#	position = { x= 408 y = 45}
+		#	Orientation = "UPPER_LEFT"
+		#}
+
+
+	}
+
+	################################################################################################
+	### --- Handle rebels interface ---
+	### SEE countryhandlerebelsview.gui
+
+	################################################################################################
+
+	#### MANAGE OVEREXTENSION ENTRY
+	windowType = {
+		name ="countrystabilityview_overext_item"
+		backGround=""
+		position = { x= 0 y =0 }
+		size = { x=240 y = 36 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+
+		guiButtonType =
+		{
+			name ="goto"
+			quadTextureSprite = "GFX_overex_entry_frame"
+			position = { x= 0 y = 0 }
+		}
+
+		instantTextBoxType={
+			position = {x = 7 y  = 9 }
+			name = "name"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 139
+			maxHeight = 24
+			text = "Elbonien"
+			orientation = "UPPER_LEFT"
+			format = left
+			fixedsize = yes
+		}
+
+		instantTextBoxType={
+			position = {x = 123 y  = 9 }
+			name = "tax"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 69
+			maxHeight = 21
+			text = "55"
+			orientation = "UPPER_LEFT"
+			format = right
+			fixedsize = yes
+		}
+
+		instantTextBoxType={
+			position = {x = 204 y  = 9 }
+			name = "culture"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 105
+			maxHeight = 21
+			text = "55"
+			orientation = "UPPER_LEFT"
+			format = centre
+			fixedsize = yes
+		}
+
+		instantTextBoxType={
+			position = {x = 315 y  = 9 }
+			name = "overext"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 105
+			maxHeight = 21
+			text = "55"
+			orientation = "UPPER_LEFT"
+			format = centre
+			fixedsize = yes
+		}
+
+		instantTextBoxType={
+			position = {x = 393 y  = 9 }
+			name = "cost"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 66
+			maxHeight = 21
+			text = "55"
+			orientation = "UPPER_LEFT"
+			format = right
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name = "build"
+			position = { x= 474 y = 0 }
+			quadTextureSprite ="GFX_button_straight_87_32_notext"
+		}
+
+		instantTextBoxType={
+			position = {x = 475 y  = 9 }
+			name = "build_text"
+			font = "coyote_12b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 105
+			maxHeight = 39
+			text = "CV_BUILD_CORE"
+			orientation = "UPPER_LEFT"
+			format = centre
+			fixedsize = yes
+			alwaystransparent = yes
+			fixedsize = yes
+		}
+
+		iconType =
+		{
+			name ="province_coreprogress_bar"
+			spriteType = "GFX_province_coreprogress_bar"
+			position = { x= 477 y = 2}
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="province_coreprogress_frame"
+			spriteType = "GFX_province_coreprogress_frame"
+			position = { x= 477 y = 3}
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType =
+		{
+			name ="province_coreprogress_cancel"
+			spriteType = "GFX_alerticon_dismiss_always"
+			position = { x= 545 y = 5}
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	positionType = {
+		name = "stability_progress_threshold_move"
+		position = { x = 19 y = 0 }
+	}
+
+	################################################################################################
+	### --- Accept demands
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_acceptdemands"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y= -3}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CV_ACCEPT_DEMANDS"
+			buttonFont = "vic_18"
+		}
+	}
+
+	################################################################################################
+	### --- Stability
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_stability"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y= -9}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CV_BOOST_STABILITY"
+			buttonFont = "vic_18"
+		}
+	}
+
+	################################################################################################
+	### --- Harsh Treatments
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_harshtreatments"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y=-15}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "harsh_treatment"
+			buttonFont = "vic_18"
+		}
+	}
+
+	################################################################################################
+	### --- Provoke Revolt
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_provokerevolt"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y=-21}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PROVOKE_REVOLT"
+			buttonFont = "vic_18"
+		}
+	}
+
+	################################################################################################
+	### --- Build core
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_buildcore"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=240 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y=3}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "accept_text"
+			position = { x = 6 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 222
+			maxHeight = 27
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+
+	}
+
+	################################################################################################
+	### --- Send missionary
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_sendmissionary"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y=3}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "accept_text"
+			position = { x = 6 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 222
+			maxHeight = 27
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+
+	################################################################################################
+	### --- Change culture
+	windowType = {
+		name = "cv_governmentrebels_handlerebels_changeculture"
+		backGround =""
+		position = { x=0 y=0 }
+		size = { x=576 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=0 y=3}
+			quadTextureSprite ="GFX_list_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "accept_text"
+			position = { x = 6 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 222
+			maxHeight = 27
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+
+	################################################################################################
+	windowType = {
+	name = "demand_entry"
+	backGround=""
+	position = { x= 0 y=0 }
+	size = { x=294 y= 90 }
+	moveable = 0
+	dontRender = ""
+	horizontalBorder= ""
+	verticalBorder= ""
+	fullScreen = no
+	#alwaystransparent = yes
+
+	instantTextBoxType = {
+		name = "demand_text"
+		position = { x = 0 y = 0 }
+		textureFile = ""
+		font = "vic_18"
+		borderSize = {x = 0 y = 0}
+		text = ""
+		maxWidth = 270
+		maxHeight = 84
+		format = left
+		fixedsize = yes
+		alwaystransparent = yes
+	}
+}
+
+
+}

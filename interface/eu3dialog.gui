@@ -1,0 +1,2413 @@
+guiTypes = {
+	iconType =
+		{
+			name ="icon_merchant"
+			spriteType = "GFX_icon_merchant"
+			position = { x= 0 y = 0 }
+		}
+		
+	positionType =
+	{
+		name ="dialog_decoration_footer_offset"
+		position = { x= 0 y = -23 }
+	}
+
+		
+	### DEFAULT DIALOG
+	eu3dialogtype = {
+		name = "DefaultDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 102 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				maxHeight = 324
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= -1 y = 12 }
+		}
+		iconType =
+		{
+			name ="LeftStar"
+			spriteType = "GFX_alliance_leader"
+			position = { x=61 y =85 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 489 y = 12 }
+		}
+		
+
+		iconType =
+		{
+			name ="RightStar"
+			spriteType = "GFX_alliance_leader"
+			position = { x=551 y =85 }
+		}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}		
+		
+		guiButtonType = {
+			name = "popup"
+			position = { x= 270 y = 0 }
+			quadTextureSprite = "GFX_alert_popup_choice_icon"
+		}		
+	}
+
+	### DEFAULT DIALOG RESIZEABLE
+	eu3dialogtype = {
+		name = "DefaultDialogResizeable"
+		backGround="Background"
+		position = { x=-270 y=-192 }
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 102 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= -1 y = 12 }
+		}
+		iconType =
+		{
+			name ="LeftStar"
+			spriteType = "GFX_alliance_leader"
+			position = { x=61 y =85 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 489 y = 12 }
+		}
+		
+
+		iconType =
+		{
+			name ="RightStar"
+			spriteType = "GFX_alliance_leader"
+			position = { x=551 y =85 }
+		}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}		
+		
+		guiButtonType = {
+			name = "popup"
+			position = { x= 543 y = 329 }
+			quadTextureSprite = "GFX_alert_popup_choice_icon"
+		}		
+	}
+
+	### DEFAULT CONFIRM
+	eu3dialogtype = {
+		name = "DefaultConfirm"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 90 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				maxHeight = 336
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}		
+		
+	}
+	
+	### DEFAULT INFO DIALOG
+	eu3dialogtype = {
+		name = "DefaultInfoDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 102 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				maxHeight = 204
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=210 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		
+	}
+	
+	### SHIELDED INFO DIALOG
+	eu3dialogtype = {
+		name = "ShieldedInformationDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 102 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				maxHeight = 204
+				format = centre
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= -1 y = 12 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 489 y = 12 }
+		}
+		
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=210 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+
+		
+	}
+	
+	### DEFAULT POPUP
+	eu3dialogtype = {
+		name = "DefaultPopup"
+		backGround="Background"
+		position = { x=-330 y=-372 }
+		size = { x=600 y=624 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 27 }
+		}
+		
+		
+		iconType =
+		{
+			name ="header_decoration"
+			spriteType = "gfx_header_decoration"
+			position = { x= -19 y = -72 }
+		}
+		
+		iconType =
+		{
+			name ="footer_decoration"
+			spriteType = "gfx_footer_decoration"
+			position = { x= -3 y = -336 }
+		}
+		
+		instantTextBoxType = {
+			name = "Header"
+			position = { x = 71 y = 23 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 456
+			maxHeight = 24
+			fixedsize = yes
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Line1"
+			position = { x = 71 y = 49 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "Title"	
+			maxWidth = 456
+			maxHeight = 29
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line2"
+			position = { x = 95 y = 72 } #was 95 72
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 417
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line3"
+			position = { x = 95 y = 102 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 408
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line4"
+			position = { x = 23 y = 132 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line5"
+			position = { x = 23 y =162 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line6"
+			position = { x = 23 y = 192 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= -1 y = 23 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 489 y = 23 }
+		}
+		
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=210 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=39 y=39 }
+		}
+	}
+	
+	### CONFIRM AND NAME LEADER
+	eu3dialogtype = {
+		name = "ConfirmAndNameLeaderDialog"
+		backGround="Background"
+		position = { x=-300 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="SandboxFloaterBackground"
+		}
+		
+		iconType =
+		{
+			name ="message_band"
+			spriteType = "GFX_message_band"
+			position = { x= -18 y = 17 }
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 71 y = 43 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 456
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 71 y = 90 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 456
+				maxHeight = 216
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		guiButtonType = {
+			name = "random_leader_name_button"
+			position = { x = 471 y = 265 }
+			spriteType = "GFX_nation_designer_random_button"
+		}
+		
+		iconType =
+		{
+			name ="leader_name_editbox_bg"
+			spriteType = "GFX_popup_edittextbox_bg"
+			position = { x= 89 y = 267 }
+		}
+		
+		editBoxType =
+		{
+			name = "leader_name_editbox"
+			font = "vic_22"
+			position = { x= 99 y= 279 }
+			borderSize = { x = 0 y = 0 }	
+			text = ""
+			size = { x=369 y=24 }
+		}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =444}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}		
+		
+	}
+
+	### CONFIRM AND NAME TEAM
+	eu3dialogtype = {
+		name = "ConfirmAndNameTeamDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_team_confirm_bg"
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 111 y = 27 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 417
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 75 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 485
+				maxHeight = 108
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=365 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		iconType =
+		{
+			name ="team_name_editbox_bg"
+			spriteType = "GFX_popup_edittextbox_bg"
+			position = { x= 119 y = 135 }
+		}
+		
+		editBoxType =
+		{
+			name = "team_name_editbox"
+			font = "vic_22"
+			position = { x= 129 y= 147 }
+			borderSize = { x = 0 y = 0 }	
+			text = ""
+			size = { x=369 y=24 }
+		}
+	}
+
+	### CONFIRM AND NAME TEAM
+	eu3dialogtype = {
+		name = "ConfirmRemoveTeamDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_team_confirm_bg"
+		}
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 111 y = 27 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 417
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 75 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 485
+				maxHeight = 108
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=365 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+	}
+
+#NewColonyDialog
+###################################
+	eu3dialogtype = {
+		name = "NewColonyDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_remove"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		editBoxType = {
+				name = "Title"
+				position = { x = 144 y = 11 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 5}
+				text = "Province"	
+				
+				#format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 120 y = 108 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""	
+				maxWidth = 360
+				maxHeight = 240	
+
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "failed"
+				position = { x =  120 y = 315 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 0}	
+				text = "Colonization FAILED"	
+				maxWidth = 360
+				maxHeight = 39	
+
+				format = centre
+				
+			}
+		
+		
+		instantTextBoxType = {
+				name = "Cost_Text"
+				position = { x = 372 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Cost"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+
+		instantTextBoxType = {
+				name = "Chance_Text"
+				position = { x = 227 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Chance"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		instantTextBoxType = {
+				name = "Days_Text"
+				position = { x = 77 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Days"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		
+		instantTextBoxType = {
+				name = "Cost_Text_Value"
+				position = { x = 372 y = 271 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Cost"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+
+		instantTextBoxType = {
+				name = "Chance_Text_Value"
+				position = { x = 227 y = 271  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Chance"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		instantTextBoxType = {
+				name = "Days_Text_Value"
+				position = { x = 77 y = 271 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Days"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=396 y =342 }
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+	
+		guiButtonType = {
+			name = "GotoButton"
+			position = { x = 48 y = 342 }
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "GOTO"
+			buttonFont = "vic_18"
+			
+		}
+		
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=39 y=39 }
+		}
+		
+			windowType = {
+				name = "infoWidow"
+				backGround=""
+				position = { x = 108 y = 72 }	
+				size = { x= 174 y = 168 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+		
+		
+			instantTextBoxType = {
+				name = "provincetext_generalinfo"
+				position = { x = 0 y = -3 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 153
+				maxHeight = 39	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_growth_label"
+				position = { x = 0 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_POPULATION"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_growth"
+				position = { x = 60 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+			instantTextBoxType = {
+				name = "provincetext_natives_label"
+				position = { x = 0 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "NAT"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_natives"
+				position = { x = 60 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+			instantTextBoxType = {
+				name = "provincetext_aggressiveness_label"
+				position = { x = 0 y = 39 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PP_AGGRESSIVE"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_aggressiveness"
+				position = { x = 60 y = 39 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+			instantTextBoxType = {
+				name = "provincetext_ferocity_label"
+				position = { x = 0 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PP_FEROCITY"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_ferocity"
+				position = { x = 60 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_supplylimit_label"
+				position = { x = 0 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_SUPPLY_LIMIT"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_supplylimit_value"
+				position = { x = 60 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+
+				format = right		
+				
+			}
+
+						
+			instantTextBoxType = {
+				name = "provincetext_maxattrition_label"
+					position = { x = 0 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_MAX_ATTRITION"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_maxattrition_value"
+				position = { x = 60 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39		
+				
+
+				format = right	
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_culture_label"
+				position = { x = 0 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_CULTURE"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_culture_value"
+				position = { x = 60 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+
+				format = right			
+				
+			}
+			
+			iconType =
+			{
+				name ="cash_picture"
+				spriteType = "GFX_cash_picture"
+				position = { x= 186 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =
+			{
+				name ="resource_icon"
+				spriteType = "GFX_resource_icon"
+				position = { x= 186 y = 77 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			### Income
+
+			instantTextBoxType = {
+				name = "provincetext_tax_label"
+				position = { x = 258 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_TAX"	
+				maxWidth = 77
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_tax_value"
+				position = { x = 258 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_production_label"
+				position = { x = 258 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_PRODUCTION"	
+				maxWidth = 87
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_production_value"
+				position = { x = 258 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_totalincome_label"
+				position = { x = 258 y = 41 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_TOTAL"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_totalincome_value"
+				position = { x = 258 y = 41 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right
+				
+			}
+			
+			
+			instantTextBoxType = {
+				name = "provincetext_resource_units"
+				position = { x = 258 y = 87 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_price_label"
+				position = { x =  258 y = 107 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = "PW_PRICE"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_price_value"
+				position = { x =  258 y = 107}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+			
+			instantTextBoxType = {
+				name = "provincetext_resource_trade_label"
+				position = { x =  258 y = 126 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = "PW_TRADE_VALUE"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_trade_value"
+				position = { x =  258 y = 126 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+			#########################
+		}
+		
+	}
+	
+	#NewColonyDialog
+###################################
+	eu3dialogtype = {
+		name = "NewColonyForeignDialog"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=504 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_remove"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		editBoxType = {
+				name = "Title"
+				position = { x = 144 y = 11 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 5}
+				text = "Province"	
+				
+				#format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 120 y = 108 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				text = ""	
+				maxWidth = 360
+				maxHeight = 240	
+
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "failed"
+				position = { x =  120 y = 315 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 5 y = 0}	
+				text = "Colonization FAILED"	
+				maxWidth = 360
+				maxHeight = 39	
+
+				format = centre
+				
+			}
+		
+		
+		instantTextBoxType = {
+				name = "Cost_Text"
+				position = { x = 372 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Cost"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+
+		instantTextBoxType = {
+				name = "Chance_Text"
+				position = { x = 227 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Chance"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		instantTextBoxType = {
+				name = "Days_Text"
+				position = { x = 77 y = 233 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Days"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		
+		instantTextBoxType = {
+				name = "Cost_Text_Value"
+				position = { x = 372 y = 271 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Cost"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+
+		instantTextBoxType = {
+				name = "Chance_Text_Value"
+				position = { x = 227 y = 271  }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Chance"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		instantTextBoxType = {
+				name = "Days_Text_Value"
+				position = { x = 77 y = 271 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "Days"	
+				maxWidth = 144
+				maxHeight = 39
+
+				format = centre
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=396 y =342 }
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+			
+		guiButtonType = {
+			name = "GotoButton"
+			position = { x = 48 y = 342 }
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "GOTO"
+			buttonFont = "vic_18"
+			
+		}
+		
+		
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=39 y=39 }
+		}
+
+			windowType = {
+				name = "infoWidow"
+				backGround=""
+				position = { x = 108 y = 72 }	
+				size = { x= 174 y = 168 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+		
+		
+			instantTextBoxType = {
+				name = "provincetext_generalinfo"
+				position = { x = 0 y = -3 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 153
+				maxHeight = 39	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_growth_label"
+				position = { x = 0 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_POPULATION"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_growth"
+				position = { x = 60 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+			instantTextBoxType = {
+				name = "provincetext_settlers_label"
+				position = { x = 0 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "NAT"	
+				maxWidth = 153
+				maxHeight = 39	
+			}
+			instantTextBoxType = {
+				name = "provincetext_settlers"
+				position = { x = 60 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+				format = right		
+			}
+			
+			instantTextBoxType = {
+				name = "provincetext_supplylimit_label"
+				position = { x = 0 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_SUPPLY_LIMIT"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_supplylimit_value"
+				position = { x = 60 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+
+				format = right		
+				
+			}
+
+						
+			instantTextBoxType = {
+				name = "provincetext_maxattrition_label"
+					position = { x = 0 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_MAX_ATTRITION"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_maxattrition_value"
+				position = { x = 60 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39		
+				
+
+				format = right	
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_culture_label"
+				position = { x = 0 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_CULTURE"	
+				maxWidth = 153
+				maxHeight = 39		
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_culture_value"
+				position = { x = 60 y = 115 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 117
+				maxHeight = 39
+
+				format = right			
+				
+			}
+			
+			iconType =
+			{
+				name ="cash_picture"
+				spriteType = "GFX_cash_picture"
+				position = { x= 186 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =
+			{
+				name ="resource_icon"
+				spriteType = "GFX_resource_icon"
+				position = { x= 186 y = 77 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			### Income
+
+			instantTextBoxType = {
+				name = "provincetext_tax_label"
+				position = { x = 258 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_TAX"	
+				maxWidth = 77
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_tax_value"
+				position = { x = 258 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+
+
+			instantTextBoxType = {
+				name = "provincetext_production_label"
+				position = { x = 258 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_PRODUCTION"	
+				maxWidth = 87
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_production_value"
+				position = { x = 258 y = 19 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_totalincome_label"
+				position = { x = 258 y = 41 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = "PW_TOTAL"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_totalincome_value"
+				position = { x = 258 y = 41 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right
+				
+			}
+			
+			
+			instantTextBoxType = {
+				name = "provincetext_resource_units"
+				position = { x = 258 y = 87 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_price_label"
+				position = { x =  258 y = 107 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = "PW_PRICE"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_price_value"
+				position = { x =  258 y = 107}
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+			
+			instantTextBoxType = {
+				name = "provincetext_resource_trade_label"
+				position = { x =  258 y = 126 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = "PW_TRADE_VALUE"	
+				maxWidth = 153
+				maxHeight = 39	
+
+				format = left	
+				
+			}
+
+			instantTextBoxType = {
+				name = "provincetext_resource_trade_value"
+				position = { x =  258 y = 126 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 0}	
+				text = ""	
+				maxWidth = 120
+				maxHeight = 39	
+
+				format = right	
+				
+			}
+			#########################
+		}
+		
+	}
+
+
+	
+
+
+#///////////////////////////////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////////////////////////////
+	
+
+	positionType = {
+		name = "popup_bottom_button_pos"
+		position = { x = 108 y = 57 }
+	}
+	
+	positionType = {
+		name = "popup_bottom_gotobutton_pos"
+		position = { x = 66 y = -57 }
+	}
+
+	positionType = {
+		name = "popup_textline_dist"
+		position = { x = 60 y = 7 }
+	}
+	
+	positionType = {
+		name = "popup_textline_dist_two"
+		position = { x = 0 y = 30 }
+	}
+	
+	############### Fabricate Claim
+	
+	eu3dialogtype = {
+		name = "FabricateClaimOnStateDialog"
+		backGround=""
+		position = { x=360 y=0 }	
+		size = { x=624 y=571 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType =
+		{
+			name ="Background"
+			spriteType = "GFX_diplomacy_fabricate_claims_bg"
+			position = { x= -9 y = -11 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		instantTextBoxType = {
+				name = "Header"
+				position = { x = 141 y = 165 }
+				textureFile = ""
+				font = "vic_22s"
+				borderSize = {x = 0 y = 0}
+				text = "CLAIMSTATETITLE"	
+				maxWidth = 379
+				maxHeight = 48
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+				
+		instantTextBoxType={
+				position = {x = 39 y = 468 }
+				name = "info_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 594
+				maxHeight = 270	
+				format = centre
+				text = "SP_PRICE"	
+				orientation = "UPPER_LEFT"
+					
+				}
+
+		listboxType ={
+			name ="provincelist"
+			position = { x = 216 y = 216 }
+			backGround=""
+			size = { x=252 y =222}
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+	
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= 39 y = 144 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 511 y = 144 }
+		}
+			
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=336 y =1026} #was y=630
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=60 y =1026} #was y=630
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		
+	}
+	
+
+	############### Fabricate Claim
+	
+	eu3dialogtype = {
+		name = "FabricateClaimDialog"
+		backGround=""
+		position = { x=360 y=0 }	
+		size = { x=624 y=571 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType =
+		{
+			name ="Background"
+			spriteType = "GFX_diplomacy_fabricate_claims_bg"
+			position = { x= -9 y = -11 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		instantTextBoxType = {
+				name = "Header"
+				position = { x = 141 y = 165 }
+				textureFile = ""
+				font = "vic_22s"
+				borderSize = {x = 0 y = 0}
+				text = "FABRICATECLAIMTITLE"	
+				maxWidth = 379
+				maxHeight = 48
+				format = centre
+
+				Orientation = "UPPER_LEFT"
+			}
+				
+		instantTextBoxType={
+				position = {x = 39 y = 864 } #was y=468
+				name = "info_text"
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 594
+				maxHeight = 270	
+				format = centre
+				text = "SP_PRICE"	
+				orientation = "UPPER_LEFT"
+					
+				}
+
+		listboxType ={
+			name ="provincelist"
+			position = { x = 216 y = 216 }
+			backGround=""
+			size = { x=252 y =633} #was y=222
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+	
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "standarddialogshield"
+			position = { x= 39 y = 144 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "standarddialogshield"
+			position = { x= 511 y = 144 }
+		}
+			
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=336 y =1026} #was y=630
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=60 y =1026} #was y=630
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		
+	}
+
+	
+	windowType = {
+		name = "fabricateclaim_province_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=180 y= 36 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		checkboxType = {
+			name = "sell_prov_button"
+			position = { x=0 y =12}
+			quadTextureSprite ="GFX_checkbox_button_straight_213_29"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+
+		instantTextBoxType={
+			position = {x = 12 y = 18 }
+			name = "info_text"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+					maxWidth = 252
+			maxHeight = 19
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+
+
+		instantTextBoxType={
+			position = {x = -12 y = 18 }
+			name = "development_text"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 48
+			maxHeight = 19
+			text = ""	
+			orientation = "UPPER_RIGHT"
+			format = right
+		}
+
+		iconType = {
+			name ="development_icon"
+			spriteType = "GFX_development_icon"
+			position = { x= 36 y = 15 }
+			Orientation = "UPPER_RIGHT"
+			scale = 0.85
+		}
+	}
+
+	eu3dialogtype = {
+		name = "ImportantConfirm"
+		backGround="Background"
+		position = { x=-330 y=-372 }	
+		size = { x=600 y=384 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_delete_save_bg"
+		}
+
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 111 y = 27 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Title"	
+				maxWidth = 417
+				maxHeight = 29
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = 75 y = 77 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 485
+				maxHeight = 108
+				format = centre
+				scrollbartype = "standardtext_slider"
+			}
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=365 y =183}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		
+	}
+
+	eu3dialogtype = {
+		name = "ImperialIncidentPopup"
+		backGround="Background"
+		position = { x=-384 y=-516 }	
+		size = { x=600 y=384 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="ImperialIncidentBackground"
+		}
+		
+		instantTextBoxType = {
+			name = "Header"
+			position = { x = 131 y = 156 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 456
+			maxHeight = 24
+			fixedsize = yes
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Line1"
+			position = { x = 83 y = 161 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "Title"	
+			maxWidth = 576
+			maxHeight = 29
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line2"
+			position = { x = 95 y = 192 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 528
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line3"
+			position = { x = 95 y = 222 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 528
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line4"
+			position = { x = 95 y = 252 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line5"
+			position = { x = 95 y =282 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+			
+		instantTextBoxType = {
+			name = "Line6"
+			position = { x = 95 y = 312 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 552
+			maxHeight = 24	
+			format = centre
+		}
+		
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=93 y =528}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=329 y =528}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=264 y =528}
+			quadTextureSprite ="largefloaterbutton"
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=115 y=48 }
+		}
+	}
+}

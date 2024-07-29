@@ -1,0 +1,102 @@
+guiTypes = {
+	windowType = {
+		name = "start_game_dialog"
+		backGround=""	
+		position = { x = -307 y = -343 }	
+		size = { x = 615 y = 615 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType =
+		{
+			name ="background"
+			spriteType = "GFX_ironman_new_bg"
+			position = { x= -6 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "title_label"
+			position = { x = 48 y =138 }
+			font = "vic_29s"
+			borderSize = {x = 0 y = 0}
+			text = "SELECT_GAME_MODE"
+			maxWidth = 480
+			maxHeight = 39
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "normal_label"
+			position = { x = 43 y =197 }
+			font = "vic_29s"
+			borderSize = {x = 0 y = 0}
+			text = "NORMAL_MODE"
+			maxWidth = 360
+			maxHeight = 39
+		}
+
+		guiButtonType = {
+			name = "normal_checkbox"
+			position = { x = 499 y = 195 }
+			quadTextureSprite ="GFX_checkbox_gold_32"
+		}
+
+		instantTextBoxType = {
+			name = "ironman_label"
+			position = { x = 43 y =245 }
+			font = "vic_29s"
+			borderSize = {x = 0 y = 0}
+			text = "IRONMANMODE_START"
+			maxWidth = 360
+			maxHeight = 39
+		}
+	
+		guiButtonType = {
+			name = "ironman_checkbox"
+			position = { x = 499 y = 243 }
+			quadTextureSprite ="GFX_checkbox_gold_32"
+		}
+		
+		guiButtonType = {
+			name ="cancel_button"
+			quadTextureSprite ="button_type_4"
+			position = { x= 18 y = 540 }
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+		}
+		
+		guiButtonType = {
+			name ="start_button"
+			quadTextureSprite ="button_type_4"
+			position = { x= 288 y = 540 }
+			buttonText = "PLAY"
+			buttonFont = "vic_18"
+			shortcut = "RETURN"
+		}
+
+		instantTextBoxType = {
+			name = "achievement_status_textbox"
+			position = { x = 48 y =295 }
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 480
+			maxHeight = 60
+			format = left
+		}
+
+		guiButtonType = {
+			name ="fix_settings_button"
+			quadTextureSprite ="GFX_exclamation_button"
+			position = { x= 504 y = 297 }
+			buttonText = ""
+			buttonFont = "vic_18"
+		}
+	}
+}

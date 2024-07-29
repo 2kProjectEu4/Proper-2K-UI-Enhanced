@@ -1,0 +1,232 @@
+guiTypes = {
+
+	### Message Filters Window
+	windowType = {
+		name = "message_filters"
+		backGround=""
+		position = { x=12 y=-720 }
+		size = { x=360 y=615 }
+		show_position = { x=-516 y=-780 }
+		hide_position = { x=12 y=-720 }
+		animation_type = "decelerated"
+		animation_time = 500
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "LOWER_RIGHT"
+		
+		# Background
+		iconType = {
+			name = "background"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_msg_filters_bg"
+			orientation = "UPPER_LEFT"
+		}
+		
+		# Scrollable list of all countries
+		listboxType = {
+			name ="countries_listbox"
+			position = { x = 43 y = 342 }
+			backGround=""
+			size = { x = 384 y = 360 }
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		# Close button
+		guiButtonType = {
+			name = "close_button"
+			quadTextureSprite = "GFX_closebutton2"
+			position = { x = 413 y = 24 }
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+		
+		# Window header title
+		instantTextBoxType = {
+			name = "header_title"
+			position = { x = 77 y = 42 }
+			font = "vic_22"
+			text = "MSG_FILTER_HEADER"
+			maxWidth = 325
+			maxHeight = 24	
+			format = centre
+			Orientation = "UPPER_LEFT"	
+			fixedsize = yes		
+		}
+		
+		# Window list title
+		instantTextBoxType = {
+			name = "list_title"
+			position = { x = 77 y = 269 }
+			font = "vic_18"
+			text = "MSG_FILTER_TITLE"
+			maxWidth = 325
+			maxHeight = 21	
+			format = centre
+			Orientation = "UPPER_LEFT"	
+			fixedsize = yes		
+		}
+		
+		# Filter - Deselect All
+		guiButtonType = {
+			name = "filter_deselect"
+			quadTextureSprite = "GFX_msg_filters_button"
+			position = { x = 73 y = 90 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "MSG_FILTER_DESELECT"
+			buttonFont = "vic_18"
+		}
+		
+		# Filter - Best Guess
+		guiButtonType = {
+			name = "filter_bestguess"
+			quadTextureSprite = "GFX_msg_filters_button"
+			position = { x = 239 y = 90 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "MSG_FILTER_BEST_GUESS"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		
+		# Filter - Enemies
+		guiButtonType = {
+			name = "filter_enemies"
+			quadTextureSprite = "GFX_msg_filters_button"
+			position = { x = 73 y = 117 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "MSG_FILTER_ENEMIES"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		
+		# Filter - Allies
+		guiButtonType = {
+			name = "filter_allies"
+			quadTextureSprite = "GFX_msg_filters_button"
+			position = { x = 239 y = 117 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "MSG_FILTER_ALLIES"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		
+		# Filter - Neighbours
+		guiButtonType = {
+			name = "filter_neighbours"
+			quadTextureSprite = "GFX_msg_filters_button"
+			position = { x = 73 y = 143 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "MSG_FILTER_NEIGHBOURS"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		
+			
+		# Filters - by continent
+		#guiButtonType = {
+		#	name = "filter_all"
+		#	position = { x=0 y =147 }
+		#	quadTextureSprite ="GFX_diplo_filter_all"
+		#	buttonText = "DIPLOMACY_FILTER_ALL"
+		#	buttonFont = "vic_18" # <- "_black" appended in code
+		#}
+		guiButtonType = {
+			name = "filter_north_america"
+			position = { x=73 y =169 }
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_NORTH_AMERICA"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		guiButtonType = {
+			name = "filter_south_america"
+			position = { x=239 y =143 }
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_SOUTH_AMERICA"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		guiButtonType = {
+			name = "filter_europe"
+			position = { x=73 y =195 }
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_EUROPE"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		guiButtonType = {
+			name = "filter_africa"
+			position = { x=239 y =169 }
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_AFRICA"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		guiButtonType = {
+			name = "filter_asia"
+			position = { x=239 y =195 }
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_ASIA"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		guiButtonType = {
+			name = "filter_oceania"
+			position = { x=73 y =222 }			
+			quadTextureSprite ="GFX_msg_filters_button"
+			buttonText = "DIPLOMACY_FILTER_OCEANIA"
+			buttonFont = "vic_18" # <- "_black" appended in code
+		}
+		
+		# Sort - by name
+		guiButtonType = {
+			name = "sort_name"
+			quadTextureSprite = "GFX_sort_160"
+			position = { x = 45 y = 307 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "SORT_BY_NAME"
+			buttonFont = "vic_18"
+		}
+		
+		# Sort - by selected
+		guiButtonType = {
+			name = "sort_selected"
+			quadTextureSprite = "GFX_sort_160"
+			position = { x = 233 y = 307 }
+			Orientation = "UPPER_LEFT"
+			buttonText = "SORT_BY_SELECTED"
+			buttonFont = "vic_18"
+		}
+	}
+		
+		
+	
+	### Listbox entry (for country)
+	windowType = {
+		name = "message_filters_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=318 y=27 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		# Button (background image)
+		guiButtonType = {
+			name = "entry_bg"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_msg_filters_entry"
+			orientation = "UPPER_LEFT"
+		}
+		
+		# Country Name with flag
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 42 y = 3 }
+			font = "vic_18"
+			maxWidth = 240
+			maxHeight = 23	
+			format = left
+			Orientation = "UPPER_LEFT"	
+			fixedsize = yes		
+		}
+	}
+}

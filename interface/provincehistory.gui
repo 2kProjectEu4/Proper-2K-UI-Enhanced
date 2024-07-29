@@ -1,0 +1,62 @@
+guiTypes = {
+
+	windowType = {
+		name = "province_history_entry"
+		backGround=""
+		position = { x=-240 y=0 }	
+		size = { x=499 y=55 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType =
+		{
+			name ="entry_bg"
+			spriteType = "GFX_province_history_entry_banner"
+			position = { x= -12 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+				name = "year"
+				position = { x = 12 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = ""	
+				maxWidth = 103
+				maxHeight = 120	
+				format = left
+				Orientation = "UPPER_LEFT"			
+			}
+
+		instantTextBoxType = {
+				name = "date"
+				position = { x = 60 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = ""	
+				maxWidth = 103
+				maxHeight = 120	
+				format = left
+				Orientation = "UPPER_LEFT"			
+			}
+			
+		instantTextBoxType = {
+				name = "description"
+				position = { x = 127 y = 0 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				text = "PAPACY_MEMBER_STATES"	
+				maxWidth = 348
+				maxHeight = 48	
+				format = left
+				Orientation = "UPPER_LEFT"			
+			}
+
+	}	
+}

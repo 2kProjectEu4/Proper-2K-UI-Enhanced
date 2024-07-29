@@ -1,0 +1,98 @@
+guiTypes = {
+	######### HOTJOIN REQUESTS  ###################################
+	
+	positionType = {
+		name = "hotjoin_request_start_pos"
+		position = { x = -12 y = 192 }
+	}
+	
+	positionType = {
+		name = "hotjoin_request_offset"
+		position = { x = 0 y = 36 }
+	}
+	
+	windowType = {
+		name = "hotjoin_request_entry"
+		backGround=""
+		position = { x = 0 y = 0 }	
+		animation_type = "decelerated"
+		animation_time = 1000
+		size = { x=240 y= 39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		iconType =
+		{
+			name ="hotjoin_request_entry_bg"
+			spriteType = "GFX_hotjoinrequest_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		checkboxType = {
+			name = "hotjoin_request_check_accept"
+			position = { x= 15 y = 9 }
+			quadTextureSprite ="GFX_hotjoin_checkbox_accept"
+		}
+		
+		checkboxType = {
+			name = "hotjoin_request_check_decline"
+			position = { x= 36 y = 9 }
+			quadTextureSprite ="GFX_hotjoin_checkbox_decline"
+		}
+
+		instantTextBoxType = {
+			name = "hotjoin_request_entry_name"
+			position = { x = 66 y = 12 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 153
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"			
+		}
+	}
+	
+	windowType = {
+		name = "hotjoin_request_confirm"
+		backGround=""
+		position = { x = -252 y = 192 }
+		show_position = { x = -12 y = 192 }
+		hide_position = { x = -252 y = 192 }
+		animation_type = "decelerated"
+		animation_time = 1000
+		size = { x=240 y= 39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		
+		iconType =
+		{
+			name ="hotjoin_request_entry_bg"
+			spriteType = "GFX_hotjoinrequest1_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "hotjoin_request_confirm_button"
+			position = { x = 36 y = 0 }
+			quadTextureSprite ="button_type_7"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			buttonText = "HOTJOIN_CONFIRM"
+			buttonFont = "vic_18"
+		}
+	}
+}

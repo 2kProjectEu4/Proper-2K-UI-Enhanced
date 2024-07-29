@@ -1,0 +1,465 @@
+guiTypes = {
+	windowType = {
+		name = "great_powers"
+		backGround="great_powers_bg"
+		position = { x=-329 y= -408 }	
+		size = { x=657 y=829 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = CENTER
+		
+		upsound = tab_government
+		downsound = ""
+
+
+
+		guiButtonType =
+		{
+			name ="great_powers_bg"
+			spriteType = "GFX_great_powers_bg"
+			position = { x= 0 y = 0 }
+		}
+
+
+		
+		
+		instantTextBoxType = {
+				name = "gp_label"
+				position = { x = 151 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =360
+				maxHeight = 120	
+				format = centre
+		}
+		
+		
+		
+		iconType =
+		{
+			name ="great_power_rank_sort"
+			spriteType = "GFX_great_power_rank_sort"
+			position = { x= 59 y = 108 }
+		}
+		
+		iconType =
+		{
+			name ="great_power_name_sort"
+			spriteType = "GFX_great_power_name_sort"
+			position = { x= 123 y = 108 }
+		}
+
+		instantTextBoxType = {
+				name = "great_power_name_label"
+				position = { x = 126 y = 111 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 235
+				maxHeight = 29
+				format = centre
+				text = "GREATPOWERWIN_NAME"
+		}
+		
+		iconType =
+		{
+			name ="great_power_rating_sort"
+			spriteType = "GFX_great_power_rating_sort"
+			position = { x= 384 y = 108 }	
+		}
+		
+		iconType =
+		{
+			name ="great_power_development_sort"
+			spriteType = "GFX_great_power_development_sort"
+			position = { x= 471 y = 108 }
+		}
+		
+		iconType =
+		{
+			name ="great_power_tech_cost_sort"
+			spriteType = "GFX_great_power_tech_cost_sort"
+			position = { x= 557 y = 108 }
+		}
+
+		listboxType = {
+			name = "gp_list"
+			position = { x = 72 y = 143 }
+			backGround=""
+			size = { x=570  y = 432}
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		instantTextBoxType = {
+				name = "hegemony_label"
+				position = { x = 151 y = 534 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =360
+				maxHeight = 120	
+				text = "HEGEMONS_TITLE_WIN"
+				format = centre
+		}
+
+		
+		
+		OverlappingElementsBoxType = {
+			name = "hegemons"
+			position = { x = -75 y = 567 }
+			size = { x = 720 y = 360 }
+			Orientation = "UPPER_LEFT"
+			format = center
+			spacing = 36
+		}
+		
+		guiButtonType = {
+				name = "close_button"
+				position = { x=240 y = 725}
+				quadTextureSprite ="button_type_1"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_CLOSE"
+				buttonFont = "vic_18"
+
+				clicksound = close_window
+				shortcut = "ESCAPE"
+			}
+
+
+
+	}
+	
+	windowType = {
+		name = "gp_entry"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=540 y=42 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 60 y = 1 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+		}
+		
+		instantTextBoxType = {
+				name = "rank"
+				position = { x = 0 y = 7 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 5}
+				maxWidth =72
+				maxHeight = 72	
+				format = left
+			}
+		instantTextBoxType = {
+				name = "name"
+				position = { x = 96 y = 9 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =199
+				maxHeight = 39	
+				format = left
+			}
+		instantTextBoxType = {
+				name = "rating"
+				position = { x = 317 y = 9 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =78
+				maxHeight = 120	
+				format = left
+			}			
+		instantTextBoxType = {
+				name = "development"
+				position = { x = 402 y = 9 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =78
+				maxHeight = 120	
+				format = left
+			}		
+
+		instantTextBoxType = {
+				name = "tech"
+				position = { x = 489 y = 9 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =54
+				maxHeight = 120	
+				format = center
+			}		
+		
+
+	}	
+	
+
+	windowType = {
+		name = "hegemony_entry"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=153 y= 153 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite ="GFX_shield_thin" 
+			position = { x= 97 y = 9 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			
+		}
+
+		
+		guiButtonType = {
+			name ="button"
+			quadTextureSprite = "GFX_estates_icons"
+			position = { x= 60 y = 0 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+		}
+		
+		iconType = {
+			name ="progress_bg"
+			spriteType = "GFX_hegemon_progress_bg"
+			position = { x= 96 y = 96 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="progress"
+			spriteType = "GFX_hegemon_progress"
+			position = { x = 102 y = 96 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		iconType = {
+			name ="progress_frame"
+			spriteType = "GFX_diplomacy_progress_frame"
+			position = { x= 93 y = 93 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		
+
+		
+	}	
+
+	
+	windowType = {
+		name = "great_powers_old"
+		backGround="great_powers_bg"
+		position = { x=-329 y= -408 }	
+		size = { x=657 y=829 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = CENTER
+		
+		upsound = tab_government
+		downsound = ""
+
+
+
+		guiButtonType =
+		{
+			name ="great_powers_bg"
+			spriteType = "GFX_great_powers_bg_old"
+			position = { x= 0 y = 0 }
+			
+		}
+		instantTextBoxType = {
+				name = "gp_label"
+				position = { x = 151 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =360
+				maxHeight = 120	
+				format = centre
+		}
+		
+		
+		
+		iconType =
+		{
+			name ="great_power_rank_sort"
+			spriteType = "GFX_great_power_rank_sort_old"
+			position = { x= 54 y = 105 }
+		}
+		
+		iconType =
+		{
+			name ="great_power_name_sort"
+			spriteType = "GFX_great_power_name_sort_old"
+			position = { x= 115 y = 105 }
+		}
+
+		instantTextBoxType = {
+				name = "great_power_name_label"
+				position = { x = 115 y = 109 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 235
+				maxHeight = 29
+				format = centre
+				text = "GREATPOWERWIN_NAME"
+		}
+		
+		iconType =
+		{
+			name ="great_power_rating_sort"
+			spriteType = "GFX_great_power_rating_sort_old"
+			position = { x= 351 y = 105 }	
+		}
+		
+		iconType =
+		{
+			name ="great_power_development_sort"
+			spriteType = "GFX_great_power_development_sort_old"
+			position = { x= 437 y = 105 }
+		}
+		
+		iconType =
+		{
+			name ="great_power_tech_cost_sort"
+			spriteType = "GFX_great_power_tech_cost_sort_old"
+			position = { x= 522 y = 105 }
+		}
+
+		listboxType = {
+			name = "gp_list"
+			position = { x = 55 y = 137 }
+			backGround=""
+			size = { x=570  y = 432}
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		guiButtonType = {
+				name = "close_button"
+				position = { x=240 y = 581}
+				quadTextureSprite ="button_type_1"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "PAPACY_CLOSE"
+				buttonFont = "vic_18"
+
+				clicksound = close_window
+				shortcut = "ESCAPE"
+			}
+	}
+	
+	windowType = {
+		name = "gp_entry_old"
+		backGround=""
+		position = { x= 0 y=0 }	
+		size = { x=480 y=36 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 60 y = 0 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+		}
+		
+		instantTextBoxType = {
+				name = "rank"
+				position = { x = 3 y = 7 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =72
+				maxHeight = 120	
+				format = left
+			}
+		instantTextBoxType = {
+				name = "name"
+				position = { x = 96 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =199
+				maxHeight = 39	
+				format = left
+			}
+		instantTextBoxType = {
+				name = "rating"
+				position = { x = 291 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =84
+				maxHeight = 120	
+				format = center
+			}			
+		instantTextBoxType = {
+				name = "development"
+				position = { x = 377 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =84
+				maxHeight = 120	
+				format = center
+			}		
+
+		instantTextBoxType = {
+				name = "tech"
+				position = { x = 463 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 5 y = 3}
+				maxWidth =84
+				maxHeight = 120	
+				format = center
+			}		
+		
+		
+	}	
+	
+	
+}

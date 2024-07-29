@@ -1,0 +1,105 @@
+guiTypes = {
+	windowType = {
+		name ="shortcut_picker"
+		backGround="shortcut_picker"
+		position = { x= 540 y =420 }	
+		size = { x=609 y =331 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+
+		guiButtonType = {
+			name = "shortcut_picker"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_client_create_shield_small_bg"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}
+		
+		instantTextBoxType={
+			position = {x = 69 y = 29 }
+			name = "title"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 474
+			maxHeight = 25
+			text = "ASSIGN_HOTKEY_TITLE"
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		instantTextBoxType={
+			position = {x = 24 y = 99 }
+			name = "description"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 559
+			maxHeight = 45
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		instantTextBoxType={
+			position = {x = 66 y = 173 }
+			name = "hotkey_label"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 139
+			maxHeight = 29
+			text = "HOTKEY"
+			orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType={
+			position = {x = 223 y = 173 }
+			name = "hotkey_text"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 341
+			maxHeight = 53
+			text = "HOTKEY_WAITING"	
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "save"
+			position = { x = 396 y = 252 }
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "SAVE"
+			buttonFont = "vic_18"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "cancel"
+			position = { x = 168 y = 252 }
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "reset_all"
+			position = { x = 48 y = 240 }
+			quadTextureSprite ="GFX_button_reset_shortcuts"	
+			pdx_tooltip ="RESET_SHORTCUTS_TOOLTIP"
+			delayedTooltipText = ""
+		}
+
+	}
+}

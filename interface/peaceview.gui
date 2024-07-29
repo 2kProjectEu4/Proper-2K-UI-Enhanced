@@ -1,0 +1,946 @@
+guiTypes = {
+
+	### Belligerent Shield
+	windowType = {
+		name = "BelligerentShieldItem"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=39 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType =
+		{
+			name ="BelligerentShieldButton"
+			position = { x= 0 y = 0 }
+			quadTextureSprite = "GFX_shield_small"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="leader"
+			spriteType = "GFX_stars"
+			position = { x= -11 y = 19 }
+			Orientation = "UPPER_LEFT"
+			frame = 2
+		}	
+
+
+	}
+	
+	### Affected Allies/Enemies
+	windowType = {
+		name = "affected_allies_shield_item"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=77 y=77 } #was x=39 y=48
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType =
+		{
+			name ="ShieldButton"
+			position = { x= 0 y = 0 }
+			quadTextureSprite = "GFX_shield_medium" #was GFX_shield_small
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="Opinion_icon"
+			spriteType = "GFX_diplodesire_icon"
+			position = { x= 43 y = 41 } #was x= 15 y = 18
+			Orientation = "UPPER_LEFT"
+			frame = 2
+			alwaystransparent = yes			
+		}	
+
+
+	}
+		### Affected Allies/Enemies
+	windowType = {
+		name = "affected_enemies_shield_item"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=77 y=77 } #was x=39 y=48
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType =
+		{
+			name ="ShieldButton"
+			position = { x= 0 y = 0 }
+			quadTextureSprite = "GFX_shield_medium" #was GFX_shield_small
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="no_peace"
+			spriteType = "GFX_no_peace"
+			position = { x= 9 y = 51 } #was x= 1 y = 18
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes			
+		}
+
+
+	}
+
+	windowType = {
+		name = "peace_view"
+		backGround=""
+		position = { x=66 y=-1041 }	#was x=66 y=-681
+		size = { x=729 y=1043 } #was x=729 y=685
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes	
+		Orientation = "LOWER_LEFT"
+		
+		iconType =
+		{
+			name ="peace_view_demand_bg"
+			spriteType = "GFX_peace_demand_bg"
+			position = { x= -99 y = -1 } #was x= -99 y = -6
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="peace_view_offer_bg"
+			spriteType = "GFX_peace_offer_bg"
+			position = { x= -99 y = -1 } #was x= -99 y = -6
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		checkboxType = {
+			name = "demand_tab"
+			position = { x= 69 y = 103 }
+			quadTextureSprite = "GFX_peaceview_tabs"
+		}		
+		
+		checkboxType = {
+			name = "offer_tab"
+			position = { x= 403 y = 103 }
+			quadTextureSprite = "GFX_peaceview_tabs"
+		}
+
+		instantTextBoxType = {
+			name = "demand_tab_title"
+			position = { x = 105 y = 120}
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}	
+			text = "DEMAND_PEACE"
+			maxWidth = 153
+			maxHeight = 27
+			format = centre			
+		}
+
+		instantTextBoxType = {
+			name = "offer_tab_title"
+			position = { x = 439 y = 120}
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}	
+			text = "OFFER_PEACE"
+			maxWidth = 153
+			maxHeight = 27
+			format = centre			
+		}		
+		
+		guiButtonType =
+		{
+			name ="player_shield"
+			spriteType = "GFX_shield_thin"
+			position = { x= 24 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="player_shield_AL"
+			spriteType = "GFX_alliance_leader"
+			position = { x= 87 y = 79 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType =
+		{
+			name ="opponent_shield"
+			spriteType = "GFX_shield_thin"
+			position = { x= 568 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="opponent_shield_AL"
+			spriteType = "GFX_alliance_leader"
+			position = { x= 631 y = 79 }
+			Orientation = "UPPER_LEFT"
+		}		
+
+
+		listboxType = 
+		{
+			name ="belligerents_box"
+			position = { x = 646 y = 222 }
+			backGround=""
+			size = { x=39 y =411} #was x=39 y =192
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		listboxType = 
+		{
+			name ="affected_allies"
+			position = { x = -60 y = 116 } #was x = -30 y = 120
+			backGround=""
+			size = { x=77 y = 924 } #was x=60 y =543
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			offset = {x = -74 y = -20} #was x = -70 y = 0
+		}
+		
+		listboxType = 
+		{
+			name ="affected_enemies"
+			position = { x = 689 y = 116} #was x = 600 y = 120
+			backGround=""
+			size = { x=77 y = 924 } #was x=60 y =543
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			offset = {x = -5 y = -20} #was x = -15 y = 0
+		}
+
+		iconType =
+		{
+			name ="peace_icon_cede_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 50 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+			name = "secede_provinces"
+			position = { x = 50 y = 159 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		guiButtonType =
+		{
+			name ="peace_icon_cede"
+			spriteType = "GFX_cede_provinces_icon"
+			position = { x= 59 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="peace_icon_revokecores_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 141 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "give_up_cores"
+			position = { x = 141 y = 159 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		guiButtonType =
+		{
+			name ="peace_icon_revokecores"
+			spriteType = "GFX_revoke_core_icon"
+			position = { x= 149 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="peace_icon_returncores_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 231 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "return_cores"
+			position = { x = 231 y = 159 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		guiButtonType =
+		{
+			name ="peace_icon_returncores"
+			spriteType = "GFX_return_core_icon"
+			position = { x= 238 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType =
+		{
+			name ="peace_icon_cancelvassal_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 321 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "cancel_vassals"
+			position = { x = 321 y = 159 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		guiButtonType =
+		{
+			name ="peace_icon_cancelvassal"
+			spriteType = "GFX_cancel_vassals_icon"
+			position = { x= 329 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="peace_icon_releasenation_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 411 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "release_nations"
+			position = { x = 411 y = 159	 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		guiButtonType =
+		{
+			name ="peace_icon_releasenation"
+			spriteType = "GFX_release_nation_icon"
+			position = { x= 419 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="peace_icon_annultreaty_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 501 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+			name = "annul_treaties"
+			position = { x = 501 y = 159	 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}		
+		
+		guiButtonType =
+		{
+			name ="peace_icon_annultreaty"
+			spriteType = "GFX_annul_treaties_icon"
+			position = { x= 509 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}		
+
+		iconType =
+		{
+			name ="peace_icon_treaties_glow"
+			spriteType = "GFX_peace_button_glow"
+			position = { x= 591 y = 159 }
+			Orientation = "UPPER_LEFT"
+		}			
+		
+		guiButtonType = {
+			name = "treaties"
+			position = { x = 591 y = 159	 }
+			quadTextureSprite ="GFX_peace_tab_new"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		guiButtonType =
+		{
+			name ="peace_icon_treaties"
+			spriteType = "GFX_treaties_icon"
+			position = { x= 599 y = 169 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "cancel"
+			position = { x = 667 y = 5 }
+			spriteType ="GFX_closebutton2"	
+			shortcut = "ESCAPE"
+			clicksound = close_window
+		}
+		
+		guiButtonType = {
+			name = "reset_button"
+			position = { x = 36 y = 990 } #was x = 36 y = 630
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CLEAR_OFFER"
+			buttonFont = "vic_18"	
+		}
+		
+		guiButtonType = {
+			name = "suggest_peace_button"
+			position = { x = 266 y = 990 } #was x = 216 y = 630
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "SUGGEST_PEACE"
+			buttonFont = "vic_18"	
+		}			
+		
+		guiButtonType = {
+			name = "surrender_button"
+			position = { x = 266 y = 990 } #was x = 216 y = 630
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "SUGGEST_OFFER"
+			buttonFont = "vic_18"	
+		}		
+		
+		guiButtonType = {
+			name = "send"
+			position = { x = 496 y = 990 } #was x = 396 y = 630
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "SEND_OFFER"
+			buttonFont = "vic_18"
+		}		
+		
+		instantTextBoxType = {
+			name = "summary"
+			position = { x = 264 y = 639 } #was x = 264 y = 420
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "PEACE_SUMMARY"
+			maxWidth = 153
+			maxHeight = 29	
+			format = left
+		}	
+		
+		iconType =
+		{
+			name ="prestige_icon"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 39 y = 804 } #was x= 39 y = 447
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "prestige_value"
+			position = { x = 54 y = 807 } #was x= 48 y = 450
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "-"	
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}			
+			
+		iconType = 
+		{
+			name ="dip_icon"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 39 y = 837 } #was x= 39 y = 479
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "dip_value"
+			position = { x = 54 y = 841 } #was x = 48 y = 483
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "-"	
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}		
+		
+		iconType =
+		{
+			name ="aggressiveexp_icon"
+			spriteType = "GFX_aggresive_exp_icon"
+			position = { x= 35 y = 871 } #was x= 35 y = 513
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "aggressiveexp_value"
+			position = { x = 54 y = 876 } #was x = 48 y = 519
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "-"	
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}
+		iconType =
+		{	
+			name ="coalition_icon"
+			spriteType = "GFX_diplomacy_coalitions_against"
+			position = { x= 70 y = 750 } #was x=600 y=588
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="overex_icon"
+			spriteType = "GFX_icon_overextension"
+			position = { x= 39 y = 909 } #was x= 39 y = 552
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "overex_value"
+			position = { x = 58 y = 912 } #was x = 48 y = 555
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "-"	
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}		
+		
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = 162 y = 669 } #was x = 162 y = 451
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 484
+			maxHeight = 271 #was 132	
+			format = left
+			scrollbartype = "standardtext_slider"
+		}
+##############################################
+		iconType =
+		{
+			name ="adm_icon"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 39 y = 942 } #was x= 39 y = 585
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "adm_value"
+			position = { x = 54 y = 948 } #was x = 48 y = 591
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "-"	
+			maxWidth = 77
+			maxHeight = 39
+			format = right
+		}		
+		
+##############################################
+		instantTextBoxType = {
+			name = "offer_score_label"
+			position = { x = 250 y = 957 }  #was x = 318 y = 597
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "PEACE_OFFER_WARSCORE"
+			maxWidth = 153
+			maxHeight = 29	
+			format = left
+		}	
+
+		instantTextBoxType = {
+			name = "offer_score"
+			position = { x = 335 y = 957 } #was x = 381 y = 597
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 120
+			maxHeight = 29	
+			format = right
+		}
+
+		iconType =
+		{
+			name ="terms_declined"
+			spriteType = "GFX_terms_declined_icon"
+			position = { x= 471 y = 945 } #was x= 527 y = 588
+			Orientation = "UPPER_LEFT"
+		}			
+		
+		iconType =
+		{
+			name ="terms_accepted"
+			spriteType = "GFX_terms_accepted_icon"
+			position = { x= 473 y = 945 } #was x= 527 y = 588
+			Orientation = "UPPER_LEFT"
+		}	
+
+		instantTextBoxType = {
+			name = "war_name"
+			position = { x = 170 y = 18 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "Hundred year war"
+			maxWidth = 360
+			maxHeight = 39	
+			format = centre
+		}
+		
+		iconType = {
+			name = "war_cb_icon"
+			spriteType = "GFX_cb_core"
+			position = { x = 173 y = 75 }
+			orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name = "warscore"
+			position = { x = 415 y = 72 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 77
+			maxHeight = 39	
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "warscore_label"
+			position = { x = 300 y = 69 }
+			textureFile = ""
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}
+			text = "PEACE_WARSCORE"
+			maxWidth = 132
+			maxHeight = 39	
+			fixedsize = yes
+			format = left
+		}		
+
+		iconType = {
+			name = "war_wargoal_icon"
+			spriteType = "GFX_cb_core"
+			position = { x = 514 y = 75 }
+			orientation = "UPPER_LEFT"
+		}			
+		
+		iconType =
+		{
+			name ="icon_gold"
+			spriteType = "GFX_icon_gold"
+			position = { x= 521 y = 951 } #was x= 155 y = 593
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "cash"
+			position = { x = 523 y = 959 } #was x = 156 y = 600
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 77
+			maxHeight = 39	
+			format = right
+		}		
+		
+		guiButtonType = {
+			name = "inccash"
+			position = { x = 640 y = 958 } #was x = 273 y = 597
+			quadTextureSprite ="GFX_increase_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+		}
+		
+		guiButtonType = {
+			name = "deccash"
+			position = { x = 613 y = 958 } #was x = 246 y = 597
+			quadTextureSprite ="GFX_decrease_button_left"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+		}		
+
+		guiButtonType = {
+			name = "sort_receiver"
+			position = { x = 69 y = 219 }
+			quadTextureSprite = "GFX_sort_shield"
+		}
+
+		guiButtonType = {
+			name = "sort_text"
+			position = { x = 99 y = 221 }
+			quadTextureSprite ="GFX_sort_160_peace_extended"
+			buttonText = "PEACE_NAME"
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "sort_giver"
+			position = { x = 390 y = 219 }
+			quadTextureSprite = "GFX_sort_shield"
+		}
+					
+		guiButtonType = {
+			name = "sort_overex"
+			position = { x = 421 y = 221 }
+			quadTextureSprite ="GFX_sort_64"	
+			buttonText = "OVEREX"
+			buttonFont = "vic_18"
+		}
+	
+		guiButtonType = {
+			name = "sort_cost"
+			position = { x = 496 y = 221 } #was x = 395 y = 221
+			quadTextureSprite ="GFX_sort_64"	
+			buttonText = "PEACE_WARSCORE"
+			buttonFont = "vic_18"
+		}
+		
+		guiButtonType = {
+			name = "sort_dip_cost"
+			position = { x = 571  y = 221 } #was x = 469  y = 221
+			quadTextureSprite ="GFX_sort_diplomatic_cost"	
+		}			
+		
+		guiButtonType = {
+			name = "sort_prestige"
+			position = { x = 607 y = 221 } #was x = 504 y = 221
+			quadTextureSprite ="GFX_sort_prestige_cost"
+		}
+			
+		listboxType = 
+		{
+			name ="peace_list"
+			position = { x = 66 y = 249 }
+			backGround=""
+			size = { x= 589 y = 370} #was x= 489 y = 156
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		iconType = {
+			name = "better_offer_icon"
+			spriteType = "GFX_better_offer"
+			position = { x = 471 y = 945 } #was x = 527 y = 588
+			orientation = "UPPER_LEFT"
+		}
+	}
+
+			
+	
+	windowType = 
+	{
+		name = "peace_entry"
+		backGround=""
+		position = { x=0 y=24 }	
+		size = { x=264 y=31 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		checkboxType = {
+			name = "select"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_peace_list_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+		}
+		
+		iconType =
+		{
+			name ="wargoal_icon"
+			spriteType = "GFX_diplomacy_action_covert"
+			position = { x= 285 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}		
+
+		iconType =
+		{
+			name ="desire_icon"
+			spriteType = "GFX_diplodesire_icon"
+			position = { x = -39 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}							
+
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 139 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = -100 y = 0}
+			text = "xxxx"
+			maxWidth = 1000
+			maxHeight = 19
+			fixedsize = no
+		}
+
+		guiButtonType =
+		{
+			name ="claim_button"
+			position = { x= 280 y = -3 }
+			quadTextureSprite = "GFX_shield_small_claim"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}		
+
+		guiButtonType =
+		{
+			name ="core_button"
+			position = { x= 280 y = -3 }
+			quadTextureSprite = "GFX_shield_small"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}	
+		guiButtonType =
+		{
+			name ="perma_claim_button"
+			position = { x= 280 y = -3 }
+			quadTextureSprite = "GFX_shield_small_permanent_claim"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+			name = "country_flag"
+			position = { x= 3 y = 5 }
+			quadTextureSprite ="GFX_flag_small"	
+		}
+
+		guiButtonType = {
+			name = "country_flag_2"
+			position = { x= 325 y = 5 }
+			quadTextureSprite ="GFX_flag_small"	
+		}			
+
+		iconType =
+		{
+			name ="unlawful_territory"
+			spriteType = "GFX_unlawful_territory"
+			position = { x= 240 y = -3 }
+			Orientation = "UPPER_LEFT"
+		}			
+
+		instantTextBoxType = {
+			name = "overex"
+			position = { x = 369 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "-"	
+			maxWidth = 72
+			maxHeight = 39	
+		}		
+		instantTextBoxType = {
+			name = "score"
+			position = { x = 431 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = center
+			maxWidth = 72
+			maxHeight = 39	
+		}	
+		instantTextBoxType = {
+			name = "dip_cost"
+			position = { x = 508 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			format = center
+			maxWidth = 31
+			maxHeight = 39	
+		}			
+		instantTextBoxType = {
+			name = "prestige"
+			position = { x = 544 y = 9 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = center
+			maxWidth = 31
+			maxHeight = 39	
+		}		
+	}	
+		
+}

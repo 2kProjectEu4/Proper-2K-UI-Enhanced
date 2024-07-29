@@ -1,0 +1,1124 @@
+guiTypes = {
+
+	windowType = {
+		name = "ship_unit"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=156 y=21 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType =
+		{
+			name ="engagement_bg"
+			spriteType = "GFX_build_unit_entry_combat"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+	
+		iconType =
+		{
+			name ="disengagement_bg"
+			spriteType = "GFX_build_unit_entry_disengaged"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+
+		iconType =
+		{
+			name ="demoralized_bg"
+			spriteType = "GFX_build_unit_entry_demoralized"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+
+		iconType =
+		{
+			name ="reserve_bg"
+			spriteType = "GFX_build_unit_entry_reserve"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+		
+		iconType =
+		{				   
+			name ="navy_icon"
+			spriteType = "GFX_unit_types_strip"
+			position = { x= 0 y = -3 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+		}
+		
+		iconType = {
+			name ="flagship_icon"
+			spriteType = "GFX_flagship_icon"
+			position = { x=18 y=-1 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+		}
+
+		instantTextBoxType = {
+			name = "ship_name"
+			position = { x = 30 y = 0 }
+			format = left
+			textureFile = ""
+			font = "coyote_12b"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 140
+			maxHeight = 21
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes			
+		}
+		instantTextBoxType = {
+			name = "ship_str"
+			position = { x = 160 y = 0 }
+			format = right
+			textureFile = ""
+			font = "coyote_12b"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 45
+			maxHeight = 21
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes			
+		}
+	}
+
+#-----------------------------------------------------------------
+
+	windowType = {
+		name = "combat"
+		backGround=""
+		position = { x=-13 y=-701 }	
+		size = { x=510 y=615 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "LOWER_LEFT"
+
+		
+	
+		iconType =
+		{
+			name ="combat_bg"
+			spriteType = "GFX_combat_bg_artemis"
+			position = { x= -7 y = -3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="combat_naval_bg"
+			spriteType = "GFX_naval_combat_bg"
+			position = { x= -7 y = -3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="flagship_1"
+			spriteType = "GFX_flagship_icon"
+			position = { x= 350 y = 130 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		iconType =
+		{
+			name ="flagship_2"
+			spriteType = "GFX_flagship_icon"
+			position = { x= 350 y = 560 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="combat_terrain"
+			spriteType = "GFX_combat_terrain_hills"
+			position = { x= 68 y = 90 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="combat_terrain_frame"
+			spriteType = "GFX_combat_terrain_frame"
+			position = { x= 58 y = 81 }
+		}
+		
+		iconType = {
+			name ="combat_banner"
+			spriteType = "GFX_combat_banner"
+			position = { x= 7 y = 24000 }
+		}
+
+		
+
+		iconType = {
+			name ="combat_may_retreat"
+			spriteType = "GFX_may_retreat"
+			position = { x= 75 y = 13 }
+		}
+
+		
+
+		instantTextBoxType = {
+			name = "label_battlename"
+			position = { x = 83 y = 21 }
+			textureFile = ""
+			font = "vic_22"
+			text = ""	
+			maxWidth = 438
+			maxHeight = 29
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "closebutton"
+			position = { x = 552 y = 12 }
+			quadTextureSprite ="GFX_closebutton2"
+			shortcut = "ESCAPE"
+			clicksound = close_window
+	}
+
+		instantTextBoxType = {
+			name = "phase_name"
+			position = { x = 33 y = 422 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 519
+			maxHeight = 29
+			fixedsize = yes
+			format = centre	
+		}
+		
+		iconType = {
+			name ="phase_naval"
+			spriteType = "GFX_naval_combat_phase_strip"
+			position = { x= 285 y = 365 }
+		}
+		
+		iconType = {
+			name ="combat_width"
+			spriteType = "GFX_combat_cw_icon"
+			position = { x= 528 y = 425 }
+			hint_tag = "hint_combatwidth"
+		}
+
+		### NAVAL
+		windowType = {
+			name = "naval"
+			backGround=""
+			position = { x=24 y=264 }	
+			size = { x=307 y=384 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+				listboxType = 
+				{
+					name ="left_side"
+					position = { x = 23 y = 11 }
+					backGround=""
+					size = { x= 208 y = 219}
+					Orientation = "UPPER_LEFT"
+					horizontal = 0
+					spacing = 0
+					scrollbartype = "standardlistbox_slider"
+					borderSize = {x = 0 y = 0}
+				}
+				
+				listboxType = 
+				{
+					name ="right_side"
+					position = { x = 313 y = 11 }
+					backGround=""
+					size = { x= 208 y = 219}
+					Orientation = "UPPER_LEFT"
+					horizontal = 0
+					spacing = 0
+					scrollbartype = "standardlistbox_slider"
+					borderSize = {x = 0 y = 0}
+				}			
+			
+		}
+
+		### ATTACKER
+		windowType = {
+			name = "attacker"
+			backGround=""
+			position = { x=13 y=230 }	
+			size = { x=307 y=192 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+
+			guiButtonType =
+			{
+				name ="shield"
+				spriteType = "GFX_shield_thin"
+				position = { x= -2 y = 15 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =
+			{
+				name ="leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 132 y = -39 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType =
+			{
+				name ="leader_personality"
+				spriteType = "GFX_idea_unknown"
+				position = { x= 177 y = -29 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.4
+			}
+
+			instantTextBoxType = {
+				name = "leader_name"
+				position = { x = 228 y = -26 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 300
+				maxHeight = 24	
+				fixedsize = yes
+			}
+
+			instantTextBoxType = {
+				name = "combat_attacker"
+				position = { x = 30 y = -26 }
+				textureFile = ""
+				font = "messagelog"
+				borderSize = {x = 0 y = 0}
+				text = "Attacker "	
+				maxWidth = 180
+				maxHeight = 24	
+				fixedsize = yes
+			}
+
+			iconType = {
+				name ="captured_ships_icon"
+				spriteType = "GFX_captured_ships_icon"
+				position = { x= 288 y = 86 }
+			}
+
+			instantTextBoxType = {
+				name = "captured_ships"
+				position = { x= 368 y = 89 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "-"	
+				maxWidth = 45
+				maxHeight = 24	
+				fixedsize = yes
+			}
+
+			iconType = {
+				name ="morale_frame"
+				spriteType = "GFX_combat_morale_frame"
+				position = { x= 98 y = 90 }
+				
+			}
+			
+			iconType = {
+				name ="morale"
+				spriteType = "GFX_combat_morale"
+				position = { x= 106 y = 95 }
+				
+			}
+			
+		
+			instantTextBoxType = {
+				name = "morale_label"
+				position = { x = 130 y = 95 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "COMBAT_MORALE"	
+				maxWidth = 120
+				maxHeight = 24	
+				format = centre
+				fixedsize = yes
+			}
+			
+			### DISCIPLINE, MORALE, MILITARY TACTICS
+			iconType = {
+				name ="dicipline_icon"
+				spriteType = "GFX_icon_discipline"
+				position = { x= 285 y = 11 }
+				hint_tag = "hint_discipline"
+			}
+			
+			instantTextBoxType = {
+				name = "dicipline_value"
+				position = { x = 315 y = 29 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "111"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+			
+			iconType = {
+				name ="engagement_width_icon"
+				spriteType = "GFX_engagement_width_icon"
+				position = { x= 288 y = 19 }				
+			}
+			
+			instantTextBoxType = {
+				name = "engagement_width_value"
+				position = { x = 308 y = 29 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "-"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+
+			iconType = {
+				name ="maxmorale_icon"
+				spriteType = "GFX_icon_morale"
+				position = { x= 289 y = 53 }				
+				hint_tag = "hint_morale"
+			}
+			
+			instantTextBoxType = {
+				name = "maxmorale_value"
+				position = { x = 309 y = 59 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "222"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+			
+			iconType = {
+				name ="militarytactics_icon"
+				spriteType = "GFX_icon_military_tactics"
+				position = { x= 292 y = 85 }
+				hint_tag = "hint_miltac"
+			}
+			
+			instantTextBoxType = {
+				name = "militarytactics_value"
+				position = { x = 309 y = 89 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "333"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+
+			### UNIT ICONS LAND
+			iconType =
+			{
+				name ="unit_type_1"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_infantry"
+			}
+
+			iconType =
+			{
+				name ="unit_type_2"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 45 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_cavalry"
+			}
+			
+			iconType =
+			{
+				name ="combat_nomads_bonus"
+				spriteType = "GFX_combat_view_nomad_shock"
+				position = { x=81 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}			
+
+			iconType =
+			{
+				name ="combined_arms_bonus"
+				spriteType = "GFX_combat_view_posneg"
+				position = { x=402 y = 47 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}		
+			
+			iconType =
+			{
+				name ="unit_type_3"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 80 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_artillery"
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_1_value"
+				position = { x = 450 y = 20 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_2_value"
+				position = { x = 450 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_3_value"
+				position = { x = 450 y = 97 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+			
+			### UNIT ICONS NAVAL
+			iconType =
+			{
+				name ="unit_type_1_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 3 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+
+			iconType =
+			{
+				name ="unit_type_2_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 34 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+	
+			iconType =
+			{
+				name ="unit_type_3_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 66 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+
+			iconType =
+			{
+				name ="galley_bonus"
+				spriteType = "GFX_combat_view_posneg"
+				position = { x=427 y = 66 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}		
+			
+			iconType =
+			{
+				name ="unit_type_4_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 96 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_1_value_naval"
+				position = { x = 450 y = 13 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_2_value_naval"
+				position = { x = 450 y = 45 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_3_value_naval"
+				position = { x = 450 y = 75 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_4_value_naval"
+				position = { x = 450 y = 107 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+
+
+		}
+
+
+
+
+
+
+		###### This window is a copy of the "attacker" window
+
+		windowType = {
+			name = "defender"
+			backGround=""
+			position = { x=13 y=552 }	
+			size = { x=307 y=192 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+
+			guiButtonType =
+			{
+				name ="shield"
+				spriteType = "GFX_shield_thin"
+				position = { x= -2 y = 15 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =
+			{
+				name ="leader_icon"
+				spriteType = "GFX_leader_types"
+				position = { x= 132 y = -39 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType =
+			{
+				name ="leader_personality"
+				spriteType = "GFX_idea_unknown"
+				position = { x= 175 y = -29 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.4
+			}
+
+			instantTextBoxType = {
+				name = "leader_name"
+				position = { x = 228 y = -26 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 180
+				maxHeight = 24	
+				fixedsize = yes
+			}
+
+			instantTextBoxType = {
+				name = "combat_attackerd"
+				position = { x = 30 y = -26 }
+				textureFile = ""
+				font = "messagelog"
+				borderSize = {x = 0 y = 0}
+				text = "Defender "	
+				maxWidth = 180
+				maxHeight = 24	
+				fixedsize = yes
+			}
+			
+			iconType = {
+				name ="captured_ships_icon"
+				spriteType = "GFX_captured_ships_icon"
+				position = { x= 288 y = 86 }
+			}
+
+			instantTextBoxType = {
+				name = "captured_ships"
+				position = { x= 368 y = 89 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "-"	
+				maxWidth = 45
+				maxHeight = 24	
+				fixedsize = yes
+			}
+
+			iconType = {
+				name ="morale_frame"
+				spriteType = "GFX_combat_morale_frame"
+				position = { x= 98 y = 90 }
+			}
+
+			iconType = {
+				name ="morale"
+				spriteType = "GFX_combat_morale"
+				position = { x= 106 y = 95 }
+			}
+			
+		
+			instantTextBoxType = {
+				name = "morale_label"
+				position = { x = 130 y = 95 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "COMBAT_MORALE"	
+				maxWidth = 120
+				maxHeight = 24	
+				format = centre
+				fixedsize = yes
+			}
+			
+			### DISCIPLINE, MORALE, MILITARY TACTICS
+			iconType = {
+				name ="dicipline_icon"
+				spriteType = "GFX_icon_discipline"
+				position = { x= 285 y = 11 }
+				hint_tag = "hint_discipline"
+			}
+			
+			instantTextBoxType = {
+				name = "dicipline_value"
+				position = { x = 315 y = 29 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "111"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+			
+			iconType = {
+				name ="engagement_width_icon"
+				spriteType = "GFX_engagement_width_icon"
+				position = { x= 288 y = 19 }				
+			}
+			
+			instantTextBoxType = {
+				name = "engagement_width_value"
+				position = { x = 308 y = 29 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "-"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+
+			iconType = {
+				name ="maxmorale_icon"
+				spriteType = "GFX_icon_morale"
+				position = { x= 289 y = 53 }				
+				hint_tag = "hint_morale"
+			}
+			
+			instantTextBoxType = {
+				name = "maxmorale_value"
+				position = { x = 309 y = 59 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "222"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+			
+			iconType = {
+				name ="militarytactics_icon"
+				spriteType = "GFX_icon_military_tactics"
+				position = { x= 292 y = 85 }
+				hint_tag = "hint_miltac"
+			}
+			
+			instantTextBoxType = {
+				name = "militarytactics_value"
+				position = { x = 309 y = 89 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "333"	
+				maxWidth = 72
+				maxHeight = 24	
+				format = right
+			}
+
+			### UNIT ICONS LAND
+			iconType =
+			{
+				name ="unit_type_1"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 5 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_infantry"
+			}
+
+			iconType =
+			{
+				name ="unit_type_2"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 45 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_cavalry"
+			}
+			
+			iconType =
+			{
+				name ="combat_nomads_bonus"
+				spriteType = "GFX_combat_view_nomad_shock"
+				position = { x=91 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}			
+
+			iconType =
+			{
+				name ="combined_arms_bonus"
+				spriteType = "GFX_combat_view_posneg"
+				position = { x=402 y = 47 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}			
+			
+			iconType =
+			{
+				name ="unit_type_3"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 80 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.8
+				hint_tag = "hint_artillery"
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_1_value"
+				position = { x = 450 y = 20 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_2_value"
+				position = { x = 450 y = 57 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}		
+			
+			instantTextBoxType = {
+				name = "unit_type_3_value"
+				position = { x = 450 y = 97 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+			
+			### UNIT ICONS NAVAL
+			iconType =
+			{
+				name ="unit_type_1_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 3 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+
+			iconType =
+			{
+				name ="unit_type_2_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 34 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+
+			iconType =
+			{
+				name ="unit_type_3_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 66 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+
+			iconType =
+			{
+				name ="galley_bonus"
+				spriteType = "GFX_combat_view_posneg"
+				position = { x=427 y = 66 }
+				Orientation = "UPPER_LEFT"
+				frame = 2
+			}
+			
+			iconType =
+			{
+				name ="unit_type_4_naval"
+				spriteType = "GFX_unit_types_strip_nontransp"
+				position = { x= 405 y = 96 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_1_value_naval"
+				position = { x = 450 y = 13 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_2_value_naval"
+				position = { x = 450 y = 45 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+
+			instantTextBoxType = {
+				name = "unit_type_3_value_naval"
+				position = { x = 450 y = 75 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+			
+			instantTextBoxType = {
+				name = "unit_type_4_value_naval"
+				position = { x = 450 y = 107 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "999"	
+				maxWidth = 84
+				maxHeight = 24	
+				fixedsize = yes
+				format=right
+			}
+			
+		}
+
+	}
+
+	###################################
+	###################################  Positions etc.
+	
+	positionType = {
+		name = "naval_attacker_position"
+		position = { x = 13 y = 121 }
+	}
+	
+	iconType =
+	{
+		name ="counter"
+		spriteType = "gfx_counters"
+		position = { x= 0 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+	positionType =
+	{
+		name ="counter_overlay_offset"
+		position = { x= -1 y = -1 }
+	}
+	iconType =
+	{
+		name ="counter_overlay"
+		spriteType = "gfx_counters_overlay"
+		position = { x= 0 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	positionType = {
+		name = "combat_view_target_arrows_up_offset"
+		position = { x = -48 y = -54 }
+	}
+	iconType =
+	{
+		name ="combat_view_target_arrows_up"
+		spriteType = "gfx_combat_view_target_arrows_up"
+		position = { x= 0 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	positionType = {
+		name = "combat_view_target_arrows_down_offset"
+		position = { x = -48 y = 6 }
+	}
+	iconType =
+	{
+		name ="combat_view_target_arrows_down"
+		spriteType = "gfx_combat_view_target_arrows_down"
+		position = { x= 0 y = 0 }
+		Orientation = "LOWER_LEFT"
+	}
+
+
+
+	positionType = {
+		name = "counter_offset"
+		position = { x = 12 y = -15 }
+	}
+
+	positionType = {
+		name = "counter_start"
+		position = { x = 51 y = 172 }
+	}
+
+	positionType = {
+		name = "counter_start2"
+		position = { x = 51 y = -87 }
+	}
+
+	positionType = {
+		name = "counter_offset2"
+		position = { x = 12 y = 15 }
+	}
+	positionType = {
+		name = "modifier_offset"
+		position = { x = 39 y = 0 }
+	}
+
+	positionType = {
+		name = "modifier_start"
+		position = { x = 111 y = 36 }
+	}
+
+	### COMBAT MODIFIER
+	windowType = {
+			name = "combat_modifier"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=307 y=192 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+
+			iconType =
+			{
+				name ="modifier_icon"
+				spriteType = "gfx_battlemodifiers"
+				position = { x= 0 y = -16 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "modifier_value"
+				position = { x = -1 y = 17 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 39
+				maxHeight = 39	
+				format=centre
+			}
+		}
+
+}

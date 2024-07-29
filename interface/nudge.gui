@@ -1,0 +1,983 @@
+guiTypes = {
+
+	windowType = 
+	{
+		name = "nudge_selection_window"
+		backGround="Background"
+		position = { x = -216 y = 0 }
+		Orientation = "UPPER_RIGHT"
+		size = { x = 216 y = 144 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="nudge_bg"
+		}
+
+		instantTextBoxType = 
+		{
+			name = "selection_header"
+			position = { x = 24 y = 6 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "Disable selection modes"
+			maxWidth = 240
+			maxHeight = 39
+		}
+
+		checkboxType = {
+			name = "provinces"
+			position = { x = 19 y = 24 }
+			quadTextureSprite ="button_type_7"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "      Provinces"
+			buttonFont = "vic_18"
+		}
+
+		checkboxType = {
+			name = "ambient_objects"
+			position = { x = 19 y = 60 }
+			quadTextureSprite ="button_type_7"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "      Ambient objects"
+			buttonFont = "vic_18"
+		}
+
+		checkboxType = {
+			name = "trade_routes"
+			position = { x = 19 y = 96 }
+			quadTextureSprite ="button_type_7"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "      Trade routes"
+			buttonFont = "vic_18"
+		}
+		
+		guiButtonType = {
+			name = "leavenudge"
+			position = { x = 19 y = 156 }
+			quadTextureSprite ="button_type_7"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Leave Nudge"
+			buttonFont = "vic_18"
+		}	
+	}	
+
+	windowType = 
+	{
+		name = "nudge_province_window"
+		backGround="Background"
+		position = { x=-480 y=-348 }
+		Orientation = "LOWER_RIGHT"
+		size = { x = 420 y = 288 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="nudge_bg"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_rotation_plus"
+				position = { x = 264 y = 54 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "+"
+				buttonFont = "Main_14_black"
+				shortcut = "e"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_rotation_minus"
+				position = { x = 264 y = 72 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "-"
+				buttonFont = "Main_14_black"
+				shortcut = "q"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_rotation_plus_plus"
+				position = { x = 300 y = 54 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "++"
+				buttonFont = "Main_14_black"
+				shortcut = "f"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_rotation_minus_minus"
+				position = { x = 300 y = 72 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "--"
+				buttonFont = "Main_14_black"
+				shortcut = "r"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_z_plus"
+				position = { x = 222 y = 96 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "^"
+				buttonFont = "Main_14_black"
+				shortcut = "w"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_z_minus"
+				position = { x = 222 y = 156 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "v"
+				buttonFont = "Main_14_black"
+				shortcut = "s"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_x_plus"
+				position = { x = 252 y = 126 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ">"
+				buttonFont = "Main_14_black"
+				shortcut = "d"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_x_minus"
+				position = { x = 192 y = 126 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "<"
+				buttonFont = "Main_14_black"
+				shortcut = "a"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_up"
+				position = { x = 144 y = 108 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "+"
+				buttonFont = "Main_14_black"
+				shortcut = "PAGE_UP"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_zero"
+				position = { x = 144 y = 126 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "0"
+				buttonFont = "Main_14_black"
+				shortcut = "END"
+		}
+
+		guiButtonType = 
+		{
+				name = "nudge_down"
+				position = { x = 144 y = 144 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "-"
+				buttonFont = "Main_14_black"
+				shortcut = "PAGE_DOWN"
+		}
+
+		textBoxType = 
+		{
+			name = "nudge_warning"
+			position = { x = 84 y = 240 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Warning: Port is not in water!"
+			maxWidth = 240
+			maxHeight = 39	
+		}
+
+
+		listboxType = 
+		{
+			name ="nudge_types"
+			position = { x=-24 y = 12}
+			size = { x=240 y =360 }
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 24 y = 24}
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = 
+		{
+				name = "next"
+				position = { x = 0 y = -12 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "next"
+				buttonFont = "Main_14_black"
+				shortcut = "2"
+		}
+
+		guiButtonType = 
+		{
+				name = "prev"
+				position = { x = 48 y = -12 }
+				quadTextureSprite ="tiny_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "prev"
+				buttonFont = "Main_14_black"
+				shortcut = "1"
+		}
+
+	
+		textBoxType = {
+			name = "nudge_name"
+			position = { x = 30 y = 12 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+
+	
+
+		
+		textBoxType = {
+			name = "nudge_x_title"
+			position = { x = 204 y = 12 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "x:"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+		textBoxType = {
+			name = "nudge_x"
+			position = { x = 234 y = 12 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+
+		textBoxType = {
+			name = "nudge_z_title"
+			position = { x = 204 y = 36 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "z:"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+		textBoxType = {
+			name = "nudge_z"
+			position = { x = 234 y = 36 }
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+
+
+		textBoxType = {
+			name = "nudge_rotation_title"
+			position = { x = 156 y = 60 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Rotation:"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+		textBoxType = {
+			name = "nudge_rotation"
+			position = { x = 234 y = 60 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+				
+		textBoxType = {
+			name = "nudge_height_title"
+			position = { x = 156 y = 78 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Height:"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+		textBoxType = {
+			name = "nudge_height"
+			position = { x = 234 y = 78 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 240
+			maxHeight = 39	
+		}	
+		
+			guiButtonType = {
+				name = "button_goto"
+				position = { x = -72 y = -264 }
+				quadTextureSprite ="GFX_button_goto"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+
+				Orientation = "LOWER_RIGHT"
+				clicksound = click
+			}
+			
+		guiButtonType = {
+			name = "nudge_save"
+			position = { x = 312 y = 168 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Save"
+			buttonFont = "vic_18"
+			shortcut = "-"
+		}
+
+		guiButtonType = {
+			name = "nudge_check"
+			position = { x = 312 y = 204 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Check"
+			buttonFont = "vic_18"
+			shortcut = "SPACE"
+		}
+
+		guiButtonType = {
+			name = "nudge_mapmode"
+			position = { x = 312 y = 240 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Mapmode"
+			buttonFont = "vic_18"
+			shortcut = "t"
+		}
+	}
+
+	windowType = {
+		name = "nudge_type"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=240 y= 29 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		##### CODER REMOVE		
+		checkboxType = {
+			name = "box"
+			position = { x= 12 y = 0 }
+			quadTextureSprite ="buttonCheckbox"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 60 y = 9 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "type"
+			maxWidth = 240
+			maxHeight = 39	
+		}
+		
+	}
+	
+	windowType = 
+	{
+		name = "nudge_window_ambient_object"
+		backGround="Background"
+		position = { x=-480 y=-420 }
+		Orientation = "LOWER_RIGHT"
+		size = { x = 420 y = 360 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="nudge_bg"
+		}
+
+		textBoxType = {
+			name = "nudge_name"
+			position = { x = 30 y = 12 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "World Ambient Object"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+		
+		textBoxType = {
+			name = "ao_name_title"
+			position = { x = 30 y = 42 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Name"	
+			maxWidth = 240
+			maxHeight = 39	
+		}		
+		
+		editBoxType = {
+			position = { x = 84 y = 18  }
+			name = "ao_name"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=240 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+			name = "ao_type_title"
+			position = { x = 30 y = 72 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Type"	
+			maxWidth = 240
+			maxHeight = 39	
+		}		
+		
+		editBoxType = {
+			position = { x = 84 y = 54  }
+			name = "ao_type"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=240 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "ao_pos_title"
+			position = { x = 30 y = 108 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Position"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+
+		editBoxType = {
+			position = { x = 84 y = 90  }
+			name = "ao_pos_x"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+		editBoxType = {
+			position = { x = 168 y = 90  }
+			name = "ao_pos_y"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			#maxWidth = 600
+			#maxHeight = 27
+			orientation = "UPPER_LEFT"
+			instantTextBoxType = no
+		}
+		editBoxType = {
+			position = { x = 252 y = 90  }
+			name = "ao_pos_z"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			
+			orientation = "UPPER_LEFT"
+			instantTextBoxType = no
+		}
+
+		textBoxType = {
+			name = "ao_rot_title"
+			position = { x = 30 y = 144 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Rotation"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+
+		editBoxType = {
+			position = { x = 84 y = 126  }
+			name = "ao_rot_x"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			#maxWidth = 600
+			#maxHeight = 27
+			orientation = "UPPER_LEFT"
+			instantTextBoxType = no
+		}
+		editBoxType = {
+			position = { x = 168 y = 126  }
+			name = "ao_rot_y"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+		editBoxType = {
+			position = { x = 252 y = 126  }
+			name = "ao_rot_z"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "ao_scale_title"
+			position = { x = 30 y = 180 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Scale"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+		editBoxType = {
+			position = { x = 84 y = 162  }
+			name = "ao_scale"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "ao_max_visible_title"
+			position = { x = 30 y = 252 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Max visible"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+		editBoxType = {
+			position = { x = 144 y = 234  }
+			name = "ao_max_visible"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=72 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+		
+		
+		textBoxType = {
+			name = "ao_duration_title"
+			position = { x = 30 y = 216 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Duration"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+		editBoxType = {
+			position = { x = 144 y = 198  }
+			name = "ao_duration"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = " "	
+			instantTextBoxType = no
+			orientation = "UPPER_LEFT"
+		}
+	
+		textBoxType = {
+			name = "ao_animated_title"
+			position = { x = 30 y = 324 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Animated"	
+			maxWidth = 240
+			maxHeight = 39	
+		}
+	
+		checkboxType = {
+				name = "ao_animated"
+				position = { x = 144 y = 306 }
+				quadTextureSprite ="GFX_checkbox"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+
+			}		
+		
+		guiButtonType = {
+			name = "ao_duplicate_button"
+			position = { x = 276 y = 192 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Duplicate"
+			buttonFont = "vic_18"
+			shortcut = "d"
+		}
+		guiButtonType = {
+			name = "ao_update_button"
+			position = { x = 276 y = 228 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Update"
+			buttonFont = "vic_18"
+			shortcut = "u"
+		}
+		guiButtonType = {
+			name = "ao_save_button"
+			position = { x = 276 y = 264 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Save"
+			buttonFont = "vic_18"
+			shortcut = "s"
+		}
+
+		guiButtonType = {
+			name = "ao_delete_button"
+			position = { x = 276 y = 312 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Delete"
+			buttonFont = "vic_18"
+			shortcut = "s"
+		}		
+	}
+	
+	windowType = 
+	{
+		name = "nudge_window_trade_route"
+		backGround="Background"
+		position = { x=-480 y=-348 }
+		Orientation = "LOWER_RIGHT"
+		size = { x = 420 y = 288 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="nudge_bg"
+		}
+
+		instantTextBoxType = {
+			name = "trade_node_name"
+			position = { x = 0 y = 12 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Trade node name"	
+			maxWidth = 420
+			maxHeight = 39	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "route_header"
+			position = { x = 12 y = 48 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Trade route: "	
+			maxWidth = 120
+			maxHeight = 39
+		}			
+	
+		instantTextBoxType = {
+			name = "route_name"
+			position = { x = 24 y = 48 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Trade route name"	
+			maxWidth = 420
+			maxHeight = 39
+			format = center	
+			alwaystransparent = yes
+		}
+	
+		guiButtonType = 
+		{
+			name = "route_minus"
+			position = { x = 120 y = 48 }
+			quadTextureSprite ="tiny_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "<"
+			buttonFont = "Main_14_black"
+			shortcut = "p"
+		}	
+	
+		guiButtonType = 
+		{
+			name = "route_plus"
+			position = { x = 312 y = 48 }
+			quadTextureSprite ="tiny_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ">"
+			buttonFont = "Main_14_black"
+			shortcut = "n"
+		}
+		
+		instantTextBoxType = {
+			name = "control_point_header"
+			position = { x = 12 y = 72 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Control point: "	
+			maxWidth = 120
+			maxHeight = 39
+		}		
+	
+		instantTextBoxType = {
+			name = "control_point_num"
+			position = { x = 24 y = 72 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "1"	
+			maxWidth = 420
+			maxHeight = 39		
+			format = center		
+			alwaystransparent = yes			
+		}
+	
+		guiButtonType = 
+		{
+			name = "control_point_minus"
+			position = { x = 120 y = 72 }
+			quadTextureSprite ="tiny_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "<"
+			buttonFont = "Main_14_black"
+			shortcut = "p"
+		}	
+	
+		guiButtonType = 
+		{
+			name = "control_point_plus"
+			position = { x = 312 y = 72 }
+			quadTextureSprite ="tiny_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ">"
+			buttonFont = "Main_14_black"
+			shortcut = "n"
+		}	
+		
+		instantTextBoxType = {
+			name = "position_header"
+			position = { x = 12 y = 111 }
+			
+			font = "Main_16"
+			borderSize = {x = 0 y = 0}
+			text = "Position: "	
+			maxWidth = 120
+			maxHeight = 39
+		}		
+		
+		editBoxType = {
+			position = { x = 84 y = 90  }
+			name = "pos_x"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = "0"	
+			orientation = "UPPER_LEFT"
+			instantTextBoxType = no
+		}
+		editBoxType = {
+			position = { x = 168 y = 90  }
+			name = "pos_z"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Main_16"
+			borderSize = {x = 12 y = 12}	
+			size = { x=96 y=48}
+			text = "0"		
+			orientation = "UPPER_LEFT"
+			instantTextBoxType = no
+		}		
+
+		guiButtonType = {
+			name = "add_button"
+			position = { x = 12 y = 144 }
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Add control point"
+			buttonFont = "vic_18"
+		}		
+		
+		guiButtonType = {
+			name = "delete_button"
+			position = { x = 12 y = 180 }
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Delete control pooint"
+			buttonFont = "vic_18"
+			shortcut = "s"
+		}		
+		
+		guiButtonType = {
+			name = "update_button"
+			position = { x = 300 y = 192 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Update"
+			buttonFont = "vic_18"
+			shortcut = "u"
+		}
+		guiButtonType = {
+			name = "save_button"
+			position = { x = 300 y = 228 }
+			quadTextureSprite ="button_type_6"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "Save"
+			buttonFont = "vic_18"
+			shortcut = "s"
+		}
+	}	
+}

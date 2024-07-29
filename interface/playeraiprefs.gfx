@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_playeraiprefs_question_mark"
+		texturefile = "gfx\\interface\\playeraiprefs_question.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "yearslider_background"
+		size= {x =384 y = 19 }
+		texturefile = "gfx//interface//scrollbar_sliderbackground.tga"
+		borderSize = { x=5 y=5 }
+	}
+}

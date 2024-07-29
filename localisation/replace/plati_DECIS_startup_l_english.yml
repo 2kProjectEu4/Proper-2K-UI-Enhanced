@@ -1,0 +1,701 @@
+﻿l_english:
+ #man I really need to get laid
+ #Scripted by Plati
+ #
+ # Customizable Localization
+ 
+ # Nobles
+ string_PLATI_A:0 "£PLATI_ESTATE_NOBLES£"                       #Euros
+ string_PLATI_B:0 "£PLATI_X_ESTATE_NOBLES_ISLAM£"                #Islam
+ string_PLATI_C:0 "£PLATI_X_ESTATE_NOBLES_MISC£"                #The rest
+ # Church
+ string_PLATI_D:0 "£PLATI_ESTATE_BURGHERS£"                     #Euros
+ string_PLATI_E:0 "£PLATI_X_ESTATE_BURGHERS_ISLAM£"                #Islam
+ string_PLATI_F:0 "£PLATI_X_ESTATE_BURGHERS_MISC£"                #The rest
+ # Burghers
+ string_PLATI_G:0 "£PLATI_ESTATE_CHURCH£"                       #Euros
+ string_PLATI_H:0 "£PLATI_X_ESTATE_CHURCH_ISLAM£"                #Islam
+ string_PLATI_I:0 "£PLATI_X_ESTATE_CHURCH_MISC£"                #The rest
+ 
+ #
+ # Firearm Regiments
+ string_PLATI_fireregiments_western:0           "£PLATI_XELITE_REGIMENTS_WEST£"                       #W
+ string_PLATI_fireregiments_eastern:0           "£PLATI_XELITE_REGIMENTS_EAST£"                       #W
+ string_PLATI_fireregiments_perso_turkic:0      "£PLATI_XELITE_REGIMENTS_TURKO_PERSIAN£"                       #W
+ string_PLATI_fireregiments_muslim:0            "£PLATI_XELITE_REGIMENTS_MUZLIM£"                       #W
+ string_PLATI_fireregiments_asian:0             "£PLATI_XELITE_REGIMENTS_ASIA£"                       #W
+ string_PLATI_fireregiments_everyone_else:0     "£PLATI_MILITARY_FIREARM_REGIMENTS£"                       #W
+ #
+ 
+ estate_burghers_ask_for_contribution_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Ask for Contribution"
+ estate_burghers_demand_support_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Demand Diplomatic Support"
+ estate_burghers_grant_monopoly_charter_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Grant Monopoly Charters"
+ estate_burghers_recruit_ministers_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Recruit Minister"
+ estate_burghers_grant_admiralship_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Grant Admiralship"
+ estate_burghers_grant_new_world_charter_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Grant New World Charter"
+ estate_burghers_comission_merchant_ships_for_war_title:0 "[Root.GetPLATIartBurghers] [Root.GetBurghersName]: Draft Ships for War"
+ 
+ estate_church_make_generous_donation_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Make Generous Donation"
+ estate_church_recruit_minister_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Recruit Minister"
+ estate_church_recruit_inquisitor_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Recruit Inquisitor"
+ estate_church_religious_delegation_action_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Religious Delegation"
+ estate_church_demand_support_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Demand Administrative Support"
+ estate_church_seek_support_of_clergy_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: Seek Support of the Clergy"
+ estate_church_new_world_mission_action_title:0 "[Root.GetPLATIartChurch] [Root.GetClergyName]: New World Missions"
+ 
+ estate_nobles_call_diet_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Call Diet"
+ estate_nobles_grant_generalship_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Grant Generalship"
+ estate_nobles_recruit_conquistador_estates_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Recruit Conquistador"
+ estate_nobles_demand_support_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Demand Military Support"
+ estate_nobles_recruit_minister_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Recruit Minister"
+ estate_nobles_demand_more_troops_title:0 "[Root.GetPLATIartNobles] [Root.GetNobilityName]: Raise Additional Levies"
+ #
+ #
+ #
+ # AfricanDecisions
+ colonize_tuat_decision_title:0 "£PLATI_DECISION_BLANK£ Colonize Tuat"
+ colonize_djado_and_tajarhi_decision_title:0 "£PLATI_DECISION_BLANK£ Colonize Djado and Tajarhi"
+ set_focus_on_professional_army_title:0 "£PLATI_DECISION_BLANK£ Focus on Professional Army"
+ send_the_shaman_to_a_foreign_country_title:0 "£PLATI_DECISION_BLANK£ Send Shaman to Foreign Country"
+ swap_primary_cult_title:0 "£PLATI_DECISION_BLANK£ Swap Primary cult"
+ switch_active_cult_decision_title:0 "£PLATI_DECISION_BLANK£ Switch Active Cult"
+ switch_permanent_scholar_title:0 "£PLATI_DECISION_BLANK£ Replace Resident Scholar"
+ invest_into_the_seven_cities_title:0 "£PLATI_DECISION_BLANK£ Invest into Seven Cities"
+ # A
+ aksumite_nation_title:0 "£PLATI_FORM_AXUM£ Restore Axum"
+ alaska_nation_title:0 "£PLATI_COLONIAL_ALASKA£ Form Alaska"
+ andalusian_nation_title:0 "£PLATI_FORM_ANDALUS£ Restore Al-Andalus"
+ arab_nation_title:0 "£PLATI_FORM_ARABIA£ Arabian Nation"
+ armenia_nation_title:0 "£PLATI_FORM_ARMENIA£ Restore Armenia"
+ australia_nation_title:0 "£PLATI_COLONIAL_AUSTRALIA£ Land Down Under"
+ # B
+ bharat_nation_dravidian_title:0 "£PLATI_FORM_BHARAT£ Form Bharat"
+ bharat_nation_western_aryan_title:0 "£PLATI_FORM_BHARAT£ Form Bharat"
+ bharat_nation_hindusthani_title:0 "£PLATI_FORM_BHARAT£ Form Bharat"
+ bharat_nation_eastern_aryan_title:0 "£PLATI_FORM_BHARAT£ Form Bharat"
+ bharat_nation_central_indic_title:0 "£PLATI_FORM_BHARAT£ Form Bharat"
+ brazil_nation_title:0 "£PLATI_COLONIAL_BRAZIL£ Form Brazil"
+ por_flee_to_brazil_title:0 "£PLATI_COLONIAL_BRAZIL£ Flee to Brazil"
+ british_nation_title:0 "£PLATI_WAR_GBR£ Form British Nation"
+ british_nation_diplomatically_title:0 "£PLATI_DIPLO_GBR£ Form British Nation Diplomatically"
+ force_british_union_debate_title:0 "£PLATI_FORM_GBR£ Force British Union Debate"
+ force_french_union_debate_title:0 "£PLATI_FORM_FRANCE£ Force French Union Debate"
+ bukharan_nation_title:0 "£PLATI_FORM_BUKHARA£ Form Bukhara"
+ bulgaria_nation_title:0 "£PLATI_FORM_BULGARIA£ Form Bulgaria"
+ # C
+ california_nation_title:0 "£PLATI_COLONIAL_CALIFORNIA£ Form California"
+ canada_nation_title:0 "£PLATI_COLONIAL_CANADA£ Form Canada"
+ cascadia_nation_title:0 "£PLATI_COLONIAL_CASCADIA£ Form Cascadia"
+ chile_nation_title:0 "£PLATI_COLONIAL_CHILE£ Form Chile"
+ reparations_of_the_great_wall_title:0 "£PLATI_DECISION_BLANK£ Reparations of the Great Wall"
+ build_the_forbidden_city_title:0 "£PLATI_DECISION_BLANK£ Build the Forbidden City"
+ no_more_celestial_empire_title:0 "£PLATI_DECISION_BLANK£ No more Celestial Empire"
+ statue_in_restraint_of_appeals_title:0 "£PLATI_ACT_RESTRAINT_APPEALS£ Statute in Restraint of Appeals"
+ abolish_slavery_act_title:0 "£PLATI_ABOLITIONISM£ Abolish Slavery"
+ revoke_restraint_of_appeals_title:0 "£PLATI_ACT_GENERIC£ Revoke Restraint of Appeals"
+ colombia_nation_title:0 "£PLATI_COLONIAL_COLOMBIA£ Form Colombia"
+ form_colonial_assembly_title:0 "£PLATI_DECISION_BLANK£ Colonial Assembly"
+ couronian_nation_title:0 "£PLATI_FORM_KURLAND£ Form Kurland"
+ couronian_nation_baltic_german_title:0 "£PLATI_FORM_KURLAND£ Form Kurland"
+ croatian_nation_title:0 "£PLATI_FORM_CROATIA£ Form Croatia"
+ cuba_nation_title:0 "£PLATI_COLONIAL_CUBA£ Form Cuba"
+ # D
+ dalmatian_nation_title:0 "£PLATI_FORM_DALMATIA£ Form Dalmatia"
+ dan_provoke_trade_conflict_war_title:0 "£PLATI_DECISION_BLANK£ Provoke Trade Conflict"
+ dan_proclaim_archking_title_decision_title:0 "£PLATI_DECISION_BLANK£ Porclaim Archking title"
+ got_choose_aristocratic_gutnish_imperial_focus_title:0 "£PLATI_DECISION_BLANK£ Aristocratic Focus"
+ got_choose_traders_gutnish_imperial_focus_title:0 "£PLATI_DECISION_BLANK£ Traders Focus"
+ got_choose_guilds_gutnish_imperial_focus_title:0 "£PLATI_DECISION_BLANK£ Guilds Focus"
+ got_choose_the_buccaneers_focus_title:0 "£PLATI_DECISION_BLANK£ Buccaneers Focus"
+ got_choose_the_smugglers_focus_title:0 "£PLATI_DECISION_BLANK£ Smugglers Focus"
+ got_choose_the_captains_focus_title:0 "£PLATI_DECISION_BLANK£ Captains Focus"
+ deccan_nation_title:0 "£PLATI_FORM_DECCAN£ Form Deccan"
+ sultan_of_delhi_title:0 "£PLATI_FORM_DELHI£ Sultan of Delhi"
+ found_voc_title:0 "£PLATI_UNIQUE_DUTCH_VOC£ Dutch East India Company"
+ development_of_amsterdam_title:0 "£PLATI_UNIQUE_DUTCH_POLDER£ Land Reclamation in Holland"
+ # E
+ egyptian_nation_title:0 "£PLATI_FORM_EGYPT£ Form Egyptian Nation"
+ adopt_mamluk_government_title:0 "£PLATI_FORM_MAMLUKS£ Adopt Mamluk Governance"
+ purchase_the_electorate_title:0 "£PLATI_HRE£ Purchase the Electorate"
+ request_the_electorate_title:0 "£PLATI_HRE£ Request the Electorate"
+ usurp_the_electorate_title:0 "£PLATI_HRE£ Usurp the Electorate"
+ reform_the_administration_of_china_decision_title:0 "£PLATI_DECISION_BLANK£ Administrative Reform"
+ empire_of_china_title:0 "£PLATI_DECISION_BLANK£ Celestial Empire"
+ designate_the_staple_port_title:0 "£PLATI_UNIQUE_ENGLISH£ Staple Port of Calais"
+ eng_make_orkney_offer_title:0 "£PLATI_UNIQUE_ORKNEY£ Orkney Offer"
+ eng_abolish_adjustments_of_laws_title:0 "£PLATI_DECISION_BLANK£ Repeal Law Adjustments"
+ eng_end_the_law_discussions_title:0 "£PLATI_DECISION_BLANK£ End the Law Adjustments"
+ eng_start_the_law_discussions_title:0 "£PLATI_DECISION_BLANK£ Resume the Law Adjustments"
+ eng_disable_colonial_ventures_title:0 "£PLATI_DECISION_BLANK£  Autonomous Colonial Enterprises"
+ eng_enable_colonial_ventures_title:0 "£PLATI_DECISION_BLANK£ End Colonial Enterprise Autonomy"
+ english_nation_title:0 "£PLATI_FORM_ENGLAND£ Restore England"
+ ### Estates
+ estate_brahmins_make_generous_donation_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Make Generous Donation"
+ estate_brahmins_make_support_of_brahmins_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Seek Support"
+ estate_brahmins_recruit_minister_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Recruit Minister"
+ estate_brahmins_recruit_inquisitor_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Recruit Inquisitor"
+ estate_brahmins_demand_support_brahmin_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Demand Support"
+ estate_brahmins_seek_brahmin_legitimacy_title:0 "£PLATI_ESTATE_BRAHMIN£ Brahmins: Seek Legitimacy"
+ ##
+ #
+ #
+ # PLATI BURGHERS
+ #
+ #
+ ##
+ ##
+ #
+ #
+ # PLATI CHURCH
+ #
+ #
+ ##
+ estate_cossacks_expand_cossack_registry_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Expand Cossack Register"
+ estate_cossacks_raise_cossack_host_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Raise Cossack Host"
+ estate_cossacks_cossack_conquistador_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Exploration Expedition"
+ estate_cossacks_recruit_minister_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Recruit Minister"
+ estate_cossacks_conscript_cossack_elite_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Conscript Elite Cossacks"
+ estate_cossacks_supply_arms_cossacks_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Supply Arms"
+ estate_cossacks_permit_self_governance_title:0 "£PLATI_ESTATE_COSSACKS£ [Root.GetCossacksName]: Permit Self Governance"
+ estate_dhimmi_recruit_minister_title:0 "£PLATI_ESTATE_DHIMMI£ [Root.GetDhimmiName]: Recruit Minister"
+ estate_dhimmi_lighten_dhimmi_tax_burden_title:0 "£PLATI_ESTATE_DHIMMI£ [Root.GetDhimmiName]: Lighten Dhimmi Tax Burden"
+ estate_dhimmi_promote_dhimmi_nobles_title:0 "£PLATI_ESTATE_DHIMMI£ [Root.GetDhimmiName]: Promote Dhimmi Nobles"
+ estate_dhimmi_recruit_from_the_dhimmi_title:0 "£PLATI_ESTATE_DHIMMI£ [Root.GetDhimmiName]: Recruit from the Dhimmi"
+ estate_dhimmi_demand_contribution_title:0 "£PLATI_ESTATE_DHIMMI£ [Root.GetDhimmiName]: Impose New Religious Tax"
+ estate_jains_procure_loans_title:0 "£PLATI_ESTATE_JAINS£ [Root.GetJainsName]: Procure a Loan"
+ estate_jains_investigate_corruption_title:0 "£PLATI_ESTATE_JAINS£ [Root.GetJainsName]: Investigate Corruption"
+ estate_jains_patronize_jain_families_title:0 "£PLATI_ESTATE_JAINS£ [Root.GetJainsName]: Patronize Jain Families"
+ estate_jains_commision_jain_scriptures_title:0 "£PLATI_ESTATE_JAINS£ [Root.GetJainsName]: Commission Jain Scriptures"
+ estate_jains_demand_support_title:0 "£PLATI_ESTATE_JAINS£ [Root.GetJainsName]: Demand Diplomatic Support"
+ estate_maratha_promote_maratha_nobility_title:0 "£PLATI_ESTATE_MARATHA£ [Root.GetMarathasName]: Promote Maratha Nobility"
+ estate_maratha_recruit_minister_title:0 "£PLATI_ESTATE_MARATHA£ [Root.GetMarathasName]: Recruit Minister"
+ estate_maratha_recruit_marathi_troops_title:0 "£PLATI_ESTATE_MARATHA£ [Root.GetMarathasName]: Recruit from the Marathi"
+ estate_maratha_demand_support_title:0 "£PLATI_ESTATE_MARATHA£ [Root.GetMarathasName]: Demand Military Support"
+ ##
+ #
+ #
+ # PLATI NOBLES
+ #
+ #
+ ##
+ estate_nomadic_tribes_support_tribes_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Support Tribes"
+ estate_nomadic_tribes_contribute_warriors_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Contribute Warriors"
+ estate_nomadic_tribes_raise_host_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Raise Host"
+ estate_nomadic_tribes_recruit_minister_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Recruit Minister"
+ estate_nomadic_tribes_redistribute_horde_authority_tribes_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Redistribute Horde Authority"
+ estate_nomadic_tribes_strengthen_tribal_autonomy_title:0 "£PLATI_ESTATE_TRIBES£ [Root.GetTribesName]: Strengthen Tribal Autonomy"
+ estate_rajput_recruit_rajput_general_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Recruit Rajput General"
+ estate_rajput_look_up_purbias_action_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Enlist Purbias"
+ estate_rajput_demand_support_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Demand Military Support"
+ estate_rajput_exempt_from_jizya_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Exempt From Jizya"
+ estate_rajput_promote_rajput_nobility_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Promote Rajput Nobility"
+ estate_rajput_recruit_rajput_troops_title:0 "£PLATI_ESTATE_RAJPUT£ [Root.GetRajputsName]: Rajput Levies"
+ estate_vaisyas_ask_for_contribution_title:0 "£PLATI_ESTATE_VAISHYA£ [Root.GetVaishyasName]: Ask for Contribution"
+ estate_vaisyas_demand_support_title:0 "£PLATI_ESTATE_VAISHYA£ [Root.GetVaishyasName]: Demand Diplomatic Support"
+ estate_vaisyas_seek_guild_support_title:0 "£PLATI_ESTATE_VAISHYA£ [Root.GetVaishyasName]: Seek Guild Support"
+ estate_vaisyas_recruit_minister_title:0 "£PLATI_ESTATE_VAISHYA£ [Root.GetVaishyasName]: Recruit Minister"
+ estate_vaisyas_commision_merchant_ships_for_war_title:0 "£PLATI_ESTATE_VAISHYA£ [Root.GetVaishyasName]: Draft Ships for War"
+ ###
+ curtail_estate_noble_title:0 "£PLATI_ESTATE_NOBLES£ Curtail the [Root.GetNobilityName]"
+ curtail_estate_church_title:0 "£PLATI_ESTATE_CHURCH£ Curtail the [Root.GetClergyName]"
+ curtail_estate_brahmins_title:0 "£PLATI_ESTATE_BRAHMIN£ Curtail the Brahmins"
+ curtail_estate_burghers_title:0 "£PLATI_ESTATE_BURGHERS£ Curtail the [Root.GetBurghersName]"
+ curtail_estate_vaisyas_title:0 "£PLATI_ESTATE_VAISHYA£ Curtail the Vaisyas"
+ curtail_estate_nomadic_tribes_title:0 "£PLATI_ESTATE_TRIBES£ Curtail the Tribes"
+ curtail_estate_jains_title:0 "£PLATI_ESTATE_JAINS£ Curtail the Jains"
+ cossack_nation_title:0 "£PLATI_ESTATE_COSSACKS£ Form Cossack Nation"
+ gain_access_to_estate_dhimmi_title:0 "£PLATI_ESTATE_DHIMMI£ The Dhimmi"
+ curtail_eunuch_estate_decision_title:0 "£PLATI_ESTATE_EUNUCH£ Curtail the Eunuchs"
+ ethiopia_nation_title:0 "£PLATI_FORM_ETHIOPIA£ Restore Ethiopia"
+ # F
+ unite_fiji_title:0 "£PLATI_DECISION_BLANK£ Unite Fiji"
+ florida_nation_title:0 "£PLATI_COLONIAL_FLORIDA£ Form Florida"
+ move_the_court_to_versailles_title:0 "£PLATI_DECISION_BLANK£ Move Court to Versailles"
+ say_the_state_is_me_title:0 "£PLATI_DECISION_BLANK£ The State is Me"
+ enact_edict_de_nantes_title:0 "£PLATI_ACT_GENERIC£ Edict de Nantes"
+ revoke_edict_de_nantes_title:0 "£PLATI_ACT_GENERIC£ Revoke Edict de Nantes"
+ retrial_of_joan_of_arc_title:0 "£PLATI_DECISION_BLANK£ Retrial of Joan of Arc"
+ french_nation_title:0 "£PLATI_FORM_FRANCE£ Restore France"
+ # G
+ georgia_nation_title:0 "£PLATI_FORM_GEORGIA£ Form Georgia"
+ german_nation_title:0 "£PLATI_FORM_GERMANY£ Form German Nation"
+ gond_nation_title:0 "£PLATI_DECISION_BLANK£ Form Gond"
+ formalize_separation_of_powers_title:0 "£PLATI_ACT_FORMALIZED_SEPARATION_OF_POWERS£ Formalize Separation of Powers"
+ go_cult_of_reason_title:0 "£PLATI_ACT_CULT_OF_REASON£ Cult of Reason"
+ elevate_bishopric_title:0 "£PLATI_ELEVATE_BISHOPRIC£ Elevate Bishopric"
+ force_reelection_title:0 "£PLATI_DECISION_BLANK£ Force Reelection"
+ force_issue_through_title:0 "£PLATI_PARLIAMENT£ Force Issue Through"
+ great_zimbabwe_nation_title:0 "£PLATI_FORM_ZIMBABWE£ Restore Great Zimbabwe"
+ greek_orthodox_constantinople_title:0 "£PLATI_UNIQUE_GREEK£ Restore Constantinople"
+ # H
+ habsburg_nation_title:0 "£PLATI_FORM_AUSTRIA£ Form Austria"
+ haiti_nation_title:0 "£PLATI_COLONIAL_HAITI£ Form Haiti"
+ declare_hanseatic_league_title:0 "£PLATI_FORM_HANSA£ Declare Hanseatic League"
+ hausa_nation_title:0 "£PLATI_FORM_HAUSA£ Form Hausa"
+ unite_hawaii_title:0 "£PLATI_FORM_HAWAII£ Unite Hawaii"
+ brahmin_hindu_deity_decision_title:0 "£PLATI_RELIGION_GENERIC£ Change Personal Deity"
+ hindustan_nation_dravidian_title:0 "£PLATI_FORM_HINDUSTAN£ Form Hindustan"
+ hindustan_nation_western_aryan_title:0 "£PLATI_FORM_HINDUSTAN£ Form Hindustan"
+ hindustan_nation_hindusthani_title:0 "£PLATI_FORM_HINDUSTAN£ Form Hindustan"
+ hindustan_nation_eastern_aryan_title:0 "£PLATI_FORM_HINDUSTAN£ Form Hindustan"
+ hindustan_nation_central_indic_title:0 "£PLATI_FORM_HINDUSTAN£ Form Hindustan"
+ bavaria_nation_title:0 "£PLATI_FORM_BAVARIA£ Form Bavaria"
+ pomerania_nation_title:0 "£PLATI_FORM_POMERANIA£ Form Pomerania"
+ franconia_nation_title:0 "£PLATI_FORM_FRANCONIA£ Form Franconia"
+ swabia_nation_title:0 "£PLATI_FORM_SWABIA£ Form Swabia"
+ saxony_nation_title:0 "£PLATI_FORM_SAXONY£ Form Saxony"
+ hannoverian_nation_title:0 "£PLATI_FORM_HANOVER£ Form Hanover"
+ westfalian_nation_title:0 "£PLATI_FORM_WESTPHALIA£ Form Westphalia"
+ abolish_black_army_title:0 "£PLATI_UNIQUE_HUNGARY£ Abolish the Black Army"
+ become_hussite_title:0 "£PLATI_DECISION_BLANK£ Become Hussite"
+ # I
+ illinois_nationtitle:0 "£PLATI_COLONIAL_ILLINOIS£ Form Illinois"
+ incan_nation_title:0 "£PLATI_FORM_INCA£ Empire of Incas"
+ shadow_kingdom_decision_title:0 "£PLATI_HRE£ Rein in Italy"
+ great_peasants_war_emperor_decision_title:0 "£PLATI_HRE£ End the Great Peasants' War"
+ great_peasants_war_peasant_decision_title:0 "£PLATI_HRE£ Enforce Peasant Demands"
+ indian_trade_company_title:0 "£PLATI_ACT_EAST_INDIA_COMPANY£ Form Indian Trade Company"
+ expel_foreign_traders_title:0 "£PLATI_ACT_EXPEL_TRADERS£ Expel Foreign Traders"
+ irish_nation_title:0 "£PLATI_FORM_IRELAND£ Unite Ireland"
+ israel_nation_title:0 "£PLATI_FORM_ISRAEL£ Restore Israel"
+ italian_nation_title:0 "£PLATI_FORM_ITALY£ Form Italian Nation"
+ gods_kingdom_title:0 "£PLATI_UNIQUE_PAPAL£ Proclaim Kingdom of God"
+ # J
+ unite_japan_title:0 "£PLATI_FORM_JAPAN£ Unite Japan"
+ united_japan_title:0 "£PLATI_FORM_JAPAN£ United Japan"
+ united_japan_daimyo_title:0 "£PLATI_FORM_JAPAN£ United Japan"
+ enforce_sakoku_law_title:0 "£PLATI_UNIQUE_JAPAN_SAKOKU£ Enforce Sakoku Law"
+ send_western_embassy_mission_title:0 "£PLATI_DECISION_BLANK£ Send Western Embassy"
+ restore_the_shrine_of_ise_title:0 "£PLATI_UNIQUE_JAPAN_ISE£ Restore the Ise Shrines"
+ kingdom_of_jerusalem_title:0 "£PLATI_FORM_JERUSALEM£ Form Kingdom of Jerusalem"
+ # K
+ kitara_nation_title:0 "£PLATI_FORM_KITARA£ Form Kitara"
+ accept_rhodians_and_other_greeks_title:0 "£PLATI_UNIQUE_KNIGHTS£ Accept Greeks into the Order"
+ kongo_nation_title:0 "£PLATI_FORM_KONGO£ Form Kongo"
+ found_hall_of_worthies_title:0 "£PLATI_UNIQUE_KOREA£ The Hall of Worthies"
+ establish_sinmun_office_title:0 "£PLATI_UNIQUE_KOREA£ Establish Sinum Office"
+ hopae_system_decision_title:0 "£PLATI_UNIQUE_KOREA£ Hopae System"
+ promote_sojunghwa_decision_title:0 "£PLATI_UNIQUE_KOREA£ Promote Sojunghwa"
+ enforce_hangeul_alphabet_decision_title:0 "£PLATI_UNIQUE_KOREA_ALPHABET£ Enforce Hangeul Alphabet"
+ revoke_hangeul_alphabet_decision_title:0 "£PLATI_UNIQUE_KOREA_ALPHABET£ Revoke Hangeul Alphabet"
+ reinforce_tripitaka_koreana_decision_title:0 "£PLATI_UNIQUE_KOREA£ Reinforce Tripitaka Koreana"
+ evacuate_tripitaka_koreana_decision_title:0 "£PLATI_UNIQUE_KOREA£ Vacate Tripitaka Koreana"
+ # L
+ lanfang_decision_title:0 "£PLATI_FORM_LANFANG£ Invite Kongsi Federations"
+ lanfang_decision_formation_title:0 "£PLATI_FORM_LANFANG£ Invite Kongsi Federations"
+ la_plata_nation_title:0 "£PLATI_COLONIAL_LA_PLATA£ Form La Plata"
+ liberum_veto_title:0 "£PLATI_ACT_LIBERIUM_VETO£ Liberium Veto"
+ liv_dissolve_bishopric_title:0 "£PLATI_UNIQUE_LIVONIA£ Dissolve the Bishopric"
+ liv_purchase_bishopric_title:0 "£PLATI_UNIQUE_LIVONIA£ Purchase the Bishopric"
+ rig_dissolve_bishopric_title:0 "£PLATI_UNIQUE_LIVONIA£ Dissolve the Bishopric"
+ rig_purchase_bishopric_title:0 "£PLATI_UNIQUE_LIVONIA£ Purchase the Bishopric"
+ rig_reestablish_livonian_order_title:0 "£PLATI_UNIQUE_LIVONIA£ Reestablish Livonian Order"
+ livonian_nation_title:0 "£PLATI_FORM_LIVONIA£ Form Livonia"
+ livonian_nation_batlic_german_title:0 "£PLATI_FORM_LIVONIA£ Form Livonia"
+ lotharingia_nation_title:0 "£PLATI_FORM_LOTHARINGIA£ Restore Lotharingia"
+ louisiana_nation_title:0 "£PLATI_COLONIAL_LOUISIANA£ Form Louisiana"
+ # M
+ macina_nation_title:0 "£PLATI_DECISION_BLANK£ Form Macina"
+ moroccan_nation_title:0 "£PLATI_FORM_MOROCCO£ Form Morocco"
+ algiers_nation_title:0 "£PLATI_FORM_ALGIERS£ Form Algiers"
+ tunisian_nation_title:0 "£PLATI_FORM_TUNIS£ Form Tunis"
+ tripoli_nation_title:0 "£PLATI_FORM_TRIPOLI£ Form Tripoli"
+ malayan_nation_title:0 "£PLATI_FORM_MALAYA£ Form Malaya"
+ mal_purchase_trade_colony_title:0 "£PLATI_DECISION_BLANK£ Purchase Trade Colony"
+ mali_nation_title:0 "£PLATI_FORM_MALI£ Restore Mali"
+ manchu_nation_1_title:0 "£PLATI_FORM_MANCHU£ Unite Manchuria"
+ form_manchu_dynasty_title:0 "£PLATI_FORM_QING£ Form Great Qing"
+ create_green_standard_army_title:0 "£PLATI_DECISION_BLANK£ Establish Green Standard Army"
+ create_eight_banners_title:0 "£PLATI_DECISION_BLANK£  Establish Eight Banners"
+ maratha_nation_title:0 "£PLATI_FORM_MARATHA£ Unite Marathas"
+ maya_nation_title:0 "£PLATI_FORM_MAYA£ Form Maya"
+ mexico_nation_title:0 "£PLATI_COLONIAL_MEXICO£ Form Mexico"
+ enlist_privateers_title:0 "£PLATI_MILITARY_ENLIST_PRIVATEERS£ Enlist Privateers"
+ state_firearm_regiments_title:0 "[Root.GetPLATIfirearmREGIMENTS] State Firearm Regiments"
+ abolish_state_firearm_regiments_title:0 "£PLATI_DECISION_BLANK£ Abolish State Firearm Regiments"
+ standardized_uniforms_title:0 "£PLATI_MILITARY_UNIFORMS£ Standardized Uniforms"
+ abolish_standardized_uniforms_title:0 "£PLATI_DECISION_BLANK£ Abolish Standardized Uniforms"
+ kor_righteous_army_title:0 "£PLATI_DECISION_BLANK£ Righteous Army"
+ por_raise_the_ordenancas_title:0 "£PLATI_UNIQUE_PORTUGAL£ Raise the Ordenancas"
+ gra_rally_the_volunteers_title:0 "£PLATI_RALLY_VOLUNTEERS£ Rally the Volunteers"
+ greek_nation_title:0 "£PLATI_FORM_GREECE£ Form Greece"
+ icelandic_nation_title:0 "£PLATI_FORM_ICELAND£ Embrace Icelandic Identity"
+ restore_mongol_empire_title:0 "£PLATI_FORM_MONGOL_EMPIRE£ Restore Mongol Empire"
+ restore_ilkhanate_decision_march_title:0 "£PLATI_FORM_ILKHANATE£ March of Ilkhanate"
+ restore_ilkhanate_decision_title:0 "£PLATI_FORM_ILKHANATE£ Restore Ilkhanate"
+ federal_kingdoms_gather_the_armies_title:0 "£PLATI_DECISION_BLANK£ Gather the Armies"
+ federal_kingdoms_internal_royal_marriage_title:0 "£PLATI_DECISION_BLANK£ Internal Royal Marriage"
+ federal_celebrate_rituals_together_title:0 "£PLATI_DECISION_BLANK£ Celebrate Rituals Together"
+ federal_gain_tribal_allegiance_title:0 "£PLATI_DECISION_BLANK£ Gain Tribal Allegiance"
+ mossi_nation_title:0 "£PLATI_DECISION_BLANK£ Form Mossi Nation"
+ mughal_nation_title:0 "£PLATI_FORM_MUGHALS£ Form Mughal Empire"
+ unify_islam_title:0 "£PLATI_ZZ_UNIFY£ Unify Islam"
+ change_religion_sunni_title:0 "£PLATI_ZZ_IMAM£ Embrace Sunnism"
+ change_religion_shiite_title:0 "£PLATI_ZZ_IMAM£ Embrace Shiism"
+ abandon_the_legal_ways_title:0 "£PLATI_ZZ_ENFORCE£ Embrace Mysticism"
+ return_to_the_legal_ways_title:0 "£PLATI_ZZ_IMAM£ Embrace Legalism"
+ # N
+ pay_debt_shame_pole_title:0 "£PLATI_DECISION_BLANK£ Erect Shame Pole"
+ erect_honour_pole_ally_title:0 "£PLATI_DECISION_BLANK£ Erect Ally Honour Pole"
+ erect_honour_pole_title:0 "£PLATI_DECISION_BLANK£ Erect Honour Pole"
+ commission_some_rock_art_title:0 "£PLATI_DECISION_BLANK£ Commission Rock Art"
+ nepal_nation_title:0 "£PLATI_FORM_NEPAL£ Form Nepal"
+ netherlands_nation_title:0 "£PLATI_FORM_NETHERLANDS£ Form Netherlands"
+ nubian_nation_title:0 "£PLATI_FORM_NUBIA£ Form Nubia"
+ # O
+ become_king_of_gonder_title:0 "£PLATI_DECISION_BLANK£ Become King of Gonder"
+ defeat_saruhan_title:0 "£PLATI_DECISION_BLANK£ Defeat Saruhan"
+ recover_manga_title:0 "£PLATI_DECISION_BLANK£ Recover our Cultural Heritage"
+ orissa_nation_title:0 "£PLATI_FORM_ORISSA£ Form Orissa"
+ make_constantinople_capital_title:0 "£PLATI_UNIQUE_OTTOMAN£ Make Constantinople Capital"
+ provincial_system_title:0 "£PLATI_UNIQUE_EYALETS£ Provincial Governors"
+ devshirme_system_title:0 "£PLATI_UNIQUE_OTTOMAN£ Expand Devshirme System"
+ restore_devshirme_system_title:0 "£PLATI_UNIQUE_OTTOMAN£ Restore Devshirme System"
+ disband_the_janissaries_title:0 "£PLATI_ESTATE_JANISSARY£ Force Janissaries unto Yoklama"
+ second_islamic_golden_era_descision_title:0 "£PLATI_RELIGION_UNIFY_ISLAM£ Second Islamic Golden Age"
+ face_the_janissaries_1_title:0 "£PLATI_ESTATE_JANISSARY£ Face the Janissaries"
+ face_the_janissaries_2_title:0 "£PLATI_ESTATE_JANISSARY£ Face the Janissaries"
+ face_the_janissaries_3_title:0 "£PLATI_ESTATE_JANISSARY£ Face the Janissaries"
+ negotiate_with_the_janissaries_title:0 "£PLATI_ESTATE_JANISSARY£ Negotiate with the Janissaries"
+ # P
+ paraguay_nation_title:0 "£PLATI_COLONIAL_PARAGUAY£ Form Paraguay"
+ debate_acts_of_high_admiralty_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Acts of High Admiralty"
+ debate_acts_of_maritime_courage_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Maritime Courage Acts"
+ debate_acts_of_maritime_professionalism_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Acts of Maritime Professionalism"
+ debate_acts_of_naval_professionalism_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Act of Naval Professionalism"
+ debate_colonial_venture_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Colonial Venture"
+ debate_crown_of_iberia_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Act of the Spanish Crown"
+ debate_acts_of_impressment_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Acts of Impressment"
+ debate_acts_of_taxation_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Taxation Acts"
+ debate_act_of_representation_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Acts of Representation"
+ debate_crown_of_italy_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Act of the Italian Crown"
+ debate_crown_of_ireland_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Crown of Ireland Act"
+ debate_crown_of_the_empire_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Crown of the Empire"
+ debate_the_gold_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Gold Act"
+ debate_the_spice_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Spice Act"
+ debate_the_sugar_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: The Sugar Act"
+ debate_establish_the_imperial_diet_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: Establish the Imperial Diet"
+ debate_french_english_reconciliation_act_issue_title:0 "£PLATI_PARLIAMENT£ [Root.GetParliamentOrFallbackName]: French-English Reconciliation Act"
+ persian_nation_title:0 "£PLATI_FORM_PERSIA£ Form Persia"
+ peru_nation_title:0 "£PLATI_COLONIAL_PERU£ Form Peru"
+ become_pirates_decision_title:0 "£PLATI_BLACK_FLAG£ Hoist the Black Flag"
+ pirate_king_decision_title:0 "£PLATI_DECISION_BLANK£ The Pirate King"
+ black_market_consortium_decision_title:0 "£PLATI_DECISION_BLANK£ Black Market Consortium"
+ war_against_the_world_decision_title:0 "£PLATI_DECISION_BLANK£ War Against the World"
+ lower_black_flag_decision_title:0 "£PLATI_DECISION_BLANK£ Lower the Black Flag"
+ move_capital_to_warsawa_title:0 "£PLATI_DECISION_BLANK£ Move Capital to Warsaw"
+ revoke_the_pacta_conventa_title:0 "£PLATI_ACT_GENERIC£ Revoke Pacta Conventa"
+ polish_nation_title:0 "£PLATI_FORM_POLAND£ Form Poland"
+ pragmatic_sanction_decision_title:0 "£PLATI_DECISION_BLANK£ The Pragmatic Sanction"
+ curtail_prussian_confederation_title:0 "£PLATI_UNIQUE_PRUSSIA£ Curtail Prussian Confederation"
+ institute_prussian_republic_title:0 "£PLATI_FORM_PRUSSIA£ Form Prussian Republic"
+ institute_prussian_monarchy_title:0 "£PLATI_FORM_PRUSSIA£ Form Prussian Monarchy"
+ form_kingdom_of_prussia_title:0 "£PLATI_FORM_PRUSSIA£ Form Kingdom of Prussia"
+ prussian_nation_title:0 "£PLATI_FORM_PRUSSIA£ Form Prussia"
+ prussian_nation_general_title:0 "£PLATI_FORM_PRUSSIA£ Form Prussia"
+ punjab_nation_title:0 "£PLATI_FORM_PUNJAB£ Form Punjab"
+ triumph_greece_title:0 "£PLATI_UNIQUE_BYZANTINE£ Triumph over Greece"
+ triumph_balkans_title:0 "£PLATI_UNIQUE_BYZANTINE£ Triumph over Balkans"
+ triumph_asia_title:0 "£PLATI_UNIQUE_BYZANTINE£ Triumph over Asia"
+ triumph_anatolia_title:0 "£PLATI_UNIQUE_BYZANTINE£ Triumph over Anatolia"
+ triumph_italy_title:0 "£PLATI_UNIQUE_BYZANTINE£ Triumph over Italy"
+ # Q
+ quebec_nation_title:0 "£PLATI_COLONIAL_QUEBEC£ Form Quebec"
+ # R
+ rajput_nation_title:0 "£PLATI_FORM_RAJPUTANA£ Form Rajputana"
+ ### Religion
+ institute_the_societas_jesu_title:0 "£PLATI_RELIGION_JESUITS£ Institute Societas Jesu"
+ de_heretico_comburendo_act_title:0 "£PLATI_ACT_CHRISTIAN£ De Heretico Comburendo Act"
+ advancement_of_true_religion_act_title:0 "£PLATI_NEU_PREACH£ Advancement of True Religion act"
+ blasphemy_act_title:0 "£PLATI_ACT_GENERIC£ Blasphemy Act"
+ declaration_of_indulgence_title:0 "£PLATI_ACT_GENERIC£ Declaration of Indulgence"
+ act_of_uniformity_title:0 "£PLATI_ACT_GENERIC£ Act of Uniformity"
+ suffragan_bishop_act_title:0 "£PLATI_RELIGION_GENERIC£ Suffragan Bishops"
+ church_tax_title:0 "£PLATI_RELIGION_GENERIC£ Church Tax"
+ sunday_school_title:0 "£PLATI_RELIGION_GENERIC£ Sunday Schools"
+ conventicle_act_title:0 "£PLATI_ACT_GENERIC£ Conventicle Act"
+ superintendents_title:0 "£PLATI_RELIGION_GENERIC£ Superintendents"
+ test_act_title:0 "£PLATI_ACT_GENERIC£ Test Act"
+ dissolution_of_the_monasteries_title:0 "£PLATI_RELIGION_GENERIC£ Dissolution of Monasteries"
+ popery_act_title:0 "£PLATI_ACT_CHRISTIAN£ Popery Act"
+ enforce_religion_muslim_title:0 "£PLATI_ZZ_ENFORCE£ Enforce Religious Unity"
+ the_khalifah_title:0 "£PLATI_RELIGION_KHALIFA£ Adopt the title of Khalifa"
+ denouncement_of_sect_practices_title:0 "£PLATI_ZZ_IMAM£ Denouncement of Sect Practices"
+ islamic_centre_of_scholarly_title:0 "£PLATI_ISLAMIC_OLDMAN£ Islamic Center of Scholarly Learning"
+ jizya_tax_title:0 "£PLATI_RELIGION_IMAM£ Jizya"
+ monastic_education_title:0 "£PLATI_RELIGION_GENERIC£ Monastic Education"
+ adopt_wahabism_title:0 "£PLATI_RELIGION_IMAM£ Adopt Wahabism"
+ trade_propagation_convert_to_islam_title:0 "£PLATI_ZZ_IMAM£ Convert to Islam"
+ regulate_the_monastaries_title:0 "£PLATI_RELIGION_GENERIC£ Regulate the Monasteries"
+ adopt_vajrayana_title:0 "£PLATI_RELIGION_GENERIC£ Adopt Vajrayana"
+ invite_lama_title:0 "£PLATI_RELIGION_GENERIC£ Invite Lama"
+ anti_christian_edict_title:0 "£PLATI_RELIGION_CHRISTIAN£ Anti-Christian Edict"
+ ibadat_khana_title:0 "£PLATI_ISLAMIC_OLDMAN£ Ibadat Khana"
+ din_i_illahi_title:0 "£PLATI_UNIQUE_MUGHALS£ Introduce Din-i Illahi"
+ anti_muslim_edict_title:0 "£PLATI_ZZ_ENFORCE£ Anti-Muslim Edict"
+ acceptance_of_religious_sects_title:0 "£PLATI_HINDU£ Acceptance of Religious Sects"
+ haridasa_movement_title:0 "£PLATI_HINDU£ Haridasa Movement"
+ advaita_movement_title:0 "£PLATI_HINDU£ Advaita Movement"
+ divination_title:0 "£PLATI_DIVINATION£ Divination"
+ religious_sacrifice_title:0 "£PLATI_RELIGION_SACRIFICES£ Religious Sacrifices"
+ vision_quest_title:0 "£PLATI_VISION_QUEST£ Vision Quest"
+ save_the_burning_world_title:0 "£PLATI_SIKH£ Save the Burning World"
+ enforce_heritage_title:0 "£PLATI_UNIQUE_JAPAN_ISE£ Enforce our Heritage"
+ restrict_government_offices_title:0 "£PLATI_RELIGION_GENERIC£ Restrict Government Offices"
+ spreading_of_norse_rituals_title:0 "£PLATI_RELIGION_GENERIC£ Spreading of Norse Rituals"
+ norse_flexible_deity_decision_title:0 "£PLATI_RELIGION_GENERIC£ Flexible Personal Deities"
+ norse_restore_the_uppsala_temple_title:0 "£PLATI_RELIGION_GENERIC£ Restore Uppsala Temple"
+ norse_gain_norse_missions_title:0 "£PLATI_RELIGION_GENERIC£ Embrace The Norse Path"
+ tengri_yellow_shamanism_title:0 "£PLATI_TENGRI£ Yellow Shamanism"
+ tengri_black_shamanism_title:0 "£PLATI_TENGRI£ Black Shamanism"
+ tengri_expel_the_khojas_title:0 "£PLATI_TENGRI£ Expel the Khojas"
+ zoroastrian_rites_of_admission_title:0 "£PLATI_ZORO£ Rites of Admission"
+ zoroastrian_royal_fires_title:0 "£PLATI_ZORO£ Rekindle the Royal Fires"
+ zoroastrian_diaspora_title:0 "£PLATI_ZORO£ Zoroastrian Diaspora"
+ animism_ritual_education_title:0 "£PLATI_RELIGION_GENERIC£ Ritual Education"
+ shamanism_wondering_shamans_title:0 "£PLATI_RELIGION_GENERIC£ Wondering Shamans"
+ totemism_purification_movement_title:0 "£PLATI_RELIGION_GENERIC£ Purification Movement"
+ mesoamerican_codification_of_the_faith_title:0 "£PLATI_CR_DLC_MESOAMERICAN£ Codification of the Faith"
+ nahuatl_conversion_ceremonies_title:0 "£PLATI_CR_DLC_MESOAMERICAN£ Conversion Ceremonies"
+ inti_obligatory_religious_festivals_title:0 "£PLATI_CR_DLC_INTI£ Obligatory Religious Festivals"
+ pagan_conversion_to_christianity_title:0 "£PLATI_RELIGION_CHRISTIAN£ Convert to Christianity"
+ pagan_conversion_to_islam_title:0 "£PLATI_RELIGION_IMAM£ Convert to Islam"
+ pagan_conversion_to_buddhism_title:0 "£PLATI_RELIGION_GENERIC£ Convert to Buddhism"
+ pagan_conversion_to_dharmic_title:0 "£PLATI_RELIGION_GENERIC£ Embrace Dharmic Faith"
+ pagan_conversion_to_zoroastrian_title:0 "£PLATI_RELIGION_GENERIC£ Convert to Zoroastrianism"
+ pagan_conversion_to_judaism_title:0 "£PLATI_RELIGION_GENERIC£ Convert to Judaism"
+ muslim_conversion_to_sikhism_title:0 "£PLATI_SIKH£ Convert to Sikhism"
+ shinto_christian_decision_title:0 "£PLATI_RELIGION_CHRISTIAN£ Kirishitan Japan?"
+ conversion_of_convenience_title:0 "£PLATI_RELIGION_GENERIC£ Conversion of Convenience"
+ renovate_emerald_buddha_shrine_title:0 "£PLATI_RELIGION_GENERIC£ Renovate the Emerald Buddha"
+ renovate_emerald_buddha_shrine_alternate_title:0 "£PLATI_RELIGION_GENERIC£  Renovate the Emerald Buddha"
+ buddhism_consulate_monasteries_title:0 "£PLATI_RELIGION_GENERIC£ Consulate Monasteries"
+ build_the_third_temple_title:0 "£PLATI_JEWISH£ Build the Third Temple"
+ ###
+ join_the_counter_reformation_title:0 "£PLATI_CHRISTIAN_ANTI_REFORMATION£ Join the Counter-Reformation"
+ christian_daimyo_title:0 "£PLATI_RELIGION_CHRISTIAN£ Kirishitan Daimyo?"
+ malay_islam_decision_title:0 "£PLATI_ISLAMIC_OLDMAN£ Convert to Islam"
+ restore_byzantine_empire_title:0 "£PLATI_FORM_BYZANTIUM£ Restore Byzantium"
+ restore_name_decision_title:0 "£PLATI_DECISION_BLANK£ Restore our Name"
+ restore_color_decision_title:0 "£PLATI_DECISION_BLANK£ Restore our Color"
+ restore_roman_empire_title:0 "£PLATI_FORM_ROME£ Restore Rome"
+ elite_revolutionary_guard_title:0 "£PLATI_DECISION_BLANK£  Elite Revolutionary Guard"
+ professional_revolutionary_guard_title:0 "£PLATI_DECISION_BLANK£ Professional Revolutionary Guard"
+ mass_revolutionary_guard_title:0 "£PLATI_DECISION_BLANK£  Mass Revolutionary Guard"
+ vanguard_revolutionary_guard_title:0 "£PLATI_DECISION_BLANK£ Vanguard Revolutionary Guard"
+ romanian_nation_title:0 "£PLATI_FORM_ROMANIA£ Form Romania"
+ rozwi_nation_title:0 "£PLATI_FORM_ROZWI£ Form Rozwi Empire"
+ #Russia
+ make_st_petersburg_capital_title:0 "£PLATI_UNIQUE_RUSSIA_EMPIRE£ Make St. Petersburg Capital"
+ establish_russian_patriarchate_title:0 "£PLATI_UNIQUE_RUSSIA_PATRIARCHATE£ Russian Patriarchate"
+ rus_sell_vodka_to_the_people_title:0 "£PLATI_UNIQUE_RUSSIA_VODKA£ Encourage Vodka Sales"
+ rus_abolish_the_serfdom_title:0 "£PLATI_UNIQUE_RUSSIA_SERFDOM£ Abolish Serfdom"
+ rus_claim_emperor_title_title:0 "£PLATI_UNIQUE_RUSSIA_EMPIRE£ Claim the Emperor Title"
+ russian_nation_title:0 "£PLATI_FORM_RUSSIA£ Form Russia"
+ ruthenian_nation_title:0 "£PLATI_FORM_RUTHENIA£ Form Ruthenia"
+ # S
+ sardinia_piedmont_nation_title:0 "£PLATI_FORM_SARDINIAPIEDMONT£ Form Sardinia-Piedmont"
+ sardinia_piedmont_nation_inherit_title:0 "£PLATI_FORM_SARDINIAPIEDMONT£ Inherit Sardinia-Piedmont"
+ scandinavian_nation_title:0 "£PLATI_FORM_SCANDINAVIA£ Unite Scandinavia"
+ scottish_nation_title:0 "£PLATI_FORM_SCOTLAND£ Form Scotland"
+ grow_cloves_in_zanzibar_title:0 "£PLATI_DECISION_BLANK£ Grow Cloves in Zanzibar"
+ restore_dai_viet_title:0 "£PLATI_FORM_DAI_VIET£ Restore Dai Viet"
+ restore_lan_xang_title:0 "£PLATI_FORM_LAN_XANG£ Restore Lan Xang"
+ capital_in_belgrade_title:0 "£PLATI_DECISION_BLANK£ Capital in Belgrade"
+ stop_shadow_kingdom_title:0 "£PLATI_HRE£ Rein in Italy"
+ shan_nation_title:0 "£PLATI_FORM_SHAN£ Form Shan"
+ become_kirishitan_daimyo_title:0 "£PLATI_DECISION_BLANK£ Kirishitan Daimyo"
+ become_ikko_ikki_daimyo_title:0 "£PLATI_DECISION_BLANK£ The Ikko-Ikki"
+ become_confucian_daimyo_title:0 "£PLATI_DECISION_BLANK£ Confucian Administration"
+ siamese_nation_title:0 "£PLATI_FORM_SIAM£ Form Siam"
+ arrest_phetracha_decision_title:0 "£PLATI_DECISION_BLANK£ Arrest Phetracha"
+ phetracha_coup_decision_title:0 "£PLATI_DECISION_BLANK£ Support Phetracha"
+ silesia_nation_title:0 "£PLATI_FORM_SILESIA£ Form Silesia"
+ sinicize_culture_title:0 "£PLATI_UNIQUE_KOREA£ Sinicize Culture"
+ sokoto_nation_title:0 "£PLATI_FORM_SOKOTO£ Form Sokoto"
+ somalia_nation_title:0 "£PLATI_FORM_SOMALIA£ Form Somalia"
+ sonora_nation_title:0 "£PLATI_COLONIAL_SONORA£ Form Sonora"
+ spanish_nation_title:0 "£PLATI_WAR_SPA£ Form Spain"
+ spanish_nation_diplomatically_title:0 "£PLATI_DIPLO_SPA£ Form Spain Diplomatically"
+ swe_repay_estate_church_title:0 "£PLATI_ESTATE_CHURCH£ Repay the Clergy"
+ swe_repay_estate_burghers_title:0 "£PLATI_ESTATE_BURGHERS£ Repay the Burghers"
+ swe_repay_estate_nobles_title:0 "£PLATI_ESTATE_NOBLES£ Repay the Nobles"
+ swe_provoke_religious_leagues_forming_decision_title:0 "£PLATI_HRE£ Provoke Religious League"
+ switzerland_nation_title:0 "£PLATI_FORM_SWITZERLAND£ Form Switzerland"
+ # T
+ tatar_nation_title:0 "£PLATI_FORM_GOLDEN_HORDE£ Reform the Golden Horde"
+ texas_nation_title:0 "£PLATI_COLONIAL_TEXAS£ Form Texas"
+ pol_commonwealth_title:0 "£PLATI_DIPLO_PLC£ Polish-Lithuanian Commonwealth"
+ lit_commonwealth_title:0 "£PLATI_DIPLO_PLC£ Lithuanian-Polish Commonwealth"
+ commonwealth_enforced_title:0 "£PLATI_WAR_PLC£ Enforce the Commonwealth"
+ build_lubeck_krantor_title:0 "£PLATI_DECISION_BLANK£ The Lubeck Krantor"
+ commission_adler_von_lubeck_title:0 "£PLATI_UNIQUE_LUBECK£ Commission Adler von Lubeck"
+ tibetan_nation_title:0 "£PLATI_FORM_TIBET£ Form Tibet"
+ enthrone_timurid_prince_title:0 "£PLATI_FORM_TIMURIDS£ Enthrone Timurid Prince"
+ timurid_nation_title:0 "£PLATI_FORM_TIMURIDS£ Claim Timur's Legacy"
+ close_foreign_trade_title:0 "£PLATI_DECISION_BLANK£ Close Foreign Trade"
+ stop_foreign_slave_trade_title:0 "£PLATI_DECISION_BLANK£ End Foreign Slave Trade"
+ turkish_nation_title:0 "£PLATI_FORM_RUM£ Restore Sultanate of Rum"
+ tuscan_nation_title:0 "£PLATI_DECISION_BLANK£ Form Tuscany"
+ spanish_nation_diplomatically_tutorial_title:0 "£PLATI_DECISION_BLANK£ Form Spanish Nation Diplomatically"
+ two_sicilies_nation_title:0 "£PLATI_FORM_SICILY£ Unite Two Sicilies"
+ # U
+ upca_nation_title:0 "£PLATI_COLONIAL_UCA£ United Central America"
+ usa_nation_title:0 "£PLATI_COLONIAL_USA£ United States of America"
+ # V
+ venezuela_nation_title:0 "£PLATI_COLONIAL_VENEZUELA£ Form Venezuela"
+ confirm_thalassocracy_title:0 "£PLATI_THALASSOCRACY£ Proclaim Thalassocracy"
+ vermont_nation_title:0 "£PLATI_COLONIAL_VERMONT£ Form Vermont"
+ west_indies_nation_title:0 "£PLATI_COLONIAL_CARIBBEAN£ Form Caribbean Nation"
+ # Y
+ yemen_nation_title:0 "£PLATI_FORM_YEMEN£ Form Yemen"
+ form_great_yuan_title:0 "£PLATI_FORM_YUAN£ Form Great Yuan"
+ # Z
+ zealandia_nation_title:0 "£PLATI_COLONIAL_ZEALANDIA£ Form Zealandia"
+ zulu_nation_title:0 "£PLATI_DECISION_BLANK£ Militarize the Nguni"
+ #
+ #
+ ### CK3-EU4 Converter Decisions
+ #
+ #
+ swedish_nation_title:0 "£PLATI_DECISION_BLANK£ Form Sweden"
+ finnish_nation_title:0 "£PLATI_DECISION_BLANK£ Form Finland"
+ denmark_nation_title:0 "£PLATI_DECISION_BLANK£ Form Denmark"
+ portugal_nation_title:0 "£PLATI_DECISION_BLANK£ Form Portugal"
+ aragon_nation_title:0 "£PLATI_DECISION_BLANK£ Form Aragon"
+ lithuania_nation_title:0 "£PLATI_DECISION_BLANK£ Form Lithuania"
+ veneto_nation_title:0 "£PLATI_DECISION_BLANK£ Form Venice"
+ naples_nation_title:0 "£PLATI_DECISION_BLANK£ Form Naples"
+ novgorod_nation_title:0 "£PLATI_DECISION_BLANK£ Form Great Novgorod"
+ hungary_nation_title:0 "£PLATI_DECISION_BLANK£ Form Hungary"
+ burgundy_nation_title:0 "£PLATI_DECISION_BLANK£ Form Burgundy"
+ runestone_decision_title:0 "£PLATI_DECISION_BLANK£ Raise Runestone"
+ armenia_nation_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Form Armenia"
+ restore_byzantine_empire_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Restore Byzantium"
+ institute_prussian_monarchy_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Institute Prussian Monarchy"
+ form_kingdom_of_prussia_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Kingdom of Prussia"
+ prussian_nation_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Form Prussia"
+ prussian_nation_general_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Form Prussia"
+ ruthenian_nation_EXTRA_title:0 "£PLATI_FORM_RUTHENIA£ Form Ruthenia"
+ russian_nation_EXTRA_title:0 "£PLATI_FORM_RUSSIA£ Form Russia"
+ restore_assyrian_empire_title:0 "£PLATI_DECISION_BLANK£ Restore Assyria"
+ capital_in_belgrade_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Capital in Belgrade"
+ steppe_horde_reform_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Call of the Steppe"
+ secularization_of_protestant_theocracy_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Secularization"
+ test_act_EXTRA_title:0 "£PLATI_ACT_GENERIC£ The Test Act"
+ dissolution_of_the_monasteries_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Dissolution of Monasteries"
+ popery_act_EXTRA_title:0 "£PLATI_NEU_GUY_FAWKES£ Popery Act"
+ trade_propagation_convert_to_islam_EXTRA_title:0 "£PLATI_RELIGION_IMAM£ Convert to Islam"
+ restrict_government_offices_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Restrict Government Offices"
+ tengri_yellow_shamanism_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Yellow Shamanism"
+ tengri_black_shamanism_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Black Shamanism"
+ tengri_expel_the_khojas_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Expel the Khojas"
+ zoroastrian_rites_of_admission_EXTRA_title:0 "£PLATI_ZORO£ Rites of Admission"
+ zoroastrian_royal_fires_EXTRA_title:0 "£PLATI_ZORO£ Rekindle the Royal Fires"
+ zoroastrian_diaspora_EXTRA_title:0 "£PLATI_ZORO£ Zoroastrian Diaspora"
+ animism_ritual_education_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Ritual Education"
+ shamanism_wondering_shamans_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Wondering Shamans"
+ spreading_of_norse_rituals_EXTRA_title:0 "£PLATI_DECISION_BLANK£ Spreading of Norse Rituals"
+ pagan_conversion_to_gnostic_title:0 "£PLATI_RELIGION_GENERIC£ Embrace Gnosticism"
+ pagan_conversion_to_yazidi_title:0 "£PLATI_RELIGION_GENERIC£ Convert to Yazidism"
+ ZZZ_remove_elective_challenge_title:0 "£PLATI_DECISION_BLANK£ End the Royal Struggle"
+ ZZZ_remove_elective_final_title:0 "£PLATI_DECISION_BLANK£ End the Royal Struggle"
+ form_manchu_dynasty_EXTRA_title:0 "£PLATI_FORM_QING£ Form Great Qing"
+ spreading_of_reformed_pagan_rituals_title:0 "£PLATI_DECISION_BLANK£ Spreading of Rituals"
+ ZZZ_enhanced_reform_norse_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_baltic_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_finnish_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_tengri_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_slavic_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_zun_pagan_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_bon_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_hellenic_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_african_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_kushitism_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_magyar_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ ZZZ_enhanced_reform_siberian_title:0 "£PLATI_RELIGION_GENERIC£ Reform Faith"
+ #
+ #
+ eclipse_plati_decision_title:0 "£PLATI_ECLIPSE£ Mitigate National Decay"
+ #
+ xxxxxxxxxxxxxxxxxxx_title:0 "£PLATI_DECISION_BLANK£ XXX"
+ #
+ # KING OF KINGS
+ armenia_tigranakert_title:0 "£PLATI_DECISION_BLANK£ Capital in Tigranakert"                                        #move capital
+ curtail_estate_qizilbash_title:0 "£PLATI_DLC_PERSIA_CELEBRITY£ Curtail the [Root.GetQizilbashOrFallbackName]"
+ horse_breeding_decision_title:0 "£PLATI_DLC_PERSIA_HORSE£ Breed new War Steed"
+ georgia_constantinople_title:0 "£PLATI_DLC_PERSIA_WALLS£ Capital in Constantinople"                                 #move capital
+ rename_to_iran_title:0 "£PLATI_DLC_PERSIA_SHAH£ Rename to Iran"
+ rename_to_iran_non_rev_title:0 "£PLATI_DLC_PERSIA_SHAH£ Rename to Iran"
+ defend_the_grand_crusade_target_title:0 "£PLATI_RALLY_VOLUNTEERS£ Defend Crusade target"
+ join_the_grand_crusade_title:0 "£PLATI_RALLY_VOLUNTEERS£ Join Grand Crusade"
+ revoke_passive_conversion_methods_title:0 "£PLATI_DLC_PERSIA_SHAH£ Revoke Passive Conversion"
+ embrace_passive_conversion_methods_title:0 "£PLATI_DLC_PERSIA_SHAH£ Passive Conversion"
+ grand_vizier_selection_title:0 "£PLATI_DECISION_BLANK£ Select Grand Vizier"
+ state_of_conquerors_title:0 "£PLATI_DLC_PERSIA_TIMUR£ State of Conquerors"
+ stop_promoting_art_title:0 "£PLATI_DLC_PERSIA_SHAH£ Stop Promoting Art"
+ promote_art_title:0 "£PLATI_DLC_PERSIA_SHAH£ Promote Art"
+ BYZ_justinians_empire_decision_title:0 "£PLATI_UNIQUE_GREEK£ Justinian's Empire"
+ BYZ_build_hexamilion_wall_decision_title:0 "£PLATI_DLC_PERSIA_WALLS£ Hexamilion Wall"
+ BYZ_build_theodosian_wall_decision_title:0 "£PLATI_DLC_PERSIA_WALLS£ Theodosian Walls"
+ BYZ_bosphorus_toll_decision_title:0 "£PLATI_DECISION_BLANK£ Expand Bosphorus Tolls"
+ BYZ_mosaicists_decision_title:0 "£PLATI_DECISION_BLANK£ Export Mosaicists"
+ BYZ_ecumenical_decision_title:0 "£PLATI_DECISION_BLANK£ Ecumenical Council"
+ BYZ_revoke_exkousseiai_title:0 "£PLATI_ELEVATE_BISHOPRIC£ End Latin Favouritism"
+ BYZ_revoke_deteriorating_army_title:0 "£PLATI_UNIQUE_KNIGHTS£ Repair the Army"
+ BYZ_revoke_union_of_the_churches_title:0 "£PLATI_UNIQUE_GREEK£ Union of the Churches"
+ BYZ_become_orthodox_again_title:0 "£PLATI_UNIQUE_GREEK£ Return to Orthodoxy"
+ BYZ_integrate_galata_title:0 "£PLATI_UNIQUE_GREEK£ Integrate Galata"
+ ARB_restore_cradle_of_gold_title:0 "£PLATI_DLC_PERSIA_GOLD£ Cradle of Gold"
+ ARB_close_the_cradle_of_gold_title:0 "£PLATI_DLC_PERSIA_GOLD£ Close Cradle of Gold"
+ estate_ghulams_promote_caucasian_troops_title:0 "£PLATI_DLC_PERSIA_GHULAMS£ Caucasian Troops"
+ estate_qizilbash_grant_qizilbash_horses_title:0 "£PLATI_DLC_PERSIA_HORSE£ Qizilbash Horses"
+ #
+ #
+ # WINDS OF CHANGE
+ TIM_bring_taxation_under_control_title:0 "£PLATI_CR_DLC_ULUG_BEG£ Enforce Taxation Control"                                        #
+ TIM_supremacy_of_the_sharia_title:0 "£PLATI_CR_DLC_SHARIA£ Supremacy of Sharia"                                        #
+ MUG_commission_the_peacock_throne_title:0 "£PLATI_CR_DLC_AKBAR£ Commission the Peacock Throne"                                        #
+ MUG_viceroyalty_of_deccan_title:0 "£PLATI_CR_DLC_AKBAR£ Viceroyality of Deccann"                                        #
+ 
+ hsn_move_capital_to_damascus_title:0 "£PLATI_DECISION_BLANK£ Move capital to Damascus"                                        #
+ 
+ boh_abolish_the_elective_monarchy_title:0 "£PLATI_CR_DLC_BOHEMIA£ Abolish Elective Monarchy"                                        #
+ 
+ yua_hold_naadam_festival_title:0 "£PLATI_CR_NAADAM£ Hold Naadam festival"                                        #Yuan
+ 
+ boh_transfer_nitra_title:0 "£PLATI_CR_DLC_BOHEMIA£ Transfer Nitra"                                        #
+ 
+ unite_habsburg_lands_title:0 "£PLATI_CR_DLC_AUSTRIA£ Unite Habsburg Lands"                                        #
+ iberian_union_decision_title:0 "£PLATI_CR_DLC_IBERIAN_UNION£ Iberian Union"                                        #
+ 
+ INC_colonize_surroundings_title:0 "£PLATI_CR_DLC_INCA£ Claim the Surroundings"                                        #
+ 
+ grant_generalship_to_montezuma_title:0 "£PLATI_CR_DLC_MESOAMERICAN£ Montezuma Generalship"                                        #
+ 
+ establish_voc_title:0 "£PLATI_UNIQUE_DUTCH_VOC£ Dutch East India Company"                                        #
+ expand_voc_title:0 "£PLATI_UNIQUE_DUTCH_VOC£ Expand VOC"                                        #
+ 
+ boh_release_prussia_title:0 "£PLATI_CR_DLC_BOHEMIA£ Duchy of Prussia"                                        #
+ 
+ establish_american_frontier_title:0 "£PLATI_CR_DLC_INCA£ American Frontier"                                        #
+ adopt_aztec_traditions_title:0 "£PLATI_CR_DLC_SUNSET_INVASION£ Adopt Aztec traditions"                                        #
+ 
+ hungarian_nation_title:0 "£PLATI_CR_DLC_HUNGARY£ Hungarian Nation"                                        #
+ 
+ GER_pick_culture_to_integrate_title:0 "£PLATI_DECISION_BLANK£ Integrate Culture"                                        #
+ 
+ great_moravia_title:0 "£PLATI_CR_MORAVIA£ Restore Great Moravia"                                        #
+ 
+ form_austria_hungary_title:0 "£PLATI_CR_DLC_AUSTRIA_HUNGARY£ Unite Austria-Hungary"                                        #
+ 
+ compromise_with_hungarians_title:0 "£PLATI_CR_DLC_AUSTRIA£ Compromise with Hungarians"                                        #
+ compromise_with_austrians_title:0 "£PLATI_CR_DLC_AUSTRIA£ Compromise with Austrians"                                        #
+ 
+ hordes_restore_yuan_title:0 "£PLATI_FORM_YUAN£ Form Great Yuan"                                        #
+ 
+ replenish_mercenary_ranks_title:0 "£PLATI_DECISION_BLANK£ Replenish Mercenary ranks"                                        #venice
+ 
+ ned_unite_two_crowns_title:0 "£PLATI_CR_DLC_TWO_THRONES_ALT£ Unite Two Crowns"                                        #
+ overthrow_statist_stadholder_title:0 "£PLATI_CR_DLC_STADTHOLDER£ Overthrow Statist Stadtholder"                                        #
+ 

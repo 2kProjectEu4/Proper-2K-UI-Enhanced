@@ -1,0 +1,429 @@
+
+guiTypes = {
+	windowType = {
+		name = "minimap_panel"
+		Orientation = "LOWER_RIGHT"
+		moveable = 0
+		#position = { x = 600 y = 600 }
+
+		# Find more mapmodes in mapmode_more.gui.
+		guiButtonType = {
+			name = "zoom_in"
+			position = { x = -33 y = -66 }
+			quadTextureSprite ="GFX_zoom_in"
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+		}
+		guiButtonType = {
+			name = "zoom_out"
+			position = { x = -33 y = -33 }
+			quadTextureSprite ="GFX_zoom_out"
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+		}
+
+		guiButtonType = {
+			name = "history_button"
+			position = { x = -231 y = -42 }
+			quadTextureSprite ="GFX_history_button02"
+			buttonFont = "Main_14_black"
+			Orientation = "LOWER_RIGHT"
+		}
+		
+		guiButtonType = {
+			name = "menubar_modifiers_button"
+			position = { x = -183 y = -42 }
+			quadTextureSprite ="GFX_triggered_modifiers_button"
+			buttonFont = "Main_14_black"
+			clicksound = click
+			Orientation = "LOWER_RIGHT"
+		}
+
+		guiButtonType = {
+			name = "menu_button"
+			position = { x = -331 y = -42 }
+			quadTextureSprite ="GFX_menu_button"
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+		}
+
+		guiButtonType = {
+			name = "ledger_button"
+			position = { x = -282 y = -42 }
+			quadTextureSprite ="GFX_ledger_button"
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "l"
+		}
+		
+		guiButtonType = {
+			name = "button_goto"
+			position = { x = -137 y = -42 }
+			quadTextureSprite ="GFX_button_goto"
+			buttonFont = "Main_14_black"
+			shortcut = "f"
+
+			Orientation = "LOWER_RIGHT"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "button_pick_shortcut"
+			position = { x = -87 y = -41 }
+			quadTextureSprite ="GFX_hotkey_button"
+			pdx_tooltip = "ASSIGN_HOTKEY_TITLE"
+			buttonFont = "Main_14_black"
+			Orientation = "LOWER_RIGHT"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "closebutton"
+			position = { x = -363 y = -41 }
+			quadTextureSprite ="GFX_closelog_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "  "
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "<"
+		}
+
+		guiButtonType = {
+			name = "OPENbutton"
+			position = { x = -363 y = -42 }
+			quadTextureSprite ="GFX_openlog_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "  "
+			buttonFont = "Main_14_black"
+
+			shortcut = "<"
+			Orientation = "LOWER_RIGHT"
+		}
+		
+		guiButtonType = {
+			name = "category_button_political"
+			quadTextureSprite = "GFX_mapmode_category_button_political"
+			position = { x= -111 y = -238 }
+			Orientation = "LOWER_RIGHT"
+		}	
+		
+		guiButtonType = {
+			name = "category_button_map"
+			quadTextureSprite = "GFX_mapmode_category_button_map"
+			position = { x= -69 y = -238 }
+			Orientation = "LOWER_RIGHT"
+		}	
+
+		guiButtonType = {
+			name = "category_button_geographical"
+			quadTextureSprite = "GFX_mapmode_category_button_geographical"
+			position = { x= -69 y = -205 }
+			Orientation = "LOWER_RIGHT"
+		}	
+
+		guiButtonType = {
+			name = "category_button_economical"
+			quadTextureSprite = "GFX_mapmode_category_button_economical"
+			position = { x= -111 y = -205 }
+			Orientation = "LOWER_RIGHT"
+		}	
+
+		guiButtonType = {
+			name = "custom_mapmode_1"
+			position = { x = -321 y = -238 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "q"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_2"
+			position = { x = -281 y = -238 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "w"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_3"
+			position = { x = -240 y = -238 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "e"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_4"
+			position = { x = -199 y = -238 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "r"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_5"
+			position = { x = -159 y = -238 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "t"
+			
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "custom_mapmode_6"
+			position = { x = -321 y = -202 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "y"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_7"
+			position = { x = -281 y = -202 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "u"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_8"
+			position = { x = -240 y = -202 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "i"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_9"
+			position = { x = -199 y = -202 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "o"
+			
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "custom_mapmode_10"
+			position = { x = -159 y = -202 }
+			quadTextureSprite ="GFX_mapmode_notselected"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "LOWER_RIGHT"
+			shortcut = "p"
+			
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "custom_mapmode_overlay"
+			position = { x = -321 y = -259 }
+			spriteType = "GFX_mapmode_overlay"
+
+			Orientation = "LOWER_RIGHT"
+		}
+		
+		windowType = {
+			name = "mapmode_list_window"
+			backGround=""
+			position = { x=-348 y=-618 }	
+			size = { x=339 y=291 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+		
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_subject_actions_bg"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "category_title"
+				position = { x = 31 y = 12 }
+				format = left
+				text = ""
+				font = "vic_22"
+				borderSize = { x = 0 y = 0 }	
+				maxWidth = 240
+				maxHeight = 39	
+				Orientation = "UPPER_LEFT"
+				fixedsize = yes
+				alwaystransparent = yes
+			}		
+
+			smoothListboxType = {
+				name = "list"
+				backGround = ""
+				position = { x=9 y=43 }
+				size = { x=312 y=303 }
+				Orientation = "UPPER_LEFT"
+				horizontal = 0
+				spacing = 2.5
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 0 y = 0}
+			}
+			
+			guiButtonType = {
+				name = "close_button"
+				position = { x = -12 y = -12 }
+				quadTextureSprite ="GFX_closebutton2"
+				shortcut = "ESCAPE"
+				Orientation = "UPPER_LEFT"
+				clicksound = close_window
+			}
+		}
+	}
+	
+	### MAP MODE ITEM ###
+	windowType = {
+		name = "mapmode_item"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=180 y= 45 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		guiButtonType =
+		{
+			name ="mapmode_button"
+			spriteType = "GFX_mapmode_notselected"
+			position = { x = 12 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =
+		{
+			name ="remove_mapmode_button"
+			quadTextureSprite = "GFX_building_destroy"
+			position = { x = 5 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 66 y = 9 }
+			format = left
+			textureFile = ""
+			font = "vic_22"
+			borderSize = { x = 0 y = 0 }	
+			maxWidth = 240
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+	
+	windowType = {
+		name = "add_mapmode_item"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=180 y= 45 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		guiButtonType =
+		{
+			name ="add_mapmode_button"
+			spriteType = "GFX_mapmode_notselected"
+			position = { x= 12 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			text = "ADD_MAPMODE"
+			position = { x = 66 y = 7 }
+			format = left
+			textureFile = ""
+			font = "vic_22"
+			borderSize = { x = 0 y = 0 }	
+			maxWidth = 240
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+}

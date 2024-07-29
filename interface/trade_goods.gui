@@ -1,0 +1,57 @@
+guiTypes = {
+	
+	windowType = {
+		name = "trade_goods_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x = 360 y = 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name ="goods_banner"
+			quadTextureSprite = "GFX_cb_banner"
+			position = { x= -9 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="goods_icon"
+			spriteType = "GFX_resource_icon"
+			position = { x= 0 y = -1 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+		}
+		
+		instantTextBoxType = {
+			name = "goods_name"
+			position = { x = 36 y =0 }
+			textureFile = ""
+			font = "Main_14_bold"
+			borderSize = { x = 5 y = 9 }
+			text = ""	
+			maxWidth = 120
+			maxHeight = 21	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "goods_provs"
+			position = { x = 156 y =0 }
+			textureFile = ""
+			font = "Main_14_bold"
+			borderSize = { x = 5 y = 9 }
+			text = ""	
+			maxWidth = 72
+			maxHeight = 21	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+	}
+	
+}

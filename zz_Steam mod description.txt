@@ -1,0 +1,82 @@
+[h1]Proper 2K UI Enhanced[/h1]
+
+[img]https://i.imgur.com/jOR9gAS.png[/img]
+
+This mod enhances the existing [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url] for an even better experience.
+This is a standalone mod, so there's no need to download the original version.
+
+[h3]Alternative download: [url=https://mods.paradoxplaza.com/mods/85612/Any]Paradox Mods[/url]. [/h3]
+
+[h2]Why does this mod exist?[/h2]
+I modified the original Proper 2K UI Project mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
+
+This mod addresses the text overlap and UI issues present in the original. I have scaled all EU4 assets up to version 1.37.2 to ensure compatibility and enhance your gaming experience. Additionally, I made numerous small adjustments to the UI elements for a more polished look and feel.
+
+[h3]⚠️ To ensure the best experience, please activate all DLCs, as some bugs may arise without them. If you don’t have all the DLCs, feel free to share your configuration in the comments, and I’ll do my best to address any issues. Thank you! ⚠️[/h3]
+
+[img]https://i.imgur.com/Uf8Z21n.png[/img]
+
+[h2]Recommended compatible mods(must download separately):[/h2]
+[list]
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]Bright Shield Frames 2K[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]Colored Speed Indicator 2K[/url].
+    [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
+[/list]
+
+[h2]Integrated mods:[/h2]
+[list]
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2291982168]UI a la Artemis[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738]Better Arrival Date[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971]Colored missions[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2136245018]Europa Aesthetic Arrows Only (without black trade arrow)[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2135363699]Europa Aesthetic Unit Markers[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3086517784]Active policies bonus recolored[/url].
+[/list]
+
+[img]https://i.imgur.com/Uf8Z21n.png[/img]
+
+[h2]My setup:[/h2]
+[olist]
+    [*] Proper 2K UI Enhanced.
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]Bright Shield Frames 2K[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]Colored Speed Indicator 2K[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
+[/olist]
+
+[h2]My modifications:[/h2]
+
+[h3]29.07.2024 modifications:[/h3]
+[list]
+    [*] Increased width for numbers trade interface to support 4 digits numbers 
+    [*] Resized transfer occupation window to not overlap with monuments windows
+[/list]
+
+[h3]Initial modifications:[/h3]
+[list]
+    [*] Removed internal files for "The Great Exhibition" mod (Too much work to always integrate this amazing mod; now you have to download it separately)
+    [*] Better HRE view
+    [*] Better EoC view
+    [*] Better Court view / Advisors view
+    [*] Better Government view
+    [*] Better Diplomacy (monarch/heir view, diplo actions, opinion view)
+    [*] Better design for parliament window (no more shenanigans with multiple scrollbars while chosing a Issue)  
+    [*] General pips image enhanced
+    [*] Fort map icon enhanced
+    [*] Mapview redesigned
+    [*] Better design for peace deal view window
+    [*] Better trade company name display (switched word placement, now contry culture is last)
+    [*] Better map progressbars for construction and religion conversions
+    [*] Better naval/land combat window (Reverted window to original design)
+    [*] Better expand infrastructure buttons
+    [*] Better province revolution view
+    [*] Better colony view
+    [*] Enlarged trade assets for trade view map mode
+    [*] Enlarged mercenary list view
+    [*] Nicer lobby diplo list view
+    [*] Fixed native federation window
+    [*] Enlarged flagship designer
+[/list]

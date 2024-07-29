@@ -1,0 +1,771 @@
+guiTypes = {
+	windowType = {
+		name = "ledger_piechart_entry"
+		backGround =""
+		position = { x = 120 y = 60 }
+		size = { x=0 y = 192 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+
+		
+		instantTextBoxType = { 
+			name = "ledger_piechart_header"
+			position = { x = 0 y = 0 }
+			font = "vic_22"
+			text = " "	
+			borderSize = {x = 0 y = 10}	
+			maxWidth = 162
+			maxHeight = 19
+			fixedsize = yes
+			format = left
+		}		
+		
+		iconType =
+		{
+			name ="ledger_piechart"
+			spriteType = "GFX_ledger_piechart_default"
+			position = { x= 0 y = 0 }
+		}	
+		
+		iconType =
+		{
+			name ="ledger_piechart_overlay"
+			spriteType = "GFX_ledger_piechart_overlay"
+			position = { x= -149 y = -29 }
+			scale = 0.5
+		}
+		
+		listboxType = 	{
+			name ="legend_list"
+			position = { x = 0 y = 0 }
+			backGround=""
+			size = { x=173 y = 633 }
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 10 y = 1}
+		}
+	}			
+
+	windowType = {
+		name = "ledger_legend_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=240 y=29 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		checkboxType = {
+			name = "ledger_legend_checkbox"	
+			position = {x = 27 y = 3 }
+			quadTextureSprite ="GFX_ledger_checkbox"
+		}
+		
+		iconType = {
+			name ="ledger_legend_plupp"
+			spriteType = "GFX_ledger_plupp"
+			position = { x= 0 y = 1 }
+		}
+		
+		instantTextBoxType = { 
+			name = "ledger_default_textbox"
+			position = { x = 57 y = 6 }
+			font = "vic_18"
+			text = " "	
+			maxWidth = 192
+			maxHeight = 19
+			fixedsize = yes
+		}
+	}
+	
+	### GREAT PROJECTS
+	
+	windowType = 
+	{
+		name = "ledger_great_project_entry"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=360 y=180 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType = 
+		{
+			name ="ledger_great_project_icon"
+			spriteType = "GFX_great_project_place_holder"
+			position = { x = 0 y = 0 }
+		}
+		
+
+		instantTextBoxType = {
+			name = "ledger_great_project_name_label"
+			position = { x = 21 y = 13 }
+			textureFile = ""
+			font = "vic_20"
+			borderSize = { x = 0 y = 0 }
+			text = "NAME HERE"
+			maxWidth = 360
+			maxHeight = 36
+			format = left
+		}
+	}
+	
+	instantTextBoxType = { 
+		name = "ledger_default_textbox"
+		position = { x = 0 y = 0 }
+		font = "vic_18"
+		text = " "	
+		maxWidth = 348
+		maxHeight = 21
+		fixedsize = yes
+		format = left
+	}
+	instantTextBoxType = { 
+		name = "ledger_default_textbox_right"
+		position = { x = 0 y = 0 }
+		font = "vic_18"
+		text = " "	
+		maxWidth = 348
+		maxHeight = 21
+		fixedsize = yes
+		format = right
+	}
+
+	instantTextBoxType = { 
+		name = "ledger_default_button_text"
+		position = { x = 0 y = 0 }
+		borderSize = {x = 6 y = 0}
+		font = "vic_18"
+		text = " "	
+		maxWidth = 348
+		maxHeight = 19
+		fixedsize = yes
+		format = left
+		alwaystransparent = yes
+	}
+	
+	guiButtonType = {
+		name = "ledger_default_button"
+		position = { x=0 y=0 }
+		quadTextureSprite ="GFX_ledger_invisible_button"
+		buttonFont = "vic_18"
+		clicksound = click
+	}	
+	
+	
+	iconType = {
+		name ="ledger_default_flag"
+		spriteType = "GFX_shield_small"
+		position = { x= 0 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	guiButtonType = {
+		name = "ledger_default_shield"
+		position = { x = 0 y = -9 }
+		quadTextureSprite ="GFX_shield_small"
+		Orientation = "UPPER_LEFT"
+		clicksound = click
+	}
+
+	guiButtonType = {
+		name = "ledger_pop_icon"
+		position = { x = 0 y = 0 }
+		quadTextureSprite ="GFX_pops_mini"
+		clicksound = click
+	}
+	
+	iconType = {
+		name = "ledger_linechart"
+		spriteType = "GFX_ledger_line_default"
+		position = { x = 63 y = 47 }
+	}
+	
+	OverlappingElementsBoxType = {
+			name = "ledger_box"
+			position = { x = 0 y = 0 }
+			size = { x=120 y=39 }
+	}
+	
+	iconType = {
+		name = "ledger_religion_icon"
+		position = { x=0 y=-12 }
+		spriteType ="GFX_religion_icon_strip"
+		scale = 1	
+	}
+	
+	iconType = {
+		name = "ledger_trade_icon"
+		position = { x=0 y=-12 }
+		spriteType ="GFX_resource_icon_small"	
+	}
+
+	iconType = {
+		name = "ledger_half_size_icon_0"
+		position = { x=0 y=-12 }
+		spriteType ="GFX_resource_icon_small"
+		scale = 0.5
+	}
+	iconType = {
+		name = "ledger_half_size_icon_1"
+		position = { x=0 y=-12 }
+		spriteType ="GFX_resource_icon_small"
+		scale = 0.5
+	}
+	iconType = {
+		name = "ledger_half_size_icon_2"
+		position = { x=0 y=-12 }
+		spriteType ="GFX_resource_icon_small"
+		scale = 0.5
+	}
+	
+	iconType ={
+		name ="ledger_shield"
+		spriteType = "GFX_shield_small"
+		position = { x= 21 y = 9 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	iconType = {
+		name ="ledger_item_background"
+		spriteType = "GFX_ledger_item_bg"
+		position = { x= 0 y = -7 }
+	}
+	
+	guiButtonType = {
+		name = "ledger_building_button"
+		position = { x=0 y =0}
+		quadTextureSprite ="GFX_building_currentlybuilding"	
+		buttonFont = "vic_18"
+		clicksound = click
+	}	
+	
+	##############
+	### Image moved x + 580 y + 320
+	##############
+
+	windowType = {
+		name = "ledger"
+		backGround=""
+		position = { x=120 y=0 }	
+		size = { x=1344 y=921 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		# upsound = winxpsound # meme
+		
+		iconType =
+		{
+			name ="ledger_bg"
+			spriteType = "GFX_ledger_bg"
+			position = { x= 59 y = 120 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="ledger_linegraph_bg"
+			spriteType = "GFX_ledger_linegraph_bg"
+			position = { x= 59 y = 120 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="ledger_great_projects_bg"
+			spriteType = "GFX_ledger_great_projects_bg"
+			position = { x = 59 y = 120 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "close"
+			position = { x=1923 y=137 }
+			quadTextureSprite ="GFX_button_close"
+			shortcut = "ESCAPE"
+			# clicksound = xperror # meme
+		}
+		
+				
+		
+		guiButtonType = {
+			name = "prev"
+			position = { x=1471 y=1213 }
+			quadTextureSprite ="GFX_ledger_previous_button"
+			buttonText = "LEDGER_PREVIOUS"
+			buttonFont = "vic_18"
+			shortcut = "LEFT"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "next"
+			position = { x=1763 y=1213 }
+			quadTextureSprite ="GFX_ledger_next_button"
+			buttonText = "LEDGER_NEXT"
+			buttonFont = "vic_18"
+			shortcut = "RIGHT"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "index"
+			position = { x=138 y=1201 }
+			quadTextureSprite ="GFX_ledger_bookmark_button_index"
+			buttonFont = "vic_18"
+			shortcut = "DOWN"
+			pdx_tooltip = "LEDGER_INDEX"
+			pdx_tooltip_delayed = ""
+		}
+		
+		guiButtonType = {
+			name = "bookmark_0"
+			position = { x = 213 y = 1201}
+			quadTextureSprite ="GFX_ledger_bookmark_button_country"	
+			buttonFont = "vic_18"
+			shortcut = "F1"
+		}
+		
+		guiButtonType = {
+			name = "bookmark_1"
+			position = { x = 289 y = 1201}
+			quadTextureSprite ="GFX_ledger_bookmark_button_military"	
+			buttonFont = "vic_18"
+			shortcut = "F3"
+		}		
+		
+		guiButtonType = {
+			name = "bookmark_2"
+			position = { x = 365 y = 1201}
+			quadTextureSprite ="GFX_ledger_bookmark_button_economy"	
+			buttonFont = "vic_18"
+			shortcut = "F4"
+		}	
+		
+		guiButtonType = {
+			name = "bookmark_3"
+			position = { x = 441 y = 1201}
+			quadTextureSprite ="GFX_ledger_bookmark_button_trade"	
+			buttonFont = "vic_18"
+			shortcut = "F5"
+		}
+
+		guiButtonType = {
+			name = "bookmark_4"
+			position = { x = 516 y = 1201}
+			quadTextureSprite ="GFX_ledger_bookmark_button_relations"	
+			buttonFont = "vic_18"
+			shortcut = "F6"
+		}		
+		
+		instantTextBoxType = { 
+			name = "page_number"
+			position = { x = 1617 y = 1221 }
+			font = "vic_22"
+			text = " "	
+			maxWidth = 162
+			maxHeight = 19
+			format = centre
+		}
+		
+		instantTextBoxType = { 
+			name = "ledger_header"
+			position = { x = 543 y = 147 }
+			font = "vic_29s"
+			text = " "	
+			maxWidth = 960
+			maxHeight = 39
+			format = centre
+		}
+
+		
+		############
+		############  FILTERS, SEE filter_list_item
+		
+		listboxType = 	{
+			name ="filter_list"
+			position = { x = 300 y = 195 } #x60
+			backGround=""
+			size = { x=1680 y = 60 }
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			horizontal = 1
+			scrollbartype = "standardlistbox_slider"
+		}
+
+
+		iconType =
+		{
+			name ="filter_edit_box_bg"
+			spriteType = "GFX_ledger_filter_bg"
+			position = { x = 1695 y = 195 }
+		}
+
+		iconType =
+		{
+			name ="filter_edit_box_icon"
+			spriteType = "GFX_ledger_filter_icon"
+			position = { x = 1668 y = 199 }
+		}
+
+		editBoxType = {
+			position = { x = 1697 y = 195 }
+			name = "ledger_text_filter"
+			font = "vic_18"
+			borderSize = { x = 9 y = 7  }	
+			size = { x=171 y=33 }
+			text = ""
+			orientation = "UPPER_LEFT"
+		}
+
+		############
+		############  SORT BUTTONS
+		
+		windowType = {
+			name = "ledger_sort_buttons"
+			backGround =""
+			position = { x=79 y=237 }	
+			size = { x=1767 y=39 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = "1"
+			fullScreen = no
+		}
+		
+		listboxType = 	{
+			name ="default_listbox"
+			position = { x = 79 y = 281 }
+			backGround=""
+			size = { x=1863 y = 924 }
+			Orientation = "UPPER_LEFT"
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 1 y = 1}
+		}
+		
+		#### LINE GRAPHS
+		
+		windowType = {
+			name = "ledger_linegraphs"
+			backGround =""
+			position = { x = 438 y = 204 }
+			size = { x=840 y = 648 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+		}
+		
+		windowType = {
+			name = "ledger_linegraph_legend"
+			backGround =""
+			position = { x = 1344 y = 231 }
+			size = { x=240 y = 648 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			
+			windowType = {
+				name = "ledger_linegraph_legend_buttons"
+				backGround =""
+				position = { x = 0 y = 0 }
+				size = { x=240 y = 77 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+			
+				guiButtonType = {
+					name = "linegraph_neighbours"
+					position = { x = 15 y = 12}
+					quadTextureSprite ="GFX_ledger_income_sort_button_neighbors"	
+					buttonFont = "vic_18"
+					pdx_tooltip = "MSG_FILTER_NEIGHBOURS"
+					pdx_tooltip_delayed = ""
+				}
+
+				guiButtonType = {
+					name = "linegraph_enemies"
+					position = { x = 81 y = 12}
+					quadTextureSprite ="GFX_ledger_income_sort_button_enemies"	
+					buttonFont = "vic_18"
+					pdx_tooltip = "MSG_FILTER_ENEMIES"
+					pdx_tooltip_delayed = ""
+				}
+
+				guiButtonType = {
+					name = "linegraph_friends"
+					position = { x = 147 y = 12}
+					quadTextureSprite ="GFX_ledger_income_sort_button_friends"	
+					buttonFont = "vic_18"
+					pdx_tooltip = "FRIENDS"
+					pdx_tooltip_delayed = ""
+				}
+
+				guiButtonType = {
+					name = "linegraph_clear"
+					position = { x = 213 y = 12}
+					quadTextureSprite ="GFX_ledger_income_sort_button_clear"	
+					buttonFont = "vic_18"
+					pdx_tooltip = "LEDGER_CLEAR"
+					pdx_tooltip_delayed = ""
+				}
+			}			
+			
+			listboxType = 	{
+				name ="legend_list"
+				position = { x = 0 y = 45 }
+				backGround=""
+				size = { x=249 y = 581 }
+				Orientation = "UPPER_LEFT"
+				spacing = 3
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 1 y = 1}
+			}
+		}
+
+		### PIE CHARTS
+		
+		windowType = {
+			name = "ledger_piecharts"
+			backGround =""
+			position = { x = -12 y = 108 }
+			size = { x=1200 y = 648 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_UP"
+			
+							
+			iconType =
+				{
+					name ="ledger_piechart_bg"
+					spriteType = "GFX_ledger_piechart_BG"
+					position = { x = -601 y = 12 }
+				}
+			
+		}
+
+		### INDEX
+		
+		windowType = {
+			name = "ledger_index"
+			backGround =""
+			position = { x = 438 y = 192 }
+			size = { x=1200 y = 1032 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			iconType =
+		    {
+			    name ="ledger_overlay"
+			    spriteType = "GFX_ledger_index_BG"
+			    position = { x= -379 y = -72 }
+			    Orientation = "UPPER_LEFT"
+		    }
+			
+			instantTextBoxType = { 
+				name = "page"
+				position = { x = 323 y = 9 }
+				font = "vic_22"
+				text = "LEDGER_PAGE"	
+				maxWidth = 39
+				maxHeight = 39
+				format = left
+			}	
+			
+			listboxType = 	{
+				name ="list"
+				position = { x = 348 y = 3 }
+				backGround=""
+				size = { x=462 y = 999 }
+				Orientation = "UPPER_LEFT"
+				spacing = 3
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 1 y = 1}
+			}				
+		}		
+	}
+
+	windowType = {
+		name = "ledger_legend_piechart_entry"
+		backGround=""
+		position = { x=120 y=60 }	
+		size = { x=240 y=29 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType = {
+			name ="ledger_legend_plupp"
+			spriteType = "GFX_ledger_plupp"
+			position = { x= 0 y = 0 }
+		}
+		
+		instantTextBoxType = { 
+			name = "ledger_default_textbox"
+			position = { x = 33 y = 6 }
+			font = "vic_18"
+			text = " "	
+			maxWidth = 126
+			maxHeight = 19
+			fixedsize = yes
+		}
+	}	
+	
+	windowType = {
+		name = "default_listbox_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1839 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+	}
+	
+	windowType = {
+		name = "ledger_war_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=39 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+			
+		guiButtonType = {
+			name = "shield"
+			position = { x=0 y=0 }
+			quadTextureSprite ="GFX_shield_small"
+		}
+	}
+	
+	windowType = {
+		name = "ledger_title_entry"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=39 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "shield"
+			position = { x=0 y=0 }
+			quadTextureSprite ="GFX_shield_small"
+		}
+	}
+
+	windowType = {
+		name = "ledger_index_bookmark"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=153 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no	
+		
+		guiButtonType = {
+			name = "button"
+			position = { x=78 y=0 }
+			quadTextureSprite ="GFX_ledger_index_category_button"
+			buttonFont = "vic_22"
+			clicksound = click		
+		}
+	}
+
+	windowType = {
+		name = "ledger_index_page"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=153 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		instantTextBoxType = { 
+			name = "index"
+			position = { x = -18 y = 9 }
+			font = "vic_18"
+			text = "1"	
+			maxWidth = 39
+			maxHeight = 39
+			fixedsize = yes
+			format = right
+		}			
+		
+		guiButtonType = {
+			name = "button"
+			position = { x=120 y= 3 }
+			quadTextureSprite ="GFX_ledger_index_underCategory_button"
+			buttonFont = "vic_18"
+			clicksound = click	
+		}
+	}
+
+
+	# Items in filter_list
+	windowType = {
+		name = "filter_list_item"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=240 y=39 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+
+		checkboxType = {
+			name = "checkbox"
+			position = { x= 0 y = 0 }
+			quadTextureSprite = "GFX_checkbox_gold_32"
+		}
+
+		instantTextBoxType = { 
+			name = "label"
+			position = { x = 41 y = 9 }
+			font = "vic_18"
+			text = "Allies"	
+			maxWidth = 216
+			maxHeight = 39
+			format = left
+		}
+	}
+}

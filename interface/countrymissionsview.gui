@@ -1,0 +1,479 @@
+guiTypes = {
+
+	#x is minimum resolution height for this country view to increase to large size
+	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
+	positionType =
+	{
+		name ="countrymissionsview_scaling_large_min_inc"
+		position = { x= 1080 y = 186 }
+	}
+
+	#x is minimum resolution height for this country view to increase to huge size
+	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
+	positionType = {
+		name ="countrymissionsview_scaling_huge_min_inc"
+		position = { x= 1296 y = 402 }
+	}
+
+	windowType = {
+		name = "countrymissionsview"
+		position = { x=0 y=168 }
+		#position = { x=0 y=168 }
+		show_position = { x=0 y =168 }
+		hide_position = { x=-720 y =168 }
+		animation_type = "decelerated"
+		animation_time = 10
+		size = { x=1229 y=120 }
+		moveable = 0
+		Orientation = "UPPER_LEFT"
+		upsound = tab_missions
+
+		iconType =
+		{
+			name ="domesticpanel_bg"
+			spriteType = "GFX_country_mission_view_bg"
+			position = { x= -9 y = -12 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x = 617 y = -1 }
+			quadTextureSprite ="GFX_closebutton2"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+			clicksound = close_window
+		}
+
+				
+		#First Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_1_missions"
+			position = { x = 658 y = 80 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_1"
+			position = { x = 658 y = 122 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_1_highlighted"
+			position = { x = 658 y = 122 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_2"
+			position = { x = 658 y = 164 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_2_highlighted"
+			position = { x = 658 y = 164 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_3"
+			position = { x = 658 y = 206 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_3_highlighted"
+			position = { x = 658 y = 206 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_4"
+			position = { x = 658 y = 248 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_4_highlighted"
+			position = { x = 658 y = 248 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_5"
+			position = { x = 658 y = 290 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_5_highlighted"
+			position = { x = 658 y = 290 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
+		
+		#Second Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_2_missions"
+			position = { x = 658 y = 342 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_1"
+			position = { x = 658 y = 384 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_1_highlighted"
+			position = { x = 658 y = 384 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_2"
+			position = { x = 658 y = 426 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_2_highlighted"
+			position = { x = 658 y = 426 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_3"
+			position = { x = 658 y = 468 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_3_highlighted"
+			position = { x = 658 y = 468 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_4"
+			position = { x = 658 y = 510 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_4_highlighted"
+			position = { x = 658 y = 510 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_5"
+			position = { x = 658 y = 552 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_5_highlighted"
+			position = { x = 658 y = 552 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
+		
+		#Third Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_3_missions"
+			position = { x = 658 y = 604 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_1"
+			position = { x = 658 y = 646 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_1_highlighted"
+			position = { x = 658 y = 646 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_2"
+			position = { x = 658 y = 688 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_2_highlighted"
+			position = { x = 658 y = 688 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_3"
+			position = { x = 658 y = 730 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_3_highlighted"
+			position = { x = 658 y = 730 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_4"
+			position = { x = 658 y = 772 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_4_highlighted"
+			position = { x = 658 y = 772 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_5"
+			position = { x = 658 y = 814 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_5_highlighted"
+			position = { x = 658 y = 814 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
+
+		instantTextBoxType = {
+			name = "window_title"
+			position = { x = 18 y =93 }
+			textureFile = ""
+			font = "vic_36"
+			borderSize = {x = 5 y = 5}
+			text = "HEADER_MISSIONS"
+			maxWidth = 615
+			maxHeight = 39
+			format = centre
+		}
+
+		smoothListboxType = {
+			name = "countrymissionsview_missions_gridbox_listbox"
+			position = { x=12 y =147}
+			backGround=""
+			size = { x=621 y=489 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		OverlappingElementsBoxType = {
+			name = "countrymissionsview_country_list"
+			position = { x=39 y =-77}
+			size = { x=600 y=41 }
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+		}
+	}
+
+	windowType = {
+		name = "countrymissionsview_missions_gridbox_listbox_entry"
+		position = { x=0 y=0 }
+		show_position = { x=0 y =168 }
+		size = { x=636 y=600 }
+		moveable = 0
+
+		gridBoxType = {
+			name = "countrymissionsview_missions_gridbox"
+			position = { x = 0 y = 0 }
+			size = { width = 480 height = 480 }
+			slotsize = { width = 123 height = 180 }
+			max_slots_horizontal = 5
+			format = "UPPER_LEFT"
+		}
+	}
+
+	windowType={
+		name = "countrymissionsview_missions_entry"
+		#size = { width = 125 height = 147 }
+
+		iconType = {
+			name = "mission_icon"
+			position = { x=27 y=21 }
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		iconType = {
+			name = "arrow_half_top"
+			position = {x=55 y=145}
+			quadTextureSprite ="gfx_arrow_verticall_tile"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "arrow_half_bottom_center"
+			position = {x=45 y=169}
+			quadTextureSprite ="gfx_arrow_end"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "arrow_half_bottom_left"
+			position = {x=18 y=169}
+			quadTextureSprite ="gfx_arrow_end"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "arrow_half_bottom_right"
+			position = {x=73 y=169}
+			quadTextureSprite ="gfx_arrow_end"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "skip_tier"
+			position = {x=55 y=168}
+			quadTextureSprite ="gfx_arrow_verticall_skip_tier"
+			alwaystransparent = yes
+		}
+		
+		
+		iconType = {
+			name = "skip_slot"
+			position = {x=-7 y=153}
+			quadTextureSprite ="gfx_arrow_horizontal_skip_slot"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "left_branch_out"
+			position = {x=5 y=147}
+			quadTextureSprite ="gfx_arrow_left_out"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "right_branch_in"
+			position = {x=83 y=150}
+			quadTextureSprite ="gfx_arrow_left_in"
+			alwaystransparent = yes
+		}
+		
+		
+		iconType = {
+			name = "right_branch_out"
+			position = {x=72 y=147}
+			quadTextureSprite ="gfx_arrow_right_out"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "left_branch_in"
+			position = {x=-6 y=153}
+			quadTextureSprite ="gfx_arrow_right_in"
+			alwaystransparent = yes
+		}
+
+
+		
+		
+		iconType = {
+			name = "mission_entry_icon"
+			position = {x= 0 y= 0 }
+			quadTextureSprite ="GFX_mission_icons_frame"
+		}
+		
+		guiButtonType = {
+			name = "mission_entry_button"
+			quadTextureSprite ="GFX_mission_icons_frame_complete"
+			position = { x= 0 y = 0 }
+		}
+		
+		iconType = {
+			name = "mission_entry_rewards_glow"
+			position = { x= 0 y= 0 }
+			quadTextureSprite = "GFX_mission_effect_glow"
+		}
+
+		iconType = {
+			name = "mission_entry_rewards"
+			position = { x=84 y=9 }
+			quadTextureSprite = "gfx_mission_effect"
+		}
+
+
+		iconType = {
+			name = "mission_entry_conditions"
+			position = { x= 0 y= 6 }
+			quadTextureSprite = "gfx_mission_trigger"
+		}
+
+		guiButtonType = {
+			name = "mission_entry_conditions_button"
+			quadTextureSprite ="gfx_mission_trigger"
+			position = { x= 0 y = 6 }
+		}
+
+		instantTextBoxType= {
+			position = { x=6 y=101}
+			name = "mission_title"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 115
+			maxHeight = 42
+			text = "Subjective and a Noun"
+			orientation = "UPPER_LEFT"
+			format = center
+			fixedsize =  yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="country_icon"
+			position = { x= 42 y = 3 }
+			quadTextureSprite = "GFX_shield_small"
+		}
+	}
+
+	windowType={
+		name = "countrymissionsview_nation_entry"
+		size = { x = 41 y = 39 }
+		
+		guiButtonType = {
+			name ="country_mission_button"
+			position = { x= 0 y = 0 }
+			quadTextureSprite = "GFX_shield_small"
+		}
+
+		iconType = {
+			name = "country_higlight"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_small_shield_overlay_great_power_transparent"
+		}
+	}
+}

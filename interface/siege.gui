@@ -1,0 +1,840 @@
+guiTypes = {
+
+	windowType = {
+		name = "siege"
+		backGround=""
+		position = { x=-600 y=-681 }	
+		show_position = { x=-12 y=-681 }
+		hide_position = { x=-600 y=-681 }	
+		animation_type = "decelerated"
+		animation_time = 150	
+		size = { x=597 y=594 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		Orientation = "LOWER_LEFT"
+	
+		iconType =
+		{
+			name ="siege_bg"
+			spriteType = "GFX_siege_defender_bg"
+			position = { x= -7 y = -21 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="siege_attacker_bg"
+			spriteType = "GFX_siege_attacker_bg"
+			position = { x= -7 y = -21 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "closebutton"
+			position = { x = 555 y = -12 }
+			quadTextureSprite ="GFX_closebutton2"
+			shortcut = "ESCAPE"
+			clicksound = close_window
+		}
+			
+		instantTextBoxType = {
+			name = "label_siegename"
+			position = { x = 162 y = 0 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 288
+			maxHeight = 29
+			fixedsize = yes	
+			format = centre
+		}			
+			
+		guiButtonType = {
+			name = "merge_button"
+			position = { x = 505 y = 597 }
+			quadTextureSprite ="GFX_multi_merge_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "  "
+			buttonFont = "vic_18"
+			shortcut = "g"
+		}			
+			
+		guiButtonType = {
+			name = "open_unit_view"
+			position = { x = 387 y =150 }
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "BUTTON_UNIT_VIEW"
+			buttonFont = "vic_18"
+			clicksound = close_window
+			shortcut = "b"
+		}			
+			
+		guiButtonType = {
+			name = "open_province_view"
+			position = { x = 387 y =90 }
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "BUTTON_PROVINCE_VIEW"
+			buttonFont = "vic_18"
+			clicksound = close_window
+			shortcut = "v"
+		}
+
+		windowType = {
+			name = "siege_default"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_town"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_town_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+
+		windowType = {
+			name = "siege_native"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_native_american"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_native_american_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault_native_american"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach_native_american"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+
+		windowType = {
+			name = "siege_asian"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_asian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_asian_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault_asian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach_asian"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+		
+		windowType = {
+			name = "siege_muslim"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_muslim"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_muslim_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault_muslim"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach_muslim"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+
+		windowType = {
+			name = "siege_indian"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_indian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_indian_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault_indian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach_indian"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+			
+		windowType = {
+			name = "siege_polynesian"
+			backGround=""
+			position = { x= 57 y = 63 }
+			size = { x=360 y=240 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType =
+			{
+				name ="siege_town"
+				spriteType = "gfx_siege_polynesian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="siege_town_no_walls"
+				spriteType = "gfx_siege_polynesian_no_walls"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_assault"
+				spriteType = "GFX_assault_polynesian"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			iconType =
+			{
+				name ="has_breach"
+				spriteType = "GFX_breach_polynesian"
+				position = { x= 3 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+			
+		iconType =
+		{
+			name ="siege_image_frame"
+			spriteType = "GFX_siege_image_frame"
+			position = { x= 48 y = 53 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_siege"
+		}
+			
+		iconType =
+		{
+			name ="regiments_needed_icon"
+			spriteType = "GFX_regiments_needed_icon"
+			position = { x= 384 y = 264 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "regiments_needed"
+			position = { x = 429  y = 270 }
+			textureFile = ""
+			font = "vic_22"
+			text = "99"	
+			Orientation = "UPPER_LEFT"
+			maxWidth = 60
+			maxHeight = 29
+			format = right
+		}
+		
+		iconType = {
+			name = "defender_status"
+			spriteType = "GFX_siege_status_strip"
+			position = { x = 520 y = 288 }
+			Orientation = "UPPER_LEFT"
+			scale = 1.1
+		}
+		
+
+
+		guiButtonType = {
+			name = "sorties_button"
+			position = { x = 288 y = 261 }
+			quadTextureSprite ="GFX_button_sorties"
+			}	
+		
+
+		### SHIELDS
+		
+		guiButtonType = {
+			name = "attacker_shield"
+			position = { x= 6 y = 498 }
+			quadTextureSprite ="GFX_shield_thin"	
+			Orientation = "UPPER_LEFT"
+		}
+			
+		guiButtonType = {
+			name = "defender_shield"
+			position = { x= 6 y = 222 }
+			quadTextureSprite ="GFX_shield_thin"	
+			Orientation = "UPPER_LEFT"
+		}	
+
+		### DEFENDER
+		iconType =
+		{
+			name ="garrison_icon"
+			spriteType = "GFX_unit_types_strip"
+			position = { x= 103 y = 300 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "garrison_value"
+			position = { x = 162 y = 321 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 72
+			maxHeight = 29	
+			format = right
+		}		
+		
+		iconType =
+		{
+			name ="fort_icon"
+			spriteType = "GFX_fort_icon"
+			position = { x= 261 y = 315 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_fortlevel"
+		}
+		
+		instantTextBoxType = {
+			name = "wall_size"
+			position = { x = 330 y = 321 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 39
+			maxHeight = 29	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="fort_def_icon"
+			spriteType = "GFX_fort_defense_icon"
+			position = { x= 384 y = 315 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_fortdefense"
+		}
+		
+		instantTextBoxType = {
+			name = "fort_def_value"
+			position = { x = 453 y = 321 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "?%"	
+			maxWidth = 39
+			maxHeight = 29	
+			format = right
+		}		
+	
+		instantTextBoxType = {
+			name = "defender_title"
+			position = { x = 111 y = 231 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "DEFENDER"	
+			maxWidth = 120
+			maxHeight = 24	
+			format = left
+			fixedsize = yes
+		}		
+	
+		iconType =
+		{
+			name ="defender_morale"
+			spriteType = "GFX_combat_morale"
+			position = { x= 113 y = 271 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="defender_morale_frame"
+			spriteType = "GFX_combat_morale_frame"
+			position = { x= 103 y = 265 }
+		}
+
+		instantTextBoxType = {
+			name = "defender_morale_text"
+			position = { x = 133 y = 273 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "COMBAT_BREAKING"	
+			maxWidth = 120
+			maxHeight = 24	
+			format = centre
+			fixedsize = yes
+		}
+		
+		iconType =
+		{
+			name ="siege_chance_icon"
+			spriteType = "GFX_siege_chance_icon"
+			position = { x= 447 y = 413 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "siege_chance_value"
+			position = { x = 495 y = 414 }
+			textureFile = ""
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}
+			text = "???%"	
+			maxWidth = 77
+			maxHeight = 39	
+			format = right
+		}
+
+		iconType =
+		{
+			name ="siege_tick_pie"
+			spriteType = "GFX_trade_power_chart_small"
+			position = { x= 49 y = 405 }
+		}
+		
+		iconType =
+		{
+			name ="siege_tick_pie_overlay"
+			spriteType = "GFX_provinceView_chart_overlay"
+			position = { x= 15 y = 399 }
+		}
+
+		iconType =
+		{
+			name ="modifier_leader_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			position = { x= 138 y = 397 }
+			Orientation = "UPPER_LEFT"
+			frame = 2
+			hint_tag = "hint_leadersiege"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_leader_value"
+			position = { x = 141 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+
+		iconType =
+		{
+			name ="modifier_art_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			position = { x= 180 y = 397 }
+			Orientation = "UPPER_LEFT"
+			frame = 3
+			hint_tag = "hint_artillery"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_art_value"
+			position = { x = 181 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+
+		iconType =
+		{
+			name ="modifier_breach_icon"
+			position = { x= 321 y = 397 }
+			spriteType = "GFX_siege_modifiers_strip"
+			Orientation = "UPPER_LEFT"
+			frame = 4
+			hint_tag = "hint_breach"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_breach_value"
+			position = { x = 321 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+
+		iconType =
+		{
+			name ="modifier_noblockade_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			position = { x= 223 y = 397 }
+			Orientation = "UPPER_LEFT"
+			frame = 5
+			hint_tag = "hint_blockade"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_noblockade_value"
+			position = { x = 223 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+
+		iconType =
+		{
+			name ="modifier_fort_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			Orientation = "UPPER_LEFT"
+			position = { x= 265 y = 397 }
+			frame = 6
+			hint_tag = "hint_fortlevel"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_fort_value"
+			position = { x = 263 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+		
+		iconType =
+		{
+			name ="modifier_progress_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			position = { x= 81 y = 397 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+
+		instantTextBoxType = {
+			name = "modifier_progress_value"
+			position = { x = 81 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}
+
+		iconType =
+		{
+			name ="modifier_roll_icon"
+			spriteType = "GFX_siege_modifiers_strip"
+			position = { x= 375 y = 397 }
+			Orientation = "UPPER_LEFT"
+			frame = 7
+		}
+
+		instantTextBoxType = {
+			name = "modifier_roll_value"
+			position = { x = 377 y = 435 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 39	
+			format=centre
+		}		
+
+		##### ATTACKER
+		iconType =
+		{
+			name ="unit_type_1"
+			spriteType = "GFX_unit_types_strip"
+			position = { x= 103 y = 576 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_infantry"
+		}
+
+		iconType =
+		{
+			name ="unit_type_2"
+			spriteType = "GFX_unit_types_strip"
+			position = { x= 246 y = 576 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_cavalry"
+		}
+
+		iconType =
+		{
+			name ="unit_type_3"
+			spriteType = "GFX_unit_types_strip"
+			position = { x= 375 y = 576 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_artillery"
+		}
+
+		instantTextBoxType = {
+			name = "attacker_unit1_value"
+			position = { x = 159 y = 593 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 84
+			maxHeight = 39	
+			format = centre
+
+		}
+
+		instantTextBoxType = {
+			name = "attacker_unit2_value"
+			position = { x = 288 y = 593 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 84
+			maxHeight = 39	
+			format = centre
+
+		}
+
+		instantTextBoxType = {
+			name = "attacker_unit3_value"
+			position = { x = 414 y = 593 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 84
+			maxHeight = 39				
+			format = centre
+		}		
+		
+		iconType =
+		{
+			name ="attacker_attrition_icon"
+			spriteType = "GFX_siege_attrition_icon"
+			position = { x= 270 y = 642 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_attrition"
+		}		
+		
+		instantTextBoxType = {
+			name = "attacker_attrition_value"
+			position = { x = 283 y = 643 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 77
+			maxHeight = 24	
+			format = right
+		}		
+
+		instantTextBoxType = {
+			name = "attacker_title"
+			position = { x = 111 y = 505 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "ATTACKER"	
+			maxWidth = 120
+			maxHeight = 24	
+			format = left
+			fixedsize = yes
+		}		
+		
+		iconType =
+		{
+			name ="attacker_morale"
+			spriteType = "GFX_combat_morale"
+			position = { x= 113 y = 546 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="attacker_morale_frame"
+			spriteType = "GFX_combat_morale_frame"
+			position = { x= 103 y = 540 }
+		}
+
+		instantTextBoxType = {
+			name = "attacker_morale_text"
+			position = { x = 133 y = 547 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "COMBAT_BREAKING"	
+			maxWidth = 120
+			maxHeight = 24	
+			format = centre
+			fixedsize = yes
+
+		}
+
+		guiButtonType = {
+			name = "assault_button"
+			position = { x = 381 y = 535 }
+			shortcut = "a" #Arumba
+			quadTextureSprite ="GFX_button_assault"
+		}
+
+		guiButtonType = {
+			name = "artillery_barrage_button"
+			position = { x = 335 y = 535 }
+			quadTextureSprite ="GFX_artillery_barrage"
+			shortcut = "d" #Arumba
+		}
+
+		guiButtonType = {
+			name = "naval_barrage_button"
+			position = { x = 288 y = 535 }
+			quadTextureSprite ="GFX_naval_barrage"
+			shortcut = "d" #Arumba
+		}
+	}
+}
+

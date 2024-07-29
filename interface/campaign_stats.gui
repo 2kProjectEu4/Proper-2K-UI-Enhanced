@@ -1,0 +1,97 @@
+guiTypes = {
+	
+	windowType = {
+		name = "stats_list_item"
+		position = { x=0 y =0 }
+		size = { x=579 y=72 }
+		
+		instantTextBoxType = {
+			name = "stat_local_desc"
+			position = { x = 12 y = 6 }
+			font = "vic_22"
+			text = "<Stat Name>"	
+			maxWidth = 888
+			maxHeight = 72
+		}
+		
+		instantTextBoxType = {
+			name = "stat_server_desc"
+			position = { x = 12 y = 33 }
+			font = "vic_22"
+			text = "<Setting Value>"	
+			borderSize = {x = 1 y = 1}
+			maxWidth = 888
+			maxHeight = 72
+		}		
+	}
+
+	windowType = {
+		name ="campaign_stats_win"
+		backGround=""
+		position = { x=-648 y=-390 }	
+		size = { x=1200 y=600 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+		Orientation = "CENTER"
+
+		iconType =
+		{
+			name ="contentview_bg"
+			spriteType = "GFX_endgame_statistics_bg"
+			position = { x = 6 y = -30}
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x= -233 y = -271 }
+			
+			font = "vic_29"
+			borderSize = {x = 5 y = 5}
+			text = "STATISTICS"	
+			maxWidth = 552
+			maxHeight = 30	
+			format = center
+			Orientation = "CENTER"
+		}
+
+		instantTextBoxType = {
+			name = "not_logged_in_text"
+			position = { x= -367 y = -216 }			
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""	
+			maxWidth = 840
+			maxHeight = 30	
+			format = centre
+			Orientation = "CENTER"
+		}
+
+		listboxType = 
+		{
+			name ="stats_listbox"
+			position = { x = 103 y = 197 }
+			backGround=""
+			size = { x= 900 y = 509 }
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		guiButtonType = {
+			name = "back_button"
+			position = { x=561 y =732 }
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+		}
+	}
+}

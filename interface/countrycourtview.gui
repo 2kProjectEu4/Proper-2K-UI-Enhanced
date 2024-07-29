@@ -1,0 +1,1186 @@
+guiTypes = {
+
+	windowType = {
+		name = "countrycourtview"
+		position = { x=0 y=168 }	
+		#position = { x=-720 y=168 }	
+		show_position = { x=0 y =168 }
+		hide_position = { x=-720 y =168 }	
+		animation_type = "decelerated"
+		animation_time = 10	
+		size = { x=1229 y=120 }
+		moveable = 0
+		Orientation = "UPPER_LEFT"
+		upsound = tab_court
+		
+		iconType =
+		{
+			name ="background"
+			spriteType = "GFX_court_view_bg"
+			position = { x= -9 y = -12 }
+			Orientation = "UPPER_LEFT"
+
+		}	
+
+		iconType =
+		{
+			name ="heir_banner_green"
+			spriteType = "GFX_court_banner_ui"
+			position = { x= 12 y = 220 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		iconType =
+		{
+			name ="queen_banner_green"
+			spriteType = "GFX_court_banner_ui"
+			position = { x= 12 y = 321 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x = 617 y = -1 }
+			quadTextureSprite ="GFX_closebutton2"	
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+			clicksound = close_window
+		}		
+
+		instantTextBoxType = {
+			name = "window_title"
+			position = { x = 18 y = 93 }
+			textureFile = ""
+			font = "vic_36"
+			borderSize = {x = 5 y = 5}	
+			text = "CATEGORY_COURT"	
+			maxWidth = 615
+			maxHeight = 39
+			format = centre
+		}
+				
+		
+		### ------- Ruler -------	
+		
+		iconType =
+		{
+			name ="monarch_gender"
+			spriteType = "GFX_gender_icon"
+			position = { x= 19 y = 147 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "abdicate_ruler_button"
+			position = { x= 590	y = 180 }
+			quadTextureSprite ="GFX_abdicate_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "extend_regency_button"
+			position = { x= 520	y = 180 }
+			quadTextureSprite ="GFX_abdicate_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}			
+
+		instantTextBoxType = {
+			name = "monarch_title"
+			position = { x = 42 y = 139 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "King Awesome"	
+			maxWidth = 480
+			maxHeight = 39
+			format = left
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "monarch_ruler_age"
+			position = { x = 503 y = 139 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 132
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+		}
+
+		
+		instantTextBoxType = {
+			name = "monarch_adm_value"
+			position = { x = 53 y = 189 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}	
+
+		iconType =
+		{
+			name ="monarch_adm_icon"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 37 y = 187 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ruler"
+		}
+		
+		instantTextBoxType = {
+			name = "monarch_dip_value"
+			position = { x = 113 y = 189 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_dip_icon"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 97 y = 187 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ruler"
+		}
+
+		instantTextBoxType = {
+			name = "monarch_mil_value"
+			position = { x = 173 y = 189 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_mil_icon"
+			spriteType = "GFX_icon_powers_military"
+			position = { x= 157 y = 187 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ruler"
+		}
+
+		listboxType = 
+		{
+			name ="monarch_ruler_personality_list"
+			position = { x= 210 y = 169}
+			backGround=""
+			size = { x=360 y =36}
+			Orientation = "UPPER_LEFT"
+			horizontal = 1
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 12 y = 12}
+		}
+
+		instantTextBoxType = {
+			name = "election_info"
+			position = { x = 96 y = 293 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 480
+			maxHeight = 19
+			format = centre
+		}			
+
+		### Heir ###
+		
+		iconType =
+		{
+			name ="heir_gender"
+			spriteType = "GFX_gender_icon"
+			position = { x= 19 y = 247 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "monarch_heir_name"
+			position = { x = 42 y = 238 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 480
+			maxHeight = 39
+			format = left
+			fixedsize = yes
+		}		
+		
+		instantTextBoxType = {
+			name = "monarch_heir_age"
+			position = { x = 503 y = 238 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 132
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "monarch_heir_claim"
+			position = { x = 300 y = 289 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 288
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "monarch_heir_adm_value"
+			position = { x = 53 y = 290 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}	
+
+		iconType =
+		{
+			name ="monarch_heir_adm_icon"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 37 y = 288 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+		
+		instantTextBoxType = {
+			name = "monarch_heir_dip_value"
+			position = { x = 113 y = 290 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_heir_dip_icon"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 97 y = 288 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
+		instantTextBoxType = {
+			name = "monarch_heir_mil_value"
+			position = { x = 173 y = 290 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_heir_mil_icon"
+			spriteType = "GFX_icon_powers_military"
+			position = { x= 157 y = 288 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
+		iconType =
+		{
+			name = "monarch_heir_crown_icon"
+			spriteType = "GFX_monarch_heir_crown_icon"
+			position = { x = 523 y = 247 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		listboxType = 
+		{
+			name ="monarch_heir_personality_list"
+			position = { x= 210 y = 269 }
+			backGround=""
+			size = { x=264 y =120}
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 12 y = 12}
+		}
+				
+		guiButtonType = {
+			name = "support_heir_button"
+			position = { x= 590	y = 281 }
+			quadTextureSprite ="GFX_support_heir_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"	
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "disinherit_button"
+			position = { x= 590	y = 281 }
+			quadTextureSprite ="GFX_disinherit_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}	
+		
+		guiButtonType = {
+			name = "assign_heir_button"
+			position = { x= 590	y = 281 }
+			quadTextureSprite ="GFX_assign_heir_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}	
+
+		### Queen ###
+		
+		iconType =
+		{
+			name ="queen_gender"
+			spriteType = "GFX_gender_icon"
+			position = { x= 19 y = 346 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "monarch_queen_name"
+			position = { x = 42 y = 339 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 480
+			maxHeight = 39
+			format = left
+			fixedsize = yes
+		}		
+		
+		instantTextBoxType = {
+			name = "monarch_queen_age"
+			position = { x = 503 y = 339 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}
+			text = ""
+			maxWidth = 132
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "monarch_queen_adm_value"
+			position = { x = 53 y = 391 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}	
+
+		iconType =
+		{
+			name ="monarch_queen_adm_icon"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 37 y = 387 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+		
+		instantTextBoxType = {
+			name = "monarch_queen_dip_value"
+			position = { x = 113 y = 391 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_queen_dip_icon"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 97 y = 387 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
+		instantTextBoxType = {
+			name = "monarch_queen_mil_value"
+			position = { x = 173 y = 391 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "?"	
+			maxWidth = 39
+			maxHeight = 19
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="monarch_queen_mil_icon"
+			spriteType = "GFX_icon_powers_military"
+			position = { x= 157 y = 387 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
+		iconType =
+		{
+			name = "monarch_queen_crown_icon"
+			spriteType = "GFX_monarch_heir_crown_icon"
+			position = { x = 523 y = 347 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		listboxType = 
+		{
+			name ="monarch_queen_personality_list"
+			position = { x= 210 y = 367 }
+			backGround=""
+			size = { x=264 y =120}
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 3
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 12 y = 12}
+		}
+
+		### -----------Advisors list main court screen
+		listboxType = {
+			name = "abilities_listbox"
+			backGround = ""
+			position = { x=31 y= 490 }
+			size = { x=414 y=504 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 2.5
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
+		}
+		
+		### ---- Exluded positionaly from above listbox abilities_listbox
+		guiButtonType = {
+			name = "national_focus_ADM"
+			position = { x = 480	y = 515 }
+			quadTextureSprite ="GFX_icon_national_focus_adm"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}			
+		
+		iconType = 
+		{
+			name ="icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 537 y = 521 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_adm"
+		}
+		
+		guiButtonType = {
+			name = "national_focus_DIP"
+			position = { x= 480	y = 680 }
+			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}			
+		
+		iconType = 
+		{
+			name ="icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 537 y = 686 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_dip"
+		}
+		
+		guiButtonType = {
+			name = "national_focus_MIL"
+			position = { x= 480	y = 844 }
+			quadTextureSprite ="GFX_icon_national_focus_mil"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}		
+		
+		iconType = 
+		{
+			name ="icon_MIL"
+			spriteType = "GFX_icon_powers_military"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 537 y = 850 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_mil"
+		}
+
+
+		### SELECT ADVISOR
+		windowType = {
+			name = "court_select"
+			backGround=""
+			position = { x=-9 y=0 }	
+			size = { x=1229 y=120 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = yes	
+	
+			
+			iconType =
+			{
+				name ="domesticpanel_overlay"
+				spriteType = "GFX_court_view_select_advisor_bg"
+				position = { x= 0 y = -12 }
+				Orientation = "UPPER_LEFT"
+				
+			}
+			
+			instantTextBoxType = {
+				name = "description"
+				position = { x = 84 y =167 }
+				format = centre
+				font = "vic_22"
+				maxWidth = 504
+				maxHeight = 39	
+				Orientation = "UPPER_LEFT"
+				text = "SELECT_ADVISOR"
+				format = center
+			}
+			
+			
+			
+			instantTextBoxType = {
+				name = "no_advisors_label"
+				position = { x = 159 y =341 }
+				format = left
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "NO_ADVISORS"	
+				maxWidth = 360
+				maxHeight = 39	
+				Orientation = "UPPER_LEFT"
+				format = center
+				
+			}
+			
+			listboxType = 
+			{
+				name ="court_select_slider"
+				position = { x=103 y =210}
+				backGround=""
+				size = { x=535 y =780 }
+				Orientation = "UPPER_LEFT"
+				horizontal = 0
+				spacing = 2
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 12 y = 12}
+			}
+			
+			guiButtonType = {
+				name = "back_button"
+				if_resolution = {
+					max_height = 899
+					position = { x=288 y =697} #was y =637
+				}
+				if_resolution = {
+					max_height = 1079
+					min_height = 900
+					position = { x=288 y =697} #was y =637
+				}
+				if_resolution = {
+					min_height = 1080
+				position = { x=288 y =1027} #was y =637
+				}
+				quadTextureSprite ="GFX_standard_button_71"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "DOMESTIC_BACK"
+				buttonFont = "vic_18"
+				shortcut = "z"			
+				extra_shortcut = "ESCAPE"
+				clicksound = back_click
+			}		
+		}
+	}
+
+	################################################################################################
+	### --- Personality item
+	windowType = {
+		name = "countrycourtview_personalityitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=72 y=48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+
+		iconType =
+		{
+			name = "personality_icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x= 0 y = -12 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="no_personality_icon"
+			spriteType = "GFX_no_personality_chart"
+			position = { x= 31 y = 3 }
+		}
+		iconType =
+		{
+			name ="no_personality_overlay"
+			spriteType = "GFX_no_provinceView_chart_overlay_0.9"
+			position = { x= 7 y = 3 }
+#			scale = 0.86
+		}
+
+	}
+	
+	################################################################################################
+	### --- Ability list item
+	windowType = {
+		name = "countrycourtview_abilitylistitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=204 y=163 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+
+		iconType ={
+			name ="GFX_court_advisor_bgs"
+			spriteType = "GFX_court_advisor_bg"
+			position = { x= -19 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="GFX_court_advisor_pointss"
+			spriteType = "GFX_court_advisor_points"
+			position = { x= 549 y = 29 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "advisor_name"
+			position = { x = 100 y = 0 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "Charles Darwin"	
+			maxWidth = 260
+			maxHeight = 39
+			format = left
+			fixedsize = yes
+		}
+
+		listboxType = {
+			name = "advisor_modifier_listbox"
+			backGround = ""
+			position = { x=99 y=30 }
+			size = { x=168 y=120 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 1
+		}
+		
+		instantTextBoxType = {
+			name = "advisor_cost"
+			position = { x=99 y= 118 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 183
+			maxHeight = 36
+			format = left
+		}		
+
+		instantTextBoxType = {
+			name = "advisor_activefor"
+			position = { x = 313 y = 118 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}	
+			text = ""	
+			maxWidth = 96
+			maxHeight = 36
+			format = right
+		}		
+		
+		guiButtonType =
+		{
+			name ="advisor_button"
+			quadTextureSprite= "GFX_advisor_noAdvisorType"
+			position = { x= 3 y = 27 }
+			Orientation = "UPPER_LEFT"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			hint_tag = "hint_advisor"
+		}		
+
+		iconType ={
+			name ="advisor_indicator_religion"
+			spriteType = "GFX_advisor_indicator_religion"
+			position = { x= -21 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="advisor_indicator_religion_icon"
+			spriteType = "GFX_province_view_religion"
+			position = { x= -15 y = 36 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.9
+			alwaystransparent = yes
+			frame = 17
+		}
+
+		iconType ={
+			name ="advisor_indicator_culture"
+			spriteType = "GFX_advisor_indicator_culture"
+			position = { x= -21 y = 71 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}		
+		
+		
+		guiButtonType = {
+			name = "advisor_sack"
+			position = { x=391 y = -1 }
+			quadTextureSprite ="GFX_dismiss_leader"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+		}
+		
+		guiButtonType = {
+			name = "advisor_promote"
+			position = { x=359 y = -1 }
+			quadTextureSprite ="GFX_promote_advisor"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText= ""
+			buttonFont = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "advisor_ability_skill"
+			position = { x = 40 y = -3 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 5 y = 5}	
+			text = "7"	
+			maxWidth = 36
+			maxHeight = 39
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = 
+		{
+			name ="advisor_skill_icon"
+			spriteType = "GFX_icon_powers_administrative"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 20 y = -3 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "ability_skill"
+			position = { x = 531 y = 29 }
+			textureFile = ""
+			font = "vic_36"
+			borderSize = {x = 5 y = 5}	
+			text = "7"	
+			maxWidth = 66
+			maxHeight = 39
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="power_progress"
+			spriteType = "GFX_default_progressbar"
+			position = { x= 450 y = 98 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "power"
+			position = { x = 445 y = 92 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}	
+			text = "325 power"	
+			maxWidth = 150
+			maxHeight = 39
+			format = center
+			alwaystransparent = yes
+		}	
+
+		guiButtonType = 
+		{
+			name ="progress_bar_frame"
+			spriteType = "GFX_progress_bar_frame"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 436 y = 93 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	################################################################################################
+	### --- Advisor modifiers list item
+	windowType = {
+		name = "advisor_modifier_item"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=57 y=24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+
+		instantTextBoxType = {
+			name = "advisor_desc"
+			position = { x = 0 y = 50 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 1 }	
+			text = ""	
+			maxWidth = 330
+			maxHeight = 24
+			format = left
+			truncate = yes
+			fixedsize = no
+		}
+
+		iconType = 
+		{
+			name ="advisor_modifier_icon"
+			spriteType = "GFX_idea_unknown"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= -5 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.7
+		}
+	}
+		
+
+	################################################################################################
+	### --- Advisor selection list item
+	windowType = {
+		name = "advisor_selection_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=180 y= 130 } #150 #87
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		
+		
+		iconType =
+		{
+			name ="banner"
+			spriteType = "GFX_advisor_banner"
+			position = { x= -93 y = -12 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+		guiButtonType =
+		{
+			name ="advisor_button"
+			quadTextureSprite= "GFX_greatmen_button"
+			position = { x= -72 y = 21 }
+			Orientation = "UPPER_LEFT"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		
+		
+		iconType ={
+			name ="advisor_indicator_religion"
+			spriteType = "GFX_advisor_indicator_religion"
+			position = { x= -91 y = 25 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="advisor_indicator_religion_icon"
+			spriteType = "GFX_province_view_religion"
+			position = { x= -85 y = 31 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.9
+			alwaystransparent = yes
+			frame = 17
+		}
+
+		iconType ={
+			name ="advisor_indicator_culture"
+			spriteType = "GFX_advisor_indicator_culture"
+			position = { x= -91 y = 66 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}		
+		
+		
+		
+
+		instantTextBoxType = {
+			name = "name"            # Name des Advisors
+			position = { x = -80 y = -3 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 19	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes	
+		}
+		
+		instantTextBoxType = {
+			name = "skill_value"
+			position = { x = 378 y = -2 }   
+			format = left
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "0"	
+			maxWidth = 39
+			maxHeight = 19	
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes	
+			format = left
+		}	
+		
+		iconType = 
+		{
+			name ="skill_icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 342 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = 
+		{
+			name ="skill_icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 342 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = 
+		{
+			name ="skill_icon_MIL"
+			spriteType = "GFX_icon_powers_military"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= 342 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 180 y =41 }   #x = 243
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 149
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			#this is advisor monthly cost #arumba
+			name = "value"			#  Monatliche Kosten
+			position = { x = 250 y = 60 }
+			format = right
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 149
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			#this is actually advisor age, not desc #arumba
+			name = "desc"				# Alter 
+			position = { x = 60 y = 90 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 149
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "home"				# Herkunftsort
+			position = { x = 100 y = 90 }
+			format = right
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "purchase"			# Kaufkosten Name
+			position = { x = 60 y = 60 } #20 ## 260/68
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 100
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "purchase_cost"		# Kaufkosten Summe
+			position = { x = 115 y = 60 } #260/35    ##310/68
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 149
+			maxHeight = 39	
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="effect_icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x= 18 y = 17 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.6
+		}
+		instantTextBoxType = {
+			name = "effect"
+			position = { x = 60 y = 30 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 350
+			maxHeight = 30	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "dismiss_button"
+			position = { x = 445 y = 35}
+			quadTextureSprite ="GFX_dismiss_advisor"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			clicksound = back_click
+		}
+
+	}
+}
