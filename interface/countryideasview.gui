@@ -628,15 +628,16 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "txt"
-			position = { x = 18 y = 23 }
+			position = { x = -1 y = 6 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "UNLOCK"	
-			maxWidth = 264
-			maxHeight = 39
-			format = centre
+			maxWidth = 310
+			maxHeight = 14
+			format = left
 			alwaystransparent = yes
+			fixedsize = yes
 		}			
 	}	
 	

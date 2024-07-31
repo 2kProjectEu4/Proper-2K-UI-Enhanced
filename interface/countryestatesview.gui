@@ -321,7 +321,7 @@ guiTypes = {
 		iconType = {
 			name ="background"
 			spriteType = "GFX_country_estates_view_bg"
-			position = { x= -5 y = -12 }
+			position = { x= -6 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -532,7 +532,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 621 y = -1 }
+			position = { x = 620 y = -1 }
 			quadTextureSprite ="GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"

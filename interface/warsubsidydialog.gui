@@ -36,7 +36,7 @@ eu3dialogtype = {
 			
 				
 		instantTextBoxType={
-					position = {x = 198 y = 330 }
+					position = {x = 198 y = 327 }
 					name = "money_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -48,7 +48,7 @@ eu3dialogtype = {
 				}
 				
 		instantTextBoxType={
-					position = {x = 252 y = 330 }
+					position = {x = 252 y = 327 }
 					name = "money_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -67,7 +67,7 @@ eu3dialogtype = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =264 y =19}
-					position = {x= 198 y =369}
+					position = {x= 197 y =367}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -107,7 +107,7 @@ eu3dialogtype = {
 				}
 				
 				instantTextBoxType={
-					position = {x = 198 y = 240 }
+					position = {x = 198 y = 236 }
 					name = "duration_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -119,7 +119,7 @@ eu3dialogtype = {
 				}
 
 				instantTextBoxType={
-					position = {x = 252 y = 240 }
+					position = {x = 252 y = 236 }
 					name = "duration_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -132,7 +132,7 @@ eu3dialogtype = {
 
 				guiButtonType = {
 					name = "decrease_duration_button"
-					position = { x = 195 y = 276 }
+					position = { x = 197 y = 274 }
 					quadTextureSprite ="GFX_decrease_button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -142,7 +142,7 @@ eu3dialogtype = {
 
 				guiButtonType = {
 					name = "increase_duration_button"
-					position = { x = 438 y = 276 }
+					position = { x = 434 y = 274 }
 					quadTextureSprite ="GFX_increase_button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -154,7 +154,7 @@ eu3dialogtype = {
 					name = "desc"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
-					maxWidth = 387
+					maxWidth = 424
 					maxHeight = 93
 					text = ""	
 					orientation = "UPPER_LEFT"
@@ -180,7 +180,7 @@ eu3dialogtype = {
 		
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=336 y =630}
+			position = { x=336 y =1027}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""
@@ -195,7 +195,7 @@ eu3dialogtype = {
 
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=60 y =630}
+			position = { x=60 y =1027}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""

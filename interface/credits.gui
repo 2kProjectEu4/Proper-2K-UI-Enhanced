@@ -7,11 +7,11 @@ guiTypes = {
 		name = "CreditsText"
 		textureFile = ""
 		font = "vic_22"
-		borderSize = {x = 0 y = 0}
+		borderSize = {x = -23 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
 		fixedsize = yes
-		maxwidth = 333
+		maxwidth = 540
 		maxheight = 43
 		format = centre
 		orientation = "CENTER"
@@ -21,11 +21,11 @@ guiTypes = {
 		name = "CreditsTextBold"
 		textureFile = ""
 		font = "vic_29s"
-		borderSize = {x = 0 y = 0}
+		borderSize = {x = -23 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
 		fixedsize = yes
-		maxwidth = 333
+		maxwidth = 540
 		maxheight = 43
 		format = centre
 		orientation = "CENTER"
@@ -59,13 +59,13 @@ guiTypes = {
 		{
 			name ="credits_bg"
 			spriteType = "GFX_credits_bg"
-			position = { x= -353 y =-612}
+			position = { x= -323 y =-547}
 			orientation = "CENTER"
 		}
 
 	guiButtonType = {
 		name = "back_button"
-		position = { x = 195 y = 555 }
+		position = { x = 187 y = 539 }
 		quadTextureSprite ="button_type_1"	
 		tooltip = ""
 		tooltipText =""

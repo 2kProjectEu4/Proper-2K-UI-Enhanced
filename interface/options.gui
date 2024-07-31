@@ -8,7 +8,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "option_name"
 			position = { x = 12 y = 6 }
-			font = "vic_22"
+			font = "vic_18"
 			text = "<Setting Name>"	
 			maxWidth = 300
 			maxHeight = 24
@@ -17,7 +17,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "option_value"
 			position = { x = 327 y = 6 }
-			font = "vic_22"
+			font = "vic_18"
 			text = "<Setting Value>"	
 			borderSize = {x = 1 y = 1}
 			maxWidth = 156
@@ -122,9 +122,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "optiontext"
-			position = { x = 165 y = 24 }
+			position = { x = 165 y = 29 }
 			textureFile = ""
-			font = "vic_29s"
+			font = "vic_36"
 			borderSize = {x = 1 y = 1}
 			text = "Options"	
 			maxWidth = 240

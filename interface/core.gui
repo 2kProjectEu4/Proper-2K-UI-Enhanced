@@ -76,7 +76,7 @@ guiTypes = {
 		font = "Large_Font_Stellaris"
 		borderSize = { x=21 y=21 }
 		position = { x= 672 y=12 }
-		maxWidth = 480 #320
+		maxWidth = 650 #320
 		maxHeight = 307
 	}
 

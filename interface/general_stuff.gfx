@@ -832,7 +832,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\diplomacy_view_diplo_chance_progressbar_w195_h18_green.dds"
 		textureFile2 = "gfx\\interface\\diplomacy_view_diplo_chance_progressbar_w195_h18_red.dds"
-		size = { x = 235 y = 22 }
+		size = { x = 242 y = 31 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -899,7 +899,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\technologyView_progressbar_w151_h10_green.dds"
 		textureFile2 = "gfx\\interface\\technologyView_progressbar_w151_h10_black.dds"
-		size = { x = 181 y = 13 }
+		size = { x = 405 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -1091,7 +1091,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_green.dds"
 		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_red.dds"
-		size = { x = 24 y = 6 }
+		size = { x = 25 y = 7 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	

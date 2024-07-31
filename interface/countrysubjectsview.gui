@@ -1790,7 +1790,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "country_flag"
-			position = { x = -6 y = 7 }
+			position = { x = -6 y = 8 }
 			quadTextureSprite ="GFX_flag_small"
 		}
 
@@ -1798,7 +1798,7 @@ guiTypes = {
 			position = {x = 27 y = 12 }
 			name = "info_text"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = -2}
 			maxWidth = 252
 			maxHeight = 19
 			text = ""
@@ -1867,18 +1867,18 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 		}
 
-		instantTextBoxType = {
-			name = "help_tooltip_click_on_map"
-			position = { x = 306 y = 791 }
-			textureFile = ""
-			font = "vic_22"
-			borderSize = {x = 0 y = 0}
-			text = "help_tooltip_click_on_map"
-			maxWidth = 336
-			maxHeight = 240
-			format = centre
-			alwaystransparent = yes
-		}
+		#instantTextBoxType = {
+		#	name = "help_tooltip_click_on_map"
+		#	position = { x = 306 y = 791 }
+		#	textureFile = ""
+		#	font = "vic_22"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "help_tooltip_click_on_map"
+		#	maxWidth = 336
+		#	maxHeight = 240
+		#	format = centre
+		#	alwaystransparent = yes
+		#}
 
 		shieldtype =
 		{
