@@ -4,10 +4,6 @@ spriteTypes = {
 #Basegame
 			textureFile1 = "gfx//interface//shield_frame.tga"
 			textureFile2 = "gfx//interface//shield_mask.tga"
-
-#Borders+
-#			textureFile1 = "gfx/interface/NI_COA/NI_shield_frame_M_square.dds"
-#			textureFile2 = "gfx/interface/NI_COA/NI_shield_frame_M_mask_square.tga"
 			effectFile = "gfx//FX//maskedflag.lua"
 			textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
 			noOfFrames = 119

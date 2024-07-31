@@ -259,6 +259,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_transfer_occupation_bg_large"
+		texturefile = "gfx/interface/transfer_occupation_bg_large.dds"
+	}
+
+	spriteType = {
 		name = "GFX_trade_post_button"
 		texturefile = "gfx/interface/trade_post_button.dds"
 	}

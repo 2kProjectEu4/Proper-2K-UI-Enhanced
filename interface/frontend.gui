@@ -448,8 +448,8 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name ="text"
-						position = { x = 67 y = 9 } #was 60
-						font = "vic_22"
+						position = { x = 67 y = 12 } #was 60
+						font = "vic_18"
 						format = left
 						maxWidth = 480
 						maxHeight = 120

@@ -2362,7 +2362,7 @@ guiTypes = {
 				guiButtonType =
 				{
 					name ="background"
-					spriteType = "GFX_transfer_occupation_bg"
+					spriteType = "GFX_transfer_occupation_bg_large"
 					position = { x= 0 y = 0 }
 					Orientation = "UPPER_LEFT"
 
