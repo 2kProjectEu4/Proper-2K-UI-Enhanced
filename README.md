@@ -1,16 +1,26 @@
 # Compatible mods
-    - The Great Exhibition
+
+- [The Great Exhibition](https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376)
+- [Bright Shield Frames 2K](https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259)
+- [Colored Speed Indicator 2K](https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807)
+- Map Mods: [Imperial Graphics Adjustments](https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774), [Imperial Graphics - Fixed Font for Vanilla](https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833),
+  [GMI](https://steamcommunity.com/sharedfiles/filedetails/?id=253263609)
 
 # Integrated Mods
-    - Original mod : Proper 2K UI Project
-    - Plati's decisions
-    - Better Arrival Date
-    - Colored missions
-    - Europa Aesthetic Arrows Only (without black trade arrow)
-    - Europa Aesthetic Unit Markers
-    - Active policies bonus recolored
+
+- Original mod : [Proper 2K UI Project](https://steamcommunity.com/sharedfiles/filedetails/?id=3290499798)
+- [Plati's decisions](https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570)
+- [Better Arrival Date](https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738)
+- [Colored missions](https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971)
+- [Europa Aesthetic Arrows Only (without black trade arrow)](https://steamcommunity.com/sharedfiles/filedetails/?id=2136245018)
+- [Europa Aesthetic Unit Markers](https://steamcommunity.com/sharedfiles/filedetails/?id=2135363699)
+- [Active policies bonus recolored](https://steamcommunity.com/sharedfiles/filedetails/?id=3086517784)
 
 # Own modifications
+
+<details>
+ <summary>Expand</summary>
+
 - Removed internal files for "The Great Exhibition" mod ( Too much work to always integrate this amazing mod; now you have to download it separately)
 - Better HRE view
 - Better EoC view
@@ -35,12 +45,18 @@
 - Fixed native federation window
 - Reverted Combat window to original design
 - Enlarged flagship designer
+</details>
 
-# Last deploy changes:
-    - increased width for numbers trade interface to support 4 digits numbers 
-    - resized transfer occupation window to not overlap with monuments windows
+# 31.07.2024 changes:
+
+- removed banners 5.0 assets (not used);
+- fixed tranfer occupation asset bug;
+- resized transfer occupation window to not overlap with monuments windows
+- changed font size for "continue save" button
+- increased width for numbers trade interface to support 4 digits numbers
 
 # 1.37 Changes:
+
 <details>
  <summary>Expand</summary>
 
@@ -48,25 +64,27 @@
 
 - Updated Plati Decisions integration
 
-- Added better mission icons 
+- Added better mission icons
 
 - Enlarged flagship designer
 </details>
 
-
 # 1.36 Changes:
+
 <details>
  <summary>Expand</summary>
 
 - Fixed subject icon bug in contry subject view
 
 - Changed back general pips to dots
-    * Changed GFX_stars_small2 to GFX_stars_small in countrymilitaryview
-    * deleted DOTS.dds ( was replacing the pips dots with numbers)
+
+  - Changed GFX_stars_small2 to GFX_stars_small in countrymilitaryview
+  - deleted DOTS.dds ( was replacing the pips dots with numbers)
 
 - Changed combat window
-    * deleted gfx/interface/artemis_ui/combat folder
-    * changed back to classic moral
+
+  - deleted gfx/interface/artemis_ui/combat folder
+  - changed back to classic moral
 
 - Changed alerts.gui file (increased spacing ingame)
 
@@ -86,7 +104,7 @@
 
 - Fixed great powers icon
 
-- Added back auto convert religion 
+- Added back auto convert religion
 
 - Fixed naval doctrine spacing
 
@@ -113,15 +131,16 @@
 - added sort buttons for autonomy in macrobuilder (up to date with 1.36)
 
 - UI adjustments:
-    * better core progress alignment
-    * peace view: made tabs text smaller and 
-    * peace view: enlarged allies/enemies flag list
-    * peace view: moved coalition icon
-    * court advisor: changed advisor name max length
-    * estate window: changed estate modifies alignment
-    * mapicons: changed fort_flip_progress_bar alignment
-    * changed alignment of holy order items
-    * enlarged save background image
+
+  - better core progress alignment
+  - peace view: made tabs text smaller and
+  - peace view: enlarged allies/enemies flag list
+  - peace view: moved coalition icon
+  - court advisor: changed advisor name max length
+  - estate window: changed estate modifies alignment
+  - mapicons: changed fort_flip_progress_bar alignment
+  - changed alignment of holy order items
+  - enlarged save background image
 
 - Integrated 1.36.0 changes in mod
 
@@ -135,18 +154,17 @@
 
 - Adjusted reformview/trade view items
 
-- Changed contry modifier list display 
+- Changed contry modifier list display
 
 - Enhanced assets:
-    * gfx/interface/disasters/dlc/king of kings
-    * gfx/interface/holy orders/dlc/king of kings
+
+  - gfx/interface/disasters/dlc/king of kings
+  - gfx/interface/holy orders/dlc/king of kings
 
 - UI adjustments:
-    * province institution element alignment
-    * unrest window element alignment
-    
+  - province institution element alignment
+  - unrest window element alignment
 - Better design for peace deal view window
-    
 - Better trade company name display
 
 - Better EoC view added
