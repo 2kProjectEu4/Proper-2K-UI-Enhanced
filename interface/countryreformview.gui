@@ -167,9 +167,9 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=216 y=1161 }
+				position = { x=262 y=1161 }
 			}
-			quadTextureSprite = "button_type_7"
+			quadTextureSprite = "GFX_standard_button_71"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -382,7 +382,7 @@ guiTypes = {
 		name = "gov_view_reform_level_entry_2"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=600 y=216 }
+		size = { x=600 y=207 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -423,7 +423,7 @@ guiTypes = {
 
 		listboxType = {
 			name ="reform_level_2"
-			position = { x=3 y=123 }
+			position = { x=3 y=102 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"
@@ -584,7 +584,7 @@ windowType = {
 		name = "gov_view_reform_level_entry_3"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=612 y=312 }
+		size = { x=612 y=282 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -625,7 +625,7 @@ windowType = {
 
 		listboxType = {
 			name ="reform_level_2"
-			position = { x=3 y=123 }
+			position = { x=3 y=102 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"
@@ -637,7 +637,7 @@ windowType = {
 
 		listboxType = {
 			name ="reform_level_3"
-			position = { x=3 y=219 }
+			position = { x=3 y=177 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"
@@ -798,7 +798,7 @@ windowType = {
 		name = "gov_view_reform_level_entry_4"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=624 y=408 }
+		size = { x=624 y=357 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -839,7 +839,7 @@ windowType = {
 
 		listboxType = {
 			name ="reform_level_2"
-			position = { x=3 y=123 }
+			position = { x=3 y=102 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"
@@ -851,7 +851,7 @@ windowType = {
 
 		listboxType = {
 			name ="reform_level_3"
-			position = { x=3 y=219 }
+			position = { x=3 y=177 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"
@@ -863,7 +863,7 @@ windowType = {
 
 		listboxType = {
 			name ="reform_level_4"
-			position = { x=3 y=315 }
+			position = { x=3 y=252 }
 			backGround=""
 			size = { x=600 y=600 }
 			Orientation = "UPPER_LEFT"

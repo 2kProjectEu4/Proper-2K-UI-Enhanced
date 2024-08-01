@@ -62,9 +62,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes"
-			position = { x = 99 y =143 }
+			position = { x = 99 y =141 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
 			text = "CV_INCOMES"	
 			maxWidth = 153
@@ -75,7 +75,7 @@ guiTypes = {
 		listboxType = {
 			name = "incomes_listbox"
 			backGround = ""
-			position = { x=48 y=174 }
+			position = { x=49 y=173 }
 			size = { x=216 y=360 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -87,15 +87,15 @@ guiTypes = {
 		iconType = {
 			name ="incomes_total_icon"
 			spriteType = "GFX_icon_gold_font_medium"
-			position = { x= 291 y = 447 }
+			position = { x= 291 y = 449 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "incomes_total_text"
-			position = { x = 60 y =447 }
+			position = { x = 45 y =450 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "CV_INCOMES_TOTAL"	
 			maxWidth = 168
@@ -105,9 +105,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes_total"
-			position = { x = 171 y =447 }
+			position = { x = 171 y =450 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "TOTAL +1234"	
 			maxWidth = 120
@@ -121,9 +121,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expenses"
-			position = { x = 393 y =143 }
+			position = { x = 393 y =141 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
 			text = "CV_EXPENSES"	
 			maxWidth = 153
@@ -134,7 +134,7 @@ guiTypes = {
 		listboxType = {
 			name = "expenses_listbox"
 			backGround = ""
-			position = { x=345 y=174 }
+			position = { x=345 y=173 }
 			size = { x=336 y=360 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -146,15 +146,15 @@ guiTypes = {
 		iconType = {
 			name ="expenses_total_icon"
 			spriteType = "GFX_icon_gold_font_medium"
-			position = { x= 585 y = 477 }
+			position = { x= 585 y = 480 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "expences_total_text"
-			position = { x = 350 y =477 }
+			position = { x = 350 y =481 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "CV_EXPENSES_TOTAL"	
 			maxWidth = 168
@@ -164,9 +164,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expenses_total"
-			position = { x = 465 y =478 }
+			position = { x = 465 y =481 }
 			textureFile = ""
-			font = "Main_16"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "TOTAL -42"	
 			maxWidth = 120
@@ -177,13 +177,13 @@ guiTypes = {
 		iconType = {
 			name ="balance_icon"
 			spriteType = "GFX_icon_gold"
-			position = { x= 585 y = 537 }
+			position = { x= 585 y = 540 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "balance_title"
-			position = { x = 360 y =537 }
+			position = { x = 360 y =538 }
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 5 y = 5}	
@@ -196,7 +196,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "balance"
-			position = { x = 385 y =538 }
+			position = { x = 383 y =538 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 5 y = 5}	
@@ -246,7 +246,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "inflation_info"
-			position = { x = 228 y = 517 }
+			position = { x = 228 y = 518 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -259,14 +259,14 @@ guiTypes = {
 		iconType = {
 			name ="war_exhaustion_icon"
 			spriteType = "GFX_icon_war_exhaustion"
-			position = { x= 57 y = 549 }
+			position = { x= 57 y = 550 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_warexhaustion"
 		}
 		
 		instantTextBoxType = {
 			name = "war_exhaustion"
-			position = { x = 96 y = 552 }
+			position = { x = 92 y = 552 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -279,13 +279,13 @@ guiTypes = {
 		iconType = {
 			name ="development_icon"
 			spriteType = "GFX_development_icon"
-			position = { x= 195 y = 549 }
+			position = { x= 194 y = 551 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "development_base"
-			position = { x = 233 y = 552 }
+			position = { x = 229 y = 552 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -315,7 +315,7 @@ guiTypes = {
 		{
 			name ="take_loan"
 			quadTextureSprite= "GFX_take_loan_button"
-			position = { x= 340 y = 475 }
+			position = { x= 336 y = 475 }
 			Orientation = "LOWER_LEFT"
 			buttonFont = "vic_18"
 			hint_tag = "hint_loans"
@@ -323,7 +323,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "take_loan_sum"
-			position = { x = 339 y = 609 }
+			position = { x = 339 y = 608 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -371,7 +371,7 @@ guiTypes = {
 		{
 			name ="combat_inflation"
 			quadTextureSprite= "GFX_reduce_inflation"
-			position = { x= 107 y = 475 }
+			position = { x= 106 y = 475 }
 			Orientation = "LOWER_LEFT"
 			buttonFont = "vic_18"
 			hint_tag = "hint_inflation"	
@@ -382,7 +382,7 @@ guiTypes = {
 		{
 			name ="go_bankrupt"
 			quadTextureSprite = "GFX_declare_bankruptcy"
-			position = { x= 162 y = 475 }
+			position = { x= 161 y = 475 }
 			Orientation = "LOWER_LEFT"
  			buttonFont = "vic_18"		
 		}
@@ -411,7 +411,7 @@ guiTypes = {
 				name = "title"
 				position = { x = 78 y =165 }
 				format = centre
-				font = "Main_16"
+				font = "vic_18"
 				maxWidth = 504
 				maxHeight = 39
 				Orientation = "UPPER_LEFT"
@@ -433,7 +433,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "back_button"
-				position = {  x=288 y =1027} #was y=637
+				position = {  x=288 y =1038} #was y=648
 				quadTextureSprite ="GFX_standard_button_71"	
 				tooltip = ""
 				tooltipText =""

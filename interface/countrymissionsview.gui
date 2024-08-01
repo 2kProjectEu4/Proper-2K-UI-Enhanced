@@ -22,7 +22,7 @@ guiTypes = {
 		show_position = { x=0 y =168 }
 		hide_position = { x=-720 y =168 }
 		animation_type = "decelerated"
-		animation_time = 10
+		animation_time = 300
 		size = { x=1229 y=120 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
@@ -410,13 +410,13 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "mission_entry_button"
-			quadTextureSprite ="GFX_mission_icons_frame_complete"
+			quadTextureSprite ="GFX_mission_effect_glow"
 			position = { x= 0 y = 0 }
 		}
 		
 		iconType = {
 			name = "mission_entry_rewards_glow"
-			position = { x= 0 y= 0 }
+			position = { x= 3000 y= 3000 }
 			quadTextureSprite = "GFX_mission_effect_glow"
 		}
 
@@ -425,7 +425,6 @@ guiTypes = {
 			position = { x=84 y=9 }
 			quadTextureSprite = "gfx_mission_effect"
 		}
-
 
 		iconType = {
 			name = "mission_entry_conditions"
@@ -442,7 +441,7 @@ guiTypes = {
 		instantTextBoxType= {
 			position = { x=6 y=101}
 			name = "mission_title"
-			font = "vic_18"
+			font = "Main_14"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 115
 			maxHeight = 42

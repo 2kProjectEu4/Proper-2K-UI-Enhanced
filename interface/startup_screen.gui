@@ -14,13 +14,13 @@ guiTypes = {
 		guiButtonType = {
 			name = "dlc_button"
 			quadTextureSprite = "GFX_dlc_default_icon"
-			position = { x = 0 y = 0 }
+			position = { x = 9 y = 0 }
 		}
 
 		iconType ={
 			name = "dlc_icon"
 			spriteType = "GFX_dlc_default_icon"
-			position = { x = 0 y = 0 }
+			position = { x = 9 y = 0 }
 		}
 	}
 	windowType = {
@@ -46,7 +46,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x= 240 y = 57 }
-			font = "vic_29"
+			font = "vic_36"
 			borderSize = {x = 5 y = 5}
 			text = "STATISTICS"	
 			maxWidth = 624
@@ -65,7 +65,7 @@ guiTypes = {
 		
 		iconType =	{
 			name ="country_icon"
-			position = { x= 33 y = 135 }
+			position = { x= 38 y = 135 }
 			quadTextureSprite = "GFX_shield_small"
 			alwaystransparent = yes
 		}			
@@ -100,7 +100,7 @@ guiTypes = {
 		iconType ={
 			name ="government_icon"
 			spriteType = "GFX_government_type_icon"
-			position = { x= 573 y = 138 }
+			position = { x= 570 y = 138 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
 			alwaystransparent = yes
@@ -118,7 +118,7 @@ guiTypes = {
 		iconType ={
 			name ="environment_icon"
 			spriteType = "GXF_environment_icon"
-			position = { x= 837 y = 132 }
+			position = { x= 842 y = 132 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -145,7 +145,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "title_country"
-				position = { x= 0 y = 75 }
+				position = { x= -10 y = 75 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "STATISTICS"
@@ -177,7 +177,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "title_religion"
-				position = { x= 0 y = 75 }
+				position = { x= -10 y = 75 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "STATISTICS"
@@ -209,7 +209,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "title_government"
-				position = { x= 0 y = 75 }
+				position = { x= -10 y = 75 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "STATISTICS"
@@ -240,7 +240,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "title_environment"
-				position = { x= 0 y = 75 }
+				position = { x= -10 y = 75 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "STATISTICS"
@@ -261,13 +261,13 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "checkbox_dont_show_again"
-			position = { x= 437 y = 717 }
+			position = { x= 431 y = 715 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 		
 		instantTextBoxType = {
 			name = "title_checkbox_dont_show_again"
-			position = { x=477 y=723 }
+			position = { x=471 y=723 }
 			font = "vic_22"
 			maxWidth = 378
 			maxHeight = 30

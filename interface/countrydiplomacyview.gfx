@@ -581,7 +581,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx\\interface\\diplomacy_view_diplo_chance_progressbar_w343_h18_green.dds"
 		textureFile2 = "gfx\\interface\\diplomacy_view_diplo_chance_progressbar_w343_h18_red.dds"
-		size = { x = 411 y = 21 }
+		size = { x = 422 y = 31 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 

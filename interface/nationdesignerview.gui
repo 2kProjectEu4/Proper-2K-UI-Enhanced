@@ -56,7 +56,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "points_number"
-			position = { x = 210 y = 21 }
+			position = { x = 188 y = 21 }
 			textureFile = ""
 			font = "vic_22"
 			text = "0/1000"	
@@ -68,7 +68,7 @@ guiTypes = {
 		iconType = {
 			name ="points_icon"
 			spriteType = "GFX_nation_designer_points_icon"
-			position = { x= 384 y = 21 }
+			position = { x= 362 y = 21 }
 		}
 
 
@@ -103,7 +103,7 @@ guiTypes = {
 			editBoxType = {
 				name = "country_name"
 				font = "Main_16"
-				position = { x = 228 y = 93 }
+				position = { x = 228 y = 94 }
 				borderSize = {x = 5 y = 5}	
 				text = ""
 				size = { x=240 y=36 }
@@ -124,7 +124,7 @@ guiTypes = {
 			editBoxType = {
 				name = "country_adjective"
 				font = "Main_16"
-				position = { x = 228 y = 141 }
+				position = { x = 228 y = 142 }
 				borderSize = {x = 5 y = 5}	
 				text = ""
 				size = { x=240 y=36 }
@@ -232,7 +232,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "random_flag"
-				position = { x = 450 y = 741 }
+				position = { x = 450 y = 740 }
 				spriteType = "GFX_nation_designer_random_button"
 			}
 
@@ -411,7 +411,7 @@ guiTypes = {
 			# Traditions (National Ideas 7-8)
 			listboxType = {
 				name ="traditions_list_box"
-				position = { x = 17 y = 141 }
+				position = { x = 11 y = 141 }
 				backGround=""
 				size = { x= 480 y =120 }
 				horizontal = 0
@@ -435,7 +435,7 @@ guiTypes = {
 			# Ambition (National Idea 9)
 			listboxType = {
 				name ="ambition_list_box"
-				position = { x = 17 y = 687 }
+				position = { x = 11 y = 687 }
 				backGround=""
 				size = { x= 480 y =72 }
 				horizontal = 0
@@ -447,13 +447,13 @@ guiTypes = {
 			iconType = {
 				name = "adm_icon"
 				spriteType = "GFX_icon_powers_administrative"
-				position = { x= 138 y = 757 }
+				position = { x= 124 y = 757 }
 			}
 
 			iconType = {
 				name = "dip_icon"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x= 222 y = 757 }
+				position = { x= 215 y = 757 }
 			}
 
 			iconType = {
@@ -464,7 +464,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_percent_label"
-				position = { x = 174 y = 765 }
+				position = { x = 160 y = 765 }
 				font = "vic_18"
 				text = "10%"
 				maxWidth = 60
@@ -475,7 +475,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_percent_label"
-				position = { x = 258 y = 765 }
+				position = { x = 251 y = 765 }
 				font = "vic_18"
 				text = "20%"
 				maxWidth = 60
@@ -532,7 +532,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_pts_label"
-				position = { x = 125 y = 75 }
+				position = { x = 125 y = 74 }
 				textureFile = ""
 				font = "vic_18"
 				text = "0"	
@@ -544,14 +544,14 @@ guiTypes = {
 
 			iconType = {
 				name = "ruler_cost_icon"
-				position = { x = 168 y = 75 }
+				position = { x = 168 y = 73 }
 				spriteType = "GFX_nation_designer_points_icon"
 			}
 			
 			###
 			instantTextBoxType = {
 				name = "ruler_name_label"
-				position = { x = 48 y = 127 }
+				position = { x = 48 y = 125 }
 				font = "vic_18"
 				text = "NAME"
 				maxWidth = 114
@@ -589,7 +589,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "ruler_dynasty_label"
-				position = { x = 48 y = 173 }
+				position = { x = 48 y = 170 }
 				font = "vic_18"
 				text = "ND_DYNASTY"
 				maxWidth = 114
@@ -784,7 +784,7 @@ guiTypes = {
 	
 				instantTextBoxType = {
 					name = "heir_label"
-					position = { x = 30 y = 87 }
+					position = { x = 30 y = 86 }
 					font = "vic_22"
 					text = "HEIR"
 					maxWidth = 96
@@ -801,7 +801,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_pts_label"
-					position = { x = 125 y = 90 }
+					position = { x = 125 y = 88 }
 					textureFile = ""
 					font = "vic_18"
 					text = "0"	
@@ -813,7 +813,7 @@ guiTypes = {
 
 				iconType = {
 					name = "heir_cost_icon"
-					position = { x = 168 y = 89 }
+					position = { x = 168 y = 87 }
 					spriteType = "GFX_nation_designer_points_icon"
 				}
 				
@@ -846,7 +846,7 @@ guiTypes = {
 				
 				guiButtonType = {
 					name = "heir_gender_male"
-					position = { x = 354 y = 78 }
+					position = { x = 354 y = 76 }
 					spriteType = "GFX_nation_designer_gender_male"
 				}
 				guiButtonType = {
@@ -1018,7 +1018,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "consort_enable"
-				position = { x = 445 y = 573 }
+				position = { x = 445 y = 575 }
 				spriteType = "GFX_checkbox_gold_32"
 			}
 
@@ -1034,7 +1034,7 @@ guiTypes = {
 	
 				instantTextBoxType = {
 					name = "consort_label"
-					position = { x = 30 y = 87 }
+					position = { x = 30 y = 88 }
 					font = "vic_22"
 					text = "CONSORT"
 					maxWidth = 96
@@ -1096,12 +1096,12 @@ guiTypes = {
 				
 				guiButtonType = {
 					name = "consort_gender_male"
-					position = { x = 354 y = 78 }
+					position = { x = 354 y = 79 }
 					spriteType = "GFX_nation_designer_gender_male"
 				}
 				guiButtonType = {
 					name = "consort_gender_female"
-					position = { x = 402 y = 78 }
+					position = { x = 402 y = 80 }
 					spriteType = "GFX_nation_designer_gender_female"
 				}
 				
@@ -1279,12 +1279,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "gov_rank_label"
-				position = { x = 13 y = 243 }
+				position = { x = 33 y = 243 }
 				font = "vic_18"
 				text = "GOV_RANK"
 				maxWidth = 180
 				maxHeight = 24	
-				format = centre
+				format = left
 				fixedsize = yes
 			}		
 
@@ -1314,7 +1314,7 @@ guiTypes = {
 			### BUTTONS + LISTBOXES BOTTOM
 			instantTextBoxType = {
 				name = "culture_label"
-				position = { x = 42 y = 99 }
+				position = { x = 33 y = 99 }
 				font = "vic_18"
 				text = "CULTURE"	
 				maxWidth = 156
@@ -1338,7 +1338,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "religion_label"
-				position = { x = 42 y = 135 }
+				position = { x = 33 y = 135 }
 				font = "vic_18"
 				text = "RELIGION"	
 				maxWidth = 156
@@ -1367,7 +1367,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "tech_group_label"
-				position = { x = 42 y = 171 }
+				position = { x = 33 y = 171 }
 				font = "vic_18"
 				text = "ND_TECH_GROUP"	
 				maxWidth = 156
@@ -1396,7 +1396,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "government_label"
-				position = { x = 42 y = 207 }
+				position = { x = 33 y = 207 }
 				font = "vic_18"
 				text = "CATEGORY_GOVERNMENT"
 				maxWidth = 156
@@ -1414,7 +1414,7 @@ guiTypes = {
 			iconType = {
 				name ="government_listbox_button_glow"
 				spriteType = "GFX_button_straight_255_32_glow"
-				position = { x= 183 y = 231 }
+				position = { x= 183 y = 196 }
 			}
 			iconType = {
 				name ="incompatible_gov_warning_icon"
@@ -1433,7 +1433,7 @@ guiTypes = {
 			iconType = {
 				name ="gfx_spritepack_listbox_button_glow"
 				spriteType = "GFX_button_straight_152_32_glow"
-				position = { x= 306 y = 375 }
+				position = { x= 306 y = 376 }
 			}
 
 			instantTextBoxType = {
@@ -1475,7 +1475,7 @@ guiTypes = {
 				position = { x = 312 y = 546 }
 				font = "vic_22"
 				text = "SPRITE_TIER_LABEL"
-				maxWidth = 147
+				maxWidth = 182
 				maxHeight = 24	
 				format = left
 				fixedsize = yes
@@ -1994,13 +1994,13 @@ guiTypes = {
 		{
 			name ="icon_gov_desc_1"
 			spriteType = "GFX_idea_empty"
-			position = { x= 18 y = 66 }
+			position = { x= 6 y = 41 }
 			scale = 0.5
 		}
 		
 		instantTextBoxType = {
 			name = "gov_desc_1"
-			position = { x = 45 y = 72 }
+			position = { x = 33 y = 47 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -2014,13 +2014,13 @@ guiTypes = {
 		{
 			name ="icon_gov_desc_2"
 			spriteType = "GFX_idea_empty"
-			position = { x= 115 y = 66 }
+			position = { x= 103 y = 41 }
 			scale = 0.5
 		}
 		
 		instantTextBoxType = {
 			name = "gov_desc_2"
-			position = { x = 147 y = 72 }
+			position = { x = 135 y = 47 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -2034,14 +2034,14 @@ guiTypes = {
 		{
 			name ="icon_gov_desc_3"
 			spriteType = "GFX_idea_empty"
-			position = { x= 215 y = 66 }
+			position = { x= 203 y = 41 }
 			scale = 0.5
 			
 		}
 		
 		instantTextBoxType = {
 			name = "gov_desc_3"
-			position = { x = 246 y = 72 }
+			position = { x = 234 y = 47 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -2355,7 +2355,7 @@ guiTypes = {
 		{
 			name ="modifier_icon"
 			spriteType = "GFX_heretics_tolerance_icon"
-			position = { x= 24 y = 6 }
+			position = { x= 24 y = 2 }
 			scale = 0.5
 		}
 		
@@ -2363,10 +2363,10 @@ guiTypes = {
 			name = "modifier_bonus"
 			position = { x = 57 y = 12 }
 			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 5 y = 5}	
+			font = "Stellaris_Small"
+			borderSize = {x = 0 y = 0}	
 			text = ""	
-			maxWidth = 307
+			maxWidth = 330
 			maxHeight = 24
 			format = left
 		}

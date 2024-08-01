@@ -423,7 +423,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "accepted_sort_dev_btn"
-				position = { x = 189 y = 667}
+				position = { x = 188 y = 667}
 				quadTextureSprite ="GFX_culture_dev_sort"
 				tooltip = ""
 				tooltipText =""
@@ -458,7 +458,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "non_accepted_sort_name_btn"
-				position = { x=345 y =667}
+				position = { x=346 y =667}
 				quadTextureSprite ="GFX_culture_name_sort"
 				tooltip = ""
 				tooltipText =""
@@ -471,7 +471,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "non_accepted_sort_brother_btn"
-				position = { x=477 y =667}
+				position = { x=476 y =667}
 				quadTextureSprite ="GFX_culture_star_sort"
 				tooltip = ""
 				tooltipText =""
@@ -508,7 +508,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "accepted_culture_slots"
-				position = { x = 60 y =658 }
+				position = { x = 74 y =658 }
 				format = center
 				font = "vic_18"
 				maxWidth = 216
@@ -791,7 +791,7 @@ guiTypes = {
 				name ="modifier_listbox"
 				position = { x=103 y =204}
 				backGround=""
-				size = { x=459 y =420}
+				size = { x=479 y =430}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 3
@@ -801,7 +801,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x=288 y =637}
+				position = { x=288 y =642}
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -1017,7 +1017,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 3 y = 5 }
+			position = { x = 3 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1030,7 +1030,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "dev"
-			position = { x = 149 y = 5 }
+			position = { x = 149 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}

@@ -40,6 +40,7 @@ guiTypes = {
 			name = "country_name"
 			position = { x=36 y=5 }
 			borderSize = { x=5 y=5 }
+			font = "vic_18"
 			maxWidth = 189
 			maxHeight = 51
 			format = left
@@ -55,7 +56,7 @@ guiTypes = {
 	windowType = {
 		name = "expansion_landing_page"
 		backGround = ""
-		position = { x=-557	y=-468 }
+		position = { x=-550	y=-454 }
 		size = { x=1115 y=774 }
 		moveable = 0
 		dontRender = ""
@@ -93,7 +94,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc_title"
             position = { x=240 y=456 }
-            font = "standard_font"
+            font = "vic_18"
 			text = "DLC_FEATURES"
             maxWidth = 480
             maxHeight = 396
@@ -102,14 +103,15 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc"
             position = { x=36 y=492 }
-            font = "standard_font"
+            font = "Stellaris_Small"
             maxWidth = 480
-            maxHeight = 396
+            maxHeight = 300
+			fixedsize = yes
         }
 		instantTextBoxType = {
             name = "dlc_flavor_title"
             position = { x=780 y=456 }
-            font = "standard_font"
+            font = "vic_18"
 			text = "DLC_DESCRIPTION"
             maxWidth = 480
             maxHeight = 396
@@ -118,14 +120,15 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_flavor"
             position = { x=588 y=492 }
-            font = "standard_font"
+            font = "Stellaris_Small"
             maxWidth = 480
-            maxHeight = 396
+            maxHeight = 300
+			fixedsize = yes
         }
 		instantTextBoxType = {
             name = "recommended_dlcs"
-            position = { x=27 y=189 }
-            font = "standard_font"
+            position = { x=27 y=167 }
+            font = "vic_18"
 			format = center
 			text = "RECOMMENDED_DLCS"
             maxWidth = 120
@@ -163,7 +166,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="close_button"
 			quadTextureSprite = "button_type_4"
-			position = { x= -141 y = 432 }
+			position = { x= -139 y = 417 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
@@ -171,8 +174,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
             name = "recommended_countries"
-            position = { x=951 y=189 }
-            font = "standard_font"
+            position = { x=951 y=167 }
+            font = "vic_18"
 			format = center
 			text = "RECOMMENDED_COUNTRIES"
             maxWidth = 120
@@ -219,7 +222,7 @@ guiTypes = {
 
         instantTextBoxType = {
             name = "dlc_title"
-            position = { x=126 y=309 }
+            position = { x=110 y=309 }
             font = "vic_22"
             borderSize = { x=5 y=5 }
             text = "STATISTICS"
@@ -231,10 +234,10 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc_and_flavor"
             position = { x=300 y=360 }
-			borderSize = {x = 0 y = 0}
-            font = "standard_font"
+            borderSize = {x = 0 y = 0}
+            font = "Stellaris_Small"
             maxWidth = 516
-			maxHeight = 220
+            maxHeight = 264
 			scrollbartype = "standardlistbox_slider"
 			format = left
         }
@@ -242,7 +245,7 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_recommended"
             position = { x=369 y=636 }
-            font = "standard_font"
+            font = "vic_18"
             borderSize = { x=5 y=5 }
             text = "RECOMMENDED_DLCS"
             maxWidth = 360
@@ -281,7 +284,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "close_button"
 			quadTextureSprite = "button_type_1"
-			position = { x=-90 y=348 }
+			position = { x=-90 y=357 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"

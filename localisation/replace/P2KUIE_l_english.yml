@@ -1,0 +1,9 @@
+﻿l_english:
+ SUPPORT_EFFICIENCY:0 "Efficiency:"
+ tech_side_window:0 "Modifiers"
+ CURRENT_TECH_DESC:0 "Current Technology Level is:\n\n§Y'$TECH$'§!\n\n\n\nHighest Technology Level is §Y32§!."
+ TECH_REQUIRES_INSTITUTION:1 "$TECH|Y$ costs $PENALTY$ more\n                       for countries that have not embraced\n                       $INSTITUTION|Y$.\n\n"
+ CV_RESEARCH_TECH:0 "Research new technology"
+ CV_RESEARCH_TECH_DESC:0 "Researching\n\n $NAME$ \n\n\n\n\nwill cost §Y$POWER_COST$§! $TYPE$ power."
+ CV_TECH_RESEARCH_MAXED:0 "                       Researched all technologies."
+ tech_sidewindow_institution_tooltip:0 "The impact of non-embraced institutions on technology costs."

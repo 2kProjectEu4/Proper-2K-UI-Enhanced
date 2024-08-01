@@ -1,0 +1,38 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_court_banner_green_advisor"
+		texturefile = "gfx/interface/court_banner_green_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_court_aggregated_points_bg"
+		texturefile = "gfx/interface/court_aggregated_points_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_country_technology_researchbutton_adm"
+		texturefile = "gfx//interface//country_technology_researchbutton_adm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_country_technology_researchbutton_dip"
+		texturefile = "gfx//interface//country_technology_researchbutton_dip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_country_technology_researchbutton_mil"
+		texturefile = "gfx//interface//country_technology_researchbutton_mil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_institutions_tech_costs"
+		texturefile = "gfx//interface//institutions_tech_costs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_powers_administrative_w_bg"
+		texturefile = "gfx//interface//icon_powers_administrative_w_bg.dds"
+	}	
+	
+}
