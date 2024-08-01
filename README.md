@@ -10,13 +10,15 @@
 
 - Original mod : [Proper 2K UI Project](https://steamcommunity.com/sharedfiles/filedetails/?id=3290499798)
 - [Plati's decisions](https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570)
+- [Plati's Tech Pictures](https://steamcommunity.com/sharedfiles/filedetails/?id=2962916850)
 - [Better Arrival Date](https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738)
 - [Colored missions](https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971)
 - [Europa Aesthetic Arrows Only (without black trade arrow)](https://steamcommunity.com/sharedfiles/filedetails/?id=2136245018)
 - [Europa Aesthetic Unit Markers](https://steamcommunity.com/sharedfiles/filedetails/?id=2135363699)
 - [Active policies bonus recolored](https://steamcommunity.com/sharedfiles/filedetails/?id=3086517784)
+- [Cmushi's Simpler Terms Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=709857021)
 
-# Own modifications
+# Modifications
 
 <details>
  <summary>Expand</summary>
@@ -46,6 +48,10 @@
 - Reverted Combat window to original design
 - Enlarged flagship designer
 </details>
+
+# 01.08.2024 Xyarvius changes:
+
+- [Link to changes](https://docs.google.com/document/d/1g3vGjARjzKosMFv1WKSP0l-643D-pq3yFXXCLizH3Y4/edit?usp=sharing)
 
 # 31.07.2024 changes:
 

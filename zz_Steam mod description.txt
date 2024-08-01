@@ -47,8 +47,12 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
 [/olist]
 
-[h2]My modifications:[/h2]
+[h2]Modifications:[/h2]
 
+[h3]01.08.2024 Xyarvius changes:[/h3]
+[list]
+    [*] [url=https://docs.google.com/document/d/1g3vGjARjzKosMFv1WKSP0l-643D-pq3yFXXCLizH3Y4/edit?usp=sharing]Link to changes[/url].
+[/list]
 [h3]29.07.2024 modifications:[/h3]
 [list]
     [*] Increased width for numbers trade interface to support 4 digits numbers 
