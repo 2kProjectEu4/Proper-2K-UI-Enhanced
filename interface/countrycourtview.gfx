@@ -111,16 +111,6 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_court_banner_green_advisor"
-		texturefile = "gfx/interface/court_banner_green_advisor.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_court_aggregated_points_bg"
-		texturefile = "gfx/interface/court_aggregated_points_bg.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_country_modifier_frame"
 		texturefile = "gfx//interface//country_modifier_frame.dds"
 		loadType = "INGAME"
