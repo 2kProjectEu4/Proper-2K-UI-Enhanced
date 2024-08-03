@@ -1199,7 +1199,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "dismiss_button"
-			position = { x = 465 y = 40}
+			position = { x = 465 y = 46}
 			quadTextureSprite ="GFX_dismiss_advisor"	
 			tooltip = ""
 			tooltipText =""
