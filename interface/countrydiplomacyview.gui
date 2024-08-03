@@ -4197,7 +4197,7 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diploreasons_bar"
-			position = { x = 120 y = 504 }
+			position = { x = 112 y = 498 }
 		}
 
 		iconType =
@@ -4501,7 +4501,7 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diploreasons_bar"
-			position = { x = 120 y = 504 }
+			position = { x = 112 y = 498 }
 		}
 
 		iconType =
@@ -7252,7 +7252,7 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diplomacy_view_diplo_chance_sell_province"
-			position = { x = 354 y = 504 }
+			position = { x = 346 y = 498 }
 		}
 
 
