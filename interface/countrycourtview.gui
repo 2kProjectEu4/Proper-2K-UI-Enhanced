@@ -737,7 +737,7 @@ guiTypes = {
 		iconType ={
 			name ="GFX_advisor_banner"
 			spriteType = "GFX_court_banner_green_advisor"
-			position = { x= 31 y = -1 }
+			position = { x= 31 y = -9 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -750,7 +750,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_name"
-			position = { x = 100 y = 2 }
+			position = { x = 96 y = -6 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -764,16 +764,23 @@ guiTypes = {
 		listboxType = {
 			name = "advisor_modifier_listbox"
 			backGround = ""
-			position = { x=99 y=30 }
+			position = { x=99 y=24 }
 			size = { x=168 y=120 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
 		}
 		
+		iconType ={
+			name ="GFX_advisor_info_box"
+			spriteType = "GFX_advisor_info_box"
+			position = { x= 90 y = 54 }
+			Orientation = "UPPER_LEFT"
+		}
+		
 		instantTextBoxType = {
 			name = "advisor_cost"
-			position = { x=95 y=70 }
+			position = { x=96 y=72 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -785,7 +792,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_activefor"
-			position = { x = 95 y = 52 }
+			position = { x = 96 y = 54 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -799,30 +806,28 @@ guiTypes = {
 		{
 			name ="advisor_button"
 			quadTextureSprite= "GFX_advisor_noAdvisorType"
-			position = { x= 4 y = 5 }
+			position = { x= -15 y = -5 }
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			hint_tag = "hint_advisor"
 		}		
-		
-
-
 
 		iconType ={
 			name ="advisor_indicator_religion"
 			spriteType = "GFX_advisor_indicator_religion"
-			position = { x= -20 y = 6 }
+			position = { x= -24 y = 12 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.9
 		}
 
 		iconType ={
 			name ="advisor_indicator_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -14 y = 12 }
+			position = { x= -20 y = 18 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.9
+			scale = 0.8
 			alwaystransparent = yes
 			frame = 17
 		}
@@ -830,9 +835,10 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_culture"
 			spriteType = "GFX_advisor_indicator_culture"
-			position = { x= -20 y = 47 }
+			position = { x= -24 y = 48 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
+			scale = 0.9
 		}		
 		
 		
@@ -858,7 +864,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_ability_skill"
-			position = { x = 358 y = 2 }
+			position = { x = 358 y = -6 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -876,7 +882,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x= 339 y = 2 }
+			position = { x= 339 y = -6 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -972,7 +978,7 @@ guiTypes = {
 		name = "advisor_selection_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=180 y= 110 } #150 #87
+		size = { x=180 y= 117 } #150 #87
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -993,7 +999,7 @@ guiTypes = {
 		{
 			name ="advisor_button"
 			quadTextureSprite= "GFX_greatmen_button"
-			position = { x= -72 y = 19 }
+			position = { x= -91 y = 19 }
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
 			tooltipText =""
@@ -1005,16 +1011,17 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_religion"
 			spriteType = "GFX_advisor_indicator_religion"
-			position = { x= -97 y = 23 }
+			position = { x= -101 y = 36 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.9
 		}
 
 		iconType ={
 			name ="advisor_indicator_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -93 y = 28 }
+			position = { x= -97 y = 41 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.0
+			scale = 0.8
 			alwaystransparent = yes
 			frame = 17
 		}
@@ -1022,9 +1029,10 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_culture"
 			spriteType = "GFX_advisor_indicator_culture"
-			position = { x= -97 y = 64 }
+			position = { x= -101 y = 72 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
+			scale = 0.9
 		}		
 		
 		
@@ -1032,10 +1040,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"            # Name des Advisors
-			position = { x = 28 y =24 }
+			position = { x = 27 y =25 }
 			format = left
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 300
@@ -1046,7 +1054,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "skill_value"
-			position = { x = 388 y = 25 }   
+			position = { x = 386 y = 25 }   
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1107,7 +1115,7 @@ guiTypes = {
 		instantTextBoxType = {
 			#this is advisor monthly cost #arumba
 			name = "value"			#  Monatliche Kosten
-			position = { x = 294 y =89 }    #35  # 99
+			position = { x = 294 y =103 }    #35  # 99
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1120,7 +1128,7 @@ guiTypes = {
 		instantTextBoxType = {
 			#this is actually advisor age, not desc #arumba
 			name = "desc"				# Alter 
-			position = { x = 26 y =71 }   # 324
+			position = { x = 25 y =85 }   # 324
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1133,7 +1141,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "home"				# Herkunftsort
-			position = { x = 26 y =89 }
+			position = { x = 25 y =103 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1146,7 +1154,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "purchase"			# Kaufkosten Name
-			position = { x = 294 y =71 } #20 ## 260/68
+			position = { x = 294 y =85 } #20 ## 260/68
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1158,7 +1166,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "purchase_cost"		# Kaufkosten Summe
-			position = { x = 345 y =71 } #260/35    ##310/68
+			position = { x = 345 y =85 } #260/35    ##310/68
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1172,13 +1180,13 @@ guiTypes = {
 		{
 			name ="effect_icon"
 			spriteType = "GFX_idea_unknown"
-			position = { x= 18 y = 47 }
+			position = { x= 18 y = 52 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.4
 		}
 		instantTextBoxType = {
 			name = "effect"
-			position = { x = 49 y =51 }
+			position = { x = 49 y =56 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
