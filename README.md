@@ -18,7 +18,7 @@
 - [Active policies bonus recolored](https://steamcommunity.com/sharedfiles/filedetails/?id=3086517784)
 - [Cmushi's Simpler Terms Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=709857021)
 
-# Changelog
+# [Changelog](https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced/blob/main/CHANGELOG.md)
 
 # Modifications
 

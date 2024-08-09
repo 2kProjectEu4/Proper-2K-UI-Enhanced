@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-# 09.08.2024 Xyarvius changes:
+# 09.08.2024 changes:
 
 - Added back original mission icons for better distinction between mission types
 - Added back the background for ruler power icons
@@ -17,7 +17,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Settings misplacement for Game Bg
 - Fixed start screen right panel text overlap (number of ideas and techs counts of 2 digits)
 - Increased save game max width
-- Reverted ruler view changes in diplo view with few adjustments (moved country shield up to allow full display of longer dynasty names)
+- Reverted ruler view changes in diplo view with few adjustments (moved country shield up to allow full display of longer dynasty names) - props to Xyarvius for the idea
 
 # 01.08.2024 Xyarvius changes:
 
