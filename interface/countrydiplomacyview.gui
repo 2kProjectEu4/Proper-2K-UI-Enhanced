@@ -137,7 +137,7 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
 			text = "PW_NATION_NAMES"
-			maxWidth = 240
+			maxWidth = 220
 			maxHeight = 39
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
