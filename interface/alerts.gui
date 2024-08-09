@@ -4,7 +4,7 @@ guiTypes = {
 		name = "alerticon_window"
 		backGround=""
 		position = { x=9 y=0 }	
-		size = { x=500 y=500 }
+		size = { x=77 y=77 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -31,7 +31,7 @@ guiTypes = {
 
 	positionType = {
 		name = "alerticon_startposition"
-		position = { x = 162 y = 93 }
+		position = { x = 168 y = 93 }
 	}
 
 	positionType = {

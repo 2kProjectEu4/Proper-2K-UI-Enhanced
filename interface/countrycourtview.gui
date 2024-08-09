@@ -118,9 +118,19 @@ guiTypes = {
 		}
 
 		
+	
+		iconType =
+		{
+			name ="monarch_adm_icon"
+			spriteType = "GFX_icon_powers_administrative_w_bg"
+			position = { x= 29 y = 188 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ruler"
+		}
+
 		instantTextBoxType = {
 			name = "monarch_adm_value"
-			position = { x = 53 y = 188 }
+			position = { x = 55 y = 188 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -130,14 +140,6 @@ guiTypes = {
 			format = centre
 		}	
 
-		iconType =
-		{
-			name ="monarch_adm_icon"
-			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 29 y = 188 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_ruler"
-		}
 		
 		instantTextBoxType = {
 			name = "monarch_dip_value"
@@ -255,9 +257,20 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+
+
+		iconType =
+		{
+			name ="monarch_heir_adm_icon"
+			spriteType = "GFX_icon_powers_administrative_w_bg"
+			position = { x= 29 y = 289 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
 		instantTextBoxType = {
 			name = "monarch_heir_adm_value"
-			position = { x = 53 y = 289 }
+			position = { x = 55 y = 289 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -266,15 +279,6 @@ guiTypes = {
 			maxHeight = 19
 			format = centre
 		}	
-
-		iconType =
-		{
-			name ="monarch_heir_adm_icon"
-			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 29 y = 289 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_heir"
-		}
 		
 		instantTextBoxType = {
 			name = "monarch_heir_dip_value"
@@ -408,9 +412,20 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+	
+
+		iconType =
+		{
+			name ="monarch_queen_adm_icon"
+			spriteType = "GFX_icon_powers_administrative_w_bg"
+			position = { x= 29 y = 390 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_heir"
+		}
+
 		instantTextBoxType = {
 			name = "monarch_queen_adm_value"
-			position = { x = 53 y = 390 }
+			position = { x = 55 y = 390 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -418,15 +433,6 @@ guiTypes = {
 			maxWidth = 39
 			maxHeight = 19
 			format = centre
-		}	
-
-		iconType =
-		{
-			name ="monarch_queen_adm_icon"
-			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 29 y = 390 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_heir"
 		}
 		
 		instantTextBoxType = {

@@ -79,9 +79,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="games"
-				position = { x=73 y =169}
+				position = { x=83 y =172}
 				backGround=""
-				size = { x=359 y = 689}
+				size = { x=351 y = 689}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"

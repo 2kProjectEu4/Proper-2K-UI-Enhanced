@@ -511,7 +511,7 @@ guiTypes = {
 					name ="settings_listbox"
 					position = { x = 168 y = 141 }
 					backGround=""
-					size = { x=301 y=270 }
+					size = { x=280 y=270 }
 					Orientation = "UPPER_LEFT"
 					spacing = 3
 					scrollbartype = "standardlistbox_slider"
@@ -799,7 +799,7 @@ guiTypes = {
 				{
 					name ="menu"
 					spriteType = "GFX_game_settings_bg"
-					position = { x= -261 y = -83 }
+					position = { x= -261 y = -81 }
 					Orientation = "UPPER_LEFT"
 				}	
 

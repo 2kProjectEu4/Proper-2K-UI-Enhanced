@@ -909,7 +909,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\ideaView_unique_progressbar_w364_h10_green.dds"
 		textureFile2 = "gfx\\interface\\ideaView_unique_progressbar_w364_h10_black.dds"
-		size = { x = 437 y = 13 }
+		size = { x = 440 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	

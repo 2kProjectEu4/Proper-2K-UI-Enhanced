@@ -320,7 +320,7 @@ guiTypes = {
 		{
 			name ="subjectspanel_bg_top"
 			spriteType = "GFX_country_diplomacy_view_bg_top"
-			position = { x= -5 y = -12 }
+			position = { x= -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -328,7 +328,7 @@ guiTypes = {
 		{
 			name = "subjectspanel_bg_bottom"
 			spriteType = "GFX_country_subject_bg"
-			position = { x = -5 y = -12 }
+			position = { x = -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -344,7 +344,7 @@ guiTypes = {
 		smoothListboxType = {
 			name = "subjects_listbox"
 			backGround = ""
-			position = { x=24 y=192 }
+			position = { x=20 y=192 }
 			size = { x=600 y=305 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -356,13 +356,13 @@ guiTypes = {
 		iconType = {
 			name = "liberty_desire_icon"
 			spriteType = "GFX_liberty_icon"
-			position = { x = 564 y = 163 }
+			position = { x = 560 y = 163 }
 			Orientation = UPPER_LEFT
 		}
 
 		instantTextBoxType = {
 			name = "liberty_desire_value"
-			position = { x = 591 y = 165 }
+			position = { x = 587 y = 165 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -374,7 +374,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "interactions"
-			position = { x = 24 y = 163 }
+			position = { x = 20 y = 163 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -387,7 +387,7 @@ guiTypes = {
 		smoothListboxType = {
 			name = "interactions_listbox"
 			backGround = ""
-			position = { x=0 y=193 }
+			position = { x=-4 y=193 }
 			size = { x=723 y=291 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -401,16 +401,16 @@ guiTypes = {
 
             if_resolution = {
                 max_height = 867
-				position = { x = 24 y = 420 }
+				position = { x = 20 y = 420 }
             }
             if_resolution = {
                 min_height = 868
                 max_height = 1047
-				position = { x = 24 y = 600 }
+				position = { x = 20 y = 600 }
             }
             if_resolution = {
                 min_height = 1048
-				position = { x = 24 y = 816 }
+				position = { x = 20 y = 816 }
 
             }
 			textureFile = ""
@@ -424,13 +424,13 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_subjects_button"
-			position = { x = 21 y = 167 }
+			position = { x = 17 y = 167 }
 			quadTextureSprite ="GFX_sort_subjects_button"
 		}
 
 		guiButtonType = {
 			name = "sort_name_button"
-			position = { x = 81 y = 167 }
+			position = { x = 77 y = 167 }
 			quadTextureSprite ="GFX_sort_button_128"
 			buttonText = "NAME"
 			buttonFont = "vic_18"
@@ -438,42 +438,42 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_relation_button"
-			position = { x = 243 y = 167 }
+			position = { x = 239 y = 167 }
 			quadTextureSprite ="GFX_sort_opinion_button"
 		}
 
 		guiButtonType = {
 			name = "sort_income_button"
-			position = { x = 291 y = 167 }
+			position = { x = 287 y = 167 }
 			quadTextureSprite ="GFX_sort_income_button"
 		}
 
 		guiButtonType = {
 			name = "sort_tariff_button"
-			position = { x = 351 y = 167 }
+			position = { x = 347 y = 167 }
 			quadTextureSprite ="GFX_sort_tariff_button"
 		}
 
 		guiButtonType = {
 			name = "sort_liberty_desire_button"
-			position = { x = 397 y = 167 }
+			position = { x = 393 y = 167 }
 			quadTextureSprite ="GFX_sort_union_break_button"
 		}
 		guiButtonType = {
 			name = "sort_armysize_button"
-			position = { x = 443 y = 167 }
+			position = { x = 439 y = 167 }
 			quadTextureSprite ="GFX_sort_armysize_button"
 		}
 
 		guiButtonType = {
 			name = "sort_bonus_button"
-			position = { x = 474 y = 167 }
+			position = { x = 470 y = 167 }
 			quadTextureSprite ="GFX_sort_bonus_button"
 		}
 
 		guiButtonType = {
 			name = "sort_action_button"
-			position = { x = 519 y = 167 }
+			position = { x = 515 y = 167 }
 			quadTextureSprite ="GFX_sort_button_100"
 			buttonText = "INTERACTIONS"
 			buttonFont = "vic_18"
@@ -492,7 +492,7 @@ guiTypes = {
 			{
 				name ="tariff_income"
 				spriteType = "GFX_tariff_income"
-				position = { x= 251 y = 527 }
+				position = { x= 247 y = 527 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -500,13 +500,13 @@ guiTypes = {
 			{
 				name ="vassal_income"
 				spriteType = "GFX_vassal_income"
-				position = { x= 251 y = 573 }
+				position = { x= 247 y = 573 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "colony_income_label"
-				position = { x = 78 y = 525 }
+				position = { x = 74 y = 525 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -518,7 +518,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "colony_income_efficiency_value"
-				position = { x = 249 y = 527 }
+				position = { x = 245 y = 527 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -530,7 +530,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "colony_income_value"
-				position = { x = 387 y = 527 }
+				position = { x = 383 y = 527 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -542,7 +542,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "vassal_income_label"
-				position = { x = 78 y = 570 }
+				position = { x = 74 y = 570 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -554,7 +554,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "vassal_income_efficiency_value"
-				position = { x = 249 y = 570 }
+				position = { x = 245 y = 570 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -566,7 +566,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "vassal_income_value"
-				position = { x = 387 y = 569 }
+				position = { x = 383 y = 569 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -578,7 +578,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "total_subjects_income_label"
-				position = { x = 163 y = 627 }
+				position = { x = 159 y = 627 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -590,7 +590,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "total_subjects_income"
-				position = { x = 387 y = 629 }
+				position = { x = 383 y = 629 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -602,7 +602,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "release_colony"
-				position = { x=558 y=600}
+				position = { x=554 y=600}
 				quadTextureSprite ="GFX_release_colony_button"
 				tooltip = ""
 				tooltipText =""
@@ -612,7 +612,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "subject_military_focus"
-				position = { x=558 y=540 }
+				position = { x=554 y=540 }
 				quadTextureSprite ="GFX_subject_military_focus_button"
 				tooltip = ""
 				tooltipText =""
@@ -622,7 +622,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "toggle_overlord"
-				position = { x=47 y=513 }
+				position = { x=35 y=513 }
 				quadTextureSprite ="GFX_toggle_overlord_button"
 				tooltip = ""
 				tooltipText =""
@@ -643,7 +643,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y = 93 }
+			position = { x = 14 y = 93 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 5 y = 5}
@@ -717,7 +717,7 @@ guiTypes = {
 		windowType = {
 			name = "subject_military_focus_window"
 			backGround=""
-			position = { x=624 y=546 }
+			position = { x=620 y=546 }
 			size = { x=432 y=72 }
 			moveable = 0
 			dontRender = ""
@@ -809,7 +809,7 @@ guiTypes = {
 			{
 				name ="background"
 				spriteType = "GFX_court_view_select_advisor_bg"
-				position = { x= -9 y = -12 }
+				position = { x= -5 y = -12 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -853,7 +853,7 @@ guiTypes = {
 		windowType = {
 			name = "selected_subject_window"
 			backGround=""
-			position = { x=660 y=21 }
+			position = { x=656 y=21 }
 			size = { x=339 y=291 }
 			moveable = 0
 			dontRender = ""
@@ -1866,19 +1866,6 @@ guiTypes = {
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 		}
-
-		#instantTextBoxType = {
-		#	name = "help_tooltip_click_on_map"
-		#	position = { x = 306 y = 791 }
-		#	textureFile = ""
-		#	font = "vic_22"
-		#	borderSize = {x = 0 y = 0}
-		#	text = "help_tooltip_click_on_map"
-		#	maxWidth = 336
-		#	maxHeight = 240
-		#	format = centre
-		#	alwaystransparent = yes
-		#}
 
 		shieldtype =
 		{
