@@ -196,6 +196,18 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = string_PLATI_fireregiments_everyone_else
+		trigger = {
+			technology_group = indian
+			NOT = {
+				technology_group = western
+				technology_group = muslim
+				technology_group = eastern
+				technology_group = ottoman
+			}
+		}
+	}
+	text = {
 		localisation_key = string_PLATI_fireregiments_asian
 		trigger = {
 			technology_group = chinese

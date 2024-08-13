@@ -13,6 +13,7 @@ This is a standalone mod, so there's no need to download the original version.
     [*] [url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced]Github[/url]. (If you would like to help the project)
 [/list]
 
+[h2][url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced/blob/main/CHANGELOG.md]GIT Changelog[/url][/h2]
 
 [h2]Why does this mod exist?[/h2]
 I modified the original Proper 2K UI Project mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
@@ -36,11 +37,12 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
 [/list]
 
-[h2]Integrated mods:[/h2]
+[h2]Integrated mods (Many thanks to the creators of these amazing mods!):[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2291982168]UI a la Artemis[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962916850]Plati's Tech Pictures [/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738]Better Arrival Date[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971]Colored missions[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2136245018]Europa Aesthetic Arrows Only (without black trade arrow)[/url].
@@ -60,4 +62,3 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
 [/olist]
 
-[h2][url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced/blob/main/CHANGELOG.md]GIT Changelog[/url][/h2]
