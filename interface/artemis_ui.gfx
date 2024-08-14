@@ -207,11 +207,6 @@ spriteTypes = {
 		name = "GFX_poop_combat"
 		texturefile = "gfx/interface/artemis_ui/poop_combat.dds"
 	}
-
-	spriteType = {
-		name = "GFX_court_banner_ui"
-		texturefile = "gfx/interface/artemis_ui/court_banner_ui.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_scroll_left_ages"
@@ -229,7 +224,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_court_advisor_bg"
-		texturefile = "gfx/interface/artemis_ui/court_advisor_bg.dds"
+		texturefile = "gfx/interface/court_advisor_bg.dds"
 	}
 
 	spriteType = {
