@@ -584,15 +584,16 @@ guiTypes = {
 		}
 		
 		instantTextBoxType= {
-			position = { x=-10 y = 11}														#x=24 y = -6
+			position = { x=-12 y = 11}														#x=24 y = -6
 			name = "title"
 			font = "vic_18"																#vic_18
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 480																	#280
+			maxWidth = 395																	#280
 			maxHeight = 20
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 		guiButtonType = {
 			name = "decision_checkbox"

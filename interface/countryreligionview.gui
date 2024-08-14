@@ -2458,7 +2458,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x=228 y = 669 } #was x=228 y = 276
+				position = { x=245 y = 669 } #was x=228 y = 276
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2499,7 +2499,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x=228 y = 675 } #was y=281
+				position = { x=245 y = 680 } #was y=281
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2540,7 +2540,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x=228 y = 675 } #was y = 281
+				position = { x=245 y = 680 } #was y = 281
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2568,9 +2568,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="cult_listbox"
-				position = { x=67 y = -63}
+				position = { x=70 y = -56}
 				backGround=""
-				size = { x=477 y =672} #was y=336
+				size = { x=480 y =718} #was y=336
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
@@ -2580,7 +2580,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x=228 y = 669 } #was x=228 y = 276
+				position = { x=245 y = 669 } #was x=228 y = 276
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2624,7 +2624,7 @@ guiTypes = {
 				name ="aspect_listbox"
 				position = { x=67 y = -63}
 				backGround=""
-				size = { x=477 y =672} #was y=336
+				size = { x=481 y =670} #was y=336
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
@@ -2634,7 +2634,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x=228 y = 669 } #was x=228 y = 276
+				position = { x=245 y = 669 } #was x=228 y = 276
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2787,7 +2787,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "school_name"
-			position = { x= 21 y = -3 }
+			position = { x= 31 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"
@@ -2799,7 +2799,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "school_effect"
-			position = { x = 21 y = 17 }
+			position = { x = 31 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"
@@ -2824,7 +2824,7 @@ guiTypes = {
 		name = "fetishist_cult_item"
 		backGround =""
 		position = { x=12 y=-24 }
-		size = { x=60 y=55 }
+		size = { x=60 y=65 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -2834,24 +2834,25 @@ guiTypes = {
 		{
 			name ="cult_item_icon"
 			spriteType = "GFX_fetishists_strip"
-			position = { x= 54 y = -3 }
+			position = { x= 64 y = -3 }
 		}
 
 		instantTextBoxType = {
 			name = "cult_item_name"
-			position = { x= -51 y = -3}
+			position = { x= -46 y = 5}
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CultName"
-			maxWidth = 153
-			maxHeight = 29
+			maxWidth = 105
+			maxHeight = 60
 			Orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 
 		instantTextBoxType = {
 			name = "cult_item_effect"
-			position = { x = 117 y = -3 }
+			position = { x = 122 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CultEffect"	
@@ -2864,7 +2865,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_cult"
-			position = { x=361 y = 1}
+			position = { x=375 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -2873,7 +2874,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cult_description_helper"
-			position = { x= 0 y = -3 }
+			position = { x= -36 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CULT_HELP_DESC"
@@ -2922,24 +2923,25 @@ guiTypes = {
 		{
 			name ="aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 54 y = -17 }
+			position = { x= 54 y = -20 }
 		}
 
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -51 y = 7 }
+			position = { x= -51 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 123
-			maxHeight = 29
+			maxWidth = 120
+			maxHeight = 19
 			Orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 117 y = -3 }
+			position = { x = 127 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
@@ -2951,7 +2953,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=361 y = 1}
+			position = { x=373 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -2975,13 +2977,13 @@ guiTypes = {
 		{
 			name ="aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 54 y = -17 }
+			position = { x= 54 y = -20 }
 		}
 
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -51 y = 7 }
-			font = "vic_18"
+			position = { x= -51 y = -3 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
 			maxWidth = 123
@@ -2992,8 +2994,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 117 y = -3 }
-			font = "vic_18"
+			position = { x = 124 y = -5 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
 			maxWidth = 247
@@ -3004,7 +3006,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=361 y = 1}
+			position = { x=374 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -3027,13 +3029,13 @@ guiTypes = {
 		iconType = {
 			name = "aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 54 y = -17 }
+			position = { x= 70 y = -20 }
 		}
 		
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -51 y = 7 }
-			font = "vic_18"
+			position = { x= -51 y = 0 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"	
 			maxWidth = 123
@@ -3044,8 +3046,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 117 y = -3 }
-			font = "vic_18"
+			position = { x = 140 y = 0 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"	
 			maxWidth = 247
@@ -3056,7 +3058,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=361 y = 1}
+			position = { x=378 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -3098,10 +3100,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "aspect_effect"
 			position = { x = 13 y = 13 }
-			font = "vic_18"
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 360
+			maxWidth = 380
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -3109,7 +3111,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=379 y = 7}
+			position = { x=389 y = 7}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"

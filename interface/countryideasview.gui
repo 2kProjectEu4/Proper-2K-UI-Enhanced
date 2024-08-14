@@ -151,7 +151,7 @@ guiTypes = {
 		{
 			name ="idea_unique_progress"
 			spriteType = "GFX_ideaView_unique_progressbar"
-			position = { x= 127 y = 265 }
+			position = { x= 124 y = 265 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_nationalidea"
 		}
@@ -409,7 +409,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
-			position = { x = 36 y = 7 }
+			position = { x = 36 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -439,7 +439,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 				name = "ideas"
-				position = { x = 65 y = 60 }
+				position = { x = 62 y = 60 }
 				size = { x = 240 y = 96 }
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -450,7 +450,7 @@ guiTypes = {
 		{
 			name ="idea_progress"
 			spriteType = "GFX_ideaView_progressbar"
-			position = { x= 79 y = 75 }
+			position = { x= 79 y = 72 }
 			Orientation = "UPPER_LEFT"
 		}	
 

@@ -2240,7 +2240,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="save_game_shield"
-			position = { x = 21 y = 6 }
+			position = { x = 18 y = 2 }
 			quadTextureSprite = "GFX_shield_small"
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
@@ -2255,7 +2255,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 187
+			maxWidth = 220
 			maxHeight = 24	
 			fixedsize = yes
 			truncate = yes
@@ -2269,7 +2269,7 @@ guiTypes = {
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 187
+			maxWidth = 200
 			maxHeight = 24	
 			fixedsize = yes
 		
@@ -2279,7 +2279,7 @@ guiTypes = {
 		iconType = {
 			name = "cloud_file"
 			spriteType = "GFX_cloud_file"
-			position = { x = 216 y = 15 }
+			position = { x = 260 y = 10 }
 		}
 		
 		iconType = {
