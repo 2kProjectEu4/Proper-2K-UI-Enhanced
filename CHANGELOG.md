@@ -2,13 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-# 13.08.2024 changes:
+# 14.08.2024 changes:
+
 - Adjusted jewish, anglican and hussite aspects windows
 - Adjusted protestant aspect view
 - Adjusted religion back buttons
-- Decreased decision name max length  
+- Decreased decision name max length
 - Enlarged fetishist overlay bg and adjusted cult view
 - Fixed plati firearm regiments icon missing
+- Redesigned advisors court view
 
 # 09.08.2024 changes:
 
