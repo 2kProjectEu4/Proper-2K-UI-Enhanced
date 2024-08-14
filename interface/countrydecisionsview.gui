@@ -588,7 +588,7 @@ guiTypes = {
 			name = "title"
 			font = "vic_18"																#vic_18
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 405																	#280
+			maxWidth = 395																	#280
 			maxHeight = 20
 			text = ""	
 			orientation = "UPPER_LEFT"

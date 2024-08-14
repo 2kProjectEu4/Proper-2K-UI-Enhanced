@@ -2936,7 +2936,6 @@ guiTypes = {
 			maxHeight = 19
 			Orientation = "UPPER_LEFT"
 			format = left
-			
 			fixedsize = yes
 		}
 
@@ -2978,13 +2977,13 @@ guiTypes = {
 		{
 			name ="aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 54 y = -17 }
+			position = { x= 54 y = -20 }
 		}
 
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -51 y = 7 }
-			font = "vic_18"
+			position = { x= -51 y = -3 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
 			maxWidth = 123
@@ -2995,8 +2994,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 117 y = -3 }
-			font = "vic_18"
+			position = { x = 124 y = -5 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
 			maxWidth = 247
@@ -3007,7 +3006,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=361 y = 1}
+			position = { x=374 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -3030,13 +3029,13 @@ guiTypes = {
 		iconType = {
 			name = "aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 54 y = -17 }
+			position = { x= 70 y = -20 }
 		}
 		
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -51 y = 7 }
-			font = "vic_18"
+			position = { x= -51 y = 0 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"	
 			maxWidth = 123
@@ -3047,8 +3046,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 117 y = -3 }
-			font = "vic_18"
+			position = { x = 140 y = 0 }
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"	
 			maxWidth = 247
@@ -3059,7 +3058,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=361 y = 1}
+			position = { x=378 y = 1}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -3101,10 +3100,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "aspect_effect"
 			position = { x = 13 y = 13 }
-			font = "vic_18"
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 360
+			maxWidth = 380
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -3112,7 +3111,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=379 y = 7}
+			position = { x=389 y = 7}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
