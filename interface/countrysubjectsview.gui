@@ -1799,11 +1799,12 @@ guiTypes = {
 			name = "info_text"
 			font = "vic_18"
 			borderSize = {x = 0 y = -2}
-			maxWidth = 252
+			maxWidth = 222
 			maxHeight = 19
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 	}
 

@@ -259,7 +259,7 @@ guiTypes = {
 			{
 				name ="city_progress"
 				spriteType = "GFX_provinceView_progressbar"
-				position = { x = 321 y = 33}
+				position = { x = 323 y = 31}
 			}
 			
 			iconType =

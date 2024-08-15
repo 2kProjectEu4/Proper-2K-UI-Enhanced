@@ -316,7 +316,7 @@ guiTypes = {
 		{
 			name ="warex_progress"
 			spriteType = "GFX_warex_progressbar"
-			position = { x= 45 y = 174 }
+			position = { x= 45 y = 171 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -330,7 +330,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warex_progress_value"
-			position = { x = 43 y = 169}
+			position = { x = 43 y = 167}
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -502,7 +502,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "govcap_progress_value"
-			position = { x = 55 y = 381 }
+			position = { x = 55 y = 380 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1447,7 +1447,7 @@ guiTypes = {
 		{
 			name ="province_coreprogress_bar"
 			spriteType = "GFX_province_coreprogress_bar"
-			position = { x= 477 y = 2}
+			position = { x= 471 y = -6}
 			Orientation = "UPPER_LEFT"
 		}
 

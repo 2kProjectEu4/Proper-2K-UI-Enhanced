@@ -62,7 +62,7 @@ guiTypes = {
 		{
       name ="province_coreprogress_bar"
       spriteType = "GFX_province_coreprogress_bar"
-      position = { x= 376 y = 2 }
+      position = { x= 370 y = -6 }
     }
 
 		iconType =
@@ -146,7 +146,7 @@ guiTypes = {
 		{
       name ="missionary_progress"
       spriteType = "GFX_province_coreprogress_bar"
-      position = { x = 376 y = 1 }
+      position = { x = 370 y = -7 }
     }
 
 		iconType =
@@ -296,7 +296,7 @@ guiTypes = {
 		{
       name ="culture_progress"
       spriteType = "GFX_province_coreprogress_bar"
-      position = { x= 400 y = 25 }
+      position = { x= 394 y = 17 }
     }
 
 		iconType =

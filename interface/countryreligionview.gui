@@ -88,7 +88,7 @@ guiTypes = {
 		{
 			name ="missionary_progress"
 			spriteType = "GFX_convert_progressbar"
-			position = { x = 462 y =3 }
+			position = { x = 460 y =0 }
 		}
 
 		iconType =

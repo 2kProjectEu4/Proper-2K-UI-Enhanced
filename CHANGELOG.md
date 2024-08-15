@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# 15.08.2024 changes:
+
+- changed coring progressbar and frame to be like the vanilla version
+- decreased max width for subject interactions
+- Slightly adjusted progressbar for colonisation, religion conversion, war exhaustion
+
 # 14.08.2024 changes:
 
 - Adjusted jewish, anglican and hussite aspects windows

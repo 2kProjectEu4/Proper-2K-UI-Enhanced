@@ -347,7 +347,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx/interface/province_coreprogress_green.dds"
 		texturefile2 = "gfx/interface/province_coreprogress_black.dds"
-		size = { x = 72 y = 35 }
+		size = { x = 82 y = 51 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
