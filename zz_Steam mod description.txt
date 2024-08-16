@@ -63,5 +63,15 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 [/olist]
 
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
+
+[h2]Will I make a 4K version of this mod?[/h2]
+
+TL;DR: No, I don't see myself doing this.
+
+Long explanation: All the improvements I've made to this mod were done by playing the game, noting down everything that wasn't optimal, and eventually fixing them in my free time. There's no automation for this; everything was done manually. So even if I were to scale up the current version to 4K, there would still be a lot of work involved, and I can't invest my free time in doing it. 
+
+I can't speak for the changes [b]Xyarvius[/b] made.
+
+[img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3]✨✨ Nice ✨✨[/h3]
 [img]https://imgur.com/ZHVFNCh.jpg[/img]

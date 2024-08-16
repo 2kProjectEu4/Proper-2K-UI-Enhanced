@@ -248,7 +248,7 @@ guiTypes = {
 		{
 			name ="war_goal_progress"
 			spriteType = "GFX_wargoal_progressbar"
-			position = { x = 296 y = 109} #was x=294 y=109
+			position = { x = 293 y = 105} #was x=294 y=109
 		}
 
 		iconType =
@@ -259,7 +259,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 192 y = 112 }
+			position = {x = 192 y = 109 }
 			name = "war_goal_title"
 			font = "vic_18"
 			borderSize = {x = 10 y = 0}
@@ -271,7 +271,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 300 y = 112 }
+			position = {x = 300 y = 109 }
 			name = "war_goal"
 			font = "vic_18"
 			borderSize = {x = 10 y = 0}

@@ -2,21 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-# 15.08.2024 changes:
-
-- changed coring progressbar and frame to be like the vanilla version
-- decreased max width for subject interactions
-- Slightly adjusted progressbar for colonisation, religion conversion, war exhaustion
+# 16.08.2024 changes:
+- Adjusted the size of policy lists to display the scrollbar correctly when visible.
+- Changed coring progressbar and frame to be like the vanilla version.
+- Decreased max width for subject interactions.
+- Enlarged the wargoal progress bar to fit the frame correctly.
+- Increased spacing between relation boxes and reorganized the code for easier editing.
+- Slightly adjusted progressbar for colonisation, religion conversion, war exhaustion.
 
 # 14.08.2024 changes:
 
 - Adjusted jewish, anglican and hussite aspects windows
 - Adjusted protestant aspect view
 - Adjusted religion back buttons
-- Decreased decision name max length
+- Decreased decision name max length  
 - Enlarged fetishist overlay bg and adjusted cult view
 - Fixed plati firearm regiments icon missing
-- Redesigned advisors court view
+- Redesigned advisors court view 
 
 # 09.08.2024 changes:
 

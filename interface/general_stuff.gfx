@@ -842,7 +842,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\war_overview_progressbar_w288_h18_green.dds"
 		textureFile2 = "gfx\\interface\\war_overview_progressbar_w288_h18_red.dds"
-		size = { x = 345 y = 21 }
+		size = { x = 350 y = 29 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	

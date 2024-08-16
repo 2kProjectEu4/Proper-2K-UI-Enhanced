@@ -455,16 +455,16 @@ guiTypes = {
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=372 y=936 }
+					size = { x=382 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -479,16 +479,16 @@ guiTypes = {
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=372 y=936 }
+					size = { x=382 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -503,16 +503,16 @@ guiTypes = {
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=372 y=600 }
+					size = { x=382 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=372 y=936 }
+					size = { x=382 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0

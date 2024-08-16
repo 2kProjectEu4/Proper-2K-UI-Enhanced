@@ -166,24 +166,12 @@ guiTypes = {
 			format = left
 		}
 
+		########## Foreign opinion block
 		iconType =
 		{
-			name ="num_relations_bg"
-			spriteType = "GFX_relation_bg"
-			position = { x= 356 y = 201 }
-		}
-
-		instantTextBoxType = {
-			name = "num_relations_value"
-			position = { x = 351 y = 201 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 5 y = 5}
-			text = "+155 ???"
-			maxWidth = 53
-			maxHeight = 31
-			format = center
-
+			name ="attitude_icons_strip"
+			spriteType = "GFX_attitude_icons_strip"
+			position = { x= 333 y = 209	}
 		}
 
 		iconType =
@@ -193,16 +181,10 @@ guiTypes = {
 			position = { x= 356 y = 210 }
 		}
 
-		iconType =
-		{
-			name ="attitude_icons_strip"
-			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 333 y = 209	}
-		}
 
 		instantTextBoxType = {
 			name = "relation_value"
-			position = { x = 350 y = 210 }
+			position = { x = 350 y = 209 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -210,6 +192,15 @@ guiTypes = {
 			maxWidth = 53
 			maxHeight = 31
 			format = center
+		}
+		########## End block
+
+		########## Our oppinion block	
+		iconType =
+		{
+			name ="attitude_icons_strip02"
+			spriteType = "GFX_attitude_icons_strip"
+			position = { x= 333 y = 237 }
 		}
 
 		iconType =
@@ -219,16 +210,9 @@ guiTypes = {
 			position = { x= 356 y = 237 }
 		}
 
-		iconType =
-		{
-			name ="attitude_icons_strip02"
-			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 333 y = 237 }
-		}
-
 		instantTextBoxType = {
 			name = "relation_value_2"
-			position = { x = 350 y = 237 }
+			position = { x = 350 y = 236 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -237,34 +221,57 @@ guiTypes = {
 			maxHeight = 31
 			format = center
 		}
+		########## End block
 
-		iconType =
-		{
-			name ="reputation_bg"
-			spriteType = "GFX_relation_bg"
-			position = { x= 356 y = 223 }
-		}
-
+		########## Number of relations block
 		iconType =
 		{
 			name ="num_relations_icon"
 			spriteType = "GFX_diplomacy_action_relation_tooltip"
-			position = { x= 324 y = 201 }
+			position = { x= 324 y = 210 }
 			hint_tag = "hint_diplomaticupkeep"
 		}
 
 		iconType =
 		{
+			name ="num_relations_bg"
+			spriteType = "GFX_relation_bg"
+			position = { x= 356 y = 210 }
+		}
+
+		instantTextBoxType = {
+			name = "num_relations_value"
+			position = { x = 352 y = 209 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "+155 ???"
+			maxWidth = 53
+			maxHeight = 31
+			format = center
+		}
+		########## End block
+
+		########## Reputation block		
+		iconType =
+		{
 			name ="reputation_icon"
 			spriteType = "GFX_diplomatic_reputation_icon"
-			position = { x= 324 y = 221 }
+			position = { x= 324 y = 237 }
 			scale = 0.6
 			hint_tag = "hint_dipreputation"
 		}
 
+		iconType =
+		{
+			name ="reputation_bg"
+			spriteType = "GFX_relation_bg"
+			position = { x= 356 y = 237 }
+		}
+
 		instantTextBoxType = {
 			name = "reputation_value"
-			position = { x = 351 y = 223 }
+			position = { x = 351 y = 236 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -273,14 +280,14 @@ guiTypes = {
 			maxHeight = 31
 			format = center
 		}
+		########## End block
 
-
-
+		########## Improve relations block
 		iconType =
 		{
 			name ="improve_relation_icon"
 			spriteType = "GFX_improve_relation_modifier"
-			position = { x= 318 y = 237 }
+			position = { x= 318 y = 256 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.55
 			hint_tag = "hint_improverelations"
@@ -290,13 +297,13 @@ guiTypes = {
 		{
 			name ="improve_relation_bg"
 			spriteType = "GFX_relation_bg"
-			position = { x = 356 y = 245 }
+			position = { x = 356 y = 264 }
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "improve_relation_value"
-			position = { x = 327 y = 245 }
+			position = { x = 327 y = 263 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -305,6 +312,7 @@ guiTypes = {
 			maxHeight = 31
 			format = right
 		}
+		########## End block
 
 		# Ruler stats
 
@@ -4812,7 +4820,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warname"
-			position = { x = 60 y = 372 }
+			position = { x = 60 y = 370 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -4824,7 +4832,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warscoretitle"
-			position = { x = 33 y = 408 }
+			position = { x = 33 y = 406 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -4836,7 +4844,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warscorevalue"
-			position = { x = 187 y = 408 }
+			position = { x = 187 y = 406 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -4850,7 +4858,7 @@ guiTypes = {
 		{
 			name ="wargoal_progress"
 			spriteType = "GFX_wargoal_progressbar"
-			position = { x = 279 y = 405}
+			position = { x = 277 y = 402}
 		}
 
 		iconType =
@@ -4861,7 +4869,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 285 y = 408 }
+			position = {x = 285 y = 406 }
 			name = "wargoal"
 			font = "vic_18"
 			borderSize = {x = 9 y = 0}
