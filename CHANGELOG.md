@@ -3,11 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 # 16.08.2024 changes:
+- Adjusted relation modifier in diplomacy view shield item
 - Adjusted the size of policy lists to display the scrollbar correctly when visible.
 - Changed coring progressbar and frame to be like the vanilla version.
 - Decreased max width for subject interactions.
 - Enlarged the wargoal progress bar to fit the frame correctly.
+- Fixed has marines modifier icon
+- Improved the diplomacy progressbar (had some black pixels)
 - Increased spacing between relation boxes and reorganized the code for easier editing.
+- Merged changes for trust/favors screen
+- Replaced placeholder icon for influence_to_vassal_elevation_cost
 - Slightly adjusted progressbar for colonisation, religion conversion, war exhaustion.
 
 # 14.08.2024 changes:

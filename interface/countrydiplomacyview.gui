@@ -1063,12 +1063,12 @@ guiTypes = {
 		iconType = {
 			name ="feedback_bg"
 			spriteType = "GFX_diplomacy_feedback_bg"
-			position = { x= 360 y = 409 }	#was x305
+			position = { x= 368 y = 421 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType= {
-			position = { x = 379 y = 420 }	#was x319
+			position = { x = 382 y = 433 }
 			name = "trust_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1082,38 +1082,38 @@ guiTypes = {
 		iconType = {
 			name ="diplomacy_trust_progress_bar"
 			spriteType = "GFX_diplomacy_progress_bar"
-			position = { x= 491 y = 425 }
+			position = { x= 491 y = 435 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_trust_progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 483 y = 420 }
+			position = { x= 483 y = 433 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_trust_progress_indicator"
 			spriteType = "GFX_diplomacy_progress_indicator"
-			position = { x= 519 y = 391 }
+			position = { x= 519 y = 403 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType= {
-			position = { x = 528 y = 384 }
+			position = { x = 528 y = 396 }
 			name = "trust_value"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 36
-			maxHeight = 24
+			borderSize = {x = 0 y = 1}
+			maxWidth = 30
+			maxHeight = 26
 			text = "75"
 			orientation = "UPPER_LEFT"
 			format = center
 		}
 
 		instantTextBoxType= {
-			position = { x = 379 y = 456 }	#was x316
+			position = { x = 382 y = 468 }
 			name = "favors_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1127,30 +1127,30 @@ guiTypes = {
 		iconType = {
 			name ="diplomacy_favors_progress_bar"
 			spriteType = "GFX_diplomacy_progress_bar"
-			position = { x= 491 y = 461 }
+			position = { x= 491 y = 470 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_favors_progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 483 y = 456 }
+			position = { x= 483 y = 468 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_favors_progress_indicator"
 			spriteType = "GFX_diplomacy_progress_indicator"
-			position = { x= 519 y = 451 }
+			position = { x= 519 y = 463 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType= {
-			position = { x = 528 y = 420 }
+			position = { x = 528 y = 432 }
 			name = "favors_value"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 36
+			borderSize = {x = 0 y = 1}
+			maxWidth = 30
 			maxHeight = 24
 			text = "19"
 			orientation = "UPPER_LEFT"
@@ -1237,7 +1237,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=588 y=603 }
+				position = { x=585 y=503 }
 			}
 			quadTextureSprite ="GFX_join_war_offense"
 			tooltip = ""
@@ -1256,7 +1256,7 @@ guiTypes = {
 		# }
 
 		instantTextBoxType= {
-			position = { x = 379 y = 503 }
+			position = { x = 382 y = 513 }
 			name = "manual_manage_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1269,7 +1269,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "manual_manage_checkbox"
-			position = { x=540 y=499 }
+			position = { x=545 y=509 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1280,13 +1280,13 @@ guiTypes = {
 		iconType = {
 			name ="neutral_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 379 y = 533 }
+			position = { x= 379 y = 539 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 		}
 
 		instantTextBoxType= {
-			position = { x = 411 y = 535 }
+			position = { x = 411 y = 545 }
 			name = "neutral_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1299,7 +1299,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "neutral_checkbox"
-			position = { x=540 y=531 }
+			position = { x=545 y=541 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1310,13 +1310,13 @@ guiTypes = {
 		iconType = {
 			name ="friendly_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 379 y = 561 }
+			position = { x= 379 y = 575 }
 			Orientation = "UPPER_LEFT"
 			frame = 7
 		}
 
 		instantTextBoxType= {
-			position = { x = 411 y = 567 }
+			position = { x = 411 y = 579 }
 			name = "friendly_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1329,7 +1329,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "friendly_checkbox"
-			position = { x=540 y=561 }
+			position = { x=545 y=575 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1340,13 +1340,13 @@ guiTypes = {
 		iconType = {
 			name ="hostile_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 379 y = 595 }
+			position = { x= 379 y = 607 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
 		}
 
 		instantTextBoxType= {
-			position = { x = 411 y = 600 }
+			position = { x = 411 y = 612 }
 			name = "hostile_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1359,7 +1359,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "hostile_checkbox"
-			position = { x=540 y=595 }
+			position = { x=545 y=608 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1370,13 +1370,13 @@ guiTypes = {
 		iconType = {
 			name ="threatened_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 381 y = 629 }
+			position = { x= 380 y = 641 }
 			Orientation = "UPPER_LEFT"
 			frame = 12
 		}
 
 		instantTextBoxType= {
-			position = { x = 411 y = 633 }
+			position = { x = 411 y = 645 }
 			name = "threat_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1389,7 +1389,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "threat_checkbox"
-			position = { x=540 y=629 }
+			position = { x=545 y=641 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1761,7 +1761,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 33  y = 3 }
+			position = { x = 34  y = 1 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
