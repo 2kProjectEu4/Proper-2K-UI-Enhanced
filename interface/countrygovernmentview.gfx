@@ -229,9 +229,9 @@ spriteTypes = {
 		name = "GFX_government_power_bar"
 		color = { 1.0 0.0 0.0 }
 		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx\\interface\\provinceView_progressbar_w92_h11_green.dds"
-		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
-		size = { x = 89 y = 21 }
+		textureFile1 = "gfx\\interface\\government_view\\government_mechanics_progressbar_green.dds"
+		textureFile2 = "gfx\\interface\\government_view\\government_mechanics_progressbar_black.dds"
+		size = { x = 92 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 

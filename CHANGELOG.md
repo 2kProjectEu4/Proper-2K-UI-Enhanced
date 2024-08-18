@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+# 18.08.2024 changes:
+- Adjusted government types progressbars
+- Fixed missing special unit (mamluk, qizilbash) background for reorg_window
+
 # 16.08.2024 changes:
 - Adjusted relation modifier in diplomacy view shield item
 - Adjusted the size of policy lists to display the scrollbar correctly when visible.
