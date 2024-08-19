@@ -2,9 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-# 18.08.2024 changes:
+# 19.08.2024 changes:
 - Adjusted government types progressbars
+- Adjusted army/navy/siege map progress bars
+- Adjusted text and banner for army map element
 - Fixed missing special unit (mamluk, qizilbash) background for reorg_window
+- Improved attrition image quality
 
 # 16.08.2024 changes:
 - Adjusted relation modifier in diplomacy view shield item

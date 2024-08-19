@@ -535,14 +535,14 @@ guiTypes = {
 		iconType = {
 			name ="siege_progress_bar"
 			spriteType = "GFX_unitpanel_siege_moralebar_on_map"
-			position = { x= 127 y = 41 }
+			position = { x= 124 y = 42 }
 			rotation = 1.5708
 		}	
 
 
 		
 		instantTextBoxType={
-			position = {x = 129 y = 35 }
+			position = {x = 129 y = 33 }
 			name = "siege_progress"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
@@ -575,7 +575,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="unit_panel_relation"
 			spriteType = "GFX_unit_panel_relation"
-			position = { x= 23 y = 33 }
+			position = { x= 23 y = 32 }
 		}	
 		
 		instantTextBoxType={
@@ -601,13 +601,13 @@ guiTypes = {
 		iconType = {
 			name ="unit_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map"
-			position = { x= 90 y = 39 }
+			position = { x= 88 y = 40 }
 			rotation = 1.5708
 		}	
 		iconType = {
 			name ="unit_panel_moral_bar_yellow"
 			spriteType = "GFX_unitpanel_moralebar_on_map_yellow"
-			position = { x= 90 y = 39 }
+			position = { x= 88 y = 40 }
 			rotation = 1.5708
 		}	
 		iconType =
@@ -791,11 +791,11 @@ guiTypes = {
 		guiButtonType = {
 			name ="unit_panel_relation"
 			spriteType = "GFX_unit_panel_relation"
-			position = { x= 7 y = 33 }
+			position = { x= 7 y = 32 }
 		}	
 		
 		instantTextBoxType={
-			position = {x = 9 y  = 35 }
+			position = {x = 9 y  = 33 }
 			name = "unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
@@ -823,13 +823,13 @@ guiTypes = {
 		iconType = {
 			name ="unit_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map"
-			position = { x= 15 y = 39 }
+			position = { x= 13 y = 40 }
 			rotation = 1.5708
 		}
 		iconType = {
 			name ="unit_panel_moral_bar_yellow"
 			spriteType = "GFX_unitpanel_moralebar_on_map_yellow"
-			position = { x= 15 y = 39 }
+			position = { x= 13 y = 40 }
 			rotation = 1.5708
 		}
 		iconType =

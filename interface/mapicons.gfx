@@ -178,7 +178,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\unitpanel_moralebar_5.dds"
 		textureFile2 = "gfx\\interface\\unitpanel_moralebar_4.dds"
-		size = { x = 17 y = 9 }
+		size = { x = 16 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	progressbartype = {
@@ -187,7 +187,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\unitpanel_moralebar_11.dds"
 		textureFile2 = "gfx\\interface\\unitpanel_moralebar_4.dds"
-		size = { x = 17 y = 9 }
+		size = { x = 16 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -197,7 +197,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\unitpanel_moralebar_5.dds"
 		textureFile2 = "gfx\\interface\\unitpanel_moralebar_10.dds"
-		size = { x = 17 y = 9 }
+		size = { x = 17 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
