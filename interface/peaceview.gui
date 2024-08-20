@@ -464,7 +464,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "summary"
-			position = { x = 264 y = 639 } #was x = 264 y = 420
+			position = { x = 309 y = 640 } #was x = 264 y = 420
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -633,14 +633,15 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "war_name"
-			position = { x = 170 y = 18 }
+			position = { x = 121 y = 18 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "Hundred year war"
-			maxWidth = 360
+			maxWidth = 460
 			maxHeight = 39	
 			format = centre
+			fixedsize = yes
 		}
 		
 		iconType = {
