@@ -38,6 +38,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_info_box"
 		texturefile = "gfx//interface//advisor_info_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_minimap_bg_border"
+		texturefile = "gfx/interface/minimap_bg_border.dds"
 	}	
 	
 }
