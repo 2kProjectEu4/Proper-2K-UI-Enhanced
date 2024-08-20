@@ -192,7 +192,7 @@ guiTypes = {
 			name ="monarch_ruler_personality_list"
 			position = { x= 210 y = 169}
 			backGround=""
-			size = { x=360 y =36}
+			size = { x=220 y =36}
 			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 3
