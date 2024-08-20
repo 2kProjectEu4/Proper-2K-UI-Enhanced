@@ -3383,10 +3383,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 63 y = 975 }
+				position = { x = 63 y = 971 }
 			}
 			spriteType ="GFX_infantry_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		instantTextBoxType = {
@@ -3425,7 +3425,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 129 y = 974 }
+				position = { x = 129 y = 975 }
 			}
 			spriteType ="GFX_cavalry_icon"
 			scale = 0.6
@@ -3467,10 +3467,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 192 y = 977 }
+				position = { x = 192 y = 974 }
 			}
 			spriteType ="GFX_artillery_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		instantTextBoxType = {
@@ -3509,10 +3509,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 259 y = 980 }
+				position = { x = 259 y = 977 }
 			}
 			spriteType ="GFX_land_forcelimit_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		instantTextBoxType = {
@@ -3551,10 +3551,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 381 y = 975 }
+				position = { x = 381 y = 971 }
 			}
 			spriteType ="GFX_infantry_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		instantTextBoxType = {
@@ -3593,7 +3593,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 447 y = 974 }
+				position = { x = 447 y = 975 }
 			}
 			spriteType ="GFX_cavalry_icon"
 			scale = 0.6
@@ -3635,10 +3635,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 504 y = 977 }
+				position = { x = 504 y = 974 }
 			}
 			spriteType ="GFX_artillery_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		instantTextBoxType = {
@@ -3677,10 +3677,10 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 573 y = 980 }
+				position = { x = 573 y = 977 }
 			}
 			spriteType ="GFX_land_forcelimit_icon"
-			scale = 0.6
+			scale = 0.7
 		}
 
 		iconType = {
