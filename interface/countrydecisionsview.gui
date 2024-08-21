@@ -83,7 +83,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 209 y = 3 }
+				position = { x = 211 y = 3 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -98,7 +98,7 @@ guiTypes = {
 			{
 				name ="adm_cost_icon"
 				spriteType = "GFX_icon_powers_administrative"
-				position = { x= 29 y = 55 }
+				position = { x= 30 y = 55 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -106,7 +106,7 @@ guiTypes = {
 			{
 				name ="dip_cost_icon"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x= 29 y = 111 }
+				position = { x= 30 y = 111 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -114,7 +114,7 @@ guiTypes = {
 			{
 				name ="mil_cost_icon"
 				spriteType = "GFX_icon_powers_military"
-				position = { x= 27 y = 165 }
+				position = { x= 30 y = 165 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -122,7 +122,7 @@ guiTypes = {
 			{
 				name ="adm_capacity_icon"
 				spriteType = "GFX_policy_possible_adm"
-				position = { x= 23 y = 27 }
+				position = { x= 23 y = 24 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -131,7 +131,7 @@ guiTypes = {
 			{
 				name ="dip_capacity_icon"
 				spriteType = "GFX_policy_possible_dip"
-				position = { x= 23 y = 83 }
+				position = { x= 23 y = 80 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -140,14 +140,14 @@ guiTypes = {
 			{
 				name ="mil_capacity_icon"
 				spriteType = "GFX_policy_possible_mil"
-				position = { x= 23 y = 137 }
+				position = { x= 23 y = 134 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "adm_cost"
-				position = { x = 55 y = 63 }
+				position = { x = 54 y = 62 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -160,7 +160,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_cost"
-				position = { x = 55 y = 117 }
+				position = { x = 54 y = 117 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -173,7 +173,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_cost"
-				position = { x = 55 y = 173 }
+				position = { x = 54 y = 173 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -186,7 +186,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_capacity"
-				position = { x = 55 y = 36 }
+				position = { x = 54 y = 36 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -199,7 +199,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_capacity"
-				position = { x = 55 y = 90 }
+				position = { x = 54 y = 91 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -212,7 +212,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_capacity"
-				position = { x = 55 y = 147 }
+				position = { x = 54 y = 146 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -247,7 +247,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "modifiers_title"
-				position = { x = 105 y = 207 }
+				position = { x = 102 y = 207 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -286,7 +286,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 191 y = 33 }
+				position = { x = 197 y = 33 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -787,7 +787,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x=42 y =12}
+			position = { x=42 y =8}
 			name = "modifier_value"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
