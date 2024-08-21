@@ -377,7 +377,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//institutions//institution_progress_bar_large.dds"
 		textureFile2 = "gfx//interface//institutions//institution_progress_transparent.dds"
-		size = { x = 360 y = 24 }
+		size = { x = 360 y = 22 }
 		effectFile = "gfx//FX//progress.lua"
 	}
 
