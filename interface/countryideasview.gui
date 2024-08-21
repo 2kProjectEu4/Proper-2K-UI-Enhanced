@@ -58,7 +58,7 @@ guiTypes = {
 		{
 			name ="unique_ideas_category"
 			spriteType = "GFX_shield_thin"
-			position = { x= 18 y = 156 }
+			position = { x= 3 y = 156 }
 			Orientation = "UPPER_LEFT"
 		}		
 
@@ -140,7 +140,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "unique_ideas"
-				position = { x = 101 y = 193 }
+				position = { x = 87 y = 193 }
 				size = { x = 480 y = 57 }
 				Orientation = "UPPER_LEFT"
 				format = centre
@@ -151,7 +151,7 @@ guiTypes = {
 		{
 			name ="idea_unique_progress"
 			spriteType = "GFX_ideaView_unique_progressbar"
-			position = { x= 124 y = 265 }
+			position = { x= 110 y = 265 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_nationalidea"
 		}
@@ -160,13 +160,13 @@ guiTypes = {
 		{
 			name ="progress_frame_army"
 			spriteType = "GFX_ideaView_unique_progress_frame_long"
-			position = { x = 111 y = 261 }
+			position = { x = 97 y = 261 }
 		}		
 		
 		listboxType = {
 			name = "ideagroups_listbox_left"
 			backGround = ""
-			position = { x=27 y=291 }#expanded
+			position = { x=124 y=291 }#expanded
 			if_resolution = {
 				max_height = 899
 				size = { x=303 y=420 }
@@ -190,7 +190,7 @@ guiTypes = {
 		listboxType = {
 			name = "ideagroups_listbox_right"
 			backGround = ""
-			position = { x=333 y=291 }	#expanded
+			position = { x=124 y=387 }	#expanded
 			if_resolution = {
 				max_height = 899
 				size = { x=303 y=420 }
@@ -209,6 +209,7 @@ guiTypes = {
 			spacing = 1.0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
 		}		
 
 		################################################################################################
@@ -376,7 +377,7 @@ guiTypes = {
 		name = "countryideaview_ideagroupitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=77 y=96 }
+		size = { x=77 y=192 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -385,7 +386,7 @@ guiTypes = {
 		{
 			name ="ideas_category_bg"
 			spriteType = "GFX_ideaView_entry_bg"
-			position = { x= 0 y = 0 }
+			position = { x= 4 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -393,23 +394,33 @@ guiTypes = {
 		{
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
-			position = { x= 0 y = 23 }
+			position = { x= -4 y = -11 }
 			Orientation = "UPPER_LEFT"
-		}	
+			alwaystransparent = yes
+		}
+
+		iconType =
+		{
+			name ="ideas_category_border"
+			spriteType = "GFX_idea_group_frame"
+			position = { x= 10 y = 2 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}		
 		
 		
 		iconType =
 		{
 			name ="ideas_cost"
 			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 3 y = 3 }
+			position = { x= 107 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}				
 				
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
-			position = { x = 36 y = 4 }
+			position = { x = 140 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -423,7 +434,7 @@ guiTypes = {
 		{
 			name ="ideas_bonus_icon"
 			spriteType = "GFX_ideas_bonus_strip"
-			position = { x = 270 y = 3 }
+			position = { x = 374 y = 3 }
 			Orientation = "UPPER_LEFT"
 
 		}	
@@ -432,15 +443,15 @@ guiTypes = {
 		{
 			name ="abandon_idea_button"
 			quadTextureSprite= "GFX_abandon_idea"
-			position = { x= 243 y = 6 }
+			position = { x= 347 y = 6 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ideas"
 		}
 		
 		OverlappingElementsBoxType = {
 				name = "ideas"
-				position = { x = 62 y = 60 }
-				size = { x = 240 y = 96 }
+				position = { x = 103 y = 59 }
+				size = { x = 290 y = 96 }
 				Orientation = "UPPER_LEFT"
 				format = left
 				spacing = 3
@@ -450,7 +461,7 @@ guiTypes = {
 		{
 			name ="idea_progress"
 			spriteType = "GFX_ideaView_progressbar"
-			position = { x= 79 y = 72 }
+			position = { x= 115 y = 77 }
 			Orientation = "UPPER_LEFT"
 		}	
 
@@ -458,7 +469,7 @@ guiTypes = {
 		{
 			name ="progress_frame_army"
 			spriteType = "GFX_ideaView_progress_frame_long"
-			position = { x = 67 y = 69 }
+			position = { x = 108 y = 74 }
 		}	
 	}
 	
@@ -550,7 +561,7 @@ guiTypes = {
 		name = "countryideaview_ideaitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=29 y=29 }
+		size = { x=38 y=38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -561,7 +572,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 5 y = -30 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.55
+			scale = 0.7
 			hint_tag = "hint_ideas"
 		}
 		
@@ -569,16 +580,18 @@ guiTypes = {
 		{
 			name ="idea_icon_can_unlock"
 			spriteType = "GFX_idea_view_nextunlock"
-			position = { x= 3 y = -36 }
+			position = { x= 3 y = -34 }
 			Orientation = "UPPER_LEFT"
+			scale = 1.2
 		}
 
 		iconType =
 		{
 			name ="idea_icon_cannot_unlock"
 			spriteType = "GFX_idea_view_cannotunlock"
-			position = { x= 3 y = -36 }
+			position = { x= 3 y = -35 }
 			Orientation = "UPPER_LEFT"
+			scale = 1.2
 		}
 		
 		guiButtonType =
@@ -587,7 +600,7 @@ guiTypes = {
 			quadTextureSprite= "GFX_idea_empty"
 			position = { x= 5 y = -30 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.55
+			scale = 0.7
 			hint_tag = "hint_ideas"
 		}
 	}
@@ -599,7 +612,7 @@ guiTypes = {
 		name = "countryideaview_ideagroupunlockitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=306 y=96 }
+		size = { x=306 y=192 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -622,18 +635,18 @@ guiTypes = {
 		{
 			name ="available_idea_glow"
 			spriteType = "GFX_available_idea_glow"
-			position = { x= -3 y = -3 }
+			position = { x= 3 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "txt"
-			position = { x = -1 y = 6 }
+			position = { x = 6 y = 6 }
 			textureFile = ""
-			font = "Stellaris_Small"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "UNLOCK"	
-			maxWidth = 310
+			maxWidth = 410
 			maxHeight = 14
 			format = left
 			alwaystransparent = yes
@@ -666,9 +679,10 @@ guiTypes = {
 		{
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
-			position = { x= 11 y = 13 }
+			position = { x= 10 y = 12 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
+			scale = 0.64
 		}		
 		
 		iconType =

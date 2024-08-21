@@ -45,4 +45,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/minimap_bg_border.dds"
 	}	
 	
+	spriteType = {
+		name = "GFX_idea_group_frame"
+		texturefile = "gfx/interface/idea_group_frame.dds"
+	}	
+	
 }
