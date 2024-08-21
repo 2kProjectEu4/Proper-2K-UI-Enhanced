@@ -166,7 +166,7 @@ guiTypes = {
 		listboxType = {
 			name = "ideagroups_listbox_left"
 			backGround = ""
-			position = { x=124 y=291 }#expanded
+			position = { x=124 y=301 }#expanded
 			if_resolution = {
 				max_height = 899
 				size = { x=303 y=420 }
@@ -190,7 +190,7 @@ guiTypes = {
 		listboxType = {
 			name = "ideagroups_listbox_right"
 			backGround = ""
-			position = { x=124 y=387 }	#expanded
+			position = { x=124 y=397 }	#expanded
 			if_resolution = {
 				max_height = 899
 				size = { x=303 y=420 }
