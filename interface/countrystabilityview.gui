@@ -1100,7 +1100,7 @@ guiTypes = {
 		{
 			name ="progress_target"
 			spriteType = "GFX_rebelsView_progressbar_long"
-			position = { x= 56 y = 64 }
+			position = { x= 58 y = 64 }
 			Orientation = "UPPER_LEFT"
 		}
 

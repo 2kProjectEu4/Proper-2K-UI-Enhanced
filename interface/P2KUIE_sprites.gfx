@@ -49,5 +49,9 @@ spriteTypes = {
 		name = "GFX_idea_group_frame"
 		texturefile = "gfx/interface/idea_group_frame.dds"
 	}	
-	
+	spriteType = {
+		name = "GFX_ideaView_progress_frame_long_ideas"
+		texturefile = "gfx/interface/ideaView_progress_frame_long_ideas.dds"
+		alwaystransparent = yes
+	}
 }

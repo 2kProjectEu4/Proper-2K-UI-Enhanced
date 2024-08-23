@@ -469,7 +469,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="progress_frame_army"
-			spriteType = "GFX_ideaView_progress_frame_long"
+			spriteType = "GFX_ideaView_progress_frame_long_ideas"
 			position = { x = 108 y = 74 }
 		}	
 	}
