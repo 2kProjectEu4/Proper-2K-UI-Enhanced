@@ -342,7 +342,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x=411 y =54}
+				position = { x=409 y =54}
 				name = "policy_title"
 				font = "vic_29"
 				borderSize = {x = 0 y = 0}	
@@ -354,7 +354,7 @@ guiTypes = {
 			}			
 			
 			instantTextBoxType= {
-				position = { x=33 y =105}
+				position = { x=37 y =96}
 				name = "adm_title"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -366,7 +366,7 @@ guiTypes = {
 			}	
 
 			instantTextBoxType= {
-				position = { x=363 y =105}
+				position = { x=319 y =96}
 				name = "adm_count"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -378,7 +378,7 @@ guiTypes = {
 			}				
 
 			instantTextBoxType= {
-				position = { x=423 y =105}
+				position = { x=427 y =96}
 				name = "dip_title"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -390,7 +390,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType= {
-				position = { x=753 y =105}
+				position = { x=696 y =96}
 				name = "dip_count"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -402,7 +402,7 @@ guiTypes = {
 			}		
 
 			instantTextBoxType= {
-				position = { x=810 y =105}
+				position = { x=814 y =96}
 				name = "mil_title"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -414,7 +414,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType= {
-				position = { x=1137 y =105}
+				position = { x=1068 y =96}
 				name = "mil_count"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -429,21 +429,21 @@ guiTypes = {
 			{
 				name ="adm_cost"
 				spriteType = "GFX_icon_powers_administrative"
-				position = { x= 43 y = 96}
+				position = { x= 84 y = 89}
 				Orientation = "UPPER_LEFT"
 			}	
 			iconType =
 			{
 				name ="dip_cost"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x= 432 y = 96 }
+				position = { x= 488 y = 89 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="mil_cost"
 				spriteType = "GFX_icon_powers_military"
-				position = { x= 819 y = 96 }
+				position = { x= 890 y = 89 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -522,7 +522,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = { x = 21 y = 138 }
+				position = { x = 15 y = 138 }
 				name = "no_policy_explanation"
 				borderSize = {x = 0 y = 0 }	
 				maxWidth = 840
@@ -547,7 +547,7 @@ guiTypes = {
 					min_height = 1080
 				position = { x= 540 y = 1059 }
 				}
-				quadTextureSprite ="GFX_button_straight_87_32"	
+				quadTextureSprite ="GFX_standard_button_71"	
 				buttonText = "BACK"
 				buttonFont = "vic_18"
 				shortcut = "z"			
@@ -607,12 +607,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x= 405 y = 0 }
+			position = { x= 380 y = 0 }
 			orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name = "select_button"
-			position = { x= 450 y =0 }
+			position = { x= 425 y =0 }
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""
@@ -670,12 +670,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x=405 y = 0 }
+			position = { x=380 y = 0 }
 			orientation = "UPPER_LEFT"
 		}		
 		guiButtonType = {
 			name = "select_button"
-			position = { x=450 y = 0 }
+			position = { x=425 y = 0 }
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""

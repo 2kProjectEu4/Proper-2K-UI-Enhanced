@@ -258,7 +258,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "dip_header"
-				position = { x = 420 y = 27 }
+				position = { x = 414 y = 27 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
@@ -270,7 +270,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_header"
-				position = { x = 804 y = 27 }
+				position = { x = 797 y = 27 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
@@ -696,7 +696,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
-			position = { x = 54 y = 9 }
+			position = { x = 54 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	

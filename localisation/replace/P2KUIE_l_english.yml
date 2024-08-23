@@ -8,3 +8,6 @@
  CV_TECH_RESEARCH_MAXED:0 "                       Researched all technologies."
  tech_sidewindow_institution_tooltip:0 "The impact of non-embraced institutions on technology costs."
  TECH_LOG:0 "Our $TYPE$ tech level increased by 1"
+ POLICYVIEW_ADMINISTRATIVE:0 "Administrative Policies:"
+ POLICYVIEW_DIPLOMATIC:0 "Diplomatic Policies:"
+ POLICYVIEW_MILITARY:0 "Military Policies:"
