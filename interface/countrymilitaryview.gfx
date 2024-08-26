@@ -165,7 +165,7 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_military_view_unit_bg"
-		texturefile = "gfx//interface//military_view_unit_bg.dds"
+		texturefile = "gfx//interface//military_view_unit_huge_bg.dds"
 	}
 	spriteType = {
 		name = "GFX_military_view_select_unit"
