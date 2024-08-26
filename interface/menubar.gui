@@ -121,11 +121,10 @@ guiTypes = {
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				buttonText = "  "
-				buttonFont = "vic_18"
+				buttonText = "  "^
 				Orientation = "UPPER_LEFT"
-				size = { x = 840 y = 19  }
-				buttonFont = "vic_18"
+				size = { x = 1000 y = 23  }
+				buttonFont = "Stellaris_Small"
 				format = left
 			}		
 		
@@ -1438,9 +1437,9 @@ guiTypes = {
 		{
 			name = "messagelog_window"
 			backGround=""
-			position = { x=-1590 y=-120 }	
-			show_position = { x=-1590 y=-120 }
-			hide_position = { x=-1590 y=12 }
+			position = { x=-1750 y=-120 }	
+			show_position = { x=-1750 y=-120 }
+			hide_position = { x=-1750 y=42 }
 			animation_type = "decelerated"
 			animation_time = 1000
 			size = { x=924 y=120 }	
@@ -1455,19 +1454,19 @@ guiTypes = {
 			{
 				name ="log_bg"
 				spriteType = "GFX_log_bg"
-				position = { x= 0 y = -12 }
+				position = { x= 0 y = -40 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			listboxType = 
 			{
 				name ="messagelog"
-				position = { x = 144 y = 12 }
+				position = { x = 144 y = 14 }
 				backGround=""
-				size = { x= 858 y = 108}
+				size = { x= 1018 y = 108}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
-				spacing = 6
+				spacing = 8
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
@@ -1476,54 +1475,54 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "messagecat_combat"
-				position = { x=270 y=-132 }
+				position = { x=306 y=-150 }
 				quadTextureSprite ="GFX_msg_log_combat"
 				Orientation = "LOWER_LEFT"
 			}
 		
 			checkboxType = {
 				name = "messagecat_diplomacy"
-				position = { x=240 y=-132 }
+				position = { x=276 y=-150 }
 				quadTextureSprite ="GFX_msg_log_diplo"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_government"
-				position = { x=210 y=-132 }
+				position = { x=246 y=-150 }
 				quadTextureSprite ="GFX_msg_log_gov"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_trade"
-				position = { x=180 y=-132 }
+				position = { x=216 y=-150 }
 				quadTextureSprite ="GFX_msg_log_trade"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_events"
-				position = { x=150 y=-132 }
+				position = { x=186 y=-150 }
 				quadTextureSprite ="GFX_msg_log_event"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "logfilter_me"
-				position = { x=115 y=-121 }
+				position = { x=118 y=-117 }
 				quadTextureSprite ="GFX_checkbox_logfilter_me"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_interesting"
-				position = { x=115 y=-81 }
+				position = { x=118 y=-79 }
 				quadTextureSprite ="GFX_checkbox_logfilter_interesting"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_other"
-				position = { x=115 y=-42 }
+				position = { x=118 y=-41 }
 				quadTextureSprite ="GFX_checkbox_logfilter_other"
 				Orientation = "LOWER_LEFT"
 			}
@@ -1704,28 +1703,28 @@ guiTypes = {
 				
 				checkboxType = {
 					name = "msg_icons_filter_me"
-					position = { x = -18 y = 267 }
+					position = { x = 12 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_me"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_interesting"
-					position = { x = 36 y = 267 }
+					position = { x = 66 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_interesting"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_other"
-					position = { x = 93 y = 267 }
+					position = { x = 120 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_other"
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name = "menubar_msg_settings"
-					position = { x = 147 y = 267 }
+					position = { x = 174 y = 265 }
 					quadTextureSprite ="GFX_messages_settings"
 					Orientation = "UPPER_LEFT"
 					clicksound = click
@@ -1735,9 +1734,9 @@ guiTypes = {
 				{
 					name ="message_list"
 					background = ""
-					position = { x=-27 y=102 }
+					position = { x=-29 y=99 }
 					orientation = "UPPER_LEFT"
-					size = { x=300 y=162 }
+					size = { x=302 y=162 }
 					borderSize = {x = 0 y = 0}
 					scrollbartype = "standardlistbox_slider"
 				}
@@ -1745,7 +1744,7 @@ guiTypes = {
 			
 			windowType = {
 				name = "toggle_message_interface_window"
-				position = { x = 233 y = -100 }
+				position = { x = 233 y = 8 }
 				size = { x=39 y= 24 }
 				Orientation = "UPPER_LEFT"
 				backGround=""
