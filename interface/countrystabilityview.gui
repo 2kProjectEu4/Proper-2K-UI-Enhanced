@@ -629,7 +629,7 @@ guiTypes = {
 		{
 			name ="national_unrest_icon"
 			spriteType = "GFX_icon_national_unrest"
-			position = { x= 493 y = 380 }
+			position = { x= 503 y = 380 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.6
     	}
@@ -1044,7 +1044,7 @@ guiTypes = {
 		{
 			name ="army_type"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 459 y = 15}
+			position = { x= 462 y = 15}
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -1067,7 +1067,7 @@ guiTypes = {
 		{
 			name ="icon_provs"
 			spriteType = "GFX_icon_overextension"	#TODO replace
-			position = { x= 357 y = 16}
+			position = { x= 358 y = 16}
 			Orientation = "UPPER_LEFT"
 			scale = 0.85
 		}
