@@ -658,7 +658,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/council_of_ten/single_government_power_bar_red.dds"
 		textureFile2 = "gfx/interface/government_mechanics/council_of_ten/single_government_power_empty.dds"
-		size = { x = 280 y = 14 }
+		size = { x = 280 y = 21 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	# 25 Blood Gathering
@@ -690,7 +690,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/blood_gathering/aztec_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/blood_gathering/aztec_progress_bar_empty.dds"
-		size = { x = 270 y = 14 }
+		size = { x = 270 y = 18 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	# 26 Divine Authority
@@ -722,7 +722,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/divine_authority/inca_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/divine_authority/inca_progress_bar_empty.dds"
-		size = { x = 270 y = 14 }
+		size = { x = 270 y = 18 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 }

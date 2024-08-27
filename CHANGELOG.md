@@ -2,14 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+# 27.08.2024 changes:
+
+- Adjusted government mechanics windows
+
 # 19.08.2024 changes:
+
 - Adjusted government types progressbars
 - Adjusted army/navy/siege map progress bars
 - Adjusted text and banner for army map element
+- Adjusted stability progressbar
 - Fixed missing special unit (mamluk, qizilbash) background for reorg_window
 - Improved attrition image quality
 
 # 16.08.2024 changes:
+
 - Adjusted relation modifier in diplomacy view shield item
 - Adjusted the size of policy lists to display the scrollbar correctly when visible.
 - Changed coring progressbar and frame to be like the vanilla version.
@@ -27,10 +34,10 @@ All notable changes to this project will be documented in this file.
 - Adjusted jewish, anglican and hussite aspects windows
 - Adjusted protestant aspect view
 - Adjusted religion back buttons
-- Decreased decision name max length  
+- Decreased decision name max length
 - Enlarged fetishist overlay bg and adjusted cult view
 - Fixed plati firearm regiments icon missing
-- Redesigned advisors court view 
+- Redesigned advisors court view
 
 # 09.08.2024 changes:
 

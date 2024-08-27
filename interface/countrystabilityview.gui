@@ -101,7 +101,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "stability"
-			position = { x = 66 y = 240 }
+      position = { x = 66 y = 240 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -488,7 +488,7 @@ guiTypes = {
 		{
 			name ="govcap_progress"
 			spriteType = "GFX_default_progressbar"
-			position = { x= 57 y = 383 }
+			position = { x= 57 y = 384 }
 			Orientation = "UPPER_LEFT"
 		}
 

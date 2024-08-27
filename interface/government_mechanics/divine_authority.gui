@@ -1,7 +1,7 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "divine_authority_gov_mech"
-		size = { x = 300 y = 65 }
+		size = { x = 300 y = 75 }
 		moveable = 0
 	
 		# Background
@@ -9,21 +9,22 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_divine_authority_bg"
 			alwaystransparent = yes
-			position = { x = -16 y = 60 }
+			scale = 1.1
+			position = { x = -42 y = 70 }
 		}
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_divine_authority_bar"
-			position = { x = 60 y = 50 }
+			position = { x = 51 y = 47 }
 		}
 
 		# Progressbar Frame
 		iconType = {
 			name = "frame_background"
 			spriteType = "GFX_divine_authority"
-			position = { x = 20 y = -5 }
+			position = { x = 11 y = -5 }
 			alwaystransparent = yes
 		}
 	}

@@ -8,14 +8,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_cultural_unity_power_bar"
-			position = { x = 20 y = 60 }
+			position = { x = 30 y = 63 }
 		}
 
 		# Frame
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_cultural_unity_mechanic"
-			position = { x = 0 y = 0 }
+			position = { x = 10 y = 0 }
 			alwaystransparent = yes
 		}
 	}
