@@ -16,7 +16,7 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_council_of_ten_bar"
-			position = { x = 35 y = 8 }
+			position = { x = 45 y = -2 }
 		}
 
 		# Progressbar Frame
@@ -24,7 +24,7 @@ guiTypes = {
 			name = "frame_background"
 			spriteType = "GFX_council_of_ten"
 			alwaystransparent = yes
-			position = { x = 27 y = 0 }
+			position = { x = 33 y = -5 }
 		}
 	}
 	

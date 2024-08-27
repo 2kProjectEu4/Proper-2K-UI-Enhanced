@@ -101,7 +101,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "stability"
-			position = { x = 71 y = 243 }
+			position = { x = 71 y = 242 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -124,7 +124,7 @@ guiTypes = {
 		{
 			name ="stability_negative_progress"
 			spriteType = "GFX_stability_negative_progressbar"
-			position = { x= 49 y = 282 }
+			position = { x= 49 y = 280 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -132,7 +132,7 @@ guiTypes = {
 		{
 			name ="stability_positive_progress"
 			spriteType = "GFX_stability_positive_progressbar"
-			position = { x= 123 y = 282 }
+			position = { x= 123 y = 280 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -153,7 +153,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "stability_value"
-			position = { x = 107 y = 276 }
+			position = { x = 107 y = 274 }
 			textureFile = ""
 			font = "vic_18_vanilla"
 			borderSize = {x = 5 y = 5}
@@ -188,7 +188,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "overex"
-			position = { x = 297 y = 243 }
+			position = { x = 297 y = 242 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -386,7 +386,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "colonial_exp"
-			position = { x = 521 y = 243 }
+			position = { x = 521 y = 242 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -488,7 +488,7 @@ guiTypes = {
 		{
 			name ="govcap_progress"
 			spriteType = "GFX_default_progressbar"
-			position = { x= 57 y = 383 }
+			position = { x= 57 y = 384 }
 			Orientation = "UPPER_LEFT"
 		}
 

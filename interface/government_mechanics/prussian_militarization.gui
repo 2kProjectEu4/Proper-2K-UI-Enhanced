@@ -11,14 +11,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_prussian_militarization_power_bar"
-			position = { x = 19 y = 59 }
+			position = { x = 30 y = 61 }
 		}	
 
 		# Frame
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_prussian_militarization_frame"
-			position = { x = 0 y = 0 }
+			position = { x = 12 y = 0 }
 			alwaystransparent = yes
 		}	
 
@@ -26,7 +26,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_prussian_militarization_upgrade"
-			position = { x = 12 y = 6 }
+			position = { x = 24 y = 3 }
 			buttonFont = "vic_18"
 			clicksound = back_click
 		}
@@ -41,21 +41,21 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_prussian_militarization_power_bar"
-			position = { x = 19 y = 59 }
+			position = { x = 30 y = 61 }
 		}	
 
 		# Frame
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_prussian_militarization_frame"
-			position = { x = 0 y = 0 }
+			position = { x = 12 y = 0 }
 			alwaystransparent = yes
 		}
 	}
 
 	windowType = {
 		name = "prussian_militarization_gov_mech_3_interaction"
-		size = { x = 120 y = 60 }
+		size = { x = 123 y = 60 }
 		moveable = 0
 
 		# Interaction button, graphics replaced from the interaction icon specification

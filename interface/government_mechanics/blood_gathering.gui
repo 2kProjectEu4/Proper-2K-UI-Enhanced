@@ -1,7 +1,7 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "blood_gathering_gov_mech"
-		size = { x = 400 y = 40 }
+		size = { x = 450 y = 26 }
 		moveable = 0
 	
 		# Background
@@ -9,21 +9,21 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_blood_gathering_bg"
 			alwaystransparent = yes
-			position = { x = -16 y = 35 }
+			position = { x = -25 y = 25 }
 		}
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_blood_gathering_bar"
-			position = { x = 54 y = 8 }
+			position = { x = 46 y = 1 }
 		}
 
 		# Progressbar Frame
 		iconType = {
 			name = "frame_background"
 			spriteType = "GFX_blood_gathering"
-			position = { x = 30 y = 0 }
+			position = { x = 22 y = -7 }
 			alwaystransparent = yes
 		}
 	}
