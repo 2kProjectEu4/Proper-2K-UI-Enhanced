@@ -306,7 +306,7 @@ guiTypes = {
 		windowType = {
 			name = "mapmode_list_window"
 			backGround=""
-			position = { x=-348 y=-618 }	
+			position = { x=-351 y=-601 }	
 			size = { x=339 y=291 }
 			moveable = 0
 			dontRender = ""
@@ -338,8 +338,8 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				backGround = ""
-				position = { x=9 y=43 }
-				size = { x=312 y=303 }
+				position = { x=15 y=43 }
+				size = { x=305 y=303 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2.5
