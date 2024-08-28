@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+# 29.08.2024 changes:
+- Enlarged and adjusted topbar elements
+
 # 28.08.2024 Xyarvius changes:
 
 - Adjusted size of declare war military icons
