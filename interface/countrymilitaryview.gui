@@ -1830,7 +1830,7 @@ guiTypes = {
 		iconType = {
 			name ="military_view_unit_bg"
 			spriteType = "GFX_military_view_unit_bg"
-			position = { x= 45 y = 243 }
+			position = { x= 45 y = 254 }
 		}
 
 		instantTextBoxType = {
@@ -1848,19 +1848,19 @@ guiTypes = {
 		iconType = {
 			name ="icon_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 420 y = 210 }
+			position = { x= 420 y = 213 }
 			hint_tag = "hint_fire"
 		}
 		iconType = {
 			name ="icon_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 465 y = 210 }
+			position = { x= 463 y = 214 }
 			hint_tag = "hint_shock"
 		}
 		iconType = {
 			name ="icon_morale"
 			spriteType = "GFX_icon_morale"
-			position = { x= 507 y = 210 }
+			position = { x= 509 y = 216 }
 			hint_tag = "hint_unitmorale"
 		}
 
@@ -1868,19 +1868,19 @@ guiTypes = {
 		{
 			name ="icon_tech"
 			spriteType = "GFX_icon_powers_military_tech"
-			position = { x= 557 y = 210 }
+			position = { x= 552 y = 216 }
 			hint_tag = "hint_technology"
 		}
 
 		checkboxType = {
 			name = "show_outdated_checkbox"
-			position = { x= 48 y = 213 }
+			position = { x= 53 y = 213 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 
 		instantTextBoxType = {
 			name = "show_outdated_label"
-			position = { x = 90 y = 223 }
+			position = { x = 95 y = 222 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1894,9 +1894,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="domesticpanel_unit_select_list"
-			position = { x=45 y =249}
+			position = { x=45 y =258}
 			backGround=""
-			size = { x=552 y =727}
+			size = { x=552 y =780}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -1906,7 +1906,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "back_button"
-				position = { x=288 y =997}
+				position = { x=285 y =1038}
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -1935,7 +1935,7 @@ guiTypes = {
 		{
 			name ="unit_selection_button"
 			quadTextureSprite= "GFX_military_view_select_unit"
-			position = { x= 24 y = 0 }
+			position = { x= 10 y = 0 }
 			clicksound = preferred_unit
 		}
 
@@ -1947,7 +1947,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 240
+			maxWidth = 300
 			maxHeight = 24
 			fixedsize = yes
 			alwaysTransparent = yes

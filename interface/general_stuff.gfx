@@ -879,7 +879,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\provinceView_progressbar_w92_h11_red.dds"
 		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
-		size = { x = 111 y = 13 }
+		size = { x = 118 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -889,7 +889,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\ideaView_progressbar_w178_h10_red.dds"
 		textureFile2 = "gfx\\interface\\ideaView_progressbar_w178_h10_black.dds"
-		size = { x = 213 y = 13 }
+		size = { x = 219 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -920,7 +920,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\ideaView_progressbar_w178_h10_green.dds"
 		textureFile2 = "gfx\\interface\\ideaView_progressbar_w178_h10_red.dds"
-		size = { x = 213 y = 13 }
+		size = { x = 282 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	

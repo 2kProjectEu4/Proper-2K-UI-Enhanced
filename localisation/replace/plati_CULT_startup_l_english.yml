@@ -208,7 +208,7 @@
  ###
  
  CV_IDEAS_UNLOCK_ADM_LEVEL:0 "$NAME$"
- CV_IDEAS_GROUP_UNLOCK:0 "                             Free Slot"
+ CV_IDEAS_GROUP_UNLOCK:0 "                                           Free Slot"
  
  in_case_of_name_issues:0 "£PLATI_TEST_ICON£    Pike \n                           Square"            # 4 spaces between name and img; 27 after 
  

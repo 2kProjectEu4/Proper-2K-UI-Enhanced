@@ -38,6 +38,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_info_box"
 		texturefile = "gfx//interface//advisor_info_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_minimap_bg_border"
+		texturefile = "gfx/interface/minimap_bg_border.dds"
 	}	
 	
+	spriteType = {
+		name = "GFX_idea_group_frame"
+		texturefile = "gfx/interface/idea_group_frame.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideaView_progress_frame_long_ideas"
+		texturefile = "gfx/interface/ideaView_progress_frame_long_ideas.dds"
+		alwaystransparent = yes
+	}
 }

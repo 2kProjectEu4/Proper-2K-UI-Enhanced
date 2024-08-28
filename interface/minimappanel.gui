@@ -5,11 +5,19 @@ guiTypes = {
 		Orientation = "LOWER_RIGHT"
 		moveable = 0
 		#position = { x = 600 y = 600 }
-
+		
+		iconType =
+		{
+			name ="minimap_bg_border"
+			spriteType = "GFX_minimap_bg_border"
+			position = { x= -338 y = -178 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}				  
 		# Find more mapmodes in mapmode_more.gui.
 		guiButtonType = {
 			name = "zoom_in"
-			position = { x = -33 y = -66 }
+			position = { x = -33 y = -65 }
 			quadTextureSprite ="GFX_zoom_in"
 			buttonFont = "Main_14_black"
 
@@ -26,7 +34,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "history_button"
-			position = { x = -231 y = -42 }
+			position = { x = -234 y = -43 }
 			quadTextureSprite ="GFX_history_button02"
 			buttonFont = "Main_14_black"
 			Orientation = "LOWER_RIGHT"
@@ -34,7 +42,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "menubar_modifiers_button"
-			position = { x = -183 y = -42 }
+			position = { x = -186 y = -43 }
 			quadTextureSprite ="GFX_triggered_modifiers_button"
 			buttonFont = "Main_14_black"
 			clicksound = click
@@ -43,7 +51,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "menu_button"
-			position = { x = -331 y = -42 }
+			position = { x = -331 y = -43 }
 			quadTextureSprite ="GFX_menu_button"
 			buttonFont = "Main_14_black"
 
@@ -52,7 +60,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "ledger_button"
-			position = { x = -282 y = -42 }
+			position = { x = -283 y = -43 }
 			quadTextureSprite ="GFX_ledger_button"
 			buttonFont = "Main_14_black"
 
@@ -62,7 +70,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "button_goto"
-			position = { x = -137 y = -42 }
+			position = { x = -139 y = -43 }
 			quadTextureSprite ="GFX_button_goto"
 			buttonFont = "Main_14_black"
 			shortcut = "f"
@@ -73,7 +81,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button_pick_shortcut"
-			position = { x = -87 y = -41 }
+			position = { x = -87 y = -42 }
 			quadTextureSprite ="GFX_hotkey_button"
 			pdx_tooltip = "ASSIGN_HOTKEY_TITLE"
 			buttonFont = "Main_14_black"
@@ -83,7 +91,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "closebutton"
-			position = { x = -363 y = -41 }
+			position = { x = -363 y = -40 }
 			quadTextureSprite ="GFX_closelog_button"
 			tooltip = ""
 			tooltipText =""
@@ -97,7 +105,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "OPENbutton"
-			position = { x = -363 y = -42 }
+			position = { x = -363 y = -40 }
 			quadTextureSprite ="GFX_openlog_button"
 			tooltip = ""
 			tooltipText =""
@@ -298,7 +306,7 @@ guiTypes = {
 		windowType = {
 			name = "mapmode_list_window"
 			backGround=""
-			position = { x=-348 y=-618 }	
+			position = { x=-351 y=-601 }	
 			size = { x=339 y=291 }
 			moveable = 0
 			dontRender = ""
@@ -330,8 +338,8 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				backGround = ""
-				position = { x=9 y=43 }
-				size = { x=312 y=303 }
+				position = { x=15 y=43 }
+				size = { x=305 y=303 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2.5

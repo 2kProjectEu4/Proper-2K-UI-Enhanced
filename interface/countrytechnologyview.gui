@@ -131,13 +131,13 @@ guiTypes = {
 			iconType = {
 				name = "mod_institution_spread_icon"
 				spriteType = "GFX_institution_spread_icon"
-				position = { x= 24 y = 24 }
+				position = { x= 24 y = 23 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			instantTextBoxType = {
 				name = "mod_institution_spread"
-				position = { x = 57 y = 30 }
+				position = { x = 63 y = 27 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}	
@@ -150,13 +150,13 @@ guiTypes = {
 			iconType = {
 				name ="mod_embracement_cost_icon"
 				spriteType = "GFX_institution_embracement_cost_icon"
-				position = { x= 325 y = 24 }
+				position = { x= 328 y = 24 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			instantTextBoxType = {
 				name = "mod_embracement_cost"
-				position = { x = 359 y = 30 }
+				position = { x = 360 y = 27 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}	
@@ -170,7 +170,7 @@ guiTypes = {
 			{
 				name ="embrace_button"
 				quadTextureSprite= "GFX_standard_button_105"
-				position = { x = 453 y = 369 }
+				position = { x = 455 y = 370 }
 				Orientation = "UPPER_LEFT"
 				buttonText = "BUTTON_EMBRACE"
 				buttonFont = "vic_18"
@@ -178,9 +178,9 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "name"
-				position = { x = 33 y = 187 }
+				position = { x = 25 y = 188 }
 				textureFile = ""
-				font = "vic_29s"
+				font = "vic_36"
 				borderSize = {x = 5 y = 5}	
 				maxWidth = 276
 				maxHeight = 39
@@ -189,7 +189,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "when_embraced_label"
-				position = { x = 33 y = 228 }
+				position = { x = 27 y = 228 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
@@ -213,18 +213,18 @@ guiTypes = {
 			iconType = {
 				name = "country_progress"
 				spriteType = "GFX_institution_progress"
-				position = { x = 47 y = 377 }
+				position = { x = 44 y = 377 }
 			}
 			
 			iconType = {
 				name = "country_progress_frame"
 				spriteType = "GFX_institution_progress_frame"
-				position = { x = 31 y = 372 }
+				position = { x = 28 y = 372 }
 			}			
 			
 			instantTextBoxType = {
 				name = "country_progress_label"
-				position = { x = 33 y = 341 }
+				position = { x = 26 y = 341 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
@@ -236,7 +236,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "origin"
-				position = { x = 317 y = 189 }
+				position = { x = 317 y = 190 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
@@ -251,7 +251,7 @@ guiTypes = {
 			{
 				name ="goto_origin"
 				quadTextureSprite= "GFX_standard_button_105"
-				position = { x = 480 y = 222 }
+				position = { x = 478 y = 222 }
 				Orientation = "UPPER_LEFT"
 				buttonText = "GOTO_GOTO"
 				buttonFont = "vic_18"
@@ -260,7 +260,7 @@ guiTypes = {
 			iconType = {
 				name = "spread_info_icon"
 				spriteType = "GFX_institution_spread_conditions"
-				position = { x = 343 y = 189 }
+				position = { x = 331 y = 189 }
 			}
 			
 			instantTextBoxType = {
@@ -841,9 +841,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_heavy_ship_name"
-			position = { x = 461 y = 71 }
+			position = { x = 461 y = 72 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Big ship"	
 			maxWidth = 192
@@ -877,9 +877,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_light_ship_name"
-			position = { x = 461 y = 108 }
+			position = { x = 461 y = 109 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Light ship"	
 			maxWidth = 192
@@ -914,9 +914,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_galley_name"
-			position = { x = 461 y = 143 }
+			position = { x = 461 y = 144 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Galley"	
 			maxWidth = 192
@@ -950,9 +950,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_transport_name"
-			position = { x = 461 y = 179 }
+			position = { x = 461 y = 180 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Transport"	
 			maxWidth = 192
@@ -1301,9 +1301,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_infantry_name"
-			position = { x = 460 y = 64 }
+			position = { x = 460 y = 65 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Maurician"	
 			maxWidth = 197
@@ -1316,14 +1316,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_inf_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 463 y = 90 }
+			position = { x= 462 y = 90 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_inf_fire_value"
-			position = { x = 491 y = 90 } 
+			position = { x = 485 y = 90 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1336,14 +1336,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_inf_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 551 y = 90 }
+			position = { x= 547 y = 90 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_inf_shock_value"
-			position = { x = 577 y = 90 } 
+			position = { x = 568 y = 90 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1375,9 +1375,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_cavalry_name"
-			position = { x = 460 y = 113 }
+			position = { x = 460 y = 114 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Knights"	
 			maxWidth = 197
@@ -1390,14 +1390,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_cav_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 463 y = 138 }
+			position = { x= 462 y = 138 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_cav_fire_value"
-			position = { x = 491 y = 138 } 
+			position = { x = 485 y = 138 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1410,14 +1410,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_cav_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 551 y = 138 }
+			position = { x= 547 y = 138 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_cav_shock_value"
-			position = { x = 577 y = 138 } 
+			position = { x = 568 y = 138 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1450,9 +1450,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_artillery_name"
-			position = { x = 460 y = 162 }
+			position = { x = 460 y = 163 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Bronze guns"	
 			maxWidth = 197
@@ -1465,14 +1465,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_art_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 463 y = 188 }
+			position = { x= 462 y = 188 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_art_fire_value"
-			position = { x = 491 y = 188 } 
+			position = { x = 485 y = 188 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1485,14 +1485,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_art_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 551 y = 188 }
+			position = { x= 547 y = 188 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_art_shock_value"
-			position = { x = 577 y = 188 } 
+			position = { x = 568 y = 188 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
