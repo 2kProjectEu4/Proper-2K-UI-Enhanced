@@ -2,7 +2,7 @@
 
 [img]https://i.imgur.com/jOR9gAS.png[/img]
 
-[h3]Chinese Language Mod : [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455]Chinese Mod - 2K UI Project Enhanced[/url] [/h3]
+[h3]Chinese Language Mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455]Chinese Mod - 2K UI Project Enhanced[/url] [/h3]
 
 This mod enhances the existing [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url] for an even better experience.
 This is a standalone mod, so there's no need to download the original version.
@@ -35,6 +35,11 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3304154413]Banners 5.0 for 2K[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]Colored Speed Indicator 2K[/url].
     [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
+[/list]
+
+[h2]Mod extensions:[/h2]
+[list]
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878]Proper 2K UI - Anbennar[/url].
 [/list]
 
 [h2]Integrated mods (Many thanks to the creators of these amazing mods!):[/h2]
@@ -71,6 +76,8 @@ TL;DR: No, I don't see myself doing this.
 Long explanation: All the improvements I've made to this mod were done by playing the game, noting down everything that wasn't optimal, and eventually fixing them in my free time. There's no automation for this; everything was done manually. So even if I were to scale up the current version to 4K, there would still be a lot of work involved, and I can't invest my free time in doing it. 
 
 I can't speak for the changes [b]Xyarvius[/b] made.
+
+[b]Later edit:[/b] You might want to try using this mod along with the game’s GUI scaling feature and adjust the scaling to a value between 1.2 and 1.3. It’s not a perfect solution, but it could help improve the overall experience.
 
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3]✨✨ Nice ✨✨[/h3]

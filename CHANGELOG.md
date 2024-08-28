@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+# 28.08.2024 Xyarvius changes:
+
+- Adjusted size of declare war military icons
+- Adjusted some elements in institutions window
+- Aligned diplo icons and values
+- Aligned minimap buttons
+- Fixed border of diplo screen
+- Fixed bottom of economy window
+- Fixed pick advisor religion icon position
+- Fixed tooltip of abdicate button
+- Increased size of relations box slightly
+- Increased war name max width
+- Lots of small changes to stability view
+- Made the new ideas progress bar separate as it was also used in other areas
+- Menubar adjustments (logs, messages)
+- Minor adjustments to stability
+- Moved decision notification toggle
+- Restructure ideas window
+- Reverted upscale for idea group images
+- Small adjustments to mapmodes window
+- Small cosmetic changes to advisor box and select screen
+- Smaller advisor box
+- Update select military unit view
+
 # 27.08.2024 changes:
 
 - Adjusted government mechanics windows
