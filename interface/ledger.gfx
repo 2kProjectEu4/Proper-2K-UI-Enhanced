@@ -105,6 +105,11 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
+		name = "GFX_ledger_header_bg"
+		texturefile = "gfx\\interface\\ledger_header_bg.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
 		name = "GFX_ledger_invisible_button"
 		texturefile = "gfx\\interface\\ledger_invisible_button.tga"
 		transparencecheck = no

@@ -79,6 +79,8 @@ I can't speak for the changes [b]Xyarvius[/b] made.
 
 [b]Later edit:[/b] You might want to try using this mod along with the game’s GUI scaling feature and adjust the scaling to a value between 1.2 and 1.3. It’s not a perfect solution, but it could help improve the overall experience.
 
+[b]Tip:[/b] If you're bothered by the ledger's position, I've modified the code to allow the ledger to be moved by clicking its header.
+
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3]✨✨ Nice ✨✨[/h3]
 [img]https://i.postimg.cc/rmCXq61R/immortalize.png[/img]

@@ -256,10 +256,10 @@ guiTypes = {
 
 	windowType = {
 		name = "ledger"
-		backGround=""
-		position = { x=120 y=0 }	
+		backGround="ledger_bg1"
+		position = { x= 290 y = 160 }
 		size = { x=1344 y=921 }
-		moveable = 0
+		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
@@ -267,18 +267,25 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"
 		# upsound = winxpsound # meme
 		
+		guiButtonType =
+		{
+			name ="ledger_bg1"
+			spriteType = "GFX_ledger_header_bg"
+			position = { x= 0 y = 0 }
+		}
+
 		iconType =
 		{
 			name ="ledger_bg"
 			spriteType = "GFX_ledger_bg"
-			position = { x= 59 y = 120 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="ledger_linegraph_bg"
 			spriteType = "GFX_ledger_linegraph_bg"
-			position = { x= 59 y = 120 }
+			position = { x= 3 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -286,13 +293,13 @@ guiTypes = {
 		{
 			name ="ledger_great_projects_bg"
 			spriteType = "GFX_ledger_great_projects_bg"
-			position = { x = 59 y = 120 }
+			position = { x = 3 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "close"
-			position = { x=1923 y=137 }
+			position = { x= 1867 y= 18 }
 			quadTextureSprite ="GFX_button_close"
 			shortcut = "ESCAPE"
 			# clicksound = xperror # meme
@@ -302,7 +309,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "prev"
-			position = { x=1471 y=1213 }
+			position = { x=1415 y=1094 }
 			quadTextureSprite ="GFX_ledger_previous_button"
 			buttonText = "LEDGER_PREVIOUS"
 			buttonFont = "vic_18"
@@ -312,7 +319,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "next"
-			position = { x=1763 y=1213 }
+			position = { x=1707 y=1094 }
 			quadTextureSprite ="GFX_ledger_next_button"
 			buttonText = "LEDGER_NEXT"
 			buttonFont = "vic_18"
@@ -322,7 +329,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "index"
-			position = { x=138 y=1201 }
+			position = { x=82 y=1082 }
 			quadTextureSprite ="GFX_ledger_bookmark_button_index"
 			buttonFont = "vic_18"
 			shortcut = "DOWN"
@@ -332,7 +339,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_0"
-			position = { x = 213 y = 1201}
+			position = { x = 157 y = 1082}
 			quadTextureSprite ="GFX_ledger_bookmark_button_country"	
 			buttonFont = "vic_18"
 			shortcut = "F1"
@@ -340,7 +347,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_1"
-			position = { x = 289 y = 1201}
+			position = { x = 233 y = 1082}
 			quadTextureSprite ="GFX_ledger_bookmark_button_military"	
 			buttonFont = "vic_18"
 			shortcut = "F3"
@@ -348,7 +355,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_2"
-			position = { x = 365 y = 1201}
+			position = { x = 309 y = 1082}
 			quadTextureSprite ="GFX_ledger_bookmark_button_economy"	
 			buttonFont = "vic_18"
 			shortcut = "F4"
@@ -356,7 +363,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_3"
-			position = { x = 441 y = 1201}
+			position = { x = 385 y = 1082}
 			quadTextureSprite ="GFX_ledger_bookmark_button_trade"	
 			buttonFont = "vic_18"
 			shortcut = "F5"
@@ -364,7 +371,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "bookmark_4"
-			position = { x = 516 y = 1201}
+			position = { x = 460 y = 1082}
 			quadTextureSprite ="GFX_ledger_bookmark_button_relations"	
 			buttonFont = "vic_18"
 			shortcut = "F6"
@@ -372,7 +379,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "page_number"
-			position = { x = 1617 y = 1221 }
+			position = { x = 1558 y = 1102 }
 			font = "vic_22"
 			text = " "	
 			maxWidth = 162
@@ -382,7 +389,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "ledger_header"
-			position = { x = 543 y = 147 }
+			position = { x = 502 y = 28 }
 			font = "vic_29s"
 			text = " "	
 			maxWidth = 960
@@ -396,7 +403,7 @@ guiTypes = {
 		
 		listboxType = 	{
 			name ="filter_list"
-			position = { x = 300 y = 195 } #x60
+			position = { x = 244 y = 76 } #x60
 			backGround=""
 			size = { x=1680 y = 60 }
 			Orientation = "UPPER_LEFT"
@@ -410,18 +417,18 @@ guiTypes = {
 		{
 			name ="filter_edit_box_bg"
 			spriteType = "GFX_ledger_filter_bg"
-			position = { x = 1695 y = 195 }
+			position = { x = 1641 y = 76 }
 		}
 
 		iconType =
 		{
 			name ="filter_edit_box_icon"
 			spriteType = "GFX_ledger_filter_icon"
-			position = { x = 1668 y = 199 }
+			position = { x = 1612 y = 80 }
 		}
 
 		editBoxType = {
-			position = { x = 1697 y = 195 }
+			position = { x = 1641 y = 76 }
 			name = "ledger_text_filter"
 			font = "vic_18"
 			borderSize = { x = 9 y = 7  }	
@@ -436,7 +443,7 @@ guiTypes = {
 		windowType = {
 			name = "ledger_sort_buttons"
 			backGround =""
-			position = { x=79 y=237 }	
+			position = { x=23 y=118 }	
 			size = { x=1767 y=39 }
 			moveable = 0
 			dontRender = ""
@@ -447,7 +454,7 @@ guiTypes = {
 		
 		listboxType = 	{
 			name ="default_listbox"
-			position = { x = 79 y = 281 }
+			position = { x = 23 y = 162 }
 			backGround=""
 			size = { x=1863 y = 924 }
 			Orientation = "UPPER_LEFT"
@@ -461,7 +468,7 @@ guiTypes = {
 		windowType = {
 			name = "ledger_linegraphs"
 			backGround =""
-			position = { x = 438 y = 204 }
+			position = { x = 382 y = 85 }
 			size = { x=840 y = 648 }
 			moveable = 0
 			dontRender = ""
@@ -473,7 +480,7 @@ guiTypes = {
 		windowType = {
 			name = "ledger_linegraph_legend"
 			backGround =""
-			position = { x = 1344 y = 231 }
+			position = { x = 1288 y = 112 }
 			size = { x=240 y = 648 }
 			moveable = 0
 			dontRender = ""
@@ -547,7 +554,7 @@ guiTypes = {
 		windowType = {
 			name = "ledger_piecharts"
 			backGround =""
-			position = { x = -12 y = 108 }
+			position = { x = -68 y = -11 }
 			size = { x=1200 y = 648 }
 			moveable = 0
 			dontRender = ""
@@ -571,7 +578,7 @@ guiTypes = {
 		windowType = {
 			name = "ledger_index"
 			backGround =""
-			position = { x = 438 y = 192 }
+			position = { x = 382 y = 73 }
 			size = { x=1200 y = 1032 }
 			moveable = 0
 			dontRender = ""
@@ -600,9 +607,9 @@ guiTypes = {
 			
 			listboxType = 	{
 				name ="list"
-				position = { x = 348 y = 3 }
+				position = { x = 346 y = 0 }
 				backGround=""
-				size = { x=462 y = 999 }
+				size = { x=482 y = 999 }
 				Orientation = "UPPER_LEFT"
 				spacing = 3
 				scrollbartype = "standardlistbox_slider"
