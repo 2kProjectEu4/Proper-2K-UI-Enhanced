@@ -37,6 +37,13 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
 [/list]
 
+[h2]Non-ironman compatible mods:[/h2]
+[list]
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320876397]Scaled Minimap[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320897976]Patch - Regional and urban terrain pictures[/url].
+   [/list]
+
+
 [h2]Mod extensions:[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878]Proper 2K UI - Anbennar[/url].

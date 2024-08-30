@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 # 29.08.2024 changes:
 - Enlarged and adjusted topbar elements
+- Enlarged Faction window (pirates, venice, revolutionary republic) + made it movable usings its header
 - Changed ledger to be movable by dragging its header and adjusted its starting position
 
 # 28.08.2024 Xyarvius changes:

@@ -1,9 +1,5 @@
 spriteTypes = {
 	### 1.32.0
-	spriteType = {
-		name = "GFX_minimapchanger_bg"
-		texturefile = "gfx//interface//minimapchanger_bg.dds"
-	}
 	### Used in name_heir_message.gui
 	spriteType = {
 		name = "GFX_name_heir_message"

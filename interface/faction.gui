@@ -2,8 +2,8 @@ guiTypes = {
 
 	windowType = {
 		name = "default_faction_view"
-		backGround=""
-		position = { x=-351 y=-372 }	
+		backGround="faction_window_header_bg1"
+		position = { x=-351 y=-502 }	
 		size = { x=701 y=744 }
 		moveable = 1
 		dontRender = ""
@@ -12,6 +12,13 @@ guiTypes = {
 		Orientation = "CENTER"
 		fullscreen = no
 
+		guiButtonType =
+		{
+			name ="faction_window_header_bg1"
+			spriteType = "GFX_faction_window_header_bg"
+			position = { x= 0 y = 0 }
+		}
+
 		iconType =
 		{
 			name ="faction_window_bg"
@@ -19,10 +26,9 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 		}
 
-
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x = 0 y =24 }
+			position = { x = 0 y =29 }
 			format = centre
 			textureFile = ""
 			font = "vic_29s"
@@ -36,8 +42,8 @@ guiTypes = {
 		{
 			name ="factions_listbox"
 			backGround = ""
-			position = { x=18 y=36 }	
-			size = { x=648 y=624 }
+			position = { x=18 y=16 }	
+			size = { x=648 y=834 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -50,7 +56,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=-75 y =312}
+				position = { x=-75 y =552}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -67,8 +73,8 @@ guiTypes = {
 
 	windowType = {
 		name = "merchant_republic_faction_view"
-		backGround=""
-		position = { x=-351 y=-372 }	
+		backGround="faction_window_header_bg1"
+		position = { x=-351 y=-502 }	
 		size = { x=701 y=744 }
 		moveable = 1
 		dontRender = ""
@@ -80,6 +86,13 @@ guiTypes = {
 		upsound = merchant_republic
 		downsound = ""
 
+		guiButtonType =
+		{
+			name ="faction_window_header_bg1"
+			spriteType = "GFX_faction_window_header_bg"
+			position = { x= 0 y = 0 }
+		}
+
 		iconType =
 		{
 			name ="faction_window_bg"
@@ -90,7 +103,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x = 0 y =24 }
+			position = { x = 0 y =29 }
 			format = centre
 			textureFile = ""
 			font = "vic_29s"
@@ -104,8 +117,8 @@ guiTypes = {
 		{
 			name ="factions_listbox"
 			backGround = ""
-			position = { x=18 y=36 }	
-			size = { x=648 y=624 }
+			position = { x=18 y=16 }	
+			size = { x=648 y=834 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -118,7 +131,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=-75 y =312}
+				position = { x=-75 y =552}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -135,8 +148,8 @@ guiTypes = {
 	
 	windowType = {
 		name = "revolutionary_republic_faction_view"
-		backGround=""
-		position = { x=-351 y=-372 }	
+		backGround="faction_window_header_bg1"
+		position = { x=-351 y=-502 }	
 		size = { x=701 y=744 }
 		moveable = 1
 		dontRender = ""
@@ -148,6 +161,13 @@ guiTypes = {
 		upsound = revolutionary_republic
 		downsound = ""
 
+		guiButtonType =
+		{
+			name ="faction_window_header_bg1"
+			spriteType = "GFX_faction_window_header_bg"
+			position = { x= 0 y = 0 }
+		}
+
 		iconType =
 		{
 			name ="faction_window_bg"
@@ -158,7 +178,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x = 0 y =24 }
+			position = { x = 0 y =29 }
 			format = centre
 			textureFile = ""
 			font = "vic_29s"
@@ -172,8 +192,8 @@ guiTypes = {
 		{
 			name ="factions_listbox"
 			backGround = ""
-			position = { x=18 y=36 }	
-			size = { x=648 y=624 }
+			position = { x=18 y=16 }	
+			size = { x=648 y=834 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -186,7 +206,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=-75 y =312}
+				position = { x=-75 y =552}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -205,7 +225,7 @@ guiTypes = {
 		name = "faction_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=240 y=201 }
+		size = { x=240 y=271 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -232,13 +252,13 @@ guiTypes = {
 			{
 				name ="faction_circle"
 				spriteType = "GFX_faction_circle_bg"
-				position = { x= 423 y = -12 }
+				position = { x= 423 y = 12 }
 				Orientation = "CENTER"
 			}
 			
 		instantTextBoxType = {
 			name = "faction_value"
-			position = { x= 552 y = 114 }
+			position = { x= 552 y = 175 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "11"	
@@ -250,12 +270,12 @@ guiTypes = {
 			{
 				name ="faction_arrow"
 				spriteType = "GFX_faction_arrow"
-				position = { x= 504 y = 24 }
+				position = { x= 504 y = 38 }
 				Orientation = "CENTER"
 			}
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x= 204 y = 39 }
+			position = { x= 204 y = 75 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction"	
@@ -265,12 +285,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "faction_info"
-			position = { x= 180 y = 79 }
+			position = { x= 180 y = 115 }
 			font = "vic_18"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction likes testing and also testing, this is a sentence that is going to go on for a while in order to test The Test Faction."	
 			maxWidth = 330
-			maxHeight = 150
+			maxHeight = 220
 			scrollbartype = "standardlistbox_slider"
 			format = left
 		}
@@ -279,7 +299,7 @@ guiTypes = {
 		{
 			name ="faction_boost"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x= 402 y = 72 }
+			position = { x= 402 y = 102 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"
