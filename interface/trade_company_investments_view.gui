@@ -28,7 +28,7 @@ guiTypes = {
 			position = { x = 57 y = 3 }
 			font = "vic_22"
 			text = "TRADE_COMPANY_INVESTMENTS"
-			maxWidth = 240
+			maxWidth = 280
 			maxHeight = 39
 			fixedsize = yes
 		}

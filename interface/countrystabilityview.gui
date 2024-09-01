@@ -939,9 +939,9 @@ guiTypes = {
 				borderSize = {x = 5 y = 5}
 				text = ""
 				maxWidth = 297
-				maxHeight = 57
+				maxHeight = 114
 				format = left
-				#fixedsize = yes
+				fixedsize = yes
 			}
 
 			iconType =

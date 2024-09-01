@@ -1,6 +1,18 @@
 # Changelog
 
+More detailed version of changes: - [Detailed version](https://docs.google.com/document/d/1ksJ_pVIDeTlflz2zi6KhKpNmFHWVl_Yn/edit?usp=sharing&ouid=107896251154835177376&rtpof=true&sd=true)
+
 All notable changes to this project will be documented in this file.
+
+# 01.09.2024 changes:
+
+- Increased trade company title max width 
+- On siege won text: added back fixedsize as the text is overlapping in some cases
+- Flagship window
+  - Moved checkboxes 4 units to the right
+  - Moved window 500 units to the right
+  - Only flagship window header is now movable (modified to not move the window at every long click when selecting options)
+- Moved custom faction sprite in P2KUIE_sprites.gfx and removed faction.gfx (its no longer different from default file)
 
 # 29.08.2024 changes:
 

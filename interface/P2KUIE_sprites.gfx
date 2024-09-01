@@ -54,4 +54,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideaView_progress_frame_long_ideas.dds"
 		alwaystransparent = yes
 	}
+
+	spriteType = {
+		name = "GFX_faction_window_header_bg"	
+		texturefile = "gfx//interface//china_header_bg.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_flagship_designer_header_bg"
+		texturefile = "gfx/interface/flagship_designer_header_bg.dds"
+	}
 }

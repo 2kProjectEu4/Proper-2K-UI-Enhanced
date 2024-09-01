@@ -808,7 +808,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "select"
-			position = { x=0 y =0 }
+			position = { x= -3 y = 0 }
 			quadTextureSprite ="GFX_peace_list_button"	
 			tooltip = ""
 			tooltipText =""
@@ -834,7 +834,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text"
-			position = { x = 139 y = 9 }
+			position = { x = 139 y = 8 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = -100 y = 0}
@@ -881,7 +881,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "country_flag"
-			position = { x= 3 y = 5 }
+			position = { x= 2 y = 5 }
 			quadTextureSprite ="GFX_flag_small"	
 		}
 
@@ -901,7 +901,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "overex"
-			position = { x = 369 y = 9 }
+			position = { x = 369 y = 8 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -911,7 +911,7 @@ guiTypes = {
 		}		
 		instantTextBoxType = {
 			name = "score"
-			position = { x = 431 y = 9 }
+			position = { x = 431 y = 8 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -922,7 +922,7 @@ guiTypes = {
 		}	
 		instantTextBoxType = {
 			name = "dip_cost"
-			position = { x = 508 y = 9 }
+			position = { x = 508 y = 8 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -933,7 +933,7 @@ guiTypes = {
 		}			
 		instantTextBoxType = {
 			name = "prestige"
-			position = { x = 544 y = 9 }
+			position = { x = 544 y = 8 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

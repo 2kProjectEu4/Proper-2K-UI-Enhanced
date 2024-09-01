@@ -13,7 +13,7 @@ This is a standalone mod, so there's no need to download the original version.
     [*] [url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced]Github[/url]. (If you would like to help the project)
 [/list]
 
-[h2][url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced/blob/main/CHANGELOG.md]GIT Changelog[/url][/h2]
+[h2][url=https://docs.google.com/document/d/1ksJ_pVIDeTlflz2zi6KhKpNmFHWVl_Yn/edit?usp=sharing&ouid=107896251154835177376&rtpof=true&sd=true]Changelog[/url][/h2]
 
 [h2]Why does this mod exist?[/h2]
 I modified the original Proper 2K UI Project mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
