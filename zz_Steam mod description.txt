@@ -31,9 +31,10 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 [h2]Recommended compatible mods(must download separately):[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]Bright Shield Frames 2K[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3304154413]Banners 5.0 for 2K[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]Colored Speed Indicator 2K[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]P2KE Submod -Bright Shield Frames[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3304154413]P2KE Submod - Banners 5.0[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]P2KE Submod - Colored Speed Indicator[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3323301100]P2KE Patch - Plati's Decision Pictures[/url].
     [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
 [/list]
 
@@ -41,8 +42,7 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320876397]Scaled Minimap[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320897976]Patch - Regional and urban terrain pictures[/url].
-   [/list]
-
+[/list]
 
 [h2]Mod extensions:[/h2]
 [list]
@@ -53,7 +53,6 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2291982168]UI a la Artemis[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962916850]Plati's Tech Pictures [/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738]Better Arrival Date[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971]Colored missions[/url].
@@ -69,9 +68,11 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 [olist]
     [*] Proper 2K UI Enhanced.
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]Bright Shield Frames 2K[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]Colored Speed Indicator 2K[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]P2KE Submod -Bright Shield Frames[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]P2KE Submod - Colored Speed Indicator[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3323301100]P2KE Patch - Plati's Decision Pictures[/url].
 [/olist]
 
 [img]https://i.imgur.com/Uf8Z21n.png[/img]

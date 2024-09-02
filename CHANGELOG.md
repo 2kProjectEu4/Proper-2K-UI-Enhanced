@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 # 02.09.2024 changes:
 
 - Extracted Plati decisions assets to create a separate submod
+- Added banners of better quality to plati decisions
 - Removed unused artemis assets and sprites
 - Moved used artemis assets/sprites to P2KUIE folder/.gfx file
 - Deleted .gfx files that were not different from vanilla

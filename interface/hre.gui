@@ -18,8 +18,7 @@ guiTypes = {
 		{
 			name ="hre_bg_extended"
 			spriteType = "GFX_hre_bg_extended"
-			position = { x= -168 y = 34 }
-			alwaystransparent = yes
+			position = { x= -168 y = 67 }
 		}
 
 		iconType =
