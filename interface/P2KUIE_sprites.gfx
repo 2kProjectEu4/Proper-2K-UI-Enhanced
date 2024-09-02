@@ -65,4 +65,14 @@ spriteTypes = {
 		name = "GFX_flagship_designer_header_bg"
 		texturefile = "gfx/interface/flagship_designer_header_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_dismiss_leader_enlarged_cst"
+		texturefile = "gfx//interface//artemis_ui//dismiss_leader_enlarged_cst.dds"
+	}
+
+	spriteType = {
+		name = "GFX_banner_yellow_248_colony_cst"
+		texturefile = "gfx//interface//artemis_ui//banner_yellow_248_colony_cst.dds"
+	}
 }

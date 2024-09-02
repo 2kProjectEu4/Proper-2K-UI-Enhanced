@@ -1984,12 +1984,6 @@ spriteTypes = {
 		name = "GFX_list_button_220"
 		texturefile = "gfx//interface//list_button_220.tga"
 	}
-
-	textSpriteType = {
-		name = "GFX_list_button_220_diplo_view_cst"
-		texturefile = "gfx//interface//list_button_220_diplo_view_cst.tga"
-	}
-	
 	
 	### TAB BUTTONS
 	

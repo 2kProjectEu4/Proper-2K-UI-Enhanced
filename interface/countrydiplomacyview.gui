@@ -2091,7 +2091,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_diploaction"
 			position = { x=17 y =-5 }
-			quadTextureSprite ="GFX_list_button_220_diplo_view_cst"
+			quadTextureSprite ="GFX_list_button_220"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
