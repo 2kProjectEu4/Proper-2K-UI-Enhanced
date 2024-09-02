@@ -1,6 +1,10 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_court_advisor_bg"
+		texturefile = "gfx/interface/court_advisor_bg.dds"
+	}
+	spriteType = {
 		name = "GFX_court_banner_green_advisor"
 		texturefile = "gfx/interface/court_banner_green_advisor.dds"
 	}
@@ -63,16 +67,174 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_flagship_designer_header_bg"
-		texturefile = "gfx/interface/flagship_designer_header_bg.dds"
+		texturefile = "gfx//interface//flagship_designer_header_bg.dds"
 	}
 
 	spriteType = {
-		name = "GFX_dismiss_leader_enlarged_cst"
-		texturefile = "gfx//interface//artemis_ui//dismiss_leader_enlarged_cst.dds"
+		name = "GFX_dismiss_leader_icon"
+		texturefile = "gfx//interface//P2KUIE_sprites//dismiss_leader_icon.dds"
 	}
 
 	spriteType = {
-		name = "GFX_banner_yellow_248_colony_cst"
-		texturefile = "gfx//interface//artemis_ui//banner_yellow_248_colony_cst.dds"
+		name = "GFX_banner_yellow_338"
+		texturefile = "gfx//interface//P2KUIE_sprites//banner_yellow_338.dds"
 	}
+
+	
+	spriteType = {
+		name = "GFX_parliament_issue_banner_565"	
+		texturefile = "gfx//interface//P2KUIE_sprites//parliament_issue_banner_565.dds"
+		noOfFrames = 1
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	################### HRE
+	spriteType = {
+		name = "GFX_hre_header_bg"	
+		texturefile = "gfx//interface//hre_header_bg.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_hre_incident_buttons"
+		texturefile = "gfx//interface//hre//hre_incident_buttons_bg.dds"
+		loadType = "INGAME"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_emperor_shield_bg"
+		texturefile = "gfx//interface//hre//emperor_shield_bg.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_top_bar_bg"
+		texturefile = "gfx//interface//hre//top_bar_bg.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_cent"
+		texturefile = "gfx//interface//hre//hre_bg_cent.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_electors"
+		texturefile = "gfx//interface//hre//hre_bg_electors.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_hre_ribbon_red"
+		texturefile = "gfx//interface//hre//hre_ribbon_red.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_hre_ribbon_yellow"
+		texturefile = "gfx//interface//hre//hre_ribbon_yellow.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_hre_perpetual_diet_bg"
+		texturefile = "gfx//interface//hre//hre_perpetual_diet_bg.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_hre_bg_decent"
+		texturefile = "gfx//interface//hre//hre_bg_decent.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_free_cities"
+		texturefile = "gfx//interface//hre//hre_bg_free_cities.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_past_incidents"
+		texturefile = "gfx//interface//hre//hre_bg_past_incidents.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_princes1"
+		texturefile = "gfx//interface//hre//hre_bg_princes.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hre_bg_reforms"
+		texturefile = "gfx//interface//hre//hre_bg_reforms.dds"
+		loadType = "INGAME"
+	}
+	################### 
+
+	################### Artemis UI Sprites
+
+	spriteType = {
+		name = "GFX_court_advisor_points"
+		texturefile = "gfx/interface/P2KUIE_sprites/court_advisor_points.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_hint_green"
+		texturefile = "gfx//interface//P2KUIE_sprites//hint_green.dds"
+		loadType = "INGAME"
+	}
+	
+	### Used in provinceview.gui
+	spriteType = {
+		name = "GFX_transfer_occupation_button2"
+		texturefile = "gfx//interface//P2KUIE_sprites//list_button_good.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_restore_buildings"
+		texturefile = "gfx//interface//P2KUIE_sprites//restore_buildings.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_edicts_button_big"
+		texturefile = "gfx/interface/edicts_button_big.dds"
+	}
+
+	### Used in name_heir_message.gui
+	spriteType = {
+		name = "GFX_name_heir_message"
+		texturefile = "gfx//interface//P2KUIE_sprites//name_heir_message.dds"
+		loadType = "INGAME"
+	}
+	### Used in reorg_window_main.gui
+	spriteType = {
+		name = "GFX_reorg_header_bg"
+		texturefile = "gfx//interface//reorg_header_bg.dds"
+		loadType = "INGAME"
+	}
+
+	### Macro diplomacy banner
+	spriteType = {
+		name = "GFX_macro_diplomacy_overlay2_1080"
+		texturefile = "gfx//interface//P2KUIE_sprites//macro_diplomacy_overlay2_1080.dds"
+	}
+
+	### Age View 
+	spriteType = {
+		name = "GFX_age_unlocked"
+		texturefile = "gfx/interface/ages/age_unlocked.dds"
+	}
+	spriteType = {
+		name = "GFX_scroll_left_ages"
+		texturefile = "gfx/interface/scrollbar_leftbutton_ages.dds"
+	}
+	spriteType = {
+		name = "GFX_scroll_right_ages"
+		texturefile = "gfx/interface/scrollbar_rightbutton_ages.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ages_scroll_bg"
+		texturefile = "gfx//interface//scrollbar_sliderbackground.tga"
+	}
+
+	###################
 }

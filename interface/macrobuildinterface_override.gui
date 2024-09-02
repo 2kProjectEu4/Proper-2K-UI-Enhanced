@@ -1464,12 +1464,6 @@ guiTypes = {
       fullScreen = no
 
       iconType = {
-        name ="GFX_macro_diplo_list_topdf"
-        spriteType = "GFX_macro_diplo_list_top"
-        position = { x= -84 y = 5 }
-      }
-
-      iconType = {
         name ="select_diplo_action_type_BG"
         spriteType = "GFX_macro_diplomacy_green_banner"
         position = { x= -11 y = 5 }

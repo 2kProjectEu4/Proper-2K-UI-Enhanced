@@ -519,7 +519,7 @@ guiTypes = {
 		guiButtonType = {
 				name = "noleader_button"
 				position = { x=475 y= 345 }
-				quadTextureSprite = "GFX_dismiss_leader_enlarged_cst"
+				quadTextureSprite = "GFX_dismiss_leader_icon"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""

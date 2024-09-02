@@ -11,12 +11,6 @@ guiTypes = {
 		size = { x=600 y=480 }
 
 		iconType = {
-		name ="GFX_tc_investment_bg"
-		spriteType = "GFX_tc_investment_bg"
-		position = { x= 0 y = -12000}
-		}
-
-		iconType = {
 			name = "background"
 			spriteType = "GFX_macrobuilder_trade_company_investment_banner"
 			Orientation = "UPPER_LEFT"

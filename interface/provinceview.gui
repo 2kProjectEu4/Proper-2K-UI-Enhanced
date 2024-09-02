@@ -5168,14 +5168,9 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="country_selection_button"
-			quadTextureSprite= "GFX_shield_medium" #  GFX_transfer_occupation_button2
+			quadTextureSprite= "GFX_shield_medium"
 			position = { x= 0 y = 0 }
 		}
-		#guiButtonType = {
-		#	name = "shield"
-		#	position = { x= -12 y = -6 }
-		#	quadTextureSprite ="GFX_transfer_occupation_button2"  #  GFX_shield_medium  GFX_shield_small
-		#}
 
 		instantTextBoxType = {
 			name = "name"
@@ -5188,9 +5183,7 @@ guiTypes = {
 			maxWidth = 149
 			maxHeight = 39
 			Orientation = "UPPER_LEFT"
-
 		}
-
 	}
 
 	windowType = {
@@ -6892,8 +6885,6 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="select_edicts_button"
-			#quadTextureSprite = "GFX_transfer_occupation_button2"
-			#quadTextureSprite = "GFX_decree_button"
 			quadTextureSprite = "GFX_edicts_button_big"
 			buttonFont = "FPS_Font"
 			buttonText = "txt"
@@ -6932,7 +6923,7 @@ guiTypes = {
 			iconType =
 			{
 				name ="edicts_bg"
-				spriteType = "GFX_edicts_bg_overlay_60"
+				spriteType = "GFX_edicts_bg_overlay"
 				position = { x = 581 y = -27 }
 			}
 			

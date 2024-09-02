@@ -4,9 +4,18 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
+# 02.09.2024 changes:
+
+- Extracted Plati decisions assets to create a separate submod
+- Removed unused artemis assets and sprites
+- Moved used artemis assets/sprites to P2KUIE folder/.gfx file
+- Deleted .gfx files that were not different from vanilla
+- Adjusted age view abilities position
+- Made hre and army reorganization windows movable only by its header
+
 # 01.09.2024 changes:
 
-- Increased trade company title max width 
+- Increased trade company title max width
 - On siege won text: added back fixedsize as the text is overlapping in some cases
 - Flagship window
   - Moved checkboxes 4 units to the right

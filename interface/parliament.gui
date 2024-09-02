@@ -283,7 +283,7 @@ guiTypes = {
 
 		iconType = {
 			name = "seat_banner"
-			spriteType ="GFX_nation_decisions_banner_enlarged_const_parliament"
+			spriteType ="GFX_parliament_issue_banner_565"
 			position = { x= -80 y = -18 }
 			orientation = "UPPER_LEFT"
 		}
@@ -329,7 +329,7 @@ guiTypes = {
 
 		iconType = {
 			name = "banner"
-			spriteType ="GFX_nation_decisions_banner_enlarged_const_parliament"
+			spriteType ="GFX_parliament_issue_banner_565"
 			position = { x= -80 y = -22 }
 			orientation = "UPPER_LEFT"
 		}

@@ -111,7 +111,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="combat_bg"
-			spriteType = "GFX_combat_bg_artemis"
+			spriteType = "GFX_combat_bg"
 			position = { x= -7 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}

@@ -1,7 +1,7 @@
 guiTypes = {
 	windowType = {
 		name = "reorg_window"
-		backGround="reorg_bg"
+		backGround="reorg_bg1"
 		position = { x= 660 y= 168 }
 		size = { x=480 y=120 }
 		moveable = 1
@@ -11,27 +11,20 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "UPPER_LEFT"
 
-		#For land units
-		#iconType =
-		#{
-		#	name ="reorg_bg"
-		#	spriteType = "GFX_reorg_bg"
-		#	position = { x= -12 y = 0 }
-		#	Orientation = "UPPER_LEFT"
-		#}
-		iconType ={
-			name ="GFX_reorg_numbers_top1"
-			spriteType = "GFX_reorg_numbers_top"
+		guiButtonType = {
+			name = "reorg_bg1"
+			position = { x= 0 y = 0 }
+			spriteType ="GFX_reorg_header_bg"
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="reorg_bg"
+			spriteType = "GFX_reorg_bg"
 			position = { x= 0 y = 77 }
 			Orientation = "UPPER_LEFT"
 		}
-		guiButtonType = {
-			name = "reorg_bg"
-			position = { x= 0 y = 0 }
-			spriteType ="GFX_reorg_bg_fix"
-			Orientation = "UPPER_LEFT"
-		}
-		
 
 		windowType = {
 		name = "naval_window"

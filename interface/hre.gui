@@ -12,8 +12,6 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "CENTER"
 		upsound = hre
-
-		#upsound = quack # meme
 		downsound = ""
 
 		iconType =
@@ -28,12 +26,13 @@ guiTypes = {
 		{
 			name ="hre_bg"
 			spriteType = "GFX_hre_bg"
-			position = { x= -6679 y = 21 }
+			position = { x= 0 y = 85 }
 		}
+		
 		guiButtonType =
 		{
 			name ="hre_bg1"
-			spriteType = "GFX_hre_bg_bg"
+			spriteType = "GFX_hre_header_bg"
 			position = { x= 0 y = 0 }
 		}
 
