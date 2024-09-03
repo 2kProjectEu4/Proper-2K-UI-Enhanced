@@ -40,8 +40,8 @@ This mod addresses the text overlap and UI issues present in the original. I hav
 
 [h2]Non-ironman compatible mods:[/h2]
 [list]
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320876397]Scaled Minimap[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320897976]Patch - Regional and urban terrain pictures[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320876397]P2KE Submod - Scaled Minimap[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320897976]P2KE Patch - Regional and urban terrain pictures[/url].
 [/list]
 
 [h2]Mod extensions:[/h2]

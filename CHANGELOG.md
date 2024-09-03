@@ -4,8 +4,9 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
-# 02.09.2024 changes:
+# 03.09.2024 changes:
 
+- Adjusted trade company placement
 - Extracted Plati decisions assets to create a separate submod
 - Added banners of better quality to plati decisions
 - Removed unused artemis assets and sprites

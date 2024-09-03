@@ -2419,7 +2419,7 @@ guiTypes = {
     windowType = { # name = "states_tab_trade_companies"
       name = "states_tab_trade_companies"
       backGround=""
-      position = { x=60 y=120 }
+      position = { x=73 y=120 }
       size = { x=480 y=480 }
       moveable = 0
       dontRender = ""
