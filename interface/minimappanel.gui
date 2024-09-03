@@ -81,7 +81,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button_pick_shortcut"
-			position = { x = -87 y = -42 }
+			position = { x = -89 y = -42 }
 			quadTextureSprite ="GFX_hotkey_button"
 			pdx_tooltip = "ASSIGN_HOTKEY_TITLE"
 			buttonFont = "Main_14_black"
