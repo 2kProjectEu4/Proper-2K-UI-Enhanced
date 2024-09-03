@@ -637,7 +637,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "prestige_value"
-			position = { x = 531 y = 191 }
+			position = { x = 530 y = 191 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
