@@ -4,6 +4,12 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
+# 06.09.2024 changes:
+
+- Enlarged waroverview screen to better fit the elements
+- Fixed pie chart position in province view
+- Centered warscore icon in province view
+
 # 03.09.2024 changes:
 
 - Adjusted trade company placement

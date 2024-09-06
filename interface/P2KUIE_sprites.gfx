@@ -169,6 +169,21 @@ spriteTypes = {
 	}
 	################### 
 
+	################### War overview sprites
+	spriteType = {
+		name = "GFX_sort_P2KUIE_201"
+		texturefile = "gfx//interface//P2KUIE_sprites//war_overview_sort_201.dds"
+	}
+	spriteType = {
+		name = "GFX_sort_P2KUIE_307"
+		texturefile = "gfx//interface//P2KUIE_sprites//war_overview_sort_307.dds"
+	}
+	spriteType = {
+		name = "GFX_sort_P2KUIE_454"
+		texturefile = "gfx//interface//P2KUIE_sprites//war_overview_sort_454.dds"
+	}
+	################### 
+
 	################### Artemis UI Sprites
 
 	spriteType = {
