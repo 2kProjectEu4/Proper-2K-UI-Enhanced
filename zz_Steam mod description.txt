@@ -1,54 +1,34 @@
-[h1]Proper 2K UI Enhanced[/h1]
-
 [img]https://i.imgur.com/jOR9gAS.png[/img]
-
+[h2][url=https://docs.google.com/document/d/1ksJ_pVIDeTlflz2zi6KhKpNmFHWVl_Yn/edit?usp=sharing&ouid=107896251154835177376&rtpof=true&sd=true]Changelog[/url][/h2]
 [h3]Chinese Language Mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455]Chinese Mod - 2K UI Project Enhanced[/url] [/h3]
-
-This mod enhances the existing [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url] for an even better experience.
-This is a standalone mod, so there's no need to download the original version.
-
 [h3]Alternative downloads:  [/h3]
 [list]
     [*] [url=https://mods.paradoxplaza.com/mods/85612/Any]Paradox Mods[/url].
     [*] [url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced]Github[/url]. (If you would like to help the project)
 [/list]
 
-[h2][url=https://docs.google.com/document/d/1ksJ_pVIDeTlflz2zi6KhKpNmFHWVl_Yn/edit?usp=sharing&ouid=107896251154835177376&rtpof=true&sd=true]Changelog[/url][/h2]
-
 [h2]Why does this mod exist?[/h2]
-I modified the original Proper 2K UI Project mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
-
+I modified the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url]  mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
 This mod addresses the text overlap and UI issues present in the original. I have scaled all EU4 assets up to version 1.37.2 to ensure compatibility and enhance your gaming experience. Additionally, I made numerous small adjustments to the UI elements for a more polished look and feel.
+This is a standalone mod, so there's no need to download the original version.
 
 [h3]✨✨ Huge thanks to [b]Xyarvius[/b] for bringing the Steam mod closer to perfection with all those fantastic quality of life changes! Your hard work and dedication are truly appreciated by the entire community. Keep up the amazing work! ✨✨[/h3]
 
-[h3] ⚠️This mod works best when used with a 2560x1440 (QHD) resolution for optimal performance and visual quality. ⚠️[/h3]
-
-[h3]⚠️ To ensure the best experience, please activate all DLCs, as some bugs may arise without them. If you don’t have all the DLCs, feel free to share your configuration in the comments, and I’ll do my best to address any issues. Thank you! ⚠️[/h3]
+[h3] ⚠️This mod works best when used with a 2560x1440 (QHD) resolution for optimal performance and visual quality. To ensure the best experience, please activate all DLCs, as some bugs may arise without them. If you don’t have all the DLCs, feel free to share your configuration in the comments, and I’ll do my best to address any issues. Thank you! ⚠️[/h3]
 
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
+
+[h3]✨✨ [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325833509]P2KE Submods and Patches[/url]✨✨[/h3]
 
 [h2]Recommended compatible mods(must download separately):[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]P2KE Submod -Bright Shield Frames[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3304154413]P2KE Submod - Banners 5.0[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]P2KE Submod - Colored Speed Indicator[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3323301100]P2KE Patch - Plati's Decision Pictures[/url].
-    [*] Map mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2842728833]Imperial Graphics - Fixed Font for Vanilla[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=253263609]GMI[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
 [/list]
-
-[h2]Non-ironman compatible mods:[/h2]
-[list]
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320876397]P2KE Submod - Scaled Minimap[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320897976]P2KE Patch - Regional and urban terrain pictures[/url].
-[/list]
-
 [h2]Mod extensions:[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878]Proper 2K UI - Anbennar[/url].
 [/list]
-
 [h2]Integrated mods (Many thanks to the creators of these amazing mods!):[/h2]
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url].
@@ -61,9 +41,7 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3086517784]Active policies bonus recolored[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=709857021]Cmushi's Simpler Terms Mod[/url].
 [/list]
-
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
-
 [h2]My setup:[/h2]
 [olist]
     [*] Proper 2K UI Enhanced.
@@ -74,16 +52,11 @@ This mod addresses the text overlap and UI issues present in the original. I hav
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3323301100]P2KE Patch - Plati's Decision Pictures[/url].
 [/olist]
-
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
-
 [h2]Will I make a 4K version of this mod?[/h2]
-
 TL;DR: No, I don't see myself doing this.
 
 Long explanation: All the improvements I've made to this mod were done by playing the game, noting down everything that wasn't optimal, and eventually fixing them in my free time. There's no automation for this; everything was done manually. So even if I were to scale up the current version to 4K, there would still be a lot of work involved, and I can't invest my free time in doing it. 
-
-I can't speak for the changes [b]Xyarvius[/b] made.
 
 [b]Later edit:[/b] You might want to try using this mod along with the game’s GUI scaling feature and adjust the scaling to a value between 1.2 and 1.3. It’s not a perfect solution, but it could help improve the overall experience.
 

@@ -5,7 +5,8 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 All notable changes to this project will be documented in this file.
 
 # 06.09.2024 changes:
-
+- Upscaled 3 missing icons
+- Removed the BiggerUI, prodUI, and outliner folders, along with their assets, as they are not used in the project.
 - Enlarged waroverview screen to better fit the elements
 - Fixed pie chart position in province view
 - Centered warscore icon in province view
