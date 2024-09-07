@@ -2,17 +2,17 @@ guiTypes = {
 
 	positionType = {
 		name = "waroverview_icon_offset"
-		position = { x = 178 y = 353 } #was y=59
+		position = { x = 307 y = 353 } #was y=59
 	}
 
 	positionType = {
 		name = "waroverview_value_offset"
-		position = { x = 193 y = 357 } #was y=65
+		position = { x = 322 y = 357 } #was y=65
 	}
 
 	positionType = {
 		name = "waroverview_battles_offset_prerom"
-		position = { x = 0 y = 263 } #was y=43
+		position = { x = 129 y = 263 } #was y=43
 	}
 
 	windowType = {

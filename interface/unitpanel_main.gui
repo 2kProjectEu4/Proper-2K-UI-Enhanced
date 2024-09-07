@@ -956,7 +956,7 @@ guiTypes = {
 			name ="unitlist"
 			position = { x= -96 y = 51 }
 			backGround=""
-			size = { x= 600  y = 600 }
+			size = { x= 600  y = 925 }
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"

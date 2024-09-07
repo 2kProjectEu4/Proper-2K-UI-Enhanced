@@ -119,7 +119,7 @@ guiTypes = {
 			guiButtonType = 
 			{
 					name = "unit1_type"
-					position = { x= 25 y = 9 }
+					position = { x= 24 y = 9 }
 					quadTextureSprite = "GFX_unit_types_strip_nontransp"
 					scale= 0.6
 					shortcut = "z"
@@ -127,7 +127,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "unit1_count"
-					position = { x = 57  y = 19 }
+					position = { x = 56  y = 16 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -140,7 +140,7 @@ guiTypes = {
 			guiButtonType = 
 			{
 					name = "unit2_type"
-					position = { x= 129 y = 9 }
+					position = { x= 118 y = 9 }
 					quadTextureSprite = "GFX_unit_types_strip_nontransp"
 					scale= 0.6
 					shortcut = "x"
@@ -148,7 +148,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "unit2_count"
-					position = { x = 159  y = 19 }
+					position = { x = 152  y = 16 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -161,7 +161,7 @@ guiTypes = {
 			guiButtonType = 
 			{
 					name = "unit3_type"
-					position = { x= 223 y = 11 }
+					position = { x= 212 y = 8 }
 					quadTextureSprite = "GFX_unit_types_strip_nontransp"
 					scale= 0.6
 					shortcut = "c"
@@ -169,7 +169,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "unit3_count"
-					position = { x = 259  y = 19 }
+					position = { x = 245  y = 16 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -473,7 +473,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "unitleader"
-				position = { x = 264 y = 63 }
+				position = { x = 264 y = 61 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
