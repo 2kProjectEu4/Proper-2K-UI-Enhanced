@@ -300,53 +300,13 @@ guiTypes = {
 			name = "tech"
 			position = { x = 101 y = 35 }
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "adm_tech"	
 			maxWidth = 307
 			maxHeight = 39
 			format = left
-		}
-
-		instantTextBoxType = {
-			name = "tech_sidewindow"
-			position = { x = 722 y = 0 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 5 y = 5}	
-			text = "tech_side_window"	
-			format = left
-		}
-		
-		iconType =
-		{
-			name ="tech_sidewindow_institution_adm"
-			spriteType = "GFX_institutions_tech_costs"
-			position = { x = 673 y = 39 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.6
-			tooltip = "tech_sidewindow_institution_tooltip"
-		}
-		
-		iconType =
-		{
-			name ="tech_sidewindow_institution_dip"
-			spriteType = "GFX_institutions_tech_costs"
-			position = { x = 673 y = 216 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.6
-			tooltip = "tech_sidewindow_institution_tooltip"
-		}
-		
-		iconType =
-		{
-			name ="tech_sidewindow_institution_mil"
-			spriteType = "GFX_institutions_tech_costs"
-			position = { x = 673 y = 393 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.6
-			tooltip = "tech_sidewindow_institution_tooltip"
-		}
+		}	
 		
 		iconType =
 		{
@@ -371,8 +331,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="tech_research"
-			quadTextureSprite= "GFX_country_technology_researchbutton_adm"
-			position = { x= 11 y = 76 }
+			quadTextureSprite= "GFX_technology_view_research"
+			position = { x= 15 y = 76 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"	
 		}
@@ -389,24 +349,24 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 17 y =90 }
+			position = { x = 25 y =88 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Research Galloop Tactic"	
-			maxWidth = 420
-			maxHeight = 24
+			maxWidth = 205
+			maxHeight = 51
 			format = left
 			alwaystransparent = yes
 		}
 
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 137 y = 133 }
-			size = { x = 282 y = 40 }
+			position = { x = 28 y = 136 }
+			size = { x = 210 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
-			spacing = 2
+			spacing = 1
 		}		
 		
 		
@@ -415,7 +375,7 @@ guiTypes = {
 		{
 			name ="power_progress"
 			spriteType = "GFX_technologyView_progressbar"
-			position = { x= 17 y = 187 }
+			position = { x= 34 y = 187 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_adm"
 		}
@@ -424,15 +384,15 @@ guiTypes = {
 		{
 			name ="power_progress_frame"
 			spriteType = "GFX_technologyView_progress_frame_long"
-			position = { x= 14 y = 184 }
+			position = { x= 24 y = 184 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		OverlappingElementsBoxType =
 		{
 			name = "required_institutions_box"
-			position = { x = 737 y = 46 }
-			size = { x = 150 y = 31 }
+			position = { x = 348 y = 42 }
+			size = { x = 173 y = 31 }
 			Orientation = "UPPERL_LEFT"
 			format = right
 			spacing = -18
@@ -562,14 +522,14 @@ guiTypes = {
 		{
 			name ="tech_allowed_idea_groups"
 			spriteType = "GFX_icon_number_of_allowed_idea_groups"
-			position = { x= 767 y = 89 }
+			position = { x= 573 y = 89 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ideagroup"
 		}
 
 		instantTextBoxType = {
 			name = "tech_allowed_idea_groups_value"
-			position = { x = 796 y = 90 }
+			position = { x = 589 y = 90 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -584,13 +544,13 @@ guiTypes = {
 		{
 			name ="tech_production_efficiency"
 			spriteType = "GFX_icon_production_efficiency"
-			position = { x= 767 y = 127 }
+			position = { x= 576 y = 127 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_production_efficiency_value"
-			position = { x = 795 y = 125 }
+			position = { x = 593 y = 125 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -604,7 +564,7 @@ guiTypes = {
 		{
 			name ="tech_administrative_efficiency"
 			spriteType = "GFX_icon_administrative_efficiency"
-			position = { x= 678 y = 88 }
+			position = { x= 489 y = 88 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			hint_tag = "hint_administrative_efficiency"
@@ -612,7 +572,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_administrative_efficiency_value"
-			position = { x = 711 y = 90 }
+			position = { x = 514 y = 90 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -626,14 +586,14 @@ guiTypes = {
 		{
 			name ="tech_development_cost_modifier"
 			spriteType = "GFX_development_icon"
-			position = { x= 680 y = 124 }
+			position = { x= 489 y = 124 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
 		}
 
 		instantTextBoxType = {
 			name = "tech_development_cost_modifier_value"
-			position = { x = 711 y = 125 }
+			position = { x = 514 y = 125 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -646,7 +606,7 @@ guiTypes = {
 		{
 			name = "buildings"
 			spriteType = "GFX_technologyView_show_buildings"
-			position = { x= 678 y = 158 }
+			position = { x= 489 y = 158 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
 		}	
@@ -655,7 +615,7 @@ guiTypes = {
 		{
 			name ="tech_enable"
 			spriteType = "GFX_unitpanel_forced_march"
-			position = { x= 719 y = 165 }			
+			position = { x= 528 y = 165 }			
 			Orientation = "UPPER_LEFT"
 		}					
 		
@@ -664,14 +624,14 @@ guiTypes = {
 		{
 			name ="tech_governing_capacity"
 			spriteType = "GFX_icon_states"
-			position = { x= 766 y = 160 }
+			position = { x= 573 y = 160 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 		}
 
 		instantTextBoxType = {
 			name = "tech_governing_capacity_value"
-			position = { x = 796 y = 158 }
+			position = { x = 591 y = 158 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -698,7 +658,7 @@ guiTypes = {
 			name = "tech"
 			position = { x = 101 y = 35 }
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "dip_tech"	
 			maxWidth = 307
@@ -716,7 +676,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			position = { x = 58 y = 36 }
+			position = { x = 59 y = 36 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -729,8 +689,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="tech_research"
-			quadTextureSprite= "GFX_country_technology_researchbutton_dip"
-			position = { x= 11 y = 76 }
+			quadTextureSprite= "GFX_technology_view_research"
+			position = { x= 15 y = 76 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"	
 		}
@@ -739,39 +699,39 @@ guiTypes = {
 		{
 			name ="diplo_tech_icon"
 			spriteType = "GFX_icon_powers_diplomatic_tech"
-			position = { x= 18 y = 35 }
+			position = { x= 20 y = 35 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_dip"
-			scale = 1.3
+			scale = 1.2
 		}
 		
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 17 y =90 }
+			position = { x = 25 y =88 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Research Galloop Tactic"	
-			maxWidth = 420
-			maxHeight = 24
+			maxWidth = 205
+			maxHeight = 51
 			format = left
 			alwaystransparent = yes
 		}
 
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 137 y = 133 }
-			size = { x = 282 y = 40 }
+			position = { x = 28 y = 136 }
+			size = { x = 200 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
-			spacing = 2
+			spacing = 0
 		}
 
 		iconType =
 		{
 			name ="power_progress"
 			spriteType = "GFX_technologyView_progressbar"
-			position = { x= 17 y = 187 }
+			position = { x= 34 y = 187 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_dip"
 		}
@@ -780,15 +740,15 @@ guiTypes = {
 		{
 			name ="power_progress_frame"
 			spriteType = "GFX_technologyView_progress_frame_long"
-			position = { x= 14 y = 184 }
+			position = { x= 24 y = 184 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		OverlappingElementsBoxType =
 		{
 			name = "required_institutions_box"
-			position = { x = 737 y = 44 }
-			size = { x = 150 y = 31 }
+			position = { x = 348 y = 42 }
+			size = { x = 173 y = 31 }
 			Orientation = "UPPERL_LEFT"
 			format = right
 			spacing = -18
@@ -820,7 +780,7 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 420 y = 64 }
+			position = { x= 243 y = 64 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 
@@ -831,7 +791,7 @@ guiTypes = {
 		{
 			name ="tech_nav_heavy_ship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 425 y = 69 }
+			position = { x= 247 y = 69 }
 			Orientation = "UPPER_LEFT"
 			frame = 4
 			scale = 0.7
@@ -841,7 +801,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_heavy_ship_name"
-			position = { x = 461 y = 72 }
+			position = { x = 285 y = 72 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -857,7 +817,7 @@ guiTypes = {
 		{
 			name ="tech_nav_light_ship_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 420 y = 100 }
+			position = { x= 243 y = 100 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 
@@ -868,7 +828,7 @@ guiTypes = {
 		{
 			name ="tech_nav_light_ship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 424 y = 105 }
+			position = { x= 246 y = 105 }
 			Orientation = "UPPER_LEFT"
 			frame = 5
 			scale = 0.7
@@ -877,7 +837,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_light_ship_name"
-			position = { x = 461 y = 109 }
+			position = { x = 285 y = 109 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -895,7 +855,7 @@ guiTypes = {
 		{
 			name ="tech_nav_galley_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 420 y = 136 }
+			position = { x= 243 y = 136 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			
@@ -905,7 +865,7 @@ guiTypes = {
 		{
 			name ="tech_nav_galley"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 424 y = 138 }
+			position = { x= 246 y = 138 }
 			Orientation = "UPPER_LEFT"
 			frame = 6
 			scale = 0.7
@@ -914,7 +874,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_galley_name"
-			position = { x = 461 y = 144 }
+			position = { x = 285 y = 144 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -931,7 +891,7 @@ guiTypes = {
 		{
 			name ="tech_nav_transport_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock"
-			position = { x= 420 y = 172 }
+			position = { x= 243 y = 172 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		
@@ -941,7 +901,7 @@ guiTypes = {
 		{
 			name ="tech_nav_transport"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 423 y = 174 }
+			position = { x= 246 y = 174 }
 			Orientation = "UPPER_LEFT"
 			frame = 7
 			scale = 0.7	
@@ -950,7 +910,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_nav_transport_name"
-			position = { x = 461 y = 180 }
+			position = { x = 285 y = 180 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -964,7 +924,7 @@ guiTypes = {
 		{
 			name ="tech_enable"
 			spriteType = "GFX_spy_actions_icon"
-			position = { x= 722 y = 177 }
+			position = { x= 531 y = 182 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -973,13 +933,13 @@ guiTypes = {
 		{
 			name ="tech_accepted_cultures"
 			spriteType = "GFX_accepted_cultures"
-			position = { x= 767 y = 179 }
+			position = { x= 573 y = 184 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_accepted_cultures_value"
-			position = { x = 796 y = 176 }
+			position = { x = 591 y = 181 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -993,7 +953,7 @@ guiTypes = {
 		{
 			name = "tech_engagement"
 			spriteType = "GFX_engagement_width_icon"
-			position = { x= 586 y = 182 } 
+			position = { x= 416 y = 182 } 
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_combatwidth"
 			scale=0.8
@@ -1001,7 +961,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "tech_engagement_value"
-			position = { x = 593 y = 181 }
+			position = { x = 423 y = 181 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -1016,14 +976,14 @@ guiTypes = {
 		{
 			name ="tech_naval_morale"
 			spriteType = "GFX_icon_naval_moral"
-			position = {  x= 679 y = 138 } 
+			position = {  x= 488 y = 143 } 
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
 
 		instantTextBoxType = {
 			name = "tech_naval_morale_value"
-			position = { x = 705 y = 141 }
+			position = { x = 509 y = 146 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1037,13 +997,13 @@ guiTypes = {
 		{
 			name ="tech_maintenance"
 			spriteType = "GFX_icon_maintenance"
-			position = { x= 684 y = 107 } 
+			position = { x= 493 y = 112 } 
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_maintenance_value"
-			position = { x = 705 y = 107 }
+			position = { x = 509 y = 112 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1057,13 +1017,13 @@ guiTypes = {
 		{
 			name ="tech_trade_efficiency"
 			spriteType = "GFX_icon_trade_efficiency"
-			position = { x= 683 y = 73 }
+			position = { x= 492 y = 78 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_trade_efficiency_value"
-			position = { x = 705 y = 72 }
+			position = { x = 509 y = 77 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1077,13 +1037,13 @@ guiTypes = {
 		{
 			name ="tech_trade_range"
 			spriteType = "GFX_icon_trade_range"
-			position = { x= 768 y = 73 }
+			position = { x= 575 y = 78 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_trade_range_value"
-			position = { x = 790 y = 72 } 
+			position = { x = 584 y = 77 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1097,14 +1057,14 @@ guiTypes = {
 		{
 			name = "tech_range"
 			spriteType = "GFX_icon_tech_range"
-			position = { x= 768 y = 109}
+			position = { x= 575 y = 114}
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_colonialrange"
 		}
 
 		instantTextBoxType = {
 			name = "tech_range_value"
-			position = { x = 790 y = 107 } 
+			position = { x = 584 y = 112 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1118,7 +1078,7 @@ guiTypes = {
 		{
 			name = "tech_colonial_growth"
 			spriteType = "GFX_colonial_growth"
-			position = { x= 763 y = 137 }
+			position = { x= 571 y = 142 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_settlergrowth"
 			scale = 0.5
@@ -1126,7 +1086,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_colonial_growth_value"
-			position = { x = 790 y = 141 } 
+			position = { x = 584 y = 146 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1140,7 +1100,7 @@ guiTypes = {
 		{
 			name = "buildings"
 			spriteType = "GFX_technologyView_show_buildings"
-			position = { x= 678 y = 174 }
+			position = { x= 489 y = 179 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
 			hint_tag = "hint_buildings"
@@ -1159,7 +1119,7 @@ guiTypes = {
 			name = "tech"
 			position = { x = 101 y = 35 }
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
 			text = "mil_tech"	
 			maxWidth = 307
@@ -1177,7 +1137,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			position = { x = 58 y = 36 }
+			position = { x = 59 y = 36 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}	
@@ -1190,8 +1150,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="tech_research"
-			quadTextureSprite= "GFX_country_technology_researchbutton_mil"
-			position = { x= 11 y = 76 }
+			quadTextureSprite= "GFX_technology_view_research"
+			position = { x= 15 y = 76 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"	
 		}
@@ -1200,39 +1160,39 @@ guiTypes = {
 		{
 			name ="tech_icon"
 			spriteType = "GFX_icon_powers_military_tech"
-			position = { x= 16 y = 35 }
+			position = { x= 20 y = 35 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
-			scale = 1.3
+			scale = 1.2
 		}
 
 		instantTextBoxType = {
 			name = "tech_research_name"
-			position = { x = 17 y =90 }
+			position = { x = 25 y =88 }
 			textureFile = ""
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
 			text = "Research Galloop Tactic (Military 15)"	
-			maxWidth = 420
-			maxHeight = 24
+			maxWidth = 205
+			maxHeight = 51
 			format = left
 			alwaystransparent = yes
 		}
 
 		OverlappingElementsBoxType = {
 			name = "tech_researchitems"
-			position = { x = 137 y = 133 }
-			size = { x = 282 y = 40 }
+			position = { x = 30 y = 136 }
+			size = { x = 200 y = 43 }
 			Orientation = "UPPER_LEFT"
 			format = left
-			spacing = 2
+			spacing = 0
 		}	
 		
 		iconType =
 		{
 			name ="power_progress"
 			spriteType = "GFX_technologyView_progressbar"
-			position = { x= 17 y = 187 }
+			position = { x= 34 y = 187 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
 		}
@@ -1241,15 +1201,15 @@ guiTypes = {
 		{
 			name ="power_progress_frame"
 			spriteType = "GFX_technologyView_progress_frame_long"
-			position = { x= 14 y = 184 }
+			position = { x= 24 y = 184 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		OverlappingElementsBoxType =
 		{
 			name = "required_institutions_box"
-			position = { x = 737 y = 44 }
-			size = { x = 150 y = 31 }
+			position = { x = 348 y = 42 }
+			size = { x = 173 y = 31 }
 			Orientation = "UPPERL_LEFT"
 			format = right
 			spacing = -18
@@ -1283,7 +1243,7 @@ guiTypes = {
 		{
 			name ="tech_unit_infantry_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock_big"
-			position = { x= 416 y = 69}
+			position = { x= 243 y = 69}
 			Orientation = "UPPER_LEFT"
 			frame = 1
 
@@ -1293,7 +1253,7 @@ guiTypes = {
 		{
 			name ="tech_unit_infantry"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 425 y = 75 }
+			position = { x= 247 y = 75 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			scale = 0.7
@@ -1301,7 +1261,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_infantry_name"
-			position = { x = 460 y = 65 }
+			position = { x = 285 y = 65 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -1316,14 +1276,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_inf_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 462 y = 90 }
+			position = { x= 289 y = 90 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_inf_fire_value"
-			position = { x = 485 y = 90 } 
+			position = { x = 317 y = 90 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1336,14 +1296,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_inf_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 547 y = 90 }
+			position = { x= 377 y = 90 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_inf_shock_value"
-			position = { x = 568 y = 90 } 
+			position = { x = 403 y = 90 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1357,7 +1317,7 @@ guiTypes = {
 		{
 			name ="tech_unit_cavalry_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock_big"
-			position = { x= 416 y = 117 }
+			position = { x= 243 y = 117 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		
@@ -1367,7 +1327,7 @@ guiTypes = {
 		{
 			name ="tech_unit_cavalry"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 423 y = 123 }
+			position = { x= 247 y = 123 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 			scale = 0.7
@@ -1375,7 +1335,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_cavalry_name"
-			position = { x = 460 y = 114 }
+			position = { x = 285 y = 114 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -1390,14 +1350,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_cav_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 462 y = 138 }
+			position = { x= 289 y = 138 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_cav_fire_value"
-			position = { x = 485 y = 138 } 
+			position = { x = 317 y = 138 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1410,14 +1370,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_cav_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 547 y = 138 }
+			position = { x= 377 y = 138 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_cav_shock_value"
-			position = { x = 568 y = 138 } 
+			position = { x = 403 y = 138 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1432,7 +1392,7 @@ guiTypes = {
 		{
 			name ="tech_unit_artillery_unlock"
 			spriteType = "GFX_technology_view_unitnextunlock_big"
-			position = { x= 416 y = 163 }
+			position = { x= 243 y = 163 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		
@@ -1442,7 +1402,7 @@ guiTypes = {
 		{
 			name ="tech_unit_artillery"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 424 y = 167 }
+			position = { x= 247 y = 167 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
 			scale = 0.7
@@ -1450,7 +1410,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tech_unit_artillery_name"
-			position = { x = 460 y = 163 }
+			position = { x = 285 y = 163 }
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 5 y = 5}	
@@ -1465,14 +1425,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_art_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 462 y = 188 }
+			position = { x= 289 y = 188 }
 			scale = 0.7
 			hint_tag = "hint_firemod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_art_fire_value"
-			position = { x = 485 y = 188 } 
+			position = { x = 317 y = 188 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1485,14 +1445,14 @@ guiTypes = {
 		iconType = {
 			name ="tech_art_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 547 y = 188 }
+			position = { x= 377 y = 188 }
 			scale = 0.7
 			hint_tag = "hint_shockmod"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_art_shock_value"
-			position = { x = 568 y = 188 } 
+			position = { x = 403 y = 188 } 
 			textureFile = ""
 			font = "Stellaris_Small"
 			borderSize = {x = 3 y = 3}	
@@ -1508,7 +1468,7 @@ guiTypes = {
 			name ="tech_land_morale"
 			spriteType = "GFX_icon_land_moral"
 			#position = { x= 480 y = 141 }
-			position = { x= 679 y = 119 }
+			position = { x= 487 y = 119 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -1516,7 +1476,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "tech_land_morale_value"
 			#position = { x = 504 y = 147 } 
-			position = { x = 699 y = 123 }
+			position = { x = 503 y = 123 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1531,15 +1491,15 @@ guiTypes = {
 		{
 			name = "tech_supply_limit"
 			spriteType = "GFX_icon_supply_limit"
-			#position = { x= 482 y = 96 }
-			position = { x= 768 y = 159 }
+			#position = { x= 483 y = 97 }
+			position = { x= 489 y = 159 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "tech_supply_limit_value"
 			#position = { x = 480 y = 101 }
-			position = { x = 783 y = 158 } 
+			position = { x = 504 y = 158 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1553,8 +1513,8 @@ guiTypes = {
 		{
 			name = "tech_military_tactics"
 			spriteType = "GFX_icon_military_tactics"
-			#position = { x= 483 y = 5 } 
-			position = { x= 768 y = 90 } 
+			#position = { x= 483 y = 57 } 
+			position = { x= 575 y = 90 } 
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_miltac"
 		}
@@ -1562,7 +1522,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "tech_military_tactics_value"
 			#position = {  x = 492 y = 55 } 
-			position = { x = 794 y = 88 } 
+			position = { x = 589 y = 88 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1576,14 +1536,14 @@ guiTypes = {
 		{
 			name = "tech_combatwidth"
 			spriteType = "GFX_icon_combat_width"
-			position = { x= 768 y = 124 } 
+			position = { x= 575 y = 124 } 
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_combatwidth"
 		}
 		
 		instantTextBoxType = {
 			name = "tech_combatwidth_value"
-			position = { x = 794 y = 123 }
+			position = { x = 589 y = 123 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1598,7 +1558,7 @@ guiTypes = {
 			name = "tech_maneuver"
 			spriteType = "GFX_icon_maneuver"
 			#position = { x= 563 y = 57 } 
-			position = { x= 684 y = 91 } 
+			position = { x= 491 y = 91 } 
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_maneuver"
 		}
@@ -1606,7 +1566,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "tech_maneuver_value"
 			#position = { x = 561 y = 55 } 
-			position = {  x = 697 y = 88 } 
+			position = {  x = 501 y = 88 } 
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}	
@@ -1620,7 +1580,7 @@ guiTypes = {
 		{
 			name = "buildings"
 			spriteType = "GFX_technologyView_show_buildings"
-			position = { x= 678 y = 156 }
+			position = { x= 570 y = 156 }
 			scale = 0.9
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_buildings"
@@ -1702,7 +1662,7 @@ guiTypes = {
 			spriteType = "GFX_icon_land_moral"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.6
+			scale = 0.5
 		}		
 	}
 	
@@ -1721,7 +1681,6 @@ guiTypes = {
 			spriteType = "GFX_icon_supply_limit"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.1
 		}		
 	}
 
@@ -1740,7 +1699,7 @@ guiTypes = {
 			spriteType = "GFX_icon_naval_moral"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.60
+			scale = 0.5
 		}		
 	}
 
@@ -1759,7 +1718,6 @@ guiTypes = {
 			spriteType = "GFX_icon_maintenance"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.05
 		}		
 	}
 
@@ -1778,7 +1736,6 @@ guiTypes = {
 			spriteType = "GFX_icon_trade_efficiency"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.25
 		}		
 	}
 
@@ -1797,7 +1754,6 @@ guiTypes = {
 			spriteType = "GFX_icon_trade_range"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.15
 		}		
 	}
 
@@ -1816,7 +1772,6 @@ guiTypes = {
 			spriteType = "GFX_icon_tech_range"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.2
 		}		
 	}
 	
@@ -1835,7 +1790,7 @@ guiTypes = {
 			spriteType = "GFX_colonial_growth"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.6
+			scale = 0.5
 		}		
 	}		
 
@@ -1873,7 +1828,7 @@ guiTypes = {
 			spriteType = "GFX_icon_tech_may_study_technology"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.7
+			scale = 0.6
 		}		
 	}
 
@@ -1933,7 +1888,6 @@ guiTypes = {
 			spriteType = "GFX_icon_states"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.9
 		}		
 	}
 
@@ -1952,7 +1906,6 @@ guiTypes = {
 			spriteType = "GFX_icon_production_efficiency"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.05
 		}		
 	}
 	
@@ -1971,7 +1924,7 @@ guiTypes = {
 			spriteType = "GFX_icon_administrative_efficiency"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.7
+			scale = 0.5
 		}		
 	}	
 
@@ -2047,7 +2000,6 @@ guiTypes = {
 			spriteType = "GFX_engagement_width_icon"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.95
 		}		
 	}
 	

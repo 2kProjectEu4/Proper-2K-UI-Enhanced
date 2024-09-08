@@ -899,7 +899,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\technologyView_progressbar_w151_h10_green.dds"
 		textureFile2 = "gfx\\interface\\technologyView_progressbar_w151_h10_black.dds"
-		size = { x = 405 y = 13 }
+		size = { x = 181 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -920,7 +920,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\ideaView_progressbar_w178_h10_green.dds"
 		textureFile2 = "gfx\\interface\\ideaView_progressbar_w178_h10_red.dds"
-		size = { x = 282 y = 13 }
+		size = { x = 213 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
