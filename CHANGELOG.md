@@ -4,7 +4,12 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
+# 08.09.2024 changes:
+
+- Extracted Tech and ideas assets to create a separate submod
+
 # 06.09.2024 changes:
+
 - Fixed war progress indicator position
 - Adjusted text for unit panel card
 - Increased list size from 5 elements to 8 elements

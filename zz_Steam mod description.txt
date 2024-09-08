@@ -33,7 +33,6 @@ This is a standalone mod, so there's no need to download the original version.
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2291982168]UI a la Artemis[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962916850]Plati's Tech Pictures [/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570706738]Better Arrival Date[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2019048971]Colored missions[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2136245018]Europa Aesthetic Arrows Only (without black trade arrow)[/url].
@@ -46,8 +45,9 @@ This is a standalone mod, so there's no need to download the original version.
 [olist]
     [*] Proper 2K UI Enhanced.
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376]The Great Exhibition[/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]P2KE Submod -Bright Shield Frames[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3290527259]P2KE Submod - Bright Shield Frames[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292582807]P2KE Submod - Colored Speed Indicator[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3327080859]P2KE Submod - Tech and Ideas Pictures[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3291052774]Imperial Graphics Adjustments[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990971570]Plati's decisions[/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3323301100]P2KE Patch - Plati's Decision Pictures[/url].

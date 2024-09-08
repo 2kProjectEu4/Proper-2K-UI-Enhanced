@@ -1,0 +1,21 @@
+Chinese Mod - 2K UI Project Enhanced
+	-interface	
+		-core.gfx
+	-localisation/replace
+		-artemis_ui_l_english.yml
+		-P2KUIE_l_english.yml
+		-replace_artemis_l_english.yml
+	
+P2KE Patch - Plati's Decision Pictures and Chinese
+	-interface	
+		-countrydecisionsview.gui
+
+P2KE Submod - Banners 5.0
+	-interface	
+		- countrydiplomacyview.gui
+		- frontend.gui
+
+P2KE Submod - Scaled Minimap
+	-interface	
+		- menubar.gui
+		- minimappanel.gui

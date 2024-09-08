@@ -15,26 +15,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_country_technology_researchbutton_adm"
-		texturefile = "gfx//interface//country_technology_researchbutton_adm.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_country_technology_researchbutton_dip"
-		texturefile = "gfx//interface//country_technology_researchbutton_dip.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_country_technology_researchbutton_mil"
-		texturefile = "gfx//interface//country_technology_researchbutton_mil.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_institutions_tech_costs"
-		texturefile = "gfx//interface//institutions_tech_costs.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_icon_powers_administrative_w_bg"
 		texturefile = "gfx//interface//icon_powers_administrative_w_bg.dds"
 	}	
@@ -49,15 +29,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/minimap_bg_border.dds"
 	}	
 	
-	spriteType = {
-		name = "GFX_idea_group_frame"
-		texturefile = "gfx/interface/idea_group_frame.dds"
-	}	
-	spriteType = {
-		name = "GFX_ideaView_progress_frame_long_ideas"
-		texturefile = "gfx/interface/ideaView_progress_frame_long_ideas.dds"
-		alwaystransparent = yes
-	}
 
 	spriteType = {
 		name = "GFX_faction_window_header_bg"	
