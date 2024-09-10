@@ -675,7 +675,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mercenary_manpower"
-				position = { x = 429 y = 96 }
+				position = { x = 422 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}

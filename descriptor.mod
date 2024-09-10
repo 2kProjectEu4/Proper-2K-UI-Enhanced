@@ -1,4 +1,4 @@
-version="v1.37.2.0"
+version="v1.37.*.*"
 picture="thumbnail.png"
 tags={
 	"Graphics"
