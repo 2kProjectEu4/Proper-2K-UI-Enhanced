@@ -4,6 +4,12 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
+# 10.09.2024 changes:
+
+- added missing female advisors pictures for north america (kinda blurry)
+- removed some unused icons (were just removed by the devs from base game)
+- updated version
+
 # 08.09.2024 changes:
 
 - Extracted Tech and ideas assets to create a separate submod

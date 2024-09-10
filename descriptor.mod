@@ -10,5 +10,5 @@ tags={
 	"Missions And Decisions"
 }
 name="Proper 2K UI Enhanced"
-supported_version="v1.37.2.0"
+supported_version="v1.37.*.*"
 remote_file_id="3290499798"
