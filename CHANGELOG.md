@@ -4,8 +4,32 @@ More detailed version of changes: - [Detailed version](https://docs.google.com/d
 
 All notable changes to this project will be documented in this file.
 
-# 02.09.2024 changes:
+# 10.09.2024 changes:
 
+- Scaled faction icons (republic and revolutionary republic)
+- Adjusted mercenary manpower in unit_panel
+- Added missing female advisors pictures for north america (kinda blurry)
+- Removed some unused icons (were just removed by the devs from base game)
+- Updated version
+
+# 08.09.2024 changes:
+
+- Extracted Tech and ideas assets to create a separate submod
+
+# 06.09.2024 changes:
+
+- Fixed war progress indicator position
+- Adjusted text for unit panel card
+- Increased list size from 5 elements to 8 elements
+- Upscaled 3 missing icons
+- Removed the BiggerUI, prodUI, and outliner folders, along with their assets, as they are not used in the project.
+- Enlarged waroverview screen to better fit the elements
+- Fixed pie chart position in province view
+- Centered warscore icon in province view
+
+# 03.09.2024 changes:
+
+- Adjusted trade company placement
 - Extracted Plati decisions assets to create a separate submod
 - Added banners of better quality to plati decisions
 - Removed unused artemis assets and sprites

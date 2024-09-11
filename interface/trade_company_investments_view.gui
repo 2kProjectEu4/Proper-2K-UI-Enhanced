@@ -14,12 +14,12 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_macrobuilder_trade_company_investment_banner"
 			Orientation = "UPPER_LEFT"
-			position = { x = 0 y = -18 }
+			position = { x = 29 y = -18 }
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 57 y = 3 }
+			position = { x = 141 y = 5 }
 			font = "vic_22"
 			text = "TRADE_COMPANY_INVESTMENTS"
 			maxWidth = 280
@@ -29,7 +29,7 @@ guiTypes = {
 
 		listboxType = {
 			name = "investment_category_pair_list"
-			position = { x=0 y=33}
+			position = { x=13 y=50}
 			size = { x = 549 y = 144 }
 
 			scrollbartype = "standardlistbox_slider"
@@ -40,7 +40,7 @@ guiTypes = {
 	windowType = {
 		name = "investment_category_pair_item"
 		position = { x=0 y=0 }
-		size = { x=588 y=120}
+		size = { x=588 y=135}
 		listboxType = {
 			name = "investment_category_list"
 			position = { x = 0 y = 18 }
@@ -59,22 +59,23 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_banner_both_3"
 			Orientation = "UPPER_LEFT"
-			position = { x = 6 y = -11 }
+			position = { x = 14 y = -11 }
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 36 y = -3 }
+			position = { x = 8 y = -4 }
 			font = "vic_22"
 			text = "<CATEGORY>"
 			maxWidth = 240
 			maxHeight = 27
+			format = center
 			fixedsize = yes
 		}
 
 		listboxType = {
 			name = "investment_list"
-			position = { x = 0 y = 27 }
+			position = { x = 0 y = 35 }
 			size = { x=300 y=126 }
 			horizontal = 1
 			spacing = 1
@@ -108,7 +109,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cost_text"
-			position = { x = 0 y = 53 }
+			position = { x = 0 y = 59 }
 			font = "vic_22"
 			maxWidth = 84
 			maxHeight = 27

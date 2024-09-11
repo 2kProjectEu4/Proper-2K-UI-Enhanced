@@ -1494,12 +1494,12 @@ guiTypes = {
 			iconType = {
 				name ="warscore_icon"
 				spriteType = "GFX_ticking_war_score_icon"
-				position = { x = 237 y = 495 }
+				position = { x = 234 y = 495 }
 			}
 
 			instantTextBoxType = {
 				name = "warscore_value"
-				position = { x = 221 y = 534 }
+				position = { x = 218 y = 534 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -1819,7 +1819,7 @@ guiTypes = {
 			{
 				name ="trade_pie"
 				spriteType = "GFX_trade_power_chart_small"
-				position = { x= 331 y = 611 }
+				position = { x= 333 y = 609 }
 			}
 
 			iconType =
