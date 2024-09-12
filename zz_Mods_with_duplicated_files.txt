@@ -14,6 +14,7 @@ P2KE Submod - Banners 5.0
 	-interface	
 		- countrydiplomacyview.gui
 		- frontend.gui
+		- papacy.gui
 
 P2KE Submod - Scaled Minimap
 	-interface	
