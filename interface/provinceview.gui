@@ -2141,7 +2141,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "demographics_header"
-					position = { x = -198 y = -3}
+					position = { x = -193 y = -5}
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 3 y = 3}
@@ -2264,7 +2264,7 @@ guiTypes = {
 				{
 					name ="integrate_annex_progress"
 					spriteType = "GFX_integrate_annex_progress"
-					position = { x= 115 y = 225 }
+					position = { x= 115 y = 223 }
 				}
 
 				iconType = {
@@ -4053,7 +4053,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="CoreShieldButton"
-			position = { x= 0 y = 0 }
+			position = { x= -3 y = 0 }
 			quadTextureSprite = "GFX_shield_small_claim"
 			tooltip = ""
 			tooltipText =""
@@ -4078,7 +4078,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="CoreShieldButton"
-			position = { x= 0 y = 0 }
+			position = { x= -3 y = 0 }
 			quadTextureSprite = "GFX_shield_small_permanent_claim"
 			tooltip = ""
 			tooltipText =""

@@ -98,7 +98,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "hegemony_label"
-				position = { x = 151 y = 534 }
+				position = { x = 151 y = 532 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
@@ -121,7 +121,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=240 y = 725}
+				position = { x=252 y = 725}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -250,14 +250,14 @@ guiTypes = {
 		iconType = {
 			name ="progress_bg"
 			spriteType = "GFX_hegemon_progress_bg"
-			position = { x= 96 y = 96 }
+			position = { x= 94 y = 92 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="progress"
 			spriteType = "GFX_hegemon_progress"
-			position = { x = 102 y = 96 }
+			position = { x = 98 y = 96 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -265,16 +265,10 @@ guiTypes = {
 		iconType = {
 			name ="progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 93 y = 93 }
+			position = { x= 91 y = 93 }
 			Orientation = "UPPER_LEFT"
-		}
-
-
-		
-
-		
+		}	
 	}	
-
 	
 	windowType = {
 		name = "great_powers_old"
@@ -372,7 +366,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "close_button"
-				position = { x=240 y = 581}
+				position = { x=248 y = 581}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""

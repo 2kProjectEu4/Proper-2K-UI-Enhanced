@@ -593,7 +593,7 @@ guiTypes = {
 ##############################################
 		instantTextBoxType = {
 			name = "offer_score_label"
-			position = { x = 250 y = 957 }  #was x = 318 y = 597
+			position = { x = 230 y = 957 }  #was x = 318 y = 597
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -605,7 +605,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "offer_score"
-			position = { x = 335 y = 957 } #was x = 381 y = 597
+			position = { x = 315 y = 957 } #was x = 381 y = 597
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -619,7 +619,7 @@ guiTypes = {
 		{
 			name ="terms_declined"
 			spriteType = "GFX_terms_declined_icon"
-			position = { x= 471 y = 945 } #was x= 527 y = 588
+			position = { x= 451 y = 945 } #was x= 527 y = 588
 			Orientation = "UPPER_LEFT"
 		}			
 		
@@ -627,7 +627,7 @@ guiTypes = {
 		{
 			name ="terms_accepted"
 			spriteType = "GFX_terms_accepted_icon"
-			position = { x= 473 y = 945 } #was x= 527 y = 588
+			position = { x= 453 y = 945 } #was x= 527 y = 588
 			Orientation = "UPPER_LEFT"
 		}	
 
@@ -687,7 +687,7 @@ guiTypes = {
 		{
 			name ="icon_gold"
 			spriteType = "GFX_icon_gold"
-			position = { x= 521 y = 951 } #was x= 155 y = 593
+			position = { x= 501 y = 951 } #was x= 155 y = 593
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -776,7 +776,7 @@ guiTypes = {
 			name ="peace_list"
 			position = { x = 66 y = 249 }
 			backGround=""
-			size = { x= 589 y = 370} #was x= 489 y = 156
+			size = { x= 589 y = 385 } #was x= 489 y = 156
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 3
@@ -847,8 +847,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="claim_button"
-			position = { x= 280 y = -3 }
-			quadTextureSprite = "GFX_shield_small_claim"
+			position = { x= 280 y = 0 }
+			quadTextureSprite = "GFX_shield_small_claim_peace_view"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -859,8 +859,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="core_button"
-			position = { x= 280 y = -3 }
-			quadTextureSprite = "GFX_shield_small"
+			position = { x= 280 y = 0 }
+			quadTextureSprite = "GFX_shield_small_overlay_peace_view"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -870,8 +870,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="perma_claim_button"
-			position = { x= 280 y = -3 }
-			quadTextureSprite = "GFX_shield_small_permanent_claim"
+			position = { x= 280 y = 0 }
+			quadTextureSprite = "GFX_shield_small_permanent_claim_peace_view"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -895,8 +895,9 @@ guiTypes = {
 		{
 			name ="unlawful_territory"
 			spriteType = "GFX_unlawful_territory"
-			position = { x= 240 y = -3 }
+			position = { x= 240 y = 0 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.9
 		}			
 
 		instantTextBoxType = {

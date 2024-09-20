@@ -154,7 +154,43 @@ spriteTypes = {
 		texturefile = "gfx//interface//P2KUIE_sprites//war_overview_sort_454.dds"
 	}
 	################### 
-
+	
+	################### Peace view sprites
+	maskedShieldType = {
+		name = "GFX_shield_small_claim_peace_view"
+		textureFile1 = "gfx//interface//P2KUIE_sprites//small_shield_overlay_claim_peace_view.dds"
+		textureFile2 = "gfx//interface//P2KUIE_sprites//small_shield_mask_peace_view.dds"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_small_permanent_claim_peace_view"
+		textureFile1 = "gfx//interface//P2KUIE_sprites//small_shield_overlay_permanent_claim_peace_view.dds"
+		textureFile2 = "gfx//interface//P2KUIE_sprites//small_shield_mask_peace_view.dds"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}	
+	
+	maskedShieldType = {
+		name = "GFX_shield_small_overlay_peace_view"
+		textureFile1 = "gfx//interface//P2KUIE_sprites//small_shield_overlay_peace_view.dds"
+		textureFile2 = "gfx//interface//P2KUIE_sprites//small_shield_mask_peace_view.dds"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}	
+	
+	################### 
+	
 	################### Artemis UI Sprites
 
 	spriteType = {

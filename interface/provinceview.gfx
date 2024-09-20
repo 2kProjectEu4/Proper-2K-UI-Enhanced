@@ -971,7 +971,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx\\interface\\provinceView_progressbar_w92_h11_green.dds"
 		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_red.dds"
-		size = { x = 108 y = 12 }
+		size = { x = 109 y = 12 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
