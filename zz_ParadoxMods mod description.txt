@@ -1,8 +1,3 @@
-This mod enhances the existing Proper 2K UI Project for an even better experience. It is a standalone mod, so there's no need to download the original version.
+<strong>Ironman compatible and eligible for achievements.</strong>
 
-
-Why does this mod exist?
-I modified the original Proper 2K UI Project mod over the past year to satisfy my need for perfectly aligned UI elements. I noticed the updates had stopped, so I decided to create an updated version that some of you might appreciate.
-This mod addresses the text overlap and UI issues present in the original. I have scaled all EU4 assets up to version 1.37.2 to ensure compatibility and enhance your gaming experience. Additionally, I made numerous small adjustments to the UI elements for a more polished look and feel.
-
-All credits go to "goondo" for their Scale_UI mod and "LuvianQ" for the original "Proper 2K UI Project."
+The <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3290499798">Proper 2K UI Enhanced</a> mod for Europa Universalis IV is designed to enhance the game's interface for players using 1440p resolution. It aims to eliminate the blur and legibility issues caused by the game's default scaling methods, offering a sharper and more readable UI.
