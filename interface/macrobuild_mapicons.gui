@@ -618,7 +618,7 @@ guiTypes = {
 			iconType = {
 				name = "unit_type"
 				spriteType = "GFX_unit_types_strip"
-				position = { x= 0 y = -3 }
+				position = { x= 3 y = -1 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.5
 			}
@@ -631,14 +631,14 @@ guiTypes = {
 			iconType = {
 				name = "core_type"
 				spriteType = "GFX_add_core_icon"
-				position = { x= 6 y = 0 }
+				position = { x= 6 y = -1 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.75
 			}
 			iconType = {
 				name = "missionary_type"
 				spriteType = "GFX_change_religion_icon"
-				position = { x= 6 y = 0 }
+				position = { x= 6 y = -1 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.75
 			}
@@ -652,7 +652,7 @@ guiTypes = {
 			
 			
 			instantTextBoxType={
-				position = {x = 27 y = 6 }
+				position = {x = 27 y = 3 }
 				name = "construction_info"
 				font = "Arial12"
 				borderSize = {x = 9 y = 1}	
@@ -664,7 +664,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 57 y = 6 }
+				position = {x = 57 y = 3 }
 				name = "queue_info"
 				font = "Arial12"
 				borderSize = {x = 9 y = 1}	
@@ -678,7 +678,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "cancel_button"	
 				quadTextureSprite ="GFX_macrobuild_onmap_cancel"
-				position = { x=141 y= 0 }
+				position = { x=141 y= -1 }
 				tooltip = ""	
 				tooltipText =""
 				delayedTooltipText = ""

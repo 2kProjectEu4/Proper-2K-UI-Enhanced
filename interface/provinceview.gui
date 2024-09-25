@@ -2590,22 +2590,12 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "buildings_button"
-				position = { x=18 y=708}
+				position = { x=92 y=708}
 				quadTextureSprite ="GFX_restore_buildings"
-			}
-
-			instantTextBoxType = {
-				name = "restore_button_text"
-				position = { x = 120 y = 768}
-				textureFile = ""
-				font = "vic_36"
-				maxWidth = 660
-				maxHeight = 60
-				text = "RESTORE_BUILDINGS_TEXT"
-				alwaystransparent = yes
+				buttonText = "RESTORE_BUILDINGS_TEXT"
+				buttonFont = "vic_18"
 			}
 		}
-
 
 		## State Window
 		windowType = {
@@ -2906,7 +2896,7 @@ guiTypes = {
 			windowType = {
 				name = "great_projects_window"
 				backGround=""
-				position = { x=600 y=480 }
+				position = { x=594 y=480 }
 				size = { x=570 y=252 }
 				dontRender = ""
 				horizontalBorder= ""

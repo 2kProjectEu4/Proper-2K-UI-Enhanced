@@ -13,7 +13,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 57 y = 20 }
+			position = { x = 57 y = 18 }
 			font = "vic_18"
 			text = "HOLY_ORDERS"	
 			maxWidth = 240
@@ -40,7 +40,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "founder"
-			position = { x = 280 y = 5 }
+			position = { x = 280 y = 18 }
 			font = "vic_18"
 			maxWidth = 300
 			maxHeight = 60	

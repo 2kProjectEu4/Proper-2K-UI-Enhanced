@@ -69,7 +69,7 @@ guiTypes = {
 		{
 			name ="popup_edittextbox_bg"
 			spriteType = "GFX_popup_edittextbox_bg"
-			position = { x= 156 y = 303 }
+			position = { x= 156 y = 299 }
 		}
 			
 		editBoxType =
@@ -84,7 +84,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "random_heir_name"
-			position = { x = 540 y = 303 }
+			position = { x = 540 y = 297 }
 			spriteType = "GFX_nation_designer_random_button"
 			scale = 0.92
 		}
