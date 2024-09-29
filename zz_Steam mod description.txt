@@ -1,4 +1,4 @@
-[img]https://imgur.com/hfUfFW1.png[/img] [b]Ironman compatible and eligible for achievements.[/b]
+[img]https://imgur.com/hfUfFW1.png[/img] [b]Ironman compatible and eligible for achievements.[/b]        [img]https://media.giphy.com/media/l0HU78n8sjfMa2F6o/giphy.gif[/img]
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h2][b]Overview[/b][/h2]
 [b]Proper 2K UI Enhanced[/b] builds upon the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863086388]Proper 2K UI Project[/url] mod to better align with the original Europa Universalis IV interface design. I’ve cleaned up the project and organized the removed assets into submods for flexibility. Below, I’ve listed the types of new changes that [b]Xyarvius[/b] and I contributed to the mod:
