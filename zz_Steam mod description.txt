@@ -21,7 +21,8 @@
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3][b]Mod extensions:[/b][/h3]
 [list]
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878]Proper 2K UI - Anbennar[/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878][b]Proper 2K UI - Anbennar[/b][/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341805317][b]Expanded Family Collection (P2KE Submods by Lichark)[/b][/url].
 [/list]
 [h3][b]Integrated mods[/b] (Many thanks to the creators of these amazing mods!):[/h3]
 [list]
