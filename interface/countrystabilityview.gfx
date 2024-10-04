@@ -337,7 +337,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx/interface/disaster_progress.dds"
 		texturefile2 = "gfx/interface/disaster_progress_bg.dds"
-		size = { x = 43 y = 5 }
+		size = { x = 43 y = 6 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 

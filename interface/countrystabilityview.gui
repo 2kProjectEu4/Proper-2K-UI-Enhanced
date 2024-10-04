@@ -48,7 +48,7 @@ guiTypes = {
 		{
 			name ="progress_frame"
 			spriteType = "GFX_disaster_progress_frame"
-			position = { x= 1 y = 39 }
+			position = { x= 1 y = 41 }
 			Orientation = "UPPER_LEFT"
 		}
 

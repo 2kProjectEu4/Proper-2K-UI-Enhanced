@@ -1029,7 +1029,7 @@ guiTypes = {
     windowType = { # name = "select_culture_window"
       name = "select_culture_window"
       backGround =""
-      position = { x=571 y=72 }
+      position = { x=587 y=72 }
       size = { x=240 y= 36 }
       moveable = 0
       dontRender = ""
@@ -1043,7 +1043,7 @@ guiTypes = {
 
       instantTextBoxType = {
         name = "label"
-        position = { x = 18 y = 16 }
+        position = { x = 25 y = 16 }
         textureFile = ""
         font = "vic_18"
         text = "ND_SELECT_CULTURE"
@@ -1055,9 +1055,9 @@ guiTypes = {
 
       listboxType = {
         name ="listbox"
-        position = { x = 23 y = 48 }
+        position = { x = 31 y = 48 }
         backGround=""
-				size = { x= 468 y = 504 }
+				size = { x= 321 y = 504 }
         horizontal = 0
         spacing = 0
         scrollbartype = "standardlistbox_slider"
@@ -1065,7 +1065,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "cancel_button"
-        position = { x=120 y = 557 }
+        position = { x=129 y = 557 }
         quadTextureSprite ="GFX_standard_button_105"
         buttonText = "CANCEL"
         buttonFont = "vic_18"

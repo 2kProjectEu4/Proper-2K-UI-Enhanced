@@ -217,7 +217,7 @@ guiTypes = {
 			name = "control"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 197
+			maxWidth = 230
 			maxHeight = 24
 			text = "Controlled by Polandball"	
 			format = left

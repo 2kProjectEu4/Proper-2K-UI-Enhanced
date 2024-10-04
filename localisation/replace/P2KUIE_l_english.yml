@@ -71,6 +71,7 @@
 
 ########## Trade View
  TN_MERCHANT_PRESENT:0 "$NAME$ \n ($TYPE$)"
+ TRADEMAP_TOTAL_POWER:0 "Total Trade Power in node: §Y$VAL$§W"
 
 ########## Trade Companies Simplified
  TRADE_COMPANY_MOLUCCAS_Root_Culture_GetName:0 "Moluccas Company [Root.Culture.GetName]"

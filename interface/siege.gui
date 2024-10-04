@@ -525,7 +525,7 @@ guiTypes = {
 		{
 			name ="siege_tick_pie"
 			spriteType = "GFX_trade_power_chart_small"
-			position = { x= 49 y = 405 }
+			position = { x= 50 y = 405 }
 		}
 		
 		iconType =
