@@ -1,8 +1,41 @@
 # Changelog
 
-More detailed version of changes: - [Detailed version](https://docs.google.com/document/d/1ksJ_pVIDeTlflz2zi6KhKpNmFHWVl_Yn/edit?usp=sharing&ouid=107896251154835177376&rtpof=true&sd=true)
+More detailed version of changes: - [Detailed version](https://1drv.ms/w/c/7b95816d69498287/EWJO_WJBv4hMvEyQ4CBhL8wBQ7eopdgw_ipZZkrFRs4-Dw?e=IFWDwT)
 
 All notable changes to this project will be documented in this file.
+
+# 04.10.2024 changes:
+
+- Improved position and quality of UI elements for Persian government
+- Increased text width of controller (Blessings view)
+- Adjusted siege progress pie chart in siege view(few pixels to the right)
+- Adjusted macro builder scrollbar,elements and window position for culture selection window
+
+# 25.09.2024 changes:
+
+- Adjusted holy orders local organization
+- Adjusted new heir window
+- Province view
+  - Added proper restore buildings button
+  - Removed space between great project window and province window
+- Changed mission window to use proper assets of buttons + adjusted style to fit better with vanilla
+
+# 19.09.2024 changes:
+
+- Adjusted province view annex progress bar height
+- Great powers window
+  - Fixed progress bar background
+  - Adjusted close button position
+  - Adjusted progress bar position
+- Peace view
+  - Increased width for money box
+  - Slightly adjusted shield/ hre icon size
+  - Increased height of the provice view list
+- Province view
+  - Reduced size of the claim/core shield icon
+  - Adjusted spacing
+  - Adjusted perma claims/ claims/ territorial core flag shields sizes (were different by ½ pixels)
+- Adjusted text and button for map troop build
 
 # 10.09.2024 changes:
 
