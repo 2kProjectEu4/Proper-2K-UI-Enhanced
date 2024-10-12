@@ -48,43 +48,11 @@ guiTypes = {
 			buttonFont = "vic_18"
 		}
 
-		#####	present_debate_slot should only be visible when there is an active debate.
-		iconType = {
-			name = "present_debate_slot"
-			position = { x=13 y =93}
-			quadTextureSprite ="GFX_parliament_active_debate_slot"
-		}
-
 		#####	previous_debate_slot should only be visible when there is a previous debate.
 		iconType = {
 			name = "previous_debate_slot"
 			position = { x=13 y =93}
 			quadTextureSprite ="GFX_parliament_previous_debate_slot"
-		}
-
-		instantTextBoxType= {
-			position = { x=0 y =99}
-			name = "current_issue"
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 657
-			maxHeight = 24
-			text = ""
-			orientation = "UPPER_LEFT"
-			format = center
-		}
-
-		instantTextBoxType= {
-			position = { x=45 y =139}
-			name = "current_issue_effect"
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 552
-			maxHeight = 141
-			text = ""
-			orientation = "UPPER_LEFT"
-			format = left
-			scrollbartype = "standardtext_slider"
 		}
 
 		instantTextBoxType= {
@@ -106,6 +74,40 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 552
 			maxHeight = 131
+			text = ""
+			orientation = "UPPER_LEFT"
+			format = left
+			scrollbartype = "standardtext_slider"
+		}
+
+		
+
+		#####	present_debate_slot should only be visible when there is an active debate.
+		iconType = {
+			name = "present_debate_slot"
+			position = { x=13 y =93}
+			quadTextureSprite ="GFX_parliament_active_debate_slot"
+		}
+
+		instantTextBoxType= {
+			position = { x=0 y =99}
+			name = "current_issue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 657
+			maxHeight = 24
+			text = ""
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType= {
+			position = { x=45 y =137}
+			name = "current_issue_effect"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 552
+			maxHeight = 146
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
@@ -289,7 +291,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x=20 y = 0}
+			position = { x= 20 y = 2}
 			name = "province"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

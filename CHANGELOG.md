@@ -4,9 +4,21 @@ More detailed version of changes: - [Detailed version](https://1drv.ms/w/c/7b958
 
 All notable changes to this project will be documented in this file.
 
+# 12.10.2024 changes:
+
+- Diplomacy view (enforce peace)
+  - Fixed alignment when overlord warning is visible
+  - Increased width of enemy name
+  - Fixed alignment of enemies lists
+- Fixed overlap of text when “Revolted” tag is visible in Support Rebels view
+- Parliament view
+  - Hid the active parliament effect when a new issue is debated
+  - Changed quality of seat banner
+  - Centred province label
+
 # 04.10.2024 changes:
 
-- Improved position and quality of UI elements for Persian government
+- Improved position and quality of UI elements for Persian and Aztec government
 - Increased text width of controller (Blessings view)
 - Adjusted siege progress pie chart in siege view(few pixels to the right)
 - Adjusted macro builder scrollbar,elements and window position for culture selection window

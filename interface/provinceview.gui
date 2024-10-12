@@ -953,6 +953,7 @@ guiTypes = {
 				position = { x = 24 y = 393 }
 				hint_tag = "hint_hre"
 				frame = 1
+				shortcut = "a"
 			}
 
 			guiButtonType = {

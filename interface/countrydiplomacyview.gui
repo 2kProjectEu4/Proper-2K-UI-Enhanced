@@ -4510,34 +4510,34 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diploreasons_bar"
-			position = { x = 112 y = 498 }
+			position = { x = 112 y = 538 }
 		}
 
 		iconType =
 		{
 			name ="diplo_chance_threshold"
 			spriteType = "GFX_diploreasons_bar_threshold"
-			position = { x = 120 y = 504 }
+			position = { x = 120 y = 544 }
 		}
 
 		iconType =
 		{
 			name ="diplo_chance_frame"
 			spriteType = "GFX_diplomacy_view_diplochance_bar_frame"
-			position = { x = 102 y = 498 }
+			position = { x = 102 y = 538 }
 		}
 
 		iconType =
 		{
 			name ="chance_string_bg"
 			spriteType = "GFX_diplomacy_chance_string_bg"
-			position = { x= 168 y = 540 }
+			position = { x= 168 y = 580 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "chance_string"
-			position = { x = 141 y = 564 }
+			position = { x = 141 y = 604 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -4564,7 +4564,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "enemiestitle"
-			position = { x = 354 y = 312 }
+			position = { x = 354 y = 340 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -4576,9 +4576,9 @@ guiTypes = {
 
 		listboxType = {
 			name ="enemieslist"
-			position = { x = 396 y = 336 }
+			position = { x = 470 y = 366 }
 			backGround=""
-			size = { x= 177 y = 144 }
+			size = { x= 156 y = 164 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
@@ -4588,9 +4588,9 @@ guiTypes = {
 		###If the first one does not have enough room
 		listboxType = {
 			name ="enemieslist2"
-			position = { x = 510 y = 336 }
+			position = { x = 276 y = 366 }
 			backGround=""
-			size = { x= 177 y = 360 }
+			size = { x= 156 y = 164 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
@@ -4600,7 +4600,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "againsttitle"
-			position = { x = 39 y = 312 }
+			position = { x = 39 y = 340 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -4614,12 +4614,12 @@ guiTypes = {
 		{
 			name ="againstshield"
 			spriteType = "standarddialogshield"
-			position = { x= 12 y = 348 }
+			position = { x= 12 y = 378 }
 		}
 
 		instantTextBoxType = {
 			name = "againstname"
-			position = { x = 108 y = 378 }
+			position = { x = 108 y = 408 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -4683,7 +4683,7 @@ guiTypes = {
 			borderSize = {x = 3 y = 3}
 			text = ""
 			fixedsize = yes
-			maxWidth = 77
+			maxWidth = 150
 			maxHeight = 39
 		}
 	}
@@ -5266,7 +5266,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
 			text = ""
-			maxWidth = 240
+			maxWidth = 222
 			maxHeight = 39
 			fixedsize = yes
 			alwaystransparent = yes
@@ -5274,7 +5274,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "revoltrisk"
-			position = { x = 299 y = 3 }
+			position = { x = 270 y = 3 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
@@ -5286,12 +5286,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "provinces"
-			position = { x = 377 y = 3 }
+			position = { x = 420 y = 3 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
 			text = ""
-			maxWidth = 212
+			maxWidth = 170
 			maxHeight = 39
 			fixedsize = yes
 			alwaystransparent = yes
