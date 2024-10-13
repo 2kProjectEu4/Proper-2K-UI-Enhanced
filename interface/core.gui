@@ -350,15 +350,15 @@ guiTypes = {
 		borderSize = {x =15 y = 15}	
 		maxValue = 1
 		minValue = 0
-		stepSize =2
+		stepSize = 2
 		startValue = 1
 		horizontal = 1
 		scroll_speed = 1
 
 		guiButtonType = {
 			name = "SliderButton"	
-			quadTextureSprite = "GFX_scroll_drager"
-			position = { x=0 y =156}
+			quadTextureSprite = "slider_noslider"
+			position = { x=0 y =0}
 		}
 
 		guiButtonType = {
@@ -372,14 +372,14 @@ guiTypes = {
 			parent = "SliderButton"
 			name = "upButton"
 			quadTextureSprite = "GFX_scroll_left_ages"
-			position = { x=0 y =0}	
+			position = { x= 0 y = 0}	
 		}
 		
 		guiButtonType = {
 			parent = "SliderButton"
 			name = "downButton"
 			quadTextureSprite = "GFX_scroll_right_ages"
-			position = { x=0 y =0}	
+			position = { x= 0 y = 0}	
 		}
 	}
 		

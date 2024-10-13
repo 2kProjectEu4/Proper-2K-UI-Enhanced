@@ -922,13 +922,13 @@ guiTypes = {
 		iconType = {
 			name = "free_city_outliner"
 			spriteType ="GFX_outliner_free_city"
-			position = { x= 13 y = -7 }
+			position = { x= 10 y = 0 }
 		}
 
 		iconType = {
 			name = "elector_outliner"
 			spriteType ="GFX_outliner_elector"
-			position = { x= 13 y = -7 }
+			position = { x= 10 y = 0 }
 		}
 	}
 
