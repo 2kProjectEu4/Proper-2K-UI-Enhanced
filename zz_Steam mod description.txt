@@ -23,6 +23,7 @@
 [list]
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878][b]Proper 2K UI - Anbennar[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3344750825][b]P2KE Patch - Extended Timeline[/b][/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3348270748][b]P2KE Patch - Ante Bellum[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341805317][b]Expanded Family Collection (P2KE Submods by Lichark)[/b][/url].
 [/list]
 [h3][b]Integrated mods[/b] (Many thanks to the creators of these amazing mods!):[/h3]
