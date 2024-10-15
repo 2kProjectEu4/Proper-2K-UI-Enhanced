@@ -9,7 +9,7 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_council_of_ten_bg"
 			alwaystransparent = yes
-			position = { x = -16 y = 30 }
+			position = { x = -22 y = 30 }
 		}
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
