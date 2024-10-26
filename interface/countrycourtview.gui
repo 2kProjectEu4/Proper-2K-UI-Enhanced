@@ -328,7 +328,7 @@ guiTypes = {
 		{
 			name = "monarch_heir_crown_icon"
 			spriteType = "GFX_monarch_heir_crown_icon"
-			position = { x = 504 y = 247 }
+			position = { x = 503 y = 238 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -481,7 +481,7 @@ guiTypes = {
 		{
 			name = "monarch_queen_crown_icon"
 			spriteType = "GFX_monarch_heir_crown_icon"
-			position = { x = 523 y = 347 }
+			position = { x = 503 y = 347 }
 			Orientation = "UPPER_LEFT"
 
 		}
