@@ -575,7 +575,6 @@ bitmapfonts = {
 		C = { 242 244 247 } #c Coyote White
 		
 		#Anbennar
-		P = { 104 75 148 }	# Purple
 		H = { 255 243 156 }	# Pale yellow
 		d = { 101 127 153 }	# Damerian blue
 		D = { 138 172 211 }	# Damerian blue (lighter)

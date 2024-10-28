@@ -51,6 +51,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//P2KUIE_sprites//banner_yellow_338.dds"
 	}
 
+	spriteType = {
+		name = "GFX_p2kuie_empty_image"
+		texturefile = "gfx//interface//P2KUIE_sprites//empty_image.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_parliament_issue_banner_565"	

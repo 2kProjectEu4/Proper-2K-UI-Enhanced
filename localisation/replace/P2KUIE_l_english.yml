@@ -4,11 +4,11 @@
  RESTORE_BUILDINGS_TEXT:0 "Click to Restore Buildings"
  PIRATEHUNT_MISSION_DESC:0 "Hunting Pirates in §Y$NODE$§!"
 
-########## Heir
+ ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"
  NEWHEIR_NAME_1:0 "§Y$COUNTRY$§! has a new heir. §G$PRONOUN$§! is:"
 
-########## War Text
+ ########## War Text
  WCRD_ATT:0 "\n§RThis is a war that they have started.§!"
  WCRD_DEF:0 "\n§TThis is a defensive war, where we need to help our ally.§!"
  WCRD_DEFENDER_OF_FAITH:1 "\n§MWe are the Defender of the Faith, and are obliged to protect them.\n§!"
@@ -16,50 +16,50 @@
  CW_WARNALLIES2:0 " $ENEMY$ is allied with $COUNTRY$.\n"
  CW_WARNGUARANTEED2:0 "$ENEMY$ is guaranteed by $COUNTRY$.\n"
 
-########## Combat
+ ########## Combat
  SHOCK_PHASE:0 "£icon_shock£ Shock"
  FIRE_PHASE:0 "£icon_fire£ Fire"
 
-########## Troop Movement
+ ########## Troop Movement
  REINFORCE_INFO_TEXT:4 "\nMax $VALUE|Y$ reinforcements per month.\n$LOCAL|Y$§Y%§! Local Reinforcement Rate \n$COUNTRY$$AND_FROM_LEADER$$AND_FROM_MERCENARY_COMPANY$ Country Bonuses"
  THERE_WILL_BE_BATTLE:0 "$ATTACKER|Y$ vs $DEFENDER|Y$ on $DATE|G$"
  ESTIMATE_ARIVAL:0 "§R Will arrive in§! §Y$PROV$§! on §G$DATE$§!"
  UNIT_DESTINATION_TEXT:0 "Final arrival in §Y$LOCATION$§! on $DATE|Y$."
 
-########## Age View
+ ########## Age View
  CAN_TRANSFER_VASSAL_WARGOAL:1 "Allows '§YTransfer Subject§!' Peace Treaty at half cost"
  age_of_reformation_desc:0 "§RDisable War Taxes!§! From East to West this is the age of religious conviction, debates and mass movements. In Europe Protestantism is entrenched while millenarianism takes hold of Iran and Syncretism shapes Indian society."
 
-########## Pope
+ ########## Pope
  EXCOMMUNICATED:0 "§RExcommunicated§!"
  EXCOMMUNICATED_DESC:0 "§RThe Pope has seen fit to excommunicate this ruler. Neighboring Catholic countries can declare war without incurring the normal stability hits.§!"
  IS_EXCOMMUNICATED:0 "§RIs excommunicated §!"
 
-########## HRE Screen
+ ########## HRE Screen
  HRE_NUM_FREE_CITIES:0 "Free Cities: §G$NUM$§!"
  HRE_MEMBER_STAT:0 "Princes: §G$NUM$§!"
 
-########## EoC
+ ########## EoC
  CELESTIAL_EMPEROR:0 "Emperor of China \n $EMPERORNAME|Y$"
 
-########## Edicts + Holy Orders
+ ########## Edicts + Holy Orders
  NO_EDICT:0 "§WNo Edict!§!"
  NO_EDICT_PLAIN:0 "§WNo Edict Plain§!"
  HOLY_ORDER_ESTABLISHED_BY:0 "Established by:  $COUNTRY$"
 
-########## Policies
+ ########## Policies
  POLICYVIEW_ADMINISTRATIVE:0 "Administrative Policies:"
  POLICYVIEW_DIPLOMATIC:0 "Diplomatic Policies:"
  POLICYVIEW_MILITARY:0 "Military Policies:"
  POLICY_GROUP_IN_COLOR:0 " (+ $POLICY|E$ )"
 
-########## Decisions
+ ########## Decisions
  DECISIONUS_LOG:0 "Decision:\n\n$EVENT$ for player.\n"
  DECISIONOTHER_LOG:0 "Decision:\n\n$EVENT$ in $COUNTRY$.\n"
  bg_decision_taken:0 "$MONARCHNAME$ $ADJECTIVE2$ make the\n\n$WHICH$\n\ndecision."
  bg_dec_tak_1_1:0 "wisely chose to"
 
-########## Native Screen
+ ########## Native Screen
  1_native_advancement_desc:0 "Federal Constitution\n§GAll federation members will be integrated§!"
  2_native_advancement_desc:0 "Unified Warbands\n§GEnable join offensive wars§!"
  3_native_advancement_desc:0 "Mutual Trust\n§GMonthly Federation Favor Growth: §Y+0.10§!"
@@ -69,11 +69,11 @@
  7_native_advancement_desc:0 "Chartered Settlements\n§GSettle Cost: §Y-20.0%§!"
  8_native_advancement_desc:0 "Shared Knowledge\n§GInstitution Spread: §Y+20.0%§!"
 
-########## Trade View
+ ########## Trade View
  TN_MERCHANT_PRESENT:0 "$NAME$ \n ($TYPE$)"
  TRADEMAP_TOTAL_POWER:0 "Total Trade Power in node: §Y$VAL$§W"
 
-########## Trade Companies Simplified
+ ########## Trade Companies Simplified
  TRADE_COMPANY_MOLUCCAS_Root_Culture_GetName:0 "Moluccas Company [Root.Culture.GetName]"
  TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "Pacific Company [Root.Culture.GetName]"
  TRADE_COMPANY_NORTH_SEA_Root_Culture_GetName:0 "North Sea Company [Root.Culture.GetName]"
@@ -139,7 +139,7 @@
  TRADE_COMPANY_COROMANDEL_Root_Culture_GetName:0 "Coromandel Company [Root.Culture.GetName]"
  TRADE_COMPANY_NORTH_INDIA_Root_Culture_GetName:0 "North India Company [Root.Culture.GetName]"
 
-########## Better peace terms
+ ########## Better peace terms
  PEACE_OFFER_POWER_PROJECTION_POS:0 "$TAG$ will gain §G$VAL$§! Power Projection. \n"
  PEACE_OFFER_POWER_PROJECTION_NEG:0 "$TAG$ will lose §R$VAL$§! Power Projection. \n"
  PEACEACCEPTOTHER_6:0 "on the following terms:\n \n $TERMS$"
@@ -188,7 +188,8 @@
  PEACE_GRANT_INDEPENDANCE:0 "$DEFENDER$ will Grant Independence to $ATTACKER$. \n"
  PEACE_DONT_GRANT_INDEPENDANCE:0 "§R$ATTACKER$ will remain subject to $DEFENDER$.§! \n"
  WHITE_PEACE_INDEPENDANCE:0 "White Peace. §R$ATTACKER$ will remain subject to $DEFENDER$.§! \n"
- # change power projection to Power Projection (pp => PP)
+
+ ########## Change power projection to Power Projection (pp => PP)
  EXTRA_BONUS_GOOD_SMALL:0 "If you have at least $MAX$ Power Projection you gain:\n"
  EXTRA_BONUS_GOOD_SMALL_FACT:0 "\nDue to having at least $VAL|Y$ Power Projection:\n"
  EXTRA_BONUS_GOOD:0 "If you have at least $MAX$ Power Projection you gain\n +1 £adm£\n +1 £dip£\n +1 £mil£"

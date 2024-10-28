@@ -121,7 +121,7 @@ guiTypes = {
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				buttonText = "  "^
+				buttonText = "  "
 				Orientation = "UPPER_LEFT"
 				size = { x = 1000 y = 23  }
 				buttonFont = "Stellaris_Small"
