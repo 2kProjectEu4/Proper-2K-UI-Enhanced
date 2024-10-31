@@ -2464,7 +2464,7 @@ guiTypes = {
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "UNIT_NAME"
-      maxWidth = 240
+      maxWidth = 340
       maxHeight = 38
       format = left
 			alwaystransparent = yes
@@ -2474,7 +2474,7 @@ guiTypes = {
 
     instantTextBoxType = {
       name = "inf"
-      position = { x= 253 y = 16 }
+      position = { x= 343 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2485,7 +2485,7 @@ guiTypes = {
     }
     instantTextBoxType = {
       name = "cav"
-      position = { x= 306 y = 16 }
+      position = { x= 396 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2496,7 +2496,7 @@ guiTypes = {
     }
     instantTextBoxType = {
       name = "art"
-      position = { x= 360 y = 16 }
+      position = { x= 450 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2530,7 +2530,7 @@ guiTypes = {
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "UNIT_NAME"
-      maxWidth = 240
+      maxWidth = 300
       maxHeight = 38
       format = left
 			alwaystransparent = yes
@@ -2540,7 +2540,7 @@ guiTypes = {
 
     instantTextBoxType = {
       name = "heavy"
-      position = { x= 206 y = 16 }
+      position = { x= 296 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2551,7 +2551,7 @@ guiTypes = {
     }
     instantTextBoxType = {
       name = "light"
-      position = { x= 254 y = 16 }
+      position = { x= 344 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2562,7 +2562,7 @@ guiTypes = {
     }
     instantTextBoxType = {
       name = "galley"
-      position = { x= 302 y = 16 }
+      position = { x= 392 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"
@@ -2573,7 +2573,7 @@ guiTypes = {
     }
     instantTextBoxType = {
       name = "transport"
-      position = { x= 350 y = 16 }
+      position = { x= 440 y = 16 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       text = "45"

@@ -725,7 +725,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "conform_label"
-			position = { x = 0 y = -17 }
+			position = { x = 45 y = -17 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 48}
 			text = "CONFORM_TO_TEMPLATE"
@@ -742,7 +742,7 @@ guiTypes = {
 			name ="template_list_box"
 			position = { x = 36 y = 63 }
 			backGround=""
-			size = { x=425  y=475}
+			size = { x=518  y=517}
 			Orientation = "UPPER_LEFT"
 			#spacing = 3
 			scrollbartype = "standardlistbox_slider"
@@ -751,7 +751,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close"
-			position = { x= 195 y = 541 }
+			position = { x= 240 y = 541 }
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
@@ -783,7 +783,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UNIT_NAME"
-			maxWidth = 240
+			maxWidth = 280
 			maxHeight = 39
 			format = left
 			alwaystransparent = yes
@@ -793,7 +793,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "inf"
-			position = { x= 253 y = 15 }
+			position = { x= 293 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -804,7 +804,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "cav"
-			position = { x= 306 y = 15 }
+			position = { x= 366 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -815,7 +815,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "art"
-			position = { x= 360 y = 15 }
+			position = { x= 440 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -859,7 +859,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "heavy"
-			position = { x= 207 y = 15 }
+			position = { x= 237 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -870,7 +870,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "light"
-			position = { x= 255 y = 15 }
+			position = { x= 305 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -881,7 +881,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "galley"
-			position = { x= 303 y = 15 }
+			position = { x= 373 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
@@ -892,7 +892,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "transport"
-			position = { x= 351 y = 15 }
+			position = { x= 441 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"

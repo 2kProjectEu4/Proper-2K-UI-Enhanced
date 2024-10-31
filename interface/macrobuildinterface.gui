@@ -144,7 +144,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "base_cost"
-			position = { x = 6 y = 27 }
+			position = { x = 6 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -156,7 +156,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "amount"
-			position = { x = 96 y = 27 }
+			position = { x = 96 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -171,12 +171,12 @@ guiTypes = {
 		{
 			name ="icon_sailors"
 			spriteType = "GFX_icon_sailors"
-			position = { x= 144 y = 21 }
+			position = { x= 164 y = 19 }
 		}
 
 		instantTextBoxType = {
 			name = "sailors"
-			position = { x = 180 y = 27 }
+			position = { x = 200 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -192,7 +192,7 @@ guiTypes = {
 		{
 			name ="fire_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 241 y = 6 }
+			position = { x= 331 y = 6 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -200,7 +200,7 @@ guiTypes = {
 		{
 			name ="fire_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 241 y = 23 }
+			position = { x= 331 y = 23 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -210,7 +210,7 @@ guiTypes = {
 		{
 			name ="shock_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 294 y = 6}
+			position = { x= 384 y = 6}
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -218,7 +218,7 @@ guiTypes = {
 		{
 			name ="shock_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 294 y = 23}
+			position = { x= 384 y = 23}
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -228,7 +228,7 @@ guiTypes = {
 		{
 			name ="morale_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 348 y = 6 }
+			position = { x= 438 y = 6 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -236,7 +236,7 @@ guiTypes = {
 		{
 			name ="morale_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 348 y = 23 }
+			position = { x= 438 y = 23 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -264,7 +264,7 @@ guiTypes = {
 		{
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x= -36 y = 3 } # was -39 3
+			position = { x= -36 y = 3 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 		#	alwaystransparent = yes
@@ -286,7 +286,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "base_cost"
-			position = { x = 6 y = 27 }
+			position = { x = 6 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -298,7 +298,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "amount"
-			position = { x = 72 y = 27 }
+			position = { x = 82 y = 25 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -310,7 +310,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "sailors"
-			position = { x = 129 y = 12 }
+			position = { x = 219 y = 12 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -323,7 +323,7 @@ guiTypes = {
 	
 		instantTextBoxType = {
 			name = "trade_power"
-			position = { x = 183 y = 12 }
+			position = { x = 273 y = 12 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -336,7 +336,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="size_value"
-			position = { x= 237 y = 12}
+			position = { x= 327 y = 12}
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -349,7 +349,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="cannons_value"
-			position = { x= 287 y = 12 }
+			position = { x= 377 y = 12 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -362,7 +362,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="speed_value"
-			position = { x= 339 y = 12 }
+			position = { x= 429 y = 12 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -1352,19 +1352,19 @@ guiTypes = {
 
 		iconType = {
 			name = "fire_icon"
-			position = { x=291 y = 12}
+			position = { x=381 y = 12}
 			spriteType ="GFX_icon_fire"
 		}
 		
 		iconType = {
 			name = "shock_icon"
-			position = { x=345 y = 13}
+			position = { x=435 y = 13}
 			spriteType ="GFX_icon_shock"
 		}
 		
 		iconType = {
 			name = "morale_icon"
-			position = { x=396 y = 15}
+			position = { x=486 y = 15}
 			spriteType ="GFX_icon_morale"
 		}
 	}
@@ -1372,7 +1372,7 @@ guiTypes = {
 	windowType = {
 		name = "build_category_entry_land_template"
 		backGround=""
-		position = { x=0 y = 120} # was 0 0
+		position = { x=0 y = 120}
 		size = { x=384 y = 48}
 		moveable = 0
 		dontRender = ""
@@ -1398,21 +1398,21 @@ guiTypes = {
 
 		iconType = {
 			name = "infantry_icon"
-			position = { x=291 y = 9}
+			position = { x=381 y = 9}
 			spriteType ="GFX_infantry_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "cavalry_icon"
-			position = { x=345 y = 11}
+			position = { x=435 y = 11}
 			spriteType ="GFX_cavalry_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "artillery_icon"
-			position = { x=396 y = 12}
+			position = { x=486 y = 12}
 			spriteType ="GFX_artillery_icon"
 			scale = 0.8
 		}
@@ -1447,28 +1447,28 @@ guiTypes = {
 
 		iconType = {
 			name = "big_icon"
-			position = { x=240 y = 9}
+			position = { x=330 y = 9}
 			spriteType ="GFX_big_ship_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "light_icon"
-			position = { x=291 y = 12}
+			position = { x=381 y = 12}
 			spriteType ="GFX_light_ship_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "galley_icon"
-			position = { x=345 y = 15}
+			position = { x=435 y = 15}
 			spriteType ="GFX_galley_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "transport_icon"
-			position = { x=396 y = 15}
+			position = { x=486 y = 15}
 			spriteType ="GFX_transport_icon"
 			scale = 0.8
 		}
@@ -1506,30 +1506,30 @@ guiTypes = {
 		{
 			name ="icon_sailors"
 			spriteType = "GFX_icon_sailors"
-			position = { x= 189 y = 17 }
+			position = { x= 279 y = 17 }
 		}
 
 		iconType = {
 			name = "trade_power_icon"
-			position = { x= 243 y = 11}
+			position = { x= 333 y = 11}
 			spriteType ="GFX_icon_trade_power"
 		}
 
 		iconType = {
 			name = "hullsize_icon"
-			position = { x= 295 y = 12}
+			position = { x= 385 y = 12}
 			spriteType ="GFX_icon_hull_size"
 		}
 
 		iconType = {
 			name = "cannons_icon"
-			position = { x= 345 y = 12}
+			position = { x= 435 y = 12}
 			spriteType ="GFX_icon_ship_cannons"
 		}
 
 		iconType = {
 			name = "speed_icon"
-			position = { x= 396 y = 12}
+			position = { x= 486 y = 12}
 			spriteType ="GFX_icon_ship_speed"
 		}
 	}
