@@ -783,8 +783,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="elector_shield"
-			quadTextureSprite = "GFX_shield_small"
-			position = { x= 18 y = 36}
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 0 y = 70}
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
