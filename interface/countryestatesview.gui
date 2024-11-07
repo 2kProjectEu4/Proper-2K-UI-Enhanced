@@ -68,7 +68,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "5"
-			maxWidth = 53
+			maxWidth = 73
 			maxHeight = 18
 			format = left
 			fixedsize = yes
@@ -90,7 +90,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "5"
-			maxWidth = 53
+			maxWidth = 73
 			maxHeight = 18
 			format = left
 			fixedsize = yes
@@ -430,7 +430,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_1"
-			position = { x=324 y=165 }
+			position = { x=309 y=165 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -438,7 +438,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_1"
-			position = { x=360 y=165 }
+			position = { x=340 y=165 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -450,7 +450,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_2"
-			position = { x=324 y=186 }
+			position = { x=309 y=186 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -458,7 +458,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_2"
-			position = { x=360 y=186 }
+			position = { x=340 y=186 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -470,7 +470,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_3"
-			position = { x=414 y=165 }
+			position = { x=404 y=165 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -478,7 +478,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_3"
-			position = { x=447 y=165 }
+			position = { x=432 y=165 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -490,7 +490,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_4"
-			position = { x=414 y=186 }
+			position = { x=402 y=186 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -498,7 +498,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_4"
-			position = { x=447 y=186 }
+			position = { x=432 y=186 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
