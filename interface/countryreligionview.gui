@@ -677,12 +677,12 @@ guiTypes = {
 			{
 				name ="isolationism_icon"
 				spriteType = "GFX_isolationism_icons"
-				position = { x= 207 y = 283 }
+				position = { x= 205 y = 281 }
 			}
 
 			instantTextBoxType = {
 				name = "isolationism_label"
-				position = { x = 45 y = 281 }
+				position = { x = 52 y = 280 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "ISOLATIONISM"
@@ -694,20 +694,20 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "isolationism_value"
-				position = { x= 239 y = 287 }
+				position = { x= 232 y = 284 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "0"
 				maxWidth = 173
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
-				format = left
+				format = center
 			}
 
 			instantTextBoxType = {
 				name = "possible_incidents_label"
-				position = { x = 36 y = 311 }
-				font = "vic_22"
+				position = { x = 36 y = 313 }
+				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "POSSIBLE_INCIDENTS"
 				maxWidth = 165
@@ -718,7 +718,7 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "possible_incidents_box"
-				position = { x = 207 y = 311 }
+				position = { x = 200 y = 311 }
 				size = { x = 240 y = 39 }
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -727,8 +727,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "active_incidents_label"
-				position = { x = 36 y = 339 }
-				font = "vic_22"
+				position = { x = 36 y = 342 }
+				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "ACTIVE_INCIDENTS"
 				maxWidth = 165
@@ -739,8 +739,8 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "active_incidents_box"
-				position = { x = 207 y = 339 }
-				size = { x = 153 y = 39 }
+				position = { x = 200 y = 339 }
+				size = { x = 240 y = 39 }
 				Orientation = "UPPER_LEFT"
 				format = left
 				spacing = 0
@@ -748,8 +748,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "past_incidents_label"
-				position = { x = 36 y = 366 }
-				font = "vic_22"
+				position = { x = 36 y = 371 }
+				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "PAST_INCIDENTS"
 				maxWidth = 165
@@ -760,8 +760,8 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "past_incidents_box"
-				position = { x = 207 y = 366 }
-				size = { x = 153 y = 39 }
+				position = { x = 200 y = 368 }
+				size = { x = 240 y = 39 }
 				Orientation = "UPPER_LEFT"
 				format = left
 				spacing = 0
