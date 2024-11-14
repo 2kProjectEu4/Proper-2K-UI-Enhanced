@@ -307,14 +307,14 @@ guiTypes = {
 		iconType = {
 			name ="revolution_spread_bad_bar"
 			spriteType = "GFX_government_revolution_bad_bar"
-			position = { x = 530 y = 363 }
+			position = { x = 526 y = 363 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="revolution_spread_good_bar"
 			spriteType = "GFX_government_revolution_good_bar"
-			position = { x = 530 y = 363 }
+			position = { x = 526 y = 363 }
 			Orientation = "UPPER_LEFT"
 		}
 
