@@ -27,7 +27,7 @@ guiTypes = {
 		iconType = {
 			name = "papacy_top_bg"
 			spriteType = "GFX_papacy_top_bg"
-			position = { x = 0 y = 81 }
+			position = { x = -5 y = 65 }
 			alwaystransparent = no
 		}
 

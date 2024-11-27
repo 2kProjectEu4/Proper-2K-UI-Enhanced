@@ -560,13 +560,13 @@ guiTypes = {
 			iconType = {
 				name = "background"
 				spriteType = "GFX_hre_feature_no_emperor_bg"
-				position = { x= 348 y = 171 }
+				position = { x= 280 y = 270 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "reforms_label"
-				position = { x = 593 y = 258 }
+				position = { x = 593 y = 273 }
 				format = centre
 				textureFile = ""
 				font = "vic_18"
@@ -578,7 +578,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "reform_container_nodlc"
-				position = { x = 450 y = 306 }
+				position = { x = 440 y = 320 }
 				size = { width = 521 height = 360 }
 				slotsize = { width = 267 height = 75 }
 				max_slots_horizontal = 2

@@ -390,8 +390,8 @@ guiTypes = {
 		iconType = {
 			name ="dev_share_pie_chart_overlays"
 			spriteType = "GFX_no_personality_chart_overlay"
-			position = { x= 36 y = 169 }
-			scale = 1.7
+			position = { x= 46 y = 177 }
+			scale = 1.44
 
 		}
 		gridBoxType = {
