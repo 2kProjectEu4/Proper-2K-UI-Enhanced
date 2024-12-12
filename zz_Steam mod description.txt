@@ -11,8 +11,6 @@
 [h3]For a detailed list please check the [url=https://1drv.ms/w/c/7b95816d69498287/EWJO_WJBv4hMvEyQ4CBhL8wBQ7eopdgw_ipZZkrFRs4-Dw?e=IFWDwT]Changelog[/url][/h3]
 [h3]This is a standalone mod, so there's no need to download the original version.[/h3]
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
-[h3]Chinese Language Mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455]Chinese Mod - 2K UI Project Enhanced[/url] [/h3]
-[h3]Submods and Patches Collection: ✨✨[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325833509]P2KE Submods and Patches[/url]✨✨[/h3]
 [h3]Alternative downloads:  [/h3]
 [list]
     [*] [url=https://mods.paradoxplaza.com/mods/85612/Any]Paradox Mods[/url].
@@ -21,10 +19,12 @@
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3][b]Mod extensions:[/b][/h3]
 [list]
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455][b]Chinese Mod - 2K UI Project Enhanced[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878][b]Proper 2K UI - Anbennar[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3344750825][b]P2KE Patch - Extended Timeline[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3348270748][b]P2KE Patch - Ante Bellum[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3361534855][b]P2KE Patch - Europa Expanded[/b][/url].
+    [*] ✨✨[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325833509][b]P2KE Submods and Patches[/b][/url]✨✨.
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341805317][b]Expanded Family Collection (P2KE Submods by Lichark)[/b][/url].
 [/list]
 [h3][b]Integrated mods[/b] (Many thanks to the creators of these amazing mods!):[/h3]
