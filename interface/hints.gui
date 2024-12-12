@@ -4,7 +4,7 @@ guiTypes =
 	{
 		name = "hints_test"
 		backGround=""
-		position = { x=-343 y=-702 }
+		position = { x=-343 y=-685 }
 		size = { x=720 y=600 }
 		moveable = 0
 		dontRender = ""
@@ -95,7 +95,7 @@ guiTypes =
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "hint text"	
-			maxWidth = 288
+			maxWidth = 295
 			maxHeight = 198
 			scrollbartype = "standardtext_slider"
 		}
@@ -190,7 +190,7 @@ guiTypes =
 	{
 		name = "hints_minimized"
 		backGround=""
-		position = { x=-343 y=-291 }		
+		position = { x=-343 y=-274 }		
 		size = { x=720 y=600 }
 		moveable = 0
 		dontRender = ""
@@ -242,7 +242,7 @@ guiTypes =
 	{ #containes all the tutorial text
 		name = "hints_window"
 		backGround=""
-		position = { x=-342 y=-705 }		
+		position = { x=-342 y=-685 }		
 		size = { x=341 y=420 }
 		moveable = 0
 		dontRender = ""
@@ -281,7 +281,7 @@ guiTypes =
 	{
 		name = "tutorial_minimized"
 		backGround=""
-		position = { x=-343 y=-291 }		
+		position = { x=-343 y=-274 }		
 		size = { x=720 y=600 }
 		moveable = 0
 		dontRender = ""

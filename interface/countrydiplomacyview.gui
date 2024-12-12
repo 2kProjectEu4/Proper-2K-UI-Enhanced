@@ -5093,11 +5093,11 @@ guiTypes = {
 			position = { x = 36 y = 249 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = -5 y = 0}
 			text = ""
-			maxWidth = 360
-			maxHeight = 240
-			fixedsize = yes
+			maxWidth = 345
+			maxHeight = 170
+			scrollbartype = "standardtext_slider"
 		}
 
 		instantTextBoxType = {
