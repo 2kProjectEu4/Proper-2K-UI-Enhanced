@@ -281,7 +281,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/hessian_militarization/hessian_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/hessian_militarization/hessian_progress_bar_empty.dds"
-		size = { x = 312 y = 24 }
+		size = { x = 312 y = 23 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 

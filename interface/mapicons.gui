@@ -936,13 +936,13 @@ guiTypes = {
 		iconType = {
 			name ="unit_attacker_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 19 y = 9 }
+			position = { x= 19 y = 8 }
 		}	
 	
 		iconType = {
 			name ="unit_defender_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 84 y = 9 }
+			position = { x= 84 y = 8 }
 		}
 
 		iconType = {
@@ -971,7 +971,7 @@ guiTypes = {
 		}		
 		
 		instantTextBoxType={
-			position = {x = 21  y  = 19 }
+			position = {x = 19  y  = 18 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
@@ -982,7 +982,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 89 y  = 19 }
+			position = {x = 91 y  = 18 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
@@ -996,25 +996,25 @@ guiTypes = {
 		guiButtonType = {
 			name ="attacker_condottieri_shield"
 			quadTextureSprite = "GFX_Navy_shield_small_flip"
-			position = { x = -31 y = 7 }
+			position = { x = -38 y = 7 }
 		}
 		
 		guiButtonType = {
 			name ="defender_condottieri_shield"
 			quadTextureSprite = "GFX_Navy_shield_small"
-			position = { x = 159  y = 7 }
+			position = { x = 166  y = 7 }
 		}
 
 		guiButtonType = {
 			name ="attackar_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x = -3 y = 11 }
+			position = { x = -10 y = 11 }
 		}
 		
 		guiButtonType = {
 			name ="defender_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x = 135  y = 11 }
+			position = { x = 142  y = 11 }
 		}
 
 		iconType = {
