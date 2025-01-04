@@ -765,8 +765,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "assign_hotkey_pick_button_hint_text"
-			position = { x = 48 y = 33 }
-			font = "vic_22"
+			position = { x = 76 y = 33 }
+			font = "vic_18"
 			text = "PICK_HOTKEY_BUTTON_HINT"
 			maxWidth = 384
 			maxHeight = 72
