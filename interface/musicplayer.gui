@@ -395,7 +395,7 @@ guiTypes = {
 			name = "track_label"
 			position = { x = 47 y = 13 }
 			font = "vic_22"
-			maxWidth = 379
+			maxWidth = 430
 			maxHeight = 24
 			format = left
 			fixedsize= yes
