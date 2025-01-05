@@ -261,13 +261,13 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "checkbox_dont_show_again"
-			position = { x= 431 y = 715 }
+			position = { x= 449 y = 715 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 		
 		instantTextBoxType = {
 			name = "title_checkbox_dont_show_again"
-			position = { x=471 y=723 }
+			position = { x=489 y=723 }
 			font = "vic_22"
 			maxWidth = 378
 			maxHeight = 30

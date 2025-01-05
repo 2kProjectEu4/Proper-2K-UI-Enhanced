@@ -130,7 +130,7 @@ guiTypes = {
 
 
 		instantTextBoxType={
-			position = { x= 24 y =27}
+			position = { x= 24 y =12}
 			name = "name"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -139,14 +139,15 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 		
 		instantTextBoxType={
-			position = { x=234 y =27}
+			position = { x=224 y =14}
 			name = "Date"
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 144
+			maxWidth = 164
 			maxHeight = 24
 			text = ""	
 			orientation = "UPPER_LEFT"
@@ -154,11 +155,11 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = { x=399 y =27}
+			position = { x=374 y =14}
 			name = "EndDate"
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 144
+			maxWidth = 164
 			maxHeight = 24
 			text = ""	
 			orientation = "UPPER_LEFT"
@@ -179,7 +180,7 @@ guiTypes = {
 		fullScreen = no
 
 		instantTextBoxType={
-			position = { x= 24 y =3}
+			position = { x= 24 y =-10}
 			name = "underline"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -203,7 +204,7 @@ guiTypes = {
 
 
 		instantTextBoxType={
-			position = { x= 24 y = 17 }
+			position = { x= 24 y = -8 }
 			name = "text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	

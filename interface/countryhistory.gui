@@ -21,7 +21,7 @@ guiTypes = {
 		
 		textBoxType = {
 			name = "title"
-			position = { x = -240 y =-312 }
+			position = { x = -243 y =-312 }
 			format = centre
 			textureFile = ""
 			font = "vic_22"
@@ -36,12 +36,11 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="kings"
-			position = { x = -300 y = -279 }
+			position = { x = -292 y = -254 }
 			backGround=""
-			size = { x= 543 y = 555 }
+			size = { x= 526 y = 554 }
 			Orientation = "CENTER"
 			horizontal = 0
-			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 		}
