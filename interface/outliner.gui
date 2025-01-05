@@ -59,7 +59,7 @@ guiTypes = {
 	windowType = {
 		name = "outliner_configuration"
 		backGround="Background"
-			position = { x=-579 y=133 }		#was x=-516 y= 109
+			position = { x=-584 y=139 }		#was x=-516 y= 109
 			size = { x=246 y=558 }
 			moveable = 0
 			dontRender = ""

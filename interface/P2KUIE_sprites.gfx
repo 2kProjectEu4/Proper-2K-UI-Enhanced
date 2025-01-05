@@ -63,6 +63,12 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_music_banner_overlay"
+		texturefile = "gfx//interface//music_player//banner_overlay.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {

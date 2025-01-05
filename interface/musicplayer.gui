@@ -34,8 +34,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "musicminicontroller_window"
-		position = { x= -360 y = 42}
-		show_position = { x= -360 y = 87 }
+		position = { x= -549 y = -70}
+		show_position = { x= -549 y = 6 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 100
@@ -73,7 +73,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "musicplayer_window"
-		size = { width = 720 height = 1020 }
+		size = { width = 720 height = 1120 }
 		orientation= center
 		origo = center
 		moveable = yes
@@ -88,7 +88,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "window_title"
-			position = { x = 145 y = 43 }
+			position = { x = 145 y = 46 }
 			font = "vic_29s"
 			text = "MUSIC_PLAYER_TITLE"
 			maxWidth = 360
@@ -112,7 +112,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "track_name"
-			position = { x = 79 y = 161 }
+			position = { x = 79 y = 160 }
 			font = "vic_22"
 			text = "Roger Pontare - Nar vindarna viskar mitt namn (2:58)"
 			maxWidth = 379
@@ -122,7 +122,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "track_elapsed"
-			position = { x = 456 y = 163 }
+			position = { x = 456 y = 162 }
 			font = "vic_18"
 			text = "00:00"
 			maxWidth = 60
@@ -132,7 +132,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "track_duration"
-			position = { x = 511 y = 163 }
+			position = { x = 511 y = 162 }
 			font = "vic_18"
 			text = "02:58"
 			maxWidth = 60
@@ -148,7 +148,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "prev_button"
-				position = { x = 7 y = -53 }
+				position = { x = 10 y = -53 }
 				quadTextureSprite ="GFX_button_music_player_previous"
 				buttonFont = "Main_14_black"
 				Orientation = "LOWER_LEFT"
@@ -158,7 +158,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "play_button"
-				position = { x = 72 y = -53 }
+				position = { x = 73 y = -53 }
 				quadTextureSprite ="GFX_button_music_player_play"
 				buttonFont = "Main_14_black"
 				Orientation = "LOWER_LEFT"
@@ -167,7 +167,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "next_button"
-				position = { x = 137 y = -53 }
+				position = { x = 136 y = -53 }
 				quadTextureSprite ="GFX_button_music_player_next"
 				buttonFont = "Main_14_black"
 				Orientation = "LOWER_LEFT"
@@ -178,7 +178,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "shuffle_button"
-				position = { x = 201 y = -53 }
+				position = { x = 199 y = -53 }
 				quadTextureSprite ="GFX_button_shuffle"
 				buttonFont = "Main_14_black"
 				Orientation = "LOWER_LEFT"
@@ -194,7 +194,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "weights_button"
-				position = { x = 261 y = -53 }
+				position = { x = 262 y = -53 }
 				quadTextureSprite ="GFX_button_thematic_shuffle"
 				buttonFont = "Main_14_black"
 				Orientation = "LOWER_LEFT"
@@ -222,14 +222,14 @@ guiTypes = {
 				slider = {
 					name = "Slider"	
 					quadTextureSprite = "GFX_scroll_drager"
-					position = { x=0 y = -3 }
+					position = { x=0 y = -2 }
 					pdx_tooltip = "MUSICPLAYER_ADJUST_VOL"
 				}
 		
 				track = {
 					name = "Track"
 					quadTextureSprite = "GFX_volume_track"
-					position = { x=0 y = 18 }
+					position = { x=2 y = 18 }
 					alwaystransparent = yes
 					pdx_tooltip = "MUSICPLAYER_ADJUST_VOL"
 				}	
@@ -244,7 +244,7 @@ guiTypes = {
 				increaseButton = {
 					name = "Increase"
 					quadTextureSprite = "GFX_button_volume_plus"
-					position = { x=-63 y = -25 }
+					position = { x=-61 y = -25 }
 					pdx_tooltip = "MUSICPLAYER_INCREASE_VOL"
 				}
 			}
@@ -252,19 +252,19 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "default_playlist_window"
-			position = { x = 18 y = 199 }
-			size = { width = 609 height = -53 }
+			position = { x = 18 y = 198 }
+			size = { width = 610 height = -53 }
 			
 			smoothListBoxType = {
 				name = "music_player_components"
 				position = { x = 17 y = -7 }
-				size = { x = 609 y = 789 }
+				size = { x = 610 y = 793 }
 			}
 		}
 		
 		ButtonType = {
 			name = "close_button"
-			position = { x=237 y =984}
+			position = { x=237 y =994}
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -275,6 +275,13 @@ guiTypes = {
 			clicksound = close_window
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE"
+		}
+		
+		iconType = {
+			name = "banner_overlay"
+			position = {x=31 y=184}	
+			quadTextureSprite ="GFX_p2kuie_music_banner_overlay"
+			alwaystransparent = yes
 		}
 	}
 	
