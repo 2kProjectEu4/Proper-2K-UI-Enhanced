@@ -151,7 +151,7 @@ guiTypes = {
 		name = "timeline_controls"
 		position = { x= 0 y = 0 }
 		show_position = { x=0 y=0 }
-		hide_position = { x=-240 y=-120 }
+		hide_position = { x=0 y=-120 }
 		animation_type = "linear"
 		animation_time = 300
 
@@ -167,7 +167,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "timeline_title"
-			position = { x = 93 y = 12 }
+			position = { x = 91 y = 12 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
@@ -202,27 +202,27 @@ guiTypes = {
 		guiButtonType = {
 			name = "timeline_fast"
 			quadTextureSprite ="GFX_timeline_button_speed3"
-			position = { x = 234 y = 63 }
+			position = { x = 233 y = 63 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "timeline_veryfast"
 			quadTextureSprite ="GFX_timeline_button_speed4"
-			position = { x = 285 y = 63 }
+			position = { x = 283 y = 63 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = { 
 			name = "timeline_date"
-			position = { x = 341 y = 75 }
+			position = { x = 336 y = 74 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "NO DATE!!!"	
 			maxWidth = 204
 			maxHeight = 39	
-			format = left
+			format = center
 			Orientation = "UPPER_RIGHT"
 		}		
 	}

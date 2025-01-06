@@ -3,6 +3,7 @@
  SUPPORT_EFFICIENCY:0 "Efficiency:"
  RESTORE_BUILDINGS_TEXT:0 "Click to Restore Buildings"
  PIRATEHUNT_MISSION_DESC:0 "Hunting Pirates in §Y$NODE$§!"
+ ADD_MAPMODE:0 "Add another map mode"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"
