@@ -69,6 +69,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//music_player//banner_overlay.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_p2kuie_achievement_overlay"
+		texturefile = "gfx//interface//achievements//achievement_overlay.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {
