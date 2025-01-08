@@ -762,13 +762,13 @@ guiTypes = {
 
 		checkboxType = {
 			name = "checkbox"
-			position = { x= -56 y = 0 }
+			position = { x= -56 y = -2 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 
 		instantTextBoxType = { 
 			name = "label"
-			position = { x = -15 y = 9 }
+			position = { x = -15 y = 7}
 			font = "vic_18"
 			text = "Allies"	
 			maxWidth = 216

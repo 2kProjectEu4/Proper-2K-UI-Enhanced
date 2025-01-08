@@ -5,6 +5,9 @@
  PIRATEHUNT_MISSION_DESC:0 "Hunting Pirates in §Y$NODE$§!"
  ADD_MAPMODE:0 "Add another map mode"
  LEDGER_PAGE:0 "Pg."
+ PAPACY_LOYALTY:0 "Loyalty"
+ MENU_MESSAGES_GOVERNMENT:0 "Governm."
+ MENU_MESSAGES_DIPLOMACY:0 "Diplom."
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"

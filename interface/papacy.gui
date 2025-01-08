@@ -64,7 +64,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "papacy_label"
-			position = { x = 78 y =51 }
+			position = { x = 86 y =51 }
 			format = centre
 			textureFile = ""
 			font = "vic_29"
@@ -83,14 +83,14 @@ guiTypes = {
         iconType = {
             name = "cross_papal"
             spriteType = "GFX_cross_papal"
-            position = { x=49 y=162 }
+            position = { x=51 y=162 }
             Orientation = "UPPER_LEFT"
         }
 
         iconType = {
             name = "tithe_state"
             spriteType = "GFX_tithe_state"
-            position = { x=47 y=216 }
+            position = { x=47 y=215 }
             Orientation = "UPPER_LEFT"
             scale = 0.8
         }
@@ -98,26 +98,26 @@ guiTypes = {
 		iconType = {
 			name = "reform_desire_icon"
 			spriteType = "GFX_icon_catholic_reform_desire"
-			position = { x=47 y=105 }
+			position = { x=47 y=103 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_reformdesire"
 		}
 
 		instantTextBoxType = {
 			name = "reform_desire_value"
-			position = { x=81 y=114 }
+			position = { x=72 y=110 }
 			font = "vic_18"
 			borderSize = { x=0 y=0}
 			text = "0.0%"
 			maxWidth = 51
 			maxHeight = 30
 			Orientation = "UPPER_LEFT"
-			format = left
+			format = right
 		}
 
 		guiButtonType = {
 			name = "buy_indulgence_button"
-			position = { x=185 y=210}
+			position = { x=178 y=209}
 			quadTextureSprite ="GFX_buy_indulgence_button"
 			tooltip = ""
 			tooltipText = ""
@@ -134,7 +134,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "curia_treasury_value"
-			position = { x=95 y=225 }
+			position = { x=91 y=223 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = { x=0 y=0 }
@@ -142,12 +142,12 @@ guiTypes = {
 			maxWidth = 90
 			maxHeight = 30
 			Orientation = "UPPER_LEFT"
-			format = left
+			format = center
 		}
 
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x=78 y=168 }
+			position = { x=73 y=166 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = { x=0 y=0 }
@@ -155,12 +155,12 @@ guiTypes = {
 			maxWidth = 51
 			maxHeight = 30
 			Orientation = "UPPER_LEFT"
-			format = left
+			format = right
 		}
 
 		guiButtonType = {
 			name = "invest_button"
-			position = { x=127 y=153 }
+			position = { x=127 y=152 }
 			quadTextureSprite ="GFX_invest_papacy_button"
 			tooltip = ""
 			tooltipText =""
@@ -178,7 +178,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "chance_value"
-			position = { x=171 y=165 }
+			position = { x=170 y=161 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -191,17 +191,17 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "sort_loyalty"
-				position = { x = 51 y = 309 }
+				position = { x = 53 y = 310 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "PAPACY_LOYALTY"
 				buttonFont = "vic_18"
-				quadTextureSprite ="GFX_sort_100"
+				quadTextureSprite ="GFX_sort_94"
 		}
 		guiButtonType = {
 				name = "sort_amount"
-				position = { x = 168 y =312 }
+				position = { x = 167 y =311 }
 				quadTextureSprite ="GFX_sort_64"
 				tooltip = ""
 				tooltipText =""
@@ -211,7 +211,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_influence"
-				position = { x = 243 y =309 }
+				position = { x = 242 y =309 }
 				quadTextureSprite ="GFX_sort_100"
 				tooltip = ""
 				tooltipText =""
@@ -221,7 +221,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_invested"
-				position = { x = 361 y =309 }
+				position = { x = 360 y =309 }
 				quadTextureSprite ="GFX_sort_100"
 				tooltip = ""
 				tooltipText =""
@@ -231,8 +231,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_chance"
-				position = { x = 480 y =312 }
-				quadTextureSprite ="GFX_sort_88"
+				position = { x = 479 y =311 }
+				quadTextureSprite ="GFX_sort_107"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -256,7 +256,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "active_label"
-			position = { x = 207 y = 273 }
+			position = { x = 207 y = 271 }
 
 			textureFile = ""
 			font = "vic_18"
@@ -269,7 +269,7 @@ guiTypes = {
 
 		listboxType = {
 			name = "active_cardinal_list"
-			position = { x = 48 y = 345 }
+			position = { x = 48 y = 340 }
 			backGround=""
 			size = { x=570  y = 432}
 			spacing = 3
@@ -306,7 +306,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "golden_bulls_label"
-			position = { x = 432 y = 204 }
+			position = { x = 435 y = 199 }
 
 			textureFile = ""
 			font = "vic_18"
@@ -319,7 +319,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "picked_bull_label"
-			position = { x = 435 y = 231 }
+			position = { x = 435 y = 229 }
 
 			textureFile = ""
 			font = "vic_18"
@@ -710,7 +710,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="cardinal_vote_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 42 y = 0 }
+			position = { x= 42 y = 2 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -720,7 +720,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "number_of_cardinals"
-				position = { x = 125 y = 5 }
+				position = { x = 125 y = 9 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
@@ -733,7 +733,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "influence"
-			position = { x = 203 y = 5 }
+			position = { x = 202 y = 9 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 3}
@@ -745,7 +745,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "invested"
-			position = { x = 321 y = 5 }
+			position = { x = 321 y = 9 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 3}
@@ -757,7 +757,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "chance_of_pope"
-			position = { x = 438 y = 5 }
+			position = { x = 443 y = 9 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 3}
