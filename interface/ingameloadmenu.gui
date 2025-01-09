@@ -81,7 +81,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 129 y = 873 }
+			position = {x = 129 y = 886 }
 			name = "show_unsafe_text"
 			font = "vic_18"
 			borderSize = {x = 9 y = 0}
@@ -94,7 +94,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "show_unsafe_checkbox"
-			position = { x = 96 y = 865 }
+			position = { x = 96 y = 878 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
@@ -102,14 +102,14 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "load"
-			position = { x = 351 y = 915 }
+			position = { x = 333 y = 930 }
 			quadTextureSprite ="button_type_7"
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "Main_16"
 		}
 		guiButtonType = {
 			name = "cancel"
-			position = { x = 13 y = 915 }
+			position = { x = 30 y = 930 }
 			quadTextureSprite ="button_type_7"
 			buttonText = "SM_BACK"
 			buttonFont = "Main_16"

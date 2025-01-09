@@ -92,7 +92,7 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 150 y = 870 }
+				position = {x = 150 y = 863 }
 				name = "filename_label"
 				font = "vic_18"
 				borderSize = {x = 9 y = 0}
@@ -104,7 +104,7 @@ guiTypes = {
 			}
 
 			editBoxType = {
-				position = { x = 96 y = 894 }
+				position = { x = 102 y = 887 }
 				name = "game_name"
 				font = "vic_18"
 				borderSize = { x = 9 y = 9  }
@@ -114,7 +114,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 411 y = 870 }
+				position = {x = 416 y = 863 }
 				name = "compressed_label"
 				font = "vic_18"
 				borderSize = {x = 9 y = 0}
@@ -128,7 +128,7 @@ guiTypes = {
 
 			checkboxType = {
 				name = "checkbox_compressed"
-				position = { x = 461 y = 891 }
+				position = { x = 467 y = 887 }
 				quadTextureSprite = "GFX_checkbox_gold_32"
 				buttonFont = "vic_18"
 				pdx_tooltip = "CHECKBOX_COMPRESSED_SAVEGAMES"
@@ -136,7 +136,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 186 y = 942 }
+				position = {x = 185 y = 938 }
 				name = "disk_quota"
 				font = "vic_18"
 				borderSize = {x = 9 y = 0}
@@ -149,7 +149,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cancel"
-				position = { x = 13 y = 930 }
+				position = { x = 30 y = 930 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "SM_BACK"
 				buttonFont = "Main_16"
@@ -158,7 +158,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "save"
-				position = { x = 349 y = 930 }
+				position = { x = 333 y = 930 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "MENU_BAR_SAVE"
 				buttonFont = "Main_16"
