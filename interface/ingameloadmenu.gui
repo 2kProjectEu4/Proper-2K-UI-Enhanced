@@ -81,7 +81,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 129 y = 886 }
+			position = {x = 143 y = 886 }
 			name = "show_unsafe_text"
 			font = "vic_18"
 			borderSize = {x = 9 y = 0}
@@ -94,7 +94,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "show_unsafe_checkbox"
-			position = { x = 96 y = 878 }
+			position = { x = 110 y = 878 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
