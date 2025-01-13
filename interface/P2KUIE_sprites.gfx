@@ -74,6 +74,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//achievements//achievement_overlay.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_modifiers_box_bg"
+		texturefile = "gfx//interface//modifiers_box_bg.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {

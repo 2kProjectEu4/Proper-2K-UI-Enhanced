@@ -232,20 +232,20 @@ guiTypes = {
 		{
 			name ="modifier_icon"
 			spriteType = "GFX_heretics_tolerance_icon"
-			position = { x= 15 y = 6 }
+			position = { x= 9 y = 3 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.5
+			scale = 0.6
 		}
 
 		instantTextBoxType = {
 			name = "modifier_bonus"
-			position = { x = 48 y = 12 }
+			position = { x = 48 y = 11 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province name"
 			maxWidth = 351
-			maxHeight = 39
+			maxHeight = 37
 			format = left
 		}
 	}
@@ -286,7 +286,7 @@ guiTypes = {
 			# This background will be hidden beneath religionpanel_bg_bottom
 			# in the smallest resolution in most cases (but not harmonization view for example)
 			name ="religionpanel_bg_top"
-			spriteType = "GFX_country_religion_view_bg"
+			spriteType = "GFX_country_religion_view_bg_huge"
 			position = { x= -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -337,14 +337,14 @@ guiTypes = {
 		###Current religion
 		instantTextBoxType = {
 			name = "current_religion_name"
-			position = { x = 101 y =151 }
+			position = { x = 79 y =151 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
 			maxWidth = 149
 			maxHeight = 39
-			format = left
+			format = center
 			fixedsize = yes
 		}
 
@@ -448,7 +448,7 @@ guiTypes = {
 		{
 			name ="current_religion_icon"
 			spriteType = "GFX_icon_religion"
-			position = { x = 33 y = 189 }
+			position = { x = 34 y = 189 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_religion"
 		}
@@ -493,13 +493,13 @@ guiTypes = {
 		{
 			name ="icon_tolerance_own"
 			spriteType = "GFX_icon_religion_small"
-			position = { x = 345 y = 225 }
+			position = { x = 349 y = 227 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_tolerancetrue"
 		}
 		instantTextBoxType = {
 			name = "val_tolerance_own"
-			position = { x = 393 y = 237 }
+			position = { x = 393 y = 236 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
@@ -512,13 +512,13 @@ guiTypes = {
 		{
 			name ="icon_tolerance_heretic"
 			spriteType = "GFX_icon_religion_small"
-			position = { x = 441 y = 225 }
+			position = { x = 441 y = 226 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_toleranceheretic"
 		}
 		instantTextBoxType = {
 			name = "val_tolerance_heretic"
-			position = { x = 483 y = 237 }
+			position = { x = 484 y = 236 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
@@ -531,13 +531,13 @@ guiTypes = {
 		{
 			name ="icon_tolerance_heathen"
 			spriteType = "GFX_icon_religion_small"
-			position = { x = 534 y = 225 }
+			position = { x = 534 y = 227 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_toleranceheathen"
 		}
 		instantTextBoxType = {
 			name = "val_tolerance_heathen"
-			position = { x = 576 y = 237 }
+			position = { x = 577 y = 236 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
@@ -1573,7 +1573,7 @@ guiTypes = {
 			{
 				name ="papacy_controller"
 				quadTextureSprite = "GFX_shield_small"
-				position = { x= 277 y = -67 }
+				position = { x= 278 y = -70 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -1608,8 +1608,8 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 					name = "active_cardinals"
-					position = { x= 18 y = -39 }
-					size = { x = 216 y = 39 }
+					position = { x= 19 y = -38 }
+					size = { x = 239 y = 39 }
 					Orientation = "UPPER_LEFT"
 					format = left
 					spacing = 1
@@ -1619,14 +1619,14 @@ guiTypes = {
 			{
 				name = "papal_influence_icon"
 				spriteType = "GFX_papal_influence"
-				position = { x = 11 y = -17 }
+				position = { x = 11 y = -18 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_papalinfluence"
 			}
 
 			instantTextBoxType = {
 				name = "papal_influence_value"
-				position = { x = 54 y = -6 }
+				position = { x = 53 y = -9 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1649,7 +1649,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "reform_resistance_value"
-				position = { x = 294 y = -6 }
+				position = { x = 290 y = -9 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1664,14 +1664,14 @@ guiTypes = {
 			{
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
-				position = { x = 132 y = -15 }
+				position = { x = 132 y = -16 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_reformdesire"
 			}
 
 			instantTextBoxType = {
 				name = "reform_desire_value"
-				position = { x = 162 y = -6 }
+				position = { x = 165 y = -9 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1977,13 +1977,13 @@ guiTypes = {
 			name ="religious_unity_icon_with_frame"
 			spriteType = "GFX_religious_unity_icon_with_frame"
 			scale=0.7
-			position = { x= 21 y = 399 }
+			position = { x= 23 y = 399 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "religiousunity_value"
-			position = { x = 60 y = 405 }
+			position = { x = 60 y = 404 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "%%%"
@@ -2000,13 +2000,13 @@ guiTypes = {
 		iconType =	{
 			name ="missionary_strength_icon"
 			spriteType = "GFX_icon_missionary"
-			position = { x= 123 y = 396 }
+			position = { x= 121 y = 396 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "missionary_strength_value"
-			position = { x = 153 y = 405 }
+			position = { x = 149 y = 404 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "TEMP"
@@ -2019,7 +2019,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "conversion"
-			position = { x = 252 y = 403 }
+			position = { x = 253 y = 404 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "CONVERT"
@@ -2129,7 +2129,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = { x=42 y=1035 }
+				position = { x=42 y=1033 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
@@ -2146,7 +2146,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 82 y = 1042 }
+				position = {x = 82 y = 1041 }
 			}
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2187,7 +2187,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 204 y = 1042 }
+				position = {x = 204 y = 1041 }
 			}
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2231,7 +2231,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 381 y = 1039 }
+				position = {x = 381 y = 1038 }
 			}
 			quadTextureSprite ="GFX_button_plus"
 		}
@@ -2343,7 +2343,7 @@ guiTypes = {
 # Needs txt linking
 		instantTextBoxType = {
 				name = "defender_title"
-				position = { x = 420 y = 282 } #was 420
+				position = { x = 420 y = 280 } #was 420
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}

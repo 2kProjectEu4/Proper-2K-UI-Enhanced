@@ -769,7 +769,16 @@ guiTypes = {
 			{
 				name ="gov_panel_overlay"
 				spriteType = "GFX_court_view_select_advisor_bg"
-				position = { x= 0 y = -12 }
+				position = { x= 0 y = -11 }
+				Orientation = "UPPER_LEFT"
+
+			}
+			
+			iconType =
+			{
+				name ="modifiers_box_bg"
+				spriteType = "GFX_modifiers_box_bg"
+				position = { x= 66 y = 215 }
 				Orientation = "UPPER_LEFT"
 
 			}
@@ -789,9 +798,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="modifier_listbox"
-				position = { x=103 y =204}
+				position = { x=103 y =226}
 				backGround=""
-				size = { x=479 y =430}
+				size = { x=479 y =410}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 3
@@ -978,10 +987,11 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
 			text = "7"
-			maxWidth = 444
+			maxWidth = 460
 			maxHeight = 39
 			format = left
 			Orientation = "UPPER_LEFT"
+			fixedsize = yes
 		}
 
 		iconType =

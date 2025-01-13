@@ -325,7 +325,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_ruler"
-			position = { x = 50  y = 206 }
+			position = { x = 44  y = 206 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -342,23 +342,22 @@ guiTypes = {
 		{
 			name ="monarch_gender"
 			spriteType = "GFX_gender_icon"
-			position = { x= 20 y = 212 }
+			position = { x= 22 y = 212 }
 			Orientation = "UPPER_LEFT"
-			scale = 1.2
 		}
 
 		iconType =
 		{
 			name ="ruler_adm_icon"
 			spriteType = "GFX_icon_powers_administrative_w_bg"
-			position = { x= 55 y = 238 }
+			position = { x= 50 y = 238 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_adm_value"
-			position = { x = 80 y = 239 }
+			position = { x = 75 y = 240 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -372,14 +371,14 @@ guiTypes = {
 		{
 			name ="ruler_dip_icon"
 			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 117 y = 238 }
+			position = { x= 118 y = 237 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_dip_value"
-			position = { x = 133 y = 239 }
+			position = { x = 135 y = 240 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -393,14 +392,14 @@ guiTypes = {
 		{
 			name ="ruler_mil_icon"
 			spriteType = "GFX_icon_powers_military"
-			position = { x= 177 y = 238 }
+			position = { x= 178 y = 237 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_mil_value"
-			position = { x = 196 y = 239 }
+			position = { x = 195 y = 240 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -783,13 +782,13 @@ guiTypes = {
 		{
 			name ="heir_gender"
 			spriteType = "GFX_gender_icon"
-			position = { x = 21 y = 300 }
+			position = { x = 22 y = 301 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "monarch_heir_name"
-			position = { x = 41 y = 295 }
+			position = { x = 44 y = 295 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -802,7 +801,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_heir_info"
-			position = { x = 41 y = 318 }
+			position = { x = 44 y = 318 }
 			textureFile = ""
 			font = "coyote_12b"
 			borderSize = {x = 5 y = 5}
