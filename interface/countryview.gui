@@ -14,7 +14,7 @@ guiTypes = {
 		windowType = {
 		name = "countryview_tabs"
 		backGround=""
-		position = { x=-15 y=3 }	
+		position = { x=-15 y=5 }	
 		size = { x=1229 y=120 }
 		moveable = 0
 		dontRender = ""
@@ -26,7 +26,7 @@ guiTypes = {
 			{
 			name =" "
 			spriteType = "GFX_tab_detail"
-			position = { x= 18 y = 201 }
+			position = { x= 18 y = 203 }
 			Orientation = "UPPER_LEFT"
 
 			}		

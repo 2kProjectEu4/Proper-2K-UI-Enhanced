@@ -192,7 +192,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 23 y =99 }
+			position = { x = 26 y =100 }
 			textureFile = ""
 			font = "vic_36"				
 			text = "HEADER_TRADE"	

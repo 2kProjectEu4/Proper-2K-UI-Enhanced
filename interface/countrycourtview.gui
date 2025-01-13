@@ -49,7 +49,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y = 93 }
+			position = { x = 17 y = 95 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 5 y = 5}	
@@ -592,7 +592,7 @@ guiTypes = {
 		windowType = {
 			name = "court_select"
 			backGround=""
-			position = { x=-9 y=0 }	
+			position = { x=-9 y=1 }	
 			size = { x=1229 y=120 }
 			moveable = 0
 			dontRender = ""
