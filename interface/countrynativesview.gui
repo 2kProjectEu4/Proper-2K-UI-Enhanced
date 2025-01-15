@@ -321,7 +321,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
-				maxWidth = 77
+				maxWidth = 85
 				maxHeight = 39
 				#format = centre
 			}
@@ -331,7 +331,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
-				maxWidth = 77
+				maxWidth = 85
 				maxHeight = 39
 				#format = centre
 			}
@@ -341,7 +341,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
-				maxWidth = 77
+				maxWidth = 85
 				maxHeight = 39
 				#format = centre
 			}

@@ -5126,7 +5126,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "BUILDING_EFFECT"
-			maxWidth = 375
+			maxWidth = 395
 			maxHeight = 77
 			format = left
 		}
