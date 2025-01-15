@@ -2723,7 +2723,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -161 y = 81 }
+				position = {x = -162 y = 80 }
 				name = "gamesettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -2735,7 +2735,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -84 y = 81 }
+				position = {x = -84 y = 80 }
 				name = "videosettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -2747,7 +2747,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -5 y = 81 }
+				position = {x = -6 y = 80 }
 				name = "audiosettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -2759,7 +2759,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 90 y = 81 }
+				position = {x = 90 y = 80 }
 				name = "controlssettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -2771,7 +2771,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 252 y = 81 }
+				position = {x = 258 y = 80 }
 				name = "accessibilityssettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	

@@ -328,7 +328,7 @@ guiTypes = {
 		### Select new policy window.
 		windowType = {
 			name = "new_policy_window"
-			position = { x=0 y=-11 }	
+			position = { x=-9 y=-11 }	
 			size = { x=360 y=480 }
 			moveable = 0
 			Orientation = "UPPER_LEFT"

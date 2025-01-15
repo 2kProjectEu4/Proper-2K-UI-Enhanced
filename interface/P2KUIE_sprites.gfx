@@ -79,6 +79,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//modifiers_box_bg.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_country_religion_harmony_bg_huge"
+		texturefile = "gfx/interface/country_religion_harmony_bg_huge.dds"
+		loadType = "INGAME"
+	}
+	
 
 	################### HRE
 	spriteType = {

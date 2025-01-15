@@ -62,7 +62,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "unity"
-			position = { x = 348 y =-9 }
+			position = { x = 344 y =-9 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -109,7 +109,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "send_missionary"
-			position = { x=517 y = -13}
+			position = { x=517 y = -12}
 			quadTextureSprite ="GFX_button_straight_87_32_notext"
 		}
 
@@ -788,7 +788,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "harmony_label"
-				position = { x = 48 y = 294 }
+				position = { x = 46 y = 294 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_HARMONY"
@@ -802,7 +802,7 @@ guiTypes = {
 			{
 				name ="current_harmony_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
-				position = { x= 75 y = 331 }
+				position = { x= 75 y = 329 }
 			}
 
 			iconType =
@@ -835,7 +835,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "current_harmony_value"
-				position = { x= 180 y = 335 }
+				position = { x= 181 y = 334 }
 				font = "vic_18"
 				borderSize = {x = 9 y = 0}
 				text = "0"
@@ -899,8 +899,8 @@ guiTypes = {
 
 				iconType = {
 					name ="harmonize_religion_window_bg"
-					spriteType = "GFX_country_religion_harmony_bg_standard"
-					position = { x= 15 y = 451 }
+					spriteType = "GFX_country_religion_harmony_bg_huge"
+					position = { x= 15 y = 452 }
 				}
 
 				listboxType = {
@@ -918,7 +918,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "back_button"
-					position = {  x=288 y =642}
+					position = {  x=285 y =1050}
 					quadTextureSprite ="GFX_standard_button_71"
 					tooltip = ""
 					tooltipText =""
@@ -2032,7 +2032,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_name"
-			position = { x = 21 y =449 }
+			position = { x = 20 y =457 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -2044,7 +2044,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_religion"
-			position = { x = 193 y =447 }
+			position = { x = 193 y =455 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -2056,7 +2056,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_unity"
-			position = { x = 343 y =449 }
+			position = { x = 343 y =457 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -2068,7 +2068,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_time"
-			position = { x = 444 y =449 }
+			position = { x = 444 y =457 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -2081,7 +2081,7 @@ guiTypes = {
 # Needs location linking and button linking
 		guiButtonType = {
 			name = "sort_mission"
-			position = { x = 516 y =449 }
+			position = { x = 516 y =457 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -3196,13 +3196,13 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_icon_religion_small"
-			position = { x= 0 y = -11 }
+			position = { x= 0 y = -9 }
 			Orientation = "LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "religion_name"
-			position = { x= 48 y = -3 }
+			position = { x= 48 y = 0 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -3214,7 +3214,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button"
-			position = { x=501 y = -11} #{ x = 138 y = 6 }
+			position = { x=507 y = -8} #{ x = 138 y = 6 }
 			quadTextureSprite ="GFX_button_straight_87_32_notext"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
@@ -3235,7 +3235,7 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_icon_religion_small"
-			position = { x= 0 y = -3 }
+			position = { x= 4 y = -3 }
 			Orientation = "LEFT"
 			#alwaystransparent = yes
 			#scale = 0.5
