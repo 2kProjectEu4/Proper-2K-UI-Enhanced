@@ -385,7 +385,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
 			text = "HRE_IMPERIALAUTHORITY"
-			maxWidth = 156
+			maxWidth = 166
 			maxHeight = 39
 			format = left
 		}
