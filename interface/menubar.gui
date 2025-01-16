@@ -1857,7 +1857,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "floating_number_2"
-				position = { x = -489 y = -21 }
+				position = { x = -491 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
