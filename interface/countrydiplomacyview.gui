@@ -2461,7 +2461,7 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 528
-				maxHeight = 684
+				maxHeight = 320
 				scrollbartype = "standardlistbox_slider"
 				format = left
 			}
@@ -2470,34 +2470,34 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diploreasons_bar"
-			position = { x = 118 y = 504 }
+			position = { x = 118 y = 584 }
 		}
 
 		iconType =
 		{
 			name ="diplo_chance_frame"
 			spriteType = "GFX_diplomacy_view_diplochance_bar_frame"
-			position = { x = 108 y = 504 }
+			position = { x = 108 y = 584 }
 		}
 
 		iconType =
 		{
 			name ="diplo_chance_threshold"
 			spriteType = "GFX_diploreasons_bar_threshold"
-			position = { x = 116 y = 492 }
+			position = { x = 116 y = 572 }
 		}
 
 		iconType =
 		{
 			name ="chance_string_bg"
 			spriteType = "GFX_diplomacy_chance_string_bg"
-			position = { x= 172 y = 540 }
+			position = { x= 172 y = 620 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "chance_string"
-			position = { x = 144 y = 564 }
+			position = { x = 144 y = 644 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
