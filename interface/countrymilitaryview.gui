@@ -1735,7 +1735,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=15 y =949 }
+			position = { x=16 y =949 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
@@ -1762,7 +1762,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=39 y =948 }
+			position = { x=44 y =948 }
 			maxWidth = 197
 			maxHeight = 144
 			}

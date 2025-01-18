@@ -675,7 +675,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "random_leader_name_button"
-			position = { x = 471 y = 265 }
+			position = { x = 469 y = 264 }
 			spriteType = "GFX_nation_designer_random_button"
 		}
 		
@@ -683,14 +683,14 @@ guiTypes = {
 		{
 			name ="leader_name_editbox_bg"
 			spriteType = "GFX_popup_edittextbox_bg"
-			position = { x= 89 y = 267 }
+			position = { x= 87 y = 267 }
 		}
 		
 		editBoxType =
 		{
 			name = "leader_name_editbox"
 			font = "vic_22"
-			position = { x= 99 y= 279 }
+			position = { x= 97 y= 274 }
 			borderSize = { x = 0 y = 0 }	
 			text = ""
 			size = { x=369 y=24 }
