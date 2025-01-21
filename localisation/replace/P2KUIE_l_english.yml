@@ -12,6 +12,7 @@
  SM_GUI_SCALE:0 "GUI Scale"
  DOMESTIC_RELEASE_VASSALL2:0 "Click on a shield to release as Dependency"
  MONTHLY_COST:0 "Cost"
+ CROWN_LAND_NO_EFFECT:0 "     No Effect"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"
