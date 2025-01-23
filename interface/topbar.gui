@@ -256,13 +256,13 @@ guiTypes = {
 		{
 			name ="icon_gold"
 			spriteType = "GFX_icon_gold_strip"
-			position = { x= 178 y = 12 }
+			position = { x= 178 y = 13 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ducats"
 		}
 		instantTextBoxType = {
 			name = "text_gold"
-			position = { x = 195 y = 15 }
+			position = { x = 195 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -282,7 +282,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "text_manpower"
-			position = { x = 317 y = 15 }
+			position = { x = 317 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -302,7 +302,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "text_sailors"
-			position = { x = 428 y = 15 }
+			position = { x = 432 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -317,13 +317,13 @@ guiTypes = {
 		{
 			name ="icon_stability"
 			spriteType = "GFX_icon_stability"
-			position = { x= 511 y = 12 }
+			position = { x= 512 y = 13 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_stability"
 		}
 		instantTextBoxType = {
 			name = "text_stability"
-			position = { x = 525 y = 15 }
+			position = { x = 528 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -337,13 +337,13 @@ guiTypes = {
 		{
 			name ="icon_prestige"
 			spriteType = "GFX_icon_prestige"
-			position = { x= 676 y = 12 }
+			position = { x= 677 y = 12 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_prestige"
 		}
 		instantTextBoxType = {
 			name = "text_prestige"
-			position = { x = 695 y = 15 }
+			position = { x = 697 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -357,14 +357,14 @@ guiTypes = {
 		{
 			name ="icon_dev"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 766 y = 14 }
+			position = { x= 766 y = 15 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
 			hint_tag = "hint_legitimacy"
 		}
 		instantTextBoxType = {
 			name = "text_dev"
-			position = { x = 781 y = 15 }
+			position = { x = 784 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -378,14 +378,14 @@ guiTypes = {
 		{
 			name ="icon_meritocracy"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 768 y = 12 }
+			position = { x= 768 y = 13 }
 			Orientation = "UPPER_LEFT"
 			frame = 5
 			hint_tag = "hint_meritocracy"
 		}
 		instantTextBoxType = {
 			name = "text_meritocracy"
-			position = { x = 781 y = 15 }
+			position = { x = 784 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -400,14 +400,14 @@ guiTypes = {
 		{
 			name ="icon_leg"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 766 y = 12 }
+			position = { x= 766 y = 15 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			hint_tag = "hint_legitimacy"
 		}
 		instantTextBoxType = {
 			name = "text_leg"
-			position = { x = 781 y = 15 }
+			position = { x = 784 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -421,14 +421,14 @@ guiTypes = {
 		{
 			name ="icon_rep"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 766 y = 12 }
+			position = { x= 766 y = 15 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 			hint_tag = "hint_republican"
 		}
 		instantTextBoxType = {
 			name = "text_rep"
-			position = { x = 781 y = 15 }
+			position = { x = 784 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -442,13 +442,13 @@ guiTypes = {
 		{
 			name ="icon_unity"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 766 y = 12 }
+			position = { x= 766 y = 15 }
 			Orientation = "UPPER_LEFT"
 			frame = 4
 		}
 		instantTextBoxType = {
 			name = "text_unity"
-			position = { x = 781 y = 15 }
+			position = { x = 784 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -481,14 +481,14 @@ guiTypes = {
 				{
 					name ="icon_powerprojection"
 					spriteType = "GFX_icon_powerprojection"
-					position = { x= 621 y = 14 }
+					position = { x= 616 y = 14 }
 					Orientation = "UPPER_LEFT"
 					hint_tag = "hint_powerprojection"
 				}
 
 				instantTextBoxType = {
 					name = "text_powerprojection"
-					position = { x = 627 y = 15 }
+					position = { x = 628 y = 14 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}
@@ -530,7 +530,7 @@ guiTypes = {
 				instantTextBoxType =
 				{
 					name = "topbar_liberty_value"
-					position = { x = 633 y = 15 }
+					position = { x = 628 y = 14 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}
@@ -560,12 +560,12 @@ guiTypes = {
 		{
 			name ="icon_corruption"
 			spriteType = "GFX_icon_corruption_small"
-			position = { x= 599 y = 13 }
+			position = { x= 599 y = 15 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "text_corruption"
-			position = { x = 603 y = 15 }
+			position = { x = 606 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -577,7 +577,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_ADM"
-			position = { x = 630 y = 63 }
+			position = { x = 628 y = 60 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -589,7 +589,7 @@ guiTypes = {
 		iconType = {
 			name ="icon_ADM"
 			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 603 y = 59 }
+			position = { x= 601 y = 59 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_adm"
 		}
@@ -597,7 +597,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_DIP"
-			position = { x = 721 y = 63 }
+			position = { x = 719 y = 60 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -609,14 +609,14 @@ guiTypes = {
 		iconType = {
 			name ="icon_DIP"
 			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 693 y = 59 }
+			position = { x= 691 y = 59 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_dip"
 		}
 
 		instantTextBoxType = {
 			name = "text_MIL"
-			position = { x = 812 y = 63 }
+			position = { x = 808 y = 60 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -628,7 +628,7 @@ guiTypes = {
 		iconType = {
 			name = "icon_MIL"
 			spriteType ="GFX_icon_powers_military"
-			position = { x= 786 y = 59 }
+			position = { x= 782 y = 59 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
 		}
@@ -765,8 +765,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "assign_hotkey_pick_button_hint_text"
-			position = { x = 48 y = 33 }
-			font = "vic_22"
+			position = { x = 76 y = 33 }
+			font = "vic_18"
 			text = "PICK_HOTKEY_BUTTON_HINT"
 			maxWidth = 384
 			maxHeight = 72

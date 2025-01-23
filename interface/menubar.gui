@@ -444,11 +444,11 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 251 y = 109 }
+				position = {x = 191 y = 112 }
 				name = "messagesettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 120
+				maxWidth = 240
 				maxHeight = 21
 				text = "MENU_BAR_MESSAGE_SETTINGS"	
 				orientation = "UPPER_LEFT"
@@ -469,7 +469,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "all"
-				position = { x = -163 y = 132 }
+				position = { x = -159 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_left"	
 				tooltip = ""
 				tooltipText =""
@@ -479,7 +479,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -155 y = 143 }
+				position = {x = -146 y = 140 }
 				name = "messagesettings_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -494,7 +494,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "dynasty"
-				position = { x = -69 y = 132 }
+				position = { x = -65 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -504,7 +504,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -60 y = 143 }
+				position = {x = -56 y = 140 }
 				name = "messagesettings_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -518,7 +518,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "diplomacy"
-				position = { x = 27 y = 132 }
+				position = { x = 29 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -528,7 +528,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 35 y = 143 }
+				position = {x = 39 y = 140 }
 				name = "messagesettings_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -542,7 +542,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "trade"
-				position = { x = 121 y = 132 }
+				position = { x = 123 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -552,7 +552,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 129 y = 143 }
+				position = {x = 133 y = 140 }
 				name = "messagesettings_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -566,7 +566,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "religion"
-				position = { x = 216 y = 132 }
+				position = { x = 217 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -576,7 +576,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 225 y = 143 }
+				position = {x = 226 y = 140 }
 				name = "messagesettings_label_05"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -601,7 +601,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 319 y = 143 }
+				position = {x = 321 y = 140 }
 				name = "messagesettings_label_06"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -626,7 +626,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 414 y = 143 }
+				position = {x = 414 y = 140 }
 				name = "messagesettings_label_07"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -640,7 +640,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "military"
-				position = { x = 501 y = 132 }
+				position = { x = 499 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -650,7 +650,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 509 y = 143 }
+				position = {x = 509 y = 140 }
 				name = "messagesettings_label_08"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -665,7 +665,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "combat"
-				position = { x = 595 y = 132 }
+				position = { x = 593 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_middle"	
 				tooltip = ""
 				tooltipText =""
@@ -675,7 +675,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 603 y = 143 }
+				position = {x = 603 y = 140 }
 				name = "messagesettings_label_09"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -690,7 +690,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "other"
-				position = { x = 701 y = 132 }
+				position = { x = 698 y = 132 }
 				quadTextureSprite ="GFX_sort_button_message_right"	
 				tooltip = ""
 				tooltipText =""
@@ -700,7 +700,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 695 y = 143 }
+				position = {x = 695 y = 140 }
 				name = "messagesettings_label_10"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -712,7 +712,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				position = {x = 36 y = 171 }
+				position = {x = 41 y = 171 }
 				name = "header_search"
 				font = "vic_22"
 				maxWidth = 72
@@ -723,7 +723,7 @@ guiTypes = {
 			}
 
 			editBoxType = {
-				position = { x = 108 y = 168}
+				position = { x = 113 y = 166}
 				name = "search_edit"
 				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 				instantTextBoxType = no
@@ -736,7 +736,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "button_search"
-				position = { x = 387 y = 163 }
+				position = { x = 392 y = 164 }
 				quadTextureSprite ="button_type_6"	
 				tooltip = ""
 				tooltipText =""
@@ -747,7 +747,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "button_clear"
-				position = { x = 471 y = 163 }
+				position = { x = 481 y = 164 }
 				quadTextureSprite ="button_type_6"	
 				tooltip = ""
 				tooltipText =""
@@ -768,7 +768,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "messageicon_dialog_all"
-				position = { x=675 y =175 }
+				position = { x=677 y =175 }
 				quadTextureSprite ="GFX_messageicon_dialog"
 				tooltip = ""
 				tooltipText =""
@@ -778,7 +778,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "messageicon_icon_all"
-				position = { x=696 y =173}
+				position = { x=701 y =173}
 				quadTextureSprite ="GFX_mailbox_icon"
 				tooltip = ""
 				tooltipText =""
@@ -813,7 +813,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "filter_button_01"
-				position = { x = -144 y = 198 }
+				position = { x = -153 y = 198 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -823,7 +823,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -102 y = 210 }
+				position = {x = -111 y = 205 }
 				name = "messagesettings_filter_button_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -838,7 +838,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "filter_button_02"
-				position = { x = -144 y = 234 }
+				position = { x = -153 y = 234 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -848,7 +848,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -102 y = 246 }
+				position = {x = -111 y = 241 }
 				name = "messagesettings_filter_button_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -863,7 +863,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "filter_button_03"
-				position = { x = -144 y = 270 }
+				position = { x = -153 y = 270 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -873,7 +873,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -102 y = 282 }
+				position = {x = -111 y = 277 }
 				name = "messagesettings_filter_button_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -888,7 +888,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "filter_button_04"
-				position = { x = -144 y = 306 }
+				position = { x = -153 y = 306 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -898,7 +898,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -102 y = 318 }
+				position = {x = -111 y = 313 }
 				name = "messagesettings_filter_button_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -977,7 +977,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "reset"
-				position = { x = -144 y = 432 }
+				position = { x = -153 y = 432 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -987,7 +987,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = -102 y = 441 }
+				position = {x = -111 y = 439 }
 				name = "reset_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1003,7 +1003,7 @@ guiTypes = {
 					
 			guiButtonType = {
 				name = "close"
-				position = { x = -144 y = 468 }
+				position = { x = -153 y = 468 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -1013,7 +1013,7 @@ guiTypes = {
 			}	
 
 			instantTextBoxType={
-				position = {x = -102 y = 477 }
+				position = {x = -111 y = 475 }
 				name = "close_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1162,7 +1162,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 0 y = -23 }
+			position = {x = 0 y = -25 }
 			name = "text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1177,7 +1177,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "messageicon_pause"
-			position = { x=600 y =-21 }
+			position = { x=600 y =-22 }
 			quadTextureSprite ="GFX_messageicon_pause"
 			tooltip = ""
 			tooltipText =""
@@ -1187,7 +1187,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "messageicon_dialog"
-			position = { x=621 y =-21 }
+			position = { x=623 y =-22 }
 			quadTextureSprite ="GFX_messageicon_dialog"
 			tooltip = ""
 			tooltipText =""
@@ -1197,7 +1197,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "messageicon_icon"
-			position = { x=643 y =-24}
+			position = { x=648 y =-24}
 			quadTextureSprite ="GFX_mailbox_icon"
 			tooltip = ""
 			tooltipText =""
@@ -1857,7 +1857,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "floating_number_2"
-				position = { x = -489 y = -21 }
+				position = { x = -491 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}

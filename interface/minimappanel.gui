@@ -323,12 +323,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "category_title"
-				position = { x = 31 y = 12 }
-				format = left
+				position = { x = 18 y = 12 }
+				format = center
 				text = ""
 				font = "vic_22"
 				borderSize = { x = 0 y = 0 }	
-				maxWidth = 240
+				maxWidth = 300
 				maxHeight = 39	
 				Orientation = "UPPER_LEFT"
 				fixedsize = yes
@@ -338,8 +338,8 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				backGround = ""
-				position = { x=15 y=43 }
-				size = { x=305 y=303 }
+				position = { x=20 y=37 }
+				size = { x=295 y=315 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2.5
@@ -349,7 +349,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "close_button"
-				position = { x = -12 y = -12 }
+				position = { x = -7 y = -13 }
 				quadTextureSprite ="GFX_closebutton2"
 				shortcut = "ESCAPE"
 				Orientation = "UPPER_LEFT"
@@ -422,12 +422,12 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "name"
 			text = "ADD_MAPMODE"
-			position = { x = 66 y = 7 }
+			position = { x = 66 y = 11 }
 			format = left
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_18"
 			borderSize = { x = 0 y = 0 }	
-			maxWidth = 240
+			maxWidth = 300
 			maxHeight = 39	
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes

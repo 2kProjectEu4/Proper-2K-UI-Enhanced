@@ -63,6 +63,28 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_music_banner_overlay"
+		texturefile = "gfx//interface//music_player//banner_overlay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_achievement_overlay"
+		texturefile = "gfx//interface//achievements//achievement_overlay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_box_bg"
+		texturefile = "gfx//interface//modifiers_box_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_country_religion_harmony_bg_huge"
+		texturefile = "gfx/interface/country_religion_harmony_bg_huge.dds"
+		loadType = "INGAME"
+	}
+	
 
 	################### HRE
 	spriteType = {

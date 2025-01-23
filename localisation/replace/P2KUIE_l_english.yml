@@ -3,6 +3,16 @@
  SUPPORT_EFFICIENCY:0 "Efficiency:"
  RESTORE_BUILDINGS_TEXT:0 "Click to Restore Buildings"
  PIRATEHUNT_MISSION_DESC:0 "Hunting Pirates in §Y$NODE$§!"
+ ADD_MAPMODE:0 "Add another map mode"
+ LEDGER_PAGE:0 "Pg."
+ PAPACY_LOYALTY:0 "Loyalty"
+ MENU_MESSAGES_GOVERNMENT:0 "Governm."
+ MENU_MESSAGES_DIPLOMACY:0 "Diplom."
+ DISPLAY_MODE_WINDOWED_BORDERLESS:0 "Borderless Windowed"
+ SM_GUI_SCALE:0 "GUI Scale"
+ DOMESTIC_RELEASE_VASSALL2:0 "Click on a shield to release as Dependency"
+ MONTHLY_COST:0 "Cost"
+ CROWN_LAND_NO_EFFECT:0 "     No Effect"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"

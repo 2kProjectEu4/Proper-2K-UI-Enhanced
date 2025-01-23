@@ -59,7 +59,7 @@ guiTypes = {
 	windowType = {
 		name = "outliner_configuration"
 		backGround="Background"
-			position = { x=-579 y=133 }		#was x=-516 y= 109
+			position = { x=-584 y=139 }		#was x=-516 y= 109
 			size = { x=246 y=558 }
 			moveable = 0
 			dontRender = ""
@@ -81,7 +81,7 @@ guiTypes = {
 			listboxType = 
 				{
 				name ="outliner_configuration_list"
-				position = { x = 33 y = 30 }
+				position = { x = 25 y = 24 }
 				backGround=""
 				size = { x= 162 y = 462}
 				Orientation = "UPPER_LEFT"
@@ -95,7 +95,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "close_button"	
-				position = {x = 27 y = 497 }
+				position = {x = 33 y = 499 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""	
 				tooltipText =""

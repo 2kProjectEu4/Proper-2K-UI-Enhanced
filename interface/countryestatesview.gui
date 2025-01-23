@@ -33,7 +33,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 89 y = 24 }	# Anbennar, was y = 30
+			position = { x = 85 y = 22 }	# Anbennar, was y = 30
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -48,7 +48,7 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_estates_icons"
-			position = { x = 31 y = 9 }	# Anbennar, was x = 36 y = 12
+			position = { x = 34 y = 11 }	# Anbennar, was x = 36 y = 12
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -56,14 +56,14 @@ guiTypes = {
 		{
 			name ="loyalty_icon"
 			spriteType = "GFX_text_estate_loyalty"
-			position = { x = 73 y = 65 }	# Anbennar, was y = 75
+			position = { x = 77 y = 63 }	# Anbennar, was y = 75
 			Orientation = "UPPER_LEFT"
 			scale = 1.2
 		}
 
 		instantTextBoxType = {
 			name = "loyalty"
-			position = { x = 96 y = 59 }	# Anbennar, was x = 65, y = 69
+			position = { x = 98 y = 56 }	# Anbennar, was x = 65, y = 69
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -78,14 +78,14 @@ guiTypes = {
 		{
 			name ="influence_icon"
 			spriteType = "GFX_text_estate_influence"
-			position = { x = 73 y = 93 }	# Anbennar, was x = 174 y = 75
+			position = { x = 78 y = 89 }	# Anbennar, was x = 174 y = 75
 			Orientation = "UPPER_LEFT"
 			scale = 1.4
 		}
 
 		instantTextBoxType = {
 			name = "influence"
-			position = { x = 96 y = 85 }	# Anbennar, was x = 199 y = 69
+			position = { x = 98 y = 82 }	# Anbennar, was x = 199 y = 69
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -98,7 +98,7 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_1"
-			position = { x = 324 y = 21 }	# Anbennar, was x = 279 y = 63
+			position = { x = 324 y = 22 }	# Anbennar, was x = 279 y = 63
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -118,7 +118,7 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_2"
-			position = { x = 427 y = 21 }	# Anbennar, was x = 396 y = 63
+			position = { x = 427 y = 22 }	# Anbennar, was x = 396 y = 63
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -138,7 +138,7 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_3"
-			position = { x = 531 y = 21 }	# Anbennar, was x = 504 y = 60
+			position = { x = 531 y = 22 }	# Anbennar, was x = 504 y = 60
 			Orientation = "UPPER_LEFT"
 			scale = 0.6
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -216,7 +216,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "privileges_count"
-			position = { x = 240 y = 30 }
+			position = { x = 240 y = 28 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0 }	
@@ -291,7 +291,7 @@ guiTypes = {
 
 	windowType = {
 		name = "crown_land_interaction_item"
-		position = { x = 0 y = 0 }
+		position = { x = 0 y = 4 }
 		size = { x = 57 y = 57 }
 		show_position = { x = 0 y = 0 }
 		moveable = 0
@@ -335,7 +335,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y = 93 }
+			position = { x = 19 y = 95 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 5 y = 5}

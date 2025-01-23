@@ -2,7 +2,7 @@ guiTypes = {
 
 	windowType = {
 		name = "estate_privileges_window"
-		position = { x= 576 y= 33}
+		position = { x= 573 y= 33}
 		size = { x=900 y=1020 }
 		moveable = 1
 		dontRender = ""
@@ -38,7 +38,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label"
-			position = { x = 300 y = 111 }
+			position = { x = 308 y = 110 }
 			format = centre
 			textureFile = ""
 			font = "vic_22s"
@@ -50,9 +50,9 @@ guiTypes = {
 
 		listboxType =  {
 			name ="privileges_listbox"
-			position = { x = 138 y = 193 }
+			position = { x = 136 y = 197 }
 			backGround=""
-			size = { x = 1021 y = 967 }
+			size = { x = 1028 y = 967 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			scrollbartype = "standardlistbox_slider"
@@ -61,7 +61,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close_button"
-			position = { x= 564 y = 1176}
+			position = { x= 573 y = 1174}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
@@ -89,7 +89,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			position = { x = 66 y = -7}
+			position = { x = 66 y = -8}
 			name = "title"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}
@@ -115,7 +115,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "effects"
-			position = { x = 690 y = -7 }
+			position = { x = 687 y = -7 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -128,8 +128,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cooldown"
-			position = { x = 25 y = 70 }
-			format = right
+			position = { x = 36 y = 73 }
+			format = center
 			textureFile = ""
 			font = "Main_14"
 			text = ""
@@ -251,14 +251,14 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "privilege_frame_button"
-			position = { x = -1 y = -18 }
+			position = { x = -3 y = -18 }
 			quadTextureSprite ="GFX_privilege_blank"
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "privilege_button"
-			position = { x=-3 y = -18 }
+			position = { x=-5 y = -18 }
 			quadTextureSprite ="GFX_idea_unknown"
 			Orientation = "UPPER_LEFT"
 		}

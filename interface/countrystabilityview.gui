@@ -87,7 +87,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y =93 }
+			position = { x = 20 y =95 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 5 y = 5}
@@ -452,7 +452,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "administrative_efficiency_value"
-			position = { x = 256 y = 308 }
+			position = { x = 254 y = 308 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -590,7 +590,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 60 y = 991 }
+				position = {x = 65 y = 996 }
 			}
 			textureFile = ""
 			font = "vic_18"
@@ -617,7 +617,7 @@ guiTypes = {
 				min_height = 1080
 				position = {x = 27 y = 991 }
 			}
-			quadTextureSprite ="GFX_checkbox_gold_24"
+			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -838,7 +838,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "rebels_header"
-				position = { x = 69 y = 425}
+				position = { x = 69 y = 424}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -872,13 +872,13 @@ guiTypes = {
 			{
 				name ="uprising_progress_icon"
 				spriteType = "GFX_icon_unrest"
-				position = { x= 552 y = 424 }
+				position = { x= 552 y = 423 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "uprising_progress"
-				position = { x = 591 y = 425 }
+				position = { x = 591 y = 423 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -927,13 +927,13 @@ guiTypes = {
 			{
 				name ="onsiegewon_icon"
 				spriteType = "GFX_icon_rebel_taken_provinces"
-				position = { x= 36 y = 523 }
+				position = { x= 36 y = 534 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "onsiegewon_desc"
-				position = { x = 65 y = 523}
+				position = { x = 65 y = 534}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -966,8 +966,8 @@ guiTypes = {
 			listboxType = {
 				name = "handle_listbox"
 				backGround = ""
-				position = { x=373 y=473 }
-				size = { x=240 y=153 }
+				position = { x=373 y=470 }
+				size = { x=240 y=190 }
 				horizontal = 0
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"
@@ -976,7 +976,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x=301 y =685}
+				position = { x=285 y =685}
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -1203,7 +1203,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 48 y = 9 }
+			position = { x = 48 y = 10 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1217,7 +1217,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress_target_name"
-			position = { x = 51 y = 45 }
+			position = { x = 53 y = 45 }
 			font = "coyote_12b"
 			#borderSize = {x = 5 y = 5}
 			text = "Independance for Gotland"
@@ -1230,14 +1230,14 @@ guiTypes = {
 		{
 			name ="uprising_progress_icon"
 			spriteType = "GFX_icon_unrest"
-			position = { x= 355 y = 45}
+			position = { x= 355 y = 48}
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_revoltrisk"
 		}
 
 		instantTextBoxType = {
 			name = "uprising_progress"
-			position = { x = 369 y = 51 }
+			position = { x = 363 y = 49 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1259,7 +1259,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "army_num"
-			position = { x = 493 y = 15 }
+			position = { x = 495 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1275,14 +1275,14 @@ guiTypes = {
 		{
 			name ="icon_provs"
 			spriteType = "GFX_icon_overextension"	#TODO replace
-			position = { x= 357 y = 13}
+			position = { x= 357 y = 15}
 			Orientation = "UPPER_LEFT"
 			scale = 0.85
 		}
 
 		instantTextBoxType = {
 			name = "provinces"
-			position = { x = 369 y = 13 }
+			position = { x = 364 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1298,7 +1298,7 @@ guiTypes = {
 		{
 			name ="handlethem"
 			quadTextureSprite= "GFX_button_straight_96_32"
-			position = { x= 453 y = 47 }
+			position = { x= 454 y = 47 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "HANDLE_THEM"
 			buttonFont = "coyote_12b"
@@ -1486,7 +1486,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "accept"
-			position = { x=0 y= -3}
+			position = { x=0 y= 3}
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -1509,7 +1509,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "accept"
-			position = { x=0 y= -9}
+			position = { x=0 y= 3}
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -1532,7 +1532,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "accept"
-			position = { x=0 y=-15}
+			position = { x=0 y=3}
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -1555,7 +1555,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "accept"
-			position = { x=0 y=-21}
+			position = { x=0 y=3}
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -1625,7 +1625,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "accept_text"
-			position = { x = 6 y = 9 }
+			position = { x = 6 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -1661,7 +1661,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "accept_text"
-			position = { x = 6 y = 9 }
+			position = { x = 6 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}

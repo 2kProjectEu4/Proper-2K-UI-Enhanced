@@ -29,7 +29,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier_label"
-			position = { x = 168 y =18 }
+			position = { x = 175 y =20 }
 			font = "vic_29s"
 			borderSize = {x = 0 y = 0}
 			text = "MODIFIERS_STRATEGIC_EFFECTS"	
@@ -40,7 +40,7 @@ guiTypes = {
 		
 		listboxType = 	{
 			name ="modifier_list"
-			position = { x = 24 y = 67 }
+			position = { x = 30 y = 75 }
 			backGround=""
 			size = { x=870  y =599}
 			Orientation = "UPPER_LEFT"
@@ -51,8 +51,8 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="close_button"
-			quadTextureSprite ="button_type_4"
-			position = { x= 341 y = 675 }
+			quadTextureSprite ="button_type_7"
+			position = { x= 385 y = 676 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
@@ -103,8 +103,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier_effect"
-			position = { x = 96 y = 30 }
-			font = "vic_18"
+			position = { x = 106 y = 32 }
+			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}
 			text = "effect text here"	
 			maxWidth = 360

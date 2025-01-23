@@ -16,14 +16,14 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="provinces"
-				position = { x= 31 y = 89}
+				position = { x= 37 y = 89}
 				#backGround="SandboxFloaterBackground"
 				backGround=""
-				size = { x=252 y =228}
+				size = { x=256 y =248}
 				horizontal = 0
 				spacing = 3
 				scrollbartype = "standardlistbox_slider"
-				borderSize = {x = 12 y = 12}
+				borderSize = {x = 8 y = 0}
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -51,8 +51,8 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "button_home"
-				position = { x = 77 y = 363 }
-				quadTextureSprite ="button_type_1"	
+				position = { x = 53 y = 367 }
+				quadTextureSprite ="button_type_8"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -63,8 +63,8 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "cancel"
-				position = { x = 77 y = 401 }
-				quadTextureSprite ="button_type_1"	
+				position = { x = 53 y = 403 }
+				quadTextureSprite ="button_type_8"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -75,7 +75,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 43 y = 27 }
+				position = {x = 46 y = 25 }
 				name = "goto_text"
 				font = "vic_22"
 				borderSize = {x = 9 y = 0}	
@@ -100,8 +100,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "exact_label"
-				position = { x = 87 y =323 }
-				font = "vic_22"
+				position = { x = 101 y =342 }
+				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "GOTO_EXACT"
 				maxWidth = 240
@@ -110,8 +110,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "exact_checkbox"
-				position = { x = 45 y = 317 }
-				quadTextureSprite ="GFX_checkbox_gold_32"
+				position = { x = 69 y = 338 }
+				quadTextureSprite ="GFX_checkbox_gold_24"
 			}
 		}
 }

@@ -103,13 +103,14 @@ guiTypes = {
 		{
 			name ="ledger_great_project_icon"
 			spriteType = "GFX_great_project_place_holder"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 2 }
+			scale=0.729
 		}
 		
 
 		instantTextBoxType = {
 			name = "ledger_great_project_name_label"
-			position = { x = 21 y = 13 }
+			position = { x = 13 y = 10 }
 			textureFile = ""
 			font = "vic_20"
 			borderSize = { x = 0 y = 0 }
@@ -309,7 +310,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "prev"
-			position = { x=1415 y=1094 }
+			position = { x=1415 y=1096 }
 			quadTextureSprite ="GFX_ledger_previous_button"
 			buttonText = "LEDGER_PREVIOUS"
 			buttonFont = "vic_18"
@@ -319,7 +320,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "next"
-			position = { x=1707 y=1094 }
+			position = { x=1710 y=1096 }
 			quadTextureSprite ="GFX_ledger_next_button"
 			buttonText = "LEDGER_NEXT"
 			buttonFont = "vic_18"
@@ -329,7 +330,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "index"
-			position = { x=82 y=1082 }
+			position = { x=81 y=1084 }
 			quadTextureSprite ="GFX_ledger_bookmark_button_index"
 			buttonFont = "vic_18"
 			shortcut = "DOWN"
@@ -339,7 +340,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_0"
-			position = { x = 157 y = 1082}
+			position = { x = 157 y = 1084}
 			quadTextureSprite ="GFX_ledger_bookmark_button_country"	
 			buttonFont = "vic_18"
 			shortcut = "F1"
@@ -347,7 +348,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_1"
-			position = { x = 233 y = 1082}
+			position = { x = 233 y = 1084}
 			quadTextureSprite ="GFX_ledger_bookmark_button_military"	
 			buttonFont = "vic_18"
 			shortcut = "F3"
@@ -355,7 +356,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_2"
-			position = { x = 309 y = 1082}
+			position = { x = 309 y = 1084}
 			quadTextureSprite ="GFX_ledger_bookmark_button_economy"	
 			buttonFont = "vic_18"
 			shortcut = "F4"
@@ -363,7 +364,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "bookmark_3"
-			position = { x = 385 y = 1082}
+			position = { x = 385 y = 1084}
 			quadTextureSprite ="GFX_ledger_bookmark_button_trade"	
 			buttonFont = "vic_18"
 			shortcut = "F5"
@@ -371,7 +372,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "bookmark_4"
-			position = { x = 460 y = 1082}
+			position = { x = 461 y = 1084}
 			quadTextureSprite ="GFX_ledger_bookmark_button_relations"	
 			buttonFont = "vic_18"
 			shortcut = "F6"
@@ -389,7 +390,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "ledger_header"
-			position = { x = 502 y = 28 }
+			position = { x = 481 y = 28 }
 			font = "vic_29s"
 			text = " "	
 			maxWidth = 960
@@ -417,18 +418,18 @@ guiTypes = {
 		{
 			name ="filter_edit_box_bg"
 			spriteType = "GFX_ledger_filter_bg"
-			position = { x = 1641 y = 76 }
+			position = { x = 1737 y = 76 }
 		}
 
 		iconType =
 		{
 			name ="filter_edit_box_icon"
 			spriteType = "GFX_ledger_filter_icon"
-			position = { x = 1612 y = 80 }
+			position = { x = 1708 y = 80 }
 		}
 
 		editBoxType = {
-			position = { x = 1641 y = 76 }
+			position = { x = 1737 y = 76 }
 			name = "ledger_text_filter"
 			font = "vic_18"
 			borderSize = { x = 9 y = 7  }	
@@ -456,7 +457,7 @@ guiTypes = {
 			name ="default_listbox"
 			position = { x = 23 y = 162 }
 			backGround=""
-			size = { x=1863 y = 924 }
+			size = { x=1863 y = 921 }
 			Orientation = "UPPER_LEFT"
 			spacing = 3
 			scrollbartype = "standardlistbox_slider"
@@ -502,7 +503,7 @@ guiTypes = {
 			
 				guiButtonType = {
 					name = "linegraph_neighbours"
-					position = { x = 15 y = 12}
+					position = { x = 11 y = 14}
 					quadTextureSprite ="GFX_ledger_income_sort_button_neighbors"	
 					buttonFont = "vic_18"
 					pdx_tooltip = "MSG_FILTER_NEIGHBOURS"
@@ -511,7 +512,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "linegraph_enemies"
-					position = { x = 81 y = 12}
+					position = { x = 77 y = 14}
 					quadTextureSprite ="GFX_ledger_income_sort_button_enemies"	
 					buttonFont = "vic_18"
 					pdx_tooltip = "MSG_FILTER_ENEMIES"
@@ -520,7 +521,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "linegraph_friends"
-					position = { x = 147 y = 12}
+					position = { x = 143 y = 14}
 					quadTextureSprite ="GFX_ledger_income_sort_button_friends"	
 					buttonFont = "vic_18"
 					pdx_tooltip = "FRIENDS"
@@ -529,7 +530,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "linegraph_clear"
-					position = { x = 213 y = 12}
+					position = { x = 209 y = 14}
 					quadTextureSprite ="GFX_ledger_income_sort_button_clear"	
 					buttonFont = "vic_18"
 					pdx_tooltip = "LEDGER_CLEAR"
@@ -591,14 +592,14 @@ guiTypes = {
 		    {
 			    name ="ledger_overlay"
 			    spriteType = "GFX_ledger_index_BG"
-			    position = { x= -379 y = -72 }
+			    position = { x= -383 y = -72 }
 			    Orientation = "UPPER_LEFT"
 		    }
 			
 			instantTextBoxType = { 
 				name = "page"
-				position = { x = 323 y = 9 }
-				font = "vic_22"
+				position = { x = 320 y = 12 }
+				font = "vic_18"
 				text = "LEDGER_PAGE"	
 				maxWidth = 39
 				maxHeight = 39
@@ -607,11 +608,11 @@ guiTypes = {
 			
 			listboxType = 	{
 				name ="list"
-				position = { x = 346 y = 0 }
+				position = { x = 350 y = 2 }
 				backGround=""
-				size = { x=482 y = 999 }
+				size = { x=482 y = 978 }
 				Orientation = "UPPER_LEFT"
-				spacing = 3
+				spacing = 0
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 1 y = 1}
 			}				
@@ -761,13 +762,13 @@ guiTypes = {
 
 		checkboxType = {
 			name = "checkbox"
-			position = { x= 0 y = 0 }
+			position = { x= -56 y = -2 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 
 		instantTextBoxType = { 
 			name = "label"
-			position = { x = 41 y = 9 }
+			position = { x = -15 y = 7}
 			font = "vic_18"
 			text = "Allies"	
 			maxWidth = 216
