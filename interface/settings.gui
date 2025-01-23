@@ -41,7 +41,13 @@ guiTypes = {
 				format = centre
 			}
 
-
+			iconType =
+			{
+				name ="setting_bg_p2kuie"
+				spriteType = "GFX_p2kuie_setting_bg"
+				position = { x= -262 y = -80 }	
+				Orientation = "UPPER_LEFT"
+			}
 
 
 			##### Subwindow AUDIO settings ############################################
@@ -511,7 +517,7 @@ guiTypes = {
 					name ="settings_listbox"
 					position = { x = 168 y = 141 }
 					backGround=""
-					size = { x=280 y=270 }
+					size = { x=281 y=270 }
 					Orientation = "UPPER_LEFT"
 					spacing = 3
 					scrollbartype = "standardlistbox_slider"
@@ -519,7 +525,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 135 }
+					position = {x = -66 y = 136 }
 					name = "display_mode_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -531,7 +537,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 163 }
+					position = {x = -66 y = 159 }
 					name = "display_mode_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -544,7 +550,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_display_mode_button"
-					position = { x = -77 y = 153 }
+					position = { x = -90 y = 153 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -554,7 +560,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_display_mode_button"
-					position = { x = 117 y = 153 }
+					position = { x = 130 y = 153 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -574,7 +580,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 217 }
+					position = {x = -66 y = 215 }
 					name = "resolution_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -587,7 +593,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_resolution_button"
-					position = { x = -77 y = 207 }
+					position = { x = -90 y = 207 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -597,7 +603,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_resolution_button"
-					position = { x = 117 y = 207 }
+					position = { x = 130 y = 207 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -618,7 +624,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 271 }
+					position = {x = -66 y = 269 }
 					name = "refreshrate_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -632,7 +638,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_refreshrate_button"
-					position = { x = -77 y = 261 }
+					position = { x = -90 y = 261 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -642,7 +648,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_refreshrate_button"
-					position = { x = 117 y = 261 }
+					position = { x = 130 y = 261 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -663,7 +669,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 325 }
+					position = {x = -66 y = 323 }
 					name = "multisample_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -677,7 +683,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_multisample_button"
-					position = { x = -77 y = 315 }
+					position = { x = -90 y = 315 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -687,7 +693,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_multisample_button"
-					position = { x = 117 y = 315 }
+					position = { x = 130 y = 315 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -714,8 +720,8 @@ guiTypes = {
 					track= "landslider_TrackButton"
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
-					size = {x =229 y =19 }
-					position = {x= -77 y =369}
+					size = {x =257 y =15 }
+					position = {x= -91 y =369}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -744,7 +750,7 @@ guiTypes = {
 						# parent = "landslider_SliderButton"
 						name = "landslider_upButton"
 						quadTextureSprite = "yearslider_leftbutton"
-						position = { x=36 y =0}	
+						position = { x=35 y =0}	
 					}
 					guiButtonType = {
 						# parent = "landslider_SliderButton"
@@ -1012,7 +1018,7 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 307
+					maxWidth = 340
 					maxHeight = 24	
 					text = "SETTINGS_ACCESSIBILITY_STT_SHORTCUT_INPUT"
 					orientation = "UPPER_LEFT"

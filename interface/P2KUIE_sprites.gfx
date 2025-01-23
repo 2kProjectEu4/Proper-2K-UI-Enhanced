@@ -84,6 +84,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/country_religion_harmony_bg_huge.dds"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_p2kuie_setting_bg"
+		texturefile = "gfx/interface/settings/setting_bg.dds"
+	}
 	
 
 	################### HRE
