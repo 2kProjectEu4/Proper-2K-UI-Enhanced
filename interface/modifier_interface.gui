@@ -91,7 +91,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_name"
-			position = { x = 96 y = 3 }
+			position = { x = 96 y = 4 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "Naval Supremacy in the West"	
@@ -103,7 +103,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier_effect"
-			position = { x = 106 y = 32 }
+			position = { x = 96 y = 32 }
 			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}
 			text = "effect text here"	
@@ -128,7 +128,7 @@ guiTypes = {
 		{
 			name ="modifier_progress"
 			spriteType = "modifier_progress"
-			position = { x= 723 y = 60 }
+			position = { x= 723 y = 58 }
 			Orientation = "UPPER_LEFT"
 			
 		}
@@ -137,7 +137,7 @@ guiTypes = {
 		{
 			name ="modifier_progress_overlay"
 			spriteType = "GFX_modifier_progress_frame"
-			position = { x= 705 y = 54 }
+			position = { x= 705 y = 53 }
 			Orientation = "UPPER_LEFT"
 			
 		}
@@ -145,7 +145,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier_status"
-			position = { x = 723 y = 17 }
+			position = { x = 723 y = 16 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "7/14"	

@@ -21,7 +21,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "title_label"
-			position = { x = 168 y =18 }
+			position = { x = 165 y =22 }
 			font = "vic_29s"
 			borderSize = {x = 0 y = 0}
 			text = "ACHIEVEMENTS"	
@@ -32,9 +32,9 @@ guiTypes = {
 	
 		smoothListboxType = 	{		
 			name ="achievement_list"
-			position = { x = 24 y = 67 }
+			position = { x = 24 y = 60 }
 			backGround=""
-			size = { x=870  y =599}
+			size = { x=870  y =609}
 			Orientation = "UPPER_LEFT"
 			spacing = 3
 			scrollbartype = "standardlistbox_slider"
@@ -43,13 +43,19 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="close_button"
-			quadTextureSprite ="button_type_4"
-			position = { x= 341 y = 675 }
+			quadTextureSprite ="button_type_7"
+			position = { x= 379 y = 676 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
 		}
 		
+		iconType = {
+			name = "achievement_overlay"
+			position = {x=16 y=44}	
+			quadTextureSprite ="GFX_p2kuie_achievement_overlay"
+			alwaystransparent = yes
+		}		  
 	}
 	
 	###### ACHIEVEMENT ENTRY
@@ -80,10 +86,19 @@ guiTypes = {
 			position = { x= 6 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
+		
+		iconType =
+		{
+			name ="achievement_icon_separator"
+			spriteType = "GFX_p2kuie_achievement_icon_separator"
+			position = { x= 2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			  
+		}
 
 		instantTextBoxType = {
 			name = "achievement_name"
-			position = { x = 96 y = 3 }
+			position = { x = 96 y = 4 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"	
@@ -95,8 +110,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "achievement_desc"
-			position = { x = 96 y = 30 }
-			font = "vic_18"
+			position = { x = 96 y = 32 }
+			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}
 			text = "desc"	
 			maxWidth = 564
@@ -109,7 +124,7 @@ guiTypes = {
 		{
 			name ="achievement_progress"
 			spriteType = "achievement_progress"
-			position = { x= 723 y = 60 }
+			position = { x= 723 y = 58 }
 			Orientation = "UPPER_LEFT"
 			
 		}
@@ -118,7 +133,7 @@ guiTypes = {
 		{
 			name ="achievement_progress_overlay"
 			spriteType = "GFX_achievement_progress_frame"
-			position = { x= 705 y = 54 }
+			position = { x= 705 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -133,7 +148,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "achievement_progress_text"
-			position = { x = 723 y = 17 }
+			position = { x = 723 y = 15 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "7/14"	
