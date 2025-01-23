@@ -71,7 +71,7 @@ guiTypes = {
 				}
 				
 				instantTextBoxType={
-					position = {x = -96 y =163 }
+					position = {x = -95 y =165 }
 					name = "mastervolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -89,7 +89,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x=113 y=157}
+					position = {x=113 y=158}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -133,7 +133,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -96 y =229 }
+					position = {x = -94 y =230 }
 					name = "effectvolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -193,7 +193,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -96 y =291 }
+					position = {x = -95 y =294 }
 					name = "musicvolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -212,7 +212,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x=113 y=285}
+					position = {x=113 y=287}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -255,7 +255,7 @@ guiTypes = {
 				}	
 				
 				instantTextBoxType={
-					position = {x = -96 y = 357 }
+					position = {x = -95 y = 359 }
 					name = "ambient_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -273,7 +273,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x= 113 y =351}
+					position = {x= 113 y =352}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -340,7 +340,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -96 y = 293 }
+					position = {x = -96 y = 294 }
 					name = "scrollspeed_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -358,7 +358,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x= 126 y =287}
+					position = {x= 113 y =287}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -402,7 +402,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -96 y = 227 }
+					position = {x = -96 y = 230 }
 					name = "zoomspeed_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -421,7 +421,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x= 126 y =222}
+					position = {x= 113 y =223}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -463,7 +463,7 @@ guiTypes = {
 
 			
 				instantTextBoxType={
-					position = {x = 48 y = 144 }
+					position = {x = 54 y = 144 }
 					name = "reset_shortcuts_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -476,7 +476,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "reset_shortcuts_btn"
-					position = { x = 111 y = 174 }
+					position = { x = 112 y = 181 }
 					quadTextureSprite ="GFX_standard_button_105"	
 					tooltip = ""
 					tooltipText ="RESET_SHORTCUTS_TOOLTIP"
@@ -515,7 +515,7 @@ guiTypes = {
 				listboxType = 
 				{
 					name ="settings_listbox"
-					position = { x = 168 y = 141 }
+					position = { x = 171 y = 140 }
 					backGround=""
 					size = { x=281 y=270 }
 					Orientation = "UPPER_LEFT"
@@ -525,7 +525,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 136 }
+					position = {x = -69 y = 140 }
 					name = "display_mode_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -537,7 +537,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 159 }
+					position = {x = -66 y = 161 }
 					name = "display_mode_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -550,7 +550,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_display_mode_button"
-					position = { x = -90 y = 153 }
+					position = { x = -91 y = 153 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -568,7 +568,7 @@ guiTypes = {
 				}				
 				
 				instantTextBoxType={
-					position = {x = -66 y = 191 }
+					position = {x = -66 y = 194 }
 					name = "resolution_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -580,7 +580,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 215 }
+					position = {x = -65 y = 215 }
 					name = "resolution_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -593,7 +593,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_resolution_button"
-					position = { x = -90 y = 207 }
+					position = { x = -91 y = 207 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -612,7 +612,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -66 y = 245 }
+					position = {x = -66 y = 248 }
 					name = "refreshrate_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -638,7 +638,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_refreshrate_button"
-					position = { x = -90 y = 261 }
+					position = { x = -91 y = 262 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -648,7 +648,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_refreshrate_button"
-					position = { x = 130 y = 261 }
+					position = { x = 130 y = 262 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -657,7 +657,7 @@ guiTypes = {
 				
 				
 				instantTextBoxType={
-					position = {x = -66 y = 299 }
+					position = {x = -66 y = 302 }
 					name = "multisample_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -669,7 +669,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -66 y = 323 }
+					position = {x = -66 y = 322 }
 					name = "multisample_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -683,7 +683,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_multisample_button"
-					position = { x = -90 y = 315 }
+					position = { x = -91 y = 314 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -693,7 +693,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_multisample_button"
-					position = { x = 130 y = 315 }
+					position = { x = 130 y = 314 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -702,7 +702,7 @@ guiTypes = {
 				
 
 				instantTextBoxType={
-					position = {x = -66 y = 353 }
+					position = {x = -66 y = 356 }
 					name = "gamma_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -721,7 +721,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =257 y =15 }
-					position = {x= -91 y =369}
+					position = {x= -91 y =368}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -810,7 +810,7 @@ guiTypes = {
 				}	
 
 				instantTextBoxType={
-					position = {x = 67 y = 147 }
+					position = {x = 69 y = 155 }
 					name = "autosave_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -822,7 +822,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 72 y = 180 }
+					position = {x = 69 y = 190 }
 					name = "autosave_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -836,7 +836,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_autosave_button"
-					position = { x = 72 y = 174 }
+					position = { x = 74 y = 183 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -846,7 +846,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_autosave_button"
-					position = { x = 234 y = 174 }
+					position = { x = 234 y = 183 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -855,7 +855,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "autosave_tocloud_title"
-					position = { x = 113 y = 240 }
+					position = { x = 113 y = 245 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -868,7 +868,7 @@ guiTypes = {
 				
 				guiButtonType = {
 					name = "autosave_tocloud"
-					position = { x = 72 y = 231}
+					position = { x = 72 y = 236}
 					quadTextureSprite ="GFX_checkbox_gold_32"
 					tooltip = ""
 					tooltipText =""
@@ -877,7 +877,7 @@ guiTypes = {
 								
 				instantTextBoxType = {
 					name = "compress_autosaves_checkbox_label"
-					position = { x = 113 y = 291 }
+					position = { x = 113 y = 299 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -891,7 +891,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "compress_autosaves_checkbox"
-					position = { x = 72 y = 282 }
+					position = { x = 72 y = 290 }
 					quadTextureSprite = "GFX_checkbox_gold_32"
 					tooltip = ""
 					tooltipText =""
@@ -900,7 +900,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "rich_presence_label"
-					position = { x = 113 y = 345 }
+					position = { x = 113 y = 353 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -914,7 +914,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "rich_presence_checkbox"
-					position = { x = 72 y = 336 }
+					position = { x = 72 y = 344 }
 					quadTextureSprite = "GFX_checkbox_gold_32"
 					tooltip = ""
 					tooltipText =""
@@ -972,7 +972,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "text_to_speech_label"
-					position = { x = -81 y = 239 }
+					position = { x = -81 y = 240 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -1000,7 +1000,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "speech_to_text_shortcut_state_label"
-					position = { x = -81 y = 331 }
+					position = { x = -81 y = 332 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -1014,7 +1014,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "speech_to_text_shortcut_label"
-					position = { x = -81 y = 375 }
+					position = { x = -81 y = 376 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -1042,7 +1042,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "next_visual_alerts_value"
-					position = { x = 265 y = 141 }
+					position = { x = 265 y = 142 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -1052,7 +1052,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "prev_visual_alerts_value"
-					position = { x = 399 y = 141 }
+					position = { x = 399 y = 142 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -1076,7 +1076,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "next_large_fonts_value"
-					position = { x = 265 y = 186 }
+					position = { x = 265 y = 187 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -1086,7 +1086,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "prev_large_fonts_value"
-					position = { x = 399 y = 186 }
+					position = { x = 399 y = 187 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -1095,7 +1095,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 247 y = 239 }
+					position = {x = 247 y = 240 }
 					name = "text_to_speech_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1109,7 +1109,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "next_text_to_speech_value"
-					position = { x = 265 y = 231 }
+					position = { x = 265 y = 232 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -1119,7 +1119,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "prev_text_to_speech_value"
-					position = { x = 399 y = 231 }
+					position = { x = 399 y = 232 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -1128,7 +1128,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 247 y = 287 }
+					position = {x = 247 y = 286 }
 					name = "speech_to_text_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1161,7 +1161,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 247 y = 331 }
+					position = {x = 247 y = 332 }
 					name = "speech_to_text_shortcat_state_value"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1175,7 +1175,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "next_speech_to_text_shortcat_state_value"
-					position = { x = 265 y = 323 }
+					position = { x = 265 y = 325 }
 					quadTextureSprite ="button_left"	
 					tooltip = ""
 					tooltipText =""
@@ -1185,7 +1185,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "prev_speech_to_text_shortcat_state_value"
-					position = { x = 399 y = 323 }
+					position = { x = 399 y = 325 }
 					quadTextureSprite ="button_right"	
 					tooltip = ""
 					tooltipText =""
@@ -1196,13 +1196,13 @@ guiTypes = {
 				{
 					name ="speech_to_text_shortcut_edit_bkg"
 					spriteType = "GFX_accessibility_settings_shortcut_bkg"
-                	position = {  x= 293 y = 367 }
+                	position = {  x= 292 y = 369 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				editBoxType={
 					name = "speech_to_text_shortcut_edit"
-					position = { x= 301 y = 375 }
+					position = { x= 301 y = 376 }
 					text = ""
 					font =  "vic_18"
 					size = { x=96 y=21 }
@@ -1212,7 +1212,7 @@ guiTypes = {
 			
 			guiButtonType = {
 					name = "ApplyButton"
-					position = { x = 171 y = 414 }
+					position = { x = 185 y = 413 }
 					quadTextureSprite ="GFX_standard_button_105"	
 					tooltip = ""
 					tooltipText =""
@@ -1224,7 +1224,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "BackButton"
-				position = { x = 51 y = 414 }
+				position = { x = 39 y = 413 }
 				quadTextureSprite ="GFX_standard_button_105"	
 				tooltip = ""
 				tooltipText =""
@@ -1236,7 +1236,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "settings_tab_1"
-				position = { x = -129 y = 69 }
+				position = { x = -130 y = 72 }
 				quadTextureSprite ="GFX_settings_tab_small"	
 				tooltip = ""
 				tooltipText =""
@@ -1246,7 +1246,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "settings_tab_2"
-				position = { x = -51 y = 69 }
+				position = { x = -52 y = 72 }
 				quadTextureSprite ="GFX_settings_tab_small"	
 				tooltip = ""
 				tooltipText =""
@@ -1256,7 +1256,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "settings_tab_3"
-				position = { x = 27 y = 69 }
+				position = { x = 26 y = 72 }
 				quadTextureSprite ="GFX_settings_tab_small"	
 				tooltip = ""
 				tooltipText =""
@@ -1266,7 +1266,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "settings_tab_4"
-				position = { x = 105	 y = 69 }
+				position = { x = 104	 y = 72 }
 				quadTextureSprite ="GFX_settings_tab_medium"	
 				tooltip = ""
 				tooltipText =""
@@ -1276,7 +1276,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "settings_tab_5"
-				position = { x = 222	 y = 63 }
+				position = { x = 220	 y = 66 }
 				quadTextureSprite ="GFX_settings_tab_large"	
 				tooltip = ""
 				tooltipText =""
@@ -1285,7 +1285,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -125 y = 81 }
+				position = {x = -126 y = 85 }
 				name = "gamesettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1297,7 +1297,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -48 y = 81 }
+				position = {x = -48 y = 85 }
 				name = "videosettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1309,7 +1309,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 31 y = 81 }
+				position = {x = 30 y = 85 }
 				name = "audiosettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1321,7 +1321,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 129 y = 81 }
+				position = {x = 126 y = 85 }
 				name = "controlssettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1333,7 +1333,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 288 y = 81 }
+				position = {x = 294 y = 85 }
 				name = "accessibilityssettings_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -1386,7 +1386,7 @@ guiTypes = {
 				}
 				
 				instantTextBoxType={
-					position = {x = -95 y =163 }
+					position = {x = -95 y =165 }
 					name = "mastervolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1404,7 +1404,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x=113 y=159}
+					position = {x=113 y=158}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -1448,7 +1448,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -95 y =229 }
+					position = {x = -95 y =230 }
 					name = "effectvolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1467,7 +1467,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x=113 y=225}
+					position = {x=113 y=223}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -1508,7 +1508,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = -95 y =291 }
+					position = {x = -95 y =294 }
 					name = "musicvolume_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1570,7 +1570,7 @@ guiTypes = {
 				}	
 				
 				instantTextBoxType={
-					position = {x = -95 y = 357 }
+					position = {x = -95 y = 359 }
 					name = "ambient_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1588,7 +1588,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x= 113 y =353}
+					position = {x= 113 y =352}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -1655,7 +1655,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -96 y = 291 }
+					position = {x = -96 y = 294 }
 					name = "scrollspeed_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1717,7 +1717,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = -96 y = 229 }
+					position = {x = -96 y = 230 }
 					name = "zoomspeed_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
@@ -1736,7 +1736,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =291 y =19 }
-					position = {x= 113 y =225}
+					position = {x= 113 y =223}
 					priority = 100			
 					borderSize = {x =19 y = 19}	
 					maxValue = 100
@@ -2632,7 +2632,7 @@ guiTypes = {
 
 				editBoxType={
 					name = "speech_to_text_shortcut_edit"
-					position = { x= 301 y = 375 }
+					position = { x= 301 y = 376 }
 					text = ""
 					font =  "vic_18"
 					size = { x=96 y=21 }
