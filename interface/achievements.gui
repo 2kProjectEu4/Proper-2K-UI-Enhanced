@@ -32,9 +32,9 @@ guiTypes = {
 	
 		smoothListboxType = 	{		
 			name ="achievement_list"
-			position = { x = 24 y = 60 }
+			position = { x = 24 y = 63 }
 			backGround=""
-			size = { x=870  y =609}
+			size = { x=870  y =692}
 			Orientation = "UPPER_LEFT"
 			spacing = 3
 			scrollbartype = "standardlistbox_slider"
@@ -44,7 +44,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="close_button"
 			quadTextureSprite ="button_type_7"
-			position = { x= 379 y = 676 }
+			position = { x= 379 y = 763 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
