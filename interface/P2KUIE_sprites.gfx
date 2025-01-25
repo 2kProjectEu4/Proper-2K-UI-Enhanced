@@ -75,6 +75,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_p2kuie_achievement_icon_separator"
+		texturefile = "gfx//interface//achievements//achievement_icon_separator.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_modifiers_box_bg"
 		texturefile = "gfx//interface//modifiers_box_bg.dds"
 	}
