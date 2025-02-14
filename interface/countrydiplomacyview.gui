@@ -7423,7 +7423,7 @@ guiTypes = {
 		{
 			name ="diplo_chance_reasons"
 			spriteType = "GFX_diploreasons_bar"
-			position = { x = 126 y = 510 }
+			position = { x = 124 y = 504 }
 		}
 
 		iconType =

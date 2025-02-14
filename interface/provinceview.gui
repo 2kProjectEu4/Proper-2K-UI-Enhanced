@@ -426,6 +426,7 @@ guiTypes = {
 				name = "add_parliament"
 				quadTextureSprite = "GFX_add_parliament_icon"
 				position = { x = 87 y = 1 }
+				shortcut = "d"
 			}
 
 			guiButtonType =
@@ -730,7 +731,6 @@ guiTypes = {
 				name = "settlement_growth_checkbox"
 				position = { x= 411 y = 75 }
 				quadTextureSprite ="GFX_checkbox_settlement_growth"
-				shortcut = "c" #added
 			}
 
 			guiButtonType =
@@ -2244,7 +2244,6 @@ guiTypes = {
 					delayedTooltipText = ""
 					buttonText = "SEND_DIPLOMAT"
 					buttonFont = "vic_18"
-					shortcut = "d" #Arumba
 				}
 
 				iconType =
