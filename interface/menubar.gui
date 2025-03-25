@@ -1695,7 +1695,7 @@ guiTypes = {
 				iconType = {
 					name = "menubar_bg"
 					spriteType = "GFX_messageinterface_bg"
-					position = { x= -49 y = 87 }
+					position = { x= -49 y = 67 }
 					Orientation = "UPPER_LEFT"
 				}		
 			
@@ -1703,28 +1703,28 @@ guiTypes = {
 				
 				checkboxType = {
 					name = "msg_icons_filter_me"
-					position = { x = 12 y = 265 }
+					position = { x = 14 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_me"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_interesting"
-					position = { x = 66 y = 265 }
+					position = { x = 68 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_interesting"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_other"
-					position = { x = 120 y = 265 }
+					position = { x = 122 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_other"
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name = "menubar_msg_settings"
-					position = { x = 174 y = 265 }
+					position = { x = 176 y = 265 }
 					quadTextureSprite ="GFX_messages_settings"
 					Orientation = "UPPER_LEFT"
 					clicksound = click
@@ -1734,9 +1734,9 @@ guiTypes = {
 				{
 					name ="message_list"
 					background = ""
-					position = { x=-29 y=99 }
+					position = { x=-29 y=76 }
 					orientation = "UPPER_LEFT"
-					size = { x=302 y=162 }
+					size = { x=302 y=192 }
 					borderSize = {x = 0 y = 0}
 					scrollbartype = "standardlistbox_slider"
 				}
@@ -1757,13 +1757,13 @@ guiTypes = {
 				iconType = {
 					name = "ToggleMessageBackground"
 					spriteType = "GFX_toggle_messageinterface_bg"
-					position = { x= 33 y = 237 }
+					position = { x= 33 y = 260 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name = "ToggleMessageInterface"
-					position = { x = 35 y = 258 }
+					position = { x = 35 y = 281 }
 					quadTextureSprite ="GFX_togglemessageinterface"
 					Orientation = "UPPER_LEFT"
 					clicksound = click

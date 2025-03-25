@@ -3,9 +3,9 @@ guiTypes = {
 	windowType = {
 		name = "outliner"
 		backGround=""
-		position = { x=12 y=123 }	
-		show_position = { x=-345 y=123 }
-		hide_position = { x=12 y=123 }	
+		position = { x=12 y=124 }	
+		show_position = { x=-345 y=124 }
+		hide_position = { x=12 y=124 }	
 		animation_type = "decelerated"
 		animation_time = 250	
 		size = { x=360 y=120 }	#was x=307
@@ -21,19 +21,10 @@ guiTypes = {
 			spriteType = "GFX_outliner_top"
 			position = { x= 0 y = 0 }	#was y = 11
 		}
-
-		guiButtonType = {
-			name = "button_outliner_options"
-			quadTextureSprite ="GFX_button_plus"	#was GFX_button_plus
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			position = { x = -11 y = -9 }	#was x = 17 y = 11
-		}
 		
 		listboxType = {
 			name ="outliner_list"
-			position = { x = 0 y = 18 }
+			position = { x = 0 y = 3 }
 			backGround=""
 			size = { x= 339 y = 19}
 			Orientation = "UPPER_LEFT"
@@ -42,6 +33,15 @@ guiTypes = {
 			scrollbartype = "standardlistbox_slider"
 			offset = { x=-16 y=0 }
 			borderSize = {x = 0 y = 0}
+		}
+		
+		guiButtonType = {
+			name = "button_outliner_options"
+			quadTextureSprite ="GFX_button_plus"	#was GFX_button_plus
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = -10 y = -10 }	#was x = 17 y = 11
 		}
 
 	}
@@ -59,8 +59,8 @@ guiTypes = {
 	windowType = {
 		name = "outliner_configuration"
 		backGround="Background"
-			position = { x=-584 y=139 }		#was x=-516 y= 109
-			size = { x=246 y=558 }
+			position = { x=-583 y=137 }		#was x=-516 y= 109
+			size = { x=246 y=533 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -81,7 +81,7 @@ guiTypes = {
 			listboxType = 
 				{
 				name ="outliner_configuration_list"
-				position = { x = 25 y = 24 }
+				position = { x = 25 y = 13 }
 				backGround=""
 				size = { x= 162 y = 462}
 				Orientation = "UPPER_LEFT"
@@ -95,7 +95,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "close_button"	
-				position = {x = 33 y = 499 }
+				position = {x = 33 y = 479 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""	
 				tooltipText =""
@@ -811,7 +811,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "entry_text"
-				position = { x = 33 y = 1 }
+				position = { x = 32 y = 1 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 0}
