@@ -28,7 +28,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "gp_label"
-				position = { x = 151 y = 57 }
+				position = { x = 150 y = 54 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
@@ -160,17 +160,17 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "rank"
-				position = { x = 0 y = 7 }
+				position = { x = -14 y = 5 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
-				maxWidth =72
+				maxWidth =56
 				maxHeight = 72	
-				format = left
+				format = center
 			}
 		instantTextBoxType = {
 				name = "name"
-				position = { x = 96 y = 9 }
+				position = { x = 96 y = 7 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
@@ -180,28 +180,28 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 				name = "rating"
-				position = { x = 317 y = 9 }
+				position = { x = 299 y = 7 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
 				maxWidth =78
 				maxHeight = 120	
-				format = left
+				format = right
 			}			
 		instantTextBoxType = {
 				name = "development"
-				position = { x = 402 y = 9 }
+				position = { x = 387 y = 7 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
 				maxWidth =78
 				maxHeight = 120	
-				format = left
+				format = right
 			}		
 
 		instantTextBoxType = {
 				name = "tech"
-				position = { x = 489 y = 9 }
+				position = { x = 484 y = 7 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
@@ -228,7 +228,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="shield"
 			quadTextureSprite ="GFX_shield_thin" 
-			position = { x= 97 y = 9 }
+			position = { x= 93 y = 8 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -240,7 +240,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="button"
 			quadTextureSprite = "GFX_estates_icons"
-			position = { x= 60 y = 0 }
+			position = { x= 56 y = 0 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -250,14 +250,14 @@ guiTypes = {
 		iconType = {
 			name ="progress_bg"
 			spriteType = "GFX_hegemon_progress_bg"
-			position = { x= 94 y = 92 }
+			position = { x= 88 y = 92 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="progress"
 			spriteType = "GFX_hegemon_progress"
-			position = { x = 98 y = 96 }
+			position = { x = 93 y = 96 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -265,7 +265,7 @@ guiTypes = {
 		iconType = {
 			name ="progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 91 y = 93 }
+			position = { x= 86 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}	
 	}	
