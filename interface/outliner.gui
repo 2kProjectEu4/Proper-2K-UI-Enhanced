@@ -456,7 +456,7 @@ guiTypes = {
 		{
 			name ="unit_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x= 9 y = -6 }
+			position = { x= 9 y = -3 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -600,7 +600,7 @@ guiTypes = {
 		iconType = {
 			name ="action"
 			spriteType = "GFX_outliner_action"
-			position = { x= 19 y = -17 }
+			position = { x= 19 y = -15 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 			alwaystransparent = yes
@@ -659,7 +659,7 @@ guiTypes = {
 		iconType = {
 			name ="action"
 			spriteType = "GFX_outliner_action"
-			position = { x= 19 y = -17 }
+			position = { x= 19 y = -15 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 			alwaystransparent = yes
@@ -693,7 +693,7 @@ guiTypes = {
 		{
 			name ="action"
 			spriteType = "GFX_diplomacy_action_declarewar"
-			position = { x= 19 y = -19 }
+			position = { x= 19 y = -17 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 			scale = 0.7
@@ -703,7 +703,7 @@ guiTypes = {
 		{
 			name ="is_primary_local"
 			spriteType = "GFX_coop_player"
-			position = { x= 30 y = -19 }
+			position = { x= 30 y = -17 }
 			Orientation = "LOWER_LEFT"
 		}
 			
