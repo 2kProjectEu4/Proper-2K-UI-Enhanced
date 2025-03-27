@@ -21,9 +21,9 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "year"
-				position = { x = 12 y = 0 }
+				position = { x = 12 y = 2 }
 				textureFile = ""
-				font = "vic_18"
+				font = "Stellaris_Small"
 				borderSize = {x = 5 y = 3}
 				text = ""	
 				maxWidth = 103
@@ -34,9 +34,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "date"
-				position = { x = 60 y = 0 }
+				position = { x = 53 y = 2 }
 				textureFile = ""
-				font = "vic_18"
+				font = "Stellaris_Small"
 				borderSize = {x = 5 y = 3}
 				text = ""	
 				maxWidth = 103
@@ -47,12 +47,12 @@ guiTypes = {
 			
 		instantTextBoxType = {
 				name = "description"
-				position = { x = 127 y = 0 }
+				position = { x = 115 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 3}
 				text = "PAPACY_MEMBER_STATES"	
-				maxWidth = 348
+				maxWidth = 396
 				maxHeight = 48	
 				format = left
 				Orientation = "UPPER_LEFT"			

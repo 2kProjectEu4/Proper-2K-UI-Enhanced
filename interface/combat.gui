@@ -151,7 +151,7 @@ guiTypes = {
 		iconType = {
 			name ="combat_terrain_frame"
 			spriteType = "GFX_combat_terrain_frame"
-			position = { x= 58 y = 81 }
+			position = { x= 62 y = 76 }
 		}
 		
 		iconType = {
@@ -172,7 +172,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_battlename"
-			position = { x = 83 y = 21 }
+			position = { x = 84 y = 21 }
 			textureFile = ""
 			font = "vic_22"
 			text = ""	
@@ -193,7 +193,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "phase_name"
-			position = { x = 33 y = 422 }
+			position = { x = 37 y = 422 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
@@ -296,7 +296,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_name"
-				position = { x = 228 y = -26 }
+				position = { x = 183 y = -26 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -346,7 +346,7 @@ guiTypes = {
 			iconType = {
 				name ="morale"
 				spriteType = "GFX_combat_morale"
-				position = { x= 106 y = 95 }
+				position = { x= 108 y = 95 }
 				
 			}
 			
@@ -368,13 +368,14 @@ guiTypes = {
 			iconType = {
 				name ="dicipline_icon"
 				spriteType = "GFX_icon_discipline"
-				position = { x= 285 y = 11 }
+				position = { x= 281 y = 14 }
 				hint_tag = "hint_discipline"
+				scale= 0.95
 			}
 			
 			instantTextBoxType = {
 				name = "dicipline_value"
-				position = { x = 315 y = 29 }
+				position = { x = 313 y = 28 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -405,13 +406,13 @@ guiTypes = {
 			iconType = {
 				name ="maxmorale_icon"
 				spriteType = "GFX_icon_morale"
-				position = { x= 289 y = 53 }				
+				position = { x= 288 y = 53 }				
 				hint_tag = "hint_morale"
 			}
 			
 			instantTextBoxType = {
 				name = "maxmorale_value"
-				position = { x = 309 y = 59 }
+				position = { x = 313 y = 58 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -424,13 +425,13 @@ guiTypes = {
 			iconType = {
 				name ="militarytactics_icon"
 				spriteType = "GFX_icon_military_tactics"
-				position = { x= 292 y = 85 }
+				position = { x= 290 y = 85 }
 				hint_tag = "hint_miltac"
 			}
 			
 			instantTextBoxType = {
 				name = "militarytactics_value"
-				position = { x = 309 y = 89 }
+				position = { x = 313 y = 89 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -445,9 +446,9 @@ guiTypes = {
 			{
 				name ="unit_type_1"
 				spriteType = "GFX_unit_types_strip_nontransp"
-				position = { x= 405 y = 5 }
+				position = { x= 405 y = 9 }
 				Orientation = "UPPER_LEFT"
-				scale = 0.8
+				scale = 0.75
 				hint_tag = "hint_infantry"
 			}
 
@@ -455,9 +456,9 @@ guiTypes = {
 			{
 				name ="unit_type_2"
 				spriteType = "GFX_unit_types_strip_nontransp"
-				position = { x= 405 y = 45 }
+				position = { x= 405 y = 48 }
 				Orientation = "UPPER_LEFT"
-				scale = 0.8
+				scale = 0.75
 				hint_tag = "hint_cavalry"
 			}
 			
@@ -516,7 +517,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "unit_type_3_value"
-				position = { x = 450 y = 97 }
+				position = { x = 450 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -674,7 +675,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_name"
-				position = { x = 228 y = -26 }
+				position = { x = 183 y = -26 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -723,7 +724,7 @@ guiTypes = {
 			iconType = {
 				name ="morale"
 				spriteType = "GFX_combat_morale"
-				position = { x= 106 y = 95 }
+				position = { x= 108 y = 95 }
 			}
 			
 		
@@ -744,13 +745,14 @@ guiTypes = {
 			iconType = {
 				name ="dicipline_icon"
 				spriteType = "GFX_icon_discipline"
-				position = { x= 285 y = 11 }
+				position = { x= 281 y = 14 }
 				hint_tag = "hint_discipline"
+				scale= 0.95
 			}
 			
 			instantTextBoxType = {
 				name = "dicipline_value"
-				position = { x = 315 y = 29 }
+				position = { x = 313 y = 28 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -781,13 +783,13 @@ guiTypes = {
 			iconType = {
 				name ="maxmorale_icon"
 				spriteType = "GFX_icon_morale"
-				position = { x= 289 y = 53 }				
+				position = { x= 288 y = 53 }				
 				hint_tag = "hint_morale"
 			}
 			
 			instantTextBoxType = {
 				name = "maxmorale_value"
-				position = { x = 309 y = 59 }
+				position = { x = 313 y = 58 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -800,13 +802,13 @@ guiTypes = {
 			iconType = {
 				name ="militarytactics_icon"
 				spriteType = "GFX_icon_military_tactics"
-				position = { x= 292 y = 85 }
+				position = { x= 290 y = 85 }
 				hint_tag = "hint_miltac"
 			}
 			
 			instantTextBoxType = {
 				name = "militarytactics_value"
-				position = { x = 309 y = 89 }
+				position = { x = 313 y = 89 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -821,9 +823,9 @@ guiTypes = {
 			{
 				name ="unit_type_1"
 				spriteType = "GFX_unit_types_strip_nontransp"
-				position = { x= 405 y = 5 }
+				position = { x= 405 y = 9 }
 				Orientation = "UPPER_LEFT"
-				scale = 0.8
+				scale = 0.75
 				hint_tag = "hint_infantry"
 			}
 
@@ -831,9 +833,9 @@ guiTypes = {
 			{
 				name ="unit_type_2"
 				spriteType = "GFX_unit_types_strip_nontransp"
-				position = { x= 405 y = 45 }
+				position = { x= 405 y = 48 }
 				Orientation = "UPPER_LEFT"
-				scale = 0.8
+				scale = 0.75
 				hint_tag = "hint_cavalry"
 			}
 			
@@ -892,7 +894,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "unit_type_3_value"
-				position = { x = 450 y = 97 }
+				position = { x = 450 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1110,7 +1112,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "modifier_value"
-				position = { x = -1 y = 17 }
+				position = { x = 1 y = 17 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}

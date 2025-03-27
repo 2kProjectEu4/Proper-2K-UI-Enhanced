@@ -25,7 +25,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 65 y = 15 }
+			position = { x = 65 y = 14 }
 			textureFile = ""
 			font = "vic_18"
 			text = "name"
@@ -93,7 +93,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="sort_trader"
 				quadTextureSprite = "GFX_sort_trader02"
-				position = { x = 213 y = 181 }
+				position = { x = 214 y = 181 }
 				pdx_tooltip = "TRADE_TRADER_SORT_TOOLTIP"
 				pdx_tooltip_delayed = "TRADE_TRADER_SORT_TOOLTIP_DELAYED"
 			}

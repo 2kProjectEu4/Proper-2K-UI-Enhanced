@@ -198,7 +198,7 @@ guiTypes = {
 		{
 			name ="unit_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x= 3 y = 6 }
+			position = { x= 3 y = 9 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -234,7 +234,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_name"
-			position = { x = 29 y =23 }
+			position = { x = 29 y =21 }
 			textureFile = ""
 			font = "vic_18_grey"
 			borderSize = {x = 5 y =0}
@@ -249,7 +249,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_type"
-			position = { x = 29 y =6 }
+			position = { x = 29 y =4 }
 			format = left
 
 			textureFile = ""
@@ -264,7 +264,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_strength"
-			position = { x = 198 y =15 }
+			position = { x = 198 y =12 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -279,7 +279,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "transferbutton"
-				position = { x = 300 y = 9 }
+				position = { x = 300 y = 8 }
 				quadTextureSprite ="GFX_reorg_right"
 				tooltip = ""
 				tooltipText =""
@@ -505,7 +505,7 @@ guiTypes = {
 		{
 			name ="unit_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x= 33 y = 6 }
+			position = { x= 33 y = 9 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -520,7 +520,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_name"
-			position = { x = 63 y = 23 }
+			position = { x = 63 y = 21 }
 
 			textureFile = ""
 			font = "vic_18"
@@ -536,7 +536,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_type"
-			position = { x = 63 y = 6 }
+			position = { x = 63 y = 4 }
 			format = left
 
 			textureFile = ""
@@ -553,7 +553,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_strength"
-			position = { x = 246 y =15 }
+			position = { x = 246 y =12 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -568,7 +568,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "transferbutton"
-				position = { x = -9 y = 9 }
+				position = { x = -9 y = 8 }
 				quadTextureSprite ="GFX_reorg_left"
 				tooltip = ""
 				tooltipText =""

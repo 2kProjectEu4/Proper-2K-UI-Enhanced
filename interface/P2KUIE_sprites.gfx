@@ -95,6 +95,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/settings/setting_bg.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_p2kuie_build_icon"
+		texturefile = "gfx/interface/build_icon.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {

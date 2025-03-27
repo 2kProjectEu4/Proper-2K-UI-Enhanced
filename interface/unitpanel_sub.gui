@@ -77,7 +77,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 39 y  = 11 }
+			position = {x = 39 y  = 10 }
 			name = "location"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -504,7 +504,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "back_button"
-				position = { x=460 y=415 }
+				position = { x=458 y=404 }
 				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
@@ -528,7 +528,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "sort_button_siege"
-				position = { x=323 y=111}
+				position = { x=324 y=111}
 				quadTextureSprite ="GFX_sort_61"
 				tooltip = ""
 				tooltipText =""
@@ -653,7 +653,7 @@ guiTypes = {
 			{
 				name ="leader_types"
 				spriteType = "GFX_leader_types"
-				position = { x= -60 y = 3 }
+				position = { x= -54 y = 3 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.9
 		}
@@ -687,7 +687,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "leader_name"
-				position = { x = -3 y = 7 }
+				position = { x = -3 y = 5 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -703,7 +703,7 @@ guiTypes = {
 		{
 			name ="leader_fire"
 			spriteType = "GFX_stars_small"
-			position = { x= 18 y = 36 }
+			position = { x= 18 y = 34 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -712,7 +712,7 @@ guiTypes = {
 		{
 			name ="leader_shock"
 			spriteType = "GFX_stars_small"
-			position = { x= 95 y = 36 }
+			position = { x= 95 y = 34 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -720,7 +720,7 @@ guiTypes = {
 		{
 			name ="leader_siege"
 			spriteType = "GFX_stars_small"
-			position = { x= 243 y = 36 }
+			position = { x= 243 y = 34 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -729,7 +729,7 @@ guiTypes = {
 		{
 			name ="leader_maneuever"
 			spriteType = "GFX_stars_small"
-			position = { x=169  y = 36 }
+			position = { x=169  y = 34 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -741,11 +741,11 @@ guiTypes = {
 		backGround=""
 		if_resolution = {
         	max_height = 749
-			position = { x=24 y=276 }
+			position = { x=544 y=273 }
         }
 		if_resolution = {
         	min_height = 750
-			position = { x=24 y=312 }
+			position = { x=544 y=312 }
         }
 		size = { x=480 y=120 }
 
@@ -759,7 +759,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "title"
-				position = { x = 219 y = 96 }
+				position = { x = 201 y = 87 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "SUPPRESSED_AREAS"
@@ -783,9 +783,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="arealist"
-			position = { x = 96 y = 135 }
+			position = { x = 96 y = 123 }
 			backGround=""
-			size = { x=396  y =408 }
+			size = { x=396  y =395 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 3
@@ -795,7 +795,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "accept_button"
-				position = { x=315 y=531 }
+				position = { x=315 y=528 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "LEDGER_CLOSE"
 				buttonFont = "vic_18"
@@ -806,7 +806,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "cancel_button"
-				position = { x=75 y=531 }
+				position = { x=88 y=528 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "STOP_MISSION"
 				buttonFont = "vic_18"
@@ -873,7 +873,7 @@ guiTypes = {
         }
 		if_resolution = {
         	min_height = 750
-			position = { x=24 y=312 }
+			position = { x=544 y=312 }
         }
 		size = { x=480 y=120 }
 
@@ -887,7 +887,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "title"
-				position = { x = 219 y = 96 }
+				position = { x = 145 y = 87 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "CARPET_SIEGE_AREAS"
@@ -911,9 +911,9 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="arealist"
-			position = { x = 96 y = 135 }
+			position = { x = 96 y = 123 }
 			backGround=""
-			size = { x=396  y =408 }
+			size = { x=396  y =395 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 3
@@ -923,7 +923,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "accept_button"
-				position = { x=315 y=531 }
+				position = { x=315 y=528 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "LEDGER_CLOSE"
 				buttonFont = "vic_18"
@@ -933,7 +933,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "cancel_button"
-				position = { x=75 y=531 }
+				position = { x=88 y=528 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "STOP_MISSION"
 				buttonFont = "vic_18"
@@ -980,13 +980,14 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "text"
-				position = { x = -204 y = 7 }
+				position = { x = -114 y = 7 }
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
-				maxWidth = 180
+				maxWidth = 50
 				maxHeight = 24	
 				Orientation = "UPPER_RIGHT"
 				fixedsize = yes
+				format = right
 		}
 	}
 
