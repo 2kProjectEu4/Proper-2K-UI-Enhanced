@@ -47,7 +47,7 @@ guiTypes = {
 		# TODO: Move to unitpanel_main.gui
 		guiButtonType = {
 			name = "close"
-			position = { x= 453 y= 333}
+			position = { x= 453 y= 337}
 			quadTextureSprite ="GFX_select_mission_back_button"
 			buttonFont = "vic_18"
 		}

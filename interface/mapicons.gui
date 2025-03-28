@@ -470,7 +470,7 @@ guiTypes = {
 		{
 			name ="prov_modifier_bg"
 			spriteType = "GFX_prov_modifier_bg"
-			position = { x = 18 y = 24 }
+			position = { x = 15 y = 24 }
 			scale = 0.75
 		}
 		

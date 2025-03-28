@@ -76,7 +76,7 @@ guiTypes = {
 		{
 			name ="great_power_development_sort"
 			spriteType = "GFX_great_power_development_sort"
-			position = { x= 471 y = 108 }
+			position = { x= 470 y = 108 }
 		}
 		
 		iconType =
