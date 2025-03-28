@@ -15,6 +15,7 @@
  CROWN_LAND_NO_EFFECT:0 "     No Effect"
  ATTACH_UNIT_LABEL:0 "Attach Unit"
  EXPAND_INFRASTRUCTURE_NEEDED_DEV:0 "§RThe province needs $DEV|Y$ development for next level of infrastructure.§!"
+ STATE_PROVINCES_LABEL:0 "Provinces"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"

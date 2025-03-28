@@ -2698,7 +2698,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "income_label"
-				position = { x = 36 y = 78 }
+				position = { x = 36 y = 76 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
@@ -2709,7 +2709,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "income_value"
-				position = { x = 291 y = 78 }
+				position = { x = 287 y = 76 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
@@ -2720,7 +2720,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "governing_capacity_label"
-				position = { x = 36 y = 111 }
+				position = { x = 36 y = 109 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
@@ -2731,7 +2731,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "governing_capacity_value"
-				position = { x = 291 y = 111 }
+				position = { x = 289 y = 109 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
@@ -2765,7 +2765,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "current_edict"
-				position = { x = 120 y = 161 }
+				position = { x = 130 y = 160 }
 				textureFile = ""
 				font = "vic_18s"
 				borderSize = {x = 3 y = 3}
@@ -2783,7 +2783,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "current_edict_effect"
-				position = { x = 120 y = 183 }
+				position = { x = 102 y = 183 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
@@ -2803,7 +2803,18 @@ guiTypes = {
 				position = { x = 391 y = 189 }
 				shortcut = "d"
 			}
-
+			
+			instantTextBoxType = {
+				name = "state_provinces_label"
+				position = { x = 258 y = 242 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 3 y = 3}
+				text = "STATE_PROVINCES_LABEL"
+				maxWidth = 288
+				maxHeight = 24
+				format = left
+			}
 
 			guiButtonType = {
 				name = "sort_state_core"
@@ -2820,7 +2831,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "sort_state_shield"
 				quadTextureSprite = "GFX_sort_state_shield"
-				position = { x = 201 y = 277 }
+				position = { x = 200 y = 277 }
 			}
 			guiButtonType = {
 				name = "sort_state_development"
@@ -2842,7 +2853,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "sort_state_unrest"
 				quadTextureSprite = "GFX_sort_state_unrest"
-				position = { x = 429 y = 277 }
+				position = { x = 428 y = 277 }
 			}
 			guiButtonType = {
 				name = "sort_state_fort"
@@ -3016,7 +3027,7 @@ guiTypes = {
 				guiButtonType =
 				{
 					name ="expand_infrastructure_button"
-					position = { x= 100 y = 762 }
+					position = { x= 91 y = 762 }
 					quadTextureSprite ="GFX_exploit_button_expand_infrastructure"
 					tooltip = ""
 					tooltipText =""
@@ -3029,7 +3040,7 @@ guiTypes = {
 				guiButtonType =
 				{
 					name ="reduce_infrastructure_button"
-					position = { x= 148 y = 762 }
+					position = { x= 157 y = 762 }
 					quadTextureSprite ="GFX_exploit_button_reduce_infrastructure"
 					tooltip = ""
 					tooltipText =""
@@ -3363,7 +3374,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "window_title"
-					position = { x = 0 y = 6 }
+					position = { x = 0 y = 9 }
 					textureFile = ""
 					font = "vic_29s"
 					borderSize = {x = 5 y = 5}
@@ -6752,13 +6763,13 @@ guiTypes = {
 		iconType = {
 			name ="core_status"
 			spriteType = "GFX_core_icon"
-			position = { x = -1 y = 1 }
+			position = { x = -2 y = 1 }
 		}
 
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 37 y = 7 }
+			position = { x = 37 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
@@ -6770,14 +6781,14 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "name_overlay"
-			position = { x = 37 y = 7 }
+			position = { x = 37 y = 6 }
 			quadTextureSprite = "GFX_state_view_invisible_button_114x20"
 		}
 
 		guiButtonType =
 		{
 			name ="owner"
-			position = { x= 177 y = 0 }
+			position = { x= 174 y = 0 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -6796,7 +6807,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "development"
-			position = { x = 216 y = 7 }
+			position = { x = 214 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
@@ -6815,7 +6826,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "culture"
-			position = { x = 295 y = 7 }
+			position = { x = 295 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
@@ -6840,7 +6851,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "fort_level"
-			position = { x = 474 y = 7 }
+			position = { x = 473 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
@@ -6859,7 +6870,7 @@ guiTypes = {
 			text = "123"
 			maxWidth = 39
 			maxHeight = 24
-			format = right
+			format = center
 		}
 
 	}
@@ -6879,7 +6890,7 @@ guiTypes = {
 
 		iconType = {
 			name = "edict_icon"
-			position = { x = -3 y = 0 }
+			position = { x = -3 y = 5 }
 			spriteType = "GFX_no_edict"
 		}
 
@@ -6889,13 +6900,14 @@ guiTypes = {
 			buttonFont = "FPS_Font"
 			buttonText = "txt"
 			position = { x = 63 y = 6 }
+			orientation = top
 		}
 
 		instantTextBoxType = {
 			name = "edicts_eff"
-			position = { x = 99 y = 15 }
+			position = { x = 96 y = 22 }
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_18"
 			borderSize = {x = 3 y = 3}
 			text = "txtstuff"
 			maxWidth = 349

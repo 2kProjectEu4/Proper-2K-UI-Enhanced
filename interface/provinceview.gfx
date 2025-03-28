@@ -572,7 +572,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_sort_state_development"
-		texturefile = "gfx/interface/macro_states_sort/sort_development.dds"
+		texturefile = "gfx/interface/sort_state_development.dds"
 	}
 
 	spriteType = {
