@@ -3016,7 +3016,7 @@ guiTypes = {
 				guiButtonType =
 				{
 					name ="expand_infrastructure_button"
-					position = { x= 219 y = -163 }
+					position = { x= 100 y = 762 }
 					quadTextureSprite ="GFX_exploit_button_expand_infrastructure"
 					tooltip = ""
 					tooltipText =""
@@ -3029,7 +3029,7 @@ guiTypes = {
 				guiButtonType =
 				{
 					name ="reduce_infrastructure_button"
-					position = { x= 219 y = -123 }
+					position = { x= 148 y = 762 }
 					quadTextureSprite ="GFX_exploit_button_reduce_infrastructure"
 					tooltip = ""
 					tooltipText =""
