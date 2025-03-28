@@ -3971,7 +3971,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="prov_modifier_bg"
-			spriteType = "GFX_prov_modifier_bg"
+			spriteType = "GFX_prov_modifier_bg_big"
 			position = { x = 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}

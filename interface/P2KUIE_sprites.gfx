@@ -100,6 +100,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/build_icon.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_prov_modifier_bg_big"
+		texturefile = "gfx/interface/ideas_EU4/prov_modifier_bg_big.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {
