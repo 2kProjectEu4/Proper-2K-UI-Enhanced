@@ -2170,13 +2170,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "icon"
-			position = { x = -3 y = 0 }
+			position = { x = -3 y = -1 }
 			spriteType ="GFX_msg_combat"
 		}
 		
 		instantTextBoxType = {
 			name = "flag"
-			position = { x = 33 y = 3 }
+			position = { x = 31 y = 4 }
 			
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2189,12 +2189,12 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 63 y = 5 }
+			position = { x = 55 y = 3 }
 			
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 180
+			maxWidth = 210
 			maxHeight = 12
 			format = left
 			fixedsize = yes
@@ -2203,7 +2203,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "other_flag"
-			position = { x = 258 y = 3 }
+			position = { x = 264 y = 4 }
 			
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

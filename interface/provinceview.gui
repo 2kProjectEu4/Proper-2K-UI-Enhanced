@@ -2632,9 +2632,10 @@ guiTypes = {
 				font = "vic_22s"
 				borderSize = {x = 3 y = 3}
 				text = "State of XYZ"
-				maxWidth = 360
+				maxWidth = 266
 				maxHeight = 24
 				format = left
+				fixedsize = yes
 			}
 
 			iconType =
