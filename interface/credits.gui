@@ -62,18 +62,27 @@ guiTypes = {
 			position = { x= -323 y =-547}
 			orientation = "CENTER"
 		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 178 y = -46 }
+			font = "vic_29"
+			text = "Credits"	
+			format = center
+			Orientation = "UPPER_LEFT"			
+		}
 
-	guiButtonType = {
-		name = "back_button"
-		position = { x = 187 y = 539 }
-		quadTextureSprite ="button_type_1"	
-		tooltip = ""
-		tooltipText =""
-		delayedTooltipText = ""
-		buttonText = "BACK"
-		buttonFont = "vic_18"
-		clicksound = back_click
-	}
+		guiButtonType = {
+			name = "back_button"
+			position = { x = 187 y = 475 }
+			quadTextureSprite ="button_type_1"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
 
 
 #iconType = {
