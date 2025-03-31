@@ -145,7 +145,7 @@ guiTypes = {
 		{
 			name ="combat_terrain"
 			spriteType = "GFX_combat_terrain_hills"
-			position = { x= 68 y = 90 }
+			position = { x= 70 y = 85 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {

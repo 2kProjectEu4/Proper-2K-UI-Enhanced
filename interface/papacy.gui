@@ -203,7 +203,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_amount"
-				position = { x = 167 y =311 }
+				position = { x = 168 y =310 }
 				quadTextureSprite ="GFX_sort_64"
 				tooltip = ""
 				tooltipText =""
@@ -233,7 +233,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_chance"
-				position = { x = 479 y =311 }
+				position = { x = 479 y =310 }
 				quadTextureSprite ="GFX_sort_107"
 				tooltip = ""
 				tooltipText =""

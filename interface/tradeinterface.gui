@@ -484,9 +484,9 @@ guiTypes = {
 			backGround=""
 			position = { x=-11 y=396 }
 			show_position = { x=-11 y=-777 }
-			hide_position = { x=-11 y=36 }
+			hide_position = { x=-11 y=100 }
 			animation_type = "decelerated"
-			animation_time = 300
+			animation_time = 500
 			size = { x=840 y=588 }
 			moveable = 0
 			dontRender = ""

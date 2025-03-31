@@ -110,6 +110,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/local_org_background.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_captured_ship_box"
+		texturefile = "gfx/interface/P2KUIE_sprites/naval_summary_captured_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_captured_ship_icon"
+		texturefile = "gfx/interface/P2KUIE_sprites/naval_summary_captured_icon.dds"
+	}
+	
 
 	################### HRE
 	spriteType = {

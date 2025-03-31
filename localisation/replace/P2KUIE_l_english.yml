@@ -16,6 +16,13 @@
  ATTACH_UNIT_LABEL:0 "Attach Unit"
  EXPAND_INFRASTRUCTURE_NEEDED_DEV:0 "§RThe province needs $DEV|Y$ development for next level of infrastructure.§!"
  STATE_PROVINCES_LABEL:0 "Provinces"
+ THE_FOLLOWING_SHIPS_WHERE_CAPTURED:0 "Captured ships"
+ 
+ ########## Log settings
+ LOG_SETTING_LOG:0 "Display in log"
+ LOG_SETTING_POPUP:0 "Open popup window"
+ LOG_SETTING_MAP:0 "Show on map"
+ LOG_SETTING_IDLE:0 "Display as Idle message"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"
