@@ -58,7 +58,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "regiment_count"
-					position = { x = 42  y = 45 }
+					position = { x = 42  y = 44 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -71,7 +71,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "free_count"
-					position = { x = 93  y = 45 }
+					position = { x = 94  y = 44 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -84,7 +84,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "button_embarked2"
-					position = { x = 21 y = 63 }
+					position = { x = 21 y = 64 }
 					quadTextureSprite ="GFX_standard_button_105"
 					tooltip = ""
 					tooltipText =""

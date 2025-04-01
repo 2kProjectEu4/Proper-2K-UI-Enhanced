@@ -784,7 +784,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_bas_title"
-				position = { x = -60 y = 420 }
+				position = { x = -59 y = 420 }
 
 				font = "vic_18"
 				#borderSize = {x = 11 y = -25}
@@ -796,7 +796,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_adv_title"
-				position = { x = -60 y = 557 }
+				position = { x = -57 y = 544 }
 
 				font = "vic_18"
 				#borderSize = {x = 11 y = -25}
@@ -808,7 +808,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_cam_title"
-				position = { x = -60 y = 678 }
+				position = { x = -59 y = 666 }
 
 				font = "vic_18"
 				#borderSize = {x = 11 y = -25}
@@ -821,7 +821,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_label"
-				position = { x = 120 y = 357 }
+				position = { x = 127 y = 358 }
 
 				font = "vic_29s"
 				borderSize = {x = 23 y = -30}
@@ -860,7 +860,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_desc"
-				position = { x = 150 y = 456 }
+				position = { x = 150 y = 459 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -882,7 +882,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x = -132 y = 762 }
+				position = { x = 8 y = 762 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
@@ -893,7 +893,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "play_button"
-				position = { x = 480 y = 762 }
+				position = { x = 353 y = 762 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""

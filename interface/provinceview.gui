@@ -2000,7 +2000,7 @@ guiTypes = {
 					position = {x = 0 y = 491 }
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 216
+					maxWidth = 140
 					maxHeight = 39
 					text = "Army force limit: xx/xx"
 				}
@@ -2101,7 +2101,7 @@ guiTypes = {
 					position = {x = 0 y = 491 }
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 216
+					maxWidth = 140
 					maxHeight = 39
 					text = "Army force limit: xx/xx"
 				}
@@ -4155,6 +4155,7 @@ guiTypes = {
 			maxHeight = 24
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
+			alwaystransparent = yes
 		}
 
 
@@ -4177,7 +4178,7 @@ guiTypes = {
 			font = "vic_18_grey"
 			borderSize = {x = 5 y = 5}
 			text = ""
-			maxWidth = 180
+			maxWidth = 90
 			maxHeight = 39
 			Orientation = "UPPER_LEFT"
 		}
@@ -4428,6 +4429,7 @@ guiTypes = {
 			maxHeight = 39
 			format = right
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {

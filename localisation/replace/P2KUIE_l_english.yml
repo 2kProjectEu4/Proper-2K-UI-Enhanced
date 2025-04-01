@@ -17,6 +17,7 @@
  EXPAND_INFRASTRUCTURE_NEEDED_DEV:0 "§RThe province needs $DEV|Y$ development for next level of infrastructure.§!"
  STATE_PROVINCES_LABEL:0 "Provinces"
  THE_FOLLOWING_SHIPS_WHERE_CAPTURED:0 "Captured ships"
+  TUT_PART_CAM_TITLE:0 "§YSpanish Empire§!\nBeginner\nCampaign"
  
  ########## Log settings
  LOG_SETTING_LOG:0 "Display in log"
