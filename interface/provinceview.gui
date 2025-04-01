@@ -3371,6 +3371,7 @@ guiTypes = {
 					spacing = 3
 					scrollbartype = "standardlistbox_slider"
 					borderSize = {x = 0 y = 0}
+					alwaystransparent = yes
 				}
 
 				instantTextBoxType = {

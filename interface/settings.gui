@@ -476,7 +476,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "reset_shortcuts_btn"
-					position = { x = 112 y = 181 }
+					position = { x = 112 y = 167 }
 					quadTextureSprite ="GFX_standard_button_105"	
 					tooltip = ""
 					tooltipText ="RESET_SHORTCUTS_TOOLTIP"

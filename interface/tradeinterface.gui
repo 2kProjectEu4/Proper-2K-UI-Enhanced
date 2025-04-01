@@ -483,7 +483,7 @@ guiTypes = {
 			name = "TradeCompanyNodeInterface"
 			backGround=""
 			position = { x=-11 y=396 }
-			show_position = { x=-11 y=-777 }
+			show_position = { x=-11 y=-772 }
 			hide_position = { x=-11 y=100 }
 			animation_type = "decelerated"
 			animation_time = 500

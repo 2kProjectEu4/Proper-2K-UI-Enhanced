@@ -1476,9 +1476,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 						name = "observe_mode_title"
-						position = { x = 77 y = -157 }
+						position = { x = 113 y = -157 }
 
-						font = "vic_22"
+						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = "OBSERVE_MODE"
 						maxWidth = 240
@@ -1489,7 +1489,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "observe_mode_button"
-					position = { x = 35 y = -164 }
+					position = { x = 71 y = -164 }
 					quadTextureSprite ="GFX_checkbox_gold_32"
 					Orientation = "LOWER_LEFT"
 				}
@@ -1937,12 +1937,12 @@ guiTypes = {
 					{
 						name ="techgroup_icon"
 						spriteType = "GFX_tech_group_strip"
-						position = { x= -76 y = 93 } #18
+						position = { x= -72 y = 93 } #18
 						Orientation = "UPPER_LEFT"
 					}
 
 					guiButtonType = {
-						position = { x= -30 y = 39 }
+						position = { x= -26 y = 39 }
 						name = "player_shield"
 						quadTextureSprite ="GFX_shield_thin"
 					}
@@ -1951,7 +1951,7 @@ guiTypes = {
 					{
 						name ="government_rank"
 						spriteType = "GFX_government_rank_strip"
-						position = { x= -85 y = 45 }
+						position = { x= -81 y = 45 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -1972,7 +1972,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_label"
-						position = { x = -64 y = 156 }
+						position = { x = -65 y = 156 }
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = ""
@@ -2081,7 +2081,7 @@ guiTypes = {
 					{
 						name ="admtech_icon"
 						spriteType = "GFX_icon_powers_administrative_tech"
-						position = { x= -66 y = 295 }
+						position = { x= -64 y = 295 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -2100,7 +2100,7 @@ guiTypes = {
 					{
 						name ="diptech_icon"
 						spriteType = "GFX_icon_powers_diplomatic_tech"
-						position = { x= 4 y = 295 }
+						position = { x= 6 y = 295 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -2119,7 +2119,7 @@ guiTypes = {
 					{
 						name ="miltech_icon"
 						spriteType = "GFX_icon_powers_military_tech"
-						position = { x= 76 y = 295 }
+						position = { x= 77 y = 295 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -2136,7 +2136,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "national_ideagroup_name"
-						position = { x = -100 y = 343 }
+						position = { x = -102 y = 343 }
 						font = "vic_18"
 						borderSize = {x = 5 y = 5}
 						text = "Enlish Ideas"
@@ -2168,7 +2168,7 @@ guiTypes = {
 					{
 						name ="national_idea1"
 						spriteType = "GFX_idea_empty"
-						position = { x= -107 y = 384 }
+						position = { x= -107 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2176,7 +2176,7 @@ guiTypes = {
 					{
 						name ="national_idea2"
 						spriteType = "GFX_idea_empty"
-						position = { x= -68 y = 384 }
+						position = { x= -68 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2184,7 +2184,7 @@ guiTypes = {
 					{
 						name ="national_idea3"
 						spriteType = "GFX_idea_empty"
-						position = { x= -29 y = 384 }
+						position = { x= -29 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2192,7 +2192,7 @@ guiTypes = {
 					{
 						name ="national_idea4"
 						spriteType = "GFX_idea_empty"
-						position = { x= 9 y = 384 }
+						position = { x= 9 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2200,7 +2200,7 @@ guiTypes = {
 					{
 						name ="national_idea5"
 						spriteType = "GFX_idea_empty"
-						position = { x= 47 y = 384 }
+						position = { x= 47 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2208,7 +2208,7 @@ guiTypes = {
 					{
 						name ="national_idea6"
 						spriteType = "GFX_idea_empty"
-						position = { x= 85 y = 384 }
+						position = { x= 85 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2216,7 +2216,7 @@ guiTypes = {
 					{
 						name ="national_idea7"
 						spriteType = "GFX_idea_empty"
-						position = { x= 124 y = 384 }
+						position = { x= 124 y = 375 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.6
 					}
@@ -2498,7 +2498,7 @@ guiTypes = {
 		{
 			name ="is_primary_local"
 			spriteType = "GFX_coop_player"
-			position = { x= -10 y = -16 }
+			position = { x= -8 y = -16 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -2661,7 +2661,7 @@ guiTypes = {
 		iconType = {
 			name ="is_primary_local"
 			spriteType = "GFX_coop_player"
-			position = { x= -10 y = -16 }
+			position = { x= -8 y = -16 }
 			Orientation = "UPPER_LEFT"
 
 		}
