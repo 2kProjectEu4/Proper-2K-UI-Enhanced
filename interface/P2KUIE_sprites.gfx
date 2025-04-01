@@ -120,6 +120,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/P2KUIE_sprites/naval_summary_captured_icon.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_p2kuie_credits_bg"
+		texturefile = "gfx/interface/country_credits_bg.dds"
+	}
+	
+	
 
 	################### HRE
 	spriteType = {

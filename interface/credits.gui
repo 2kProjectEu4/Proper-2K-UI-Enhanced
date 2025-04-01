@@ -58,7 +58,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="credits_bg"
-			spriteType = "GFX_credits_bg"
+			spriteType = "GFX_p2kuie_credits_bg"
 			position = { x= -323 y =-547}
 			orientation = "CENTER"
 		}
