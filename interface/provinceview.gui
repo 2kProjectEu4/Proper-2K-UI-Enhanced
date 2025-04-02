@@ -2970,7 +2970,7 @@ guiTypes = {
 				{
 					name ="provinceview_building_icon"
 					spriteType = "GFX_p2kuie_build_icon"
-					position = { x= 27 y = -104 } #115
+					position = { x= 27 y = -105 } 
 					scale=0.7
 				}
 

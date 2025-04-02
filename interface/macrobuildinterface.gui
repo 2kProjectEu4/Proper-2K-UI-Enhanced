@@ -123,14 +123,14 @@ guiTypes = {
 		{
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = -39 y = 3 }
+			position = { x = -39 y = 4 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 		}
 
 		instantTextBoxType = {
 			name = "unit_name"
-			position = { x = 6 y = 7 }
+			position = { x = 6 y = 6 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UNIT_NAME"
@@ -144,7 +144,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "base_cost"
-			position = { x = 6 y = 25 }
+			position = { x = 6 y = 24 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -156,7 +156,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "amount"
-			position = { x = 96 y = 25 }
+			position = { x = 96 y = 24 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -1336,13 +1336,13 @@ guiTypes = {
 
 		iconType = {
 			name = "category_banner_icon"
-			position = { x = 5 y = 9 }
+			position = { x = 5 y = 5 }
 			spriteType = "GFX_build_category_units_banner"
 		}
 
 		instantTextBoxType={
 			name = "title"
-			position = {x = 36 y = 21 }
+			position = {x = 36 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
@@ -1352,19 +1352,19 @@ guiTypes = {
 
 		iconType = {
 			name = "fire_icon"
-			position = { x=381 y = 12}
+			position = { x=381 y = 7}
 			spriteType ="GFX_icon_fire"
 		}
 		
 		iconType = {
 			name = "shock_icon"
-			position = { x=435 y = 13}
+			position = { x=435 y = 7}
 			spriteType ="GFX_icon_shock"
 		}
 		
 		iconType = {
 			name = "morale_icon"
-			position = { x=486 y = 15}
+			position = { x=490 y = 9}
 			spriteType ="GFX_icon_morale"
 		}
 	}
@@ -1382,13 +1382,13 @@ guiTypes = {
 
 		iconType = {
 			name = "category_banner_icon"
-			position = { x = 5 y = 9 }
+			position = { x = 5 y = 5 }
 			spriteType = "GFX_build_category_units_banner"
 		}
 
 		instantTextBoxType={
 			name = "title"
-			position = {x = 36 y = 21 }
+			position = {x = 36 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
@@ -1398,21 +1398,21 @@ guiTypes = {
 
 		iconType = {
 			name = "infantry_icon"
-			position = { x=381 y = 9}
+			position = { x=381 y = 5}
 			spriteType ="GFX_infantry_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "cavalry_icon"
-			position = { x=435 y = 11}
+			position = { x=434 y = 7}
 			spriteType ="GFX_cavalry_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "artillery_icon"
-			position = { x=486 y = 12}
+			position = { x=484 y = 8}
 			spriteType ="GFX_artillery_icon"
 			scale = 0.8
 		}
@@ -1577,7 +1577,7 @@ guiTypes = {
 				name ="list_to_fill"
 				position = { x=48 y = 0 }
 				backGround=""
-				size = { x= 456 y = 720 }
+				size = { x= 456 y = 20000 } # if this is not very big, it can lead to lead very weird list in list behaviour in the template winodws after some templates were created
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
