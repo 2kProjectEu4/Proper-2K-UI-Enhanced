@@ -1,6 +1,41 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_macrobuild_entry_frame_540"
+		texturefile = "gfx//interface//macrobuild_entry_frame_540.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuild_entry_frame_550"
+		texturefile = "gfx//interface//macrobuild_entry_frame_550.dds"
+	}
+
+	spriteType = {
+		name = "GFX_macrobuild_entry_frame_550_thin"
+		texturefile = "gfx//interface//macrobuild_entry_frame_550_thin.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuild_entry_frame_540_thin"
+		texturefile = "gfx//interface//macrobuild_entry_frame_540_thin.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuild_entry_frame_470"
+		texturefile = "gfx//interface//macrobuild_entry_frame_470.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sort_P2KUIE_190"
+		texturefile = "gfx//interface//sort_190_p2kuie.dds"
+	}
+	spriteType = {
+		name = "GFX_sort_P2KUIE_224"
+		texturefile = "gfx//interface//sort_224_p2kuie.dds"
+	}
+	spriteType = {
+		name = "GFX_sort_P2KUIE_234"
+		texturefile = "gfx//interface//sort_234_p2kuie.dds"
+	}
+
+	spriteType = {
 		name = "GFX_court_advisor_bg"
 		texturefile = "gfx/interface/court_advisor_bg.dds"
 	}
