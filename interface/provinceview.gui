@@ -6959,7 +6959,7 @@ guiTypes = {
 				name = "edicts_listbox"
 				backGround = ""
 				position = { x = 600 y = 0 }
-				size = { x = 456 y = 900 }
+				size = { x = 456 y = 800 }
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
