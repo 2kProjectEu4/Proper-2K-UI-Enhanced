@@ -272,7 +272,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "unit_name"
-			position = { x = 6 y = 7 }
+			position = { x = 6 y = 6 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "UNIT_NAME"
@@ -286,7 +286,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "base_cost"
-			position = { x = 6 y = 25 }
+			position = { x = 6 y = 24 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -298,7 +298,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "amount"
-			position = { x = 82 y = 25 }
+			position = { x = 82 y = 24 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -310,7 +310,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "sailors"
-			position = { x = 219 y = 12 }
+			position = { x = 219 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -323,7 +323,7 @@ guiTypes = {
 	
 		instantTextBoxType = {
 			name = "trade_power"
-			position = { x = 273 y = 12 }
+			position = { x = 273 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -336,7 +336,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="size_value"
-			position = { x= 327 y = 12}
+			position = { x= 327 y = 10}
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -349,7 +349,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="cannons_value"
-			position = { x= 377 y = 12 }
+			position = { x= 377 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -362,7 +362,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name ="speed_value"
-			position = { x= 429 y = 12 }
+			position = { x= 429 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
@@ -1431,13 +1431,13 @@ guiTypes = {
 
 		iconType = {
 			name = "category_banner_icon"
-			position = { x = 5 y = 9 }
+			position = { x = 5 y = 5 }
 			spriteType = "GFX_build_category_units_banner"
 		}
 
 		instantTextBoxType={
 			name = "title"
-			position = {x = 36 y = 21 }
+			position = {x = 36 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
@@ -1447,28 +1447,28 @@ guiTypes = {
 
 		iconType = {
 			name = "big_icon"
-			position = { x=330 y = 9}
+			position = { x=328 y = 8}
 			spriteType ="GFX_big_ship_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "light_icon"
-			position = { x=381 y = 12}
+			position = { x=381 y = 13}
 			spriteType ="GFX_light_ship_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "galley_icon"
-			position = { x=435 y = 15}
+			position = { x=432 y = 15}
 			spriteType ="GFX_galley_icon"
 			scale = 0.8
 		}
 
 		iconType = {
 			name = "transport_icon"
-			position = { x=486 y = 15}
+			position = { x=482 y = 15}
 			spriteType ="GFX_transport_icon"
 			scale = 0.8
 		}
@@ -1487,13 +1487,13 @@ guiTypes = {
 
 		iconType = {
 			name = "category_banner_icon"
-			position = { x = 5 y = 9 }
+			position = { x = 5 y = 5 }
 			spriteType = "GFX_build_category_units_banner"
 		}
 
 		instantTextBoxType={
 			name = "title"
-			position = {x = 36 y = 21 }
+			position = {x = 36 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
@@ -1506,30 +1506,30 @@ guiTypes = {
 		{
 			name ="icon_sailors"
 			spriteType = "GFX_icon_sailors"
-			position = { x= 279 y = 17 }
+			position = { x= 276 y = 12 }
 		}
 
 		iconType = {
 			name = "trade_power_icon"
-			position = { x= 333 y = 11}
+			position = { x= 329 y = 7}
 			spriteType ="GFX_icon_trade_power"
 		}
 
 		iconType = {
 			name = "hullsize_icon"
-			position = { x= 385 y = 12}
+			position = { x= 381 y = 7}
 			spriteType ="GFX_icon_hull_size"
 		}
 
 		iconType = {
 			name = "cannons_icon"
-			position = { x= 435 y = 12}
+			position = { x= 432 y = 7}
 			spriteType ="GFX_icon_ship_cannons"
 		}
 
 		iconType = {
 			name = "speed_icon"
-			position = { x= 486 y = 12}
+			position = { x= 493 y = 7}
 			spriteType ="GFX_icon_ship_speed"
 		}
 	}

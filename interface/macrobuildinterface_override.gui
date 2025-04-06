@@ -696,8 +696,8 @@ guiTypes = {
   windowType = {
     name = "macro_build_interface"
     backGround=""
-    position = { x=-480 y = 180 }
-    show_position = { x=0 y = 180 }
+    position = { x=-680 y = 180 }
+    show_position = { x=-4 y = 180 }
     hide_position = { x=-680 y = 180 }
     animation_type = "decelerated"
     animation_time = 450
@@ -724,76 +724,76 @@ guiTypes = {
 
     checkboxType = {
       name = "land_units_button"
-      position = { x=580 y=74} #was x=499
+      position = { x=579 y=74} #was x=499
       quadTextureSprite ="GFX_build_interface_army_tab"
       shortcut = "1"
     }
 		
     checkboxType = {
       name = "navy_units_button"
-      position = { x=580 y=128} #was x=499
+      position = { x=579 y=128} #was x=499
       quadTextureSprite ="GFX_build_interface_navy_tab"
       shortcut = "2"
     }
 
     checkboxType = {
       name = "core_button"
-      position = { x=581 y=182} #was x=499
+      position = { x=579 y=182} #was x=499
       quadTextureSprite ="GFX_build_interface_core_tab"
       shortcut = "3"
     }
 		
     checkboxType = {
       name = "missionary_button"
-      position = { x=581 y=233} #was x=499
+      position = { x=579 y=233} #was x=499
       quadTextureSprite ="GFX_build_interface_missionary_tab"
       shortcut = "4"
     }
 		
     checkboxType = {
       name = "autonomy_button"
-      position = { x=581 y=286} #was x=499
+      position = { x=579 y=286} #was x=499
       quadTextureSprite ="GFX_build_interface_revolt_tab"
       shortcut = "5"
     }
 		
     checkboxType = {
       name = "culture_button"
-      position = { x=581 y=338} #was x=499
+      position = { x=579 y=338} #was x=499
       quadTextureSprite ="GFX_build_interface_culture_tab"
       shortcut = "6"
     }
 		
     checkboxType = {
       name = "buildings_button"
-      position = { x=581 y=391} #was x=499
+      position = { x=579 y=391} #was x=499
       quadTextureSprite ="GFX_build_interface_building_tab"
       shortcut = "7"
     }
 
     checkboxType = {
       name = "development_button"
-      position = { x=581 y=444} #was x=499
+      position = { x=579 y=444} #was x=499
       quadTextureSprite ="GFX_build_interface_development_tab"
       shortcut = "8"
     }
 
     checkboxType = {
       name = "states_button"
-      position = { x=581 y=497} #was x=499
+      position = { x=579 y=497} #was x=499
       quadTextureSprite ="GFX_build_interface_states_tab"
       shortcut = "9"
     }
 
     checkboxType = {
       name = "diplomacy_button"
-      position = { x=581 y=550 } #was x=499
+      position = { x=579 y=550 } #was x=499
       quadTextureSprite ="GFX_build_interface_diplomacy_tab"
       shortcut = "0"
     }
     checkboxType = {
       name = "exploit_button"
-      position = { x=581 y=602} #was x=499
+      position = { x=579 y=602} #was x=499
       quadTextureSprite ="GFX_build_interface_exploit_tab"
     }
 
@@ -1620,7 +1620,7 @@ guiTypes = {
     windowType = { # Create land template window when button click to create
       name = "land_template_header"
       backGround=""
-      position = { x = 72 y = 60 }
+      position = { x = 64 y = 20 }
       size = { x=410 y = 682}
       moveable = 0
       dontRender = ""
@@ -1631,13 +1631,13 @@ guiTypes = {
       iconType = {
         name ="edittextbox_bg"
         spriteType = "GFX_popup_edittextbox_bg"
-        position = { x= 46 y = 480 }
+        position = { x= 46 y = 420 }
       }
 
       editBoxType = {
         name = "land_template_new_name"
         font = "vic_22"
-        position = {x = 44 y = 482 }
+        position = {x = 44 y = 422 }
         borderSize = {x = 10 y = 5}
         text = ""
         size = { x=372 y=36 }
@@ -1832,7 +1832,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "maintenance_cost"
-        position = {x = 17 y = 351 }
+        position = {x = 17 y = 311 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 187
@@ -1843,7 +1843,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "maintenance_cost_value"
-        position = {x = 312 y = 351 }
+        position = {x = 312 y = 311 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -1854,7 +1854,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "manpower"
-        position = {x = 17 y = 380 }
+        position = {x = 17 y = 340 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 307
@@ -1865,7 +1865,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "manpower_value"
-        position = {x = 312 y = 380 }
+        position = {x = 312 y = 340 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -1876,7 +1876,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "estimated_time"
-        position = {x = 17 y = 411 }
+        position = {x = 17 y = 371 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 307
@@ -1887,7 +1887,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "estimated_time_value"
-        position = {x = 312 y = 411 }
+        position = {x = 312 y = 371 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -1898,7 +1898,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "back_template_button"
-        position = { x = 14 y = 991 }
+        position = { x = 22 y = 1031 }
         quadTextureSprite ="button_type_7"
         tooltip = ""
         tooltipText =""
@@ -1909,7 +1909,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "save_template_button"
-        position = { x = 264 y = 991 }
+        position = { x = 272 y = 1031 }
         quadTextureSprite ="button_type_7"
         tooltip = ""
         tooltipText =""
@@ -1922,7 +1922,7 @@ guiTypes = {
     windowType = { # Create navy template window when button click to create
       name = "navy_template_header"
       backGround=""
-      position = { x = 72 y = 108 }
+      position = { x = 64 y = 13 }
       size = { x=410 y = 682}
       moveable = 0
       dontRender = ""
@@ -1930,27 +1930,18 @@ guiTypes = {
       verticalBorder= ""
       fullscreen = no
 
-      instantTextBoxType = {
-        name = "navy_template_title"
-        position = {x = 79 y = 12 }
-        font = "vic_22"
-        borderSize = {x = 0 y = 0}
-        maxWidth = 307
-        maxHeight = 22
-        text = "MACRO_CREATE_NAVY_TEMPLATE"
-        format = center
-      }
+      
 
       iconType = {
         name ="edittextbox_bg"
         spriteType = "GFX_popup_edittextbox_bg"
-        position = { x= 46 y = 52 }
+        position = { x= 48 y = 562 }
       }
 
       editBoxType =	{
         name = "navy_template_new_name"
         font = "vic_22"
-        position = {x = 44 y = 52 }
+        position = {x = 46 y = 564 }
         borderSize = {x = 10 y = 5}
         text = ""
         size = { x=372 y=36 }
@@ -1959,8 +1950,20 @@ guiTypes = {
       iconType = {
         name ="create_navy_template_bg"
         spriteType = "GFX_create_navy_template_bg"
-        position = { x= -14 y = 102 }
+        position = { x= -14 y = 2 }
       }
+	  
+	  instantTextBoxType = {
+        name = "navy_template_title"
+        position = {x = 85 y = 65 }
+        font = "vic_18"
+        borderSize = {x = 0 y = 0}
+        maxWidth = 307
+        maxHeight = 22
+        text = "MACRO_CREATE_NAVY_TEMPLATE"
+        format = center
+      }
+	 
 
       ##### Heavy Ship #####
       iconType = {
@@ -1980,7 +1983,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "heavy_increase"
-        position = { x = 312 y = 127 }
+        position = { x = 312 y = 128 }
         quadTextureSprite ="GFX_button_plus"
         tooltip = ""
         tooltipText =""
@@ -1989,7 +1992,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "heavy_decrease"
-        position = { x=282 y = 127 }
+        position = { x=282 y = 128 }
         quadTextureSprite ="GFX_button_minus"
         tooltip = ""
         tooltipText =""
@@ -2006,7 +2009,7 @@ guiTypes = {
       }
       instantTextBoxType={
         name = "light_amount"
-        position = {x = 202 y = 198 }
+        position = {x = 202 y = 196 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 77
@@ -2037,12 +2040,12 @@ guiTypes = {
       ##### Galley #####
       iconType = {
         name = "galley_icon"
-        position = { x=152 y = 259 }
+        position = { x=152 y = 257 }
         spriteType ="GFX_galley_icon"
       }
       instantTextBoxType={
         name = "galley_amount"
-        position = {x = 202 y = 262 }
+        position = {x = 202 y = 260 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 77
@@ -2052,7 +2055,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "galley_increase"
-        position = { x = 312 y = 254 }
+        position = { x = 312 y = 255 }
         quadTextureSprite ="GFX_button_plus"
         tooltip = ""
         tooltipText =""
@@ -2061,7 +2064,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "galley_decrease"
-        position = { x=282 y = 254 }
+        position = { x=282 y = 255 }
         quadTextureSprite ="GFX_button_minus"
         tooltip = ""
         tooltipText =""
@@ -2072,7 +2075,7 @@ guiTypes = {
       ##### Transport #####
       iconType = {
         name = "transport_icon"
-        position = { x=154 y = 323 }
+        position = { x=154 y = 321 }
         spriteType ="GFX_transport_icon"
       }
       instantTextBoxType={
@@ -2087,7 +2090,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "transport_increase"
-        position = { x = 312 y = 318 }
+        position = { x = 312 y = 319 }
         quadTextureSprite ="GFX_button_plus"
         tooltip = ""
         tooltipText =""
@@ -2096,7 +2099,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "transport_decrease"
-        position = { x=282 y = 318 }
+        position = { x=282 y = 319 }
         quadTextureSprite ="GFX_button_minus"
         tooltip = ""
         tooltipText =""
@@ -2108,12 +2111,12 @@ guiTypes = {
       ##### Cost #####
       iconType = {
         name = "money_icon"
-        position = { x=338 y = 389 }
+        position = { x=339 y = 388 }
         spriteType ="GFX_icon_gold"
       }
       instantTextBoxType={
         name = "money_amount"
-        position = {x = 374 y = 396 }
+        position = {x = 375 y = 394 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 77
@@ -2130,7 +2133,7 @@ guiTypes = {
       }
       instantTextBoxType={
         name = "province_amount"
-        position = {x = 95 y = 397 }
+        position = {x = 95 y = 394 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 72
@@ -2141,7 +2144,7 @@ guiTypes = {
 			
       guiButtonType = {
         name = "province_increase"
-        position = { x=202 y = 391 }
+        position = { x=202 y = 390 }
         quadTextureSprite ="GFX_button_plus"
         tooltip = ""
         tooltipText =""
@@ -2150,7 +2153,7 @@ guiTypes = {
       }
       guiButtonType = {
         name = "province_decrease"
-        position = { x = 172 y = 391 }
+        position = { x = 172 y = 390 }
         quadTextureSprite ="GFX_button_minus"
         tooltip = ""
         tooltipText =""
@@ -2160,7 +2163,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "maintenance_navy_cost"
-        position = {x = 17 y = 457 }
+        position = {x = 17 y = 452 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 187
@@ -2171,7 +2174,7 @@ guiTypes = {
 			
       instantTextBoxType={
         name = "maintenance_navy_cost_value"
-        position = {x = 312 y = 457 }
+        position = {x = 312 y = 452 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -2182,7 +2185,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "cannons"
-        position = {x = 17 y = 484 }
+        position = {x = 17 y = 481 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 307
@@ -2193,7 +2196,7 @@ guiTypes = {
 			
       instantTextBoxType={
         name = "cannons_value"
-        position = {x = 312 y = 484 }
+        position = {x = 312 y = 481 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -2204,7 +2207,7 @@ guiTypes = {
 			
       instantTextBoxType={
         name = "estimated_time_navy"
-        position = {x = 17 y = 510 }
+        position = {x = 17 y = 511 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 307
@@ -2215,7 +2218,7 @@ guiTypes = {
 
       instantTextBoxType={
         name = "estimated_time_navy_value"
-        position = {x = 312 y = 510 }
+        position = {x = 312 y = 511 }
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 144
@@ -2226,7 +2229,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "back_template_button"
-        position = { x = 24 y = 558 }
+        position = { x = 14 y = 1038 }
         quadTextureSprite ="button_type_7"
         tooltip = ""
         tooltipText =""
@@ -2237,7 +2240,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "save_template_button"
-        position = { x = 264 y = 558 }
+        position = { x = 264 y = 1038 }
         quadTextureSprite ="button_type_7"
         tooltip = ""
         tooltipText =""
