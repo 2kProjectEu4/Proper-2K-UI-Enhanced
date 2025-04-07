@@ -1107,7 +1107,7 @@ guiTypes = {
         name ="listbox"
         position = { x = 31 y = 48 }
         backGround=""
-				size = { x= 321 y = 504 }
+				size = { x= 321 y = 513 }
         horizontal = 0
         spacing = 0
         scrollbartype = "standardlistbox_slider"

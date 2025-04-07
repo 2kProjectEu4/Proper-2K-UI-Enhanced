@@ -1590,7 +1590,7 @@ guiTypes = {
 		name = "macro_dropdown_listitem_expanded"
 		backGround =""
 		position = { x=0 y=0 }
-		size = { x=321 y= 33 }
+		size = { x=321 y= 32 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
