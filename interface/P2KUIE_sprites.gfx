@@ -34,7 +34,32 @@ spriteTypes = {
 		name = "GFX_sort_P2KUIE_234"
 		texturefile = "gfx//interface//sort_234_p2kuie.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_250"
+		texturefile = "gfx/interface/sort_250_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_100"
+		texturefile = "gfx/interface/sort_100_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_time_small_P2KUIE"
+		texturefile = "gfx/interface/sort_time_small_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_120"
+		texturefile = "gfx/interface/sort_120_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_185"
+		texturefile = "gfx/interface/sort_185_p2kuie.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_court_advisor_bg"
 		texturefile = "gfx/interface/court_advisor_bg.dds"
