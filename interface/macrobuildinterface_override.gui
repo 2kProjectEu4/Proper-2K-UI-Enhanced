@@ -146,21 +146,21 @@ guiTypes = {
 		{
       name ="missionary_progress"
       spriteType = "GFX_province_coreprogress_bar"
-      position = { x = 454 y = -6 }
+      position = { x = 455 y = -6 }
     }
 
 		iconType =
 		{
       name ="missionary_progress_frame"
       spriteType = "GFX_province_coreprogress_frame"
-      position = { x = 460 y = 2 }
+      position = { x = 461 y = 2 }
     }
 
 		guiButtonType =
 		{
       name ="province_missionaryprogress_cancel"
       spriteType = "GFX_alerticon_dismiss_always"
-      position = { x= 530 y = 5 }
+      position = { x= 531 y = 5 }
     }
 
     guiButtonType = {
@@ -247,7 +247,7 @@ guiTypes = {
     name = "change_culture_entry"
     backGround=""
     position = { x=0 y =0}
-    size = { x=394 y = 48}
+    size = { x=384 y = 43}
     moveable = 0
     dontRender = ""
     horizontalBorder= ""
@@ -256,22 +256,22 @@ guiTypes = {
 
 		guiButtonType = {
       name = "category_banner_icon"
-      position = { x = 12 y = 4 }
-      spriteType = "GFX_macrobuild_entry_frame_540"
+      position = { x = 12 y = 0 }
+      spriteType = "GFX_macrobuild_entry_frame_550_thin"
     }
 
     instantTextBoxType={
       name = "province_name"
-      position = {x = 22 y = 16 }
+      position = {x = 22 y = 9 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
-      maxWidth = 160
+      maxWidth = 195
       maxHeight = 22
     }
 
     instantTextBoxType={
       name = "culture"
-      position = {x = 195 y = 16 }
+      position = {x = 225 y = 9 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       maxWidth = 130
@@ -280,44 +280,46 @@ guiTypes = {
 
     iconType = {
       name = "culture_acceptance_icon"
-      position = { x = 339 y = 16 }
+      position = { x = 369 y = 9 }
       spriteType = "GFX_macrobuild_entry_cultural_acceptance"
     }
 
     instantTextBoxType={
       name = "cost"
-      position = {x = 389 y = 16 }
+      position = {x = 399 y = 9 }
       font = "vic_18"
       borderSize = {x = 0 y = 0}
       maxWidth = 60
       maxHeight = 22
+	  format = center
     }
 
 		iconType =
 		{
       name ="culture_progress"
       spriteType = "GFX_province_coreprogress_bar"
-      position = { x= 433 y = 0 }
+      position = { x= 456 y = -7 }
     }
 
 		iconType =
 		{
       name ="culture_progress_frame"
       spriteType = "GFX_province_coreprogress_frame"
-      position = { x= 438 y = 9 }
+      position = { x= 461 y = 2 }
     }
 
 		guiButtonType =
 		{
       name ="province_cultureprogress_cancel"
       spriteType = "GFX_alerticon_dismiss_always"
-      position = { x= 514 y = 12 }
+      position = { x= 531 y = 4 }
     }
 
     guiButtonType = {
       name = "send"
-      position = { x= 506 y = 2 }
+      position = { x= 523 y = 0 }
       quadTextureSprite ="GFX_change_culture_button"
+	  scale = 0.83
     }
   }
   windowType = { # Develompent entry
@@ -941,8 +943,8 @@ guiTypes = {
 
       checkboxType = {
         name = "show_subjects"
-        position = { x= 7 y=995 } #was y=559
-        quadTextureSprite ="GFX_checkbox_gold_24"
+        position = { x= 2 y=990 } #was y=559
+        quadTextureSprite ="GFX_checkbox_gold_32"
       }
       instantTextBoxType={
         name = "show_subjects_title"
@@ -1031,20 +1033,20 @@ guiTypes = {
 	  iconType = {
         name ="top_line"
         spriteType = "GFX_macro_diplomacy_line"
-        position = { x= -0 y = 60 }
+        position = { x= -0 y = 56 }
 	  }
 
       guiButtonType = {
         name = "name_button"
-        position = { x= 7 y = 45 }
-        quadTextureSprite ="GFX_sort_148"
+        position = { x= 7 y = 41 }
+        quadTextureSprite ="GFX_sort_P2KUIE_205"
         buttonText = "NAME"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "culture_button"
-        position = { x= 183 y = 45 }
+        position = { x= 213 y = 41 }
         quadTextureSprite ="GFX_sort_148"
         buttonText = "LEDGER_CULTURE"
         buttonFont = "vic_18"
@@ -1052,7 +1054,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "cost_button"
-        position = { x= 359 y = 45 }
+        position = { x= 389 y = 41 }
         quadTextureSprite ="GFX_sort_cost_m"
       #	buttonText = "HEADER_COST"
       #	buttonFont = "vic_18"
@@ -1060,8 +1062,8 @@ guiTypes = {
 	  
 	  guiButtonType = {
         name = "action_button"
-        position = { x= 425 y = 45 }
-        quadTextureSprite ="GFX_sort_P2KUIE_120"
+        position = { x= 455 y = 41 }
+        quadTextureSprite ="GFX_sort_P2KUIE_100"
 		text = "Action"
         buttonText = "Action"
       	buttonFont = "vic_18"
@@ -1069,7 +1071,7 @@ guiTypes = {
 
       guiButtonType = {
         name = "select"
-        position = { x= 197 y = -2 }
+        position = { x= 197 y = -4 }
         quadTextureSprite ="button_type_7"
         buttonText = "SELECT"
         buttonFont = "vic_18"
@@ -1189,8 +1191,8 @@ guiTypes = {
 
       checkboxType = {
         name = "show_subjects"
-        position = { x=264 y=990 } #was y=566
-        quadTextureSprite ="GFX_checkbox_gold_24"
+        position = { x=259 y=985 } #was y=566
+        quadTextureSprite ="GFX_checkbox_gold_32"
       }
 
       instantTextBoxType={
@@ -1292,13 +1294,13 @@ guiTypes = {
 
       checkboxType = {
         name = "show_subjects"
-        position = { x=250 y=995 } #was y=560
-        quadTextureSprite ="GFX_checkbox_gold_24"
+        position = { x=195 y=990 } #was y=560
+        quadTextureSprite ="GFX_checkbox_gold_32"
       }
 
       instantTextBoxType={
         name = "show_subjects_title"
-        position = {x = 283 y = 998 } #was y = 564
+        position = {x = 233 y = 998 } #was y = 564
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 192
@@ -1309,8 +1311,8 @@ guiTypes = {
 
       checkboxType = {
         name = "show_territories"
-        position = { x=7 y=995 } #was y = 560
-        quadTextureSprite ="GFX_checkbox_gold_24"
+        position = { x=2 y=990 } #was y = 560
+        quadTextureSprite ="GFX_checkbox_gold_32"
       }
 
       instantTextBoxType={
@@ -1382,8 +1384,8 @@ guiTypes = {
 
       checkboxType = {
         name = "show_territories"
-        position = { x=7 y=995 } #was y=560
-        quadTextureSprite ="GFX_checkbox_gold_24"
+        position = { x=2 y=990 } #was y=560
+        quadTextureSprite ="GFX_checkbox_gold_32"
       }
 
       instantTextBoxType={

@@ -406,26 +406,32 @@ guiTypes = {
 				spriteType = "GFX_province_banner"
 				position = { x= -74 y = -16}
 			}
+			
+			iconType ={
+				name ="move_button_box"
+				spriteType = "GFX_p2kuie_province_move_button_box"
+				position = { x= -4 y = -5}
+			}
 
 			guiButtonType =
 			{
 				name = "move_capital"
 				quadTextureSprite = "GFX_move_capital"
-				position = { x = 0 y = 1 }
+				position = { x = 6 y = 2 }
 			}
 
 			guiButtonType =
 			{
 				name = "move_trade_port"
 				quadTextureSprite = "GFX_move_trade_port"
-				position = { x = 45 y = 1 }
+				position = { x = 44 y = 2 }
 			}
 
 			guiButtonType =
 			{
 				name = "add_parliament"
 				quadTextureSprite = "GFX_add_parliament_icon"
-				position = { x = 87 y = 1 }
+				position = { x = 81 y = 2 }
 				shortcut = "d"
 			}
 
@@ -433,28 +439,28 @@ guiTypes = {
 			{
 				name = "remove_parliament"
 				quadTextureSprite = "GFX_remove_parliament_icon"
-				position = { x = 87 y = 1 }
+				position = { x = 81 y = 2 }
 			}
 
 			iconType =
 			{
 				name = "have_capital"
 				spriteType = "GFX_have_capital"
-				position = { x = 1 y = 1 }
+				position = { x = 7 y = 2 }
 			}
 
 			iconType =
 			{
 				name = "have_trade_port"
 				spriteType = "GFX_have_trade_port"
-				position = { x = 45 y = 1 }
+				position = { x = 45 y = 2 }
 			}
 
 			iconType =
 			{
 				name = "have_parliament"
 				spriteType = "GFX_have_parliament_icon"
-				position = { x = 87 y = 1 }
+				position = { x = 81 y = 2 }
 			}
 
 

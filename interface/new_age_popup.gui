@@ -29,8 +29,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 111 y =96 }
-			font = "vic_29s"
+			position = { x = 110 y = 98 }
+			font = "vic_36"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 480
@@ -51,19 +51,19 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 51 y =456 }
+			position = { x = 51 y =461 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 600
-			maxHeight = 180
+			maxHeight = 165
 			format = left
 		}
 		
 		guiButtonType = {
 			name ="close_button"
-			quadTextureSprite ="button_type_4"
-			position = { x= 215 y = 645 }
+			quadTextureSprite ="button_type_7"
+			position = { x= 260 y = 646 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 		}

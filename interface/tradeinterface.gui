@@ -712,7 +712,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 233 y = 324 }
+				position = {x = 173 y = 324 }
 				name = "our_from_this"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}

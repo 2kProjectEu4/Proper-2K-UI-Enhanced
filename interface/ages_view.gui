@@ -16,7 +16,7 @@ guiTypes = {
 		{
 			name ="picture"
 			spriteType = "GFX_event_event_test"
-			position = { x = 243 y = 78 }
+			position = { x = 214 y = 78 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -40,7 +40,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "age_of_discovery"
-			position = { x= 215 y = 49}
+			position = { x= 186 y = 49}
 			upsound = age_of_discovery
 
 			iconType = {
@@ -76,7 +76,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "age_of_reformation"
-			position = { x= 215 y = 49}
+			position = { x= 186 y = 49}
 			upsound = age_of_reformation
 
 			iconType = {
@@ -112,7 +112,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "age_of_absolutism"
-			position = { x= 215 y = 49}
+			position = { x= 186 y = 49}
 			upsound = age_of_absolutism
 
 			iconType = {
@@ -146,7 +146,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "age_of_revolutions"
-			position = { x= 215 y = 49}
+			position = { x= 186 y = 49}
 			upsound = age_of_revolutions
 
 			iconType = {
@@ -179,7 +179,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 276 y = 57 }
+			position = { x = 277 y = 57 }
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -221,14 +221,14 @@ guiTypes = {
 		guiButtonType = {
 			name = "golden_age"
 			quadTextureSprite ="GFX_age_golden_age_button"
-			position = { x = 351 y = 249 }
+			position = { x = 350 y = 251 }
 			buttonText = ""
 			buttonFont = "vic_18"
 		}
 		#c Add golden_age button text for align
 		instantTextBoxType = {
 			name = "golden_age_text"
-			position = { x = 372 y = 258 }
+			position = { x = 373 y = 261 }
 			text = "START_GOLDEN_AGE"
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -294,7 +294,7 @@ guiTypes = {
             if_resolution = {
                 min_height = 868
 				quadTextureSprite ="button_type_1"
-				position = { x= 420 y = 1017 }
+				position = { x= 429 y = 1016 }
 				buttonText = "CLOSE"				
             }			
 			buttonFont = "vic_18"
@@ -313,6 +313,7 @@ guiTypes = {
 			spacing = 3
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			alwaystransparent = yes
 		}
 
 
@@ -346,7 +347,7 @@ guiTypes = {
 		backGround=""
 		position = { x=0 y=0 }
 		#c size = { x=720 y= 65 }
-		size = { x=840 y= 81 }
+		size = { x=840 y= 80 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -367,7 +368,7 @@ guiTypes = {
 			name ="icon"
 			spriteType = "GFX_idea_unknown"
 			#c position = { x= 8ยง y = 5 }
-			position = { x= 11 y = 7 } #was 11 3
+			position = { x= 11 y = 9 } #was 11 3
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -424,7 +425,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress_text"
-			#c position = { x = 564 y = 9 }
+			#c position = { x = 565 y = 8 }
 			position = { x = 721 y = 15 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -455,14 +456,14 @@ guiTypes = {
 		{
 			name ="icon666"
 			spriteType = "GFX_age_unlocked"
-			position = { x= 23 y = 14 }
+			position = { x= -1 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType =
 		{
 			name ="icon"
 			spriteType = "GFX_age_unlocked"
-			position = { x= 23 y = 14 }
+			position = { x= -1 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -471,7 +472,7 @@ guiTypes = {
 		{
 			name ="can_unlock"
 			spriteType = "GFX_age_can_unlock"
-			position = { x= 23 y = 14 }
+			position = { x= -1 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -480,7 +481,7 @@ guiTypes = {
 		{
 			name ="cannot_unlock"
 			spriteType = "GFX_age_cannot_unlock"
-			position = { x= 23 y = 14 }
+			position = { x= -1 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -489,7 +490,7 @@ guiTypes = {
 		{
 			name ="button"
 			quadTextureSprite= "GFX_age_unlocked"
-			position = { x= 23 y = 14 }
+			position = { x= -1 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

@@ -26,6 +26,12 @@ spriteTypes = {
 		name = "GFX_sort_P2KUIE_190"
 		texturefile = "gfx//interface//sort_190_p2kuie.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_205"
+		texturefile = "gfx//interface//sort_205_p2kuie.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_sort_P2KUIE_224"
 		texturefile = "gfx//interface//sort_224_p2kuie.dds"
@@ -183,6 +189,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_p2kuie_credits_bg"
 		texturefile = "gfx/interface/country_credits_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_province_move_button_box"
+		texturefile = "gfx/interface/province_move_button_box.dds"
 	}
 	
 	
