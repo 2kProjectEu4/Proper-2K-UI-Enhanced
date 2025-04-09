@@ -1,0 +1,83 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_otto_shield"
+		texturefile = "gfx/interface/ages/otto_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_denm_shield"
+		texturefile = "gfx/interface/ages/denm_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mugh_shield"
+		texturefile = "gfx/interface/ages/mugh_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pers_shield"
+		texturefile = "gfx/interface/ages/pers_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pola_shield"
+		texturefile = "gfx/interface/ages/pola_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_port_shield"
+		texturefile = "gfx/interface/ages/port_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spai_shield"
+		texturefile = "gfx/interface/ages/spai_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_veni_shield"
+		texturefile = "gfx/interface/ages/veni_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_fran_shield"
+		texturefile = "gfx/interface/ages/fran_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_swed_shield"
+		texturefile = "gfx/interface/ages/swed_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_qing_shield"
+		texturefile = "gfx/interface/ages/qing_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_neth_shield"
+		texturefile = "gfx/interface/ages/neth_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_prus_shield"
+		texturefile = "gfx/interface/ages/prus_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_brit_shield"
+		texturefile = "gfx/interface/ages/brit_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_russ_shield"
+		texturefile = "gfx/interface/ages/russ_shield.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aust_shield"
+		texturefile = "gfx/interface/ages/aust_shield.dds"
+	}
+	
+}

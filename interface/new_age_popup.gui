@@ -17,6 +17,7 @@ guiTypes = {
 			spriteType = "GFX_event_event_test"
 			position = { x = 48 y = 144 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.755
 		}
 		
 		iconType =
