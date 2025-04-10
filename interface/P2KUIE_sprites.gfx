@@ -196,7 +196,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/province_move_button_box.dds"
 	}
 	
-	
+	spriteType = {
+		name = "GFX_p2kuie_bottom_line_macro_build"
+		texturefile = "gfx/interface/bottom_line_macro_build.dds"
+	}
 
 	################### HRE
 	spriteType = {

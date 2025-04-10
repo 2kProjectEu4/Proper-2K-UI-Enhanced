@@ -1136,10 +1136,22 @@ guiTypes = {
       horizontalBorder= ""
       verticalBorder= ""
       fullscreen = no
-
+	  
+	  iconType = {
+        name ="top_line"
+        spriteType = "GFX_macro_diplomacy_line"
+        position = { x= -12 y = 21 }
+	  }
+	  
+	  iconType = {
+        name ="bottom_line"
+        spriteType = "GFX_p2kuie_bottom_line_macro_build"
+        position = { x= -13 y = 969 }
+	  }
+	  
       guiButtonType = {
         name = "name_button"
-        position = { x = 0 y = 0 }
+        position = { x = -5 y = 6 }
         quadTextureSprite ="GFX_sort_114"
         buttonText = "NAME"
         buttonFont = "vic_18"
@@ -1147,42 +1159,42 @@ guiTypes = {
 
       guiButtonType = {
         name = "free_slots_button"
-        position = { x = 137 y = 0 }
+        position = { x = 253 y = 6 }
         quadTextureSprite ="GFX_sort_building_slots"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "trade_good_button"
-        position = { x = 197 y = 0 }
+        position = { x = 287 y = 6 }
         quadTextureSprite ="GFX_exp_sort_goods_s"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "cost_button"
-        position = { x = 222 y = 0 }
+        position = { x = 312 y = 6 }
         quadTextureSprite ="GFX_sort_gold"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "improvement_amount_button"
-        position = { x = 354 y = 0 }
+        position = { x = 444 y = 6 }
         quadTextureSprite ="GFX_sort_info"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "improvement_value_button"
-        position = { x = 294 y = 0 }
+        position = { x = 384 y = 6 }
         quadTextureSprite ="GFX_sort_value"
         buttonFont = "vic_18"
       }
 
       guiButtonType = {
         name = "close_button"
-        position = { x = 65 y = 990 } #was y=566
+        position = { x = 188 y = 994 } #was y=566
         quadTextureSprite ="button_type_1"
         buttonFont = "vic_18"
         buttonText = "CLOSE"
@@ -1191,13 +1203,13 @@ guiTypes = {
 
       checkboxType = {
         name = "show_subjects"
-        position = { x=259 y=985 } #was y=566
+        position = { x=2 y=993 } #was y=566
         quadTextureSprite ="GFX_checkbox_gold_32"
       }
 
       instantTextBoxType={
         name = "show_subjects_title"
-        position = {x = 305 y = 996 } #was y=570
+        position = {x = 40 y = 1001 } #was y=570
         font = "vic_18"
         borderSize = {x = 0 y = 0}
         maxWidth = 178

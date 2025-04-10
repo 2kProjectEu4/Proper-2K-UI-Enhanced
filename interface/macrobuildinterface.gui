@@ -1255,14 +1255,14 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "province_button"
-			position = { x = 17 y = 0 }
+			position = { x = 9 y = 0 }
 			quadTextureSprite ="GFX_building_list_button"
 			buttonFont = "vic_18"
 		}
 
 		instantTextBoxType = {
 			name = "province_name"
-			position = { x = 24 y = 5 }
+			position = { x = 24 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			text = "noprovince"
@@ -1276,7 +1276,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "building_cost"
-			position = { x = 240 y = 5 }
+			position = { x = 330 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			text = "-1"
@@ -1289,7 +1289,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "free_slots"
-			position = { x = 155 y = 5 }
+			position = { x = 271 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			text = "SLOTS"
@@ -1302,7 +1302,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "improvement_text"
-			position = { x = 312 y = 5 }
+			position = { x = 403 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			text = "+0.00¤"
@@ -1316,7 +1316,7 @@ guiTypes = {
 		iconType = {
 			name = "tradegood_icon"
 			spriteType = "GFX_resource_icon_small"
-			position = { x = 213 y = 3 }
+			position = { x = 304 y = 5 }
 			scale = 0.75
 			Orientation = "UPPER_LEFT"
 			#alwaystransparent = yes
