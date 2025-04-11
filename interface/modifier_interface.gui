@@ -94,15 +94,6 @@ guiTypes = {
 			position = { x= 6 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
-		
-		iconType =
-		{
-			name ="achievement_icon_separator"
-			spriteType = "GFX_p2kuie_achievement_icon_separator"
-			position = { x= 2 y = -2 }
-			Orientation = "UPPER_LEFT"
-			  
-		}
 
 		instantTextBoxType = {
 			name = "modifier_name"

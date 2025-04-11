@@ -469,8 +469,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="prov_modifier_bg"
-			spriteType = "GFX_prov_modifier_bg"
-			position = { x = 18 y = 24 }
+			spriteType = "GFX_prov_modifier_bg_big"
+			position = { x = 15 y = 24 }
 			scale = 0.75
 		}
 		

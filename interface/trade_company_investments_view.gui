@@ -14,12 +14,12 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_macrobuilder_trade_company_investment_banner"
 			Orientation = "UPPER_LEFT"
-			position = { x = 29 y = -18 }
+			position = { x = 32 y = -18 }
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 141 y = 5 }
+			position = { x = 153 y = 5 }
 			font = "vic_22"
 			text = "TRADE_COMPANY_INVESTMENTS"
 			maxWidth = 280
@@ -64,7 +64,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 8 y = -4 }
+			position = { x = 7 y = -4 }
 			font = "vic_22"
 			text = "<CATEGORY>"
 			maxWidth = 240
@@ -83,7 +83,7 @@ guiTypes = {
 	}
 	windowType = {
 		name = "investment_item"
-		position = { x=0 y=-30 }
+		position = { x=1 y=-30 }
 		size = { x=84 y=90 }
 
 		guiButtonType = {
@@ -102,14 +102,14 @@ guiTypes = {
 		iconType = {
 			name = "built_icon"
 			spriteType = "GFX_built_building_icon"
-			position = { x = 27 y = 18 }
+			position = { x = 30 y = 18 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "cost_text"
-			position = { x = 0 y = 59 }
+			position = { x = -2 y = 59 }
 			font = "vic_22"
 			maxWidth = 84
 			maxHeight = 27

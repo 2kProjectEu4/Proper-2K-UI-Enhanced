@@ -1,18 +1,34 @@
 ﻿l_english:
- LEDGER_CASH:0 "Ducats ¤"
+ ########## Misc.
  SUPPORT_EFFICIENCY:0 "Efficiency:"
  RESTORE_BUILDINGS_TEXT:0 "Click to Restore Buildings"
  PIRATEHUNT_MISSION_DESC:0 "Hunting Pirates in §Y$NODE$§!"
  ADD_MAPMODE:0 "Add another map mode"
- LEDGER_PAGE:0 "Pg."
  PAPACY_LOYALTY:0 "Loyalty"
  MENU_MESSAGES_GOVERNMENT:0 "Governm."
  MENU_MESSAGES_DIPLOMACY:0 "Diplom."
- DISPLAY_MODE_WINDOWED_BORDERLESS:0 "Borderless Windowed"
- SM_GUI_SCALE:0 "GUI Scale"
  DOMESTIC_RELEASE_VASSALL2:0 "Click on a shield to release as Dependency"
  MONTHLY_COST:0 "Cost"
  CROWN_LAND_NO_EFFECT:0 "     No Effect"
+ ATTACH_UNIT_LABEL:0 "Attach Unit"
+ EXPAND_INFRASTRUCTURE_NEEDED_DEV:0 "§RThe province needs $DEV|Y$ development for next level of infrastructure.§!"
+ STATE_PROVINCES_LABEL:0 "Provinces"
+ THE_FOLLOWING_SHIPS_WHERE_CAPTURED:0 "Captured ships"
+ TUT_PART_CAM_TITLE:0 "§YSpanish Empire§!\nBeginner\nCampaign"
+ 
+ ########## Settings
+ DISPLAY_MODE_WINDOWED_BORDERLESS:0 "Borderless Windowed"
+ SM_GUI_SCALE:0 "GUI Scale"
+ 
+  ########## Ledger
+ LEDGER_PAGE:0 "Pg."
+ LEDGER_CASH:0 "Ducats ¤"
+ 
+ ########## Log settings
+ LOG_SETTING_LOG:0 "Display in log"
+ LOG_SETTING_POPUP:0 "Open popup window"
+ LOG_SETTING_MAP:0 "Show on map"
+ LOG_SETTING_IDLE:0 "Display as Idle message"
 
  ########## Heir
  NEWHEIR_NAME_2:0 "$STATS$"
@@ -62,12 +78,6 @@
  POLICYVIEW_DIPLOMATIC:0 "Diplomatic Policies:"
  POLICYVIEW_MILITARY:0 "Military Policies:"
  POLICY_GROUP_IN_COLOR:0 " (+ $POLICY|E$ )"
-
- ########## Decisions
- DECISIONUS_LOG:0 "Decision:\n\n$EVENT$ for player.\n"
- DECISIONOTHER_LOG:0 "Decision:\n\n$EVENT$ in $COUNTRY$.\n"
- bg_decision_taken:0 "$MONARCHNAME$ $ADJECTIVE2$ make the\n\n$WHICH$\n\ndecision."
- bg_dec_tak_1_1:0 "wisely chose to"
 
  ########## Native Screen
  1_native_advancement_desc:0 "Federal Constitution\n§GAll federation members will be integrated§!"

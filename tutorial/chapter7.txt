@@ -1,0 +1,528 @@
+tutorial = {
+	index = 7
+	category = 2
+	title = "TUT_ADV_CHAPTER03_TITLE"
+	desc = "TUT_ADV_CHAPTER03_DESC"
+	buttonText = "TUT_ADV_CHAPTER03_BUTTON"
+	country = VEN
+	window = "hints_window"	# default window
+	moveable = yes
+	save_game = "eu4_tutorial_chapter5.eu4"
+	
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE01_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE01_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE01_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			mapmode = terrain
+			pauseable = no
+			pause = yes
+			ai = no
+			speed = 2
+			add_country_modifier = {
+				name = tutorial_modifier
+				duration = -1
+			}
+			allow_select_army = no
+			allow_select_navy = no
+			direction_pointer = {
+				enable = yes
+				target = 112
+			}
+			province_highlight = {
+				enable = yes
+				target = 112
+			}			
+		}
+		leave_page_effect = {
+			direction_pointer = { enable = no }
+			province_highlight = { enable = no }
+		}
+		
+		trigger = {
+			select_province = 112
+		}
+		
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE02_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE02_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE02_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+		}
+		trigger = {
+			ARGS = 1308
+			open_window = "tradenode"
+		}
+		
+		extra_window = {
+			window = "dummy-bl"
+			sprite = "GFX_uiarrow_down"
+			position = {
+				x = 335
+				y = -420
+			}
+		}
+		connected_icons = { dummy-bl provinceview province_window }
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}	
+		
+		#option = {
+		#	button = "TutorialPageButtonOption"
+		#	text = "TUT_NEXT"
+		#	action = "continue"
+		#	tooltip = "TUT_NEXT_TOOLTIP"
+		#	position = {
+		#		x = 183 #180
+		#		y = 338
+		#	}
+		#}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE03_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE03_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE03_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+			speed = 2
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 185 #180
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE04_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE04_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE04_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+			speed = 2
+		}
+		
+		extra_window = {
+			window = "dummy-bl"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = 375
+				y = -630
+			}
+		}
+		connected_icons = { dummy-bl TradeCompanyNodeInterface envoy_list }	
+		
+		trigger = {
+				has_office = 1308
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE05_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE05_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE05_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+			speed = 4
+			close_window = "all"
+			direction_pointer = {
+				enable = yes
+				target = 358
+			}
+			province_highlight = {
+				enable = yes
+				target = 358
+			}			
+		}		
+		leave_page_effect = {
+			direction_pointer = { enable = no }
+			province_highlight = { enable = no }
+		}
+		
+		#extra_window = {
+		#	window = "dummy-bl"
+		#	sprite = "GFX_uiarrow_right"
+		#	position = {
+		#		x = 330
+		#		y = -365
+		#	}
+		#}
+		#connected_icons = { dummy-bl TradeNodeInterface trade_mission_transit }	
+		
+		trigger = {
+				has_transit = 358
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE06_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE06_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE06_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			mapmode = trade
+			ai = no
+			speed = 2
+			goto = 358 # Alexandria
+			close_window = "all"
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 185 #180
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE07_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE07_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE07_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			mapmode = terrain
+			ai = no
+			goto = 1308 # Gulf of Venice
+			speed = 2
+		}
+		
+		trigger = {
+			select_navy = "2nd Fleet"
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}	
+		
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE08_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE08_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE08_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			mapmode = terrain
+			ai = no
+			goto = 112 # Venezia
+			speed = 2
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_down"
+			position = {
+				x = 460
+				y = 620
+			}
+		}
+		connected_icons = { dummy-ul single_unitpanel select_mission_button }	
+		
+		trigger = {
+			trade_patrol = "2nd Fleet"
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}	
+		
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE09_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE09_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE09_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+			close_window = "all"
+		}
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = -18
+				y = 173
+			}
+		}
+		
+		trigger = {
+				open_window = "macrobuild_units"
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE10_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE10_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE10_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+		}
+		#TEXT SHOULD SAY SHIP TAB 
+		
+		trigger = {
+			num_of_light_ship = 10
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		title = "TUT_ADV_CHAPTER03_PAGE11_TITLE"
+		text = "TUT_ADV_CHAPTER03_PAGE11_TEXT"
+		object = "TUT_ADV_CHAPTER03_PAGE11_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no
+		}
+		
+		trigger = { #prevent tutorial from automatically skipping to next page
+			NOT = { ai = no }
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 42 #10
+				y = 406
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+}

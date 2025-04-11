@@ -64,7 +64,7 @@ guiTypes = {
 			position = {x = 438 y = 744 } #was y=514
 			name = "waroverview_value"
 			font = "vic_18"
-			borderSize = {x = 4 y = 2}
+			borderSize = {x = 4 y = 1}
 			maxWidth = 36
 			maxHeight = 24
 			text = "0%"
@@ -191,7 +191,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "goto_peace_view"
-			position = { x = 1082 y = 82 }
+			position = { x = 1085 y = 82 }
 			orientation = "UPPER_LEFT"
 			quadTextureSprite ="GFX_offer_peace_button"
 			tooltip = ""
@@ -221,9 +221,9 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = {x = 369 y = 52 }
+			position = {x = 367 y = 49 }
 			name = "nameofwar"
-			font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 10 y = 0}
 			maxWidth = 432
 			maxHeight = 22
@@ -233,9 +233,9 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = {x = 365 y = 70 }
+			position = {x = 365 y = 71 }
 			name = "startofwar"
-			font = "vic_18"
+			font = "Stellaris_Small"
 			borderSize = {x = 10 y = 0}
 			maxWidth = 432
 			maxHeight = 22
@@ -284,86 +284,86 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "ourcav"
-			position = { x = 318 y = 634 } #was y=419
+			position = { x = 314 y = 634 } #was y=419
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 
 		instantTextBoxType={
 			name = "ourinf"
-			position = { x = 143 y = 634 } #was y=419
+			position = { x = 136 y = 634 } #was y=419
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 		instantTextBoxType={
 			name = "ourart"
-			position = {x = 497 y = 634 } #was x=389 y=419
+			position = {x = 491 y = 634 } #was x=389 y=419
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
 			name = "ourtrans"
-			position = { x = 500 y = 681 } #was x=391 y=466
+			position = { x = 504 y = 681 } #was x=391 y=466
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
 			name = "ourgal"
-			position = {x = 367 y = 681 } #was x=293 y=466
+			position = {x = 376 y = 681 } #was x=293 y=466
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
 			name = "oursmall"
-			position = { x = 240 y = 681 } #was x=197 y=466
+			position = { x = 248 y = 681 } #was x=197 y=466
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
 			name = "ourbig"
-			position = { x = 117 y = 681 } #was x=101 y=466
+			position = { x = 120 y = 681 } #was x=101 y=466
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		windowType = {
@@ -381,126 +381,126 @@ guiTypes = {
 
 			instantTextBoxType={
 				name = "ourtroops_lost"
-				position = { x = 143 y = 8}
+				position = { x = 137 y = 8}
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200000"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="ourtroops_lost_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 77 y = 0}
+				position = { x = 77 y = 1}
 				frame = 1
 				scale = 0.7
 			}
 
 			instantTextBoxType={
 				name = "ourtroops_attrit"
-				position = { x = 318 y = 8}
+				position = { x = 313 y = 8}
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200000"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="ourtroops_attrit_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 255 y = 0}
+				position = { x = 255 y = 1}
 				frame = 9
 				scale = 0.7
 			}
 
 			instantTextBoxType={
 				name = "ourships_lost"
-				position = { x = 480 y = 8 }
+				position = { x = 491 y = 8 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="ourships_lost_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 433 y = 0 }
+				position = { x = 433 y = 1 }
 				frame = 4
 				scale = 0.7
 			}
 
 			instantTextBoxType={
 				name = "enemytroops_lost"
-				position = { x = 706 y = 8}
+				position = { x = 701 y = 8}
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200000"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="enemytroops_lost_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 642 y = 0}
+				position = { x = 642 y = 1}
 				frame = 1
 				scale = 0.7
 			}
 
 			instantTextBoxType={
 				name = "enemytroops_attrit"
-				position = { x = 883 y = 8}
+				position = { x = 878 y = 8}
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200000"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="enemytroops_attrit_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 820 y = 0}
+				position = { x = 820 y = 1}
 				frame = 9
 				scale = 0.7
 			}
 
 			instantTextBoxType={
 				name = "enemyships_lost"
-				position = { x = 1043 y = 8}
+				position = { x = 1056 y = 8}
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 36
 				maxHeight = 24
 				text = "200"
 				orientation = "UPPER_LEFT"
-				format = right
+				format = center
 			}
 
 			iconType =
 			{
 				name ="enemyships_lost_icon"
 				spriteType = "GFX_unit_types_strip"
-				position = { x = 1000 y = 0 }
+				position = { x = 997 y = 1 }
 				frame = 4
 				scale = 0.7
 			}
@@ -520,7 +520,7 @@ guiTypes = {
 		{
 			name ="ourcav_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 255 y = 626} #was y=409
+			position = { x = 255 y = 627} #was y=409
 			frame = 2
 			scale = 0.7
 		}
@@ -529,7 +529,7 @@ guiTypes = {
 		{
 			name ="ourart_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 433 y = 625} #was y=409
+			position = { x = 433 y = 622} #was y=409
 			frame = 3
 			scale = 0.7
 		}
@@ -539,7 +539,7 @@ guiTypes = {
 		{
 			name ="ourbig_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 76 y = 675} #was y=457
+			position = { x = 76 y = 674} #was y=457
 			frame = 4
 			scale = 0.7
 		}
@@ -548,7 +548,7 @@ guiTypes = {
 		{
 			name ="ourtrans_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 204 y = 675} #was y=457
+			position = { x = 204 y = 674} #was y=457
 			frame = 5
 			scale = 0.7
 		}
@@ -557,7 +557,7 @@ guiTypes = {
 		{
 			name ="ourgal_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 332 y = 673} #was y=457
+			position = { x = 332 y = 670} #was y=457
 			frame = 6
 			scale = 0.7
 		}
@@ -566,7 +566,7 @@ guiTypes = {
 		{
 			name ="oursmall_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 460 y = 672} #was y=457
+			position = { x = 460 y = 670} #was y=457
 			frame = 7
 			scale = 0.7
 		}
@@ -588,7 +588,7 @@ guiTypes = {
 
 		#////////////////////////// ENEMY/////////////////////////////////////////////////////////////////
 		instantTextBoxType={
-			position = { x = 704 y = 634 } #was y=419
+			position = { x = 701 y = 634 } #was y=419
 			name = "enemyinf"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -596,11 +596,11 @@ guiTypes = {
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
-			position = { x = 884 y = 634 } #was y=419
+			position = { x = 878 y = 634 } #was y=419
 			name = "enemycav"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -608,11 +608,11 @@ guiTypes = {
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
-			position = {x = 1058 y = 634 } #was x= 800 y=419
+			position = {x = 1056 y = 634 } #was x= 800 y=419
 			name = "enemyart"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -620,11 +620,11 @@ guiTypes = {
 			maxHeight = 24
 			text = "200000"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
-			position = {x = 675 y = 681 } #was x=512 y=466
+			position = {x = 685 y = 681 } #was x=512 y=466
 			name = "enemybig"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -632,11 +632,11 @@ guiTypes = {
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
-			position = { x = 1060 y = 681 } #was x=806 y=466
+			position = { x = 1069 y = 681 } #was x=806 y=466
 			name = "enemytrans"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -644,11 +644,11 @@ guiTypes = {
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 		instantTextBoxType={
-			position = { x = 932 y = 681 } #was x= y=466
+			position = { x = 939 y = 681 } #was x= y=466
 			name = "enemygal"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -656,10 +656,10 @@ guiTypes = {
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 		instantTextBoxType={
-			position = {x = 803 y = 681 } #was x=611 y=466
+			position = {x = 812 y = 681 } #was x=611 y=466
 			name = "enemysmall"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -667,7 +667,7 @@ guiTypes = {
 			maxHeight = 24
 			text = "200"
 			orientation = "UPPER_LEFT"
-			format = right
+			format = center
 		}
 
 
@@ -685,7 +685,7 @@ guiTypes = {
 		{
 			name ="enemycav_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 820 y = 626} #was x = 618 y = 409
+			position = { x = 820 y = 627} #was x = 618 y = 409
 			frame = 2
 			scale = 0.7
 		}
@@ -694,7 +694,7 @@ guiTypes = {
 		{
 			name ="enemyart_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 998 y = 626} #was x = 750 y = 409
+			position = { x = 998 y = 622} #was x = 750 y = 409
 			frame = 3
 			scale = 0.7
 		}
@@ -704,7 +704,7 @@ guiTypes = {
 		{
 			name ="enemybig_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 641 y = 675} #was x = 486 y = 457
+			position = { x = 641 y = 674} #was x = 486 y = 457
 			frame = 4
 			scale = 0.7
 		}
@@ -713,7 +713,7 @@ guiTypes = {
 		{
 			name ="enemytrans_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 768 y = 675} #was x = 584 y = 457
+			position = { x = 768 y = 674} #was x = 584 y = 457
 			frame = 5
 			scale = 0.7
 		}
@@ -722,7 +722,7 @@ guiTypes = {
 		{
 			name ="enemygal_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 896 y = 673} #was x = 680 y = 457
+			position = { x = 896 y = 670} #was x = 680 y = 457
 			frame = 6
 			scale = 0.7
 		}
@@ -731,7 +731,7 @@ guiTypes = {
 		{
 			name ="enemysmall_icon"
 			spriteType = "GFX_unit_types_strip"
-			position = { x = 1025 y = 673} #was x = 779 y = 457
+			position = { x = 1025 y = 670} #was x = 779 y = 457
 			frame = 7
 			scale = 0.7
 		}
@@ -767,7 +767,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "close"
-				position = { x = 504 y = 288 } #was y=216
+				position = { x = 502 y = 288 } #was y=216
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
@@ -794,7 +794,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="sort_type"
 				quadTextureSprite = "GFX_sort_46"
-				position = { x = 84 y = 41 }
+				position = { x = 81 y = 40 }
 				buttonFont = "vic_18"
 				buttonText = "LEDGER_TYPE"
 			}
@@ -815,14 +815,14 @@ guiTypes = {
 			guiButtonType = {
 				name ="sort_score"
 				quadTextureSprite = "GFX_sort_88"
-				position = { x = 903 y = 41 }
+				position = { x = 903 y = 40 }
 				buttonFont = "vic_18"
 				buttonText = "LEDGER_SCORE"
 			}
 			guiButtonType = {
 				name ="sort_win"
 				quadTextureSprite = "GFX_sort_81"
-				position = { x = 1011 y = 41 }
+				position = { x = 1011 y = 40 }
 				buttonFont = "vic_18"
 				buttonText = "RESULT"
 			}
@@ -848,7 +848,7 @@ guiTypes = {
 		{
 			name ="shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 5 y = 2 }
+			position = { x= 5 y = 5 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -889,7 +889,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 45 y = 16 }
+			position = {x = 45 y = 15 }
 			name = "CountryName"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -903,7 +903,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 240 y = 16 }
+			position = {x = 235 y = 15 }
 			name = "warCapacityValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -915,7 +915,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 321 y = 16 }
+			position = {x = 318 y = 15 }
 			name = "warExhaustionValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -927,7 +927,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 369 y = 16 }
+			position = {x = 366 y = 15 }
 			name = "StabilityValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -939,7 +939,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 413 y = 16 }
+			position = {x = 410 y = 15 }
 			name = "economyValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -952,7 +952,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 495 y = 16 }
+			position = {x = 489 y = 15 }
 			name = "participationValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -990,7 +990,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 101 y = -2 }
+			position = {x = 98 y = -3 }
 			name = "BattleName"
 			font = "vic_18"
 			borderSize = {x = -7 y = 0}
@@ -1002,7 +1002,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 440 y = -2 }
+			position = {x = 425 y = -3 }
 			name = "Numbers"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1014,7 +1014,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 730 y = -2 }
+			position = {x = 732 y = -3 }
 			name = "battlescore"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1026,7 +1026,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 836 y = -2 }
+			position = {x = 837 y = -3 }
 			name = "WinOrLoose"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

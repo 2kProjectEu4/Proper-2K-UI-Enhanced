@@ -242,7 +242,7 @@ guiTypes =
 	{ #containes all the tutorial text
 		name = "hints_window"
 		backGround=""
-		position = { x=-342 y=-685 }		
+		position = { x=-341 y=-689 }		
 		size = { x=341 y=420 }
 		moveable = 0
 		dontRender = ""
@@ -257,13 +257,14 @@ guiTypes =
 			name ="hint_open_bg"
 			spriteType = "GFX_hint_open"
 			position = { x= -5 y = -1}
+			alwaystransparent = yes
 		}
 		
 		iconType =
 		{
 			name ="hint_questionmark"
 			spriteType = "GFX_hint_questionmark"
-			position = { x= 291 y = 3}
+			position = { x= 1291 y = 3}
 		}			
 		
 		guiButtonType =
@@ -281,7 +282,7 @@ guiTypes =
 	{
 		name = "tutorial_minimized"
 		backGround=""
-		position = { x=-343 y=-274 }		
+		position = { x=-343 y=-275 }		
 		size = { x=720 y=600 }
 		moveable = 0
 		dontRender = ""
@@ -296,6 +297,7 @@ guiTypes =
 			name ="hint_open_bg"
 			spriteType = "GFX_hint_closed"
 			position = { x= -3 y = -9}
+			alwaystransparent = yes
 		}
 		
 		guiButtonType =
@@ -308,8 +310,8 @@ guiTypes =
 		
 		instantTextBoxType = {
 			name = "tutorial_page_title"
-			position = { x = 72 y = 6 }
-			font = "vic_18"
+			position = { x = 77 y = 7 }
+			font = "Stellaris_Small"
 			borderSize = { x = 0 y = 0 }
 			text = "page title"	
 			maxWidth = 240
@@ -322,9 +324,9 @@ guiTypes =
 	{ #needed, else everything explodes. has to have specific name as well
 		#tutorial.gui title
 		name = "tutorial_page_title"
-		position = { x = 72 y = 15 }
+		position = { x = 77 y = 16 }
 		#position = { x = 120 y = 15 }
-		font = "vic_18"
+		font = "Stellaris_Small"
 		borderSize = { x = 0 y = 0 }
 		text = "page title"	
 		maxWidth = 240
@@ -341,7 +343,7 @@ guiTypes =
 		borderSize = {x = 0 y = 0}
 		text = "page text"	
 		maxWidth = 288
-		maxHeight = 198
+		maxHeight = 212
 		format = left
 		scrollbartype = "standardtext_slider"
 	}

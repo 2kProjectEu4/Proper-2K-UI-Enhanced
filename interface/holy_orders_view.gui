@@ -13,7 +13,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 57 y = 18 }
+			position = { x = 54 y = 18 }
 			font = "vic_18"
 			text = "HOLY_ORDERS"	
 			maxWidth = 240
@@ -23,7 +23,7 @@ guiTypes = {
 		
 		listboxType = {
 			name = "holy_orders_list"
-			position = { x = 15 y = 80 }
+			position = { x = 15 y = 50 }
 
 			if_resolution = {
 				max_height = 899
@@ -31,7 +31,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 900
-				size = { x = 515 y = 450 }
+				size = { x = 515 y = 517 }
 			}
 
 			scrollbartype = "standardlistbox_slider"
@@ -50,8 +50,8 @@ guiTypes = {
 
 	windowType = {
 		name = "holy_order_item"
-		position = { x = 0 y = 0 }
-		size = { x = 500 y = 90}
+		position = { x = 0 y = -10 }
+		size = { x = 500 y = 85}
 
 		guiButtonType = {
 			name = "button"
@@ -66,10 +66,17 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
+		iconType = {
+			name = "background"
+			position = { x = 79 y = 4 }
+			quadTextureSprite ="GFX_local_org_background"
+			alwaystransparent = yes
+		}		
+		
 		instantTextBoxType = {
 			name = "description"
-			position = { x = 77 y = 8 }
-			font = "vic_18"
+			position = { x = 96 y = 17 }
+			font = "Stellaris_Small"
 			maxWidth = 400
 			maxHeight = 90
 			format = left

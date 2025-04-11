@@ -26,6 +26,12 @@ spriteTypes = {
 		name = "GFX_sort_P2KUIE_190"
 		texturefile = "gfx//interface//sort_190_p2kuie.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_205"
+		texturefile = "gfx//interface//sort_205_p2kuie.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_sort_P2KUIE_224"
 		texturefile = "gfx//interface//sort_224_p2kuie.dds"
@@ -34,7 +40,32 @@ spriteTypes = {
 		name = "GFX_sort_P2KUIE_234"
 		texturefile = "gfx//interface//sort_234_p2kuie.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_250"
+		texturefile = "gfx/interface/sort_250_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_100"
+		texturefile = "gfx/interface/sort_100_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_time_small_P2KUIE"
+		texturefile = "gfx/interface/sort_time_small_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_120"
+		texturefile = "gfx/interface/sort_120_p2kuie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_P2KUIE_185"
+		texturefile = "gfx/interface/sort_185_p2kuie.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_court_advisor_bg"
 		texturefile = "gfx/interface/court_advisor_bg.dds"
@@ -130,6 +161,45 @@ spriteTypes = {
 		texturefile = "gfx/interface/settings/setting_bg.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_p2kuie_build_icon"
+		texturefile = "gfx/interface/build_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_prov_modifier_bg_big"
+		texturefile = "gfx/interface/ideas_EU4/prov_modifier_bg_big.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_local_org_background"
+		texturefile = "gfx/interface/local_org_background.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_captured_ship_box"
+		texturefile = "gfx/interface/P2KUIE_sprites/naval_summary_captured_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_captured_ship_icon"
+		texturefile = "gfx/interface/P2KUIE_sprites/naval_summary_captured_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_credits_bg"
+		texturefile = "gfx/interface/country_credits_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_province_move_button_box"
+		texturefile = "gfx/interface/province_move_button_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_bottom_line_macro_build"
+		texturefile = "gfx/interface/bottom_line_macro_build.dds"
+	}
 
 	################### HRE
 	spriteType = {

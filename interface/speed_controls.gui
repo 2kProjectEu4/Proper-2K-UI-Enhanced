@@ -89,7 +89,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = -107 y = 18 }
+			position = { x = -105 y = 18 }
 			Orientation = "UPPER_RIGHT"
 		}
 

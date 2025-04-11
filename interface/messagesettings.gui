@@ -22,8 +22,8 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "title_text"
-			position = { x = 42 y = 30 }
-			font = "vic_18"
+			position = { x = 39 y = 30 }
+			font = "vic_22"
 			borderSize = { x = 3 y = 3 }
 			text = ""	
 			maxWidth = 396
@@ -38,7 +38,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "log_text"
-			position = { x = 195 y = 89 }
+			position = { x = 168 y = 87 }
 			font = "vic_18"
 			borderSize = { x = 3 y = 3 }
 			text = "LOG_SETTING_LOG"	
@@ -50,7 +50,7 @@ guiTypes = {
 				
 		checkboxType = {
 			name = "log_button"
-			position = { x= 156 y = 81 }
+			position = { x= 129 y = 81 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
@@ -60,7 +60,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "popup_text"
-			position = { x = 195 y = 127 }
+			position = { x = 168 y = 126 }
 			font = "vic_18"
 			borderSize = { x = 3 y = 3 }
 			text = "LOG_SETTING_POPUP"	
@@ -72,7 +72,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "popup_button"
-			position = { x= 156 y = 120 }
+			position = { x= 129 y = 120 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
@@ -82,7 +82,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "onmap_text"
-			position = { x = 195 y = 165 }
+			position = { x = 168 y = 165 }
 			font = "vic_18"
 			borderSize = { x = 3 y = 3 }
 			text = "LOG_SETTING_MAP"	
@@ -94,7 +94,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "onmap_button"
-			position = { x= 156 y = 159 }
+			position = { x= 129 y = 159 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
@@ -104,7 +104,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "pause_text"
-			position = { x = 195 y = 204 }
+			position = { x = 168 y = 204 }
 			font = "vic_18"
 			borderSize = { x = 3 y = 3 }
 			text = "LOG_SETTING_PAUSE"	
@@ -116,7 +116,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "pause_button"
-			position = { x= 156 y = 197 }
+			position = { x= 129 y = 198 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
@@ -126,7 +126,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "icon_text"
-			position = { x = 195 y = 243 }
+			position = { x = 168 y = 243 }
 			font = "vic_18"
 			borderSize = { x = 3 y = 3 }
 			text = "LOG_SETTING_ICON"	
@@ -138,7 +138,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "icon_button"
-			position = { x= 156 y = 235 }
+			position = { x= 129 y = 237 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
@@ -147,7 +147,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "ok_button"
-			position = { x=246 y=288 }
+			position = { x=241 y=293 }
 			quadTextureSprite ="largefloaterbutton"
 			tooltip = ""
 			tooltipText =""
@@ -162,7 +162,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close_button"
-			position = { x=66 y=288 }
+			position = { x=61 y=293 }
 			quadTextureSprite ="largefloaterbutton"
 			tooltip = ""
 			tooltipText =""
