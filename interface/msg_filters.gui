@@ -4,10 +4,10 @@ guiTypes = {
 	windowType = {
 		name = "message_filters"
 		backGround=""
-		position = { x=-462 y=-1177 }
+		position = { x=-462 y=-1197 }
 		size = { x=360 y=615 }
-		show_position = { x=-462 y=-1177 }
-		hide_position = { x=12 y=-1177 }
+		show_position = { x=-462 y=-1197 }
+		hide_position = { x=12 y=-1197 }
 		animation_type = "decelerated"
 		animation_time = 500
 		moveable = 0
