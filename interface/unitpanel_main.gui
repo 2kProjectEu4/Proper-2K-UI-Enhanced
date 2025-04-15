@@ -338,7 +338,7 @@ guiTypes = {
 			
 		guiButtonType = {
 			name = "detach_unit_button"
-			position = { x=453 y=135}
+			position = { x=453 y=138}
 			quadTextureSprite ="GFX_unitpanel_button_detach"	
 			buttonFont = "vic_18"
 			tooltip = ""
