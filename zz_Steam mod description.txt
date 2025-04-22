@@ -6,6 +6,7 @@
     [*] Adjusted text and UI elements positioning for a more visually appealing layout, preventing overlap.
     [*] Enlarged several windows to better fit larger fonts.
     [*] Fixed most progress bar glitches.
+    [*] Fixed tutorials.
     [*] Enhanced important UI windows, such as the Holy Roman Empire (HRE) and Emperor of China (EoC) windows.
 [/list]
 [h3]For a detailed list please check the [url=https://1drv.ms/w/c/7b95816d69498287/EWJO_WJBv4hMvEyQ4CBhL8wBQ7eopdgw_ipZZkrFRs4-Dw?e=IFWDwT]Changelog[/url][/h3]

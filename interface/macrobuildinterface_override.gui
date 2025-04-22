@@ -319,7 +319,7 @@ guiTypes = {
       name = "send"
       position = { x= 523 y = 0 }
       quadTextureSprite ="GFX_change_culture_button"
-	  scale = 0.83
+	    scale = 0.83
     }
   }
   windowType = { # Develompent entry
@@ -1699,6 +1699,12 @@ guiTypes = {
       fullscreen = no
 
       iconType = {
+        name ="create_army_template_bg"
+        spriteType = "GFX_create_army_template_bg"
+        position = { x= -7 y = 48 }
+      }
+
+      iconType = {
         name ="edittextbox_bg"
         spriteType = "GFX_popup_edittextbox_bg"
         position = { x= 46 y = 420 }
@@ -1711,12 +1717,6 @@ guiTypes = {
         borderSize = {x = 10 y = 5}
         text = ""
         size = { x=372 y=36 }
-      }
-
-      iconType = {
-        name ="create_army_template_bg"
-        spriteType = "GFX_create_army_template_bg"
-        position = { x= -7 y = 48 }
       }
 
       instantTextBoxType={
@@ -2325,11 +2325,7 @@ guiTypes = {
       name ="content_list"
       position = { x = 6 y = 110 }
       backGround=""
-<<<<<<< HEAD
       size = { x= 563 y = 928 }
-=======
-      size = { x= 563 y = 942 }
->>>>>>> main
       horizontal = 0
       spacing = 0
       scrollbartype = "standardlistbox_slider"

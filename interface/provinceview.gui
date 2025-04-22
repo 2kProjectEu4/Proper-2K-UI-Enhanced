@@ -1,4 +1,3 @@
-# always compare with Artemis UI before adjusting!
 guiTypes = {
 
 	#Janissaries
@@ -737,6 +736,7 @@ guiTypes = {
 				name = "settlement_growth_checkbox"
 				position = { x= 407 y = 76 }
 				quadTextureSprite ="GFX_checkbox_settlement_growth"
+				shortcut = "c" #added
 			}
 
 			guiButtonType =
@@ -3366,7 +3366,7 @@ guiTypes = {
 					extra_shortcut = "z" #Arumba
 					clicksound = back_click
 				}
-				## No idea what this is - Artemis
+
 				listboxType = {
 					name = "list1"
 					position = { x = 17 y = 57 }
