@@ -3220,6 +3220,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
 			truncate = yes
+			alwaystransparent = yes
 		}
 
 		listboxType = {
@@ -3838,7 +3839,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 9 y =5 }
+			position = { x = 9 y =4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y =0}
@@ -3848,6 +3849,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
 			truncate = yes
+			alwaystransparent = yes
 		}
 
 	}

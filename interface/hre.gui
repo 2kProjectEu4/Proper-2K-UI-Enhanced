@@ -475,7 +475,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "incident_label"
-				position = { x = 362 y = 578 }
+				position = { x = 362 y = 583 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 0}
@@ -487,7 +487,7 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "incident_options"
-				position = { x = 358 y = 605 } #x+20
+				position = { x = 360 y = 608 } #x+20
 				size = { x = 321 y = 120}
 				format = center
 				spacing = 87
@@ -775,14 +775,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "relation"
-			position = { x = 42 y = 66}
+			position = { x = 37 y = 66}
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "+27"
 			maxWidth = 57
 			maxHeight = 39
-			format = left
+			format = center
 		}
 	}
 
@@ -947,7 +947,7 @@ guiTypes = {
 	windowType = {
 		name = "incident_option_entry"
 		backGround=""
-		position = { x=0 y=0 }
+		position = { x=0 y=6 }
 		size = { x = 21 y = 57 }
 		moveable = 0
 		dontRender = ""
@@ -957,7 +957,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "select_button"
-			position = { x = 0 y  = 0 }
+			position = { x = -3 y  = 6 }
 			quadTextureSprite = "GFX_imperial_diet_incident_0"
 			tooltip = ""
 			tooltipText = ""
@@ -966,18 +966,18 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "checkbox"
-			position = { x=69 y=61}
+			position = { x=64 y=66}
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
-			scale = 0.6
+			scale = 0.65
 		}
 
 		instantTextBoxType = {
 			name = "support"
-			position = { x = 9 y = 41}
+			position = { x = 6 y = 46}
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}

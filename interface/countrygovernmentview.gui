@@ -690,7 +690,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_1"
-			position = { x = 36 y = 433 }
+			position = { x = 35 y = 432 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -699,7 +699,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_2"
-			position = { x = 335 y = 433 }
+			position = { x = 334 y = 432 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -708,7 +708,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_3"
-			position = { x = 36 y = 477 }
+			position = { x = 35 y = 476 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -717,7 +717,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_4"
-			position = { x = 335 y = 477 }
+			position = { x = 334 y = 476 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -726,7 +726,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_5"
-			position = { x = 36 y = 520 }
+			position = { x = 35 y = 520 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -734,7 +734,7 @@ guiTypes = {
 		}
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_6"
-			position = { x = 335 y = 520 }
+			position = { x = 334 y = 520 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -798,14 +798,14 @@ guiTypes = {
 			listboxType =
 			{
 				name ="modifier_listbox"
-				position = { x=103 y =226}
+				position = { x=103 y =219}
 				backGround=""
-				size = { x=479 y =410}
+				size = { x=479 y =417}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 3
 				scrollbartype = "standardlistbox_slider"
-				borderSize = {x = 12 y = 12}
+				borderSize = {x = 7 y = 0}
 			}
 
 			guiButtonType = {
@@ -974,7 +974,7 @@ guiTypes = {
 		name = "gov_view_modifierviewitem"
 		backGround =""
 		position = { x=0 y=0 }
-		size = { x=624 y=39 }
+		size = { x=624 y=38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -982,7 +982,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_text"
-			position = { x = 0 y = 0 }
+			position = { x = 8 y = 0 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
@@ -998,10 +998,10 @@ guiTypes = {
 		{
 			name ="modifier_icon"
 			spriteType = "GFX_idea_unknown"
-			position = { x = -36 y = -3 }
+			position = { x = -36 y = -4 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-			scale = 0.5
+			scale = 0.6
 		}
 	}
 
@@ -1101,7 +1101,7 @@ guiTypes = {
 		name = "gov_view_modifier_entry"
 		backGround =""
 		position = { x=0 y=0 }
-		size = { x=36 y=39 }
+		size = { x=36 y=38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -1111,9 +1111,10 @@ guiTypes = {
 		iconType =
 		{
 			name ="modifier_bg"
-			spriteType = "GFX_country_modifier_frame"
+			spriteType = "GFX_prov_modifier_bg_big"
 			position = { x = 0 y = 3 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.91
 		}
 
 		iconType =
