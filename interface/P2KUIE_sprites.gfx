@@ -200,7 +200,22 @@ spriteTypes = {
 		name = "GFX_p2kuie_bottom_line_macro_build"
 		texturefile = "gfx/interface/bottom_line_macro_build.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_p2kuie_tribal_development"
+		texturefile = "gfx/interface/tribal_development.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_sort_205"
+		texturefile = "gfx/interface/sort_205.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_p2kuie_sort_125"
+		texturefile = "gfx/interface/sort_125.dds"
+	}
+	
 	################### HRE
 	spriteType = {
 		name = "GFX_hre_header_bg"	

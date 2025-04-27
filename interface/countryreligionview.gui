@@ -244,9 +244,10 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province name"
-			maxWidth = 351
+			maxWidth = 358
 			maxHeight = 37
 			format = left
+			fixedsize = yes
 		}
 	}
 
@@ -1515,7 +1516,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "title"
-				position = { x= 36 y = -25 }
+				position = { x= 32 y = -27 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "ANCESTORS"	
@@ -1529,7 +1530,7 @@ guiTypes = {
 				name = "gridbox"
 				position = { x = 24 y = 12 }
 				size = { width = 168 height = 168 }
-				slotsize = { width = 33 height = 33 }
+				slotsize = { width = 34 height = 33 }
 				max_slots_horizontal = 5
 				max_slots_vertical = 2
 				format = "UPPER_LEFT"
@@ -3374,7 +3375,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "add_button"
-			position = { x = 0 y = 0 }
+			position = { x = -1 y = -1 }
 			quadTextureSprite ="GFX_totemism_ancestors_icon_add"	
 			Orientation = "UPPER_LEFT"
 		}
