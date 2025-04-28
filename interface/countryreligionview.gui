@@ -571,28 +571,28 @@ guiTypes = {
 			{
 				name ="current_patriarch_authority_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
-				position = { x= 109 y = 348 }
+				position = { x= 95 y = 346 }
 			}
 
 			iconType =
 			{
 				name ="current_patriarch_authority_progress_frame"
 				spriteType = "GFX_ideaView_progress_frame_long"
-				position = { x= 101 y = 343 }
+				position = { x= 86 y = 343 }
 			}
 
 			iconType =
 			{
 				name ="low_patriarch_authority"
 				spriteType = "GFX_icon_low_patriarch_authority"
-				position = { x= 65 y = 327 }
+				position = { x= 47 y = 327 }
 			}
 
 			iconType =
 			{
 				name ="high_patriarch_authority"
 				spriteType = "GFX_icon_high_patriarch_authority"
-				position = { x= 327 y = 327 }
+				position = { x= 315 y = 327 }
 			}
 
 			iconType =
@@ -616,7 +616,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "current_patriarch_authority_text"
-				position = { x = 60 y = 306 }
+				position = { x = 51 y = 306 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_PATRIARCH_AUTHORITY"
@@ -631,7 +631,7 @@ guiTypes = {
 			{
 				name ="no_current_icon"
 				spriteType = "GFX_icon_none"
-				position = { x = 377 y = 288 }
+				position = { x = 362 y = 288 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -639,13 +639,13 @@ guiTypes = {
 			{
 				name ="current_icon"
 				spriteType = "GFX_russian_icons_strip"
-				position = { x = 377 y = 288 }
+				position = { x = 362 y = 288 }
 			}
 
 
 			guiButtonType = {
 				name = "pick_icon_button"
-				position = { x=365 y = 360}
+				position = { x=350 y = 356}
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "SELECT"
 				buttonFont = "vic_18"
@@ -2711,12 +2711,12 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_russian_icons_strip"
-			position = { x= -60 y = -6 }
+			position = { x= -57 y = -6 }
 		}
 
 		instantTextBoxType = {
 			name = "icon_name"
-			position = { x= 9 y = -3 }
+			position = { x= 14 y = -3 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"
@@ -2728,7 +2728,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "icon_effect"
-			position = { x = 9 y = 19 }
+			position = { x = 14 y = 17 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"
@@ -2740,7 +2740,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_icon"
-			position = { x=372 y = 12}
+			position = { x=382 y = 11}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"

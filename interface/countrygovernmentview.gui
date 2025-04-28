@@ -890,7 +890,7 @@ guiTypes = {
 		#list of interactions
 		smoothListboxType = {
 			name = "government_interaction_list"
-			position = { x = 0 y = 0 }
+			position = { x = 5 y = -2 }
 		backGround =""
 		size = { x = 360 y = 120 }
 		Orientation = "UPPER_LEFT"

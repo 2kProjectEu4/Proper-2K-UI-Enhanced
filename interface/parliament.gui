@@ -26,9 +26,9 @@ guiTypes = {
 
 
 		instantTextBoxType= {
-			position = { x= 7 y =54}
+			position = { x= 1 y =58}
 			name = "title"
-			font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 657
 			maxHeight = 24
@@ -39,7 +39,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "start_issue"
-			position = { x=239 y =276}
+			position = { x=240 y =276}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
@@ -90,7 +90,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x=0 y =99}
+			position = { x=0 y =98}
 			name = "current_issue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -163,7 +163,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x=257 y =323}
+			position = { x=257 y =322}
 			name = "num_seats"
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -230,7 +230,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x=72 y =53}
+				position = { x=66 y =57}
 				name = "title"
 				font = "vic_29"
 				borderSize = {x = 0 y = 0}
@@ -246,9 +246,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="list"
-				position = { x = 72 y = 113 }
+				position = { x = 72 y = 92 }
 				backGround=""
-				size = { x=528 y = 860}
+				size = { x=528 y = 873}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = -60
@@ -258,7 +258,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back"
-				position = { x= 248 y = 972 }
+				position = { x= 240 y = 972 }
 				quadTextureSprite ="button_type_1"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -332,12 +332,12 @@ guiTypes = {
 		iconType = {
 			name = "banner"
 			spriteType ="GFX_parliament_issue_banner_565"
-			position = { x= -80 y = -22 }
+			position = { x= -80 y = -5 }
 			orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType= {
-			position = { x= -10 y = -4 }
+			position = { x= -16 y = 14 }
 			name = "name"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -349,12 +349,12 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x= -15 y = 30 }
+			position = { x= -15 y = 50 }
 			name = "effect"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 540
-			maxHeight = 132
+			maxWidth = 523
+			maxHeight = 135
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
@@ -362,7 +362,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "select_button"
-			position = { x = 410 y = -11 }
+			position = { x = 410 y = 8 }
 			quadTextureSprite ="button_type_6_orange"
 			tooltip = ""
 			tooltipText =""

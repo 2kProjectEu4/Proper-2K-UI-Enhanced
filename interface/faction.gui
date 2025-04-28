@@ -103,7 +103,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x = 0 y =29 }
+			position = { x = 3 y =29 }
 			format = centre
 			textureFile = ""
 			font = "vic_29s"
@@ -131,7 +131,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=-75 y =552}
+				position = { x=-89 y =548}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -236,7 +236,7 @@ guiTypes = {
 			{
 				name ="faction_icon"
 				spriteType = "GFX_faction_enuchs"
-				position = { x= -112 y = -10 }
+				position = { x= -112 y = -4 }
 				Orientation = "CENTER"
 			}
 			
@@ -252,13 +252,14 @@ guiTypes = {
 			{
 				name ="faction_circle"
 				spriteType = "GFX_faction_circle_bg"
-				position = { x= 423 y = 12 }
+				position = { x= 421 y = 12 }
 				Orientation = "CENTER"
+				scale = 1.1
 			}
 			
 		instantTextBoxType = {
 			name = "faction_value"
-			position = { x= 552 y = 175 }
+			position = { x= 555 y = 178 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "11"	
@@ -270,12 +271,13 @@ guiTypes = {
 			{
 				name ="faction_arrow"
 				spriteType = "GFX_faction_arrow"
-				position = { x= 504 y = 38 }
+				position = { x= 504 y = 43 }
 				Orientation = "CENTER"
+				scale = 1.4
 			}
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x= 204 y = 75 }
+			position = { x= 203 y = 75 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction"	
@@ -299,7 +301,7 @@ guiTypes = {
 		{
 			name ="faction_boost"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x= 402 y = 102 }
+			position = { x= 403 y = 102 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"
