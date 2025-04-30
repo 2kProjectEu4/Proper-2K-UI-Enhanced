@@ -192,7 +192,7 @@ guiTypes = {
 	windowType = {
 		name = "menu"
 		backGround=""
-		position = { x= -269 y = -315 }	
+		position = { x= -274 y = -315 }	
 		size = { x=567 y = 629 }
 		moveable = 0
 		dontRender = ""

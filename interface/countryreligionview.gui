@@ -133,7 +133,7 @@ guiTypes = {
 		name = "religionlistitem"
 		backGround =""
 		position = { x=0 y=12 }
-		size = { x=360 y= 132 }
+		size = { x=360 y= 112 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -150,7 +150,7 @@ guiTypes = {
 		{
 			name ="religion_frame"
 			spriteType = "GFX_religion_frame"
-			position = { x = 43 y = -9 }
+			position = { x = 43 y = -7 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -158,13 +158,13 @@ guiTypes = {
 		{
 			name ="religion_icon"
 			spriteType = "GFX_icon_religion"
-			position = { x = 48 y = 5 }
+			position = { x = 48 y = 6 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "religion_name"
-			position = { x = 132 y =0 }
+			position = { x = 132 y =-2 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -197,7 +197,7 @@ guiTypes = {
 		listboxType =
 		{
 			name ="religion_modifiers_listbox_convert"
-			position = { x=108 y = 55}
+			position = { x=113 y = 48}
 			backGround=""
 			size = { x=360 y =120}
 			Orientation = "UPPER_LEFT"
@@ -209,7 +209,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "religion_convert_now"
-			position = { x=603 y = -5}
+			position = { x=603 y = -2}
 			quadTextureSprite ="GFX_change_religion_button"
 		}
 
@@ -357,14 +357,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "secondary_religion_name"
-			position = { x = 60 y = 187 }
+			position = { x = 97 y = 187 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
 			maxWidth = 120
 			maxHeight = 39
-			format = right
+			format = center
 			fixedsize = yes
 		}
 
@@ -458,10 +458,10 @@ guiTypes = {
 		{
 			name ="secondary_religion_icon"
 			spriteType = "GFX_icon_religion"
-			position = { x = 111 y = 216 }
+			position = { x = 108 y = 220 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_religion"
-			scale = 0.65
+			scale = 0.6
 		}
 
 		guiButtonType =
@@ -1099,7 +1099,7 @@ guiTypes = {
 			{
 				name ="low_piety"
 				spriteType = "GFX_piety_icon_low"
-				position = { x= -12 y = -76 }
+				position = { x= -12 y = -73 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -1107,7 +1107,7 @@ guiTypes = {
 			{
 				name ="high_piety"
 				spriteType = "GFX_piety_icon_high"
-				position = { x= 291 y = -76 }
+				position = { x= 291 y = -73 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -2379,7 +2379,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "title"
-				position = { x = 84 y =165 }
+				position = { x = 81 y =165 }
 				format = centre
 				font = "vic_22"
 				maxWidth = 504
@@ -2415,7 +2415,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = {  x=288 y =1029} #was 288 637
+				position = {  x=288 y =1037} #was 288 637
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -2812,7 +2812,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "pick_school"
-			position = { x=367 y = 7}
+			position = { x=377 y = 4}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"

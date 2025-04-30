@@ -1898,41 +1898,41 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "opinion"
-			position = { x = 105 y = 21 }
+			position = { x = 102 y = 21 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "+100"
-			maxWidth = 48
+			maxWidth = 68
 			maxHeight = 39
-			format = right
+			format = center
 			fixedsize = yes
 			truncate = yes
 		}
 
 		instantTextBoxType = {
 			name = "army"
-			position = { x = 177 y = 21 }
+			position = { x = 178 y = 21 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "+100"
 			maxWidth = 84
 			maxHeight = 39
-			format = right
+			format = center
 			fixedsize = yes
 			truncate = yes
 		}
 		instantTextBoxType = {
 			name = "navy"
-			position = { x = 276 y = 21 }
+			position = { x = 278 y = 21 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "+100"
 			maxWidth = 84
 			maxHeight = 39
-			format = right
+			format = center
 			fixedsize = yes
 			truncate = yes
 		}

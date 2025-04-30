@@ -120,8 +120,8 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			text = ""
-			maxWidth = 330
-			maxHeight = 132
+			maxWidth = 326
+			maxHeight = 126
 			#scrollbarType = "standardlistbox_invisible"
 			fixedsize = yes
 		}

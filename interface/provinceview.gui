@@ -3944,10 +3944,26 @@ guiTypes = {
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
+			
+			iconType =
+			{
+				name ="province_history_banner"
+				spriteType = "GFX_province_banner_foreign"
+				position = { x= 124 y = 20 }
+				scale = 0.55
+			}
+			
+			instantTextBoxType = {
+				name = "province_hisotry_label"
+				position = { x = 202 y = 27 }
+				font = "vic_22"
+				text = "Province History"
+				format = center
+			}
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x=258 y =492}
+				position = { x=255 y =502}
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -3961,9 +3977,9 @@ guiTypes = {
 
 			listboxType = {
 				name = "history_list"
-				position = { x = 33 y = 43 }
+				position = { x = 33 y = 66 }
 				backGround=""
-				size = { x=538 y = 444}
+				size = { x=535 y = 444}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 3

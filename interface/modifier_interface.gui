@@ -2,7 +2,7 @@ guiTypes = {
 	windowType = {
 		name = "modifier_window"
 		backGround="backgroundee2"
-		position = { x=-456 y=-348 }	
+		position = { x=-476 y=-359 }	
 		size = { x=1200 y=1200 }
 		moveable = 1
 		dontRender = ""
