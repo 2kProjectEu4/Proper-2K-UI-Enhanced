@@ -395,6 +395,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 0 y = 23 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.63
 		}	
 		
 		
@@ -668,6 +669,7 @@ guiTypes = {
 			position = { x= 11 y = 13 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
+			scale = 0.63
 		}		
 		
 		iconType =

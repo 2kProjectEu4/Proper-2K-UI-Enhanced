@@ -704,6 +704,15 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
+		
+		iconType =
+		{
+			name ="button1"
+			quadTextureSprite = "GFX_idea_economic_ideas"
+			position = { x= -30 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.62
+		}
 
 		guiButtonType =
 		{
@@ -712,6 +721,15 @@ guiTypes = {
 			position = { x= 25 y = 0 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
+		}
+		
+		iconType =
+		{
+			name ="button2"
+			quadTextureSprite = "GFX_idea_economic_ideas"
+			position = { x= 25 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.62
 		}
 		
 		iconType = {
