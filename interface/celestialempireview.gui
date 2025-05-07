@@ -59,7 +59,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 769 y = 181 }#was y148
+			position = { x = 756 y = 181 }#was y148
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
@@ -72,7 +72,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_growth"
-			position = { x = 769 y = 225 }
+			position = { x = 756 y = 225 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -120,14 +120,14 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "meritocracy_value"
-			position = { x = 815 y = 283 }
+			position = { x = 793 y = 283 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 0}
 			text = "100"
 			maxWidth = 77
 			maxHeight = 39
-			format = center
+			format = right
 		}
 
 		instantTextBoxType = {

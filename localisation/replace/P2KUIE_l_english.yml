@@ -16,6 +16,7 @@
  THE_FOLLOWING_SHIPS_WHERE_CAPTURED:0 "Captured ships"
  TUT_PART_CAM_TITLE:0 "§YSpanish Empire§!\nBeginner\nCampaign"
  PROVINCE_VALUES_TRIBAL:0 "Values"
+ PEACE_WARSCORE_SORT:0 "Cost"
  
  ########## Settings
  DISPLAY_MODE_WINDOWED_BORDERLESS:0 "Borderless Windowed"

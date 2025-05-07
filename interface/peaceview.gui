@@ -755,7 +755,7 @@ guiTypes = {
 			name = "sort_cost"
 			position = { x = 495 y = 220 } #was x = 395 y = 221
 			quadTextureSprite ="GFX_sort_64"	
-			buttonText = "PEACE_WARSCORE"
+			buttonText = "PEACE_WARSCORE_SORT"
 			buttonFont = "vic_18"
 		}
 		
