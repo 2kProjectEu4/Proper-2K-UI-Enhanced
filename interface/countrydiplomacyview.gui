@@ -1434,7 +1434,7 @@ guiTypes = {
 			listboxType =
 				{
 				name ="vassal_select_list"
-				position = { x= 46 y = 232 }
+				position = { x= 46 y = 216 }
 				backGround=""
 				size = { x= 580 y = 770 }
 				Orientation = "UPPER_LEFT"

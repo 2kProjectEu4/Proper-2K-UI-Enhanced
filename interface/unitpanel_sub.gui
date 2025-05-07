@@ -77,7 +77,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 39 y  = 10 }
+			position = {x = 42 y  = 10 }
 			name = "location"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

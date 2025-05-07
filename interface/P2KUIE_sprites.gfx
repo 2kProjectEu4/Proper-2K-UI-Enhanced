@@ -216,6 +216,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/sort_125.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_p2kuie_exploration_navy_bg"
+		texturefile = "gfx/interface/army_professionalism/exploration_navy_bg.dds"
+	}
+	
 	################### HRE
 	spriteType = {
 		name = "GFX_hre_header_bg"	

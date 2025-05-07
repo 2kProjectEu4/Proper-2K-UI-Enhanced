@@ -13,13 +13,13 @@ guiTypes = {
 
 		iconType = {
 			name ="bg"
-			spriteType = "GFX_exploration_navy_bg"
-			position = { x= -53328 y = 0 }
+			spriteType = "GFX_p2kuie_exploration_navy_bg"
+			position = { x= -2 y = 3 }
 		}
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = 18 y = 9 }
+			position = { x = 18 y = 11 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -41,7 +41,7 @@ guiTypes = {
 
 		listboxType = {
 			name ="list"
-			position = { x = 7 y = 39 }
+			position = { x = 7 y = 34 }
 			backGround=""
 			size = { x=384  y =660}
 			horizontal = 0
@@ -68,6 +68,7 @@ guiTypes = {
 			spriteType = "GFX_exploration_type_strip"
 			position = { x= 0 y = 0 }
 		}
+		
 		instantTextBoxType={
 			position = {x = 45 y  = 9 }
 			name = "location"
@@ -80,7 +81,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "send"
-			position = { x= 303 y = 1 }
+			position = { x= 303 y = 2 }
 			quadTextureSprite ="GFX_button_straight_67_32"
 			buttonText = "SEND"
 			buttonFont = "vic_18"

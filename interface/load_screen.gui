@@ -34,7 +34,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -480 y = 15 }
+				position = { x = -480 y = 21 }
 				textureFile = ""
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}
@@ -69,7 +69,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -480 y = -124 }
+				position = { x = -480 y = -120 }
 				textureFile = ""
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}

@@ -261,13 +261,13 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "checkbox_dont_show_again"
-			position = { x= 449 y = 715 }
+			position = { x= 449 y = 719 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 		
 		instantTextBoxType = {
 			name = "title_checkbox_dont_show_again"
-			position = { x=489 y=723 }
+			position = { x=489 y=727 }
 			font = "vic_22"
 			maxWidth = 378
 			maxHeight = 30
@@ -278,8 +278,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="close_button"
-			quadTextureSprite ="button_type_4"
-			position = { x= -132 y = 375 }
+			quadTextureSprite ="button_type_1"
+			position = { x= -86 y = 375 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"

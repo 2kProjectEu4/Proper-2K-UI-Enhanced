@@ -3,7 +3,7 @@ guiTypes = {
 		name = "flagship_modification_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=312 y=48 }
+		size = { x=312 y=49 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -25,7 +25,7 @@ guiTypes = {
 		{
 			name = "modification_icon"
 			spriteType = "GFX_estate_territory_L"
-			position = { x=7 y=7 }
+			position = { x=3 y=7 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
             alwaystransparent = yes
@@ -33,7 +33,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x=45 y=3 }
+			position = { x=41 y=3 }
 			font = "vic_18"
 			borderSize = { x=1 y=1 }
 			text = ""
@@ -46,11 +46,11 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier"
-			position = { x=45 y=21 }
+			position = { x=41 y=21 }
 			font = "vic_18"
 			borderSize = { x=1 y=1 }
 			text = ""
-			maxWidth = 376
+			maxWidth = 388
 			maxHeight = 21
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
@@ -108,9 +108,9 @@ guiTypes = {
         listboxType =
         {
             name ="modifications"
-            position = { x=36 y=160}
+            position = { x=33 y=156}
             backGround=""
-            size = { x=430 y=540 } #was y=204
+            size = { x=433 y=540 } #was y=204
             horizontal = 0
             spacing = 0
             scrollbartype = "standardlistbox_slider"
@@ -120,7 +120,7 @@ guiTypes = {
 
         guiButtonType = {
             name = "cancel"
-            position = { x=30 y=743 } #was y=407
+            position = { x=20 y=743 } #was y=407
             quadTextureSprite ="button_type_1"
             tooltip = ""
             tooltipText =""
@@ -133,7 +133,7 @@ guiTypes = {
 
         guiButtonType = {
             name = "build"
-            position = { x=396 y=743 } #was y=407
+            position = { x=407 y=743 } #was y=407
             quadTextureSprite ="button_type_1"
             tooltip = ""
             tooltipText =""
@@ -144,7 +144,7 @@ guiTypes = {
         }
 
         instantTextBoxType={
-            position = {x = 72 y = 27 }
+            position = {x = 66 y = 26 }
             name = "flagship_designer_title"
             font = "vic_22"
             borderSize = {x = 9 y = 0}
@@ -158,12 +158,12 @@ guiTypes = {
 		iconType = {
 			name ="flagship_icon"
 			spriteType = "GFX_flagship_icon"
-			position = { x=120 y=75 }
+			position = { x=118 y=78 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
         editBoxType = {
-            position = { x=139 y=73 }
+            position = { x=142 y=73 }
             name = "flagship_name"
             #textureFile = "gfx\\interface\\small_tiles_dialog.dds"
             font = "vic_18"
@@ -176,7 +176,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "random_name"
-			position = { x=473 y=73}
+			position = { x=470 y=72}
 			quadTextureSprite ="GFX_nation_designer_random_button"
 			tooltip = ""
 			tooltipText =""
@@ -189,14 +189,14 @@ guiTypes = {
 		iconType = {
 			name ="heavy_ship_icon"
 			spriteType = "GFX_unit_types_strip_mil_center_view"
-			position = { x = 13 y = 99 }
+			position = { x = 24 y = 99 }
 			frame = 4
 		}		
 		
         instantTextBoxType = {
             name = "heavy_label"
-            position = { x = 101 y =115 }
-            font = "vic_22"
+            position = { x = 113 y =118 }
+            font = "vic_18"
             borderSize = {x = 0 y = 0}
             text = "HEAVY_SHIP"
             maxWidth = 108
@@ -205,21 +205,21 @@ guiTypes = {
 		
         guiButtonType = {
             name = "heavy_checkbox"
-            position = { x = 64 y = 109 }
+            position = { x = 75 y = 109 }
             quadTextureSprite ="GFX_checkbox_gold_32"
         }
 
 		iconType = {
 			name ="light_ship_icon"
 			spriteType = "GFX_unit_types_strip_mil_center_view"
-			position = { x = 207 y = 99 }
+			position = { x = 218 y = 99 }
 			frame = 5
 		}				
 		
         instantTextBoxType = {
             name = "light_label"
-            position = { x = 291 y =115 }
-            font = "vic_22"
+            position = { x = 302 y =118 }
+            font = "vic_18"
             borderSize = {x = 0 y = 0}
             text = "LIGHT_SHIP"
             maxWidth = 108
@@ -228,21 +228,21 @@ guiTypes = {
 
         guiButtonType = {
             name = "light_checkbox"
-            position = { x = 253 y = 109 }
+            position = { x = 265 y = 109 }
             quadTextureSprite ="GFX_checkbox_gold_32"
         }
 
 		iconType = {
 			name ="galley_ship_icon"
 			spriteType = "GFX_unit_types_strip_mil_center_view"
-			position = { x = 399 y = 99 }
+			position = { x = 410 y = 99 }
 			frame = 6
 		}		
 		
         instantTextBoxType = {
             name = "galley_label"
-            position = { x = 483 y =115 }
-            font = "vic_22"
+            position = { x = 494 y =118 }
+            font = "vic_18"
             borderSize = {x = 0 y = 0}
             text = "GALLEY"
             maxWidth = 108
@@ -251,7 +251,7 @@ guiTypes = {
 
         guiButtonType = {
             name = "galley_checkbox"
-            position = { x = 444 y = 109 }
+            position = { x = 455 y = 109 }
             quadTextureSprite ="GFX_checkbox_gold_32"
         }
 		
@@ -259,7 +259,7 @@ guiTypes = {
 		{
 			name = "modification_1"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=27 y=699 } #was y=363
+            position = { x=28 y=701 } #was y=363
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -267,7 +267,7 @@ guiTypes = {
 		{
 			name = "modification_2"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=75 y=699 } #was y=363
+            position = { x=76 y=701 } #was y=363
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -275,13 +275,13 @@ guiTypes = {
 		{
 			name = "modification_3"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=123 y=699 } #was y=363
+            position = { x=124 y=701 } #was y=363
 			Orientation = "UPPER_LEFT"
 		}
 
         instantTextBoxType = {
             name = "nr_modifications"
-            position = { x = 165 y=707 } #was y=371
+            position = { x = 171 y=707 } #was y=371
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "nr of modifications"
@@ -292,7 +292,7 @@ guiTypes = {
 		
         instantTextBoxType = {
             name = "total_cost_maintenance"
-            position = { x = 370 y=700 } #was y=371
+            position = { x = 365 y=700 } #was y=371
             font = "vic_18"
             borderSize = {x = 0 y = 0}
             text = "maintenance"
@@ -304,62 +304,62 @@ guiTypes = {
         iconType = {
 			name ="trade_power_icon"
 			spriteType = "GFX_icon_trade_power"
-            position = { x=483 y=156 }
+            position = { x=485 y=156 }
 		}
         instantTextBoxType = {
             name = "trade_power_value"
-            position = { x=525 y=163 }
+            position = { x=513 y=163 }
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "1234"
             maxWidth = 60
             maxHeight = 21
-			format = left
+			format = right
         }
 		iconType = {
 			name ="hull_size_icon"
 			spriteType = "GFX_icon_hull_size"
-            position = { x=483 y=211 }
+            position = { x=484 y=211 }
 		}
         instantTextBoxType = {
             name = "hull_size_value"
-            position = { x=525 y=219 }
+            position = { x=513 y=219 }
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "1234"
             maxWidth = 60
             maxHeight = 21
-			format = left
+			format = right
         }
 		iconType = {
 			name ="cannons_icon"
 			spriteType = "GFX_icon_ship_cannons"
-            position = { x=483 y=267 }
+            position = { x=484 y=267 }
 		}
         instantTextBoxType = {
             name = "cannons_value"
-            position = { x=525 y=273 }
+            position = { x=513 y=273 }
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "1234"
             maxWidth = 60
             maxHeight = 21
-			format = left
+			format = right
         }
 		iconType = {
 			name ="speed_icon"
 			spriteType = "GFX_icon_ship_speed"
-            position = { x=483 y=321 }
+            position = { x=484 y=321 }
 		}
         instantTextBoxType = {
             name = "speed_value"
-            position = { x=525 y=329 }
+            position = { x=513 y=329 }
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "1234"
             maxWidth = 60
 			maxHeight = 21
-			format = left
+			format = right
         }
     }
 }
