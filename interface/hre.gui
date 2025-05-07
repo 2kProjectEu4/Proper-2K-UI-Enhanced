@@ -13,12 +13,19 @@ guiTypes = {
 		Orientation = "CENTER"
 		upsound = hre
 		downsound = ""
-
+		
+		iconType =
+		{
+			name ="hre_bg1"
+			spriteType = "GFX_hre_header_bg"
+			position = { x= 0 y = 0 }
+		}
+		
 		iconType =
 		{
 			name ="hre_bg_extended"
 			spriteType = "GFX_hre_bg_extended"
-			position = { x= -168 y = 67 }
+			position = { x= -168 y = 57 }
 		}
 
 		iconType =
@@ -28,16 +35,11 @@ guiTypes = {
 			position = { x= 0 y = 85 }
 		}
 		
-		iconType =
-		{
-			name ="hre_bg1"
-			spriteType = "GFX_hre_header_bg"
-			position = { x= 0 y = 0 }
-		}
+		
 
 		guiButtonType = {
 			name = "join_league_button"
-			position = { x= -100 y = 117 }
+			position = { x= -97 y = 117 }
 			quadTextureSprite ="GFX_join_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -49,7 +51,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_heretic_league_button"
-			position = { x= 1120 y = 117 }
+			position = { x= 1123 y = 117 }
 			quadTextureSprite ="GFX_join_heretic_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -64,7 +66,7 @@ guiTypes = {
 		{
 			name ="hre_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -76 y = 138 }
+			position = { x= -73 y = 138 }
 			hint_tag = "hint_religion"
 			alwaystransparent = yes
 		}
@@ -82,7 +84,7 @@ guiTypes = {
 		{
 			name ="hre_heretic_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 1145 y = 138 }
+			position = { x= 1148 y = 138 }
 			hint_tag = "hint_religion"
 			alwaystransparent = yes
 		}
@@ -637,7 +639,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_league"
-			position = { x=-135 y =187 }
+			position = { x=-131 y =187 }
 			backGround=""
 			size = { x=156 y= 605 }
 			Orientation = "UPPER_LEFT"
@@ -649,7 +651,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_heretic_league"
-			position = { x=1085 y =187 }
+			position = { x=1089 y =187 }
 			backGround=""
 			size = { x=156 y=605 }
 			Orientation = "UPPER_LEFT"

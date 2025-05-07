@@ -82,7 +82,7 @@ guiTypes = {
 		{
 			name ="obsolete"
 			spriteType = "GFX_obsolete_building_icon"
-			position = { x = 0 y = -1 }
+			position = { x = -1 y = -3 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -90,7 +90,7 @@ guiTypes = {
 		iconType = {
 			name="cannot_afford"
 			spriteType = "GFX_cannot_afford"
-			position = { x = 3 y = 36 }
+			position = { x = 2 y = 31 }
 			Orientation = "UPPER_LEFT"
 		}
 

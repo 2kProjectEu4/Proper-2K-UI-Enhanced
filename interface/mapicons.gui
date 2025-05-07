@@ -45,7 +45,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 12 y  = 30 }
+				position = {x = 14 y  = 30 }
 				name = "total_value"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}	
@@ -207,14 +207,14 @@ guiTypes = {
 		}	
 			
 		instantTextBoxType={
-			position = {x = 12 y  = -35 }
+			position = {x = 10 y  = -35 }
 			name = "branch_income"
 			font = "standard_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 60
 			maxHeight = 21
 			text = "135"	
-			format = centre
+			format = right
 		}
 		
 		iconType = {
