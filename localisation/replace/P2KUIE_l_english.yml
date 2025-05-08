@@ -18,6 +18,25 @@
  PROVINCE_VALUES_TRIBAL:0 "Values"
  PEACE_WARSCORE_SORT:0 "Cost"
  
+ ########## Edicts
+ edict_religious_unity:0 "§YEnforce Religious Unity§!"
+ edict_protect_trade:0 "§YProtect Trade§!"
+ edict_promote_military_recruitment:1 "§YIncreased Enlistment§!"
+ edict_encourage_development:0 "§YEncourage Development§!"
+ edict_defensive_edict:0 "§YDefensive Edict§!"
+ edict_advancement_effort:0 "§YAdvancement Effort§!"
+ edict_centralization_effort:0 "§YCentralization Effort§!"
+ edict_feudal_de_jure_law:0 "§YFeudal De Jure Law§!"
+ edict_religion_enforced:0 "§YReligion Enforced§!"
+ edict_of_absolutism:0 "§YEdict of Absolutism§!"
+ french_infrastructure_network:0 "§YFrench Infrastructure Network§!"
+ protect_trade_empowered:0 "§YPromote Trade§!"
+ chinese_industrialization:0 "§YRapid Industrialization§!"
+ feudal_taxes_state_edict:0 "§YFeudal Taxes Edict§!"
+ religious_tolerance_state_edict:0 "§YReligious Tolerance Edict§!"
+ state_integration_state_edict:0 "§YState Integration Edict§!"
+ urbanization_state_edict:0 "§YUrbanization Edict§!"
+ 
  ########## Settings
  DISPLAY_MODE_WINDOWED_BORDERLESS:0 "Borderless Windowed"
  SM_GUI_SCALE:0 "GUI Scale"

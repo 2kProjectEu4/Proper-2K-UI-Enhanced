@@ -161,11 +161,12 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "invest_button"
-			position = { x=127 y=152 }
+			position = { x=128 y=153 }
 			quadTextureSprite ="GFX_invest_papacy_button"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
+			scale = 0.96
 		}
 
 		guiButtonType = {

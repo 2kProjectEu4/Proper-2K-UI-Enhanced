@@ -6923,15 +6923,15 @@ guiTypes = {
 		guiButtonType = {
 			name ="select_edicts_button"
 			quadTextureSprite = "GFX_edicts_button_big"
-			buttonFont = "FPS_Font"
+			buttonFont = "vic_18"
 			buttonText = "txt"
-			position = { x = 63 y = 6 }
+			position = { x = 63 y = -2 }
 			orientation = top
 		}
 
 		instantTextBoxType = {
 			name = "edicts_eff"
-			position = { x = 96 y = 22 }
+			position = { x = 96 y = 40 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
