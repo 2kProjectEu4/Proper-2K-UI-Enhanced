@@ -3,7 +3,7 @@ guiTypes = {
 		windowType = {
 			name ="goto_box"
 			backGround="goto_box"
-			position = { x= 180 y =180 }	
+			position = { x= 165 y =215 }	
 			size = { x=307 y =444 }
 			moveable = 1
 			dontRender = ""

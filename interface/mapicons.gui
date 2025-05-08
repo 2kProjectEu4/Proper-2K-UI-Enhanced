@@ -45,7 +45,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 12 y  = 30 }
+				position = {x = 14 y  = 30 }
 				name = "total_value"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}	
@@ -104,7 +104,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 60 y  = 17 }
+				position = {x = 54 y  = 17 }
 				name = "influence"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}	
@@ -116,11 +116,11 @@ guiTypes = {
 			}
 			
 			instantTextBoxType={
-				position = {x = 45 y  = 43 }
+				position = {x = 54 y  = 43 }
 				name = "total_value"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 140
+				maxWidth = 120
 				maxHeight = 21
 				text = "16"	
 				format = center
@@ -143,7 +143,7 @@ guiTypes = {
 			iconType = {
 				name = "trade_ship"
 				spriteType = "GFX_icon_trade_ship"
-				position = { x = 53 y = 68 }
+				position = { x = 53 y = 69 }
 			}			
 			
 			instantTextBoxType = {
@@ -207,14 +207,14 @@ guiTypes = {
 		}	
 			
 		instantTextBoxType={
-			position = {x = 12 y  = -35 }
+			position = {x = 10 y  = -35 }
 			name = "branch_income"
 			font = "standard_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 60
 			maxHeight = 21
 			text = "135"	
-			format = centre
+			format = right
 		}
 		
 		iconType = {

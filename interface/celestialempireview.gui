@@ -22,7 +22,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "celestial_label"
-			position = { x = 357 y = 72 }
+			position = { x = 355 y = 72 }
 			format = centre
 			textureFile = ""
 			font = "vic_29"
@@ -34,7 +34,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "emperor_label"
-			position = { x = 570 y = 317 }
+			position = { x = 565 y = 317 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -47,7 +47,7 @@ guiTypes = {
 		#### AUTHORITY
 		instantTextBoxType = {
 			name = "influence_label"
-			position = { x = 590 y = 116 }
+			position = { x = 585 y = 116 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -59,7 +59,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 769 y = 183 }#was y148
+			position = { x = 756 y = 181 }#was y148
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
@@ -72,7 +72,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_growth"
-			position = { x = 769 y = 225 }
+			position = { x = 756 y = 225 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -120,19 +120,19 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "meritocracy_value"
-			position = { x = 815 y = 283 }
+			position = { x = 793 y = 283 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 0}
 			text = "100"
 			maxWidth = 77
 			maxHeight = 39
-			format = center
+			format = right
 		}
 
 		instantTextBoxType = {
 			name = "decree_label"
-			position = { x = 240 y = 116 }
+			position = { x = 244 y = 116 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -144,7 +144,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "tributary_label"
-			position = { x = 602 y = 383 }
+			position = { x = 602 y = 384 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -156,7 +156,7 @@ guiTypes = {
 
 		listboxType =  {
 			name ="tributary_shield_box"
-			position = { x = 542 y = 432 } # was 507 163
+			position = { x = 544 y = 432 } # was 507 163
 			backGround=""
 			size = { x = 324 y = 207 }
 			Orientation = "UPPER_LEFT"
@@ -168,7 +168,7 @@ guiTypes = {
 		#### REFORM DECISIONS
 		instantTextBoxType = {
 			name = "decisions_label"
-			position = { x = 980 y = 116 }
+			position = { x = 978 y = 116 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -180,9 +180,9 @@ guiTypes = {
 		
 		listboxType =  {
 			name ="decree_listbox"
-			position = { x = 180 y = 156 }
+			position = { x = 180 y = 159 }
 			backGround=""
-			size = { x = 324 y = 710 }
+			size = { x = 324 y = 713 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -192,9 +192,9 @@ guiTypes = {
 
 		listboxType =  {
 			name ="decisions_listbox"
-			position = { x = 880 y = 160 }
+			position = { x = 880 y = 158 }
 			backGround=""
-			size = { x = 340 y = 705 }
+			size = { x = 340 y = 712 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -247,7 +247,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "select_button"
 			quadTextureSprite ="GFX_decree_button"
-			position = { x= 0 y=0 }
+			position = { x= 0 y=-5 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "decree_title"
 			buttonFont = "vic_18_black"
@@ -257,13 +257,15 @@ guiTypes = {
 			name = "decree_button_seal"
 			spriteType ="GFX_decree_button_seal"
 			alwaystransparent = yes
-			position = { x= 238 y = 3 }
+			position = { x= 242 y = 0 }
+			scale = 0.92
 		}
 		iconType = {
 			name = "decree_button_check"
 			spriteType ="GFX_decree_button_check"
 			alwaystransparent = yes
-			position = { x= 255 y = 12 }
+			position = { x= 260 y = 9 }
+			scale = 0.9
 		}		
 		
 	}
@@ -293,7 +295,8 @@ guiTypes = {
 		iconType = {
 			name = "mutualy_exclusive_reforms"
 			spriteType ="GFX_mutualy_exclusive_reforms"	
-			position = { x= -5 y = -16 }
+			position = { x= -2 y = -16 }
+			scale = 0.90
 		}
 
 		iconType = {

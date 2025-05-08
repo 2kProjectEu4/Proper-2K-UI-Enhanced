@@ -80,7 +80,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "1_adv"
-				position = { x = 80 y = 36 }
+				position = { x = 80 y = 37 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -92,7 +92,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "2_adv"
-				position = { x = 80 y = 107 }
+				position = { x = 80 y = 109 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -104,7 +104,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "3_adv"
-				position = { x = 80 y = 178 }
+				position = { x = 80 y = 181 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -115,7 +115,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "4_adv"
-				position = { x = 80 y = 249 }
+				position = { x = 80 y = 253 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -126,7 +126,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "5_adv"
-				position = { x = 80 y = 320 }
+				position = { x = 80 y = 325 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -137,7 +137,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "6_adv"
-				position = { x = 80 y = 391 }
+				position = { x = 80 y = 397 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -148,7 +148,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "7_adv"
-				position = { x = 80 y = 462 }
+				position = { x = 80 y = 469 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -159,7 +159,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "8_adv"
-				position = { x = 80 y = 533 }
+				position = { x = 80 y = 541 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -172,16 +172,16 @@ guiTypes = {
 		
 			gridBoxType = {
 				name = "gridbox"
-				position = { x=3 y=27 }
+				position = { x=3 y=25 }
 				size = { width=353 height=426 }
-				slotsize = { width = 353 height = 71 }
+				slotsize = { width = 353 height = 72 }
 				max_slots_horizontal = 1
 				max_slots_vertical = 10
 			}	
 			
 			instantTextBoxType = {
 				name = "unified_federation_text"
-				position = { x = 35 y = 2 }
+				position = { x = 14 y = 0 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -220,7 +220,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "federation_name"
-				position = { x = 35 y = 0 }
+				position = { x = 35 y = 1 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
@@ -232,13 +232,13 @@ guiTypes = {
 			{
 				name ="federation_icon"
 				spriteType = "GFX_diplomacy_federation"
-				position = { x= 0 y = 0}
+				position = { x= 0 y = -2}
 				Orientation = "UPPER_LEFT"
 			}	
 			
 			instantTextBoxType = {
 				name = "unified_federation_text"
-				position = { x = 65 y = 100 }
+				position = { x = 65 y = 98 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -250,7 +250,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "no_federation_text"
-				position = { x = 64 y = 92 }
+				position = { x = 69 y = 93 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
@@ -264,7 +264,7 @@ guiTypes = {
 			{
 				name ="federation_leader"
 				quadTextureSprite = "GFX_federation_leader_frame"
-				position = { x= 100 y = 60 }
+				position = { x= 100 y = 52 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click
 			}
@@ -272,7 +272,7 @@ guiTypes = {
 			OverlappingElementsBoxType = 
 			{
 				name = "federation_members_box"
-				position = { x = 80 y = 162 }
+				position = { x = 85 y = 157 }
 				size = { x = 192 y = 39 }
 				Orientation = "UPPER_LEFT"
 				spacing = 1
@@ -281,14 +281,14 @@ guiTypes = {
 			iconType={
 				name ="cohesion_progress"
 				spriteType = "GFX_default_progressbar"
-				position = { x= 86 y = 210 }
+				position = { x= 88 y = 203 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType={
 				name ="cohesion_progress_frame"
 				spriteType = "GFX_progress_bar_frame"
-				position = { x= 75 y = 207 }
+				position = { x= 75 y = 199 }
 				Orientation = "UPPER_LEFT"
 			}		
 		}
@@ -302,6 +302,15 @@ guiTypes = {
 			size = { x=353 y=120 }
 			moveable = 0
 			Orientation = "CENTER"
+			
+			iconType =
+			{
+				name ="tribal_dev__icon"
+				spriteType = "GFX_p2kuie_tribal_development"
+				position = { x= -5 y = -8}
+				Orientation = "UPPER_LEFT"
+				scale = 0.65
+			}
 			
 			instantTextBoxType = {
 				name = "development_label"
@@ -337,7 +346,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "mil_dev"
-				position = { x = 210 y = 45 }
+				position = { x = 214 y = 45 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}

@@ -32,13 +32,13 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "prev_tab"
-			position = { x = 54 y = 63 }
+			position = { x = 54 y = 64 }
 			quadTextureSprite ="GFX_nation_designer_navigate_left"	
 		}
 	
 		guiButtonType = {
 			name = "next_tab"
-			position = { x = 435 y = 63 }
+			position = { x = 435 y = 64 }
 			quadTextureSprite ="GFX_nation_designer_navigate_right"	
 		}
 	
@@ -103,7 +103,7 @@ guiTypes = {
 			editBoxType = {
 				name = "country_name"
 				font = "Main_16"
-				position = { x = 228 y = 94 }
+				position = { x = 228 y = 95 }
 				borderSize = {x = 5 y = 5}	
 				text = ""
 				size = { x=240 y=36 }
@@ -124,7 +124,7 @@ guiTypes = {
 			editBoxType = {
 				name = "country_adjective"
 				font = "Main_16"
-				position = { x = 228 y = 142 }
+				position = { x = 228 y = 143 }
 				borderSize = {x = 5 y = 5}	
 				text = ""
 				size = { x=240 y=36 }
@@ -143,7 +143,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "map_color_numbers"
-				position = { x = 141 y = 225 }
+				position = { x = 140 y = 225 }
 				font = "vic_22"
 				text = "99/0"	
 				maxWidth = 240
@@ -154,12 +154,12 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "map_color_down"
-				position = { x = 51 y = 211 }
+				position = { x = 50 y = 210 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 			guiButtonType = {
 				name = "map_color_up"
-				position = { x = 444 y = 211 }
+				position = { x = 444 y = 210 }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 			
@@ -186,7 +186,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "template_label"
-				position = { x = 141 y = 558 }
+				position = { x = 141 y = 559 }
 				textureFile = ""
 				font = "vic_18_grey"
 				text = "ND_LAYOUT"	
@@ -209,7 +209,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "color2_label"
-				position = { x = 141 y = 671 }
+				position = { x = 141 y = 672 }
 				textureFile = ""
 				font = "vic_18_grey"
 				text = "ND_COLOR_2"	
@@ -220,7 +220,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "color3_label"
-				position = { x = 141 y = 727 }
+				position = { x = 141 y = 729 }
 				textureFile = ""
 				font = "vic_18_grey"
 				text = "ND_COLOR_3"	
@@ -232,7 +232,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "random_flag"
-				position = { x = 450 y = 740 }
+				position = { x = 450 y = 730 }
 				spriteType = "GFX_nation_designer_random_button"
 			}
 
@@ -260,32 +260,32 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "color1_down"
-				position = { x = 102 y = 623 }
+				position = { x = 102 y = 624 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 			guiButtonType = {
 				name = "color1_up"
-				position = { x = 393 y = 623 }
+				position = { x = 393 y = 624 }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 			guiButtonType = {
 				name = "color2_down"
-				position = { x = 102 y = 679 }
+				position = { x = 102 y = 680 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 			guiButtonType = {
 				name = "color2_up"
-				position = { x = 393 y = 679 }
+				position = { x = 393 y = 680 }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 			guiButtonType = {
 				name = "color3_down"
-				position = { x = 102 y = 735 }
+				position = { x = 102 y = 737 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 			guiButtonType = {
 				name = "color3_up"
-				position = { x = 393 y = 735 }
+				position = { x = 393 y = 737 }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 
@@ -302,7 +302,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "template_numbers"
-				position = { x = 141 y = 582 }
+				position = { x = 141 y = 583 }
 				font = "vic_18"
 				text = "99/15"	
 				maxWidth = 240
@@ -322,7 +322,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "color2_number"
-				position = { x = 141 y = 695 }
+				position = { x = 141 y = 696 }
 				font = "vic_18"
 				text = "14"	
 				maxWidth = 240
@@ -332,7 +332,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "color3_number"
-				position = { x = 141 y = 751 }
+				position = { x = 141 y = 753 }
 				font = "vic_18"
 				text = "14"	
 				maxWidth = 240
@@ -371,7 +371,7 @@ guiTypes = {
 			iconType = {
 				name ="traditions_points_icon"
 				spriteType = "GFX_nation_designer_points_icon"
-				position = { x= 451 y = 105 }
+				position = { x= 451 y = 104 }
 			}
 
 			instantTextBoxType = {
@@ -388,7 +388,7 @@ guiTypes = {
 			iconType = {
 				name ="ideas_points_icon"
 				spriteType = "GFX_nation_designer_points_icon"
-				position = { x= 444 y = 271 }
+				position = { x= 444 y = 269 }
 			}
 
 			instantTextBoxType = {
@@ -405,7 +405,7 @@ guiTypes = {
 			iconType = {
 				name ="ambition_points_icon"
 				spriteType = "GFX_nation_designer_points_icon"
-				position = { x= 451 y = 651 }
+				position = { x= 451 y = 650 }
 			}
 
 			# Traditions (National Ideas 7-8)
@@ -497,7 +497,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "random_ideas"
-				position = { x = 444 y = 753 }
+				position = { x = 444 y = 752 }
 				spriteType = "GFX_nation_designer_random_button"
 			}
 		}
@@ -551,7 +551,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "ruler_name_label"
-				position = { x = 48 y = 125 }
+				position = { x = 48 y = 123 }
 				font = "vic_18"
 				text = "NAME"
 				maxWidth = 114
@@ -563,7 +563,7 @@ guiTypes = {
 			editBoxType = {
 				name = "ruler_name"
 				font = "Main_16"
-				position = { x = 161 y = 120 }
+				position = { x = 161 y = 119 }
 				borderSize = {x = 5 y = 5}	
 				text = ""
 				size = { x=264 y=36 }
@@ -571,7 +571,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "random_ruler_name"
-				position = { x = 443 y = 114 }
+				position = { x = 443 y = 112 }
 				spriteType = "GFX_nation_designer_random_button"
 			}
 			
@@ -589,7 +589,7 @@ guiTypes = {
 			###
 			instantTextBoxType = {
 				name = "ruler_dynasty_label"
-				position = { x = 48 y = 170 }
+				position = { x = 48 y = 169 }
 				font = "vic_18"
 				text = "ND_DYNASTY"
 				maxWidth = 114
@@ -609,14 +609,14 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_random_dynasty"
-				position = { x = 443 y = 159 }
+				position = { x = 443 y = 158 }
 				spriteType = "GFX_nation_designer_random_button"
 			}
 
 			### age
 			instantTextBoxType = {
 				name = "ruler_age_label"
-				position = { x = 343 y = 225 }
+				position = { x = 343 y = 223 }
 				font = "vic_18"
 				text = "ND_AGE"
 				maxWidth = 120
@@ -644,7 +644,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_age_up"
-				position = { x = 427 y = 253  }
+				position = { x = 428 y = 253  }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 
@@ -664,7 +664,7 @@ guiTypes = {
 			### monarch stats
 			instantTextBoxType = {
 				name = "ruler_admin_label"
-				position = { x = 47 y = 228 }
+				position = { x = 47 y = 227 }
 				font = "vic_18"
 				text = "MON_ADM_LONG"
 				maxWidth = 144
@@ -675,7 +675,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_admin"
-				position = { x = 175 y = 229 }
+				position = { x = 175 y = 228 }
 				font = "vic_18"
 				text = "0"	
 				maxWidth = 60
@@ -686,20 +686,20 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_admin_down"
-				position = { x = 235 y = 225 }
+				position = { x = 235 y = 224 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 
 			guiButtonType = {
 				name = "ruler_admin_up"
-				position = { x = 271 y = 225  }
+				position = { x = 271 y = 224  }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 			
 			###
 			instantTextBoxType = {
 				name = "ruler_diplo_label"
-				position = { x = 47 y = 264 }
+				position = { x = 47 y = 263 }
 				font = "vic_18"
 				text = "MON_DIP_LONG"
 				maxWidth = 144
@@ -710,7 +710,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_diplo"
-				position = { x = 175 y = 265 }
+				position = { x = 175 y = 264 }
 				font = "vic_18"
 				text = "0"	
 				maxWidth = 60
@@ -721,20 +721,20 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_diplo_down"
-				position = { x = 235 y = 261 }
+				position = { x = 235 y = 260 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 
 			guiButtonType = {
 				name = "ruler_diplo_up"
-				position = { x = 271 y = 261  }
+				position = { x = 271 y = 260  }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 			
 			###
 			instantTextBoxType = {
 				name = "ruler_mil_label"
-				position = { x = 47 y = 300 }
+				position = { x = 47 y = 299 }
 				font = "vic_18"
 				text = "MON_MIL_LONG"
 				maxWidth = 144
@@ -745,7 +745,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_mil"
-				position = { x = 175 y = 301 }
+				position = { x = 175 y = 300 }
 				font = "vic_18"
 				text = "0"	
 				maxWidth = 60
@@ -756,13 +756,13 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_mil_down"
-				position = { x = 235 y = 297 }
+				position = { x = 235 y = 296 }
 				quadTextureSprite ="GFX_arrow_left_big"	
 			}
 
 			guiButtonType = {
 				name = "ruler_mil_up"
-				position = { x = 271 y = 297  }
+				position = { x = 271 y = 296  }
 				quadTextureSprite ="GFX_arrow_right_big"	
 			}
 
@@ -820,7 +820,7 @@ guiTypes = {
 				###
 				instantTextBoxType = {
 					name = "heir_name_label"
-					position = { x = 48 y = 139 }
+					position = { x = 48 y = 137 }
 					font = "vic_18"
 					text = "NAME"
 					maxWidth = 114
@@ -858,7 +858,7 @@ guiTypes = {
 				### age
 				instantTextBoxType = {
 					name = "heir_age_label"
-					position = { x = 343 y = 185 }
+					position = { x = 343 y = 183 }
 					font = "vic_18"
 					text = "ND_AGE"
 					maxWidth = 120
@@ -886,14 +886,14 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "heir_age_up"
-					position = { x = 427 y = 213  }
+					position = { x = 428 y = 213  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 
 				listboxType = 
 				{
 					name ="monarch_heir_personality_list"
-					position = {x=323 y=237}
+					position = {x=323 y=235}
 					backGround=""
 					size = { x=192 y=615}
 					Orientation = "UPPER_LEFT"
@@ -906,7 +906,7 @@ guiTypes = {
 				### monarch stats
 				instantTextBoxType = {
 					name = "heir_admin_label"
-					position = { x = 47 y = 189 }
+					position = { x = 47 y = 188 }
 					font = "vic_18"
 					text = "MON_ADM_LONG"
 					maxWidth = 144
@@ -917,7 +917,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_admin"
-					position = { x = 175 y = 189 }
+					position = { x = 175 y = 188 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -928,20 +928,20 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "heir_admin_down"
-					position = { x = 235 y = 185 }
+					position = { x = 235 y = 184 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "heir_admin_up"
-					position = { x = 271 y = 185  }
+					position = { x = 271 y = 184  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 				
 				###
 				instantTextBoxType = {
 					name = "heir_diplo_label"
-					position = { x = 47 y = 225 }
+					position = { x = 47 y = 224 }
 					font = "vic_18"
 					text = "MON_DIP_LONG"
 					maxWidth = 144
@@ -952,7 +952,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_diplo"
-					position = { x = 175 y = 225 }
+					position = { x = 175 y = 224 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -963,20 +963,20 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "heir_diplo_down"
-					position = { x = 235 y = 221 }
+					position = { x = 235 y = 220 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "heir_diplo_up"
-					position = { x = 271 y = 221  }
+					position = { x = 271 y = 220  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 				
 				###
 				instantTextBoxType = {
 					name = "heir_mil_label"
-					position = { x = 47 y = 261 }
+					position = { x = 47 y = 260 }
 					font = "vic_18"
 					text = "MON_MIL_LONG"
 					maxWidth = 144
@@ -987,7 +987,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_mil"
-					position = { x = 175 y = 261 }
+					position = { x = 175 y = 260 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -998,13 +998,13 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "heir_mil_down"
-					position = { x = 235 y = 257 }
+					position = { x = 235 y = 256 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "heir_mil_up"
-					position = { x = 271 y = 257  }
+					position = { x = 271 y = 256  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 			}
@@ -1070,7 +1070,7 @@ guiTypes = {
 				###
 				instantTextBoxType = {
 					name = "consort_name_label"
-					position = { x = 48 y = 139 }
+					position = { x = 48 y = 137 }
 					font = "vic_18"
 					text = "NAME"
 					maxWidth = 114
@@ -1136,7 +1136,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "consort_age_up"
-					position = { x = 427 y = 213  }
+					position = { x = 428 y = 213  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 
@@ -1156,7 +1156,7 @@ guiTypes = {
 				### monarch stats
 				instantTextBoxType = {
 					name = "consort_admin_label"
-					position = { x = 47 y = 189 }
+					position = { x = 47 y = 190 }
 					font = "vic_18"
 					text = "MON_ADM_LONG"
 					maxWidth = 144
@@ -1167,7 +1167,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "consort_admin"
-					position = { x = 175 y = 189 }
+					position = { x = 175 y = 190 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -1178,20 +1178,20 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "consort_admin_down"
-					position = { x = 235 y = 185 }
+					position = { x = 235 y = 186 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "consort_admin_up"
-					position = { x = 271 y = 185  }
+					position = { x = 271 y = 186  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 				
 				###
 				instantTextBoxType = {
 					name = "consort_diplo_label"
-					position = { x = 47 y = 225 }
+					position = { x = 47 y = 226 }
 					font = "vic_18"
 					text = "MON_DIP_LONG"
 					maxWidth = 144
@@ -1202,7 +1202,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "consort_diplo"
-					position = { x = 175 y = 225 }
+					position = { x = 175 y = 226 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -1213,20 +1213,20 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "consort_diplo_down"
-					position = { x = 235 y = 221 }
+					position = { x = 235 y = 222 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "consort_diplo_up"
-					position = { x = 271 y = 221  }
+					position = { x = 271 y = 222  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 				
 				###
 				instantTextBoxType = {
 					name = "consort_mil_label"
-					position = { x = 47 y = 261 }
+					position = { x = 47 y = 262 }
 					font = "vic_18"
 					text = "MON_MIL_LONG"
 					maxWidth = 144
@@ -1237,7 +1237,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "consort_mil"
-					position = { x = 175 y = 261 }
+					position = { x = 175 y = 262 }
 					font = "vic_18"
 					text = "0"	
 					maxWidth = 60
@@ -1248,13 +1248,13 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "consort_mil_down"
-					position = { x = 235 y = 257 }
+					position = { x = 235 y = 258 }
 					quadTextureSprite ="GFX_arrow_left_big"	
 				}
 
 				guiButtonType = {
 					name = "consort_mil_up"
-					position = { x = 271 y = 257  }
+					position = { x = 271 y = 258  }
 					quadTextureSprite ="GFX_arrow_right_big"	
 				}
 			}
@@ -1279,7 +1279,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "gov_rank_label"
-				position = { x = 33 y = 243 }
+				position = { x = 33 y = 242 }
 				font = "vic_18"
 				text = "GOV_RANK"
 				maxWidth = 180
@@ -1325,14 +1325,14 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "culture_listbox_button"
-				position = { x = 186 y = 90 }
+				position = { x = 189 y = 90 }
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_button_straight_255_32"
 			}
 			iconType = {
 				name ="culture_listbox_button_glow"
 				spriteType = "GFX_button_straight_255_32_glow"
-				position = { x= 183 y = 87 }
+				position = { x= 186 y = 87 }
 			}
 			
 			###
@@ -1349,19 +1349,19 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "religion_listbox_button"
-				position = { x = 186 y = 126 }
+				position = { x = 189 y = 126 }
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_button_straight_255_32"	
 			}
 			iconType = {
 				name ="religion_listbox_button_glow"
 				spriteType = "GFX_button_straight_255_32_glow"
-				position = { x= 183 y = 123 }
+				position = { x= 186 y = 123 }
 			}
 			iconType = {
 				name ="incompatible_religion_warning_icon"
 				spriteType = "GFX_incompatible_warning_icon"
-				position = { x= 468 y = 131 }
+				position = { x= 471 y = 131 }
 			}				
 			
 			###
@@ -1378,19 +1378,19 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "tech_group_listbox_button"
-				position = { x = 186 y = 162 }
+				position = { x = 189 y = 162 }
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_button_straight_255_32"	
 			}
 			iconType = {
 				name ="tech_group_listbox_button_glow"
 				spriteType = "GFX_button_straight_255_32_glow"
-				position = { x= 183 y = 159 }
+				position = { x= 186 y = 159 }
 			}
 			iconType = {
 				name ="incompatible_tech_warning_icon"
 				spriteType = "GFX_incompatible_warning_icon"
-				position = { x= 468 y = 167 }
+				position = { x= 471 y = 167 }
 			}
 			
 			###
@@ -1407,19 +1407,19 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "government_listbox_button"
-				position = { x = 186 y = 199 }
+				position = { x = 189 y = 199 }
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_button_straight_255_32"	
 			}
 			iconType = {
 				name ="government_listbox_button_glow"
 				spriteType = "GFX_button_straight_255_32_glow"
-				position = { x= 183 y = 196 }
+				position = { x= 186 y = 196 }
 			}
 			iconType = {
 				name ="incompatible_gov_warning_icon"
 				spriteType = "GFX_incompatible_warning_icon"
-				position = { x= 468 y = 239 }
+				position = { x= 471 y = 239 }
 			}
 
 			guiButtonType = {
@@ -1438,7 +1438,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sprite_type_label"
-				position = { x = 312 y = 462 }
+				position = { x = 312 y = 465 }
 				font = "vic_22"
 				text = "SPRTE_TYPE_LABEL"
 				maxWidth = 144
@@ -1449,7 +1449,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sprite_type"
-				position = { x = 345 y = 492 }
+				position = { x = 345 y = 494 }
 				font = "vic_22"
 				text = "0"
 				maxWidth = 120
@@ -1483,7 +1483,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sprite_tier"
-				position = { x = 345 y = 576 }
+				position = { x = 345 y = 578 }
 				font = "vic_22"
 				text = "0"
 				maxWidth = 120
@@ -1580,7 +1580,7 @@ guiTypes = {
 					name ="listbox"
 					position = { x = 39 y = 48 }
 					backGround=""
-					size = { x= 327 y = 741 }
+					size = { x= 327 y = 761 }
 					horizontal = 0
 					spacing = 0
 					scrollbartype = "standardlistbox_slider"
@@ -1996,6 +1996,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 6 y = 41 }
 			scale = 0.5
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2008,6 +2009,7 @@ guiTypes = {
 			maxWidth = 77
 			maxHeight = 39
 			format = left
+			alwaystransparent = yes
 		}
 		
 		iconType =
@@ -2016,6 +2018,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 103 y = 41 }
 			scale = 0.5
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2028,6 +2031,7 @@ guiTypes = {
 			maxWidth = 77
 			maxHeight = 39
 			format = left
+			alwaystransparent = yes
 		}
 		
 		iconType =
@@ -2036,6 +2040,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 203 y = 41 }
 			scale = 0.5
+			alwaystransparent = yes
 			
 		}
 		
@@ -2049,6 +2054,7 @@ guiTypes = {
 			maxWidth = 77
 			maxHeight = 39
 			format = left
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -2092,7 +2098,7 @@ guiTypes = {
 			name = "religion_icon"
 			position = { x = 5 y = 3 }
 			spriteType = "GFX_icon_religion"
-			scale = 0.45
+			scale = 0.35
 			alwaystransparent = yes
 		}
 
@@ -2106,6 +2112,7 @@ guiTypes = {
 			maxHeight = 24	
 			format = centre
 			fixedsize = yes
+			alwaystransparent = yes
 		}
 		
 		listboxType = 
@@ -2141,7 +2148,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "list_item_label"
-			position = { x = 18 y = 6 }
+			position = { x = 26 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			text = "0"	
@@ -2174,7 +2181,7 @@ guiTypes = {
 		iconType = {
 			name = "invalid_personality_icon"
 			spriteType = "GFX_incompatible_warning_icon"
-			position = { x=240 y=1 }
+			position = { x=10 y=1 }
 			alwaystransparent = yes
 		}
 	}
@@ -2197,9 +2204,10 @@ guiTypes = {
 
 		iconType = {
 			name = "picked_spritepack"
-			spriteType = "GFX_incompatible_warning_icon"
-			position = { x=300 y=1 }
+			spriteType = "GFX_text_yes"
+			position = { x=301 y=9 }
 			alwaystransparent = yes
+			scale = 0.7
 		}
 	}
 
@@ -2357,6 +2365,7 @@ guiTypes = {
 			spriteType = "GFX_heretics_tolerance_icon"
 			position = { x= 24 y = 2 }
 			scale = 0.5
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2366,9 +2375,11 @@ guiTypes = {
 			font = "Stellaris_Small"
 			borderSize = {x = 0 y = 0}	
 			text = ""	
-			maxWidth = 330
+			maxWidth = 275
 			maxHeight = 24
 			format = left
+			alwaystransparent = yes
+			fixedsize = yes
 		}
 	}
 }

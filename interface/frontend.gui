@@ -1984,7 +1984,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_fog"
-						position = { x = -73 y = 192 }
+						position = { x = -73 y = 190 }
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
@@ -1996,7 +1996,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_status_label"
-						position = { x = -73 y = 209 }
+						position = { x = -73 y = 207 }
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
@@ -2136,11 +2136,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "national_ideagroup_name"
-						position = { x = -102 y = 343 }
+						position = { x = -115 y = 341 }
 						font = "vic_18"
 						borderSize = {x = 5 y = 5}
 						text = "Enlish Ideas"
-						maxWidth = 210
+						maxWidth = 280
 						maxHeight = 19
 						format = left
 					}
@@ -2149,13 +2149,13 @@ guiTypes = {
 					{
 						name ="ideas_icon"
 						spriteType = "GFX_icon_ideas"
-						position = { x= 135 y = 343 }
+						position = { x= 154 y = 344 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ideas_value"
-						position = { x = 110 y = 342 }
+						position = { x = 129 y = 343 }
 						font = "vic_18"
 						borderSize = {x = 5 y = 5}
 						text = "?"
@@ -2168,57 +2168,57 @@ guiTypes = {
 					{
 						name ="national_idea1"
 						spriteType = "GFX_idea_empty"
-						position = { x= -107 y = 375 }
+						position = { x= -122 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.66
 					}
 					iconType =
 					{
 						name ="national_idea2"
 						spriteType = "GFX_idea_empty"
-						position = { x= -68 y = 375 }
+						position = { x= -78 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 					iconType =
 					{
 						name ="national_idea3"
 						spriteType = "GFX_idea_empty"
-						position = { x= -29 y = 375 }
+						position = { x= -34 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 					iconType =
 					{
 						name ="national_idea4"
 						spriteType = "GFX_idea_empty"
-						position = { x= 9 y = 375 }
+						position = { x= 9 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 					iconType =
 					{
 						name ="national_idea5"
 						spriteType = "GFX_idea_empty"
-						position = { x= 47 y = 375 }
+						position = { x= 52 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 					iconType =
 					{
 						name ="national_idea6"
 						spriteType = "GFX_idea_empty"
-						position = { x= 85 y = 375 }
+						position = { x= 95 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 					iconType =
 					{
 						name ="national_idea7"
 						spriteType = "GFX_idea_empty"
-						position = { x= 124 y = 375 }
+						position = { x= 139 y = 370 }
 						Orientation = "UPPER_LEFT"
-						scale = 0.6
+						scale = 0.65
 					}
 
 					iconType =

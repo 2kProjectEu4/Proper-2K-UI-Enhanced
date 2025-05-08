@@ -31,9 +31,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y = 96 }
+			position = { x = 18 y = 101 }
 			textureFile = ""
-			font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 5 y = 5}	
 			text = "HEADER_REFORMS"	
 			maxWidth = 615
@@ -56,7 +56,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 				name = "reforms"
-				position = { x = 93 y = 409 }
+				position = { x = 93 y = 406 }
 				size = { x = 480 y = 57 }
 				Orientation = "UPPER_LEFT"
 				format = centre
@@ -73,7 +73,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "doom_label"
-			position = { x = 237 y = 201 }
+			position = { x = 235 y = 207 }
 			textureFile = ""
 			font = "vic_29s"
 			borderSize = {x = 5 y = 5}	
@@ -85,7 +85,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "doom_value"
-			position = { x = 309 y = 251 }
+			position = { x = 307 y = 254 }
 			textureFile = ""
 			font = "vic_29s"
 			borderSize = {x = 5 y = 5}	

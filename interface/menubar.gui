@@ -192,7 +192,7 @@ guiTypes = {
 	windowType = {
 		name = "menu"
 		backGround=""
-		position = { x= -269 y = -315 }	
+		position = { x= -274 y = -315 }	
 		size = { x=567 y = 629 }
 		moveable = 0
 		dontRender = ""
@@ -1703,28 +1703,28 @@ guiTypes = {
 				
 				checkboxType = {
 					name = "msg_icons_filter_me"
-					position = { x = 14 y = 265 }
+					position = { x = 26 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_me"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_interesting"
-					position = { x = 68 y = 265 }
+					position = { x = 80 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_interesting"
 					Orientation = "UPPER_LEFT"
 				}
 				
 				checkboxType = {
 					name = "msg_icons_filter_other"
-					position = { x = 122 y = 265 }
+					position = { x = 134 y = 265 }
 					quadTextureSprite ="GFX_messages_logfilter_other"
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name = "menubar_msg_settings"
-					position = { x = 176 y = 265 }
+					position = { x = 188 y = 265 }
 					quadTextureSprite ="GFX_messages_settings"
 					Orientation = "UPPER_LEFT"
 					clicksound = click

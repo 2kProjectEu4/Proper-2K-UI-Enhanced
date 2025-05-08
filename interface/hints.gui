@@ -4,7 +4,7 @@ guiTypes =
 	{
 		name = "hints_test"
 		backGround=""
-		position = { x=-343 y=-685 }
+		position = { x=-343 y=-686 }
 		size = { x=720 y=600 }
 		moveable = 0
 		dontRender = ""
@@ -24,7 +24,7 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "hint_banner_text"
-			position = { x = 48 y = 279 }
+			position = { x = 54 y = 276 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -90,13 +90,13 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "Text_0"
-			position = { x = 18 y = 54 }
+			position = { x = 18 y = 50 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "hint text"	
 			maxWidth = 295
-			maxHeight = 198
+			maxHeight = 214
 			scrollbartype = "standardtext_slider"
 		}
 		
@@ -154,7 +154,7 @@ guiTypes =
 		
 		guiButtonType = {
 			name = "button_0"
-			position = { x=48 y =300 }
+			position = { x=50 y =300 }
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -165,7 +165,7 @@ guiTypes =
 		
 		guiButtonType = {
 			name = "button_1"
-			position = { x=48 y = 336 }
+			position = { x=50 y = 336 }
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""
@@ -176,7 +176,7 @@ guiTypes =
 		
 		guiButtonType = {
 			name = "button_2"
-			position = { x=48 y = 372 }
+			position = { x=50 y = 372 }
 			quadTextureSprite ="GFX_list_button"
 			tooltip = ""
 			tooltipText =""

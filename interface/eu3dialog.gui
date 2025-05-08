@@ -2288,7 +2288,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Header"
-			position = { x = 131 y = 156 }
+			position = { x = 131 y = 157 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2301,7 +2301,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Line1"
-			position = { x = 83 y = 161 }
+			position = { x = 64 y = 157 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -2374,7 +2374,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=93 y =528}
+			position = { x=93 y =523}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
@@ -2383,7 +2383,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=329 y =528}
+			position = { x=329 y =523}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -2394,7 +2394,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "CenterOK"
-			position = { x=264 y =528}
+			position = { x=264 y =523}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -2407,7 +2407,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "Settings"	
 			quadTextureSprite ="MessageSettingsButton"
-			position = { x=115 y=48 }
+			position = { x=110 y=43 }
 		}
 	}
 }

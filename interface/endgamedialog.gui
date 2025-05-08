@@ -591,7 +591,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 168 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_1"
@@ -610,7 +610,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 231	y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_2"
@@ -629,7 +629,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 293 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_3"
@@ -648,7 +648,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 355 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_4"
@@ -667,7 +667,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 418 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_5"
@@ -686,7 +686,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 480 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_6"
@@ -705,7 +705,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 543 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_7"
@@ -724,7 +724,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 605 y = 272 }
 			Orientation = "UPPER_LEFT"
-
+			scale = 0.63
 		}
 		instantTextBoxType = {
 			name = "idea_value_8"

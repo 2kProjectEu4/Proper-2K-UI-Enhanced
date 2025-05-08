@@ -38,7 +38,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "name"
-			maxWidth = 240
+			maxWidth = 168
 			maxHeight = 18
 			format = left
 			fixedsize = yes

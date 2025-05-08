@@ -3,7 +3,7 @@ guiTypes = {
 	windowType = {
 		name ="hre_vote_box"
 		backGround="hre_vote_box"
-		position = { x= 1800 y =290 }	
+		position = { x= 1795 y =290 }	
 		size = { x=396 y =480 }
 		moveable = 1
 		dontRender = ""
@@ -24,7 +24,7 @@ guiTypes = {
 		
 		textBoxType = {
 			name = "hre_vote_label"
-			position = { x = 0 y = 39 }
+			position = { x = -5 y = 39 }
 
 			textureFile = ""
 			font = "vic_22s"
@@ -38,7 +38,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "sortby_nation_button"
-			position = { x=45 y =84 }
+			position = { x=44 y =84 }
 			quadTextureSprite ="GFX_sort_107"	
 			tooltip = ""
 			tooltipText =""
@@ -50,7 +50,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sortby_relation_button"
-			position = { x=171 y =84 }
+			position = { x=172 y =84 }
 			quadTextureSprite ="GFX_sort_107"	
 			tooltip = ""
 			tooltipText =""
@@ -73,7 +73,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "cancel"
-			position = { x = 85 y = 426 }
+			position = { x = 85 y = 428 }
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -110,7 +110,7 @@ guiTypes = {
 			position = { x = 39 y =9 }
 			format = left
 			font = "vic_18"
-			maxWidth = 161
+			maxWidth = 136
 			maxHeight = 39	
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
@@ -118,8 +118,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 177 y =9 }
-			format = left
+			position = { x = 137 y =9 }
+			format = right
 			font = "vic_18"
 			maxWidth = 77
 			maxHeight = 39	

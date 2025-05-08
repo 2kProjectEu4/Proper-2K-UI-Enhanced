@@ -395,6 +395,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 0 y = 23 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.63
 		}	
 		
 		
@@ -668,6 +669,7 @@ guiTypes = {
 			position = { x= 11 y = 13 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
+			scale = 0.63
 		}		
 		
 		iconType =
@@ -702,12 +704,12 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 				name = "ideas"
-				position = { x = 137 y = 78 }
+				position = { x = 135 y = 78 }
 				size = { x = 288 y = 96 }
 				Orientation = "UPPER_LEFT"
 				format = left
-				spacing = 9
-		}		
+				spacing = 10
+		}			
 	}	
 	
 	################################################################################################
