@@ -123,7 +123,7 @@ guiTypes = {
 		{
 			name ="religious_school_icon"
 			spriteType = "GFX_icon_religion_small"
-			position = { x= 132 y = 171 }
+			position = { x= 128 y = 171 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			hint_tag = "hint_religion"
@@ -132,12 +132,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_nation"
-			position = { x = 159 y = 147 }
+			position = { x = 154 y = 147 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
 			text = "PW_NATION_NAMES"
-			maxWidth = 220
+			maxWidth = 160
 			maxHeight = 39
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
@@ -155,12 +155,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_fog"
-			position = { x = 159 y = 174 }
+			position = { x = 154 y = 174 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "PW_FOG"
-			maxWidth = 204
+			maxWidth = 160
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
