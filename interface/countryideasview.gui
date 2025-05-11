@@ -666,10 +666,10 @@ guiTypes = {
 		{
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
-			position = { x= 11 y = 13 }
+			position = { x= 3 y = -1 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
-			scale = 0.63
+			scale = 0.78
 		}		
 		
 		iconType =
