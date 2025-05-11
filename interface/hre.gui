@@ -373,7 +373,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "imperialauthority_label"
-			position = { x = 113 y = 265 }
+			position = { x = 111 y = 265 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
@@ -385,27 +385,27 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 129 y = 283 }
+			position = { x = 118 y = 283 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
 			maxWidth = 60
 			maxHeight = 39
-			format = left
+			format = center
 			hint_tag = "hint_imperialauthority"
 		}
 
 		instantTextBoxType = {
 			name = "influence_growth"
-			position = { x = 164 y = 283 }
+			position = { x = 193 y = 283 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "+0.20"
-			maxWidth = 84
+			maxWidth = 60
 			maxHeight = 39
-			format = right
+			format = center
 			hint_tag = "hint_imperialauthority"
 		}
 
