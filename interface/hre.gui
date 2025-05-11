@@ -4,7 +4,7 @@ guiTypes = {
 		name = "hre_window"
 		position = { x=-552 y=-480}
 		size = { x=900 y=900 }
-		backGround = ""
+		backGround = "hre_bg1"
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
@@ -13,14 +13,7 @@ guiTypes = {
 		Orientation = "CENTER"
 		upsound = hre
 		downsound = ""
-		
-		iconType =
-		{
-			name ="hre_bg1"
-			spriteType = "GFX_hre_header_bg"
-			position = { x= 0 y = 0 }
-		}
-		
+
 		iconType =
 		{
 			name ="hre_bg_extended"
@@ -35,7 +28,12 @@ guiTypes = {
 			position = { x= 0 y = 85 }
 		}
 		
-		
+		guiButtonType =
+		{
+			name ="hre_bg1"
+			spriteType = "GFX_hre_header_bg"
+			position = { x= 0 y = 0 }
+		}
 
 		guiButtonType = {
 			name = "join_league_button"
@@ -620,7 +618,7 @@ guiTypes = {
 			name = "hre_members"
 			position = { x=48 y =769 }
 			backGround=""
-			size = { x=670 y=219 }
+			size = { x=675 y=219 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -1054,7 +1052,7 @@ guiTypes = {
 		gridBoxType = {
 			name = "gridbox"
 			position = { x = 5 y = 0 }
-			size = { width = 300 height = 264 }
+			size = { width = 305 height = 264 }
 			slotsize = { width = 39 height = 43 }
 			max_slots_horizontal = 17
 			format = "UPPER_LEFT"

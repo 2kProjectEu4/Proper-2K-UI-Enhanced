@@ -354,7 +354,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 523
-			maxHeight = 135
+			maxHeight = 125
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
@@ -369,10 +369,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
-
 		}
 	}
-
-
-
 }
