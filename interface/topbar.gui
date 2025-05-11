@@ -711,14 +711,14 @@ guiTypes = {
 			iconType ={
 				name ="pause_banner"
 				spriteType = "GFX_pause_banner"
-				position = { x = 0 y = -18 }
+				position = { x = 12 y = -18 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			#Needs localisation change
 			instantTextBoxType = {
 				name = "pause_banner_text"
-				position = { x = 168 y = 11 }
+				position = { x = 179 y = 10 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
