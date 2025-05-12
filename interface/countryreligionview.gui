@@ -2936,7 +2936,7 @@ guiTypes = {
 			maxWidth = 120
 			maxHeight = 19
 			Orientation = "UPPER_LEFT"
-			format = left^
+			format = left
 		}
 
 		instantTextBoxType = {
