@@ -137,11 +137,12 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
 			text = "PW_NATION_NAMES"
-			maxWidth = 160
+			maxWidth = 170
 			maxHeight = 39
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 
 
@@ -160,10 +161,11 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "PW_FOG"
-			maxWidth = 160
+			maxWidth = 170
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 
 		########## Foreign opinion block
