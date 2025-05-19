@@ -222,22 +222,8 @@ guiTypes = {
 			name = "golden_age"
 			quadTextureSprite ="GFX_age_golden_age_button"
 			position = { x = 350 y = 251 }
-			buttonText = ""
+			buttonText = "START_GOLDEN_AGE"
 			buttonFont = "vic_18"
-		}
-		#c Add golden_age button text for align
-		instantTextBoxType = {
-			name = "golden_age_text"
-			position = { x = 373 y = 261 }
-			text = "START_GOLDEN_AGE"
-			font = "vic_22"
-			borderSize = {x = 0 y = 0}
-			#c maxWidth = 396
-			maxWidth = 293
-			maxHeight = 36
-			format = center
-			fixedsize = yes
-			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -256,7 +242,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "in_or_after_golden_age_text"
-			#c position = { x = 149 y =161 }
 			position = { x = 315 y = 245 }
 			font = "vic_22s"
 			borderSize = {x = 5 y = 5}
