@@ -329,7 +329,7 @@ guiTypes = {
 		windowType = {
 			name = "new_policy_window"
 			position = { x=-9 y=-11 }	
-			size = { x=360 y=480 }
+			size = { x=466 y=480 }
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 		
@@ -342,7 +342,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x=409 y =54}
+				position = { x=482 y =54}
 				name = "policy_title"
 				font = "vic_29"
 				borderSize = {x = 0 y = 0}	
@@ -378,7 +378,7 @@ guiTypes = {
 			}				
 
 			instantTextBoxType= {
-				position = { x=427 y =96}
+				position = { x=495 y =96}
 				name = "dip_title"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -390,7 +390,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType= {
-				position = { x=696 y =96}
+				position = { x=764 y =96}
 				name = "dip_count"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -402,7 +402,7 @@ guiTypes = {
 			}		
 
 			instantTextBoxType= {
-				position = { x=814 y =96}
+				position = { x=936 y =96}
 				name = "mil_title"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -414,7 +414,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType= {
-				position = { x=1068 y =96}
+				position = { x=1190 y =96}
 				name = "mil_count"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
@@ -436,14 +436,14 @@ guiTypes = {
 			{
 				name ="dip_cost"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x= 488 y = 89 }
+				position = { x= 556 y = 89 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType =
 			{
 				name ="mil_cost"
 				spriteType = "GFX_icon_powers_military"
-				position = { x= 890 y = 89 }
+				position = { x= 1002 y = 89 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -455,16 +455,16 @@ guiTypes = {
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=382 y=936 }
+					size = { x=428 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -475,20 +475,20 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="dip_list"
-				position = { x = 411 y = 138 }
+				position = { x = 457 y = 138 }
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=382 y=936 }
+					size = { x=428 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -499,20 +499,20 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="mil_list"
-				position = { x = 798 y = 138 }
+				position = { x = 893 y = 138 }
 				backGround=""
 				if_resolution = {
 					max_height = 899
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					size = { x=382 y=600 }
+					size = { x=428 y=600 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x=382 y=936 }
+					size = { x=428 y=936 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -522,7 +522,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = { x = 15 y = 138 }
+				position = { x = 84 y = 138 }
 				name = "no_policy_explanation"
 				borderSize = {x = 0 y = 0 }	
 				maxWidth = 840
@@ -536,16 +536,16 @@ guiTypes = {
 				name = "back"
 				if_resolution = {
 					max_height = 899
-					position = { x= 540 y = 720 }
+					position = { x= 637 y = 720 }
 				}
 				if_resolution = {
 					max_height = 1079
 					min_height = 900
-					position = { x= 540 y = 720 }
+					position = { x= 637 y = 720 }
 				}
 				if_resolution = {
 					min_height = 1080
-				position = { x= 540 y = 1059 }
+				position = { x= 637 y = 1059 }
 				}
 				quadTextureSprite ="GFX_standard_button_71"	
 				buttonText = "BACK"
@@ -821,7 +821,7 @@ guiTypes = {
 		name = "countrydecisionsview_pickpolicy"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=29 y=84 }
+		size = { x=75 y=84 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -838,7 +838,7 @@ guiTypes = {
 		{
 			name ="policy_icon"
 			spriteType = "GFX_idea_empty"
-			position = { x= 319 y = 1 }
+			position = { x= 365 y = 1 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes		
 		}
@@ -860,7 +860,7 @@ guiTypes = {
 			name = "effect"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 315
+			maxWidth = 350
 			maxHeight = 45
 			text = ""	
 			orientation = "UPPER_LEFT"

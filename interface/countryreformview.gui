@@ -118,7 +118,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reform_progress_label"
-			position = { x=-3 y=349 }
+			position = { x=-3 y=348 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
