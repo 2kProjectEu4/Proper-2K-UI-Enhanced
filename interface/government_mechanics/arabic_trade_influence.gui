@@ -42,7 +42,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM" #placeholder so we don't get an assert - you have to set something - but this will be overridden by the interaction's icon
-			position = { x = 17 y = 0  }
+			position = { x = 20 y = 0  }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -92,7 +92,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM" #placeholder so we don't get an assert - you have to set something - but this will be overridden by the interaction's icon
-			position = { x = 66 y = 0 }
+			position = { x = 67 y = 0 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""

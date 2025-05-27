@@ -741,11 +741,11 @@ guiTypes = {
 		backGround=""
 		if_resolution = {
         	max_height = 749
-			position = { x=544 y=273 }
+			position = { x=24 y=276 }
         }
 		if_resolution = {
         	min_height = 750
-			position = { x=544 y=312 }
+			position = { x=24 y=312 }
         }
 		size = { x=480 y=120 }
 
@@ -759,7 +759,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "title"
-				position = { x = 201 y = 87 }
+				position = { x = 202 y = 94 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "SUPPRESSED_AREAS"
@@ -770,7 +770,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "click_map_text"
-				position = { x = 90 y = 324 }
+				position = { x = 90 y = 470 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "CLICK_MAP_TO_ADD_AREAS"
@@ -783,9 +783,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="arealist"
-			position = { x = 96 y = 123 }
+			position = { x = 96 y = 135 }
 			backGround=""
-			size = { x=396  y =395 }
+			size = { x=396  y =744 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 3
@@ -795,7 +795,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "accept_button"
-				position = { x=315 y=528 }
+				position = { x=317 y=890 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "LEDGER_CLOSE"
 				buttonFont = "vic_18"
@@ -806,7 +806,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "cancel_button"
-				position = { x=88 y=528 }
+				position = { x=88 y=890 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "STOP_MISSION"
 				buttonFont = "vic_18"
@@ -873,7 +873,7 @@ guiTypes = {
         }
 		if_resolution = {
         	min_height = 750
-			position = { x=544 y=312 }
+			position = { x=24 y=312 }
         }
 		size = { x=480 y=120 }
 
@@ -887,7 +887,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "title"
-				position = { x = 145 y = 87 }
+				position = { x = 148 y = 94 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "CARPET_SIEGE_AREAS"
@@ -898,7 +898,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "click_map_text"
-				position = { x = 90 y = 324 }
+				position = { x = 90 y = 470 }
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}
 				text = "CLICK_MAP_TO_ADD_CARPETSIEGE_AREAS"
@@ -911,9 +911,9 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="arealist"
-			position = { x = 96 y = 123 }
+			position = { x = 96 y = 135 }
 			backGround=""
-			size = { x=396  y =395 }
+			size = { x=396  y =744  }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 3
@@ -923,7 +923,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "accept_button"
-				position = { x=315 y=528 }
+				position = { x=317 y=890 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "LEDGER_CLOSE"
 				buttonFont = "vic_18"
@@ -933,7 +933,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "cancel_button"
-				position = { x=88 y=528 }
+				position = { x=88 y=890 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "STOP_MISSION"
 				buttonFont = "vic_18"
