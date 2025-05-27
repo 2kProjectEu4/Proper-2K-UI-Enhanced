@@ -801,7 +801,6 @@ guiTypes = {
 				buttonFont = "vic_18"
 				clicksound = back_click
 				shortcut = "RETURN"
-				extra_shortcut = "c" #Arumba
 		}
 
 		guiButtonType = {
@@ -812,7 +811,6 @@ guiTypes = {
 				buttonFont = "vic_18"
 				clicksound = back_click
 				shortcut = "ESCAPE"
-				extra_shortcut = "z" #Arumba
 		}
 	}
 
