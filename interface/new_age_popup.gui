@@ -2,7 +2,7 @@ guiTypes = {
 	windowType = {
 		name = "new_age_popup"
 		backGround=""	
-		position = { x = -307 y = -343 }	
+		position = { x = -360 y = -400 }	
 		size = { x = 615 y = 615 }
 		moveable = 0
 		dontRender = ""
@@ -66,6 +66,7 @@ guiTypes = {
 			position = { x= 260 y = 646 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
 		}
 		
 		listboxType = 
@@ -73,10 +74,10 @@ guiTypes = {
 			name ="objectives"
 			position = { x = 115 y = 378 }
 			backGround=""
-			size = { x=720 y =720}
+			size = { x=480 y=72}
 			Orientation = "UPPER_LEFT"
 			spacing = 0
-			scrollbartype = "standardlistbox_slider"
+			scrollbartype = "objectives_popup_slider"
 			borderSize = {x = 0 y = 0}
 			horizontal = 1
 			alwaystransparent = yes

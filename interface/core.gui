@@ -382,5 +382,50 @@ guiTypes = {
 			position = { x= 0 y = 0}	
 		}
 	}
+
+	scrollbarType = {
+		name = "objectives_popup_slider"	
+		slider = "SliderButton"
+		track= "TrackButton"
+		leftbutton = "upButton"
+		rightbutton = "downButton"
+		size = {x =618 y =72 }
+		position = {x= -556 y = 5}
+				
+		borderSize = {x =15 y = 15}	
+		maxValue = 1
+		minValue = 0
+		stepSize = 2
+		startValue = 1
+		horizontal = 1
+		scroll_speed = 1
+
+		guiButtonType = {
+			name = "SliderButton"	
+			quadTextureSprite = "slider_noslider"
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "TrackButton"
+			quadTextureSprite = "GFX_ages_scroll_bg"
+			position = { x=0 y =0}
+
+		}	
+
+		guiButtonType = {
+			parent = "SliderButton"
+			name = "upButton"
+			quadTextureSprite = "GFX_scroll_left_ages"
+			position = { x= 0 y = 0}	
+		}
+		
+		guiButtonType = {
+			parent = "SliderButton"
+			name = "downButton"
+			quadTextureSprite = "GFX_scroll_right_ages"
+			position = { x= 0 y = 0}	
+		}
+	}
 		
 }

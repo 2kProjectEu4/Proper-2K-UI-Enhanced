@@ -4748,7 +4748,7 @@ guiTypes = {
 		name = "great_project_entry"
 		backGround=""
 		position = { x=6 y=0 }
-		size = { x=360 y=180 }
+		size = { x=360 y=185 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""

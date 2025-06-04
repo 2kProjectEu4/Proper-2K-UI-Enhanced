@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_p2kuie_age_objective"
+		texturefile = "gfx//interface//ages//p2kuie_age_objective.dds"
+	}
+
+	spriteType = {
 		name = "GFX_macrobuild_entry_frame_540"
 		texturefile = "gfx//interface//macrobuild_entry_frame_540.dds"
 	}
