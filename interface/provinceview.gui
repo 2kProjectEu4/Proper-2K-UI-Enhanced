@@ -1356,7 +1356,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "occupied_by"
-				position = { x = 362 y = 273}
+				position = { x = 362 y = 270}
 				textureFile = ""
 				font = "Stellaris_Small"
 				borderSize = {x = 3 y = 3}
@@ -1370,7 +1370,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="transfer_occupation_button"
-				position = { x= 372 y = 294 }
+				position = { x= 381 y = 289 }
 				quadTextureSprite ="GFX_transfer_occupation_button"
 				tooltip = ""
 				tooltipText =""
@@ -1383,7 +1383,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name ="occupied_by_shield"
-				position = { x= 444 y = 300 }
+				position = { x= 450 y = 293 }
 				quadTextureSprite = "GFX_shield_small"
 				tooltip = ""
 				tooltipText =""
