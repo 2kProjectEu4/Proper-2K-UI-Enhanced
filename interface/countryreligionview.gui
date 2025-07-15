@@ -46,6 +46,7 @@ guiTypes = {
 			maxWidth = 162
 			maxHeight = 39
 			format = left
+			fixedsize = yes
 		}
 
 		instantTextBoxType = {
@@ -287,8 +288,8 @@ guiTypes = {
 			# This background will be hidden beneath religionpanel_bg_bottom
 			# in the smallest resolution in most cases (but not harmonization view for example)
 			name ="religionpanel_bg_top"
-			spriteType = "GFX_country_religion_view_bg_huge"
-			position = { x= -9 y = -12 }
+			spriteType = "GFX_country_religion_view_bg_no_shadow"
+			position = { x= -10 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 
