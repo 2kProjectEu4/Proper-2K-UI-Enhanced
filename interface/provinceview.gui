@@ -1428,7 +1428,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
 				text = "LEDGER_MANPOWER"
-				maxWidth = 153
+				maxWidth = 110
 				maxHeight = 24
 				format = left
 				fixedsize = yes
@@ -1453,7 +1453,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 3 y = 3}
 				text = "SUPPLY_LIMIT"
-				maxWidth = 153
+				maxWidth = 110
 				maxHeight = 24
 				format = left
 				fixedsize = yes
