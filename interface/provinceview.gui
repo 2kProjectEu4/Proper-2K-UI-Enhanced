@@ -6857,7 +6857,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 3 y = 3}
 			text = "Culturesname"
-			maxWidth = 99
+			maxWidth = 110
 			maxHeight = 19
 			format = left
 			fixedsize = yes
