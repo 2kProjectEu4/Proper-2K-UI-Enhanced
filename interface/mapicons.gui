@@ -30,6 +30,7 @@ guiTypes = {
 				name ="money"
 				spriteType = "GFX_icon_font_gold"
 				position = { x= 118 y = 32 }
+				alwaystransparent = yes
 			}
 			
 			iconType = {

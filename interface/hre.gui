@@ -2,7 +2,7 @@ guiTypes = {
 
 	windowType = {
 		name = "hre_window"
-		position = { x=-552 y=-480}
+		position = { x=-552 y=-490}
 		size = { x=900 y=900 }
 		backGround = "hre_bg1"
 		moveable = 1

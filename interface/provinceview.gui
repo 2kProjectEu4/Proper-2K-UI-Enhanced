@@ -2189,13 +2189,13 @@ guiTypes = {
 				{
 					name ="government_type_icon"
 					spriteType = "GFX_government_type_icon"
-					position = { x= 165 y = 29 }
+					position = { x= 175 y = 29 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "opinion_box"
-					position = { x = 113 y = 31 }
+					position = { x = 123 y = 31 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}
@@ -2217,20 +2217,20 @@ guiTypes = {
 				{
 					name ="miltech_icon"
 					spriteType = "GFX_icon_powers_military_tech"
-					position = { x= 210 y = 32 }
+					position = { x= 215 y = 32 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "miltech_value"
-					position = { x = 243 y = 31 }
+					position = { x = 235 y = 31 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 5 y = 5}
 					text = "?"
 					maxWidth = 39
 					maxHeight = 19
-					format = left
+					format = center
 				}
 
 				OverlappingElementsBoxType = {
