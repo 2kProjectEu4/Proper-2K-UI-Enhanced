@@ -463,13 +463,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_provinceview_bg_state"
-		texturefile = "gfx/interface/provinceview_bg_state.dds"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
-	
-	spriteType = {
 		name = "GFX_provinceview_bg_foreign_large_state"
 		texturefile = "gfx/interface/provinceview_bg_foreign_large_state.dds"
 		loadType = "INGAME"

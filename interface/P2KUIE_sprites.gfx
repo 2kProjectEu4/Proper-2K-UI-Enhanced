@@ -126,6 +126,10 @@ spriteTypes = {
 		name = "GFX_banner_yellow_338"
 		texturefile = "gfx//interface//P2KUIE_sprites//banner_yellow_338.dds"
 	}
+	spriteType = {
+		name = "GFX_banner_both_3_red"
+		texturefile = "gfx//interface//P2KUIE_sprites//banner_both_3_red.dds"
+	}
 
 	spriteType = {
 		name = "GFX_p2kuie_empty_image"
