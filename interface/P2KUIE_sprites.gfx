@@ -235,6 +235,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/army_professionalism/exploration_navy_bg.dds"
 	}
 	
+	spriteType = {
+		name = "onmap_builing_bg1_P2KUIE"
+		texturefile = "gfx//interface//P2KUIE_sprites//building_improvement_onmap_bg1_P2KUIE.dds"
+		alwaystransparent = yes
+	}
+	
 	################### HRE
 	spriteType = {
 		name = "GFX_hre_header_bg"	

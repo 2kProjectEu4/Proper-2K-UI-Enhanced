@@ -1361,7 +1361,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "nativetribe_value"
-				position = { x = 46 y = 128 }
+				position = { x = 55 y = 156 }
 				format = right
 				font = "vic_22"
 				text = "~"
@@ -1381,7 +1381,7 @@ guiTypes = {
 			{
 				name ="native_icon"
 				spriteType = "GFX_icon_legitimacy"
-				position = { x= 22 y = 126 }
+				position = { x= 27 y = 151 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 				if_resolution = {
