@@ -486,11 +486,11 @@ guiTypes = {
 				hint_tag = "hint_leader"
 			}
 
-		iconType =
-		{
+			iconType =
+			{
 				name ="unit_destination"
 				spriteType = "GFX_icon_unit_destination"
-				position = { x= 156 y = 126 }
+				position = { x= 190 y = 126 }
 				Orientation = "UPPER_LEFT"
 				frame = 2
 			}
@@ -502,11 +502,9 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 110
+				maxWidth = 130
 				maxHeight = 19
-
 				fixedsize = yes
-
 				format = left
 			}
 

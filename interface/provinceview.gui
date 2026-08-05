@@ -654,6 +654,7 @@ guiTypes = {
 				buttonText = ""
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
+				shortcut = "j"
 			}
 
 			guiButtonType =
@@ -699,6 +700,7 @@ guiTypes = {
 				buttonText = ""
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
+				shortcut = "k"
 			}
 
 			guiButtonType =
