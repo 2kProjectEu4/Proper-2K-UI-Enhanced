@@ -811,6 +811,21 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
+		name = "vic_16"
+		path = "gfx/fonts/cg_14b" 
+		color = 0xfff2f4f7
+
+		textcolors = {
+			G = { 90 198 63 }
+			W = { 255 255 255 }
+			b = { 255 255 255 }
+			B = { 255 255 255 }
+			R = { 226 68 63 }
+			Y = { 252 218 80 } #cc Y = { 0 0 0 }
+		}
+	}
+
+	bitmapfont = {
 		name = "vic_18_black"
 		path = "gfx/fonts/cg_15bl"	#path = "gfx/fonts/vic_18"
 		color = 0xff000000	
