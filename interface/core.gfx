@@ -839,7 +839,7 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_18_black_event"
-		path = "gfx/fonts/vic_18"	#path = "gfx/fonts/vic_18"
+		path = "gfx/fonts/cg_16b"	#path = "gfx/fonts/vic_18"
 		color = 0xff000000	
 
 		textcolors = {
@@ -1081,7 +1081,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "null_font"
-		path = "gfx/fonts/vic_18"
+		path = "gfx/fonts/cg_16b"
 		color = 0xffffffff
 				
 		textcolors = {
