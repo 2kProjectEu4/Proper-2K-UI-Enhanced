@@ -15,19 +15,19 @@
 [h3]Alternative downloads:  [/h3]
 [list]
     [*] [url=https://mods.paradoxplaza.com/mods/85612/Any]Paradox Mods[/url].
-    [*] [url=https://github.com/2kProjectEu4/Proper-2K-UI-Enhanced]Github[/url]. (If you would like to help the project)
 [/list]
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 [h3][b]Mod extensions:[/b][/h3]
 [list]
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455][b]Chinese Mod - 2K UI Project Enhanced[/b][/url].
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311452878][b]Proper 2K UI - Anbennar[/b][/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3301109455][b]P2KE Patch - Chinese Language Mod[/b][/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3777997797][b]P2KE Patch - Anbennar[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3344750825][b]P2KE Patch - Extended Timeline[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3348270748][b]P2KE Patch - Ante Bellum[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3361534855][b]P2KE Patch - Europa Expanded[/b][/url].
     [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3427292202][b]P2KE Patch - Voltaire's Nightmare[/b][/url].
+    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668075549][b]P2KE Patch - MEIOU and Taxes[/b][/url].
     [*] ✨✨[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325833509][b]P2KE Submods and Patches[/b][/url]✨✨.
-    [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341805317][b]Expanded Family Collection (P2KE Submods by Lichark)[/b][/url].
+    [*] [url=https://steamcommunity.com/workshop/filedetails/?id=3491375193][b]P2KE Submods - Expanded Mod Family[/b][/url].
 [/list]
 [h3][b]Integrated mods[/b] (Many thanks to the creators of these amazing mods!):[/h3]
 [list]
@@ -45,6 +45,20 @@
 [b]TL;DR:[/b] No, I don't see myself doing this.
 [b]Long explanation:[/b] All the improvements I've made to this mod were done by playing the game, noting down everything that wasn't optimal, and eventually fixing them in my free time. There's no automation for this; everything was done manually. So even if I were to scale up the current version to 4K, there would still be a lot of work involved, and I can't invest my free time in doing it. 
 [b]Later edit:[/b] You might want to try using this mod along with the game’s GUI scaling feature and adjust the scaling to a value between 1.2 and 1.3. It’s not a perfect solution, but it could help improve the overall experience.
+[img]https://i.imgur.com/Uf8Z21n.png[/img]
+[h3][b]Does it work with 1920x1080 displays?[/b][/h3]
+[b]Not by default[/b]
+[b]Here are the steps to make it work (For NVIDIA):[/b]
+[olist]
+    [*] Open NVIDIA Control Panel.
+    [*] Expand "Manage 3D Settings" and click on "Manage 3D Settings".
+    [*] Under the Global Settings tab, scroll down to "DSR-Factors".
+    [*] Check the box for [b]1.78x (2560x1440)[/b] and if not already selected "DSR-Smoothness" for [b]33%[/b].
+    [*] Now right-click your desktop and select "Display Settings".
+    [*] Under Display resolution, select 2560 x 1440 (2K).
+[/olist]
+[h3]Shout-out to 柏木由紀 for suggesting this idea in the comments![/h3]
+
 [img]https://i.imgur.com/Uf8Z21n.png[/img]
 
 💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥
