@@ -1,10 +1,4 @@
-![Proper 2K UI Enhanced](https://i.imgur.com/hfUfFW1.png)
-
 # Proper 2K UI Enhanced
-
-**Ironman compatible and eligible for achievements.**
-
-![Proper 2K UI Enhanced preview](https://i.imgur.com/Uf8Z21n.png)
 
 ## Overview
 
@@ -21,6 +15,8 @@ Contributions from **Xyarvius** and the author include:
 See the [changelog](https://1drv.ms/w/c/7b95816d69498287/EWJO_WJBv4hMvEyQ4CBhL8wBQ7eopdgw_ipZZkrFRs4-Dw?e=IFWDwT) for a detailed list of changes.
 
 This is a standalone mod. You do not need to download the original version.
+
+**Ironman compatible and eligible for achievements.**
 
 ## Downloads
 
