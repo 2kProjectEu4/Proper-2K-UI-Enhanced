@@ -221,11 +221,11 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = {x = 353 y = 49 }
+			position = {x = 323 y = 49 }
 			name = "nameofwar"
 			font = "vic_22"
 			borderSize = {x = 10 y = 0}
-			maxWidth = 460
+			maxWidth = 520
 			maxHeight = 22
 			text = "GOTO_LIST_BOX"
 			orientation = "UPPER_LEFT"

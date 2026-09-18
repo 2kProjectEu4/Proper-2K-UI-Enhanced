@@ -170,7 +170,7 @@ guiTypes = {
 			{
 				name ="embrace_button"
 				quadTextureSprite= "GFX_standard_button_105"
-				position = { x = 455 y = 370 }
+				position = { x = 455 y = 470 }
 				Orientation = "UPPER_LEFT"
 				buttonText = "BUTTON_EMBRACE"
 				buttonFont = "vic_18"
@@ -205,30 +205,30 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
-				maxWidth = 348
-				maxHeight = 39
+				maxWidth = 540
+				maxHeight = 170
 				format = left
 			}
 			
 			iconType = {
 				name = "country_progress"
 				spriteType = "GFX_institution_progress"
-				position = { x = 44 y = 377 }
+				position = { x = 44 y = 477 }
 			}
 			
 			iconType = {
 				name = "country_progress_frame"
 				spriteType = "GFX_institution_progress_frame"
-				position = { x = 28 y = 372 }
+				position = { x = 28 y = 472 }
 			}			
 			
 			instantTextBoxType = {
 				name = "country_progress_label"
-				position = { x = 26 y = 341 }
+				position = { x = 26 y = 441 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
-				maxWidth = 240
+				maxWidth = 390
 				maxHeight = 31
 				format = left
 				fixedsize = yes
@@ -265,7 +265,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "embrace_cost"
-				position = { x = 168 y = 372 }
+				position = { x = 168 y = 472 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 5}	
